@@ -1,29 +1,60 @@
+import ScrollProgress from "./components/ScrollProgress";
 import Nav from "./components/Nav";
-import Hero from "./components/Hero";
-import Bridge from "./components/Bridge";
-import WhatWeOwn from "./components/WhatWeOwn";
-import HowItHolds from "./components/HowItHolds";
-import Receipts from "./components/Receipts";
-import Testimonials from "./components/Testimonials";
-import LeadMagnet from "./components/LeadMagnet";
+import HeroCine from "./components/HeroCine";
+import MarqueeSection from "./components/MarqueeSection";
+import Creds from "./components/Creds";
+import Thesis from "./components/Thesis";
+import Gallery from "./components/Gallery";
+import Benefits from "./components/Benefits";
+import Services from "./components/Services";
+import Products from "./components/Products";
+import Stack from "./components/Stack";
+import Report from "./components/Report";
+import Plan from "./components/Plan";
+import Signals from "./components/Signals";
+import WorkScroll from "./components/WorkScroll";
+import Results from "./components/Results";
+import Values from "./components/Values";
+import Team from "./components/Team";
+import Impact from "./components/Impact";
+import Faq from "./components/Faq";
+import Proof from "./components/Proof";
+import Insights from "./components/Insights";
+import Fit from "./components/Fit";
+import Cta from "./components/Cta";
 import Footer from "./components/Footer";
-import Reveal from "./components/Reveal";
+import SiteEffects from "./components/SiteEffects";
 
+/* Section order matches the original single-file site exactly. */
 export default function Home() {
   return (
     <>
+      <ScrollProgress />
       <Nav />
-      <main>
-        <Hero />
-        <Bridge />
-        <WhatWeOwn />
-        <HowItHolds />
-        <Receipts />
-        <Testimonials />
-        <LeadMagnet />
-      </main>
+      <HeroCine />
+      <MarqueeSection />
+      <Creds />
+      <Thesis />
+      <Gallery />
+      <Benefits />
+      <Services />
+      <Products />
+      <Stack />
+      <Report />
+      <Plan />
+      <Signals />
+      <WorkScroll />
+      <Results />
+      <Values />
+      <Team />
+      <Impact />
+      <Faq />
+      <Proof />
+      <Insights />
+      <Fit />
+      <Cta />
       <Footer />
-      <Reveal />
+      <SiteEffects />
     </>
   );
 }

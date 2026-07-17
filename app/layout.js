@@ -1,36 +1,36 @@
 import { Bricolage_Grotesque, Instrument_Sans, Spline_Sans_Mono } from "next/font/google";
 import "./globals.css";
 
-/* Typefaces come from the original site's design system. next/font
-   self-hosts and preloads each, then exposes it as a CSS custom property
-   on <html>, which globals.css consumes via var(). */
-const display = Bricolage_Grotesque({
-  variable: "--font-display",
+/* The original loaded these from the Google Fonts CDN. next/font self-hosts
+   and preloads them instead, then exposes each as a custom property that the
+   --font-display / --font-body / --font-mono design tokens point at. */
+const bricolage = Bricolage_Grotesque({
+  variable: "--font-bricolage",
   subsets: ["latin"],
   display: "swap",
 });
 
-const body = Instrument_Sans({
-  variable: "--font-body",
+const instrument = Instrument_Sans({
+  variable: "--font-instrument",
   subsets: ["latin"],
   display: "swap",
 });
 
-const mono = Spline_Sans_Mono({
-  variable: "--font-mono",
+const spline = Spline_Sans_Mono({
+  variable: "--font-spline",
   subsets: ["latin"],
   display: "swap",
 });
 
 export const metadata = {
-  title: "MAAI — Organic growth. Owned.",
+  title: "MAAI — Organic Growth That Compounds",
   description:
-    "An SEO agency built for global B2B companies who want a growth channel worth defending to the board.",
+    "MAAI is an organic growth agency. Platforms change — Google yesterday, LLMs today. Organic growth stays. We take business accountability.",
 };
 
-/* Runs before first paint so the correct theme is on <html> immediately —
-   otherwise the dark default would flash for a light-theme user.
-   Mirrors the toggle in app/components/ThemeToggle.js. */
+/* Runs before first paint so the right theme is on <html> immediately —
+   otherwise the dark default flashes for light-theme users. The toggle
+   itself lives in SiteEffects. */
 const themeScript = `
 (function () {
   try {
@@ -50,7 +50,7 @@ export default function RootLayout({ children }) {
     <html
       lang="en"
       suppressHydrationWarning
-      className={`${display.variable} ${body.variable} ${mono.variable}`}
+      className={`${bricolage.variable} ${instrument.variable} ${spline.variable}`}
     >
       <head>
         <script dangerouslySetInnerHTML={{ __html: themeScript }} />
