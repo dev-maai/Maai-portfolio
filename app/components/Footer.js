@@ -1,3 +1,5 @@
+import { Monogram } from "./Brand";
+
 export default function Footer() {
   return (
     <>
@@ -5,8 +7,12 @@ export default function Footer() {
         <div className="wrap">
           <div className="footer-grid">
             <div>
-              <div className="logo">MA<span style={{ color: "var(--amber)" }}>A</span>I</div>
+              <div className="footer-brand">
+                <Monogram size={40} />
+                <div className="logo">ma<span className="ai">ai</span></div>
+              </div>
               <p style={{ maxWidth: "34ch" }}>Organic growth, wherever attention lives. Accountable to your business, not just your rankings.</p>
+              <p className="serif-voice" style={{ marginTop: "14px", fontSize: "17px" }}>Because every ranking is a person deciding something.</p>
             </div>
             <div>
               <h4>Company</h4>

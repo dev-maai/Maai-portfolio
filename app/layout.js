@@ -1,31 +1,42 @@
-import { Bricolage_Grotesque, Instrument_Sans, Spline_Sans_Mono } from "next/font/google";
+import { Sora, Inter, Space_Mono, Fraunces } from "next/font/google";
 import "./globals.css";
 
-/* The original loaded these from the Google Fonts CDN. next/font self-hosts
-   and preloads them instead, then exposes each as a custom property that the
-   --font-display / --font-body / --font-mono design tokens point at. */
-const bricolage = Bricolage_Grotesque({
-  variable: "--font-bricolage",
+/* The brand type system, self-hosted and preloaded by next/font, each exposed
+   as a custom property the design tokens point at:
+     Sora      → --font-display  (geometric confidence, headlines + wordmark)
+     Inter     → --font-body     (the quiet reading work)
+     Space Mono→ --font-mono     (audited figures, deltas, statuses)
+     Fraunces  → --font-serif    (the human voice — italic, rationed to one line) */
+const sora = Sora({
+  variable: "--font-sora",
   subsets: ["latin"],
   display: "swap",
 });
 
-const instrument = Instrument_Sans({
-  variable: "--font-instrument",
+const inter = Inter({
+  variable: "--font-inter",
   subsets: ["latin"],
   display: "swap",
 });
 
-const spline = Spline_Sans_Mono({
-  variable: "--font-spline",
+const spaceMono = Space_Mono({
+  variable: "--font-space-mono",
+  weight: ["400", "700"],
+  subsets: ["latin"],
+  display: "swap",
+});
+
+const fraunces = Fraunces({
+  variable: "--font-fraunces",
+  style: ["italic", "normal"],
   subsets: ["latin"],
   display: "swap",
 });
 
 export const metadata = {
-  title: "MAAI — Organic Growth That Compounds",
+  title: "MAAI — Organic Growth, Compounded",
   description:
-    "MAAI is an organic growth agency. Platforms change — Google yesterday, LLMs today. Organic growth stays. We take business accountability.",
+    "MAAI is an SEO agency for global B2B. Platforms change — Google yesterday, LLMs today. Organic growth stays. We take business accountability.",
 };
 
 /* Runs before first paint so the right theme is on <html> immediately —
@@ -50,7 +61,7 @@ export default function RootLayout({ children }) {
     <html
       lang="en"
       suppressHydrationWarning
-      className={`${bricolage.variable} ${instrument.variable} ${spline.variable}`}
+      className={`${sora.variable} ${inter.variable} ${spaceMono.variable} ${fraunces.variable}`}
     >
       <head>
         <script dangerouslySetInnerHTML={{ __html: themeScript }} />

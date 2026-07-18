@@ -1,18 +1,26 @@
+import { Fragment } from "react";
+
+/* `@keyframes scroll` translates -50%, so the track is two identical halves and
+   the seam lands mid-loop. A half narrower than the viewport leaves a visible
+   gap at the wrap, so the pair repeats until one half out-widths any realistic
+   screen. Duration is set in CSS to match the extra travel. */
+const PAIR = ["Hyperfixated on organic growth.", "Platforms change. That does not."];
+const PER_HALF = 2;
+
+const half = Array.from({ length: PER_HALF }, () => PAIR).flat();
+const track = [...half, ...half];
+
 export default function MarqueeSection() {
   return (
     <>
-      <section className="marquee-section" id="work">
-        <p className="marquee-label">Trusted by teams building at scale</p>
+      <section className="marquee-section statements" id="work" aria-label="Positioning">
         <div className="marquee">
-          {/* Duplicate the set once for a seamless loop. Swap monograms for real client SVG logos. */}
-          <span className="brand"><span className="mk"><span>V</span></span>Verdant&nbsp;Co</span><span className="brand"><span className="mk"><span>N</span></span>NorthPeak</span>
-          <span className="brand"><span className="mk"><span>A</span></span>Atlas&nbsp;Group</span><span className="brand"><span className="mk"><span>H</span></span>Halcyon</span>
-          <span className="brand"><span className="mk"><span>M</span></span>Meridian</span><span className="brand"><span className="mk"><span>C</span></span>Cobalt&nbsp;Labs</span>
-          <span className="brand"><span className="mk"><span>T</span></span>Terra&nbsp;Foods</span><span className="brand"><span className="mk"><span>K</span></span>Kestrel</span>
-          <span className="brand"><span className="mk"><span>V</span></span>Verdant&nbsp;Co</span><span className="brand"><span className="mk"><span>N</span></span>NorthPeak</span>
-          <span className="brand"><span className="mk"><span>A</span></span>Atlas&nbsp;Group</span><span className="brand"><span className="mk"><span>H</span></span>Halcyon</span>
-          <span className="brand"><span className="mk"><span>M</span></span>Meridian</span><span className="brand"><span className="mk"><span>C</span></span>Cobalt&nbsp;Labs</span>
-          <span className="brand"><span className="mk"><span>T</span></span>Terra&nbsp;Foods</span><span className="brand"><span className="mk"><span>K</span></span>Kestrel</span>
+          {track.map((line, i) => (
+            <Fragment key={i}>
+              <span className={`statement${i % 2 ? " muted" : ""}`}>{line}</span>
+              <i className="mdot" aria-hidden="true"></i>
+            </Fragment>
+          ))}
         </div>
       </section>
     </>

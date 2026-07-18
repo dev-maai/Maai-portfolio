@@ -3,38 +3,33 @@ export default function Values() {
     <>
       <section className="values" id="values">
         <div className="wrap">
-          <p className="eyebrow reveal">How we operate</p>
-          <h2 className="reveal">Six values. Zero fine print.</h2>
-          <div className="values-grid">
+          <p className="eyebrow reveal">02 / How it holds</p>
+          <h2 className="reveal">A foundation that survives the algorithm.</h2>
+          <p className="lede reveal" style={{ marginTop: "18px" }}>
+            Algorithms change. Management changes. Agencies come and go. What we
+            build is designed to hold through all of it, because it is grounded
+            in the business itself.
+          </p>
+          <div className="values-grid four">
             <div className="value reveal">
-              <div className="value-media"><span className="k">V·1</span>
-                <img src="https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?w=600&q=75&auto=format&fit=crop" alt="Seedlings sprouting in soil trays" loading="lazy" width="600" height="375" /></div>
-              <div className="value-body"><h3>Ownership</h3><p>Nobody waits. Dependencies get communicated, work gets done, outcomes get owned individually.</p></div>
-            </div>
-            <div className="value reveal">
-              <div className="value-media"><span className="k">V·2</span>
-                <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=600&q=75&auto=format&fit=crop" alt="A team talking around a table" loading="lazy" width="600" height="375" /></div>
-              <div className="value-body"><h3>Clear communication</h3><p>Within the team and with the client. No jargon walls, no silence when things slip.</p></div>
-            </div>
-            <div className="value reveal">
-              <div className="value-media"><span className="k">V·3</span>
-                <img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=600&q=75&auto=format&fit=crop" alt="A group with arms around each other" loading="lazy" width="600" height="375" /></div>
-              <div className="value-body"><h3>To-do attitude</h3><p>Individual rocks matter, but we cover for each other. We're collectively growing one company — yours and ours.</p></div>
-            </div>
-            <div className="value reveal">
-              <div className="value-media"><span className="k">V·4</span>
-                <img src="https://images.unsplash.com/photo-1448375240586-882707db888b?w=600&q=75&auto=format&fit=crop" alt="Sunlight breaking through a misty forest" loading="lazy" width="600" height="375" /></div>
-              <div className="value-body"><h3>Curiosity</h3><p>Platforms shift monthly. We learn faster than the landscape changes, and add that knowledge to your account.</p></div>
-            </div>
-            <div className="value reveal">
-              <div className="value-media"><span className="k">V·5</span>
+              <div className="value-media"><span className="k">/ 01</span>
                 <img src="https://images.unsplash.com/photo-1511497584788-876760111969?w=600&q=75&auto=format&fit=crop" alt="Evergreen forest at sunset with distant mountains" loading="lazy" width="600" height="375" /></div>
-              <div className="value-body"><h3>Long-term thinking</h3><p>Organic growth compounds. We optimize for the trajectory, not the vanity spike.</p></div>
+              <div className="value-body"><h3>Industry ownership</h3><p>We go deep into your vertical before we touch a keyword. Every strategy starts with your business, your customers, and your commercial reality.</p></div>
             </div>
             <div className="value reveal">
-              <div className="value-media"><span className="k">V·6</span>
+              <div className="value-media"><span className="k">/ 02</span>
+                <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=600&q=75&auto=format&fit=crop" alt="A team talking around a table" loading="lazy" width="600" height="375" /></div>
+              <div className="value-body"><h3>Audience and culture</h3><p>Content, tone, and structure built from how your buyers actually think, speak, and search. Written for the person on the other side of the screen.</p></div>
+            </div>
+            <div className="value reveal">
+              <div className="value-media"><span className="k">/ 03</span>
+                <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&q=75&auto=format&fit=crop" alt="An analytics dashboard on a screen" loading="lazy" width="600" height="375" /></div>
+              <div className="value-body"><h3>Grounded in data</h3><p>Psychological nuance is where strategy starts. Data is where every decision gets checked. Nothing goes live on opinion alone.</p></div>
+            </div>
+            <div className="value reveal">
+              <div className="value-media"><span className="k">/ 04</span>
                 <img src="https://images.unsplash.com/photo-1600880292089-90a7e086ee0c?w=600&q=75&auto=format&fit=crop" alt="Colleagues joining hands over a desk" loading="lazy" width="600" height="375" /></div>
-              <div className="value-body"><h3>Client first</h3><p>Grounded in one problem statement that never changes: generating sales for your business.</p></div>
+              <div className="value-body"><h3>Cross-functional execution</h3><p>SEO aligned with sales, product, and tech from day one. Content answers the right queries, and every new development is built for how Google and LLMs crawl.</p></div>
             </div>
           </div>
         </div>

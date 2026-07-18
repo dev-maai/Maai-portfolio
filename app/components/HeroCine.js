@@ -87,24 +87,14 @@ export default function HeroCine() {
           <div className="hc-resolve">
             <div className="wrap">
              <div className="hc-resolve-inner">
-              <p className="eyebrow">Organic growth agency</p>
+              <p className="eyebrow">SEO agency for global B2B</p>
               <h1>
-                Get found in<br />
-                <span className="hero-rotator" role="text" aria-label="Google, ChatGPT, Perplexity, AI Overviews — every answer">
-                  <span className="hr-track" aria-hidden="true">
-                    <span className="hr-word">Google</span>
-                    <span className="hr-word">ChatGPT</span>
-                    <span className="hr-word">Perplexity</span>
-                    <span className="hr-word">AI Overviews</span>
-                    <span className="hr-word">every answer</span>
-                    <span className="hr-word">Google</span>
-                  </span>
-                </span>
+                Organic growth.<br />
+                <span className="hero-owned">Owned</span>
               </h1>
               <p className="lede">
-                Yesterday your customers searched Google. Today they ask an LLM.
-                MAAI puts your business wherever the question is asked — with the
-                accountability of an internal team and the transparency most agencies avoid.
+                An SEO agency built for global B2B companies who want a growth
+                channel worth defending to the board.
               </p>
       
               {/* SIGNATURE: morphing search / prompt bar */}

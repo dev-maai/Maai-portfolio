@@ -1,3 +1,5 @@
+import { SparkBar } from "./Brand";
+
 export default function Report() {
   return (
     <>
@@ -26,6 +28,10 @@ export default function Report() {
             <div className="ledger-row"><span className="label">LLM citations</span><span className="val up">▲ 3.2× since Jan</span></div>
             <div className="ledger-row"><span className="label">Pipeline from organic</span><span className="val up">▲ 27%</span></div>
             <div className="ledger-row"><span className="label">Content cluster B</span><span className="val flag">▼ underperformed</span></div>
+            <div className="ledger-progress">
+              <span className="label">Quarter to target</span>
+              <SparkBar fill={76} />
+            </div>
             <div className="ledger-note"><strong>What went wrong &amp; the fix:</strong> Cluster B targeted queries LLMs now answer inline. We're rebuilding it around comparison intent — new briefs shipped, re-measured in 30 days.</div>
           </div>
         </div>

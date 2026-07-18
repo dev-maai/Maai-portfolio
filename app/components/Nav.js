@@ -3,7 +3,7 @@ export default function Nav() {
     <>
       <header className="nav">
         <div className="wrap nav-inner">
-          <a className="logo" href="#">MA<span>A</span><em>I</em></a>
+          <a className="logo" href="#" aria-label="MAAI home">ma<span className="ai">ai</span></a>
           <nav className="nav-links" id="navmenu">
             <a href="#thesis">Why organic</a>
             <a href="#services">Services</a>
