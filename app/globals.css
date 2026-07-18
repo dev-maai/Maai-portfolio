@@ -1765,3 +1765,245 @@ h1.hh-h1.is-pending{font-size:clamp(16px,2vw,22px)!important}
   .hh-inner{padding-block:clamp(48px,16vw,90px)}
   .diff-figure{padding:20px}
 }
+
+/* ============================================================
+   01 · WHAT WE OWN — dual-axis showcase (vertical stepper + horizontal panels)
+   ============================================================ */
+/* forced evergreen-night palette so this highlight reads as one bold dark block
+   in both site themes (and white panel text never lands on a white surface) */
+.wwo{
+  --ink:#F7F7F2;--paper:#0A2016;--panel:#0E2A1E;--surface:#143026;--surface-2:#1C3F2E;
+  --pine:#86AB97;--pine-deep:#A7C6B4;--amber:#E62E6B;--amber-soft:#FF7BA3;--sage:#9DB0A4;
+  --line:rgba(247,247,242,.14);--line-dark:rgba(247,247,242,.12);
+  background:var(--panel);color:var(--ink);padding:clamp(72px,9vw,130px) 0;overflow:hidden}
+.wwo-head{max-width:760px}
+.wwo-head h2{font-size:clamp(30px,3.6vw,50px);margin-top:14px;max-width:18ch}
+.wwo-head .lede{margin-top:18px}
+.wwo-stage{display:grid;grid-template-columns:minmax(270px,350px) 1fr;
+  gap:clamp(26px,4vw,56px);margin-top:clamp(40px,5vw,64px);align-items:start}
+
+/* vertical stepper — active step expands vertically */
+.wwo-rail{display:flex;flex-direction:column;gap:12px}
+.wwo-step{position:relative;text-align:left;background:transparent;border:1px solid var(--line);
+  border-radius:16px;padding:19px 22px;cursor:pointer;color:var(--ink);
+  transition:border-color .3s var(--ease),background .3s var(--ease)}
+.wwo-step:hover{border-color:color-mix(in srgb,var(--pine) 55%,transparent)}
+.wwo-step.on{border-color:var(--amber);background:color-mix(in srgb,var(--surface) 55%,transparent)}
+.wwo-step .s-top{display:flex;align-items:center;gap:12px}
+.wwo-step .s-idx{font-family:var(--font-mono);font-size:12px;color:var(--amber);letter-spacing:.08em}
+.wwo-step .s-tag{font-family:var(--font-display);font-weight:700;font-size:clamp(18px,1.7vw,22px);color:#fff}
+.wwo-step .s-title{display:block;font-size:14px;color:var(--sage);line-height:1.45;
+  max-height:0;opacity:0;overflow:hidden;transition:max-height .5s var(--ease),opacity .4s,margin-top .4s}
+.wwo-step.on .s-title{max-height:140px;opacity:1;margin-top:12px}
+.wwo-step .s-prog{display:block;height:2px;border-radius:2px;background:var(--line);
+  margin-top:16px;overflow:hidden;opacity:0;transition:opacity .3s}
+.wwo-step.on .s-prog{opacity:1}
+.wwo-step .s-prog i{display:block;height:100%;width:100%;background:var(--amber);
+  transform:scaleX(0);transform-origin:left}
+.wwo-step .s-prog i.go{animation:wwoFill 5.4s linear forwards}
+@keyframes wwoFill{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+.wwo-stage:hover .wwo-step.on .s-prog i.go,
+.wwo-stage:focus-within .wwo-step.on .s-prog i.go{animation-play-state:paused}
+
+/* horizontal sliding panels */
+.wwo-view{overflow:hidden}
+.wwo-track{display:flex;will-change:transform;transition:transform .6s var(--ease)}
+.wwo-panel{flex:0 0 100%;display:flex;flex-direction:column;overflow:hidden;
+  border:1px solid var(--line);border-radius:calc(var(--radius) + 4px);background:var(--surface)}
+.p-media{position:relative;aspect-ratio:16/7;overflow:hidden}
+.p-media img{width:100%;height:100%;object-fit:cover;transition:transform 8s var(--ease)}
+.wwo-panel.on .p-media img{transform:scale(1.07)}
+.p-media::after{content:"";position:absolute;inset:0;
+  background:linear-gradient(180deg,rgba(10,32,22,.1),rgba(10,32,22,.78))}
+.p-num{position:absolute;left:24px;bottom:12px;z-index:1;font-family:var(--font-display);
+  font-weight:700;font-size:clamp(40px,5vw,66px);color:#fff;line-height:1;
+  text-shadow:0 2px 22px rgba(0,0,0,.55)}
+.p-body{padding:clamp(26px,3vw,40px)}
+.p-tag{font-family:var(--font-mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--amber)}
+.p-body h3{font-size:clamp(22px,2.4vw,32px);margin:10px 0 12px;color:#fff;max-width:24ch;line-height:1.12}
+.p-body p{font-size:15px;color:rgba(255,255,255,.82);max-width:66ch;line-height:1.6}
+.p-chips{display:flex;flex-wrap:wrap;gap:9px;margin-top:22px}
+.p-chips .chip{font-family:var(--font-mono);font-size:11.5px;padding:7px 14px;border-radius:999px;
+  border:1px solid rgba(255,255,255,.24);color:rgba(255,255,255,.92);
+  opacity:0;transform:translateY(10px);transition:opacity .5s var(--ease),transform .5s var(--ease)}
+.wwo-panel.on .p-chips .chip{opacity:1;transform:none;transition-delay:calc(.15s + var(--d)*.07s)}
+
+@media(prefers-reduced-motion:reduce){
+  .wwo-track{transition:none}
+  .p-media img,.wwo-panel.on .p-media img{transition:none;transform:none}
+  .p-chips .chip,.wwo-panel.on .p-chips .chip{opacity:1;transform:none;transition:none}
+  .wwo-step .s-title{transition:none}
+}
+@media(max-width:860px){
+  .wwo-stage{grid-template-columns:1fr;gap:18px}
+  .wwo-rail{flex-direction:row;overflow-x:auto;gap:10px;scrollbar-width:none;padding-bottom:2px}
+  .wwo-rail::-webkit-scrollbar{display:none}
+  .wwo-step{flex:0 0 auto;min-width:172px;padding:15px 18px}
+  .wwo-step .s-title{display:none}
+  .wwo-step .s-prog{margin-top:12px}
+  .p-media{aspect-ratio:16/9}
+}
+
+/* ============================================================
+   SIGNALS — rotating radial dial (Everlab-style pattern, original build)
+   ============================================================ */
+.signals{position:relative;overflow:hidden;background:var(--panel);text-align:left;
+  padding:clamp(80px,12vw,150px) 0;min-height:min(86vh,760px);display:flex;align-items:center}
+.sig-wheel{position:absolute;inset:0;pointer-events:none;z-index:0}
+/* rotor is a 0×0 pivot near the left edge, vertically centered; JS rotates it */
+.sw-rotor{position:absolute;left:-2vw;top:50%;width:0;height:0;transform-origin:0 0;
+  --sw-r:clamp(210px,23vw,350px);will-change:transform}
+.sw-label{position:absolute;left:0;top:0;transform-origin:0 0;white-space:nowrap;
+  font-family:var(--font-mono);font-size:clamp(13px,1.05vw,16px);letter-spacing:.01em;
+  color:var(--sage);display:flex;align-items:center;gap:8px;transition:color .3s var(--ease)}
+.sw-label.on{color:var(--ink);font-weight:700;
+  text-shadow:0 0 20px color-mix(in srgb,var(--amber) 30%,transparent)}
+.sw-dot{width:0;height:0;border-radius:50%;background:var(--amber);opacity:0;flex:none;
+  transition:width .28s var(--ease),height .28s var(--ease),opacity .28s}
+.sw-label.on .sw-dot{width:9px;height:9px;opacity:1;
+  box-shadow:0 0 16px color-mix(in srgb,var(--amber) 75%,transparent)}
+/* fade the dial toward the heading + top/bottom edges */
+.sig-wheel::before{content:"";position:absolute;inset:0;z-index:1;pointer-events:none;
+  background:linear-gradient(90deg, transparent 34%, var(--panel) 88%)}
+.sig-wheel::after{content:"";position:absolute;inset:0;z-index:1;pointer-events:none;
+  background:linear-gradient(180deg, var(--panel), transparent 16%, transparent 84%, var(--panel))}
+
+.sig-copy{position:relative;z-index:3;margin-left:auto;margin-right:clamp(20px,7vw,110px);
+  max-width:min(500px,46vw)}
+.sig-copy .kicker{margin-bottom:12px}
+.sig-copy h2{font-size:clamp(30px,4vw,54px);line-height:1.08;max-width:16ch}
+.sig-copy h2 em{font-style:normal;color:var(--sage)}
+.sig-copy .lede{margin-top:18px}
+.sig-copy .btn{margin-top:26px}
+
+.sig-list{display:none}
+@media(max-width:820px){
+  .signals{min-height:0;padding:clamp(58px,12vw,92px) 0;display:block;text-align:center}
+  .sig-wheel{display:none}
+  .sig-copy{margin:0 auto;max-width:none;padding-inline:var(--pad);text-align:center}
+  .sig-copy h2{margin-inline:auto}
+  .sig-list{display:flex;flex-wrap:wrap;gap:9px;justify-content:center;margin-top:26px}
+}
+
+/* ============================================================
+   HERO · Walker-Sands-style (rounded panel + morphing blobs + bleeding giant)
+   original build, forced evergreen-night palette so it holds in both site themes
+   ============================================================ */
+.hero-ws{
+  --ink:#F7F7F2;--paper:#0A2016;--panel:#0E2A1E;--surface:#143026;--surface-2:#1C3F2E;
+  --pine:#86AB97;--pine-deep:#A7C6B4;--amber:#E62E6B;--amber-soft:#FF7BA3;--sage:#9DB0A4;
+  --line:rgba(247,247,242,.14);
+  background:#07160E;padding:clamp(10px,1.5vw,22px);min-height:100svh;display:flex}
+.hws-panel{position:relative;flex:1;min-width:0;overflow:hidden;isolation:isolate;
+  display:flex;flex-direction:column;
+  padding:clamp(26px,5vw,72px);
+  border-radius:clamp(18px,2.4vw,36px);
+  border-bottom-right-radius:clamp(64px,11vw,200px);
+  background:radial-gradient(125% 120% at 18% 8%, #163a2b, #0A2016 68%)}
+
+/* morphing organic blobs */
+.hws-scene{position:absolute;inset:0;z-index:0;pointer-events:none;overflow:hidden}
+.hws-blob{position:absolute;will-change:transform,border-radius}
+.hws-blob.b1{width:min(38vw,470px);aspect-ratio:1.08;left:5%;top:18%;object-fit:cover;
+  opacity:0;transition:opacity 1.2s var(--ease);filter:saturate(1.15) contrast(1.05);
+  border-radius:62% 38% 55% 45% / 55% 52% 48% 45%;
+  box-shadow:0 40px 120px -40px rgba(0,0,0,.6);
+  animation:hwsMorph1 20s ease-in-out infinite, hwsFloat1 13s ease-in-out infinite}
+.hws-blob.b1.ready{opacity:.92}
+.hws-blob.b2{width:min(23vw,300px);aspect-ratio:1;right:8%;top:28%;
+  background:radial-gradient(circle at 62% 34%, #FF7BA3, #E62E6B 76%);
+  border-radius:48% 52% 42% 58% / 46% 54% 46% 54%;
+  box-shadow:0 40px 110px -34px rgba(230,46,107,.55);
+  animation:hwsMorph2 24s ease-in-out infinite, hwsFloat2 16s ease-in-out infinite}
+.hws-blob.b3{width:min(11vw,130px);aspect-ratio:1;right:30%;bottom:30%;opacity:.75;
+  background:radial-gradient(circle at 40% 35%, #A7C6B4, #1C3F2E);border-radius:50%;
+  animation:hwsFloat1 11s ease-in-out infinite}
+@keyframes hwsMorph1{
+  0%,100%{border-radius:62% 38% 55% 45% / 55% 52% 48% 45%}
+  33%{border-radius:45% 55% 62% 38% / 48% 45% 55% 52%}
+  66%{border-radius:58% 42% 45% 55% / 60% 50% 50% 40%}}
+@keyframes hwsMorph2{
+  0%,100%{border-radius:48% 52% 42% 58% / 46% 54% 46% 54%}
+  50%{border-radius:60% 40% 55% 45% / 55% 45% 55% 45%}}
+@keyframes hwsFloat1{0%,100%{transform:translate(0,0)}50%{transform:translate(2%,-4%)}}
+@keyframes hwsFloat2{0%,100%{transform:translate(0,0)}50%{transform:translate(-3%,3%)}}
+
+/* top content */
+.hws-top{position:relative;z-index:2;max-width:540px}
+.hws-top .kicker{margin-bottom:16px}
+.hws-lede{font-size:clamp(16px,1.5vw,20px);color:var(--sage);max-width:42ch;line-height:1.55}
+.hero-ws .hero-ctas{margin-top:28px;display:flex;gap:14px;flex-wrap:wrap}
+
+/* giant headline bleeding off the bottom edge */
+.hws-giant{position:absolute;left:0;right:0;bottom:0;z-index:1;margin:0;
+  transform:translateY(7%);
+  font-family:var(--font-display);font-weight:800;letter-spacing:-.045em;line-height:.82;
+  font-size:clamp(44px,10vw,178px);color:var(--ink);text-align:center;white-space:nowrap;
+  pointer-events:none;user-select:none}
+.hws-dash{color:var(--amber);font-weight:800}
+
+@media(prefers-reduced-motion:reduce){
+  .hws-blob{animation:none !important}
+  .hero-ws video.hws-blob{display:none}
+  .hws-blob.b3{width:min(30vw,360px);left:6%;top:22%;right:auto;bottom:auto;opacity:.85}
+}
+@media(max-width:820px){
+  .hero-ws{min-height:auto;padding:8px}
+  .hws-panel{min-height:90svh;padding:clamp(22px,7vw,40px);
+    border-bottom-right-radius:clamp(40px,14vw,90px);justify-content:flex-start}
+  .hws-top{max-width:none}
+  .hws-blob.b1{width:62vw;left:auto;right:-8%;top:8%}
+  .hws-blob.b2{width:50vw;right:-10%;top:20%}
+  .hws-blob.b3{display:none}
+  .hws-giant{position:relative;bottom:auto;left:auto;right:auto;transform:none;
+    margin-top:auto;text-align:left;white-space:normal;
+    font-size:clamp(46px,17vw,110px);line-height:.9;padding-top:48px}
+}
+
+/* HERO · analytics/results slider (replaces the blob scene) */
+.hws-row{position:relative;z-index:2;display:grid;grid-template-columns:0.9fr 1.1fr;
+  gap:clamp(28px,4vw,64px);align-items:center;padding-top:clamp(8px,1.5vw,26px)}
+.hws-media{position:relative;width:100%;max-width:600px;justify-self:end;
+  border:1px solid var(--line);border-radius:20px;overflow:hidden;background:var(--surface);
+  box-shadow:0 44px 110px -44px rgba(0,0,0,.65)}
+.hm-viewport{overflow:hidden}
+.hm-track{display:flex;will-change:transform;transition:transform .6s var(--ease)}
+.hm-slide{flex:0 0 100%;position:relative;margin:0;aspect-ratio:16/11}
+.hm-slide img{width:100%;height:100%;object-fit:cover;display:block}
+.hm-slide::after{content:"";position:absolute;inset:0;pointer-events:none;
+  background:linear-gradient(180deg, rgba(8,25,17,.15) 0%, transparent 30%, rgba(8,25,17,.82) 100%)}
+/* caption pill, top-left */
+.hm-cap{position:absolute;left:14px;top:14px;z-index:2;display:inline-flex;align-items:center;gap:9px;
+  font-family:var(--font-mono);font-size:11.5px;letter-spacing:.02em;color:#fff;
+  background:rgba(8,25,17,.5);backdrop-filter:blur(6px);border:1px solid rgba(255,255,255,.16);
+  padding:7px 13px;border-radius:999px}
+.hm-live{width:8px;height:8px;border-radius:50%;background:var(--amber);
+  box-shadow:0 0 12px color-mix(in srgb,var(--amber) 80%,transparent);animation:blink 1.6s infinite}
+/* control bar, bottom */
+.hm-ui{position:absolute;left:0;right:0;bottom:0;z-index:2;display:flex;align-items:center;
+  justify-content:space-between;padding:14px 16px}
+.hm-dots{display:flex;gap:7px}
+.hm-dot{width:7px;height:7px;border-radius:999px;border:none;padding:0;cursor:pointer;
+  background:rgba(255,255,255,.42);transition:width .3s var(--ease),background .3s}
+.hm-dot.on{width:22px;background:var(--amber)}
+.hm-arrows{display:flex;gap:8px}
+.hm-arrows button{width:34px;height:34px;border-radius:50%;cursor:pointer;color:#fff;
+  border:1px solid rgba(255,255,255,.4);background:rgba(8,25,17,.42);backdrop-filter:blur(4px);
+  display:grid;place-items:center;transition:background .2s,border-color .2s,transform .2s}
+.hm-arrows button:hover{background:var(--amber);border-color:var(--amber);transform:translateY(-1px)}
+.hm-arrows svg{width:15px;height:15px}
+
+@media(prefers-reduced-motion:reduce){
+  .hm-track{transition:none}
+  .hm-live{animation:none}
+}
+@media(max-width:820px){
+  .hws-row{grid-template-columns:1fr;gap:24px}
+  .hws-media{max-width:none;justify-self:stretch}
+  .hm-slide{aspect-ratio:16/10}
+}
+
+/* tagline as a bright porcelain band — clean break from the dark hero, both themes */
+.tagline-band.tagline-light{background:#F7F7F2;color:#0E2A1E}
+.tagline-light .tagline{color:#0E2A1E}
+.tagline-light .tagline::after{background:#E62E6B}

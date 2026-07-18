@@ -1,13 +1,13 @@
 import ScrollProgress from "./components/ScrollProgress";
 import Nav from "./components/Nav";
-import HeroCine from "./components/HeroCine";
+import HeroWalker from "./components/HeroWalker";
 import Tagline from "./components/Tagline";
 import MarqueeSection from "./components/MarqueeSection";
 import Creds from "./components/Creds";
 import Thesis from "./components/Thesis";
 import Gallery from "./components/Gallery";
 import Benefits from "./components/Benefits";
-import Services from "./components/Services";
+import WhatWeOwn from "./components/WhatWeOwn";
 import Outcomes from "./components/Outcomes";
 import Interlude from "./components/Interlude";
 import Values from "./components/Values";
@@ -38,14 +38,14 @@ export default function Home() {
     <>
       <ScrollProgress />
       <Nav />
-      <HeroCine />
+      <HeroWalker />
       <Tagline />
       <MarqueeSection />
       <Creds />
       <Thesis />
       <Gallery />
       <Benefits />
-      <Services />
+      <WhatWeOwn />
       <Outcomes />
       <Interlude />
       <Values />
