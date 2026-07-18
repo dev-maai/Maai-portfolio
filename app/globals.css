@@ -104,6 +104,10 @@ h1,h2,h3{font-family:var(--font-display);line-height:1.05;letter-spacing:-.02em;
 .dark .eyebrow{color:var(--pine)}
 .lede{font-size:clamp(16px,1.4vw,19px);color:var(--sage);max-width:56ch}
 .dark .lede{color:var(--sage)}
+/* kicker — numbered/labelled section mark in magenta mono (brand-doc style).
+   No leading dash (unlike .eyebrow); the magenta is the signal. */
+.kicker{font-family:var(--font-mono);font-size:12px;letter-spacing:.16em;
+  text-transform:uppercase;color:var(--amber);display:inline-block;margin-bottom:6px}
 
 /* ---------- Reveal on scroll ---------- */
 .reveal{
@@ -331,8 +335,8 @@ h1,h2,h3{font-family:var(--font-display);line-height:1.05;letter-spacing:-.02em;
 .hc-bg{position:absolute;inset:0;z-index:0;overflow:hidden;
   background:radial-gradient(95% 85% at 50% 28%, #123527, #082116 72%)}
 .hc-video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;
-  opacity:0;filter:saturate(1.05) contrast(1.03) hue-rotate(80deg);transition:opacity 1.4s var(--ease)}
-.hc-video.ready{opacity:.42}
+  opacity:0;filter:saturate(1.12) contrast(1.06);transition:opacity 1.4s var(--ease)}
+.hc-video.ready{opacity:.5}
 .hc-veil{position:absolute;inset:0;pointer-events:none;
   background:radial-gradient(120% 92% at 50% 42%, transparent, #082116 80%),
              linear-gradient(0deg,#082116 5%, transparent 58%)}
@@ -406,6 +410,32 @@ h1,h2,h3{font-family:var(--font-display);line-height:1.05;letter-spacing:-.02em;
 .hc-resolve .searchbar{margin-top:34px}
 .hc-resolve .hero-ctas{margin-top:30px}
 
+/* editorial two-column resolve: value prop + CTA left, live demo + real proof
+   right. Trust & Authority hero pattern — leads with a value prop and shows
+   concrete client proof rather than a bare tagline. */
+.hc-resolve .hero-split{max-width:none;display:grid;grid-template-columns:1.02fr .98fr;
+  gap:clamp(30px,5vw,72px);align-items:center}
+.hero-lead .kicker{margin-bottom:14px}
+.hero-lead h1{font-size:clamp(42px,6vw,84px);max-width:none;letter-spacing:-.035em;line-height:1;margin-top:0}
+.hero-lead .lede{margin-top:20px;max-width:46ch}
+.hero-lead .hero-ctas{margin-top:30px}
+.hero-micro{margin-top:18px;font-family:var(--font-mono);font-size:12px;color:var(--sage);
+  max-width:54ch;line-height:1.6}
+.hero-aside{display:flex;flex-direction:column;gap:20px;min-width:0}
+.hero-aside .searchbar{margin-top:0;width:100%}
+.hero-proof{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;
+  padding-top:20px;border-top:1px solid var(--line)}
+.hp-stat b{display:block;font-family:var(--font-display);font-weight:700;
+  font-size:clamp(20px,2.3vw,30px);color:var(--ink);letter-spacing:-.01em;line-height:1}
+.hp-stat span{display:block;margin-top:7px;font-family:var(--font-mono);font-size:10px;
+  letter-spacing:.06em;text-transform:uppercase;color:var(--sage);line-height:1.45}
+.hero-proof-src{font-family:var(--font-mono);font-size:11px;letter-spacing:.03em;color:var(--sage)}
+@media(max-width:960px){
+  .hc-resolve .hero-split{grid-template-columns:1fr;gap:28px}
+  .hero-aside{max-width:560px}
+  .hero-lead h1{font-size:clamp(40px,10vw,64px)}
+}
+
 /* --- scroll cue + progress bar --- */
 .hc-cue{position:absolute;left:50%;bottom:22px;transform:translateX(-50%);z-index:5;
   display:flex;flex-direction:column;align-items:center;gap:8px;pointer-events:none;
@@ -423,7 +453,9 @@ h1,h2,h3{font-family:var(--font-display);line-height:1.05;letter-spacing:-.02em;
   .hero-cine{height:auto}
   .hc-sticky{position:static;height:auto;overflow:visible}
   .hc-scenes,.hc-ghost,.hc-cue,.hc-progress,.hc-video{display:none}
-  .hc-resolve{position:static;opacity:1 !important;transform:none !important;
+  /* relative (not static) so z-index:4 still applies and the resolve paints
+     above the absolutely-positioned .hc-bg gradient in this static layout */
+  .hc-resolve{position:relative;z-index:4;opacity:1 !important;transform:none !important;
     pointer-events:auto;padding:clamp(64px,13vw,120px) 0}
 }
 /* ---- hero live background ---- */
@@ -1580,3 +1612,156 @@ h1,h2,h3{font-family:var(--font-display);line-height:1.05;letter-spacing:-.02em;
   font-family:var(--font-mono);font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--sage)}
 .rail-hint::after{content:"\2192";font-size:13px;animation:railNudge 1.6s ease-in-out infinite}
 @keyframes railNudge{50%{transform:translateX(5px)}}
+
+/* ============================================================
+   HOMEPAGE STRUCTURE v1.0 — section builds
+   (maai-homepage-structure · lean 11-section homepage)
+   ============================================================ */
+
+/* ---- pending content slots (open items owned by Kriti) ---- */
+.pending-tag{font-family:var(--font-mono);font-size:10.5px;letter-spacing:.1em;
+  text-transform:uppercase;color:var(--sage);display:inline-flex;align-items:center;gap:7px;line-height:1.4}
+.pending-tag::before{content:"\25CB";color:var(--amber);font-size:9px}
+.pending-slot{border:1.5px dashed color-mix(in srgb,var(--pine) 42%, transparent);
+  border-radius:14px;padding:18px 20px;display:flex;flex-direction:column;gap:14px;
+  background:color-mix(in srgb,var(--surface) 34%, transparent)}
+.pending-lines{display:flex;flex-direction:column;gap:9px}
+.pending-lines i{display:block;height:10px;border-radius:6px;
+  background:color-mix(in srgb,var(--sage) 20%, transparent)}
+/* a heading slot that is still pending — reads as a wireframe, not final copy */
+.is-pending{font-family:var(--font-mono)!important;font-weight:400!important;
+  font-size:clamp(15px,1.6vw,18px)!important;letter-spacing:.04em;color:var(--sage);
+  border:1.5px dashed color-mix(in srgb,var(--pine) 42%, transparent);border-radius:12px;
+  padding:12px 16px;display:inline-block;text-transform:none;max-width:100%}
+.is-pending-serif{font-style:italic;color:var(--sage);border-bottom:1.5px dashed var(--amber);padding-bottom:2px}
+
+/* ---- 1 Hero + 2 Tagline : one continuous dark stage ---- */
+/* forced evergreen night-keynote palette, page-theme independent, so the hero
+   video / tagline read as one movement in both light and dark site themes */
+.stage-dark{
+  --ink:#F7F7F2;--paper:#0A2016;--panel:#0E2A1E;--surface:#143026;--surface-2:#1C3F2E;
+  --pine:#86AB97;--pine-deep:#A7C6B4;--amber:#E62E6B;--amber-soft:#FF7BA3;--sage:#9DB0A4;
+  --line:rgba(247,247,242,.14);--line-dark:rgba(247,247,242,.12);
+  background:#0A2016;color:var(--ink);
+}
+.home-hero{position:relative;min-height:clamp(560px,88vh,900px);display:flex;align-items:center;overflow:hidden}
+.hh-stage{position:absolute;inset:0;z-index:0}
+.hh-video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;
+  opacity:0;transition:opacity 1.2s var(--ease)}
+.hh-video.ready{opacity:.5}
+/* scrim keeps H1 contrast on every frame (brand rule: scrim, not a wordmark recolour) */
+.hh-scrim{position:absolute;inset:0;
+  background:radial-gradient(120% 100% at 30% 30%, rgba(10,32,22,.5), rgba(8,25,17,.86) 82%),
+             linear-gradient(0deg, #0A2016 2%, transparent 60%)}
+.hh-inner{position:relative;z-index:1;padding-block:clamp(60px,10vw,120px)}
+.hh-h1{font-family:var(--font-display);font-weight:700;letter-spacing:-.03em;line-height:1.02;
+  font-size:clamp(40px,6vw,86px);max-width:16ch;color:var(--ink)}
+/* H1 pending state: still an h1, visibly a slot */
+h1.hh-h1.is-pending{font-size:clamp(16px,2vw,22px)!important}
+@media (prefers-reduced-motion: reduce){.hh-video{display:none}}
+
+.tagline-band{padding:clamp(40px,7vw,90px) 0 clamp(64px,10vw,130px);border-top:none}
+.tagline{font-family:var(--font-display);font-weight:700;letter-spacing:-.03em;
+  font-size:clamp(38px,6.4vw,92px);line-height:1.02;color:var(--ink)}
+.tagline::after{content:"";display:block;width:64px;height:4px;border-radius:3px;
+  background:var(--amber);margin-top:26px}
+
+/* ---- 3 Intro + CTA 1 ---- */
+.intro-cta{padding:clamp(72px,9vw,120px) 0}
+.intro-cta h2{font-size:clamp(28px,3.4vw,46px);margin-top:14px;max-width:20ch}
+.intro-cta-row{margin-top:30px;display:flex;align-items:center;gap:18px 24px;flex-wrap:wrap}
+.cta-link{display:inline-flex;align-items:center;gap:10px;font-weight:600;font-size:16px;
+  color:var(--pine);border-bottom:1.5px solid color-mix(in srgb,var(--pine) 45%,transparent);
+  padding-bottom:3px;transition:gap .2s var(--ease),border-color .2s}
+.cta-link:hover{gap:14px;border-color:var(--pine)}
+
+/* ---- 4 Differentiator (the spine) ---- */
+.diff{padding:clamp(72px,9vw,130px) 0;position:relative;overflow:hidden}
+.diff-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:clamp(36px,5vw,80px);align-items:center}
+.diff h2{font-size:clamp(30px,3.6vw,50px);margin-top:14px;max-width:18ch}
+.diff-fraunces{margin-top:26px}
+.diff-fraunces .serif-voice{font-size:clamp(18px,2vw,24px);line-height:1.4}
+/* audited figure — Space Mono, source visible (accountability made literal) */
+.diff-figure{background:var(--surface);border:1.5px solid var(--line);border-radius:var(--radius);
+  padding:26px 28px;font-family:var(--font-mono);box-shadow:0 24px 60px -30px rgba(0,0,0,.3)}
+.df-head{display:flex;justify-content:space-between;align-items:center;font-size:11px;
+  letter-spacing:.1em;text-transform:uppercase;color:var(--sage);margin-bottom:16px}
+.df-cleared{color:var(--amber)}
+.df-num{font-family:var(--font-display);font-weight:700;font-size:clamp(30px,4vw,52px);
+  color:var(--pine);line-height:1}
+.df-num.is-pending{font-family:var(--font-mono)!important;font-size:clamp(15px,1.6vw,18px)!important}
+.df-source{margin-top:14px;font-size:11.5px;color:var(--sage)}
+@media(max-width:860px){.diff-grid{grid-template-columns:1fr}}
+
+/* ---- 5 Outcomes ---- */
+.outcomes{padding:clamp(72px,9vw,130px) 0;background:var(--panel)}
+.outcomes h2{font-size:clamp(30px,3.6vw,48px);margin-top:14px}
+.outcome-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px;margin-top:48px}
+.outcome{border:1px solid var(--line);border-radius:var(--radius);background:var(--surface);
+  padding:28px 26px 24px;display:flex;flex-direction:column;gap:16px;position:relative;overflow:hidden;
+  transition:transform .3s var(--ease),border-color .3s}
+.outcome:hover{transform:translateY(-5px);border-color:var(--pine)}
+.outcome-idx{font-family:var(--font-mono);font-size:11px;letter-spacing:.14em;color:var(--amber)}
+.outcome h3{font-family:var(--font-display);font-weight:600;font-size:clamp(18px,1.5vw,21px);
+  line-height:1.18;letter-spacing:-.01em;color:var(--ink);flex:1}
+.outcome-foot{display:flex;flex-direction:column;gap:8px;padding-top:14px;border-top:1px solid var(--line)}
+.outcome .deliverable{font-family:var(--font-mono);font-size:11.5px;letter-spacing:.08em;
+  text-transform:uppercase;color:var(--pine)}
+.outcome-support{font-size:13.5px;color:var(--sage);line-height:1.5}
+@media(max-width:560px){.outcome-grid{grid-template-columns:1fr}}
+
+/* ---- 6 CTA 2 (primary conversion, Everlab-style) ---- */
+.cta2{padding:clamp(90px,13vw,180px) 0;text-align:center}
+.cta2-inner{display:flex;flex-direction:column;align-items:center;gap:34px}
+.cta2-statement{max-width:22ch;font-family:var(--font-display);font-weight:700;
+  font-size:clamp(30px,4.6vw,64px);line-height:1.05;letter-spacing:-.03em}
+.cta2-statement .pending-slot{text-align:left}
+.cta2-action{display:flex;flex-direction:column;align-items:center;gap:12px}
+/* single dark pill — the primary action, dark not magenta (magenta is the nav btn) */
+.btn.cta2-btn{background:var(--ink);color:var(--paper);font-size:16px;padding:16px 34px}
+.btn.cta2-btn:hover{background:var(--pine);color:var(--paper)}
+
+/* ---- 7 Clients (phase two) ---- */
+.clients{padding:clamp(72px,9vw,120px) 0;background:var(--panel)}
+.clients h2{font-size:clamp(28px,3.4vw,44px);margin-top:14px}
+.logo-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:14px;margin-top:44px}
+.logo-slot{height:78px;border:1.5px dashed color-mix(in srgb,var(--pine) 38%,transparent);
+  border-radius:12px;display:grid;place-items:center;background:color-mix(in srgb,var(--surface) 30%,transparent)}
+.testi-row{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:20px}
+.testi-slot{border:1px solid var(--line);border-radius:var(--radius);background:var(--surface);
+  padding:28px 26px;min-height:200px;display:flex;flex-direction:column;justify-content:space-between;
+  transition:border-color .25s,transform .25s}
+.testi-slot:hover{border-color:var(--pine);transform:translateY(-4px)}
+.testi-slot .quote-mark{font-family:var(--font-display);font-size:52px;line-height:.4;color:var(--amber-soft);height:20px}
+@media(max-width:720px){.testi-row{grid-template-columns:1fr}}
+
+/* ---- 8 Do You Need SEO (phase two) ---- */
+.dyns{padding:clamp(72px,9vw,120px) 0}
+.dyns h2{font-size:clamp(28px,3.6vw,48px);margin-top:14px;max-width:20ch}
+.whitepaper-slot{margin-top:40px;display:flex;align-items:center;gap:18px;flex-wrap:wrap;
+  border:1.5px solid var(--line);border-radius:var(--radius);padding:22px 26px;background:var(--surface);
+  transition:border-color .25s}
+.whitepaper-slot:hover{border-color:var(--pine)}
+.wp-tag{font-family:var(--font-mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--amber)}
+.blog-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px;margin-top:16px}
+.blog-card{border:1px solid var(--line);border-radius:var(--radius);background:var(--surface);
+  padding:26px 24px;min-height:170px;display:flex;flex-direction:column;justify-content:space-between;gap:16px;
+  transition:border-color .25s,transform .25s}
+.blog-card:hover{border-color:var(--pine);transform:translateY(-4px)}
+.blog-kicker{font-family:var(--font-mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--pine)}
+
+/* ---- 9 Final block ---- */
+.final-block{padding:clamp(72px,9vw,120px) 0;background:var(--panel)}
+.fb-primary{display:flex;flex-direction:column;align-items:flex-start;gap:22px;max-width:44ch}
+.fb-btn{font-size:16px;padding:15px 30px}
+.fb-secondary{margin-top:34px;padding-top:22px;border-top:1px solid var(--line);
+  display:flex;align-items:center;gap:14px 20px;flex-wrap:wrap}
+.fb-sec-label{font-size:15px;color:var(--sage)}
+
+/* ---- 10 Footer strapline ---- */
+.foot-strapline{font-family:var(--font-mono);letter-spacing:.06em}
+
+@media(max-width:600px){
+  .hh-inner{padding-block:clamp(48px,16vw,90px)}
+  .diff-figure{padding:20px}
+}
