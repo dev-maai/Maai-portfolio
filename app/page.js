@@ -64,10 +64,10 @@ export default function Home() {
       <Gallery />
       <Benefits />
       <WhatWeOwn />
+      <Signals />
       <Outcomes />
       <Interlude />
       <Values />
-      <Signals />
       <WorkScroll />
       <Products />
       <Stack />

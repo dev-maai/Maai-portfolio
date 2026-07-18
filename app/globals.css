@@ -2134,3 +2134,11 @@ h1.hh-h1.is-pending{font-size:clamp(16px,2vw,22px)!important}
 
 /* MagicBento wrapper spacing in the Outcomes section */
 .outcomes-bento{margin-top:clamp(38px,5vw,60px)}
+
+/* Signals now sits directly under "What we own" as one continuous dark block:
+   force the same evergreen-night palette and pull the top in to close the seam. */
+.signals{
+  --ink:#F7F7F2;--paper:#0A2016;--panel:#0E2A1E;--surface:#143026;--surface-2:#1C3F2E;
+  --pine:#86AB97;--pine-deep:#A7C6B4;--amber:#E62E6B;--amber-soft:#FF7BA3;--sage:#9DB0A4;
+  --line:rgba(247,247,242,.14);--line-dark:rgba(247,247,242,.12);
+  background:var(--panel);padding-top:clamp(18px,2.5vw,40px)}
