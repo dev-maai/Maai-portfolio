@@ -1,4 +1,5 @@
 import ScrollProgress from "./components/ScrollProgress";
+import CursorGrid from "./components/CursorGrid";
 import Nav from "./components/Nav";
 import HeroWalker from "./components/HeroWalker";
 import Tagline from "./components/Tagline";
@@ -37,6 +38,23 @@ export default function Home() {
   return (
     <>
       <ScrollProgress />
+      {/* ambient interactive background — magenta grid lights under the cursor */}
+      <CursorGrid
+        className="cursor-grid--bg"
+        cellSize={62}
+        color="#E62E6B"
+        radius={150}
+        falloff="smooth"
+        holdTime={350}
+        fadeDuration={900}
+        lineWidth={1.1}
+        maxOpacity={0.5}
+        fillOpacity={0}
+        gridOpacity={0}
+        cellRadius={2}
+        clickPulse
+        pulseSpeed={650}
+      />
       <Nav />
       <HeroWalker />
       <Tagline />
