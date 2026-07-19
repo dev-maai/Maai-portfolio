@@ -8,8 +8,8 @@ import { useState, useEffect } from "react";
    reduced-motion safe). */
 const SLIDES = [
   { img: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1000&q=75&auto=format&fit=crop", cap: "Traffic & rankings dashboard" },
-  { img: "https://images.unsplash.com/photo-1611926653458-09294b3142bf?w=1000&q=75&auto=format&fit=crop", cap: "Answer-engine visibility" },
-  { img: "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=1000&q=75&auto=format&fit=crop", cap: "Monthly growth reporting" },
+  { img: "https://images.unsplash.com/photo-1533750349088-cd871a92f312?w=1000&q=75&auto=format&fit=crop", cap: "Answer-engine visibility" },
+  { img: "https://images.unsplash.com/photo-1432888622747-4eb9a8efeb07?w=1000&q=75&auto=format&fit=crop", cap: "Monthly growth reporting" },
   { img: "https://images.unsplash.com/photo-1557804506-669a67965ba0?w=1000&q=75&auto=format&fit=crop", cap: "Keyword & content performance" },
 ];
 

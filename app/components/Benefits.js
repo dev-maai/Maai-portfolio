@@ -25,6 +25,9 @@ export default function Benefits() {
               <p>A live report of everything we did, what it produced, and where we fell short — with the fix already attached. You never chase us for status.</p>
             </div>
           </div>
+          <div className="cta-row reveal">
+            <a className="cta-link" href="#contact">Make the switch to organic <span aria-hidden="true">→</span></a>
+          </div>
         </div>
       </section>
     </>

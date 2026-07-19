@@ -23,7 +23,7 @@ export default function Values() {
             </div>
             <div className="value reveal">
               <div className="value-media"><span className="k">/ 03</span>
-                <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&q=75&auto=format&fit=crop" alt="An analytics dashboard on a screen" loading="lazy" width="600" height="375" /></div>
+                <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&q=75&auto=format&fit=crop" alt="An analytics dashboard on a screen" loading="lazy" width="600" height="375" /></div>
               <div className="value-body"><h3>Grounded in data</h3><p>Psychological nuance is where strategy starts. Data is where every decision gets checked. Nothing goes live on opinion alone.</p></div>
             </div>
             <div className="value reveal">
@@ -31,6 +31,9 @@ export default function Values() {
                 <img src="https://images.unsplash.com/photo-1600880292089-90a7e086ee0c?w=600&q=75&auto=format&fit=crop" alt="Colleagues joining hands over a desk" loading="lazy" width="600" height="375" /></div>
               <div className="value-body"><h3>Cross-functional execution</h3><p>SEO aligned with sales, product, and tech from day one. Content answers the right queries, and every new development is built for how Google and LLMs crawl.</p></div>
             </div>
+          </div>
+          <div className="cta-row reveal">
+            <a className="cta-link" href="#contact">Build a channel that holds <span aria-hidden="true">→</span></a>
           </div>
         </div>
       </section>

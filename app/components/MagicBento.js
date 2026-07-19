@@ -19,28 +19,28 @@ const cardData = [
     label: "Content",
     title: "Content strategy",
     description: "Answering your customers’ questions at every stage of the journey.",
-    img: "https://images.unsplash.com/photo-1487017159836-4e23ece2e4cf?w=900&q=70&auto=format&fit=crop"
+    img: "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=900&q=70&auto=format&fit=crop"
   },
   {
     color: "#0E2A1E",
     label: "AI search",
     title: "Answer engine optimisation",
     description: "Your brand in the answer when AI responds to your buyers.",
-    img: "https://images.unsplash.com/photo-1611926653458-09294b3142bf?w=900&q=70&auto=format&fit=crop"
+    img: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=900&q=70&auto=format&fit=crop"
   },
   {
     color: "#0E2A1E",
     label: "Authority",
     title: "Backlink building",
     description: "Earning references from the sites your buyers already trust — through digital PR, not link farms.",
-    img: "https://images.unsplash.com/photo-1557804506-669a67965ba0?w=1100&q=70&auto=format&fit=crop"
+    img: "https://images.unsplash.com/photo-1519003722824-194d4455a60c?w=1100&q=70&auto=format&fit=crop"
   },
   {
     color: "#0E2A1E",
     label: "Reputation",
     title: "Reputation management",
     description: "Owning what people find when they search your name.",
-    img: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1100&q=70&auto=format&fit=crop"
+    img: "https://images.unsplash.com/photo-1556155092-490a1ba16284?w=1100&q=70&auto=format&fit=crop"
   },
   {
     color: "#0E2A1E",
@@ -54,7 +54,7 @@ const cardData = [
     label: "Reporting",
     title: "Reported monthly",
     description: "Wins, failures, and the fix — in plain English.",
-    img: "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=900&q=70&auto=format&fit=crop"
+    img: "https://images.unsplash.com/photo-1611926653458-09294b3142bf?w=900&q=70&auto=format&fit=crop"
   }
 ];
 

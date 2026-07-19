@@ -351,10 +351,16 @@ export default function SiteEffects() {
         rafId = requestAnimationFrame(raf);
         cleanups.push(() => { cancelAnimationFrame(rafId); lenis.destroy(); });
 
-        document.querySelectorAll('a[href^="#"]').forEach((a) => {
+        document.querySelectorAll('a[href^="#"], a[href^="/#"]').forEach((a) => {
           on(a, "click", (ev) => {
-            const id = a.getAttribute("href");
-            if (id.length > 1) {
+            let id = a.getAttribute("href");
+            /* cross-page anchors (/#section): smooth-scroll only when already on
+               home; otherwise let the browser navigate to the home page. */
+            if (id.startsWith("/#")) {
+              if (location.pathname !== "/") return;
+              id = id.slice(1);
+            }
+            if (id.startsWith("#") && id.length > 1) {
               const target = document.querySelector(id);
               if (target) { ev.preventDefault(); lenis.scrollTo(target, { offset: -72, duration: 1.1 }); }
             }
@@ -454,9 +460,10 @@ export default function SiteEffects() {
         cleanups.push(() => cancelAnimationFrame(rafId));
       }
 
-      /* magnetic buttons */
+      /* magnetic buttons — reserved for the primary (magenta) CTAs; other button
+         variants get their own CSS hover effects (shine / fill / lift). */
       if (finePointer) {
-        document.querySelectorAll(".btn").forEach((btn) => {
+        document.querySelectorAll(".btn.amber").forEach((btn) => {
           const strength = 0.28;
           on(btn, "mousemove", (e) => {
             const r = btn.getBoundingClientRect();

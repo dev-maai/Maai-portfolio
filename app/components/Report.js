@@ -20,6 +20,9 @@ export default function Report() {
               <div className="point"><span className="dot">✓</span><span>Transparency on failures, with a mitigation plan attached.</span></div>
               <div className="point"><span className="dot">✓</span><span>A team that understands your business, not just your keywords.</span></div>
             </div>
+            <div className="cta-row reveal">
+              <a className="cta-link" href="#contact">Get a report like this <span aria-hidden="true">→</span></a>
+            </div>
           </div>
           {/* The growth ledger — visual proof of the transparency promise */}
           <div className="ledger reveal" aria-hidden="true">

@@ -23,6 +23,10 @@ export default function Outcomes() {
             glowColor="230, 46, 107"
           />
         </div>
+        <div className="outcomes-cta reveal">
+          <a className="btn contrast" href="#contact">Put these outcomes to work</a>
+          <a className="cta-link" href="#selected-work">See the receipts <span aria-hidden="true">→</span></a>
+        </div>
       </div>
     </section>
   );

@@ -14,21 +14,21 @@ const PILLARS = [
     title: "The plan built from your business, not the search box.",
     body: "Every engagement starts with an industry deep dive, an audience and culture read, and a data-grounded map of where organic growth can actually move revenue. A commercial roadmap aligned with sales, product and tech from day one.",
     items: ["Industry deep dive", "Audience research", "Growth roadmap", "Cross-team alignment"],
-    img: "https://images.unsplash.com/photo-1543286386-2e659306cd6c?w=1100&q=72&auto=format&fit=crop",
+    img: "https://images.unsplash.com/photo-1552664730-d307ca884978?w=1100&q=72&auto=format&fit=crop",
   },
   {
     n: "02", tag: "Content",
     title: "Written for the person on the other side of the screen.",
     body: "Content architecture, technical SEO foundations, and copy structured for how your buyers think, speak and search. Every surface your customers use is covered, from Google to Gemini to ChatGPT — built to hold through algorithm shifts because it is grounded in customer intent.",
     items: ["Content architecture", "Technical SEO", "AI search", "Digital PR"],
-    img: "https://images.unsplash.com/photo-1487017159836-4e23ece2e4cf?w=1100&q=72&auto=format&fit=crop",
+    img: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1100&q=72&auto=format&fit=crop",
   },
   {
     n: "03", tag: "Performance",
     title: "Live reporting. Nothing hidden.",
     body: "Every engagement runs on transparent monthly reporting: growth, failures, root causes, and what we are changing next. Documented playbooks the team can inspect. If you ever want to take the work in-house, the system moves with you.",
     items: ["Monthly reports", "Attribution", "Documented SOPs", "CRO"],
-    img: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1100&q=72&auto=format&fit=crop",
+    img: "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=1100&q=72&auto=format&fit=crop",
   },
 ];
 
@@ -112,6 +112,11 @@ export default function WhatWeOwn() {
             ))}
           </div>
         </div>
+      </div>
+
+      <div className="wrap wwo-cta reveal">
+        <a className="btn contrast" href="#accountability">See how we report</a>
+        <a className="cta-link" href="#contact">Get a plan built from your business <span aria-hidden="true">→</span></a>
       </div>
     </section>
   );

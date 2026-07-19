@@ -13,6 +13,7 @@ export default function WorkScroll() {
             <div className="work-head-right">
               <LedgerMark className="work-head-mark" />
               <p className="sub">Two clients. Real numbers. No omitted context.</p>
+              <a className="cta-link" href="#contact">Get results like these <span aria-hidden="true">→</span></a>
               <span className="hint">Scroll ↓ to move →</span>
             </div>
           </div>
@@ -20,7 +21,7 @@ export default function WorkScroll() {
             <div className="work-panel">
               {/* PLACEHOLDER image — swap for real Anglo Pacific creative */}
               <div className="case c-slate four-up">
-                <div className="case-media"><img src="https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?w=1100&q=72&auto=format&fit=crop" alt="" loading="lazy" /></div>
+                <div className="case-media"><img src="https://images.unsplash.com/photo-1526378722484-bd91ca387e72?w=1100&q=72&auto=format&fit=crop" alt="" loading="lazy" /></div>
                 <span className="idx">01</span>
                 <div className="brandmark">A</div>
                 <div className="case-body">
@@ -41,7 +42,7 @@ export default function WorkScroll() {
             <div className="work-panel">
               {/* PLACEHOLDER image — swap for real Pickfords creative */}
               <div className="case c-clay four-up">
-                <div className="case-media"><img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1100&q=72&auto=format&fit=crop" alt="" loading="lazy" /></div>
+                <div className="case-media"><img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1100&q=72&auto=format&fit=crop" alt="" loading="lazy" /></div>
                 <span className="idx">02</span>
                 <div className="brandmark">P</div>
                 <div className="case-body">

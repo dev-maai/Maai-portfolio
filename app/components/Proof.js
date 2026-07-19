@@ -8,6 +8,7 @@ export default function Proof() {
               <p className="eyebrow reveal">Proof, not promises</p>
               <h2 className="reveal">Results our clients put their name to.</h2>
             </div>
+            <a className="cta-link reveal" href="#contact">Add your name to this list <span aria-hidden="true">→</span></a>
           </div>
       
           <div className="proof-grid">

@@ -6,6 +6,7 @@ export default function Tagline() {
     <section className="tagline-band tagline-light" aria-label="Tagline">
       <div className="wrap">
         <p className="tagline">Organic Growth. Compounded.</p>
+        <a className="btn amber tagline-cta" href="#contact">Start compounding</a>
       </div>
     </section>
   );

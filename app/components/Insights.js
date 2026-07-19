@@ -12,7 +12,7 @@ export default function Insights() {
           </div>
           <div className="insights-grid">
             <a className="post reveal" href="#insights">
-              <div className="post-media"><img src="https://images.unsplash.com/photo-1526378722484-bd91ca387e72?w=640&h=420&q=72&auto=format&fit=crop" alt="A sticky note reading A.I." loading="lazy" width="640" height="420" /></div>
+              <div className="post-media"><img src="https://images.unsplash.com/photo-1487017159836-4e23ece2e4cf?w=640&h=420&q=72&auto=format&fit=crop" alt="A sticky note reading A.I." loading="lazy" width="640" height="420" /></div>
               <div className="post-body">
                 <span className="cat">AEO / LLM SEO</span>
                 <h3>The AEO playbook: how to get cited by ChatGPT &amp; Perplexity</h3>
@@ -20,7 +20,7 @@ export default function Insights() {
               </div>
             </a>
             <a className="post reveal" href="#insights">
-              <div className="post-media"><img src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=640&h=420&q=72&auto=format&fit=crop" alt="A laptop and notebook on a desk" loading="lazy" width="640" height="420" /></div>
+              <div className="post-media"><img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=640&h=420&q=72&auto=format&fit=crop" alt="A laptop and notebook on a desk" loading="lazy" width="640" height="420" /></div>
               <div className="post-body">
                 <span className="cat">Strategy</span>
                 <h3>Why organic keeps compounding after the paid budget stops</h3>
@@ -28,7 +28,7 @@ export default function Insights() {
               </div>
             </a>
             <a className="post reveal" href="#insights">
-              <div className="post-media"><img src="https://images.unsplash.com/photo-1611926653458-09294b3142bf?w=640&h=420&q=72&auto=format&fit=crop" alt="Social app icons on a phone" loading="lazy" width="640" height="420" /></div>
+              <div className="post-media"><img src="https://images.unsplash.com/photo-1497215728101-856f4ea42174?w=640&h=420&q=72&auto=format&fit=crop" alt="Social app icons on a phone" loading="lazy" width="640" height="420" /></div>
               <div className="post-body">
                 <span className="cat">Distribution</span>
                 <h3>Social signals that quietly feed your search demand</h3>

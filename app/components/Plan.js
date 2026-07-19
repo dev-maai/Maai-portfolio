@@ -8,7 +8,7 @@ export default function Plan() {
           <p className="plan-lede reveal">Every engagement opens with a diagnosis and a dated plan — owned by named specialists, not a shared inbox.</p>
       
           <div className="plan-card reveal">
-            <img className="plan-bg" src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1000&q=70&auto=format&fit=crop" alt="" loading="lazy" />
+            <img className="plan-bg" src="https://images.unsplash.com/photo-1517180102446-f3ece451e9d8?w=1000&q=70&auto=format&fit=crop" alt="" loading="lazy" />
             <div className="plan-inner">
               <h3>Address your answer-engine gaps</h3>
               <p>Low citation share detected across AI answers. The plan below targets what you can actually change.</p>
@@ -23,9 +23,9 @@ export default function Plan() {
               </div>
       
               <ul className="plan-list">
-                <li><span className="pi"><img src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=120&q=60&auto=format&fit=crop" alt="" loading="lazy" /></span>Rebuild 3 clusters around comparison intent</li>
-                <li><span className="pi"><img src="https://images.unsplash.com/photo-1526378722484-bd91ca387e72?w=120&q=60&auto=format&fit=crop" alt="" loading="lazy" /></span>Earn 12 citations across ChatGPT &amp; Perplexity</li>
-                <li><span className="pi"><img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=120&q=60&auto=format&fit=crop" alt="" loading="lazy" /></span>Re-measure and report in 12 weeks</li>
+                <li><span className="pi"><img src="https://images.unsplash.com/photo-1518186285589-2f7649de83e0?w=120&q=60&auto=format&fit=crop" alt="" loading="lazy" /></span>Rebuild 3 clusters around comparison intent</li>
+                <li><span className="pi"><img src="https://images.unsplash.com/photo-1553877522-43269d4ea984?w=120&q=60&auto=format&fit=crop" alt="" loading="lazy" /></span>Earn 12 citations across ChatGPT &amp; Perplexity</li>
+                <li><span className="pi"><img src="https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=120&q=60&auto=format&fit=crop" alt="" loading="lazy" /></span>Re-measure and report in 12 weeks</li>
               </ul>
             </div>
           </div>
