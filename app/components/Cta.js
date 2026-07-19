@@ -24,6 +24,9 @@ export default function Cta() {
             Book a strategy call
           </InteractiveHoverButton>
         </div>
+        <p className="cta-alt reveal">
+          Not ready to talk yet? <a href="/fit-check">Take the 60-second fit check</a> — one honest answer, no pitch.
+        </p>
       </div>
     </section>
   );

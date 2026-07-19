@@ -4,7 +4,7 @@ import CurvedLoop from "./CurvedLoop";
 export default function Interlude() {
   return (
     <section className="interlude-curve" aria-label="The work is doing the work">
-      <CurvedLoop text="The work is doing the work" repeat={6} dur={24} />
+      <CurvedLoop text="The work is doing the work" repeat={6} dur={11} />
     </section>
   );
 }

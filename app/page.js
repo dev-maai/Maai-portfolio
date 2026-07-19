@@ -16,12 +16,12 @@ import WorkScroll from "./components/WorkScroll";
 import Products from "./components/Products";
 import Stack from "./components/Stack";
 import Report from "./components/Report";
+import SignalsBanner from "./components/SignalsBanner";
 import Plan from "./components/Plan";
 import Results from "./components/Results";
 import Impact from "./components/Impact";
 import Faq from "./components/Faq";
 import Proof from "./components/Proof";
-import Fit from "./components/Fit";
 import Cta from "./components/Cta";
 import Footer from "./components/Footer";
 import SiteEffects from "./components/SiteEffects";
@@ -52,12 +52,12 @@ export default function Home() {
       <Products />
       <Stack />
       <Report />
+      <SignalsBanner />
       <Plan />
       <Results />
       <Impact />
       <Faq />
       <Proof />
-      <Fit />
       <Cta />
       <Footer />
       <SiteEffects />

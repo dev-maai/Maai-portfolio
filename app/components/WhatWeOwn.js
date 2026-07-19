@@ -116,7 +116,7 @@ export default function WhatWeOwn() {
 
       <div className="wrap wwo-cta reveal">
         <a className="btn contrast" href="#accountability">See how we report</a>
-        <a className="cta-link" href="#contact">Get a plan built from your business <span aria-hidden="true">→</span></a>
+        <a className="cta-link" href="/fit-check">Get a plan built from your business <span aria-hidden="true">→</span></a>
       </div>
     </section>
   );

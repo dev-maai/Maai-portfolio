@@ -28,7 +28,7 @@ export default function Benefits() {
             </div>
           </div>
           <div className="cta-row reveal">
-            <a className="cta-link" href="#contact">Make the switch to organic <span aria-hidden="true">→</span></a>
+            <a className="cta-link" href="/fit-check">See if organic is right for you <span aria-hidden="true">→</span></a>
           </div>
         </div>
       </section>
