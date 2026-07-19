@@ -1,4 +1,5 @@
 import { Monogram } from "./Brand";
+import { CONTACT_EMAIL, mailtoHref } from "../lib/contact";
 
 export default function Footer() {
   return (
@@ -24,7 +25,7 @@ export default function Footer() {
             </div>
             <div>
               <h4>Contact</h4>
-              <ul><li><a href="mailto:hello@maai.agency">hello@maai.agency</a></li><li><a href="#">LinkedIn</a></li></ul>
+              <ul><li><a href={mailtoHref("general")}>{CONTACT_EMAIL}</a></li><li><a href="#">LinkedIn</a></li></ul>
             </div>
           </div>
           <div className="footer-bottom">
