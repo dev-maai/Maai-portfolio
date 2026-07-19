@@ -1,16 +1,79 @@
+"use client";
+
+/* Tubelight navbar — original build (inspired by the tubelight-navbar pattern),
+   rethemed to MAAI: a magenta "lamp" bar with a soft glow sits over the active
+   item and slides between items via a shared layout animation. Active follows the
+   hovered item, and otherwise the section currently in view (scroll-spy), or the
+   route on /team. */
+import { useEffect, useState } from "react";
+import { motion } from "framer-motion";
+
+const LINKS = [
+  { label: "Why organic", href: "/#thesis", id: "thesis" },
+  { label: "Services", href: "/#services", id: "services" },
+  { label: "Work", href: "/#selected-work", id: "selected-work" },
+  { label: "Team", href: "/team", id: "__team" },
+  { label: "Accountability", href: "/#accountability", id: "accountability" },
+  { label: "FAQ", href: "/#faq", id: "faq" },
+];
+
 export default function Nav() {
+  const [hover, setHover] = useState(null);
+  const [spy, setSpy] = useState(null);
+
+  useEffect(() => {
+    if (window.location.pathname.startsWith("/team")) {
+      setSpy(LINKS.findIndex((l) => l.id === "__team"));
+      return;
+    }
+    const map = new Map();
+    LINKS.forEach((l, i) => {
+      const el = document.getElementById(l.id);
+      if (el) map.set(el, i);
+    });
+    if (!map.size) return;
+    const io = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((e) => {
+          if (e.isIntersecting && map.has(e.target)) setSpy(map.get(e.target));
+        });
+      },
+      { rootMargin: "-45% 0px -50% 0px", threshold: 0 }
+    );
+    map.forEach((_, el) => io.observe(el));
+    return () => io.disconnect();
+  }, []);
+
+  const active = hover != null ? hover : spy;
+
   return (
     <>
       <header className="nav">
         <div className="wrap nav-inner">
           <a className="logo" href="/" aria-label="MAAI home">ma<span className="ai">ai</span></a>
-          <nav className="nav-links" id="navmenu">
-            <a href="/#thesis">Why organic</a>
-            <a href="/#services">Services</a>
-            <a href="/#selected-work">Work</a>
-            <a href="/team">Team</a>
-            <a href="/#accountability">Accountability</a>
-            <a href="/#faq">FAQ</a>
+          <nav className="nav-links tube-nav" id="navmenu" onMouseLeave={() => setHover(null)}>
+            {LINKS.map((l, i) => (
+              <a
+                key={l.href}
+                href={l.href}
+                className={`tube-item${active === i ? " on" : ""}`}
+                aria-current={active === i ? "page" : undefined}
+                onMouseEnter={() => setHover(i)}
+              >
+                {active === i && (
+                  <motion.span
+                    layoutId="tubelight"
+                    className="tube-ind"
+                    aria-hidden="true"
+                    transition={{ type: "spring", stiffness: 400, damping: 32 }}
+                  >
+                    <span className="tube-bar" />
+                    <span className="tube-halo" />
+                  </motion.span>
+                )}
+                <span className="tube-label">{l.label}</span>
+              </a>
+            ))}
             <a className="btn amber nav-cta-m" href="/#contact">Book a strategy call</a>
           </nav>
           <div className="nav-right">
