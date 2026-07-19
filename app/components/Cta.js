@@ -9,7 +9,7 @@ export default function Cta() {
       <div className="wrap cta-inner">
         <p className="kicker reveal">Ready when you are</p>
         <h2 className="reveal">
-          Be the answer in{" "}
+          Be the answer in<br />
           <Typewriter
             className="cta-tw"
             words={["Google", "ChatGPT", "Perplexity", "AI Overviews", "every answer"]}

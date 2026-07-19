@@ -2332,3 +2332,50 @@ h1.hh-h1.is-pending{font-size:clamp(16px,2vw,22px)!important}
   .pb-pulse{animation:none;opacity:.4}
   .ihb-dot,.ihb-label,.ihb-hover{transition:none}
 }
+
+/* ============================================================
+   REACTBITS-STYLE ELEMENTS (original builds): rotating text,
+   curved loop, card swap, chapter scrubber
+   ============================================================ */
+
+/* --- RotatingText --- */
+.rotating-text{position:relative;display:inline-flex;overflow:hidden;vertical-align:bottom;line-height:1.05}
+.rt-word{display:inline-block;white-space:nowrap;color:var(--amber)}
+
+/* --- CurvedLoop --- */
+.curved-loop{width:100%;overflow:hidden;line-height:0}
+.curved-loop svg{width:100%;height:clamp(120px,17vw,210px);display:block}
+.cl-text{font-family:var(--font-display);font-weight:800;letter-spacing:-.01em;font-size:62px;
+  fill:none;stroke:color-mix(in srgb,var(--sage) 85%, transparent);stroke-width:1.2;paint-order:stroke}
+
+/* --- CardSwap --- */
+.card-swap{position:relative;width:100%;max-width:360px;margin:0 auto;aspect-ratio:4/3.3}
+.cs-card{position:absolute;inset:0;border-radius:18px;overflow:hidden;transform-origin:center;
+  background:var(--surface);border:1px solid var(--line);
+  box-shadow:0 30px 60px -30px rgba(0,0,0,.5);will-change:transform}
+.cs-result{display:flex;flex-direction:column;justify-content:space-between;height:100%;padding:26px 24px;
+  background:linear-gradient(155deg, var(--surface), var(--panel))}
+.cs-result .cs-tag{font-family:var(--font-mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--amber)}
+.cs-result .cs-stat{font-family:var(--font-display);font-weight:700;font-size:clamp(40px,4.6vw,58px);
+  color:var(--ink);line-height:1;margin-top:auto}
+.cs-result .cs-label{font-size:14px;color:var(--sage);margin-top:8px;max-width:26ch}
+.cs-result .cs-client{margin-top:16px;font-family:var(--font-mono);font-size:11px;letter-spacing:.08em;
+  text-transform:uppercase;color:var(--pine)}
+
+/* --- ChapterScrubber --- */
+.chapter-scrubber{position:fixed;right:20px;top:50%;transform:translateY(-50%);z-index:55;
+  display:flex;flex-direction:column;gap:13px;align-items:flex-end}
+.csb-chip{display:flex;align-items:center;gap:10px;color:var(--sage);text-decoration:none;cursor:pointer}
+.csb-label{font-family:var(--font-mono);font-size:11px;letter-spacing:.05em;white-space:nowrap;
+  opacity:0;transform:translateX(6px);transition:opacity .25s var(--ease),transform .25s var(--ease),color .25s}
+.csb-tick{width:22px;height:2px;border-radius:2px;background:currentColor;opacity:.45;flex:none;
+  transition:width .25s var(--ease),opacity .25s}
+.csb-chip:hover{color:var(--ink)}
+.csb-chip:hover .csb-label{opacity:.9;transform:none}
+.csb-chip.on{color:var(--amber)}
+.csb-chip.on .csb-label{opacity:1;transform:none}
+.csb-chip.on .csb-tick{width:36px;opacity:1;box-shadow:0 0 10px color-mix(in srgb,var(--amber) 55%,transparent)}
+@media(max-width:1160px){.chapter-scrubber{display:none}}
+
+/* the curved-loop band sits where the Interlude was */
+.interlude-curve{padding:clamp(28px,4.5vw,64px) 0;overflow:hidden}

@@ -1,4 +1,5 @@
 import ScrollProgress from "./components/ScrollProgress";
+import ChapterScrubber from "./components/ChapterScrubber";
 import Nav from "./components/Nav";
 import HeroWalker from "./components/HeroWalker";
 import Tagline from "./components/Tagline";
@@ -34,6 +35,7 @@ export default function Home() {
   return (
     <>
       <ScrollProgress />
+      <ChapterScrubber />
       <Nav />
       <HeroWalker />
       <Tagline />

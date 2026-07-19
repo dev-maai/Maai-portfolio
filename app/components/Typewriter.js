@@ -44,7 +44,7 @@ export default function Typewriter({
 
   return (
     <span className={`typewriter ${className}`}>
-      <span className="tw-text" aria-hidden="true">{text || words[0]}</span>
+      <span className="tw-text" aria-hidden="true">{text}</span>
       <span className="tw-caret" aria-hidden="true" />
       <span className="sr-only">{words.join(", ")}</span>
     </span>
