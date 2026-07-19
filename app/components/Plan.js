@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import SignalFlow from "./SignalFlow";
 
 const PHASES = [
   {
@@ -42,6 +43,7 @@ export default function Plan() {
 
   return (
     <section className="plan" id="plan">
+      <SignalFlow className="signalflow-sec" lines={5} speed={0.9} reactivity={1} glow={0.9} alpha={0.5} />
       <div className="wrap">
         <span className="pill reveal"><i></i>Your first 90 days</span>
         <h2 className="reveal">A plan you can actually see.</h2>

@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect, useRef } from "react";
+import SignalFlow from "./SignalFlow";
 
 /* "01 / What we own" — the project's highlight, rebuilt as a dual-axis showcase:
    a VERTICAL stepper (each pillar expands vertically, with an auto-advance progress
@@ -51,6 +52,7 @@ export default function WhatWeOwn() {
 
   return (
     <section className="wwo dark" id="services" ref={rootRef} aria-label="What we own">
+      <SignalFlow className="signalflow-sec" lines={5} speed={0.9} reactivity={1} alpha={0.55} />
       <div className="wrap wwo-head">
         <p className="kicker reveal">01 / What we own</p>
         <h2 className="reveal">The work MAAI is accountable for.</h2>

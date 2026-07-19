@@ -8,7 +8,7 @@ export default function Benefits() {
         <div className="wrap">
           <div className="benefits-head">
             <p className="eyebrow reveal">Why teams switch to us</p>
-            <h2 className="reveal">More signal. Less <RotatingText words={["spend.", "waste.", "noise.", "guesswork."]} /></h2>
+            <h2 className="reveal">More signal.<br /><span className="sw-line">Less <RotatingText words={["spend.", "waste.", "noise.", "guesswork."]} /></span></h2>
           </div>
           <div className="benefits-grid">
             <div className="benefit reveal">

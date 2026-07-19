@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import SignalFlow from "./SignalFlow";
 
 /* Walker-Sands-style hero (original build, MAAI palette): rounded evergreen panel,
    a giant headline bleeding off the bottom, and — in place of the earlier blobs —
@@ -30,6 +31,7 @@ export default function HeroWalker() {
   return (
     <section className="hero-ws" id="top" aria-label="Intro">
       <div className="hws-panel">
+        <SignalFlow className="signalflow-hero" lines={6} speed={1.1} reactivity={1.2} glow={1.1} />
         <div className="hws-row">
           <div className="hws-top">
             <p className="kicker">SEO agency for global B2B</p>

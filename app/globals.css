@@ -2578,3 +2578,52 @@ h1.hh-h1.is-pending{font-size:clamp(16px,2vw,22px)!important}
   .q90-body{grid-template-columns:1fr}
   .q90-grid{grid-template-columns:repeat(10,1fr)}
 }
+
+/* ============================================================
+   RANKING-FIELD BACKGROUND — the logo's "bars as search results,
+   magenta tip = position one" motif, animated. Decorative only.
+   ============================================================ */
+.rankfield{position:absolute;inset:0;z-index:0;overflow:hidden;pointer-events:none;
+  display:flex;flex-direction:column;justify-content:center;gap:clamp(9px,1.7vw,20px);
+  padding:5% clamp(20px,5vw,64px)}
+.rankfield-bar{position:relative;height:clamp(7px,1vw,12px);width:var(--w);max-width:640px;
+  border-radius:999px;background:color-mix(in srgb,var(--pine) 30%,transparent);
+  transform-origin:left center;transform:scaleX(.35);opacity:.26;will-change:transform,opacity;
+  animation:rankGrow 7.5s var(--ease) infinite;animation-delay:var(--d)}
+.rankfield-tip{position:absolute;right:0;top:0;bottom:0;width:16%;max-width:64px;border-radius:999px;
+  background:linear-gradient(90deg,transparent,var(--amber));opacity:0}
+.rankfield-bar.lead .rankfield-tip{animation:rankTip 7.5s var(--ease) infinite;animation-delay:var(--d)}
+@keyframes rankGrow{
+  0%{transform:scaleX(.35);opacity:.22}
+  42%{transform:scaleX(1);opacity:.5}
+  70%{transform:scaleX(1);opacity:.5}
+  100%{transform:scaleX(.35);opacity:.22}
+}
+@keyframes rankTip{0%,38%{opacity:0}52%,66%{opacity:.95}82%,100%{opacity:0}}
+
+/* placement tuning */
+.rankfield-hero{opacity:.9}
+.rankfield-cta{opacity:1}
+.rankfield-cta .rankfield-bar{background:color-mix(in srgb,var(--pine) 26%,transparent)}
+
+@media(prefers-reduced-motion:reduce){
+  .rankfield-bar{animation:none;transform:scaleX(1);opacity:.2}
+  .rankfield-bar.lead .rankfield-tip{animation:none;opacity:.7}
+}
+
+/* interactive cursor-reactive ranking grid canvas (replaces the static rankfield
+   in the hero + CTA — the CursorGrid feel, drawn as SERP ranking bars) */
+.rankgrid{position:absolute;inset:0;z-index:0;display:block;width:100%;height:100%;pointer-events:none}
+
+/* SignalFlow — flowing signal lines + magenta position-one dot (line & dot motif) */
+.signalflow{position:absolute;inset:0;z-index:0;display:block;width:100%;height:100%;pointer-events:none;
+  -webkit-mask-image:linear-gradient(180deg,transparent,#000 14%,#000 86%,transparent);
+          mask-image:linear-gradient(180deg,transparent,#000 14%,#000 86%,transparent)}
+
+/* host the SignalFlow canvas behind What-we-own content */
+.wwo{position:relative}
+.wwo>.wrap{position:relative;z-index:1}
+
+/* Benefits heading: keep the rotating word on its own line ("Less spend.") so the
+   changing word width never flips the heading between one and two lines */
+.benefits-head h2 .sw-line{white-space:nowrap}

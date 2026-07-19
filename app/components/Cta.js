@@ -1,11 +1,11 @@
 import Typewriter from "./Typewriter";
 import InteractiveHoverButton from "./InteractiveHoverButton";
-import PulseBeams from "./PulseBeams";
+import SignalFlow from "./SignalFlow";
 
 export default function Cta() {
   return (
     <section className="cta-final" id="contact">
-      <PulseBeams />
+      <SignalFlow className="signalflow-cta" lines={6} speed={1} reactivity={1.15} glow={1.25} />
       <div className="wrap cta-inner">
         <p className="kicker reveal">Ready when you are</p>
         <h2 className="reveal">
