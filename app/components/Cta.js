@@ -1,5 +1,5 @@
 import Typewriter from "./Typewriter";
-import InteractiveHoverButton from "./InteractiveHoverButton";
+import LightButton from "./LightButton";
 import SignalFlow from "./SignalFlow";
 
 export default function Cta() {
@@ -20,9 +20,9 @@ export default function Cta() {
           Google and the answer engines today — and what compounding from here looks like.
         </p>
         <div className="cta-final-actions reveal">
-          <InteractiveHoverButton href="mailto:hello@maai.agency">
+          <LightButton href="mailto:hello@maai.agency">
             Book a strategy call
-          </InteractiveHoverButton>
+          </LightButton>
         </div>
         <p className="cta-alt reveal">
           Not ready to talk yet? <a href="/fit-check">Take the 60-second fit check</a> — one honest answer, no pitch.

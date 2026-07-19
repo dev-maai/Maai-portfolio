@@ -2627,3 +2627,32 @@ h1.hh-h1.is-pending{font-size:clamp(16px,2vw,22px)!important}
 /* Benefits heading: keep the rotating word on its own line ("Less spend.") so the
    changing word width never flips the heading between one and two lines */
 .benefits-head h2 .sw-line{white-space:nowrap}
+
+/* ============================================================
+   LIGHT BUTTON (final CTA) — Uiverse light-button, rethemed to MAAI:
+   evergreen pill + magenta Bindu dot + magenta "single-stroke" beam on hover
+   ============================================================ */
+.light-button{display:inline-block;line-height:0}
+.light-button .bt{position:relative;height:124px;display:flex;align-items:flex-end;justify-content:center;
+  background:none;border:none;cursor:pointer}
+.light-button .lb-holder{position:relative;z-index:1;display:inline-flex;align-items:center;gap:11px;
+  height:58px;padding:0 30px;border-radius:999px;background:var(--surface);
+  color:var(--ink);font-family:var(--font-display);font-weight:600;font-size:16px;letter-spacing:.005em;
+  white-space:nowrap;outline:2px solid var(--line);outline-offset:2px;transition:300ms}
+.light-button .lb-holder svg{height:19px;width:19px;fill:none;stroke:currentColor;transition:300ms}
+.light-button .lb-light-holder{position:absolute;top:0;left:50%;transform:translateX(-50%);
+  height:124px;display:flex;flex-direction:column;align-items:center;pointer-events:none}
+.light-button .lb-dot{position:absolute;top:0;left:50%;transform:translateX(-50%);width:9px;height:9px;
+  background:var(--amber);border-radius:50%;z-index:2;
+  box-shadow:0 0 10px 1px color-mix(in srgb,var(--amber) 80%,transparent)}
+.light-button .lb-light{position:absolute;top:0;left:50%;transform:translateX(-50%);width:250px;height:124px;
+  clip-path:polygon(50% 0%,25% 100%,75% 100%);background:transparent;transition:300ms}
+.light-button .bt:hover .lb-holder{color:var(--amber-soft);outline-color:var(--amber);outline-offset:5px;
+  box-shadow:0 0 34px -6px color-mix(in srgb,var(--amber) 60%,transparent)}
+.light-button .bt:hover .lb-holder svg{transform:translateX(3px)}
+.light-button .bt:hover .lb-light{background:linear-gradient(180deg,
+  color-mix(in srgb,var(--amber) 82%,transparent) 0%,
+  color-mix(in srgb,var(--amber) 10%,transparent) 55%,
+  transparent 78%)}
+.light-button:focus-visible .lb-holder,.light-button .bt:focus-visible .lb-holder{outline-color:var(--amber);outline-offset:5px}
+@media(prefers-reduced-motion:reduce){.light-button .lb-holder,.light-button .lb-light,.light-button .lb-holder svg{transition:none}}
