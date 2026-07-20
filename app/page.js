@@ -3,7 +3,6 @@ import ChapterScrubber from "./components/ChapterScrubber";
 import Nav from "./components/Nav";
 import HeroWalker from "./components/HeroWalker";
 import Tagline from "./components/Tagline";
-import MarqueeSection from "./components/MarqueeSection";
 import Thesis from "./components/Thesis";
 import Gallery from "./components/Gallery";
 import Benefits from "./components/Benefits";
@@ -39,7 +38,6 @@ export default function Home() {
       <Nav />
       <HeroWalker />
       <Tagline />
-      <MarqueeSection />
       <Thesis />
       <Gallery />
       <Benefits />
