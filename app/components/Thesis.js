@@ -1,4 +1,5 @@
 import Timeline3D from "./Timeline3D";
+import SignalFlow from "./SignalFlow";
 
 /* Why organic — the era shift shown through the 3D interactive timeline
    (adapted React-Bits component, themed to MAAI). "Today" is the accent event. */
@@ -37,6 +38,7 @@ const ERAS = [
 export default function Thesis() {
   return (
     <section className="thesis-tl" id="thesis" aria-label="Why organic">
+      <SignalFlow className="signalflow-sec" lines={4} speed={0.85} reactivity={0.9} glow={0.9} alpha={0.5} />
       <div className="wrap thesis-tl-head">
         <p className="kicker reveal">Why organic</p>
         <h2 className="reveal">Don&apos;t buy leads. <span className="mark">Be the answer.</span></h2>
@@ -50,7 +52,7 @@ export default function Thesis() {
         </div>
       </div>
 
-      <Timeline3D events={ERAS} />
+      <Timeline3D events={ERAS} defaultActiveId="today" />
     </section>
   );
 }

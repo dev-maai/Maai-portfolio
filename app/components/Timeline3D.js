@@ -10,7 +10,7 @@ import { motion, useAnimation, useReducedMotion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import "./Timeline3D.css";
 
-function TimelineEventCard({ event, index, mouseX, mouseY, activeEvent, setActiveEvent, reduce }) {
+function TimelineEventCard({ event, index, mouseX, mouseY, activeEvent, setActiveEvent, reduce, defaultId }) {
   const [ref, inView] = useInView({ threshold: 0.3, triggerOnce: false });
   const controls = useAnimation();
 
@@ -65,7 +65,7 @@ function TimelineEventCard({ event, index, mouseX, mouseY, activeEvent, setActiv
         whileHover={reduce ? undefined : { boxShadow: "0 44px 90px -34px rgba(0,0,0,.72)", transition: { duration: 0.3 } }}
         style={{ transform: tilt }}
         onMouseEnter={() => setActiveEvent(event.id)}
-        onMouseLeave={() => setActiveEvent(null)}
+        onMouseLeave={() => setActiveEvent(defaultId)}
       >
         {event.image && (
           <div className="tl3-media">
@@ -120,8 +120,11 @@ function TimelineEventCard({ event, index, mouseX, mouseY, activeEvent, setActiv
   );
 }
 
-export default function Timeline3D({ events }) {
-  const [activeEvent, setActiveEvent] = useState(null);
+export default function Timeline3D({ events, defaultActiveId }) {
+  /* one event stays open by default (the accent era) and is restored when the
+     pointer leaves a card, so the section never collapses to all-closed */
+  const defaultId = defaultActiveId ?? events.find((e) => e.accent)?.id ?? null;
+  const [activeEvent, setActiveEvent] = useState(defaultId);
   const [mouse, setMouse] = useState({ x: 0, y: 0 });
   const containerRef = useRef(null);
   const reduce = useReducedMotion();
@@ -169,6 +172,7 @@ export default function Timeline3D({ events }) {
             activeEvent={activeEvent}
             setActiveEvent={setActiveEvent}
             reduce={reduce}
+            defaultId={defaultId}
           />
         ))}
       </div>

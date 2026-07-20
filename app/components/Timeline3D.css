@@ -9,7 +9,7 @@
   background:var(--panel);color:var(--ink);
   padding:clamp(72px,9vw,130px) 0 clamp(48px,7vw,96px);position:relative;overflow:hidden}
 
-.thesis-tl-head{max-width:820px;margin:0 auto;text-align:center}
+.thesis-tl-head{max-width:820px;margin:0 auto;text-align:center;position:relative;z-index:1}
 .thesis-tl-head .kicker{justify-content:center;margin-bottom:16px}
 .thesis-tl-head h2{font-size:clamp(34px,5vw,66px);line-height:1.03;letter-spacing:-.03em;font-weight:700}
 .thesis-tl-head h2 .mark{
@@ -19,7 +19,7 @@
 .thesis-tl-head .cta-row{margin-top:24px;justify-content:center}
 
 /* ---- the timeline ---- */
-.tl3{position:relative;padding-top:clamp(48px,6vw,84px)}
+.tl3{position:relative;z-index:1;padding-top:clamp(48px,6vw,84px)}
 .tl3-spheres{position:absolute;inset:0;overflow:hidden;pointer-events:none;z-index:0}
 .tl3-sphere{position:absolute;top:0;left:0;border-radius:50%;filter:blur(8px);opacity:.2}
 .tl3-sphere.a{background:var(--pine)}
