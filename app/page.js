@@ -3,8 +3,7 @@ import Nav from "./components/Nav";
 import HeroWalker from "./components/HeroWalker";
 import Tagline from "./components/Tagline";
 import Thesis from "./components/Thesis";
-import Gallery from "./components/Gallery";
-import Benefits from "./components/Benefits";
+import SignalsBanner from "./components/SignalsBanner";
 import WhatWeOwn from "./components/WhatWeOwn";
 import Outcomes from "./components/Outcomes";
 import Interlude from "./components/Interlude";
@@ -14,7 +13,6 @@ import WorkScroll from "./components/WorkScroll";
 import Products from "./components/Products";
 import Stack from "./components/Stack";
 import Report from "./components/Report";
-import SignalsBanner from "./components/SignalsBanner";
 import Plan from "./components/Plan";
 import Results from "./components/Results";
 import Impact from "./components/Impact";
@@ -37,8 +35,7 @@ export default function Home() {
       <HeroWalker />
       <Tagline />
       <Thesis />
-      <Gallery />
-      <Benefits />
+      <SignalsBanner />
       <WhatWeOwn />
       <Signals />
       <Outcomes />
@@ -48,7 +45,6 @@ export default function Home() {
       <Products />
       <Stack />
       <Report />
-      <SignalsBanner />
       <Plan />
       <Results />
       <Impact />
