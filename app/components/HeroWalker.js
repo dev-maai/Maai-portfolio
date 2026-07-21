@@ -41,7 +41,7 @@ export default function HeroWalker() {
             </p>
             <div className="hero-ctas">
               <a className="btn amber" href="#contact">Book a strategy call</a>
-              <a className="btn ghost" href="#work">See how we work</a>
+              <a className="btn ghost" href="#values">See how we work</a>
             </div>
           </div>
 

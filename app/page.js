@@ -8,14 +8,8 @@ import InvestStats from "./components/InvestStats";
 import Outcomes from "./components/Outcomes";
 import Values from "./components/Values";
 import Signals from "./components/Signals";
-import WorkScroll from "./components/WorkScroll";
-import Products from "./components/Products";
 import Stack from "./components/Stack";
-import Report from "./components/Report";
 import Plan from "./components/Plan";
-import Results from "./components/Results";
-import Impact from "./components/Impact";
-import Faq from "./components/Faq";
 import Proof from "./components/Proof";
 import Cta from "./components/Cta";
 import Footer from "./components/Footer";
@@ -39,14 +33,8 @@ export default function Home() {
       <Signals />
       <Outcomes />
       <Values />
-      <WorkScroll />
-      <Products />
       <Stack />
-      <Report />
       <Plan />
-      <Results />
-      <Impact />
-      <Faq />
       <Proof />
       <Cta />
       <Footer />

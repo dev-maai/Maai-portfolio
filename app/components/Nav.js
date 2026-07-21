@@ -10,11 +10,9 @@ import { motion } from "framer-motion";
 
 const LINKS = [
   { label: "Why organic", href: "/#thesis", id: "thesis" },
-  { label: "Services", href: "/#products", id: "products" },
-  { label: "Work", href: "/#selected-work", id: "selected-work" },
+  { label: "Services", href: "/#signals", id: "signals" },
+  { label: "Case studies", href: "/#values", id: "values" },
   { label: "Team", href: "/team", id: "__team" },
-  { label: "Accountability", href: "/#accountability", id: "accountability" },
-  { label: "FAQ", href: "/#faq", id: "faq" },
 ];
 
 export default function Nav() {

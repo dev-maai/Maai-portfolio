@@ -17,11 +17,11 @@ export default function Footer() {
             </div>
             <div>
               <h4>Company</h4>
-              <ul><li><a href="#thesis">Why organic</a></li><li><a href="#products">Services</a></li><li><a href="#values">Values</a></li></ul>
+              <ul><li><a href="/#thesis">Why organic</a></li><li><a href="/#signals">Services</a></li><li><a href="/#values">Case studies</a></li></ul>
             </div>
             <div>
               <h4>Work</h4>
-              <ul><li><a href="#work">Clients</a></li><li><a href="#accountability">Our reports</a></li><li><a href="#faq">FAQ</a></li></ul>
+              <ul><li><a href="/#outcomes">Industries</a></li><li><a href="/#values">Case studies</a></li><li><a href="/team">Team</a></li></ul>
             </div>
             <div>
               <h4>Contact</h4>
