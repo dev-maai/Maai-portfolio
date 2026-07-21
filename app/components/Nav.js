@@ -6,7 +6,6 @@
    hovered item, and otherwise the section currently in view (scroll-spy), or the
    route on /team. */
 import { useEffect, useState } from "react";
-import { motion } from "framer-motion";
 
 const LINKS = [
   { label: "Why organic", href: "/#thesis", id: "thesis" },
@@ -58,17 +57,6 @@ export default function Nav() {
                 aria-current={active === i ? "page" : undefined}
                 onMouseEnter={() => setHover(i)}
               >
-                {active === i && (
-                  <motion.span
-                    layoutId="tubelight"
-                    className="tube-ind"
-                    aria-hidden="true"
-                    transition={{ type: "spring", stiffness: 400, damping: 32 }}
-                  >
-                    <span className="tube-bar" />
-                    <span className="tube-halo" />
-                  </motion.span>
-                )}
                 <span className="tube-label">{l.label}</span>
               </a>
             ))}
