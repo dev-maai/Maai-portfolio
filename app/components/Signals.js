@@ -20,6 +20,14 @@ const SIGNALS = [
   { t: "Reputation Management", d: "Shaping what buyers find when they search your brand name." },
   { t: "AI Workflows", d: "Applying AI across research, production and QA without losing quality." },
   { t: "SEO Consulting", d: "Senior guidance for in-house teams running their own programme." },
+  { t: "Programmatic SEO", d: "Scaled, template-driven pages that capture long-tail demand at volume." },
+  { t: "Conversion Optimisation", d: "Turning the organic traffic you earn into pipeline and revenue." },
+  { t: "Ecommerce SEO", d: "Category, product and collection visibility for online stores." },
+  { t: "Site Migrations", d: "Replatforms and redesigns without losing rankings or traffic." },
+  { t: "Keyword Research", d: "Mapping the terms and questions your buyers actually search." },
+  { t: "On-page SEO", d: "Titles, structure and content tuned to match search intent." },
+  { t: "Structured Data", d: "Schema markup that helps engines understand and feature your pages." },
+  { t: "Topical Authority", d: "Comprehensive coverage that makes you the trusted source on a subject." },
 ];
 
 export default function Signals() {
@@ -130,7 +138,6 @@ export default function Signals() {
             backed by industry data. Every piece of work is reported. Every result is
             measured against agreed objectives.
           </p>
-          <p className="sig-hint reveal">Hover a service to see what it covers.</p>
           <a className="btn contrast reveal" href="#contact">Book your discovery call</a>
         </div>
 

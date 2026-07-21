@@ -2992,3 +2992,6 @@ h1.hh-h1.is-pending{font-size:clamp(16px,2vw,22px)!important}
 .cs-article-cta{display:flex;gap:14px 24px;flex-wrap:wrap;align-items:center;
   margin-top:clamp(44px,5.5vw,72px);padding-top:clamp(30px,4vw,46px);border-top:1px solid var(--line)}
 @media(max-width:640px){.cs-stats{grid-template-columns:1fr;gap:24px}}
+
+/* "us?" in the dial heading matches the "SEO" / "proof" treatment (Fraunces italic) */
+.signals .sig-copy h2 em{font-family:var(--font-serif);font-style:italic;font-weight:500;color:var(--amber)}
