@@ -113,16 +113,6 @@ export default function Plan() {
             </div>
           </div>
         </div>
-
-        <div className="plan-team reveal">
-          <div className="avatars">
-            <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=80&h=80&q=70&auto=format&fit=crop&crop=faces" alt="Priya Nair" loading="lazy" />
-            <img src="https://images.unsplash.com/photo-1599566150163-29194dcaad36?w=80&h=80&q=70&auto=format&fit=crop&crop=faces" alt="Sam Whitfield" loading="lazy" />
-            <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=80&h=80&q=70&auto=format&fit=crop&crop=faces" alt="Mia Bianchi" loading="lazy" />
-          </div>
-          <p>Real, named specialists own each phase from day one.</p>
-        </div>
-        <p className="plan-note">Example plan only. Yours is built from your own audit.</p>
       </div>
     </section>
   );

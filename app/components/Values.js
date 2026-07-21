@@ -6,7 +6,7 @@ const CASES = [
     label: "Organic search",
     title: "Pickfords",
     line: "Organic content clicks up 39% — held and grew straight through the 2026 Google core updates.",
-    img: "https://images.unsplash.com/photo-1600518464441-9154a4dea21b?w=1000&q=72&auto=format&fit=crop",
+    img: "/case-studies/pickfords.png",
   },
   {
     slug: "b2b-marketing",
@@ -20,7 +20,7 @@ const CASES = [
     label: "Backlinks & referral",
     title: "Shira Medtech",
     line: "Referral traffic up 118% while holding #1 on the core commercial term.",
-    img: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1000&q=72&auto=format&fit=crop",
+    img: "/case-studies/shira-medtech.png",
   },
 ];
 

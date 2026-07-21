@@ -34,8 +34,8 @@ export default function Home() {
       <Outcomes />
       <Values />
       <Stack />
-      <Plan />
       <Proof />
+      <Plan />
       <Cta />
       <Footer />
       <SiteEffects />
