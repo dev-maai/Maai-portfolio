@@ -2060,7 +2060,7 @@ h1.hh-h1.is-pending{font-size:clamp(16px,2vw,22px)!important}
    ============================================================ */
 .signals{position:relative;overflow:hidden;background:var(--panel);
   padding:clamp(72px,10vw,130px) 0;min-height:0;display:block;text-align:left}
-.signals-grid{display:grid;grid-template-columns:1.05fr .95fr;
+.signals-grid{display:grid;grid-template-columns:1.18fr .82fr;
   gap:clamp(28px,4vw,64px);align-items:center}
 
 /* the dial lives in the left cell; rotor pivots at the cell's left-centre so the
@@ -2119,7 +2119,7 @@ h1.hh-h1.is-pending{font-size:clamp(16px,2vw,22px)!important}
 }
 
 /* SIGNALS ring v2 — upright orbiting chips + center hub (overrides tangential ver) */
-.sig-wheel{position:relative;min-height:clamp(430px,46vw,560px);overflow:visible}
+.sig-wheel{position:relative;min-height:clamp(520px,56vw,700px);overflow:visible}
 .sw-rotor{position:absolute;inset:0;left:auto;top:auto;width:100%;height:100%;transform:none}
 .sw-guide{position:absolute;inset:12%;border-radius:50%;
   border:1px dashed color-mix(in srgb,var(--line) 90%, transparent);opacity:.55;pointer-events:none}
@@ -2131,7 +2131,7 @@ h1.hh-h1.is-pending{font-size:clamp(16px,2vw,22px)!important}
   letter-spacing:.12em;text-transform:uppercase;color:var(--sage)}
 .sw-chip{position:absolute;left:0;top:0;opacity:0;z-index:2;
   transition:opacity .3s var(--ease),color .2s,background .2s,border-color .2s,box-shadow .2s;
-  font-family:var(--font-mono);font-size:clamp(13.5px,1.12vw,17px);font-weight:700;letter-spacing:-.01em;
+  font-family:var(--font-mono);font-size:clamp(14px,1.22vw,18.5px);font-weight:700;letter-spacing:-.01em;
   color:var(--ink);background:transparent;border:1px solid transparent;border-radius:999px;
   padding:7px 13px;white-space:nowrap;cursor:help;will-change:transform,opacity}
 .sw-chip:hover{color:var(--ink);background:color-mix(in srgb,var(--surface) 65%,transparent);
@@ -2149,6 +2149,9 @@ h1.hh-h1.is-pending{font-size:clamp(16px,2vw,22px)!important}
   --ink:#F7F7F2;--paper:#0A2016;--panel:#0E2A1E;--surface:#143026;--surface-2:#1C3F2E;
   --pine:#86AB97;--pine-deep:#A7C6B4;--amber:#E62E6B;--amber-soft:#FF7BA3;--sage:#9DB0A4;
   --line:rgba(247,247,242,.14);--line-dark:rgba(247,247,242,.12);
+  /* was missing: without it, untinted text inherited the light theme's dark ink
+     and vanished against the dark panel (the heading was invisible) */
+  color:var(--ink);
   background:var(--panel);padding-top:clamp(18px,2.5vw,40px)}
 
 /* shared CTA row spacing for section-level calls-to-action */
@@ -2872,4 +2875,27 @@ h1.hh-h1.is-pending{font-size:clamp(16px,2vw,22px)!important}
   .vtl-card p{max-width:62ch}
   .vtl-item.is-left .vtl-node,.vtl-item.is-right .vtl-node{left:0;right:auto;
     width:44px;height:44px;font-size:12px}
+}
+
+/* ============================================================
+   WHY COMPANIES INVEST IN SEO — stat rail (reveal-once, not scroll-driven)
+   ============================================================ */
+.ivs{padding:clamp(64px,8vw,110px) 0;text-align:center}
+.ivs h2{font-size:clamp(30px,3.8vw,50px);line-height:1.08;letter-spacing:-.02em;
+  max-width:22ch;margin:0 auto}
+.ivs h2 em{font-style:normal;color:var(--amber)}
+.ivs-rail{position:relative;display:grid;grid-template-columns:repeat(3,1fr);align-items:center;
+  height:26px;margin:clamp(36px,4.5vw,58px) 0 clamp(26px,3vw,40px)}
+.ivs-line{position:absolute;left:0;right:0;top:50%;height:2px;transform-origin:left center;
+  background:linear-gradient(90deg,var(--amber),color-mix(in srgb,var(--amber) 22%,transparent))}
+.ivs-dot{position:relative;z-index:1;justify-self:center;width:13px;height:13px;border-radius:50%;
+  background:var(--amber);box-shadow:0 0 0 5px var(--paper),0 0 14px color-mix(in srgb,var(--amber) 45%,transparent)}
+.ivs-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(20px,3vw,40px)}
+.ivs-num{font-family:var(--font-serif);font-weight:400;font-size:clamp(46px,6vw,82px);
+  line-height:1;color:var(--ink)}
+.ivs-item p{margin:14px auto 0;max-width:30ch;color:var(--sage);font-size:15px;line-height:1.6}
+.ivs .cta-row{justify-content:center;margin-top:clamp(30px,4vw,50px)}
+@media(max-width:760px){
+  .ivs-rail{display:none}
+  .ivs-grid{grid-template-columns:1fr;gap:34px}
 }

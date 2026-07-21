@@ -8,22 +8,18 @@ import { useState, useEffect, useRef } from "react";
    and reliably hoverable; positions are computed per frame so React never fights
    the transforms. Reduced-motion places a static ring; mobile shows a chip list. */
 const SIGNALS = [
-  { t: "Core Web Vitals", d: "Google's page-experience metrics — load speed, interactivity, visual stability." },
-  { t: "Entity authority", d: "How strongly search engines associate your brand with a topic." },
-  { t: "Schema markup", d: "Structured data that helps engines understand and feature your pages." },
-  { t: "Internal linking", d: "Links between your own pages that pass authority and context." },
-  { t: "E-E-A-T signals", d: "Experience, Expertise, Authority & Trust markers Google rewards." },
-  { t: "Index coverage", d: "Which of your pages are actually indexed and eligible to rank." },
-  { t: "Topical depth", d: "How comprehensively your content covers a subject area." },
-  { t: "Featured snippets", d: "The answer box at the top of results — position zero." },
-  { t: "Query fan-out", d: "How one search expands into many related sub-queries." },
-  { t: "Knowledge panel", d: "The branded information box beside search results." },
-  { t: "LLM citations", d: "Being cited as a source inside AI answers like ChatGPT and Gemini." },
-  { t: "Answer coverage", d: "How often your content answers the questions buyers actually ask." },
-  { t: "SERP features", d: "Rich result types — reviews, FAQs, sitelinks, images." },
-  { t: "Backlink velocity", d: "The pace at which you earn new inbound links over time." },
-  { t: "Content decay", d: "Older pages quietly losing traffic and rank if left untended." },
-  { t: "Canonical tags", d: "Signals that tell engines which URL is the primary version." },
+  { t: "Enterprise SEO", d: "Search programmes built for complex, multi-market organisations." },
+  { t: "Technical SEO", d: "Crawlability, indexation, speed and the architecture underneath." },
+  { t: "Content Strategy", d: "Search-led content mapped to real buyer intent and topical authority." },
+  { t: "Answer Engine Optimisation", d: "Structuring content so ChatGPT, Perplexity and AI Overviews cite you." },
+  { t: "Digital PR", d: "Earned coverage and mentions that build authority and referring links." },
+  { t: "Link Building", d: "High-quality editorial links from publications your buyers already trust." },
+  { t: "Local SEO", d: "Location-level visibility for depots, branches and service areas." },
+  { t: "International SEO", d: "Hreflang, market targeting and content built for each region." },
+  { t: "Analytics & Reporting", d: "Attribution and live reporting that ties organic back to pipeline." },
+  { t: "Reputation Management", d: "Shaping what buyers find when they search your brand name." },
+  { t: "AI Workflows", d: "Applying AI across research, production and QA without losing quality." },
+  { t: "SEO Consulting", d: "Senior guidance for in-house teams running their own programme." },
 ];
 
 export default function Signals() {
@@ -43,8 +39,8 @@ export default function Signals() {
     let R = 0, cx = 0, cy = 0, ch = 0;
     const measure = () => {
       const r = wheel.getBoundingClientRect();
-      cx = r.width * 0.12; cy = r.height / 2; ch = r.height;
-      R = r.height * 0.4;
+      cx = r.width * 0.10; cy = r.height / 2; ch = r.height;
+      R = r.height * 0.45;
     };
     const place = (ang) => {
       const kids = rotor.children, rad = Math.PI / 180;
@@ -128,15 +124,14 @@ export default function Signals() {
         </div>
 
         <div className="sig-copy">
-          <p className="kicker reveal">Signals we track</p>
-          <h2 className="reveal">Make sense of <em>400+ ranking signals.</em></h2>
+          <h2 className="reveal">Why choose <em>us?</em></h2>
           <p className="lede reveal">
-            Rankings move on hundreds of inputs at once — from Core Web Vitals to LLM
-            citations. We track the ones that decide whether your buyers find you, and
-            report what changed every month.
+            We own your business growth and accountability. Every recommendation is
+            backed by industry data. Every piece of work is reported. Every result is
+            measured against agreed objectives.
           </p>
-          <p className="sig-hint reveal">Hover a signal to see what it means.</p>
-          <a className="btn contrast reveal" href="#contact">Book a complimentary call</a>
+          <p className="sig-hint reveal">Hover a service to see what it covers.</p>
+          <a className="btn contrast reveal" href="#contact">Book your discovery call</a>
         </div>
 
         <div className="sig-list" aria-hidden="true">

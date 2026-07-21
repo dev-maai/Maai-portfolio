@@ -4,7 +4,7 @@ import HeroWalker from "./components/HeroWalker";
 import Tagline from "./components/Tagline";
 import Thesis from "./components/Thesis";
 import SignalsBanner from "./components/SignalsBanner";
-import WhatWeOwn from "./components/WhatWeOwn";
+import InvestStats from "./components/InvestStats";
 import Outcomes from "./components/Outcomes";
 import Interlude from "./components/Interlude";
 import Values from "./components/Values";
@@ -36,7 +36,7 @@ export default function Home() {
       <Tagline />
       <Thesis />
       <SignalsBanner />
-      <WhatWeOwn />
+      <InvestStats />
       <Signals />
       <Outcomes />
       <Interlude />

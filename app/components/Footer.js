@@ -17,7 +17,7 @@ export default function Footer() {
             </div>
             <div>
               <h4>Company</h4>
-              <ul><li><a href="#thesis">Why organic</a></li><li><a href="#services">Services</a></li><li><a href="#values">Values</a></li></ul>
+              <ul><li><a href="#thesis">Why organic</a></li><li><a href="#products">Services</a></li><li><a href="#values">Values</a></li></ul>
             </div>
             <div>
               <h4>Work</h4>

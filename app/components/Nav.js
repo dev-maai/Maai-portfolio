@@ -10,7 +10,7 @@ import { motion } from "framer-motion";
 
 const LINKS = [
   { label: "Why organic", href: "/#thesis", id: "thesis" },
-  { label: "Services", href: "/#services", id: "services" },
+  { label: "Services", href: "/#products", id: "products" },
   { label: "Work", href: "/#selected-work", id: "selected-work" },
   { label: "Team", href: "/team", id: "__team" },
   { label: "Accountability", href: "/#accountability", id: "accountability" },
