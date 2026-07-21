@@ -19,6 +19,7 @@ export default function SignalFlow({
   reactivity = 1, // how strongly lines + dot respond to the cursor
   glow = 1, // dot + cursor glow multiplier
   alpha = 1, // overall opacity (dial down on busy sections)
+  onLight = false, // deep-green lines for light backgrounds (default is light lines for dark)
 }) {
   const ref = useRef(null);
 
@@ -28,6 +29,10 @@ export default function SignalFlow({
     const ctx = canvas.getContext("2d");
     const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
     const dpr = Math.min(window.devicePixelRatio || 1, 2);
+
+    // on a light ground the pale lines disappear — use the deep evergreens instead
+    const G = onLight ? [38, 89, 67] : GREEN;
+    const G2 = onLight ? [28, 74, 54] : GREEN2;
 
     let W = 0, H = 0, raf = 0, t = 0, dotX = 0, rows = [];
     const mouse = { x: -9999, y: -9999, tx: -9999, ty: -9999, seen: false };
@@ -94,7 +99,7 @@ export default function SignalFlow({
           if (x <= -step) ctx.moveTo(x, y);
           else ctx.lineTo(x, y);
         }
-        const col = L.hero ? GREEN2 : GREEN;
+        const col = L.hero ? G2 : G;
         ctx.lineWidth = L.hero ? 1.7 : 1.1;
         ctx.strokeStyle = `rgba(${col[0]},${col[1]},${col[2]},${A(L.alpha + boost)})`;
         ctx.stroke();
@@ -158,7 +163,7 @@ export default function SignalFlow({
       window.removeEventListener("resize", build);
       window.removeEventListener("mousemove", onMove);
     };
-  }, [lines, speed, reactivity, glow, alpha]);
+  }, [lines, speed, reactivity, glow, alpha, onLight]);
 
   return <canvas ref={ref} className={`signalflow ${className}`.trim()} aria-hidden="true" />;
 }

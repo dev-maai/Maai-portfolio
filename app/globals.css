@@ -2995,3 +2995,74 @@ h1.hh-h1.is-pending{font-size:clamp(16px,2vw,22px)!important}
 
 /* "us?" in the dial heading matches the "SEO" / "proof" treatment (Fraunces italic) */
 .signals .sig-copy h2 em{font-family:var(--font-serif);font-style:italic;font-weight:500;color:var(--amber)}
+
+/* ============================================================
+   HERO · Walker-Sands treatment — video panel + headline straddling
+   the panel's bottom edge (half over the video, half below it)
+   ============================================================ */
+.hero-ws{flex-direction:column}
+.hws-panel{flex:1;border-bottom-right-radius:clamp(18px,2.4vw,36px)}
+.hws-video{position:absolute;inset:0;z-index:0;width:100%;height:100%;object-fit:cover}
+.hws-veil{position:absolute;inset:0;z-index:1;pointer-events:none;
+  background:linear-gradient(100deg,rgba(7,22,14,.92) 0%,rgba(7,22,14,.68) 44%,rgba(7,22,14,.32) 100%)}
+.hws-row{grid-template-columns:1fr}
+/* pulled up by half its own line box so the type sits on the panel edge */
+.hws-giant{position:relative;left:auto;right:auto;bottom:auto;transform:none;z-index:3;
+  margin:-0.44em 0 0;padding-top:0;line-height:.82;
+  font-size:clamp(26px,8.6vw,150px);text-align:center;white-space:nowrap;color:var(--ink)}
+@media(max-width:820px){
+  .hws-giant{margin:-0.3em 0 0;text-align:center;white-space:nowrap;
+    font-size:clamp(24px,8.6vw,90px);line-height:.86;padding-top:0}
+}
+
+/* ---- hero headline straddles the HERO / next-section boundary ----
+   panel runs to the section edge (big curved bottom-right, per reference);
+   the type is centred on that edge and split two-tone by a hard-stop gradient:
+   light over the green above, evergreen over the porcelain band below. */
+.hero-ws{position:relative;z-index:2;padding-bottom:0;overflow:visible}
+.hws-panel{border-bottom-right-radius:clamp(72px,13vw,220px)}
+.hws-giant{position:absolute;left:0;right:0;bottom:0;z-index:5;
+  transform:translateY(50%);margin:0;padding:0;line-height:.82;
+  font-size:clamp(26px,8.6vw,150px);text-align:center;white-space:nowrap;
+  background:linear-gradient(180deg,#F7F7F2 0 50%,#0E2A1E 50% 100%);
+  -webkit-background-clip:text;background-clip:text;
+  color:transparent;-webkit-text-fill-color:transparent}
+@media(max-width:820px){
+  .hws-giant{position:absolute;left:0;right:0;bottom:0;transform:translateY(50%);
+    margin:0;padding:0;text-align:center;white-space:nowrap;line-height:.86}
+}
+
+/* ---- hero: solid headline + video motion ----
+   single solid brand magenta reads on BOTH halves (dark video above,
+   porcelain band below); a flat green or white would drop out on one side. */
+.hws-giant{background:none;color:#E62E6B;-webkit-text-fill-color:#E62E6B}
+
+/* video eases in, then slowly settles out of a gentle zoom */
+@keyframes hwsFadeIn{from{opacity:0}to{opacity:1}}
+@keyframes hwsZoomOut{from{transform:scale(1.16)}to{transform:scale(1)}}
+.hws-video{transform-origin:center;will-change:transform,opacity;
+  animation:hwsFadeIn 1.4s ease-out both, hwsZoomOut 24s cubic-bezier(.16,.7,.2,1) both}
+@media(prefers-reduced-motion:reduce){
+  .hws-video{animation:hwsFadeIn .01s linear both}
+}
+
+/* veil no longer needs to carry copy — lighten it and weight it to the bottom
+   so the footage reads, while the magenta wordline still separates cleanly */
+.hws-veil{background:linear-gradient(180deg,
+  rgba(7,22,14,.30) 0%, rgba(7,22,14,.20) 50%, rgba(7,22,14,.62) 100%)}
+
+/* ============================================================
+   FINAL CTA on a light-green ground (the Plan section above is dark
+   green — this alternates instead of stacking two dark blocks).
+   ============================================================ */
+.cta-final{
+  --ink:#0E2A1E;--paper:#e6f0eb;--panel:#e6f0eb;--surface:#d0e1da;--surface-2:#f3f7f5;
+  --pine:#265943;--pine-deep:#1c4a36;--amber:#E62E6B;--amber-soft:#C4205A;--sage:#4a6357;
+  --line:rgba(14,42,30,.16);
+  background:#e6f0eb;color:#0E2A1E}
+/* keep the primary button dark so it still carries the most weight on a light ground */
+.cta-final .lb-holder{background:#0E2A1E;color:#F7F7F2;outline-color:rgba(14,42,30,.18)}
+.cta-final .bt:hover .lb-holder{color:#FF7BA3;outline-color:#E62E6B}
+.cta-final .cta-alt{color:#4a6357}
+.cta-final .cta-alt a{color:#E62E6B;border-bottom-color:rgba(230,46,107,.45)}
+.cta-final .cta-alt a:hover{color:#0E2A1E;border-bottom-color:#0E2A1E}

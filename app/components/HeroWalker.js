@@ -1,95 +1,26 @@
-"use client";
-
-import { useState, useEffect } from "react";
-import SignalFlow from "./SignalFlow";
-
-/* Walker-Sands-style hero (original build, MAAI palette): rounded evergreen panel,
-   a giant headline bleeding off the bottom, and — in place of the earlier blobs —
-   a formal analytics/results image slider that auto-advances (pause on hover,
-   reduced-motion safe). */
-const SLIDES = [
-  { img: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1000&q=75&auto=format&fit=crop", cap: "Traffic & rankings dashboard" },
-  { img: "https://images.unsplash.com/photo-1533750349088-cd871a92f312?w=1000&q=75&auto=format&fit=crop", cap: "Answer-engine visibility" },
-  { img: "https://images.unsplash.com/photo-1432888622747-4eb9a8efeb07?w=1000&q=75&auto=format&fit=crop", cap: "Monthly growth reporting" },
-  { img: "https://images.unsplash.com/photo-1557804506-669a67965ba0?w=1000&q=75&auto=format&fit=crop", cap: "Keyword & content performance" },
-];
-
+/* Walker-Sands-style hero: a full-bleed looping video inside the curved panel,
+   with the giant wordline straddling the boundary between this section and the
+   band below — half the type over the video, half over the porcelain. */
 export default function HeroWalker() {
-  const [i, setI] = useState(0);
-  const [reduce, setReduce] = useState(false);
-  const [paused, setPaused] = useState(false);
-  const N = SLIDES.length;
-  const go = (n) => setI(((n % N) + N) % N);
-
-  useEffect(() => { setReduce(matchMedia("(prefers-reduced-motion: reduce)").matches); }, []);
-  useEffect(() => {
-    if (reduce || paused) return;
-    const t = setInterval(() => setI((v) => (v + 1) % N), 4600);
-    return () => clearInterval(t);
-  }, [reduce, paused, N]);
-
   return (
     <section className="hero-ws" id="top" aria-label="Intro">
       <div className="hws-panel">
-        <SignalFlow className="signalflow-hero" lines={6} speed={1.1} reactivity={1.2} glow={1.1} />
-        <div className="hws-row">
-          <div className="hws-top">
-            <p className="kicker">SEO agency for global B2B</p>
-            <p className="hws-lede">
-              The organic channel global B2B teams defend to the board — engineered
-              for Google, AI answers, and everywhere your buyers ask.
-            </p>
-            <div className="hero-ctas">
-              <a className="btn amber" href="#contact">Book a strategy call</a>
-              <a className="btn ghost" href="#values">See how we work</a>
-            </div>
-          </div>
-
-          <div
-            className="hws-media"
-            onMouseEnter={() => setPaused(true)}
-            onMouseLeave={() => setPaused(false)}
-            aria-roledescription="carousel"
-            aria-label="What we deliver"
-          >
-            <div className="hm-viewport">
-              <div className="hm-track" style={{ transform: `translateX(-${i * 100}%)` }}>
-                {SLIDES.map((s, k) => (
-                  <figure className="hm-slide" key={k} aria-hidden={k !== i}>
-                    <img src={s.img} alt={s.cap} loading={k === 0 ? "eager" : "lazy"} />
-                    <figcaption className="hm-cap"><span className="hm-live" aria-hidden="true" />{s.cap}</figcaption>
-                  </figure>
-                ))}
-              </div>
-            </div>
-            <div className="hm-ui">
-              <div className="hm-dots" role="tablist" aria-label="Slides">
-                {SLIDES.map((_, k) => (
-                  <button
-                    key={k}
-                    type="button"
-                    role="tab"
-                    className={`hm-dot${k === i ? " on" : ""}`}
-                    aria-label={`Slide ${k + 1}`}
-                    aria-selected={k === i}
-                    onClick={() => go(k)}
-                  />
-                ))}
-              </div>
-              <div className="hm-arrows">
-                <button type="button" aria-label="Previous slide" onClick={() => go(i - 1)}>
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round"><path d="M15 18l-6-6 6-6" /></svg>
-                </button>
-                <button type="button" aria-label="Next slide" onClick={() => go(i + 1)}>
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round"><path d="M9 6l6 6-6 6" /></svg>
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <h1 className="hws-giant">Organic Growth</h1>
+        <video
+          className="hws-video"
+          autoPlay
+          muted
+          loop
+          playsInline
+          preload="metadata"
+          poster="/hero-poster.jpg"
+          aria-hidden="true"
+        >
+          <source src="/hero.mp4" type="video/mp4" />
+        </video>
+        <span className="hws-veil" aria-hidden="true" />
       </div>
+
+      <h1 className="hws-giant">Organic Compounded.</h1>
     </section>
   );
 }

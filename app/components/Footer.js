@@ -1,4 +1,3 @@
-import { Monogram } from "./Brand";
 import { CONTACT_EMAIL, mailtoHref } from "../lib/contact";
 
 export default function Footer() {
@@ -9,7 +8,6 @@ export default function Footer() {
           <div className="footer-grid">
             <div>
               <div className="footer-brand">
-                <Monogram size={40} />
                 <div className="logo">ma<span className="ai">ai</span></div>
               </div>
               <p style={{ maxWidth: "34ch" }}>Organic growth, wherever attention lives. Accountable to your business, not just your rankings.</p>
