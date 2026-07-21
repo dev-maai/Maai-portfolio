@@ -6,7 +6,6 @@ import Thesis from "./components/Thesis";
 import SignalsBanner from "./components/SignalsBanner";
 import InvestStats from "./components/InvestStats";
 import Outcomes from "./components/Outcomes";
-import Interlude from "./components/Interlude";
 import Values from "./components/Values";
 import Signals from "./components/Signals";
 import WorkScroll from "./components/WorkScroll";
@@ -39,7 +38,6 @@ export default function Home() {
       <InvestStats />
       <Signals />
       <Outcomes />
-      <Interlude />
       <Values />
       <WorkScroll />
       <Products />
