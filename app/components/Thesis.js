@@ -8,7 +8,7 @@ export default function Thesis() {
     <section className="thesis-tl" id="thesis" aria-label="Where we create value">
       <SignalFlow className="signalflow-sec" lines={4} speed={0.85} reactivity={0.9} glow={0.9} alpha={0.5} />
       <div className="wrap thesis-tl-head">
-        <h2 className="reveal">Where We Create <span className="mark">Value</span></h2>
+        <h2 className="reveal">Where We Create Value</h2>
         <p className="lede reveal">
           We help logistics, supply chain, moving, self-storage, industrial and B2B
           service companies strengthen their visibility across search, combining

@@ -2501,7 +2501,7 @@ h1.hh-h1.is-pending{font-size:clamp(16px,2vw,22px)!important}
    (kept distinct from the rotating Signals dial; sits near reporting)
    ============================================================ */
 /* green-undertoned white band (stays light in both themes, like .tagline-light) */
-.sig-banner{position:relative;overflow:hidden;padding:clamp(64px,8vw,112px) 0;
+.sig-banner{position:relative;overflow:hidden;padding:clamp(64px,8vw,112px) 0 clamp(26px,4vw,42px);
   background:#f3f7f5;color:#0E2A1E;
   border-top:1px solid #d0e1da;border-bottom:1px solid #d0e1da}
 .sig-banner::before{content:"";position:absolute;inset:0;pointer-events:none;
@@ -2523,7 +2523,7 @@ h1.hh-h1.is-pending{font-size:clamp(16px,2vw,22px)!important}
 .sb-marquee{margin-top:clamp(34px,4vw,52px);display:flex;flex-direction:column;gap:14px;
   -webkit-mask-image:linear-gradient(90deg,transparent,#000 7%,#000 93%,transparent);
           mask-image:linear-gradient(90deg,transparent,#000 7%,#000 93%,transparent)}
-.sb-row{overflow:hidden}
+.sb-row{overflow:hidden;padding:5px 0}   /* vertical room so chip borders aren't clipped */
 .sb-track{display:flex;width:max-content;will-change:transform;animation:sbScroll 42s linear infinite}
 .sb-row.rev .sb-track{animation-direction:reverse}
 .sb-row:hover .sb-track{animation-play-state:paused}
@@ -2535,8 +2535,7 @@ h1.hh-h1.is-pending{font-size:clamp(16px,2vw,22px)!important}
   transition:border-color .25s,color .25s,background .25s,box-shadow .25s}
 .sb-chip:hover{background:#e6f0eb;border-color:#265943;color:#0E2A1E;
   box-shadow:0 8px 20px -12px rgba(38,89,67,.5)}
-.sb-chip.on{background:#d0e1da;border-color:#265943;color:#0E2A1E;font-weight:700;
-  box-shadow:0 0 0 3px rgba(208,225,218,.55)}
+.sb-chip.on{background:#d0e1da;border:1.5px solid #265943;color:#0E2A1E;font-weight:700}
 .sb-cta{display:inline-flex;align-items:center;gap:10px;margin-top:clamp(34px,4vw,50px);
   padding:15px 28px;border-radius:999px;background:#0E2A1E;color:#F7F7F2;text-decoration:none;
   font-family:var(--font-display);font-weight:600;font-size:15px;
@@ -2880,16 +2879,16 @@ h1.hh-h1.is-pending{font-size:clamp(16px,2vw,22px)!important}
 /* ============================================================
    WHY COMPANIES INVEST IN SEO — stat rail (reveal-once, not scroll-driven)
    ============================================================ */
-.ivs{padding:clamp(64px,8vw,110px) 0;text-align:center}
+.ivs{padding:clamp(30px,4vw,48px) 0 clamp(64px,8vw,110px);text-align:center}
 .ivs h2{font-size:clamp(30px,3.8vw,50px);line-height:1.08;letter-spacing:-.02em;
   max-width:22ch;margin:0 auto}
-.ivs h2 em{font-style:normal;color:var(--amber)}
+.ivs h2 em{font-family:var(--font-serif);font-style:italic;font-weight:500;color:var(--amber)}
 .ivs-rail{position:relative;display:grid;grid-template-columns:repeat(3,1fr);align-items:center;
   height:26px;margin:clamp(36px,4.5vw,58px) 0 clamp(26px,3vw,40px)}
 .ivs-line{position:absolute;left:0;right:0;top:50%;height:2px;transform-origin:left center;
-  background:linear-gradient(90deg,var(--amber),color-mix(in srgb,var(--amber) 22%,transparent))}
+  background:linear-gradient(90deg,#265943,#d0e1da)}
 .ivs-dot{position:relative;z-index:1;justify-self:center;width:13px;height:13px;border-radius:50%;
-  background:var(--amber);box-shadow:0 0 0 5px var(--paper),0 0 14px color-mix(in srgb,var(--amber) 45%,transparent)}
+  background:#265943;box-shadow:0 0 0 5px var(--paper),0 0 14px rgba(38,89,67,.4)}
 .ivs-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(20px,3vw,40px)}
 .ivs-num{font-family:var(--font-serif);font-weight:400;font-size:clamp(46px,6vw,82px);
   line-height:1;color:var(--ink)}

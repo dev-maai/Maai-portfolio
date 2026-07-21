@@ -10,7 +10,12 @@ const ROWS = [
 ];
 
 // AEO-forward signals we lead on — highlighted in the marquee.
-const HOT = new Set(["Entity authority", "LLM citations", "AI Overview presence"]);
+// spread across the rows, no two adjacent, so the highlight looks scattered
+const HOT = new Set([
+  "Topical depth", "Entity authority",
+  "LLM citations", "AI Overview presence",
+  "Citation gaps", "Backlink velocity", "Redirect chains",
+]);
 
 export default function SignalsBanner() {
   return (

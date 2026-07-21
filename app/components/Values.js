@@ -3,23 +3,23 @@
 const CASES = [
   {
     slug: "pickfords",
-    label: "Removals",
+    label: "Organic search",
     title: "Pickfords",
-    line: "Organic growth for a heritage national removals brand — the answer buyers find across search and AI.",
+    line: "Organic content clicks up 39% — held and grew straight through the 2026 Google core updates.",
     img: "https://images.unsplash.com/photo-1600518464441-9154a4dea21b?w=1000&q=72&auto=format&fit=crop",
   },
   {
     slug: "b2b-marketing",
-    label: "B2B · SaaS",
-    title: "B2B marketing",
-    line: "Turning search into the single biggest source of qualified pipeline.",
+    label: "B2B marketing · AEO",
+    title: "MovePlus",
+    line: "100% of qualified leads came via country blogs, with organic traffic up 81%.",
     img: "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=1000&q=72&auto=format&fit=crop",
   },
   {
     slug: "backlinks-referral",
-    label: "Digital PR",
-    title: "Backlinks & referral",
-    line: "Authority — and referral traffic — earned from the sites buyers already trust.",
+    label: "Backlinks & referral",
+    title: "Shira Medtech",
+    line: "Referral traffic up 118% while holding #1 on the core commercial term.",
     img: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1000&q=72&auto=format&fit=crop",
   },
 ];
