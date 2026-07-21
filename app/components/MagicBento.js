@@ -16,45 +16,43 @@ const MOBILE_BREAKPOINT = 768;
 const cardData = [
   {
     color: "#0E2A1E",
-    label: "Content",
-    title: "Content strategy",
-    description: "Answering your customers’ questions at every stage of the journey.",
-    img: "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=900&q=70&auto=format&fit=crop"
+    label: "Storage",
+    title: "Self Storage",
+    description: "Fill units faster with local and national search demand.",
+    href: "/industries/self-storage",
+    img: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1100&q=70&auto=format&fit=crop"
   },
   {
     color: "#0E2A1E",
-    label: "AI search",
-    title: "Answer engine optimisation",
-    description: "Your brand in the answer when AI responds to your buyers.",
-    img: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=900&q=70&auto=format&fit=crop"
+    label: "Moving",
+    title: "Removals",
+    description: "Own the moves — from local searches to national quotes.",
+    href: "/industries/removals",
+    img: "https://images.unsplash.com/photo-1600518464441-9154a4dea21b?w=900&q=70&auto=format&fit=crop"
   },
   {
     color: "#0E2A1E",
-    label: "Authority",
-    title: "Backlink building",
-    description: "Earning references from the sites your buyers already trust — through digital PR, not link farms.",
-    img: "https://images.unsplash.com/photo-1519003722824-194d4455a60c?w=1100&q=70&auto=format&fit=crop"
+    label: "Freight",
+    title: "Logistics",
+    description: "Be the carrier buyers shortlist before they enquire.",
+    href: "/industries/logistics",
+    img: "https://images.unsplash.com/photo-1553413077-190dd305871c?w=900&q=70&auto=format&fit=crop"
   },
   {
     color: "#0E2A1E",
-    label: "Reputation",
-    title: "Reputation management",
-    description: "Owning what people find when they search your name.",
-    img: "https://images.unsplash.com/photo-1556155092-490a1ba16284?w=1100&q=70&auto=format&fit=crop"
+    label: "Software",
+    title: "SaaS",
+    description: "Compound pipeline from the questions your buyers ask.",
+    href: "/industries/saas",
+    img: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=900&q=70&auto=format&fit=crop"
   },
   {
     color: "#0E2A1E",
-    label: "Local",
-    title: "Local visibility",
-    description: "Found in every city you operate in.",
-    img: "https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?w=900&q=70&auto=format&fit=crop"
-  },
-  {
-    color: "#0E2A1E",
-    label: "Reporting",
-    title: "Reported monthly",
-    description: "Wins, failures, and the fix — in plain English.",
-    img: "https://images.unsplash.com/photo-1611926653458-09294b3142bf?w=900&q=70&auto=format&fit=crop"
+    label: "Supply",
+    title: "Supply Chain",
+    description: "Visibility across every link your customers search.",
+    href: "/industries/supply-chain",
+    img: "https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?w=1100&q=70&auto=format&fit=crop"
   }
 ];
 
@@ -97,6 +95,7 @@ const ParticleCard = ({
   className = "",
   disableAnimations = false,
   style,
+  href,
   particleCount = DEFAULT_PARTICLE_COUNT,
   glowColor = DEFAULT_GLOW_COLOR,
   enableTilt = true,
@@ -191,8 +190,8 @@ const ParticleCard = ({
 
       if (enableTilt) {
         gsap.to(element, {
-          rotateX: 5,
-          rotateY: 5,
+          rotateX: 2,
+          rotateY: 2,
           duration: 0.3,
           ease: "power2.out",
           transformPerspective: 1000
@@ -233,8 +232,8 @@ const ParticleCard = ({
       const centerY = rect.height / 2;
 
       if (enableTilt) {
-        const rotateX = ((y - centerY) / centerY) * -10;
-        const rotateY = ((x - centerX) / centerX) * 10;
+        const rotateX = ((y - centerY) / centerY) * -4;
+        const rotateY = ((x - centerX) / centerX) * 4;
 
         gsap.to(element, {
           rotateX,
@@ -319,13 +318,14 @@ const ParticleCard = ({
   }, [animateParticles, clearAllParticles, disableAnimations, enableTilt, enableMagnetism, clickEffect, glowColor]);
 
   return (
-    <div
+    <a
       ref={cardRef}
+      href={href}
       className={`${className} particle-container`}
       style={{ ...style, position: "relative", overflow: "hidden" }}
     >
       {children}
-    </div>
+    </a>
   );
 };
 
@@ -489,6 +489,9 @@ const CardInner = ({ card }) => (
     </div>
     <div className="magic-bento-card__header">
       <div className="magic-bento-card__label">{card.label}</div>
+      <span className="mb-go" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round"><path d="M7 17 17 7M8 7h9v9" /></svg>
+      </span>
     </div>
     <div className="magic-bento-card__content">
       <h2 className="magic-bento-card__title">{card.title}</h2>
@@ -542,6 +545,7 @@ const MagicBento = ({
               <ParticleCard
                 key={index}
                 {...cardProps}
+                href={card.href}
                 disableAnimations={shouldDisableAnimations}
                 particleCount={particleCount}
                 glowColor={glowColor}
@@ -555,9 +559,9 @@ const MagicBento = ({
           }
 
           return (
-            <div key={index} {...cardProps}>
+            <a key={index} href={card.href} {...cardProps}>
               <CardInner card={card} />
-            </div>
+            </a>
           );
         })}
       </BentoCardGrid>

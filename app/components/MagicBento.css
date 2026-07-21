@@ -28,6 +28,9 @@
   font-family: var(--font-body);
   font-weight: 300;
   overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 
   --glow-x: 50%;
@@ -77,6 +80,28 @@
 .magic-bento-card__header {
   gap: 0.75em;
   justify-content: space-between;
+  align-items: center;
+}
+
+/* clickable affordance — arrow that lifts on hover */
+.mb-go {
+  display: grid;
+  place-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  color: #F7F7F2;
+  background: rgba(247, 247, 242, 0.1);
+  border: 1px solid rgba(247, 247, 242, 0.18);
+  flex: none;
+  transition: transform 0.3s ease, background 0.3s ease, color 0.3s ease;
+}
+.mb-go svg { width: 15px; height: 15px; }
+.magic-bento-card:hover .mb-go {
+  transform: translate(2px, -2px);
+  background: rgba(var(--glow-color), 0.9);
+  border-color: transparent;
+  color: #fff;
 }
 
 .magic-bento-card__content {
@@ -141,36 +166,32 @@
   }
 }
 
-@media (min-width: 600px) {
+@media (min-width: 600px) and (max-width: 1023px) {
   .card-grid {
     grid-template-columns: repeat(2, 1fr);
   }
+  /* 5 cards in 2 cols — last one spans full width so no gap */
+  .magic-bento-card:nth-child(5) {
+    grid-column: span 2;
+    aspect-ratio: 16/7;
+  }
 }
 
+/* Five-card bento: one 2x2 feature on the left, four equal singles fill the
+   right 2x2 — no empty gaps (the earlier row-1 singles left space below them). */
 @media (min-width: 1024px) {
   .card-grid {
     grid-template-columns: repeat(4, 1fr);
   }
-
-  .magic-bento-card:nth-child(3) {
+  .magic-bento-card:nth-child(1) {
     grid-column: span 2;
     grid-row: span 2;
+    /* drop the 4/3 ratio so the feature stretches to exactly two rows + gap,
+       matching the right-hand 2x2 block height */
+    aspect-ratio: auto;
   }
-
-  .magic-bento-card:nth-child(4) {
-    grid-column: 1 / span 2;
-    grid-row: 2 / span 2;
-  }
-
-  .magic-bento-card:nth-child(6) {
-    grid-column: 4;
-    grid-row: 3;
-  }
-
-  /* the two large feature cards can carry a bigger title */
-  .magic-bento-card:nth-child(3) .magic-bento-card__title,
-  .magic-bento-card:nth-child(4) .magic-bento-card__title {
-    font-size: clamp(24px, 2.1vw, 32px);
+  .magic-bento-card:nth-child(1) .magic-bento-card__title {
+    font-size: clamp(24px, 2.2vw, 34px);
     --clamp-title: 2;
   }
 }
