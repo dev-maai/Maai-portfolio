@@ -3051,21 +3051,6 @@ h1.hh-h1.is-pending{font-size:clamp(16px,2vw,22px)!important}
 .hws-veil{background:linear-gradient(180deg,
   rgba(7,22,14,.30) 0%, rgba(7,22,14,.20) 50%, rgba(7,22,14,.62) 100%)}
 
-/* ============================================================
-   FINAL CTA on a light-green ground (the Plan section above is dark
-   green — this alternates instead of stacking two dark blocks).
-   ============================================================ */
-.cta-final{
-  --ink:#0E2A1E;--paper:#e6f0eb;--panel:#e6f0eb;--surface:#d0e1da;--surface-2:#f3f7f5;
-  --pine:#265943;--pine-deep:#1c4a36;--amber:#E62E6B;--amber-soft:#C4205A;--sage:#4a6357;
-  --line:rgba(14,42,30,.16);
-  background:#e6f0eb;color:#0E2A1E}
-/* keep the primary button dark so it still carries the most weight on a light ground */
-.cta-final .lb-holder{background:#0E2A1E;color:#F7F7F2;outline-color:rgba(14,42,30,.18)}
-.cta-final .bt:hover .lb-holder{color:#FF7BA3;outline-color:#E62E6B}
-.cta-final .cta-alt{color:#4a6357}
-.cta-final .cta-alt a{color:#E62E6B;border-bottom-color:rgba(230,46,107,.45)}
-.cta-final .cta-alt a:hover{color:#0E2A1E;border-bottom-color:#0E2A1E}
 
 /* hero wordline: "Organic" = white fill w/ dark-green outline, "Compounded." = solid dark green */
 .hws-giant .hw-out{

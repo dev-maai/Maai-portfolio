@@ -8,7 +8,6 @@ import InvestStats from "./components/InvestStats";
 import Outcomes from "./components/Outcomes";
 import Values from "./components/Values";
 import Signals from "./components/Signals";
-import Stack from "./components/Stack";
 import Plan from "./components/Plan";
 import Proof from "./components/Proof";
 import Cta from "./components/Cta";
@@ -33,9 +32,8 @@ export default function Home() {
       <Signals />
       <Outcomes />
       <Values />
-      <Stack />
-      <Proof />
       <Plan />
+      <Proof />
       <Cta />
       <Footer />
       <SiteEffects />

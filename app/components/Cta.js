@@ -6,7 +6,7 @@ import { mailtoHref } from "../lib/contact";
 export default function Cta() {
   return (
     <section className="cta-final" id="contact">
-      <SignalFlow className="signalflow-cta" lines={6} speed={1} reactivity={1.15} glow={1.25} onLight />
+      <SignalFlow className="signalflow-cta" lines={6} speed={1} reactivity={1.15} glow={1.25} />
       <div className="wrap cta-inner">
         <h2 className="reveal">
           Be the answer in<br />
