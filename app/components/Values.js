@@ -1,13 +1,16 @@
-/* Case studies — the expanding image-accordion template, with 3 clickable panels
-   (each links to its case-study page). */
+/* Case studies — the expanding image-accordion template, 5 clickable panels
+   (each links to its case-study page). Slots 4 and 5 are Pickfords duplicates
+   standing in until their own case studies land. */
+const PICKFORDS = {
+  slug: "pickfords",
+  label: "Organic search",
+  title: "Pickfords",
+  line: "Organic content clicks up 39% — held and grew straight through the 2026 Google core updates.",
+  img: "/case-studies/pickfords.png",
+};
+
 const CASES = [
-  {
-    slug: "pickfords",
-    label: "Organic search",
-    title: "Pickfords",
-    line: "Organic content clicks up 39% — held and grew straight through the 2026 Google core updates.",
-    img: "/case-studies/pickfords.png",
-  },
+  PICKFORDS,
   {
     slug: "b2b-marketing",
     label: "B2B marketing · AEO",
@@ -22,6 +25,8 @@ const CASES = [
     line: "Referral traffic up 118% while holding #1 on the core commercial term.",
     img: "/case-studies/shira-medtech.png",
   },
+  PICKFORDS,
+  PICKFORDS,
 ];
 
 export default function Values() {
@@ -30,8 +35,8 @@ export default function Values() {
       <div className="wrap">
         <h2 className="reveal">Case studies.</h2>
         <div className="holds reveal" role="list">
-          {CASES.map((c) => (
-            <a className="holds-panel" role="listitem" href={`/case-studies/${c.slug}`} key={c.slug}>
+          {CASES.map((c, i) => (
+            <a className="holds-panel" role="listitem" href={`/case-studies/${c.slug}`} key={`${c.slug}-${i}`}>
               <img className="holds-img" src={c.img} alt="" loading="lazy" />
               <span className="holds-veil" aria-hidden="true"></span>
               <span className="holds-k" aria-hidden="true">{c.label}</span>
