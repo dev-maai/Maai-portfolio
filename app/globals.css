@@ -3066,3 +3066,12 @@ h1.hh-h1.is-pending{font-size:clamp(16px,2vw,22px)!important}
 .cta-final .cta-alt{color:#4a6357}
 .cta-final .cta-alt a{color:#E62E6B;border-bottom-color:rgba(230,46,107,.45)}
 .cta-final .cta-alt a:hover{color:#0E2A1E;border-bottom-color:#0E2A1E}
+
+/* hero wordline: "Organic" = white fill w/ dark-green outline, "Compounded." = solid dark green */
+.hws-giant .hw-out{
+  color:#F7F7F2;-webkit-text-fill-color:#F7F7F2;
+  -webkit-text-stroke:0.022em #0E2A1E;
+  paint-order:stroke fill}
+.hws-giant .hw-solid{
+  color:#0E2A1E;-webkit-text-fill-color:#0E2A1E;
+  -webkit-text-stroke:0}

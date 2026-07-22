@@ -20,7 +20,9 @@ export default function HeroWalker() {
         <span className="hws-veil" aria-hidden="true" />
       </div>
 
-      <h1 className="hws-giant">Organic Compounded.</h1>
+      <h1 className="hws-giant">
+        <span className="hw-out">Organic</span> <span className="hw-solid">Compounded.</span>
+      </h1>
     </section>
   );
 }
