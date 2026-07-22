@@ -3075,3 +3075,10 @@ h1.hh-h1.is-pending{font-size:clamp(16px,2vw,22px)!important}
 .hws-giant .hw-solid{
   color:#0E2A1E;-webkit-text-fill-color:#0E2A1E;
   -webkit-text-stroke:0}
+
+/* hero: video only — drop the dark-green frame (section padding + background)
+   and the panel's inner padding/gradient. Square to the viewport edges, keeping
+   just the big sweeping bottom-right curve. */
+.hero-ws{padding:0;background:transparent}
+.hws-panel{padding:0;background:#0A2016;   /* fallback only — the video covers it */
+  border-radius:0 0 clamp(72px,13vw,220px) 0}
