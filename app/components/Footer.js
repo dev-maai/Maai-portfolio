@@ -1,4 +1,5 @@
 import { CONTACT_EMAIL, mailtoHref } from "../lib/contact";
+import { NAV_LINKS } from "../lib/nav";
 
 export default function Footer() {
   return (
@@ -14,16 +15,21 @@ export default function Footer() {
               <p className="serif-voice" style={{ marginTop: "14px", fontSize: "17px" }}>Because every ranking is a person deciding something.</p>
             </div>
             <div>
-              <h4>Company</h4>
-              <ul><li><a href="/#thesis">Why organic</a></li><li><a href="/#signals">Services</a></li><li><a href="/#values">Case studies</a></li></ul>
-            </div>
-            <div>
-              <h4>Work</h4>
-              <ul><li><a href="/#outcomes">Industries</a></li><li><a href="/#values">Case studies</a></li><li><a href="/team">Team</a></li></ul>
+              <h4>Menu</h4>
+              {/* same links as the header — both read from lib/nav.js */}
+              <ul>
+                {NAV_LINKS.map((l) => (
+                  <li key={l.href}><a href={l.href}>{l.label}</a></li>
+                ))}
+              </ul>
             </div>
             <div>
               <h4>Contact</h4>
-              <ul><li><a href={mailtoHref("general")}>{CONTACT_EMAIL}</a></li><li><a href="#">LinkedIn</a></li></ul>
+              <ul>
+                <li><a href={mailtoHref("general")}>{CONTACT_EMAIL}</a></li>
+                <li><a href="/#contact">Book a strategy call</a></li>
+                <li><a href="#">LinkedIn</a></li>
+              </ul>
             </div>
           </div>
           <div className="footer-bottom">

@@ -5,7 +5,6 @@ export default function Fit() {
         <span className="sec-glow g-coral" aria-hidden="true" style={{ left: "-140px", top: "-120px" }}></span>
         <div className="wrap">
           <div className="fit-inner">
-            <span className="pill reveal"><i></i>Recommended first step</span>
             <h2 className="reveal">Not sure if SEO is the right fit for you?<br /><em>Take the 60-second fit check.</em></h2>
             <p className="fit-lede reveal">Four quick questions. We'll tell you honestly whether organic is worth it for your business — what it would take, and when you'd see it. If it isn't a fit, we'll say so.</p>
       

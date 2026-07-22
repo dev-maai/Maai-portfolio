@@ -67,7 +67,6 @@ export default async function IndustryPage({ params }) {
       <Nav />
       <main className="ind-hero">
         <div className="wrap">
-          <p className="eyebrow">Industries we lead</p>
           <h1>
             Organic growth for <span className="mark">{ind.name}</span>.
           </h1>

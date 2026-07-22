@@ -39,33 +39,16 @@ export const metadata = {
     "MAAI is an SEO agency for global B2B. Platforms change — Google yesterday, LLMs today. Organic growth stays. We take business accountability.",
 };
 
-/* Runs before first paint so the right theme is on <html> immediately —
-   otherwise the dark default flashes for light-theme users. The toggle
-   itself lives in SiteEffects. */
-const themeScript = `
-(function () {
-  try {
-    var saved = localStorage.getItem("maai-theme");
-    var sysLight = window.matchMedia("(prefers-color-scheme: light)").matches;
-    document.documentElement.setAttribute("data-theme", saved || (sysLight ? "light" : "dark"));
-  } catch (e) {
-    document.documentElement.setAttribute("data-theme", "dark");
-  }
-})();
-`;
 
 export default function RootLayout({ children }) {
   return (
-    /* suppressHydrationWarning: themeScript sets data-theme before React
-       hydrates, so server and client markup intentionally differ. */
+    /* Dark mode removed — the palette is pinned to light. The token system keeps
+       its `[data-theme="light"]` scoping, so this attribute is what activates it. */
     <html
       lang="en"
-      suppressHydrationWarning
+      data-theme="light"
       className={`${sora.variable} ${inter.variable} ${spaceMono.variable} ${fraunces.variable}`}
     >
-      <head>
-        <script dangerouslySetInnerHTML={{ __html: themeScript }} />
-      </head>
       <body>{children}</body>
     </html>
   );

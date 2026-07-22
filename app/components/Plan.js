@@ -45,7 +45,6 @@ export default function Plan() {
     <section className="plan" id="plan">
       <SignalFlow className="signalflow-sec" lines={5} speed={0.9} reactivity={1} glow={0.9} alpha={0.5} />
       <div className="wrap">
-        <span className="pill reveal"><i></i>Your first 90 days</span>
         <h2 className="reveal">A plan you can actually see.</h2>
         <p className="plan-lede reveal">
           Every engagement opens with a diagnosis and a dated plan. Hover a phase to see

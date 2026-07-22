@@ -13,7 +13,6 @@ export default function Outcomes() {
             enableStars
             enableSpotlight
             enableBorderGlow
-            enableTilt
             enableMagnetism
             clickEffect
             spotlightRadius={320}

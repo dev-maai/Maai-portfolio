@@ -23,46 +23,7 @@ export default function SiteEffects() {
     const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
     const finePointer = matchMedia("(hover:hover) and (pointer:fine)").matches;
 
-    /* ---------------------------------------------------------
-       THEME — toggle (persisted). Initial value is set before
-       paint by the inline script in app/layout.js.
-       --------------------------------------------------------- */
-    {
-      const root = document.documentElement;
-      const KEY = "maai-theme";
-      on(document, "click", (e) => {
-        if (!e.target.closest(".theme-toggle")) return;
-        const next = root.getAttribute("data-theme") === "light" ? "dark" : "light";
-        root.setAttribute("data-theme", next);
-        try { localStorage.setItem(KEY, next); } catch {}
-      });
-    }
-
-    /* ---------------------------------------------------------
-       FIT-CHECK FORM — front-end only; POST `data` to your endpoint.
-       --------------------------------------------------------- */
-    {
-      const fitForm = document.getElementById("fitForm");
-      const fitDone = document.getElementById("fitDone");
-      if (fitForm && fitDone) {
-        on(fitForm, "submit", (e) => {
-          e.preventDefault();
-          const fields = [...fitForm.querySelectorAll("select,input")];
-          let ok = true;
-          fields.forEach((f) => {
-            const bad = !f.value || (f.type === "email" && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(f.value));
-            f.style.borderColor = bad ? "var(--amber)" : "";
-            if (bad) ok = false;
-          });
-          if (!ok) return;
-          const data = Object.fromEntries(new FormData(fitForm).entries());
-          console.log("fit-check lead:", data); // ← POST this to your endpoint
-          fitForm.hidden = true;
-          fitDone.hidden = false;
-          fitDone.scrollIntoView({ behavior: "smooth", block: "center" });
-        });
-      }
-    }
+    /* Dark mode removed — no theme toggle. */
 
     /* --------------------------------------------------------- MOBILE MENU */
     {
@@ -460,20 +421,8 @@ export default function SiteEffects() {
         cleanups.push(() => cancelAnimationFrame(rafId));
       }
 
-      /* magnetic buttons — reserved for the primary (magenta) CTAs; other button
-         variants get their own CSS hover effects (shine / fill / lift). */
-      if (finePointer) {
-        document.querySelectorAll(".btn.amber").forEach((btn) => {
-          const strength = 0.28;
-          on(btn, "mousemove", (e) => {
-            const r = btn.getBoundingClientRect();
-            const mx = e.clientX - (r.left + r.width / 2);
-            const my = e.clientY - (r.top + r.height / 2);
-            btn.style.transform = `translate(${(mx * strength).toFixed(1)}px, ${(my * strength).toFixed(1)}px)`;
-          });
-          on(btn, "mouseleave", () => { btn.style.transform = ""; });
-        });
-      }
+      /* (magnetic-pull on the primary CTAs removed — buttons now use the plain
+         CSS hover in globals.css: lift + colour shift.) */
     })();
 
     return () => cleanups.forEach((fn) => fn());

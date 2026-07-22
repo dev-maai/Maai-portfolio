@@ -5,7 +5,6 @@ export default function Team() {
         <span className="sec-glow g-coral" aria-hidden="true" style={{ right: "-150px", bottom: "-140px" }}></span>
         <div className="wrap">
           <div className="team-head">
-            <p className="eyebrow reveal">The people, not a pod</p>
             <h2 className="reveal">The senior team accountable to your growth.</h2>
             <p className="lede reveal" style={{ marginTop: "16px" }}>No juniors learning on your account. Every engagement is run by specialists who own their outcomes — and put their names to them.</p>
           </div>

@@ -215,7 +215,6 @@ export default async function CaseStudyPage({ params }) {
       <Nav />
       <main className="ind-hero cs-hero">
         <div className="wrap">
-          <p className="eyebrow">Case study · {c.tag}</p>
           <h1>{full ? c.title : <span className="mark">{c.name}</span>}</h1>
           {!full && <p className="lede">{c.blurb}</p>}
 

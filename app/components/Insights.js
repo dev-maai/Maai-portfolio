@@ -5,7 +5,6 @@ export default function Insights() {
         <div className="wrap">
           <div className="insights-head">
             <div>
-              <p className="eyebrow reveal">From the team</p>
               <h2 className="reveal">Field notes on the organic era.</h2>
             </div>
             <a className="btn ghost reveal" href="#insights">All insights <i>&rarr;</i></a>
