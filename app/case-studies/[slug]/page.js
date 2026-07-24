@@ -8,7 +8,71 @@ import SiteEffects from "../../components/SiteEffects";
 /* Case-study landings. Full write-ups render the rich layout (hero + stat band +
    article); cases without a `sections` array fall back to the lean placeholder. */
 const CASES = {
+  "anglo-pacific": {
+   img: "https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?w=1100&q=72&auto=format&fit=crop",
+    name: "Anglo Pacific",
+    tag: "SEO, AEO & GEO",
+    title: "How MAAI grew Anglo Pacific's organic clicks 53% through a combined SEO, AEO, and GEO strategy",
+    stats: [
+      { v: "+53%", l: "Organic clicks, Feb to Jul" },
+      { v: "+36%", l: "Search impressions" },
+      { v: "+104%", l: "June users, MoM" },
+    ],
+    sections: [
+      {
+        h: "Context",
+        paras: [
+          "Anglo Pacific is the UK's largest independent international removals company, handling around 20,000 individual baggage shipments and overseas removals every year, with more than 30 years in the industry. In early 2026 organic performance had plateaued. Month-over-month traffic was swinging by as much as 24% in either direction with no sustained upward trend, and average position sat at 12.1 — a spot too far down the page to convert consistently. Average click-through rate held flat at 0.4% throughout. Visibility was inconsistent, and nothing yet existed to help AI tools discover or reference the site.",
+        ],
+      },
+      {
+        h: "Challenge",
+        list: [
+          "Organic traffic swinging as much as 24% month over month with no sustained upward trend, despite steady underlying demand for removals services.",
+          "Average position stuck at 12.1 — visible in results, but not high enough to reliably convert impressions into clicks.",
+          "No structured FAQs or AI-readable markup existed anywhere on the site, right as AI Overviews and LLM-based search were becoming a bigger share of how people research a move — and several country landing pages were outdated and underperforming.",
+          "Multiple stale pages sat unlinked and underperforming, diluting authority instead of consolidating it.",
+        ],
+      },
+      {
+        h: "Approach",
+        paras: [
+          "MAAI built a three-pronged strategy across SEO, AEO, and GEO, rolling out from May 2026, rather than treating classic search and AI search as separate problems. Anglo Pacific had three decades of trust and an established brand, so the programme focused on making that trust visible to search engines and AI answer engines alike.",
+        ],
+        list: [
+          "Implemented llm.txt across the site to improve how large language models discover, understand, and reference Anglo Pacific's content — an early investment in generative engine optimization (GEO).",
+          "Published new blog content targeting keywords and search queries the site wasn't previously capturing.",
+          "Overhauled the primary landing page and country-specific landing pages for relevance to each market served.",
+          "Added structured FAQs across key pages for answer-engine optimization, and redirected stale, underperforming pages into high-performing blog content to consolidate authority.",
+          "Each move targeted a different layer of visibility — AI discoverability, page relevance, and content depth — so no single channel carried the whole recovery.",
+        ],
+      },
+      {
+        h: "Results",
+        paras: [
+          "Comparing the three months before rollout (Feb–Apr 2026) to the period since (May–Jul 2026):",
+        ],
+        list: [
+          "Organic clicks up 52.9%, from 6.24K to 9.54K.",
+          "Search impressions up 35.6%, from 1.6M to 2.17M, widening the top of the funnel.",
+          "Average position improved from 12.1 to 11.3, pulling Anglo Pacific closer to page one for more of its target queries.",
+          "Organic sessions up 11.4% in the same window, turning visibility gains into real site traffic.",
+          "Organic users grew 29.9% across the same window.",
+        ],
+        outro:
+          "The pattern held at the site level too. Looking at total-site traffic in June 2026, sessions rose to 3,968 (up 77.62% month on month — the highest of the year) and users rose to 2,959 (up 103.79%, also a 2026 high). Growth landing in the same month the AEO and content work went live is consistent with the strategy taking hold, though a single strong month isn't proof on its own.",
+      },
+      {
+        h: "Why it worked",
+        paras: [
+          "Search is split into two tracks: classic ranked results and AI-generated answers. Anglo Pacific's programme treated both as core infrastructure rather than treating AI visibility as an experiment on the side. Our content and GEO team at MAAI built durable visibility across both tracks at once.",
+          "The click and impression gains show the classic-search side working, and the AI-readiness investment — llm.txt, FAQs, structured content — is built for where more of that research is heading next. Every number in this case study ties to a matched before/after window in Search Console and GA4, so the movement here is measured, not asserted.",
+        ],
+      },
+    ],
+  },
   pickfords: {
+   img: "/case-studies/pickfords.png",
     name: "Pickfords",
     tag: "Organic search",
     title: "How MAAI grew Pickfords' organic content clicks 39% through the 2026 Google core updates",
@@ -71,6 +135,7 @@ const CASES = {
     ],
   },
   "b2b-marketing": {
+   img: "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=1000&q=72&auto=format&fit=crop",
     name: "B2B marketing",
     tag: "B2B marketing",
     title: "MovePlus: driving sales through SEO & AEO optimisation",
@@ -130,6 +195,7 @@ const CASES = {
     ],
   },
   "backlinks-referral": {
+   img: "/case-studies/shira-medtech.png",
     name: "Backlinks & referral",
     tag: "Backlinks & referral",
     title: "How relevance-first backlinks grew referral traffic 118% for a niche B2B surgical brand",
@@ -215,19 +281,29 @@ export default async function CaseStudyPage({ params }) {
       <Nav />
       <main className="ind-hero cs-hero">
         <div className="wrap">
-          <h1>{full ? c.title : <span className="mark">{c.name}</span>}</h1>
-          {!full && <p className="lede">{c.blurb}</p>}
-
-          {full && (
-            <div className="cs-stats">
-              {c.stats.map((s) => (
-                <div className="cs-stat" key={s.l}>
-                  <div className="cs-stat-v">{s.v}</div>
-                  <div className="cs-stat-l">{s.l}</div>
+          <div className="csh-card">
+            {c.img && (
+              <div className="csh-media">
+                <img src={c.img} alt="" />
+                <span className="csh-tint" aria-hidden="true" />
+              </div>
+            )}
+            <div className="csh-body">
+              <span className="csh-tag">{c.tag}</span>
+              <h1>{full ? c.title : c.name}</h1>
+              {!full && <p className="lede">{c.blurb}</p>}
+              {full && (
+                <div className="cs-stats csh-stats">
+                  {c.stats.map((s) => (
+                    <div className="cs-stat" key={s.l}>
+                      <div className="cs-stat-v">{s.v}</div>
+                      <div className="cs-stat-l">{s.l}</div>
+                    </div>
+                  ))}
                 </div>
-              ))}
+              )}
             </div>
-          )}
+          </div>
 
           {!full && (
             <div className="ind-actions">
@@ -241,18 +317,61 @@ export default async function CaseStudyPage({ params }) {
       {full && (
         <article className="cs-article">
           <div className="wrap cs-article-inner">
-            {c.sections.map((sec) => (
-              <section className="cs-sec" key={sec.h}>
-                <h2>{sec.h}</h2>
-                {sec.paras?.map((p, i) => <p key={i}>{p}</p>)}
-                {sec.list && (
-                  <ul className="cs-list">
-                    {sec.list.map((li, i) => <li key={i}>{li}</li>)}
-                  </ul>
-                )}
-                {sec.outro && <p className="cs-outro">{sec.outro}</p>}
-              </section>
-            ))}
+            {c.sections.map((sec, si) => {
+              const key = sec.h.toLowerCase();
+              const variant = key.includes("challenge") ? "problem"
+                : key.includes("approach") ? "steps"
+                : key.includes("result") ? "wins"
+                : key.includes("why") ? "why"
+                : "plain";
+              return (
+                <section className={`cs-sec cs-${variant} reveal`} key={sec.h}>
+                  <div className="cs-sec-head">
+                    <span className="cs-sec-n">{String(si + 1).padStart(2, "0")}</span>
+                    <h2>{sec.h}</h2>
+                  </div>
+                  <div className="cs-sec-body">
+                    {sec.paras?.map((p, i) => <p key={i}>{p}</p>)}
+
+                    {sec.list && variant === "steps" && (
+                      <ol className="cs-steps">
+                        {sec.list.map((li, i) => (
+                          <li key={i}>
+                            <span className="cs-step-n">{String(i + 1).padStart(2, "0")}</span>
+                            <span>{li}</span>
+                          </li>
+                        ))}
+                      </ol>
+                    )}
+
+                    {sec.list && variant === "problem" && (
+                      <ul className="cs-probs">
+                        {sec.list.map((li, i) => <li className="cs-prob" key={i}>{li}</li>)}
+                      </ul>
+                    )}
+
+                    {sec.list && variant === "wins" && (
+                      <ul className="cs-wins">
+                        {sec.list.map((li, i) => (
+                          <li key={i}>
+                            <svg className="cs-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.6" strokeLinecap="round" strokeLinejoin="round"><path d="M20 6 9 17l-5-5" /></svg>
+                            <span>{li}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    )}
+
+                    {sec.list && !["steps", "problem", "wins"].includes(variant) && (
+                      <ul className="cs-list">
+                        {sec.list.map((li, i) => <li key={i}>{li}</li>)}
+                      </ul>
+                    )}
+
+                    {sec.outro && <p className="cs-outro">{sec.outro}</p>}
+                  </div>
+                </section>
+              );
+            })}
 
             <div className="cs-article-cta">
               <a className="btn amber" href="/#contact">Book a strategy call</a>
