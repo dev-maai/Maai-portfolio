@@ -274,6 +274,7 @@ export default async function CaseStudyPage({ params }) {
   const c = CASES[slug];
   if (!c) notFound();
   const full = Array.isArray(c.sections);
+  const others = Object.entries(CASES).filter(([s]) => s !== slug).slice(0, 3);
 
   return (
     <>
@@ -378,10 +379,38 @@ export default async function CaseStudyPage({ params }) {
 
             <div className="cs-article-cta">
               <a className="btn amber" href="/#contact">Book a strategy call</a>
-              <a className="cta-link" href="/#values">← All case studies</a>
             </div>
           </div>
         </article>
+      )}
+
+      {others.length > 0 && (
+        <section className="rel" aria-label="More case studies">
+          <div className="wrap">
+            <div className="rel-head">
+              <h2>More case studies</h2>
+              <a className="cta-link" href="/#values">All case studies <span aria-hidden="true">→</span></a>
+            </div>
+            <div className="rel-grid">
+              {others.map(([s, cc]) => (
+                <a className="rel-card" href={`/case-studies/${s}`} key={s}>
+                  <div className="rel-media">
+                    <img src={cc.img} alt="" loading="lazy" />
+                    <span className="rel-tint" aria-hidden="true" />
+                  </div>
+                  <div className="rel-body">
+                    <span className="rel-tag">{cc.tag}</span>
+                    <h3>{cc.name}</h3>
+                    {cc.stats?.[0] && (
+                      <span className="rel-stat"><b>{cc.stats[0].v}</b> {cc.stats[0].l}</span>
+                    )}
+                    <span className="rel-go">Read case study <i aria-hidden="true">→</i></span>
+                  </div>
+                </a>
+              ))}
+            </div>
+          </div>
+        </section>
       )}
 
       <Cta />
