@@ -3031,10 +3031,7 @@ h1.hh-h1.is-pending{font-size:clamp(16px,2vw,22px)!important}
   line-height:1.6;background:color-mix(in srgb,var(--pine) 9%,transparent);
   border:1px solid color-mix(in srgb,var(--pine) 22%,var(--line))}
 
-/* Why it worked -> emphasised closer with an accent rail */
-.cs-why .cs-sec-body{border-left:2px solid color-mix(in srgb,var(--amber) 45%,transparent);
-  padding-left:clamp(18px,2vw,28px)}
-.cs-why .cs-sec-body>p{font-size:clamp(17px,1.7vw,21px);line-height:1.6;font-weight:500;color:var(--ink)}
+/* Why it worked -> same body style as every other section (no special emphasis) */
 
 .cs-article-cta{display:flex;gap:14px 24px;flex-wrap:wrap;align-items:center;margin-top:clamp(36px,5vw,60px)}
 @media(max-width:820px){
@@ -3181,13 +3178,13 @@ h1.hh-h1.is-pending{font-size:clamp(16px,2vw,22px)!important}
 /* ============================================================
    CASE STUDY hero card — image left, tag + title right (no read-more)
    ============================================================ */
-.cs-hero .wrap{max-width:1280px}
+.cs-hero .wrap{max-width:1380px}
 /* no card background — the section's dark ground carries it; larger overall */
 .csh-card{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.12fr);
   gap:clamp(30px,4.5vw,72px);align-items:center;
   padding:0;background:none;border:none}
 .csh-media{position:relative;border-radius:clamp(16px,1.6vw,24px);overflow:hidden;
-  aspect-ratio:4/3.25}
+  aspect-ratio:4/3.55}
 .csh-media img{width:100%;height:100%;object-fit:cover;display:block}
 .csh-tint{position:absolute;inset:0;pointer-events:none;
   background:linear-gradient(150deg,rgba(38,89,67,.34),rgba(10,32,22,.30))}
@@ -3197,7 +3194,7 @@ h1.hh-h1.is-pending{font-size:clamp(16px,2vw,22px)!important}
   padding:8px 17px;border-radius:999px;background:color-mix(in srgb,#F7F7F2 8%,transparent);
   border:1px solid rgba(247,247,242,.16)}
 .csh-body h1{font-family:var(--font-display);font-weight:700;letter-spacing:-.02em;
-  line-height:1.06;font-size:clamp(32px,4vw,58px);color:var(--ink);margin:0}
+  line-height:1.1;font-size:clamp(24px,2.8vw,40px);color:var(--ink);margin:0}
 .csh-body .lede{margin:0;color:var(--sage);font-size:clamp(15px,1.5vw,18px);line-height:1.6}
 /* metrics live inside the card body now, in one row under the title */
 .csh-stats{display:flex;flex-wrap:wrap;gap:clamp(22px,2.6vw,46px);margin-top:6px}
@@ -3214,7 +3211,7 @@ h1.hh-h1.is-pending{font-size:clamp(16px,2vw,22px)!important}
   --pine:#265943;--pine-deep:#1c4a36;--amber:#E62E6B;--amber-soft:#C4205A;--sage:#4a6357;
   --line:rgba(14,42,30,.14);
   background:#f3f7f5;color:#0E2A1E;
-  padding:clamp(56px,8vw,110px) 0 clamp(52px,7vw,96px)}
+  padding:clamp(22px,3vw,44px) 0 clamp(48px,6vw,84px)}
 .cs-hero::before{display:none}                    /* drop the magenta radial glow */
 .csh-card{background:#fff;border:1px solid #d0e1da;
   border-radius:clamp(20px,2vw,30px);padding:clamp(22px,2.6vw,40px);

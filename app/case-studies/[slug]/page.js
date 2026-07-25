@@ -325,7 +325,10 @@ export default async function CaseStudyPage({ params }) {
                 : key.includes("why") ? "why"
                 : "plain";
               return (
-                <section className={`cs-sec cs-${variant} reveal`} key={sec.h}>
+                <section
+                  className={`cs-sec cs-${variant}${variant === "steps" || variant === "wins" ? "" : " reveal"}`}
+                  key={sec.h}
+                >
                   <div className="cs-sec-head">
                     <span className="cs-sec-n">{String(si + 1).padStart(2, "0")}</span>
                     <h2>{sec.h}</h2>

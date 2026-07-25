@@ -1,16 +1,13 @@
-/* Case studies — the expanding image-accordion template, 5 clickable panels
-   (each links to its case-study page). Slots 4 and 5 are Pickfords duplicates
-   standing in until their own case studies land. */
-const PICKFORDS = {
-  slug: "pickfords",
-  label: "Organic search",
-  title: "Pickfords",
-  line: "Organic content clicks up 39% — held and grew straight through the 2026 Google core updates.",
-  img: "/case-studies/pickfords.png",
-};
-
+/* Case studies — the expanding image-accordion template; each panel links to its
+   case-study page. Four real case studies live now. */
 const CASES = [
-  PICKFORDS,
+  {
+    slug: "pickfords",
+    label: "Organic search",
+    title: "Pickfords",
+    line: "Organic content clicks up 39% — held and grew straight through the 2026 Google core updates.",
+    img: "/case-studies/pickfords.png",
+  },
   {
     slug: "b2b-marketing",
     label: "B2B marketing · AEO",
@@ -25,8 +22,13 @@ const CASES = [
     line: "Referral traffic up 118% while holding #1 on the core commercial term.",
     img: "/case-studies/shira-medtech.png",
   },
-  PICKFORDS,
-  PICKFORDS,
+  {
+    slug: "anglo-pacific",
+    label: "SEO · AEO · GEO",
+    title: "Anglo Pacific",
+    line: "Organic clicks up 53% through a combined SEO, AEO and GEO strategy.",
+    img: "https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?w=1000&q=72&auto=format&fit=crop",
+  },
 ];
 
 export default function Values() {
