@@ -33,12 +33,7 @@ const INDUSTRIES = {
     blurb:
       "Pipeline compounds when you answer the questions buyers actually ask. We turn search and answer engines into a durable, lower-CAC acquisition channel.",
   },
-  "supply-chain": {
-    name: "Supply Chain",
-    tag: "Supply",
-    blurb:
-      "Complex, high-consideration purchases start with research. We earn you visibility across every link your customers search — and the authority to be trusted with it.",
-  },
+  /* "supply-chain" has its own dedicated page at app/industries/supply-chain/ */
 };
 
 export function generateStaticParams() {
