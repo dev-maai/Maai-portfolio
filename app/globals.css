@@ -3499,6 +3499,9 @@ h1.hh-h1.is-pending{font-size:clamp(16px,2vw,22px)!important}
 .scx-row:hover .scx-row-media img{transform:scale(1.045)}
 .scx-row-tint{position:absolute;inset:0;pointer-events:none;
   background:linear-gradient(155deg,rgba(38,89,67,.16),rgba(10,32,22,.42))}
+/* screenshot / data-viz assets: keep them bright and readable, add only a whisper
+   of evergreen so they still sit in the section */
+.scx-row-media--asset .scx-row-tint{background:linear-gradient(160deg,rgba(38,89,67,.05),rgba(10,32,22,.12))}
 
 .scx-row-k{display:inline-flex;align-items:center;gap:11px;font-family:var(--font-mono);font-size:12px;
   letter-spacing:.12em;text-transform:uppercase;color:var(--amber-soft)}

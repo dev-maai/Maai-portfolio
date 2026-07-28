@@ -9,26 +9,14 @@ import SiteEffects from "../../components/SiteEffects";
    Kept lean for now — hero + the shared booking CTA + footer — so the cards lead
    somewhere real rather than 404-ing. Fill in the detail per sector later. */
 const INDUSTRIES = {
-  removals: {
-    name: "Removals",
-    tag: "Moving",
-    blurb:
-      "From same-city moves to international relocations, buyers research before they call. We make you the removals firm they shortlist — and the one AI assistants recommend.",
-  },
   logistics: {
     name: "Logistics",
     tag: "Freight",
     blurb:
       "Long buying cycles reward the carrier that shows up early and often. We build the organic presence that gets you into the shortlist before an RFP is ever written.",
   },
-  saas: {
-    name: "SaaS",
-    tag: "Software",
-    blurb:
-      "Pipeline compounds when you answer the questions buyers actually ask. We turn search and answer engines into a durable, lower-CAC acquisition channel.",
-  },
-  /* "self-storage" and "supply-chain" have their own dedicated pages under
-     app/industries/self-storage/ and app/industries/supply-chain/ */
+  /* "self-storage", "supply-chain", "saas" and removals-and-relocations have
+     their own dedicated pages under app/industries/<slug>/ */
 };
 
 export function generateStaticParams() {

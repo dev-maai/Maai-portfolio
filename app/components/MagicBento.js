@@ -27,7 +27,7 @@ const cardData = [
     label: "Moving",
     title: "Removals",
     description: "Own the moves — from local searches to national quotes.",
-    href: "/industries/removals",
+    href: "/industries/removals-and-relocations",
     img: "https://images.unsplash.com/photo-1600518464441-9154a4dea21b?w=900&q=70&auto=format&fit=crop"
   },
   {
