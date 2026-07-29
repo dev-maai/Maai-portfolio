@@ -35,7 +35,7 @@ const cardData = [
     label: "Freight",
     title: "Logistics",
     description: "Be the carrier buyers shortlist before they enquire.",
-    href: "/industries/logistics",
+    href: "/seo-agency-for-logistics-companies",
     img: "https://images.unsplash.com/photo-1553413077-190dd305871c?w=900&q=70&auto=format&fit=crop"
   },
   {

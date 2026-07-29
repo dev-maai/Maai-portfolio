@@ -1,25 +1,35 @@
-import ScrollProgress from "../../components/ScrollProgress";
-import Nav from "../../components/Nav";
-import Cta from "../../components/Cta";
-import Footer from "../../components/Footer";
-import SiteEffects from "../../components/SiteEffects";
-import SearchDemo from "../../components/SearchDemo";
-import TextReveal from "../../components/TextReveal";
-import Typewriter from "../../components/Typewriter";
-import ServicesConsole from "../../components/ServicesConsole";
-import WhyCards from "../../components/WhyCards";
+import ScrollProgress from "../components/ScrollProgress";
+import Nav from "../components/Nav";
+import Cta from "../components/Cta";
+import Footer from "../components/Footer";
+import SiteEffects from "../components/SiteEffects";
+import SearchDemo from "../components/SearchDemo";
+import TextReveal from "../components/TextReveal";
+import Typewriter from "../components/Typewriter";
+import ServicesConsole from "../components/ServicesConsole";
+import WhyCards from "../components/WhyCards";
 
 export const metadata = {
-  title: "SEO & AEO for supply chain companies — MAAI",
+  title: "SEO Agency for Logistics Companies | MAAI",
   description:
-    "Your buyers shortlist suppliers through Google and AI assistants before procurement contacts you. MAAI builds the search visibility that puts your company in those answers at the point the shortlist is formed.",
+    "SEO and AEO for logistics businesses. We build the search visibility that gets your company found by shippers and procurement teams before they contact anyone.",
+  alternates: { canonical: "/seo-agency-for-logistics-companies" },
 };
 
+const SEARCH_QUERIES = [
+  { q: "best freight forwarder for european lanes", cat: "Freight" },
+  { q: "3pl warehousing provider uk", cat: "Warehousing" },
+  { q: "road haulage company near me", cat: "Haulage" },
+  { q: "cold chain logistics provider", cat: "Cold chain" },
+  { q: "last mile delivery partner", cat: "Last mile" },
+];
+
 const NEED = [
-  "Procurement teams vet suppliers through search and AI assistants before any conversation begins.",
-  "The supplier who owns the answer to the buying question enters the shortlist.",
-  "Contracts you never hear about started with a search your company was absent from.",
-  "Search visibility at the point of intent behaves as a demand channel, with compounding returns.",
+  "Your buyers search for freight, warehousing and delivery partners before they contact anyone.",
+  "Procurement now vets carriers and providers through Google and AI assistants.",
+  "The company that owns the answer gets the enquiry.",
+  "Every contract you never heard about started with a search you were absent from.",
+  "Visibility at the moment of intent is now a revenue channel.",
 ];
 
 const METHOD = [
@@ -27,40 +37,47 @@ const METHOD = [
     n: "01",
     k: "Foundation",
     t: "Technical SEO foundation",
-    d: "We resolve the structural, indexing and speed signals that determine whether your site can rank at all.",
-    img: "photo-1504376830547-506dedfe1fe9",
-    alt: "Loading dock bays at a distribution centre",
+    d: "We fix the structural and speed signals that decide whether you rank at all, so your site earns the authority your operation deserves.",
+    img: "photo-1553413077-190dd305871c",
+    alt: "Warehouse racking in a distribution centre",
   },
   {
     n: "02",
     k: "Intent",
     t: "Search intent mapping",
-    d: "We decode how procurement, operations and logistics buyers search, from early research through to vendor shortlisting, then build pages that meet them at each stage.",
-    img: "photo-1781559818983-4180d744416a",
-    alt: "Operations analyst reviewing demand data on a tablet",
+    d: "We decode how shippers, procurement and operations buyers search, from early research to carrier shortlisting, and build content that meets them at each step.",
+    img: "photo-1781559818983-c32838ee3d55",
+    alt: "Logistics operator reviewing search-demand data on a tablet",
   },
   {
     n: "03",
     k: "AEO",
     t: "Answer Engine Optimisation",
-    d: "We structure your expertise so AI answer engines cite your company when a buyer asks who supplies in your category.",
+    d: "We structure your expertise so AI engines cite your company as the trusted source when buyers ask for logistics providers in your category.",
     img: "photo-1567789884554-0b844b597180",
-    alt: "Automated robotic assembly line",
+    alt: "Automated systems in a modern facility",
   },
   {
     n: "04",
     k: "Authority",
     t: "Compounding authority",
-    d: "We build assets that hold their positions and grow in value across years, so visibility earned this quarter keeps returning in the next.",
-    img: "photo-1578575437130-527eed3abbec",
-    alt: "Container ship loading at a deep-water port",
+    d: "We build assets that hold their positions and grow in value year after year, so your visibility keeps working long after launch.",
+    img: "photo-1613690399151-65ea69478674",
+    alt: "Container ship carrying freight at scale",
   },
+];
+
+const WHY_ITEMS = [
+  { n: "01", h: "Sector depth", p: "We specialise and go deep on your industry rather than spreading thin." },
+  { n: "02", h: "Search as engineering", p: "We treat search as engineering and growth as a discipline, with every figure traceable to a named data source." },
+  { n: "03", h: "Reporting in the open", p: "You see the growth and the gaps in the same report, every month." },
+  { n: "04", h: "Built to compound", p: "We build for compounding results that hold their value over years." },
 ];
 
 const SERVICES = [
   {
     k: "technical-seo",
-    name: "Technical SEO & architecture",
+    name: "Technical SEO & site architecture",
     blurb: "The crawlability, speed and structure that decide whether anything you publish can rank at all.",
     inc: ["Crawl, index & render audit", "Core Web Vitals remediation", "Clean, canonical architecture"],
   },
@@ -79,7 +96,7 @@ const SERVICES = [
   {
     k: "aeo",
     name: "Answer Engine Optimisation",
-    blurb: "Structuring your expertise so AI assistants cite your company when buyers ask who supplies.",
+    blurb: "Structuring your expertise so AI assistants cite your company when buyers ask who provides in your category.",
     inc: ["Entity & topic modelling", "Answer-ready content blocks", "Citation-share tracking"],
   },
   {
@@ -90,7 +107,7 @@ const SERVICES = [
   },
   {
     k: "digital-pr",
-    name: "Digital PR & authority",
+    name: "Digital PR & authority building",
     blurb: "Earned coverage and editorial links from the publications your buyers already read and trust.",
     inc: ["Data-led PR campaigns", "Editorial link earning", "Brand entity building"],
   },
@@ -104,32 +121,28 @@ const SERVICES = [
 
 const FAQ = [
   {
-    q: "Why does a supply chain company need SEO and AEO in 2026?",
-    a: "Your buyers research suppliers through search engines and AI assistants before they reach out. If your company is absent from those answers, the shortlist forms without you. SEO and AEO place you in front of buyers at the point the decision is being shaped.",
+    q: "Why does a logistics company need SEO and AEO in 2026?",
+    a: "Your buyers research carriers and providers through search and AI assistants before they ever reach out. If your company is absent from those answers, you are cut from the shortlist before the conversation begins. SEO and AEO put you in front of buyers at the exact moment they are deciding.",
   },
   {
-    q: "How is the supply chain buying journey different?",
-    a: "The cycles are long, technical and high in value. A single decision pulls in procurement, operations and finance, each searching in different language at a different stage. We map the full journey so your company appears with authority at every touchpoint, including the early research searches that decide who gets considered.",
+    q: "How is the logistics buyer journey different from other industries?",
+    a: "Logistics buying cycles are long, technical, and high in value. A single decision can involve procurement, operations and finance, each searching in different language at different stages. We map this full journey so your company appears with authority at every touchpoint, not only the final search.",
   },
   {
-    q: "Which parts of the supply chain do you work with?",
-    a: "Freight and logistics, warehousing and fulfilment, procurement and sourcing, manufacturing supply, cold chain, and last-mile delivery. The search strategy is built around how buyers in your specific segment research and decide.",
+    q: "Which parts of the logistics industry do you work with?",
+    a: "We work across the sector, including freight forwarding, road haulage, warehousing and fulfilment, third party logistics, cold chain, last mile and courier services, removals and self storage. We tailor the search strategy to how buyers in your specific segment research and decide.",
   },
   {
-    q: "What is AEO and how does it relate to SEO?",
-    a: "SEO earns visibility in traditional search engines. AEO earns visibility in AI answer engines, where buyers increasingly ask for supplier recommendations directly. Both draw on the same foundations of technical health, subject depth and external authority, so we build them together.",
+    q: "How long does SEO take to work for a logistics business?",
+    a: "Technical fixes can move positions within weeks. Terms you already sit close to usually move within one to two months. Competitive commercial terms build over several quarters. We report position movement monthly, so you can see the trajectory well before the revenue arrives.",
   },
   {
-    q: "How long before we see results?",
-    a: "Technical fixes can move positions within weeks. Content and authority work compounds over quarters. We report position movement monthly from Search Console, so you can see the trajectory before the revenue arrives.",
-  },
-  {
-    q: "Do you work with companies that already have an in-house SEO?",
-    a: "Yes. We work alongside internal teams on strategy, technical audits and AEO, or take full ownership where there is no internal resource.",
+    q: "What is AEO and how is it different from SEO?",
+    a: "SEO earns your visibility in traditional search engines. AEO earns your visibility in AI answer engines, where buyers increasingly ask for provider recommendations. We structure your expertise so both channels recognise and cite your company as a trusted authority.",
   },
 ];
 
-export default function SupplyChainPage() {
+export default function LogisticsPage() {
   return (
     <>
       <ScrollProgress />
@@ -139,26 +152,16 @@ export default function SupplyChainPage() {
       <header className="scx-hero">
         <div className="wrap scx-hero-grid">
           <div className="scx-hero-copy">
-            <span className="scx-kicker">Supply chain</span>
-            <TextReveal as="h1" text="SEO & AEO for supply chain companies" />
+            <span className="scx-kicker">Logistics</span>
+            <TextReveal as="h1" text="SEO and AEO for Logistics Companies" />
             <p className="scx-hero-type">
               Built for{" "}
-              <Typewriter
-                words={[
-                  "freight forwarders",
-                  "3PL & fulfilment",
-                  "cold chain operators",
-                  "warehousing & racking",
-                  "customs & bonded",
-                  "procurement teams",
-                ]}
-              />
+              <Typewriter words={["enquiries", "freight volume", "your lanes"]} />
             </p>
             <p className="scx-lede">
-              Your buyers shortlist suppliers through Google and AI assistants long
-              before procurement contacts you. We build the search visibility that
-              puts your company in those answers at the point the shortlist is being
-              formed.
+              Shippers and procurement teams search for logistics partners before they
+              call one. We make sure your company is the one they find, trust, and
+              shortlist across search engines and AI answer engines.
             </p>
             <div className="scx-hero-cta">
               <a className="btn amber" href="/#contact">Book a strategy call</a>
@@ -166,8 +169,8 @@ export default function SupplyChainPage() {
           </div>
           <div className="scx-hero-media reveal">
             <img
-              src="https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?w=1200&q=75&auto=format&fit=crop"
-              alt="Container port — global supply chain"
+              src="https://images.unsplash.com/photo-1591768793355-74d04bb6608f?w=1200&q=75&auto=format&fit=crop"
+              alt="Freight truck on a long-distance route"
               loading="eager"
             />
             <span className="scx-hero-tint" aria-hidden="true" />
@@ -183,17 +186,23 @@ export default function SupplyChainPage() {
             <TextReveal as="h2" text="Your buyers are already searching. The only question is who they find." />
           </div>
           <div className="scx-search-demo reveal">
-            <SearchDemo />
+            <SearchDemo
+              queries={SEARCH_QUERIES}
+              answerLead="Buyers researching this get a shortlist — and "
+              answerMark="your company"
+              answerTail=" is cited as a trusted logistics partner."
+              chips={["your company", "industry directory", "trade publication"]}
+            />
           </div>
         </div>
       </section>
 
-      {/* ── does your business need SEO ── */}
+      {/* ── do owners need to invest in SEO ── */}
       <section className="scx-need">
         <div className="wrap scx-need-grid">
           <div className="scx-need-head reveal">
-            <p className="scx-eyebrow">Does your supply chain business need SEO in 2026?</p>
-            <TextReveal as="h2" text="Yes — if your buyers research before they enquire." />
+            <p className="scx-eyebrow">Do logistics business owners need to invest in SEO in 2026?</p>
+            <TextReveal as="h2" text="Short answer: yes." />
           </div>
           <ul className="scx-need-list">
             {NEED.map((n, i) => (
@@ -211,16 +220,16 @@ export default function SupplyChainPage() {
         <div className="wrap">
           <div className="scx-sec-head">
             <p className="scx-eyebrow">Our method</p>
-            <TextReveal as="h2" text="How we win supply chain search" />
+            <TextReveal as="h2" text="How we win logistics search" />
             <p>
-              Four moves, run in order — each one earns the right to the next.
-              No shortcuts, no vanity metrics.
+              Your buyers search in precise, high-value language across a long buying
+              cycle. We map that behaviour and turn every stage into a ranking asset.
             </p>
           </div>
           <div className="scx-rows">
             {METHOD.map((m, i) => (
               <article className={`scx-row${i % 2 === 1 ? " scx-row--rev" : ""} reveal`} key={m.n}>
-                <div className="scx-row-media">
+                <div className={`scx-row-media${m.asset ? " scx-row-media--asset" : ""}`}>
                   <img
                     src={`https://images.unsplash.com/${m.img}?w=1100&q=75&auto=format&fit=crop`}
                     alt={m.alt}
@@ -242,7 +251,7 @@ export default function SupplyChainPage() {
       {/* ── image band ── */}
       <section className="scx-band" aria-hidden="true">
         <img
-          src="https://images.unsplash.com/photo-1553413077-190dd305871c?w=1600&q=75&auto=format&fit=crop"
+          src="https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?w=1600&q=75&auto=format&fit=crop"
           alt=""
           loading="lazy"
         />
@@ -264,7 +273,7 @@ export default function SupplyChainPage() {
             </p>
           </div>
 
-          <WhyCards />
+          <WhyCards items={WHY_ITEMS} />
 
           <div className="scx-cap reveal">
             <span className="scx-cap-l">Everything we cover under SEO &amp; AEO</span>
