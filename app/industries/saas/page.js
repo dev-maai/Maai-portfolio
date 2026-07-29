@@ -53,7 +53,7 @@ const METHOD = [
     k: "AEO",
     t: "Answer Engine Optimisation",
     d: "We structure your product’s proof and positioning so AI assistants cite you when a buyer asks for the best tool in your category.",
-    img: "photo-1550751827-4bd374c3f58b",
+    src: "/Saas/aeo.jpg",
     alt: "Glowing circuit board traces",
   },
   {
@@ -61,8 +61,9 @@ const METHOD = [
     k: "Authority",
     t: "Compounding authority",
     d: "We earn the reviews, mentions, and links that make your positions defensible against well-funded competitors.",
-    img: "photo-1607799279861-4dd421887fb3",
+    src: "/Saas/authority.jpg",
     alt: "Developer working in a code editor",
+    imgStyle: { objectPosition: "left center" },
   },
 ];
 
@@ -232,11 +233,12 @@ export default function SaaSPage() {
           <div className="scx-rows">
             {METHOD.map((m, i) => (
               <article className={`scx-row${i % 2 === 1 ? " scx-row--rev" : ""} reveal`} key={m.n}>
-                <div className="scx-row-media">
+                <div className={`scx-row-media${m.src ? " scx-row-media--asset" : ""}`}>
                   <img
-                    src={`https://images.unsplash.com/${m.img}?w=1100&q=75&auto=format&fit=crop`}
+                    src={m.src || `https://images.unsplash.com/${m.img}?w=1100&q=75&auto=format&fit=crop`}
                     alt={m.alt}
                     loading="lazy"
+                    style={m.imgStyle}
                   />
                   <span className="scx-row-tint" aria-hidden="true" />
                 </div>

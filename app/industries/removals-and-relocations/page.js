@@ -53,7 +53,7 @@ const METHOD = [
     k: "AEO",
     t: "Answer Engine Optimisation",
     d: "We structure your services and coverage so AI assistants name your firm when someone asks who to move with.",
-    img: "photo-1694715669993-ea0022b470f7",
+    src: "/removals/AEO.jpg",
     alt: "A mover wheeling boxes to a van",
   },
   {
@@ -61,7 +61,7 @@ const METHOD = [
     k: "Authority",
     t: "Compounding authority",
     d: "We build the local citations, reviews, and links that hold your positions and keep bookings coming year after year.",
-    img: "photo-1769972557854-7eae6f95585b",
+    src: "/removals/authority.jpg",
     alt: "A person carrying furniture on moving day",
   },
 ];

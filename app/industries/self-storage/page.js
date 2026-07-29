@@ -53,7 +53,7 @@ const METHOD = [
     k: "AEO",
     t: "Answer Engine Optimisation",
     d: "We structure your facility details so AI assistants name you when someone asks where to store in your area.",
-    img: "photo-1714647211902-bb711d643a17",
+    src: "/selfstorage/seo.jpg",
     alt: "Customer packing boxes for a move",
   },
   {
@@ -61,7 +61,7 @@ const METHOD = [
     k: "Authority",
     t: "Compounding authority",
     d: "We build the local citations, reviews signals, and links that hold your positions and keep units filling year after year.",
-    img: "photo-1649313522492-ffb2ab3c7dac",
+    src: "/selfstorage/compounding%20authority.jpg",
     alt: "A long row of drive-up storage units",
   },
 ];
@@ -232,9 +232,9 @@ export default function SelfStoragePage() {
           <div className="scx-rows">
             {METHOD.map((m, i) => (
               <article className={`scx-row${i % 2 === 1 ? " scx-row--rev" : ""} reveal`} key={m.n}>
-                <div className="scx-row-media">
+                <div className={`scx-row-media${m.src ? " scx-row-media--asset" : ""}`}>
                   <img
-                    src={`https://images.unsplash.com/${m.img}?w=1100&q=75&auto=format&fit=crop`}
+                    src={m.src || `https://images.unsplash.com/${m.img}?w=1100&q=75&auto=format&fit=crop`}
                     alt={m.alt}
                     loading="lazy"
                   />
