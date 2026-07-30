@@ -517,6 +517,16 @@ const MagicBento = ({
   const isMobile = useMobileDetection();
   const shouldDisableAnimations = disableAnimations || isMobile;
 
+  /* mobile-only slider: scroll the card row one card at a time */
+  const scrollByCard = (dir) => {
+    const el = gridRef.current;
+    if (!el) return;
+    const card = el.querySelector(".magic-bento-card");
+    const gap = parseFloat(getComputedStyle(el).gap) || 12;
+    const step = card ? card.getBoundingClientRect().width + gap : el.clientWidth * 0.86;
+    el.scrollBy({ left: dir * step, behavior: "smooth" });
+  };
+
   return (
     <>
       {enableSpotlight && (
@@ -565,6 +575,15 @@ const MagicBento = ({
           );
         })}
       </BentoCardGrid>
+
+      <div className="bento-arrows" aria-hidden="true">
+        <button type="button" className="bento-arrow" aria-label="Previous industry" onClick={() => scrollByCard(-1)}>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round"><path d="m15 18-6-6 6-6" /></svg>
+        </button>
+        <button type="button" className="bento-arrow" aria-label="Next industry" onClick={() => scrollByCard(1)}>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round"><path d="m9 18 6-6-6-6" /></svg>
+        </button>
+      </div>
     </>
   );
 };

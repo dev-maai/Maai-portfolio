@@ -5,8 +5,17 @@
    item and slides between items via a shared layout animation. Active follows the
    hovered item, and otherwise the section currently in view (scroll-spy), or the
    route on /team. */
-import { useEffect, useState } from "react";
+import { Fragment, useEffect, useState } from "react";
 import { NAV_LINKS as LINKS } from "../lib/nav";
+
+/* Industry landing pages, surfaced as a dropdown under "Industries". */
+const INDUSTRIES = [
+  { label: "Supply Chain", href: "/industries/supply-chain" },
+  { label: "Self Storage", href: "/industries/self-storage" },
+  { label: "SaaS", href: "/industries/saas" },
+  { label: "Removals & Relocations", href: "/industries/removals-and-relocations" },
+  { label: "Logistics", href: "/seo-agency-for-logistics-companies" },
+];
 
 
 export default function Nav() {
@@ -45,15 +54,31 @@ export default function Nav() {
           <a className="logo" href="/" aria-label="MAAI home">ma<span className="ai">ai</span></a>
           <nav className="nav-links tube-nav" id="navmenu" onMouseLeave={() => setHover(null)}>
             {LINKS.map((l, i) => (
-              <a
-                key={l.href}
-                href={l.href}
-                className={`tube-item${active === i ? " on" : ""}`}
-                aria-current={active === i ? "page" : undefined}
-                onMouseEnter={() => setHover(i)}
-              >
-                <span className="tube-label">{l.label}</span>
-              </a>
+              <Fragment key={l.href}>
+                <a
+                  href={l.href}
+                  className={`tube-item${active === i ? " on" : ""}`}
+                  aria-current={active === i ? "page" : undefined}
+                  onMouseEnter={() => setHover(i)}
+                >
+                  <span className="tube-label">{l.label}</span>
+                </a>
+                {i === 0 && (
+                  <div className="nav-dd" onMouseEnter={() => setHover(null)}>
+                    <a href="/#outcomes" className="tube-item nav-dd-trigger" aria-haspopup="true">
+                      <span className="tube-label">Industries</span>
+                      <svg className="nav-dd-caret" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6" /></svg>
+                    </a>
+                    <div className="nav-dd-menu" role="menu">
+                      {INDUSTRIES.map((ind) => (
+                        <a key={ind.href} href={ind.href} className="nav-dd-link" role="menuitem">
+                          {ind.label}
+                        </a>
+                      ))}
+                    </div>
+                  </div>
+                )}
+              </Fragment>
             ))}
             <a className="btn amber nav-cta-m" href="/#contact">Book a strategy call</a>
           </nav>
