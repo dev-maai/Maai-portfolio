@@ -54,15 +54,15 @@ const METHOD = [
     t: "Answer Engine Optimisation",
     d: "We structure your facility details so AI assistants name you when someone asks where to store in your area.",
     src: "/selfstorage/seo.jpg",
-    alt: "Customer packing boxes for a move",
+    alt: "Local map-pack results for a self storage search",
   },
   {
     n: "04",
     k: "Authority",
     t: "Compounding authority",
     d: "We build the local citations, reviews signals, and links that hold your positions and keep units filling year after year.",
-    src: "/selfstorage/compounding%20authority.jpg",
-    alt: "A long row of drive-up storage units",
+    src: "/selfstorage/compounding-authority.jpg",
+    alt: "Local reviews and ratings for a storage business",
   },
 ];
 

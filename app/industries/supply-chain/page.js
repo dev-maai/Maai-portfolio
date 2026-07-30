@@ -36,8 +36,8 @@ const METHOD = [
     k: "Intent",
     t: "Search intent mapping",
     d: "We decode how procurement, operations and logistics buyers search, from early research through to vendor shortlisting, then build pages that meet them at each stage.",
-    img: "photo-1781559818983-4180d744416a",
-    alt: "Operations analyst reviewing demand data on a tablet",
+    img: "photo-1707157281599-d155d1da5b4c",
+    alt: "Analyst mapping buyer-search data across charts",
   },
   {
     n: "03",
