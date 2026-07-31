@@ -1,3 +1,5 @@
+import VideoTestimonial from "./VideoTestimonial";
+
 export default function Proof() {
   return (
     <>
@@ -16,35 +18,32 @@ export default function Proof() {
                 <div className="slider-track">
                   <div className="slide" role="group" aria-roledescription="slide">
                     <span className="quote-mark">&ldquo;</span>
-                    <blockquote>They rebuilt our content around the questions buyers actually ask. A year later, <b>organic is our single biggest pipeline source.</b></blockquote>
+                    <blockquote>Kriti has been integral to our digital transformation for the past five years. Her strategic insight and deep understanding of digital trends have <b>significantly enhanced our online presence and deepened trust</b> with our patients and community.</blockquote>
                     <div className="slide-foot">
                       <div className="who">
-                        <img src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=120&q=75&auto=format&fit=crop" alt="Elena Cho" loading="lazy" width="120" height="120" />
-                        <div><div className="n">Elena Cho</div><div className="r">VP Marketing · Verdant Co</div></div>
+                        <div className="who-mono" aria-hidden="true">SB</div>
+                        <div><div className="n">Shuchin Bajaj</div><div className="r">Founder Director · Ujala Cygnus Hospitals</div></div>
                       </div>
-                      <div className="res"><div className="n">▲ 212%</div><div className="l">Organic sessions</div></div>
                     </div>
                   </div>
                   <div className="slide" role="group" aria-roledescription="slide">
                     <span className="quote-mark">&ldquo;</span>
-                    <blockquote>We moved budget from bought leads to owned answers. MAAI made us <b>the cited source in our category.</b></blockquote>
+                    <blockquote>Kriti is one digital marketing consultant who takes client relationships seriously. She and the Maai team <b>built the LinkedIn rhythm for my profile and my company</b> — going beyond the call of duty on graphic design and events.</blockquote>
                     <div className="slide-foot">
                       <div className="who">
-                        <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=120&q=75&auto=format&fit=crop" alt="Marcus Okafor" loading="lazy" width="120" height="120" />
-                        <div><div className="n">Marcus Okafor</div><div className="r">Head of Growth · Atlas Group</div></div>
+                        <div className="who-mono" aria-hidden="true">AP</div>
+                        <div><div className="n">Anand Parikh</div><div className="r">MedTech · Innovation · Impact</div></div>
                       </div>
-                      <div className="res"><div className="n">▼ 38%</div><div className="l">Paid dependency</div></div>
                     </div>
                   </div>
                   <div className="slide" role="group" aria-roledescription="slide">
                     <span className="quote-mark">&ldquo;</span>
-                    <blockquote>They optimized for answer engines before our competitors knew the term. Now we're <b>the default citation in AI Overviews.</b></blockquote>
+                    <blockquote>Efficient, clear and incredibly pedagogical — she made complex things feel simple and actionable. What stood out was her <b>intuitive understanding of who we are</b>, without us even needing to explain it. Kriti just got it.</blockquote>
                     <div className="slide-foot">
                       <div className="who">
-                        <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=120&q=75&auto=format&fit=crop" alt="David Reyes" loading="lazy" width="120" height="120" />
-                        <div><div className="n">David Reyes</div><div className="r">CMO · NorthPeak</div></div>
+                        <div className="who-mono" aria-hidden="true">CG</div>
+                        <div><div className="n">Colette Tostivint Gurung</div><div className="r">Executive Coach · Co-founder, Eklore</div></div>
                       </div>
-                      <div className="res"><div className="n">3.2×</div><div className="l">AI Overview presence</div></div>
                     </div>
                   </div>
                 </div>
@@ -60,14 +59,11 @@ export default function Proof() {
       
             {/* right rail: looping video + color-block stats */}
             <div className="proof-rail">
-              <div className="video-block reveal">
-                <video autoPlay muted loop playsInline preload="metadata" aria-hidden="true">
-                  <source src="https://videos.pexels.com/video-files/5527786/5527786-hd_1280_720_25fps.mp4" type="video/mp4" />
-                  <source src="https://videos.pexels.com/video-files/5527786/5527786-sd_640_360_25fps.mp4" type="video/mp4" />
-                </video>
-                <div className="veil"></div>
-                <div className="cap">Inside the work</div>
-              </div>
+              <VideoTestimonial
+                src="/testimonal/maai-testimonal.mp4"
+                poster="/testimonal/maai-poster.jpg"
+                label="Client review"
+              />
               <div className="color-blocks">
                 <div className="cblock pine reveal">
                   <div className="big" data-count="4">0</div>
