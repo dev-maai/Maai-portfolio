@@ -141,8 +141,23 @@ export default function Signals() {
           <a className="btn contrast reveal" href="#contact">Book your discovery call</a>
         </div>
 
-        <div className="sig-list" aria-hidden="true">
-          {SIGNALS.map((s, i) => <span className="sig" key={i}>{s.t}</span>)}
+        {/* mobile-only: a two-line keyword marquee (rows scroll opposite ways).
+           Each row's chips are duplicated so the -50% loop is seamless. */}
+        <div className="sig-marquee" aria-hidden="true">
+          <div className="sig-row">
+            <div className="sig-track">
+              {[...SIGNALS.slice(0, 10), ...SIGNALS.slice(0, 10)].map((s, i) => (
+                <span className="sig-chip" key={`a-${i}`}>{s.t}</span>
+              ))}
+            </div>
+          </div>
+          <div className="sig-row rev">
+            <div className="sig-track">
+              {[...SIGNALS.slice(10), ...SIGNALS.slice(10)].map((s, i) => (
+                <span className="sig-chip" key={`b-${i}`}>{s.t}</span>
+              ))}
+            </div>
+          </div>
         </div>
       </div>
     </section>

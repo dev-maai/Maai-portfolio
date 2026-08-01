@@ -36,9 +36,9 @@ export default function Values() {
     <section className="values" id="values">
       <div className="wrap">
         <h2 className="reveal">Case studies.</h2>
-        <div className="holds reveal" role="list">
+        <div className="holds" role="list">
           {CASES.map((c, i) => (
-            <a className="holds-panel" role="listitem" href={`/case-studies/${c.slug}`} key={`${c.slug}-${i}`}>
+            <a className="holds-panel reveal" role="listitem" href={`/case-studies/${c.slug}`} key={`${c.slug}-${i}`}>
               <img className="holds-img" src={c.img} alt="" loading="lazy" />
               <span className="holds-veil" aria-hidden="true"></span>
               <span className="holds-k" aria-hidden="true">{c.label}</span>

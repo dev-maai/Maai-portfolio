@@ -2417,7 +2417,18 @@ h1.hh-h1.is-pending{font-size:clamp(16px,2vw,22px)!important}
 /* --- How it holds: expanding image accordion --- */
 .holds{display:flex;gap:12px;margin-top:48px;height:clamp(340px,42vw,460px)}
 .holds-panel{position:relative;flex:1 1 0;min-width:0;border-radius:16px;overflow:hidden;cursor:pointer;
-  border:1px solid var(--line);transition:flex .55s var(--ease);outline:none}
+  border:1px solid var(--line);outline:none;
+  /* flex drives the accordion; opacity/transform/filter drive the scroll-reveal.
+     --rd is a per-card reveal delay (desktop cascade) that never touches flex. */
+  transition:flex .55s var(--ease),
+             opacity .7s var(--ease) var(--rd,0s),
+             transform .8s var(--ease) var(--rd,0s),
+             filter .7s var(--ease) var(--rd,0s)}
+@media(min-width:781px){
+  .holds-panel:nth-child(2){--rd:.08s}
+  .holds-panel:nth-child(3){--rd:.16s}
+  .holds-panel:nth-child(4){--rd:.24s}
+}
 .holds-panel:hover,.holds-panel:focus-visible{flex:3.6 1 0}
 .holds-panel:focus-visible{box-shadow:0 0 0 2px var(--amber)}
 .holds-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:saturate(.92);
@@ -2436,11 +2447,19 @@ h1.hh-h1.is-pending{font-size:clamp(16px,2vw,22px)!important}
   transition:opacity .45s var(--ease) .1s,transform .45s var(--ease) .1s,max-height .5s var(--ease)}
 .holds-panel:hover .holds-body p,.holds-panel:focus-visible .holds-body p{max-height:220px;opacity:1;transform:none}
 @media(max-width:780px){
-  /* Mobile: drop the expanding accordion for legible image-top / text-below cards */
-  .holds{flex-direction:column;height:auto;gap:16px}
+  /* Mobile: sticky-stacking deck — each card pins below the nav and the next
+     slides up over it, leaving earlier cards' top edges peeking as a stack. */
+  .holds{display:block;height:auto;margin-top:32px}
   .holds-panel{flex:none;min-height:0;display:flex;flex-direction:column;cursor:default;
+    position:sticky;margin-bottom:20px;
     background:var(--pine-deep);border:1px solid var(--line);border-radius:18px;overflow:hidden;
-    box-shadow:0 18px 40px -28px rgba(24,20,17,.5)}
+    box-shadow:0 -1px 0 rgba(255,255,255,.05),0 26px 52px -22px rgba(0,0,0,.7)}
+  .holds-panel:nth-child(1){top:84px;z-index:1}
+  .holds-panel:nth-child(2){top:128px;z-index:2}
+  .holds-panel:nth-child(3){top:172px;z-index:3}
+  .holds-panel:nth-child(4){top:216px;z-index:4}
+  /* fade cards in on scroll, but drop the rise/blur transform — it fights sticky */
+  .holds-panel.reveal{transform:none;filter:none}
   /* image becomes a real block at the top instead of a full-bleed background */
   .holds-img{position:relative;inset:auto;width:100%;height:190px;object-fit:cover;filter:saturate(1)}
   .holds-veil{display:none}
@@ -3597,19 +3616,22 @@ h1.hh-h1.is-pending{font-size:clamp(16px,2vw,22px)!important}
   .nav-dd-link{padding:13px 2px;border-bottom:1px solid var(--line);border-radius:0;font-size:15px}
 }
 
-/* ── Signals "why choose us" — capabilities checklist on mobile ── */
+/* ── Signals "why choose us" — two-line keyword marquee on mobile ── */
+.sig-marquee{display:none}
+@keyframes sigScroll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
 @media(max-width:760px){
-  .sig-list{display:grid;grid-template-columns:1fr 1fr;gap:0 clamp(12px,4vw,24px);
-    max-width:440px;margin-left:auto;margin-right:auto;text-align:left;
-    background:rgba(247,247,242,.035);border:1px solid rgba(247,247,242,.12);
-    border-radius:18px;padding:4px clamp(16px,4vw,22px);
-    box-shadow:0 30px 60px -44px rgba(0,0,0,.5)}
-  .sig-list .sig{display:flex;align-items:center;gap:10px;white-space:normal;
-    background:none;border:none;border-radius:0;padding:13px 0;font-size:13px;line-height:1.25;
-    color:rgba(247,247,242,.88);transition:none;
-    border-top:1px solid rgba(247,247,242,.09)}
-  .sig-list .sig:nth-child(-n+2){border-top:none}
-  .sig-list .sig::before{content:"";flex:none;width:6px;height:6px;border-radius:50%;
+  .sig-marquee{display:flex;flex-direction:column;gap:12px;margin-top:28px;min-width:0;
+    -webkit-mask-image:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent);
+            mask-image:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent)}
+  .sig-row{overflow:hidden;min-width:0;padding:4px 0}
+  .sig-track{display:flex;width:max-content;will-change:transform;
+    animation:sigScroll 40s linear infinite}
+  .sig-row.rev .sig-track{animation-direction:reverse;animation-duration:48s}
+  .sig-chip{flex:none;white-space:nowrap;margin-right:11px;display:inline-flex;align-items:center;gap:9px;
+    font-family:var(--font-mono);font-size:12.5px;letter-spacing:.01em;color:rgba(247,247,242,.9);
+    padding:9px 15px;border-radius:999px;background:rgba(247,247,242,.05);
+    border:1px solid rgba(247,247,242,.16)}
+  .sig-chip::before{content:"";flex:none;width:6px;height:6px;border-radius:50%;
     background:var(--amber);box-shadow:0 0 8px color-mix(in srgb,var(--amber) 60%,transparent)}
-  .sig-list .sig:hover{color:#F7F7F2}
 }
+@media(prefers-reduced-motion:reduce){.sig-track{animation:none}}
