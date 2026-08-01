@@ -293,7 +293,7 @@ h1,h2,h3{font-family:var(--font-display);line-height:1.05;letter-spacing:-.02em;
     padding:8px var(--pad) 20px;
     max-height:0;overflow:hidden;opacity:0;pointer-events:none;
     transition:max-height .38s var(--ease),opacity .3s,padding .3s}
-  .nav.open .nav-links{max-height:78vh;opacity:1;pointer-events:auto}
+  .nav.open .nav-links{max-height:82vh;opacity:1;pointer-events:auto;overflow-y:auto;-webkit-overflow-scrolling:touch;overscroll-behavior:contain}
   .nav-links a{padding:15px 2px;font-size:16px;border-bottom:1px solid var(--line)}
   .nav-links a::after{display:none}
   .nav-cta-m{display:inline-flex;justify-content:center;margin-top:16px;border-bottom:none;padding:14px}
@@ -2636,6 +2636,11 @@ h1.hh-h1.is-pending{font-size:clamp(16px,2vw,22px)!important}
 .q90-items i{width:22px;height:22px;border-radius:50%;display:grid;place-items:center;font-size:12px;font-style:normal;flex:none;
   background:color-mix(in srgb,var(--pine) 26%,transparent);color:var(--pine-deep)}
 
+/* accordion scaffolding — inert on desktop (each phase is just its tab button) */
+.q90-phase{display:flex;flex-direction:column;min-width:0}
+.q90-phase>.q90-tab{width:100%}
+.q90-acc{display:none}
+.q90-caret{display:none}
 @media(max-width:820px){
   .q90-tabs{grid-template-columns:1fr}
   .q90-body{grid-template-columns:1fr}
@@ -3192,6 +3197,26 @@ h1.hh-h1.is-pending{font-size:clamp(16px,2vw,22px)!important}
 .plan .q90-badge{color:#d0e1da;background:rgba(208,225,218,.14)}
 .plan .q90-detail{background:rgba(10,32,22,.5);border-color:rgba(247,247,242,.10)}
 
+/* ── 90-day plan → accordion on mobile: grid on top, tap a phase to expand ── */
+@media(max-width:820px){
+  .plan .q90{display:flex;flex-direction:column;gap:14px}
+  .plan .q90-body{order:-1}                 /* day-grid rises above the phases */
+  .plan .q90-body .q90-detail{display:none} /* the separate detail panel is replaced by inline accordion bodies */
+  .plan .q90-tabs{order:0;display:flex;flex-direction:column;gap:10px}
+  .plan .q90-phase{background:rgba(10,32,22,.5);border:1px solid var(--line);border-radius:14px;overflow:hidden;
+    transition:border-color .25s var(--ease)}
+  .plan .q90-phase>.q90-tab{border:none;border-radius:0;background:none;transform:none;padding:16px}
+  .plan .q90-phase>.q90-tab:hover{transform:none}
+  .plan .q90-caret{display:block;flex:none;width:18px;height:18px;margin-left:auto;color:var(--sage);
+    transition:transform .3s var(--ease)}
+  .plan .q90-tab.on .q90-caret{transform:rotate(180deg);color:#d0e1da}
+  .plan .q90-acc{display:block;max-height:0;overflow:hidden;padding:0 16px;
+    transition:max-height .36s var(--ease)}
+  .plan .q90-tab.on + .q90-acc{max-height:340px;padding-bottom:18px}
+  .plan .q90-acc>p{color:var(--sage);font-size:14.5px;line-height:1.6}
+  .plan .q90-acc .q90-items{margin-top:14px}
+}
+
 /* 7 — Glass shade for the header + footer */
 .nav{background:color-mix(in srgb,#DDE0D5 94%,transparent);border-bottom:1px solid rgba(14,42,30,.12)}
 .footer{background:#DDE0D5;color:color-mix(in srgb,#0E2A1E 70%,#DDE0D5)}
@@ -3336,7 +3361,20 @@ h1.hh-h1.is-pending{font-size:clamp(16px,2vw,22px)!important}
 .scx-hero-media img{width:100%;height:100%;object-fit:cover;display:block}
 .scx-hero-tint{position:absolute;inset:0;pointer-events:none;
   background:linear-gradient(160deg,rgba(38,89,67,.26),rgba(10,32,22,.34))}
-@media(max-width:860px){.scx-hero-grid{grid-template-columns:1fr}.scx-hero-media{aspect-ratio:16/10}}
+@media(max-width:860px){
+  .scx-hero-grid{grid-template-columns:1fr}
+  /* mobile: the photo becomes a darkened full-bleed backdrop behind the copy,
+     so the hero reads as one unit instead of a floating image under the CTA */
+  .scx-hero{padding:clamp(96px,26vw,150px) 0 clamp(40px,10vw,64px)}
+  .scx-hero-media{position:absolute;inset:0;z-index:0;aspect-ratio:auto;
+    border:none;border-radius:0;box-shadow:none}
+  .scx-hero-tint{background:
+    linear-gradient(180deg,rgba(10,32,22,.52) 0%,rgba(10,32,22,.72) 55%,rgba(10,32,22,.9) 100%)}
+  /* only the copy is lifted above the photo — the grid must stay static so the
+     photo's inset:0 resolves to .scx-hero (full-bleed), not the grid */
+  .scx-hero-copy{position:relative;z-index:1}
+  .scx-lede{color:rgba(247,247,242,.9)}
+}
 
 /* ── does your business need SEO (light) ── */
 .scx-eyebrow{font-family:var(--font-mono);font-size:12px;letter-spacing:.1em;text-transform:uppercase;
@@ -3454,13 +3492,29 @@ h1.hh-h1.is-pending{font-size:clamp(16px,2vw,22px)!important}
 .svc-inc{list-style:none;margin:22px 0 0;display:flex;flex-direction:column;gap:12px}
 .svc-inc li{display:flex;align-items:center;gap:12px;font-size:14.5px;color:#cddbd2}
 .svc-arrow{font-family:var(--font-mono);color:var(--amber);flex:none}
+/* accordion scaffolding — inert on desktop (each item is just its tab button) */
+.svc-item{display:flex;flex-direction:column;min-width:0}
+.svc-item>.svc-tab{width:100%}
+.svc-acc{display:none}
 @media(max-width:820px){
-  .svc{grid-template-columns:1fr;gap:16px}
-  .svc-tabs{flex-direction:row;flex-wrap:wrap}
-  .svc-tab{flex:1 1 auto;padding:11px 13px}
-  .svc-tab-n{font-size:13px}
-  .svc-tab-caret{display:none}
-  .svc-win-body{min-height:210px}
+  /* services → accordion: tap a service to expand its detail inline */
+  .svc{display:block}
+  .svc-tabs{display:flex;flex-direction:column;gap:10px}
+  .svc-item{background:#fff;border:1px solid #d5e3dc;border-radius:14px;overflow:hidden;
+    transition:border-color .25s var(--ease),box-shadow .25s var(--ease)}
+  .svc-item:has(.svc-tab.on){border-color:color-mix(in srgb,var(--amber) 42%,transparent);
+    box-shadow:0 12px 30px -20px rgba(24,20,17,.35)}
+  .svc-item>.svc-tab{padding:15px 16px}
+  .svc-ind{display:none}                    /* the sliding white pill isn't needed on cards */
+  .svc-tab-n{font-size:14.5px;flex:1}
+  .svc-tab-caret{display:block;opacity:1;transform:none;color:#9bb0a4}
+  .svc-tab.on .svc-tab-caret{transform:rotate(90deg);color:var(--amber)}
+  .svc-acc{display:block;max-height:0;overflow:hidden;padding:0 16px;transition:max-height .4s var(--ease)}
+  .svc-tab.on + .svc-acc{max-height:420px;padding-bottom:18px}
+  .svc-acc p{margin:0;font-size:14px;line-height:1.62;color:#5c6b61}
+  .svc-acc .svc-inc{margin:14px 0 0}
+  .svc-acc .svc-inc li{color:#0e2a1e;font-size:14px}
+  .svc-window{display:none}                 /* replaced by the inline accordion bodies */
 }
 
 /* ── FAQ (light) ── */
@@ -3610,10 +3664,19 @@ h1.hh-h1.is-pending{font-size:clamp(16px,2vw,22px)!important}
 @media(max-width:760px){
   .nav-dd{flex-direction:column;align-items:stretch}
   .nav-dd-trigger{justify-content:space-between}
+  /* collapsible accordion: hidden until the row is tapped */
   .nav-dd-menu{position:static;transform:none;opacity:1;pointer-events:auto;z-index:auto;
-    min-width:0;padding:2px 0 2px 14px;background:none;backdrop-filter:none;border:none;box-shadow:none}
+    min-width:0;padding:0 0 0 14px;background:none;backdrop-filter:none;border:none;box-shadow:none;
+    max-height:0;overflow:hidden;transition:max-height .34s var(--ease)}
+  /* the desktop hover-dropdown centres the menu with translate(-50%); on mobile
+     it's an in-flow accordion, so kill those hover/focus transforms */
+  .nav-dd:hover .nav-dd-menu,.nav-dd:focus-within .nav-dd-menu{transform:none}
+  .nav-dd:hover .nav-dd-caret,.nav-dd:focus-within .nav-dd-caret{transform:none}
+  .nav-dd.open .nav-dd-menu{max-height:360px}
+  .nav-dd.open .nav-dd-caret{transform:rotate(180deg)}
   .nav-dd-menu::before{display:none}
   .nav-dd-link{padding:13px 2px;border-bottom:1px solid var(--line);border-radius:0;font-size:15px}
+  .nav-dd-link:last-child{border-bottom:none}
 }
 
 /* ── Signals "why choose us" — two-line keyword marquee on mobile ── */

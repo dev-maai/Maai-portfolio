@@ -37,9 +37,20 @@ function phaseOfDay(d) {
   return 2;
 }
 
+/* below this width the phases are a tap-to-toggle accordion; above it they are
+   hover-preview tabs with an always-open detail panel */
+const isAccordion = () =>
+  typeof window !== "undefined" && window.matchMedia("(max-width:820px)").matches;
+
 export default function Plan() {
-  const [active, setActive] = useState(1);
-  const p = PHASES[active];
+  const [active, setActive] = useState(1);   // which phase's detail is expanded (-1 = none on mobile)
+  const [gridPhase, setGridPhase] = useState(1); // which phase the grid keeps lit — never blank
+  const p = active >= 0 ? PHASES[active] : null;
+  const gp = PHASES[gridPhase];
+
+  // desktop: hover/focus previews a phase. mobile: only a tap toggles it.
+  const preview = (i) => { if (!isAccordion()) { setActive(i); setGridPhase(i); } };
+  const choose = (i) => { setActive((cur) => (isAccordion() ? (cur === i ? -1 : i) : i)); setGridPhase(i); };
 
   return (
     <section className="plan" id="plan">
@@ -54,22 +65,34 @@ export default function Plan() {
         <div className="q90 reveal">
           <div className="q90-tabs" role="tablist" aria-label="Plan phases">
             {PHASES.map((ph, i) => (
-              <button
-                key={ph.k}
-                type="button"
-                role="tab"
-                aria-selected={active === i}
-                className={`q90-tab${active === i ? " on" : ""}`}
-                onMouseEnter={() => setActive(i)}
-                onFocus={() => setActive(i)}
-                onClick={() => setActive(i)}
-              >
-                <span className="q90-k">{ph.k}</span>
-                <span className="q90-tmeta">
-                  <span className="q90-tdays">{ph.days}</span>
-                  <span className="q90-ttitle">{ph.title}</span>
-                </span>
-              </button>
+              <div className="q90-phase" key={ph.k}>
+                <button
+                  type="button"
+                  role="tab"
+                  aria-selected={active === i}
+                  aria-expanded={active === i}
+                  className={`q90-tab${active === i ? " on" : ""}`}
+                  onMouseEnter={() => preview(i)}
+                  onFocus={() => preview(i)}
+                  onClick={() => choose(i)}
+                >
+                  <span className="q90-k">{ph.k}</span>
+                  <span className="q90-tmeta">
+                    <span className="q90-tdays">{ph.days}</span>
+                    <span className="q90-ttitle">{ph.title}</span>
+                  </span>
+                  <svg className="q90-caret" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6" /></svg>
+                </button>
+                {/* inline detail — the accordion body shown on mobile */}
+                <div className="q90-acc">
+                  <p>{ph.body}</p>
+                  <ul className="q90-items">
+                    {ph.items.map((it) => (
+                      <li key={it}><i aria-hidden="true">✓</i>{it}</li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
             ))}
           </div>
 
@@ -78,14 +101,14 @@ export default function Plan() {
               <div
                 className="q90-grid"
                 role="img"
-                aria-label={`90-day plan with the ${p.title} phase (${p.days}) highlighted`}
+                aria-label={`90-day plan with the ${gp.title} phase (${gp.days}) highlighted`}
               >
                 {DAYS.map((d) => {
                   const ph = phaseOfDay(d);
                   return (
                     <span
                       key={d}
-                      className={`q90-cell p${ph + 1}${ph === active ? " hot" : ""}`}
+                      className={`q90-cell p${ph + 1}${ph === gridPhase ? " hot" : ""}`}
                       title={`Day ${d} · ${PHASES[ph].title}`}
                     />
                   );
@@ -98,18 +121,20 @@ export default function Plan() {
               </div>
             </div>
 
-            <div className="q90-detail">
-              <div className="q90-detail-top">
-                <span className="q90-badge">{p.days}</span>
-                <h3>{p.title}</h3>
+            {p && (
+              <div className="q90-detail">
+                <div className="q90-detail-top">
+                  <span className="q90-badge">{p.days}</span>
+                  <h3>{p.title}</h3>
+                </div>
+                <p>{p.body}</p>
+                <ul className="q90-items">
+                  {p.items.map((it) => (
+                    <li key={it}><i aria-hidden="true">✓</i>{it}</li>
+                  ))}
+                </ul>
               </div>
-              <p>{p.body}</p>
-              <ul className="q90-items">
-                {p.items.map((it) => (
-                  <li key={it}><i aria-hidden="true">✓</i>{it}</li>
-                ))}
-              </ul>
-            </div>
+            )}
           </div>
         </div>
       </div>

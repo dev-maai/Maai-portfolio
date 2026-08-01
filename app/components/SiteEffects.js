@@ -35,7 +35,9 @@ export default function SiteEffects() {
           burger.setAttribute("aria-expanded", o ? "true" : "false");
         };
         on(burger, "click", () => setOpen(!nav.classList.contains("open")));
-        nav.querySelectorAll(".nav-links a").forEach((a) => on(a, "click", () => setOpen(false)));
+        /* close the menu when a real link is tapped — but NOT the Industries
+           trigger, which only expands/collapses its submenu on mobile */
+        nav.querySelectorAll(".nav-links a:not(.nav-dd-trigger)").forEach((a) => on(a, "click", () => setOpen(false)));
       }
     }
 

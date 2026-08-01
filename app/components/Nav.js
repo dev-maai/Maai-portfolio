@@ -21,6 +21,17 @@ const INDUSTRIES = [
 export default function Nav() {
   const [hover, setHover] = useState(null);
   const [spy, setSpy] = useState(null);
+  const [indOpen, setIndOpen] = useState(false);
+
+  /* On mobile the "Industries" row toggles its submenu instead of navigating,
+     so the menu stays short and the chevron actually does something. On desktop
+     it keeps its hover-dropdown behaviour and the link still works. */
+  const onIndustries = (e) => {
+    if (typeof window !== "undefined" && window.matchMedia("(max-width:760px)").matches) {
+      e.preventDefault();
+      setIndOpen((o) => !o);
+    }
+  };
 
   useEffect(() => {
     if (window.location.pathname.startsWith("/team")) {
@@ -64,8 +75,8 @@ export default function Nav() {
                   <span className="tube-label">{l.label}</span>
                 </a>
                 {i === 0 && (
-                  <div className="nav-dd" onMouseEnter={() => setHover(null)}>
-                    <a href="/#outcomes" className="tube-item nav-dd-trigger" aria-haspopup="true">
+                  <div className={`nav-dd${indOpen ? " open" : ""}`} onMouseEnter={() => setHover(null)}>
+                    <a href="/#outcomes" className="tube-item nav-dd-trigger" aria-haspopup="true" aria-expanded={indOpen} onClick={onIndustries}>
                       <span className="tube-label">Industries</span>
                       <svg className="nav-dd-caret" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6" /></svg>
                     </a>
