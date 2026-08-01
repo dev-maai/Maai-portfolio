@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import SignalFlow from "./SignalFlow";
 
 const PHASES = [
@@ -43,14 +43,16 @@ const isAccordion = () =>
   typeof window !== "undefined" && window.matchMedia("(max-width:820px)").matches;
 
 export default function Plan() {
-  const [active, setActive] = useState(1);   // which phase's detail is expanded (-1 = none on mobile)
-  const [gridPhase, setGridPhase] = useState(1); // which phase the grid keeps lit — never blank
+  const [active, setActive] = useState(1);   // selected phase (-1 = none → plain calendar)
   const p = active >= 0 ? PHASES[active] : null;
-  const gp = PHASES[gridPhase];
+
+  // on mobile the plan opens as a plain calendar — days only light up once a
+  // phase is tapped. (desktop keeps a phase selected + its detail panel shown.)
+  useEffect(() => { if (isAccordion()) setActive(-1); }, []);
 
   // desktop: hover/focus previews a phase. mobile: only a tap toggles it.
-  const preview = (i) => { if (!isAccordion()) { setActive(i); setGridPhase(i); } };
-  const choose = (i) => { setActive((cur) => (isAccordion() ? (cur === i ? -1 : i) : i)); setGridPhase(i); };
+  const preview = (i) => { if (!isAccordion()) setActive(i); };
+  const choose = (i) => setActive((cur) => (isAccordion() ? (cur === i ? -1 : i) : i));
 
   return (
     <section className="plan" id="plan">
@@ -101,14 +103,14 @@ export default function Plan() {
               <div
                 className="q90-grid"
                 role="img"
-                aria-label={`90-day plan with the ${gp.title} phase (${gp.days}) highlighted`}
+                aria-label={p ? `90-day plan with the ${p.title} phase (${p.days}) highlighted` : "90-day plan across three phases — tap a phase to highlight its days"}
               >
                 {DAYS.map((d) => {
                   const ph = phaseOfDay(d);
                   return (
                     <span
                       key={d}
-                      className={`q90-cell p${ph + 1}${ph === gridPhase ? " hot" : ""}`}
+                      className={`q90-cell p${ph + 1}${ph === active ? " hot" : ""}`}
                       title={`Day ${d} · ${PHASES[ph].title}`}
                     />
                   );
