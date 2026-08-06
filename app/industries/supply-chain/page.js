@@ -161,7 +161,7 @@ export default function SupplyChainPage() {
               formed.
             </p>
             <div className="scx-hero-cta">
-              <a className="btn amber" href="/#contact">Book a strategy call</a>
+              <a className="btn amber" href="/#contact">Get in Touch</a>
             </div>
           </div>
           <div className="scx-hero-media reveal">
@@ -248,7 +248,7 @@ export default function SupplyChainPage() {
         />
         <div className="scx-band-tint" />
         <div className="wrap scx-band-copy">
-          <p>Visibility earned at the point of intent keeps returning — quarter after quarter.</p>
+          <p>Visibility earned at the point of intent keeps returning quarter after quarter.</p>
         </div>
       </section>
 

@@ -2936,7 +2936,7 @@ h1.hh-h1.is-pending{font-size:clamp(16px,2vw,22px)!important}
   max-width:22ch;margin:0 auto}
 .ivs h2 em{font-family:var(--font-serif);font-style:italic;font-weight:500;color:var(--amber)}
 .ivs-rail{position:relative;display:grid;grid-template-columns:repeat(3,1fr);align-items:center;
-  height:26px;margin:clamp(36px,4.5vw,58px) 0 clamp(26px,3vw,40px)}
+  height:26px;margin:clamp(56px,7vw,92px) 0 clamp(40px,4.5vw,62px)}
 .ivs-line{position:absolute;left:0;right:0;top:50%;height:2px;transform-origin:left center;
   background:linear-gradient(90deg,#265943,#d0e1da)}
 .ivs-dot{position:relative;z-index:1;justify-self:center;width:13px;height:13px;border-radius:50%;
@@ -2948,7 +2948,7 @@ h1.hh-h1.is-pending{font-size:clamp(16px,2vw,22px)!important}
 .ivs .cta-row{justify-content:center;margin-top:clamp(30px,4vw,50px)}
 @media(max-width:760px){
   .ivs-rail{display:none}
-  .ivs-grid{grid-template-columns:1fr;gap:34px}
+  .ivs-grid{grid-template-columns:1fr;gap:34px;margin-top:44px}
 }
 
 /* Industry landing hero (app/industries/[slug]) — evergreen night */

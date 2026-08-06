@@ -132,7 +132,7 @@ export default function Signals() {
         </div>
 
         <div className="sig-copy">
-          <h2 className="reveal">Why choose <em>us?</em></h2>
+          <h2 className="reveal">Why choose <em>Us?</em></h2>
           <p className="lede reveal">
             We own your business growth and accountability. Every recommendation is
             backed by industry data. Every piece of work is reported. Every result is
