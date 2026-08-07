@@ -38,6 +38,10 @@ export default function Nav() {
       setSpy(LINKS.findIndex((l) => l.id === "__team"));
       return;
     }
+    if (window.location.pathname.startsWith("/about")) {
+      setSpy(LINKS.findIndex((l) => l.id === "__about"));
+      return;
+    }
     const map = new Map();
     LINKS.forEach((l, i) => {
       const el = document.getElementById(l.id);

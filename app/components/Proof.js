@@ -57,24 +57,13 @@ export default function Proof() {
               </div>
             </div>
       
-            {/* right rail: looping video + color-block stats */}
+            {/* right rail: client video review */}
             <div className="proof-rail">
               <VideoTestimonial
                 src="/testimonal/maai-testimonal.mp4"
                 poster="/testimonal/maai-poster.jpg"
                 label="Client review"
               />
-              <div className="color-blocks">
-                <div className="cblock pine reveal">
-                  <div className="big" data-count="4">0</div>
-                  <div className="cap2">× growth in LLM &amp; AI Overview citations</div>
-                  <svg className="spark" viewBox="0 0 88 52" fill="none" stroke="var(--amber)" strokeWidth="2.5" strokeLinecap="round"><path d="M2 44 L20 34 L38 38 L56 20 L74 24 L86 8" /></svg>
-                </div>
-                <div className="cblock amber reveal">
-                  <div className="big"><span data-count="100">0</span>%</div>
-                  <div className="cap2">of failures reported — with a fix attached</div>
-                </div>
-              </div>
             </div>
           </div>
         </div>

@@ -2700,30 +2700,18 @@ h1.hh-h1.is-pending{font-size:clamp(16px,2vw,22px)!important}
    LIGHT BUTTON (final CTA) — Uiverse light-button, rethemed to MAAI:
    evergreen pill + magenta Bindu dot + magenta "single-stroke" beam on hover
    ============================================================ */
-.light-button{display:inline-block;line-height:0}
-.light-button .bt{position:relative;height:124px;display:flex;align-items:flex-end;justify-content:center;
-  background:none;border:none;cursor:pointer}
+.light-button{display:inline-flex;line-height:0}
+.light-button .bt{position:relative;display:inline-flex;background:none;border:none;cursor:pointer;padding:0}
 .light-button .lb-holder{position:relative;z-index:1;display:inline-flex;align-items:center;gap:11px;
   height:58px;padding:0 30px;border-radius:999px;background:var(--surface);
   color:var(--ink);font-family:var(--font-display);font-weight:600;font-size:16px;letter-spacing:.005em;
   white-space:nowrap;outline:2px solid var(--line);outline-offset:2px;transition:300ms}
 .light-button .lb-holder svg{height:19px;width:19px;fill:none;stroke:currentColor;transition:300ms}
-.light-button .lb-light-holder{position:absolute;top:0;left:50%;transform:translateX(-50%);
-  height:124px;display:flex;flex-direction:column;align-items:center;pointer-events:none}
-.light-button .lb-dot{position:absolute;top:0;left:50%;transform:translateX(-50%);width:9px;height:9px;
-  background:var(--amber);border-radius:50%;z-index:2;
-  box-shadow:0 0 10px 1px color-mix(in srgb,var(--amber) 80%,transparent)}
-.light-button .lb-light{position:absolute;top:0;left:50%;transform:translateX(-50%);width:250px;height:124px;
-  clip-path:polygon(50% 0%,25% 100%,75% 100%);background:transparent;transition:300ms}
 .light-button .bt:hover .lb-holder{color:var(--amber-soft);outline-color:var(--amber);outline-offset:5px;
   box-shadow:0 0 34px -6px color-mix(in srgb,var(--amber) 60%,transparent)}
 .light-button .bt:hover .lb-holder svg{transform:translateX(3px)}
-.light-button .bt:hover .lb-light{background:linear-gradient(180deg,
-  color-mix(in srgb,var(--amber) 82%,transparent) 0%,
-  color-mix(in srgb,var(--amber) 10%,transparent) 55%,
-  transparent 78%)}
 .light-button:focus-visible .lb-holder,.light-button .bt:focus-visible .lb-holder{outline-color:var(--amber);outline-offset:5px}
-@media(prefers-reduced-motion:reduce){.light-button .lb-holder,.light-button .lb-light,.light-button .lb-holder svg{transition:none}}
+@media(prefers-reduced-motion:reduce){.light-button .lb-holder,.light-button .lb-holder svg{transition:none}}
 
 /* ============================================================
    TUBELIGHT NAV — magenta lamp + glow slides over the active item
@@ -3698,3 +3686,133 @@ h1.hh-h1.is-pending{font-size:clamp(16px,2vw,22px)!important}
     background:var(--amber);box-shadow:0 0 8px color-mix(in srgb,var(--amber) 60%,transparent)}
 }
 @media(prefers-reduced-motion:reduce){.sig-track{animation:none}}
+
+
+/* ============================================================
+   ABOUT — pinned kinetic hero + matching sections (MAAI-themed)
+   ============================================================ */
+
+/* ---- pinned hero: tall section, sticky inner, drifting headline ---- */
+.kh{position:relative;height:230vh;background:var(--paper)}
+.kh-sticky{position:sticky;top:0;height:100vh;overflow:hidden}
+.kh-bigwrap{position:absolute;inset:0;z-index:0;display:flex;align-items:flex-start;justify-content:center;
+  padding-top:clamp(48px,6.5vh,92px);overflow:hidden;pointer-events:none}
+.kh-bigtext{will-change:transform}
+.kh-bigtext span{display:block;font-family:var(--font-display);font-weight:700;letter-spacing:-.03em;line-height:.94;
+  text-align:center;white-space:nowrap;font-size:clamp(48px,9.6vw,150px);
+  color:color-mix(in srgb,#0E2A1E 86%,transparent)}
+.kh-stage{position:absolute;z-index:1;top:0;left:0;right:0;width:100%;max-width:1380px;height:132vh;margin:0 auto;padding:0 var(--pad);will-change:transform}
+
+@keyframes khIn{from{opacity:0;transform:translateY(34px)}to{opacity:1;transform:none}}
+
+/* hero card positions (bigger cards) */
+.kh-slot{position:absolute;width:clamp(320px,29vw,388px);animation:khIn .7s var(--ease) both}
+.kh-slot--1{top:10%;left:2%;animation-delay:.05s}
+.kh-slot--2{top:26%;right:3%;animation-delay:.16s}
+.kh-slot--3{top:52%;left:24%;animation-delay:.27s}
+
+/* ---- shared note card (hero slots + km grid). Reveals on HOVER. ---- */
+.kh-card{position:relative;width:100%;min-height:clamp(200px,23vh,264px);text-align:left;appearance:none;cursor:default;outline:none;
+  background:#ECEEE6;border:1px solid rgba(24,20,17,.07);border-radius:28px;padding:30px 30px 26px;
+  display:flex;flex-direction:column;gap:12px;color:var(--ink);transform-origin:center;
+  box-shadow:0 24px 48px -28px rgba(24,20,17,.55);
+  transition:transform .45s var(--ease),box-shadow .45s var(--ease),background .45s var(--ease),color .45s var(--ease)}
+.kh-k{font-family:var(--font-mono);font-size:11.5px;letter-spacing:.15em;text-transform:uppercase;color:var(--amber);font-weight:600}
+.kh-plus{width:38px;height:38px;flex:none;margin-top:auto;align-self:flex-end;display:grid;place-items:center;border-radius:50%;
+  border:1px solid rgba(24,20,17,.18);color:var(--ink);
+  transition:transform .4s var(--ease),background .3s,color .3s,border-color .3s}
+.kh-plus svg{width:17px;height:17px}
+.kh-h{font-family:var(--font-display);font-weight:700;font-size:clamp(23px,1.9vw,29px);line-height:1.1;letter-spacing:-.01em;color:inherit}
+.kh-reveal{display:grid;grid-template-rows:0fr;overflow:hidden;opacity:0;
+  transition:grid-template-rows .45s var(--ease),opacity .34s var(--ease)}
+.kh-reveal>*{min-height:0}
+.kh-p{font-size:14.5px;line-height:1.6;color:rgba(247,247,242,.85);padding-top:4px}
+
+/* per-position tilt (declared before :hover so hover can un-tilt) */
+.kh-slot--1 .kh-card{transform:rotate(-5deg)}
+.kh-slot--2 .kh-card{transform:rotate(5.5deg)}
+.kh-slot--3 .kh-card{transform:rotate(3deg)}
+.km-slot--1 .kh-card{transform:rotate(-2deg)}
+.km-slot--2 .kh-card{transform:rotate(1.4deg)}
+.km-slot--3 .kh-card{transform:rotate(2.2deg)}
+
+/* hover / focus: un-tilt, flip to dark, reveal the copy */
+.kh-card:hover,.kh-card:focus-within{transform:rotate(0) translateY(-4px);
+  background:#0E2A1E;color:#F7F7F2;border-color:transparent;box-shadow:0 42px 82px -34px rgba(0,0,0,.6)}
+.kh-card:hover .kh-k,.kh-card:focus-within .kh-k{color:var(--amber-soft)}
+.kh-card:hover .kh-plus,.kh-card:focus-within .kh-plus{transform:rotate(135deg);background:var(--amber);border-color:var(--amber);color:#fff}
+.kh-card:hover .kh-reveal,.kh-card:focus-within .kh-reveal{grid-template-rows:1fr;opacity:1}
+.kh-slot:hover,.kh-slot:focus-within{z-index:6}
+
+/* hand-drawn arrow (draws in on scroll via framer pathLength) + CTA */
+.kh-cta-group{position:absolute;left:47%;top:72%;z-index:3;display:flex;flex-direction:column;align-items:center;gap:4px}
+.kh-arrow{width:clamp(84px,8.5vw,120px);height:auto;color:var(--amber);transform:rotate(6deg)}
+.kh-cta{display:inline-flex;align-items:center;gap:12px;padding:15px 16px 15px 26px;border-radius:999px;
+  background:#0E2A1E;color:#F7F7F2;text-decoration:none;font-family:var(--font-display);font-weight:600;font-size:16px;
+  white-space:nowrap;box-shadow:0 22px 42px -20px rgba(0,0,0,.5);transition:transform .3s var(--ease),box-shadow .3s var(--ease)}
+.kh-cta:hover{transform:translateY(-3px);box-shadow:0 28px 50px -20px rgba(0,0,0,.55)}
+.kh-cta-ic{display:grid;place-items:center;width:30px;height:30px;flex:none;border-radius:50%;background:var(--amber);color:#fff;transition:transform .3s var(--ease)}
+.kh-cta-ic svg{width:15px;height:15px}
+.kh-cta:hover .kh-cta-ic{transform:translateX(3px)}
+
+/* ---- how we work (matching tilted card grid) ---- */
+.km{background:var(--paper);padding:clamp(64px,9vw,110px) 0;border-top:1px solid var(--line)}
+.km-eyebrow{display:inline-flex;align-items:center;gap:10px;font-family:var(--font-mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--amber);font-weight:600}
+.km-eyebrow::before{content:"";width:22px;height:1.5px;background:var(--amber);flex:none}
+.km-head{max-width:780px;margin-bottom:clamp(30px,4vw,52px)}
+.km-head h2{font-family:var(--font-display);font-weight:700;font-size:clamp(28px,3.6vw,48px);letter-spacing:-.02em;line-height:1.06;margin-top:14px;color:var(--ink);max-width:18ch}
+.km-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(16px,2vw,26px);align-items:start}
+.km-slot{display:flex}
+.km-slot:nth-child(2){margin-top:clamp(16px,2.6vw,34px)}
+.km-slot:nth-child(3){margin-top:clamp(6px,1.4vw,18px)}
+
+/* ---- giving back (dark evergreen band) ---- */
+.kg{position:relative;overflow:hidden;
+  --ink:#F7F7F2;--panel:#0E2A1E;--surface:#143026;--sage:#9DB0A4;--amber:#E62E6B;--amber-soft:#FF7BA3;--line:rgba(247,247,242,.14);
+  color:var(--ink);background:var(--panel);padding:clamp(64px,9vw,120px) 0}
+.kg-grid{display:grid;grid-template-columns:1.25fr .75fr;gap:clamp(30px,5vw,68px);align-items:start}
+.kg h2{font-family:var(--font-display);font-weight:700;font-size:clamp(28px,3.6vw,50px);line-height:1.08;letter-spacing:-.02em;margin-top:16px;max-width:20ch;color:#fff}
+.kg h2 em{font-family:var(--font-serif);font-style:italic;font-weight:500;color:var(--amber-soft)}
+.kg .lede{margin-top:22px;max-width:62ch;color:rgba(247,247,242,.82)}
+.kg-funds{margin-top:clamp(28px,4vw,40px);display:grid;gap:20px}
+.kg-fund{display:flex;gap:16px;align-items:flex-start}
+.kg-fund-ic{width:46px;height:46px;flex:none;display:grid;place-items:center;border-radius:13px;background:rgba(255,123,163,.12);border:1px solid rgba(255,123,163,.3);color:var(--amber-soft)}
+.kg-fund-ic svg{width:23px;height:23px}
+.kg-fund h3{font-family:var(--font-display);font-weight:700;font-size:17px;color:#fff}
+.kg-fund p{margin-top:4px;font-size:14px;line-height:1.5;color:rgba(247,247,242,.72);max-width:48ch}
+.kg-pledge{background:rgba(247,247,242,.04);border:1px solid var(--line);border-radius:22px;padding:clamp(26px,3vw,38px);position:relative;overflow:hidden}
+.kg-pledge::before{content:"";position:absolute;right:-70px;top:-70px;width:200px;height:200px;border-radius:50%;background:radial-gradient(circle,rgba(255,123,163,.2),transparent 70%);pointer-events:none}
+.kg-pledge-top{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap}
+.kg-pledge-num{font-family:var(--font-display);font-weight:700;font-size:clamp(58px,7vw,88px);line-height:.85;color:var(--amber-soft);letter-spacing:-.03em}
+.kg-pledge-cap{font-family:var(--font-mono);font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--sage)}
+.kg-pledge-body{margin-top:20px;font-size:15px;line-height:1.6;color:rgba(247,247,242,.8)}
+.kg-pledge-stat{margin-top:24px;padding-top:22px;border-top:1px solid var(--line)}
+.kg-pledge-stat b{display:block;font-family:var(--font-display);font-weight:700;font-size:clamp(30px,3.4vw,42px);color:#fff;letter-spacing:-.02em}
+.kg-pledge-stat span{display:block;margin-top:7px;font-size:13px;line-height:1.5;color:rgba(247,247,242,.7)}
+
+@media(prefers-reduced-motion:reduce){.kh-slot{animation:none}}
+
+/* ---- responsive ---- */
+@media(max-width:1000px){.km-grid{grid-template-columns:1fr 1fr}.km-slot:nth-child(3){margin-top:0}}
+@media(max-width:860px){
+  .kh{height:auto}
+  .kh-sticky{position:static;height:auto;display:block;overflow:visible;padding:clamp(94px,22vw,120px) var(--pad) 44px}
+  .kh-bigwrap{position:relative;inset:auto;justify-content:flex-start;overflow:visible}
+  .kh-bigtext{transform:none!important}
+  .kh-bigtext span{white-space:normal;text-align:left;font-size:clamp(44px,12vw,84px);line-height:1}
+  .kh-stage{position:static;height:auto;display:flex;flex-direction:column;gap:16px;margin-top:26px;max-width:none;transform:none!important}
+  .kh-slot{position:static;width:100%;animation-delay:0s!important}
+  .kh-slot--1,.kh-slot--2,.kh-slot--3{top:auto;left:auto;right:auto}
+  .kh-cta-group{position:static;top:auto;flex-direction:row;justify-content:center;align-items:center;gap:8px;margin-top:24px}
+  .kh-arrow{width:64px;transform:rotate(112deg)}
+  .kh-slot--1 .kh-card,.kh-slot--2 .kh-card,.kh-slot--3 .kh-card,
+  .km-slot--1 .kh-card,.km-slot--2 .kh-card,.km-slot--3 .kh-card,
+  .kh-card:hover,.kh-card:focus-within{transform:none!important;background:#ECEEE6!important;color:var(--ink)!important;box-shadow:0 16px 34px -26px rgba(24,20,17,.5)!important}
+  .kh-card .kh-reveal{grid-template-rows:1fr!important;opacity:1!important}
+  .kh-card .kh-k{color:var(--amber)!important}
+  .kh-card .kh-p{color:color-mix(in srgb,var(--ink) 62%,transparent)!important}
+  .kh-card:hover .kh-plus,.kh-card:focus-within .kh-plus{transform:none!important;background:none!important;border-color:rgba(24,20,17,.18)!important;color:var(--ink)!important}
+  .km-grid{grid-template-columns:1fr;gap:14px}
+  .km-slot:nth-child(n){margin-top:0}
+  .kg-grid{grid-template-columns:1fr;gap:26px}
+}
