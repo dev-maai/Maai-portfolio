@@ -102,7 +102,7 @@ const SERVICES = [
   {
     k: "schema",
     name: "Structured data & schema",
-    blurb: "Machine-readable markup — SoftwareApplication, FAQ, Review — that helps engines understand and feature your product.",
+    blurb: "Machine-readable markup SoftwareApplication, FAQ, Review — that helps engines understand and feature your product.",
     inc: ["SoftwareApplication & Review schema", "FAQ / HowTo markup", "Validation & monitoring"],
   },
   {
@@ -206,7 +206,7 @@ export default function SaaSPage() {
         <div className="wrap scx-need-grid">
           <div className="scx-need-head reveal">
             <p className="scx-eyebrow">Does your SaaS business need SEO in 2026?</p>
-            <TextReveal as="h2" text="Yes — if buyers compare before they sign up." />
+            <TextReveal as="h2" text="Yes - if buyers compare before they sign up." />
           </div>
           <ul className="scx-need-list">
             {NEED.map((n, i) => (
@@ -262,7 +262,7 @@ export default function SaaSPage() {
         />
         <div className="scx-band-tint" />
         <div className="wrap scx-band-copy">
-          <p>Organic pipeline earned at the point of intent keeps compounding — release after release.</p>
+          <p>Organic pipeline earned at the point of intent keeps compounding release after release.</p>
         </div>
       </section>
 

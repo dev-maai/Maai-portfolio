@@ -205,7 +205,7 @@ export default function SelfStoragePage() {
         <div className="wrap scx-need-grid">
           <div className="scx-need-head reveal">
             <p className="scx-eyebrow">Does your self storage business need SEO in 2026?</p>
-            <TextReveal as="h2" text="Yes — if your units fill from local search." />
+            <TextReveal as="h2" text="Yes - if your units fill from local search." />
           </div>
           <ul className="scx-need-list">
             {NEED.map((n, i) => (
@@ -260,7 +260,7 @@ export default function SelfStoragePage() {
         />
         <div className="scx-band-tint" />
         <div className="wrap scx-band-copy">
-          <p>Local visibility earned at the point of intent keeps your units filling — season after season.</p>
+          <p>Local visibility earned at the point of intent keeps your units filling season after season.</p>
         </div>
       </section>
 

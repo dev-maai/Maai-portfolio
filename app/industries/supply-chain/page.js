@@ -193,7 +193,7 @@ export default function SupplyChainPage() {
         <div className="wrap scx-need-grid">
           <div className="scx-need-head reveal">
             <p className="scx-eyebrow">Does your supply chain business need SEO in 2026?</p>
-            <TextReveal as="h2" text="Yes — if your buyers research before they enquire." />
+            <TextReveal as="h2" text="Yes - if your buyers research before they enquire." />
           </div>
           <ul className="scx-need-list">
             {NEED.map((n, i) => (

@@ -205,7 +205,7 @@ export default function RemovalsPage() {
         <div className="wrap scx-need-grid">
           <div className="scx-need-head reveal">
             <p className="scx-eyebrow">Do removals business owners need to invest in SEO in 2026?</p>
-            <TextReveal as="h2" text="Yes — if your customers search before they book." />
+            <TextReveal as="h2" text="Yes - if your customers search before they book." />
           </div>
           <ul className="scx-need-list">
             {NEED.map((n, i) => (
@@ -260,7 +260,7 @@ export default function RemovalsPage() {
         />
         <div className="scx-band-tint" />
         <div className="wrap scx-band-copy">
-          <p>Local visibility earned at the point of intent keeps your diary full — season after season.</p>
+          <p>Local visibility earned at the point of intent keeps your diary full season after season.</p>
         </div>
       </section>
 
