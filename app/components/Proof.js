@@ -21,7 +21,7 @@ export default function Proof() {
                     <blockquote>Kriti has been integral to our digital transformation for the past five years. Her strategic insight and deep understanding of digital trends have <b>significantly enhanced our online presence and deepened trust</b> with our patients and community.</blockquote>
                     <div className="slide-foot">
                       <div className="who">
-                        <div className="who-mono" aria-hidden="true">SB</div>
+                        <img src="/testimonal/shuchin_bajaj.jpg" alt="Shuchin Bajaj" loading="lazy" width="46" height="46" />
                         <div><div className="n">Shuchin Bajaj</div><div className="r">Founder Director · Ujala Cygnus Hospitals</div></div>
                       </div>
                     </div>
@@ -31,7 +31,7 @@ export default function Proof() {
                     <blockquote>Kriti is one digital marketing consultant who takes client relationships seriously. She and the Maai team <b>built the LinkedIn rhythm for my profile and my company</b> — going beyond the call of duty on graphic design and events.</blockquote>
                     <div className="slide-foot">
                       <div className="who">
-                        <div className="who-mono" aria-hidden="true">AP</div>
+                        <img src="/testimonal/anand.jpg" alt="Anand Parikh" loading="lazy" width="46" height="46" />
                         <div><div className="n">Anand Parikh</div><div className="r">MedTech · Innovation · Impact</div></div>
                       </div>
                     </div>
@@ -41,7 +41,7 @@ export default function Proof() {
                     <blockquote>Efficient, clear and incredibly pedagogical — she made complex things feel simple and actionable. What stood out was her <b>intuitive understanding of who we are</b>, without us even needing to explain it. Kriti just got it.</blockquote>
                     <div className="slide-foot">
                       <div className="who">
-                        <div className="who-mono" aria-hidden="true">CG</div>
+                        <img src="/testimonal/colette.jpg" alt="Colette Tostivint Gurung" loading="lazy" width="46" height="46" />
                         <div><div className="n">Colette Tostivint Gurung</div><div className="r">Executive Coach · Co-founder, Eklore</div></div>
                       </div>
                     </div>

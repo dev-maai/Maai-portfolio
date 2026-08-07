@@ -308,7 +308,7 @@ export default async function CaseStudyPage({ params }) {
 
           {!full && (
             <div className="ind-actions">
-              <a className="btn amber" href="/#contact">Book a strategy call</a>
+              <a className="btn amber" href="/#contact">Want to know more? Let&apos;s talk.</a>
               <a className="cta-link" href="/#values">← All case studies</a>
             </div>
           )}
@@ -378,7 +378,7 @@ export default async function CaseStudyPage({ params }) {
             })}
 
             <div className="cs-article-cta">
-              <a className="btn amber" href="/#contact">Book a strategy call</a>
+              <a className="btn amber" href="/#contact">Want to know more? Let&apos;s talk.</a>
             </div>
           </div>
         </article>

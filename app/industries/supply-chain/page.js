@@ -161,7 +161,7 @@ export default function SupplyChainPage() {
               formed.
             </p>
             <div className="scx-hero-cta">
-              <a className="btn amber" href="/#contact">Get in Touch</a>
+              <a className="btn amber" href="/#contact">Get in touch.</a>
             </div>
           </div>
           <div className="scx-hero-media reveal">
