@@ -3,8 +3,7 @@
 /* Tubelight navbar — original build (inspired by the tubelight-navbar pattern),
    rethemed to MAAI: a magenta "lamp" bar with a soft glow sits over the active
    item and slides between items via a shared layout animation. Active follows the
-   hovered item, and otherwise the section currently in view (scroll-spy), or the
-   route on /team. */
+   hovered item, and otherwise the section currently in view. */
 import { Fragment, useEffect, useState } from "react";
 import { NAV_LINKS as LINKS } from "../lib/nav";
 
@@ -34,10 +33,6 @@ export default function Nav() {
   };
 
   useEffect(() => {
-    if (window.location.pathname.startsWith("/team")) {
-      setSpy(LINKS.findIndex((l) => l.id === "__team"));
-      return;
-    }
     if (window.location.pathname.startsWith("/about")) {
       setSpy(LINKS.findIndex((l) => l.id === "__about"));
       return;

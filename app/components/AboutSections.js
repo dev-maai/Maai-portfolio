@@ -1,32 +1,30 @@
-/* AboutSections — more of the same feel below the kinetic hero: a "how we work"
-   row of tilted hover-reveal cards (reusing .kh-card), then the South-Africa
-   education giving-back band. */
-const WORK = [
-  { k: "01 · Diagnose", h: "We find where you're invisible", p: "A full audit across classic search and the answer engines — where you win, where you leak, and who owns the questions your buyers actually ask. You get a dated plan before we touch a thing." },
-  { k: "02 · Build", h: "We build the pages that answer", p: "We rebuild your priority content around real buyer intent, ship the technical fixes underneath, and structure everything so Google and the AI assistants can read, trust and quote it." },
-  { k: "03 · Compound", h: "We earn the authority engines cite", p: "Digital PR, entity signals and the links that make your brand a source rather than a result — so the positions you take hold, and keep returning quarter after quarter." },
+/* AboutSections — the team (three senior specialists) below the kinetic hero,
+   then the South-Africa education giving-back band. */
+const TEAM = [
+  { name: "Priya Nair", role: "Founder · Head of Organic", img: "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=440&h=440&q=75&auto=format&fit=crop&crop=faces", p: "15 years turning search into pipeline. Sets the strategy and owns the number." },
+  { name: "Simran Gupta", role: "SEO - Data & Marketing Analyst", img: "/Team/Simran gupta.jpeg", p: "Brings data-led SEO and marketing insight to turn performance into clear growth decisions." },
+  { name: "Gauri Pandey", role: "PR & Reputation Management", img: "/Team/gauri pandey.jpg", p: "Shapes narratives and protects brand reputation with thoughtful, high-impact communication." },
 ];
 
 export default function AboutSections() {
   return (
     <>
-      {/* ── how we work ── */}
-      <section className="km">
+      {/* ── team ── */}
+      <section className="ab-team">
         <div className="wrap">
-          <div className="km-head">
-            <span className="km-eyebrow reveal">How we work</span>
-            <h2 className="reveal">A dated plan, run by the people who own the number.</h2>
-          </div>
-          <div className="km-grid">
-            {WORK.map((c, i) => (
-              <div className={`km-slot km-slot--${(i % 3) + 1} reveal`} key={c.h}>
-                <div className="kh-card" tabIndex={0}>
-                  <span className="kh-k">{c.k}</span>
-                  <span className="kh-h">{c.h}</span>
-                  <span className="kh-reveal"><span className="kh-p">{c.p}</span></span>
-                  <span className="kh-plus" aria-hidden="true">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"><path d="M12 5v14M5 12h14" /></svg>
-                  </span>
+          <h2 className="reveal">Team</h2>
+          <div className="team-grid">
+            {TEAM.map((m) => (
+              <div className="member reveal" key={m.name}>
+                <div className="member-photo"><img src={m.img} alt={m.name} loading="lazy" width="440" height="440" /></div>
+                <div className="member-body">
+                  <span className="role">{m.role}</span>
+                  <h3>{m.name}</h3>
+                  <p>{m.p}</p>
+                  <div className="socials">
+                    <a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.94 5a2 2 0 11-4 0 2 2 0 014 0zM3.3 8.5h3.28V21H3.3zM9.4 8.5h3.14v1.71h.05c.44-.83 1.5-1.71 3.1-1.71 3.31 0 3.92 2.18 3.92 5V21h-3.27v-4.44c0-1.06-.02-2.42-1.48-2.42s-1.7 1.15-1.7 2.34V21H9.4z" /></svg></a>
+                    <a href="#" aria-label="Email"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><rect x="3" y="5" width="18" height="14" rx="2" /><path d="m3 7 9 6 9-6" /></svg></a>
+                  </div>
                 </div>
               </div>
             ))}

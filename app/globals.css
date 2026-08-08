@@ -3767,7 +3767,7 @@ h1.hh-h1.is-pending{font-size:clamp(16px,2vw,22px)!important}
 .kh-slot:hover,.kh-slot:focus-within{z-index:6}
 
 /* hand-drawn arrow (draws in on scroll via framer pathLength) + CTA */
-.kh-cta-group{position:absolute;left:47%;top:72%;z-index:3;display:flex;flex-direction:column;align-items:center;gap:4px}
+.kh-cta-group{position:absolute;left:47%;top:75%;z-index:3;display:flex;flex-direction:column;align-items:center;gap:4px}
 .kh-arrow{width:clamp(84px,8.5vw,120px);height:auto;color:var(--amber);transform:rotate(6deg)}
 .kh-cta{display:inline-flex;align-items:center;gap:12px;padding:15px 16px 15px 26px;border-radius:999px;
   background:#0E2A1E;color:#F7F7F2;text-decoration:none;font-family:var(--font-display);font-weight:600;font-size:16px;
@@ -3794,6 +3794,12 @@ h1.hh-h1.is-pending{font-size:clamp(16px,2vw,22px)!important}
   border-color:color-mix(in srgb,var(--amber) 42%,transparent);box-shadow:0 36px 64px -30px rgba(0,0,0,.6)}
 .km .kh-card:hover .kh-k,.km .kh-card:focus-within .kh-k{color:var(--amber)}
 .km .kh-p{color:color-mix(in srgb,var(--ink) 62%,transparent)}
+
+/* ---- team (reuses the .member / .team-grid card design) ---- */
+.ab-team{background:var(--paper);padding:clamp(64px,9vw,110px) 0;border-top:1px solid var(--line)}
+.ab-team>.wrap>h2{font-family:var(--font-display);font-weight:700;letter-spacing:-.02em;
+  font-size:clamp(30px,3.8vw,50px);line-height:1.05;color:var(--ink);margin:0}
+.ab-team .team-grid{margin-top:clamp(28px,4vw,46px)}
 
 /* ---- giving back — simple image-backed statement ---- */
 .kg{position:relative;overflow:hidden;display:flex;align-items:center;
