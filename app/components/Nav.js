@@ -5,16 +5,7 @@
    item and slides between items via a shared layout animation. Active follows the
    hovered item, and otherwise the section currently in view. */
 import { Fragment, useEffect, useState } from "react";
-import { NAV_LINKS as LINKS } from "../lib/nav";
-
-/* Industry landing pages, surfaced as a dropdown under "Industries". */
-const INDUSTRIES = [
-  { label: "Supply Chain", href: "/industries/supply-chain" },
-  { label: "Self Storage", href: "/industries/self-storage" },
-  { label: "SaaS", href: "/industries/saas" },
-  { label: "Removals & Relocations", href: "/industries/removals-and-relocations" },
-  { label: "Logistics", href: "/seo-agency-for-logistics-companies" },
-];
+import { NAV_LINKS as LINKS, INDUSTRY_LINKS as INDUSTRIES } from "../lib/nav";
 
 
 export default function Nav() {

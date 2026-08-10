@@ -1,9 +1,14 @@
-/* AboutSections — the team (three senior specialists) below the kinetic hero,
+/* AboutSections — the team (four senior specialists) below the kinetic hero,
    then the South-Africa education giving-back band. */
+import TeamRail from "./TeamRail";
+
 const TEAM = [
-  { name: "Priya Nair", role: "Founder · Head of Organic", img: "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=440&h=440&q=75&auto=format&fit=crop&crop=faces", p: "15 years turning search into pipeline. Sets the strategy and owns the number." },
+  /* TODO: swap in Kriti's real photo — drop it in /public/Team and update img. */
+  { name: "Kriti Kumari", role: "Business Owner", img: "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=440&h=440&q=75&auto=format&fit=crop&crop=faces", p: "Digital strategist across social, SEO and storytelling. Blends creativity with analysis to help brands stand out through authentic, human-centered communication." },
   { name: "Simran Gupta", role: "SEO - Data & Marketing Analyst", img: "/Team/Simran gupta.jpeg", p: "Brings data-led SEO and marketing insight to turn performance into clear growth decisions." },
   { name: "Gauri Pandey", role: "PR & Reputation Management", img: "/Team/gauri pandey.jpg", p: "Shapes narratives and protects brand reputation with thoughtful, high-impact communication." },
+  /* TODO: replace with the real fourth team member — name, role, photo in /public/Team, and bio. */
+  { name: "Fourth Member", role: "Content & Outreach", img: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=440&h=440&q=75&auto=format&fit=crop&crop=faces", p: "Placeholder bio — send the name, role and photo and this card is a one-line swap." },
 ];
 
 export default function AboutSections() {
@@ -13,7 +18,7 @@ export default function AboutSections() {
       <section className="ab-team">
         <div className="wrap">
           <h2 className="reveal">Team</h2>
-          <div className="team-grid">
+          <TeamRail count={TEAM.length}>
             {TEAM.map((m) => (
               <div className="member reveal" key={m.name}>
                 <div className="member-photo"><img src={m.img} alt={m.name} loading="lazy" width="440" height="440" /></div>
@@ -28,7 +33,7 @@ export default function AboutSections() {
                 </div>
               </div>
             ))}
-          </div>
+          </TeamRail>
         </div>
       </section>
 
