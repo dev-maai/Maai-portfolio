@@ -3207,8 +3207,9 @@ h1.hh-h1.is-pending{font-size:clamp(16px,2vw,22px)!important}
 /* ── 90-day plan → accordion on mobile: grid on top, tap a phase to expand ── */
 @media(max-width:820px){
   .plan .q90{display:flex;flex-direction:column;gap:14px}
-  .plan .q90-body{order:-1}                 /* day-grid rises above the phases */
-  .plan .q90-body .q90-detail{display:none} /* the separate detail panel is replaced by inline accordion bodies */
+  /* the shared calendar + detail panel are both replaced by the per-phase
+     accordion body, which now carries its own copy of the day grid */
+  .plan .q90-body{display:none}
   .plan .q90-tabs{order:0;display:flex;flex-direction:column;gap:10px}
   .plan .q90-phase{background:rgba(10,32,22,.5);border:1px solid var(--line);border-radius:14px;overflow:hidden;
     transition:border-color .25s var(--ease)}
@@ -3219,9 +3220,13 @@ h1.hh-h1.is-pending{font-size:clamp(16px,2vw,22px)!important}
   .plan .q90-tab.on .q90-caret{transform:rotate(180deg);color:#d0e1da}
   .plan .q90-acc{display:block;max-height:0;overflow:hidden;padding:0 16px;
     transition:max-height .36s var(--ease)}
-  .plan .q90-tab.on + .q90-acc{max-height:340px;padding-bottom:18px}
+  .plan .q90-tab.on + .q90-acc{max-height:820px;padding-bottom:18px}
   .plan .q90-acc>p{color:var(--sage);font-size:14.5px;line-height:1.6}
   .plan .q90-acc .q90-items{margin-top:14px}
+  .plan .q90-accviz{margin-bottom:16px;padding:14px;border-radius:14px;
+    background:rgba(10,32,22,.55);border:1px solid rgba(247,247,242,.10)}
+  .plan .q90-accviz .q90-grid{grid-template-columns:repeat(10,1fr);gap:5px}
+  .plan .q90-accviz .q90-scale{margin-top:12px}
 }
 
 /* 7 — Glass shade for the header + footer */

@@ -44,11 +44,20 @@ const isAccordion = () =>
 
 export default function Plan() {
   const [active, setActive] = useState(1);   // selected phase (-1 = none → plain calendar)
+  const [mobile, setMobile] = useState(false);
   const p = active >= 0 ? PHASES[active] : null;
 
-  // on mobile the plan opens as a plain calendar — days only light up once a
-  // phase is tapped. (desktop keeps a phase selected + its detail panel shown.)
-  useEffect(() => { if (isAccordion()) setActive(-1); }, []);
+  // on mobile nothing is open at first: the calendar lives inside each phase's
+  // accordion body, so it only appears once a phase is tapped. (desktop keeps a
+  // phase selected, with the shared calendar + detail panel always shown.)
+  useEffect(() => {
+    const mq = window.matchMedia("(max-width:820px)");
+    const sync = () => setMobile(mq.matches);
+    sync();
+    if (mq.matches) setActive(-1);
+    mq.addEventListener("change", sync);
+    return () => mq.removeEventListener("change", sync);
+  }, []);
 
   // desktop: hover/focus previews a phase. mobile: only a tap toggles it.
   const preview = (i) => { if (!isAccordion()) setActive(i); };
@@ -60,7 +69,7 @@ export default function Plan() {
       <div className="wrap">
         <h2 className="reveal">A plan you can actually see.</h2>
         <p className="plan-lede reveal">
-          Every engagement opens with a diagnosis and a dated plan. Hover a phase to see
+          Every engagement opens with a diagnosis and a dated plan. Open a phase to see
           exactly which days it owns — the whole first quarter, mapped day by day.
         </p>
 
@@ -87,6 +96,30 @@ export default function Plan() {
                 </button>
                 {/* inline detail — the accordion body shown on mobile */}
                 <div className="q90-acc">
+                  {/* the calendar itself rides inside the open phase on mobile,
+                      with only that phase's days lit. Only mounted below 820px so
+                      desktop doesn't carry three extra 90-cell grids. */}
+                  {mobile && (
+                    <div className="q90-accviz">
+                      <div
+                        className="q90-grid"
+                        role="img"
+                        aria-label={`90-day plan with the ${ph.title} phase (${ph.days}) highlighted`}
+                      >
+                        {DAYS.map((d) => (
+                          <span
+                            key={d}
+                            className={`q90-cell p${phaseOfDay(d) + 1}${phaseOfDay(d) === i ? " hot" : ""}`}
+                          />
+                        ))}
+                      </div>
+                      <div className="q90-scale" aria-hidden="true">
+                        <span>Day 1</span>
+                        <span>Day 45</span>
+                        <span>Day 90</span>
+                      </div>
+                    </div>
+                  )}
                   <p>{ph.body}</p>
                   <ul className="q90-items">
                     {ph.items.map((it) => (
