@@ -1,5 +1,4 @@
 import { notFound } from "next/navigation";
-import ScrollProgress from "../../components/ScrollProgress";
 import Nav from "../../components/Nav";
 import Cta from "../../components/Cta";
 import Footer from "../../components/Footer";
@@ -278,7 +277,6 @@ export default async function CaseStudyPage({ params }) {
 
   return (
     <>
-      <ScrollProgress />
       <Nav />
       <main className="ind-hero cs-hero">
         <div className="wrap">

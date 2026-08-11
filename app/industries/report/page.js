@@ -1,5 +1,4 @@
 import Link from "next/link";
-import ScrollProgress from "../../components/ScrollProgress";
 import Nav from "../../components/Nav";
 import Footer from "../../components/Footer";
 import SiteEffects from "../../components/SiteEffects";
@@ -54,7 +53,6 @@ const RESOURCES = [
 export default function IndustryReportPage() {
   return (
     <>
-      <ScrollProgress />
       <Nav />
 
       <header className="irp-hero">

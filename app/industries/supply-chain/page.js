@@ -1,4 +1,3 @@
-import ScrollProgress from "../../components/ScrollProgress";
 import Nav from "../../components/Nav";
 import Cta from "../../components/Cta";
 import Footer from "../../components/Footer";
@@ -132,7 +131,6 @@ const FAQ = [
 export default function SupplyChainPage() {
   return (
     <>
-      <ScrollProgress />
       <Nav />
 
       {/* ── hero ── */}

@@ -1,4 +1,3 @@
-import ScrollProgress from "../components/ScrollProgress";
 import Nav from "../components/Nav";
 import Cta from "../components/Cta";
 import Footer from "../components/Footer";
@@ -145,7 +144,6 @@ const FAQ = [
 export default function LogisticsPage() {
   return (
     <>
-      <ScrollProgress />
       <Nav />
 
       {/* ── hero ── */}

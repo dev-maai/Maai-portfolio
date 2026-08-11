@@ -140,10 +140,8 @@ h1,h2,h3{font-family:var(--font-display);line-height:1.05;letter-spacing:-.02em;
 }
 /* (no paint containment here — it would clip the blur halos) */
 
-/* ---------- Modern UI: scroll-progress bar ---------- */
-.scroll-progress{position:fixed;top:0;left:0;height:3px;width:100%;z-index:100;
-  transform:scaleX(0);transform-origin:left;pointer-events:none;
-  background:linear-gradient(90deg,var(--pine),var(--amber))}
+/* the pink scroll-progress bar was removed — SiteEffects still no-ops safely
+   when the element is absent. */
 
 /* ---------- Intro omnibox opener ---------- */
 /* intro splash is always dark so the analytics video reads in both themes */
@@ -206,16 +204,13 @@ h1,h2,h3{font-family:var(--font-display);line-height:1.05;letter-spacing:-.02em;
 /* drifting warm glow orbs — ambient background elements */
 .sec-glow{position:absolute;z-index:0;border-radius:50%;pointer-events:none;filter:blur(90px);opacity:.16}
 .sec-glow.g-amber{width:520px;height:520px;background:radial-gradient(circle,var(--pine),transparent 70%);animation:blobA 26s ease-in-out infinite}
-.sec-glow.g-coral{width:440px;height:440px;background:radial-gradient(circle,var(--amber),transparent 70%);animation:blobB 30s ease-in-out infinite}
+/* the magenta section wash read as generic "AI glow" — retired. */
+.sec-glow.g-coral{display:none}
 .report,.team,.results{position:relative;overflow:hidden}
 .report>.wrap,.team>.wrap,.results>.wrap{position:relative;z-index:1}
 
-/* ---------- Modern UI: cursor spotlight on cards ---------- */
+/* cursor spotlight on cards — the pink wash is gone; cards now lift on hover only */
 .card,.member{--mx:50%;--my:50%}
-.card::before,.member::before{content:"";position:absolute;inset:0;z-index:0;pointer-events:none;
-  border-radius:inherit;opacity:0;transition:opacity .35s var(--ease);
-  background:radial-gradient(220px circle at var(--mx) var(--my), rgba(228,53,63,.18), transparent 62%)}
-.card:hover::before,.member:hover::before{opacity:1}
 .card>*,.member>*{position:relative;z-index:1}
 /* image behind each service card (dimmed, dark gradient keeps text legible) */
 .card>.card-media{position:absolute;inset:0;z-index:0;overflow:hidden;border-radius:inherit}
@@ -872,7 +867,7 @@ h1,h2,h3{font-family:var(--font-display);line-height:1.05;letter-spacing:-.02em;
   transition:transform .3s var(--ease),border-color .3s,background .3s;
   position:relative;overflow:hidden;
 }
-.card:hover{transform:translateY(-5px);border-color:rgba(228,53,63,.5);background:rgba(235,229,211,.05)}
+.card:hover{transform:translateY(-5px);border-color:var(--pine);background:rgba(235,229,211,.05)}
 .card.wide{grid-column:span 2}
 .card .tag{font-family:var(--font-mono);font-size:11px;letter-spacing:.14em;
   text-transform:uppercase;color:var(--amber)}
@@ -1288,7 +1283,7 @@ h1,h2,h3{font-family:var(--font-display);line-height:1.05;letter-spacing:-.02em;
   --line:rgba(247,247,242,.14);
   background:#0A2016;color:var(--ink)}
 .plan::before{content:"";position:absolute;inset:0;z-index:0;pointer-events:none;
-  background:radial-gradient(720px circle at 82% -12%,color-mix(in srgb,var(--amber) 11%,transparent),transparent 60%)}
+  background:radial-gradient(720px circle at 82% -12%,rgba(247,247,242,.05),transparent 60%)}
 .plan .wrap{position:relative;z-index:1}
 .plan h2{font-size:clamp(28px,3.6vw,46px);margin:20px 0 0;max-width:16ch}
 .plan-lede{color:var(--sage);margin-top:16px;max-width:54ch;font-size:clamp(15px,1.4vw,17px)}

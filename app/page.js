@@ -1,4 +1,3 @@
-import ScrollProgress from "./components/ScrollProgress";
 import Nav from "./components/Nav";
 import HeroWalker from "./components/HeroWalker";
 import Tagline from "./components/Tagline";
@@ -22,7 +21,6 @@ import SiteEffects from "./components/SiteEffects";
 export default function Home() {
   return (
     <>
-      <ScrollProgress />
       <Nav />
       <HeroWalker />
       <Tagline />

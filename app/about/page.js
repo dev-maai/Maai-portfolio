@@ -1,4 +1,3 @@
-import ScrollProgress from "../components/ScrollProgress";
 import Nav from "../components/Nav";
 import KineticHero from "../components/KineticHero";
 import AboutSections from "../components/AboutSections";
@@ -14,7 +13,6 @@ export const metadata = {
 export default function AboutPage() {
   return (
     <>
-      <ScrollProgress />
       <Nav />
       <main className="about-page">
         <KineticHero />

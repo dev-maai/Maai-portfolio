@@ -1,4 +1,3 @@
-import ScrollProgress from "../components/ScrollProgress";
 import Nav from "../components/Nav";
 import Fit from "../components/Fit";
 import Footer from "../components/Footer";
@@ -16,7 +15,6 @@ export const metadata = {
 export default function FitCheckPage() {
   return (
     <>
-      <ScrollProgress />
       <Nav />
       <main className="fit-page">
         <Fit />
