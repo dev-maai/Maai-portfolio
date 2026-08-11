@@ -61,7 +61,7 @@ export default function InvestStats() {
         </div>
 
         <div className="cta-row reveal">
-          <a className="cta-link" href="#contact">Read our industry report <span aria-hidden="true">→</span></a>
+          <a className="cta-link" href="/industries/report">Read our industry report <span aria-hidden="true">→</span></a>
         </div>
       </div>
     </section>
