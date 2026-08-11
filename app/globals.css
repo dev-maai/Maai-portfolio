@@ -3740,6 +3740,12 @@ h1.hh-h1.is-pending{font-size:clamp(16px,2vw,22px)!important}
 .irp-check input{margin-top:3px;accent-color:var(--amber)}
 .irp-submit{width:100%;justify-content:center;min-height:52px}
 .irp-note{margin-top:-4px;font-size:12.5px;line-height:1.6;color:var(--sage);text-align:center}
+.irp-form-done{display:flex;flex-direction:column;gap:12px;text-align:center;align-items:center}
+.irp-form-done .live{display:inline-flex;align-items:center;gap:8px;font-family:var(--font-mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--pine)}
+.irp-form-done .live::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--amber)}
+.irp-form-done h3{font-family:var(--font-display);font-weight:700;font-size:clamp(21px,2.4vw,27px);line-height:1.14}
+.irp-form-done>p{font-size:14.5px;line-height:1.6;color:var(--sage);max-width:34ch}
+.irp-form-done .irp-submit{margin-top:6px;text-decoration:none}
 .irp-summary{padding:clamp(56px,8vw,96px) 0;background:color-mix(in srgb,var(--pine) 8%,var(--paper))}
 .irp-section-head{max-width:760px;margin-bottom:clamp(30px,4vw,46px)}
 .irp-section-head h2{font-family:var(--font-display);font-weight:700;letter-spacing:-.02em;font-size:clamp(30px,3.6vw,48px);line-height:1.06;margin-top:14px;max-width:18ch}

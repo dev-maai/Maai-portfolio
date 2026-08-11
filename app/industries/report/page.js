@@ -4,6 +4,7 @@ import Nav from "../../components/Nav";
 import Footer from "../../components/Footer";
 import SiteEffects from "../../components/SiteEffects";
 import Typewriter from "../../components/Typewriter";
+import ReportForm from "../../components/ReportForm";
 
 export const metadata = {
   title: "How B2B Leaders are Embracing Non-Traditional Media Channels | MAAI",
@@ -26,19 +27,6 @@ const STATS = [
   {
     stat: "~50%",
     copy: "report advanced measurement capability — influence is being created in places most reporting still cannot see.",
-  },
-];
-
-const FORM_FIELDS = [
-  { label: "First name", name: "firstName", type: "text", placeholder: "Jane" },
-  { label: "Last name", name: "lastName", type: "text", placeholder: "Smith" },
-  { label: "Work email", name: "email", type: "email", placeholder: "jane@company.com" },
-  { label: "Company", name: "company", type: "text", placeholder: "Company name" },
-  {
-    label: "Team",
-    name: "team",
-    type: "select",
-    options: ["Marketing", "PR / Comms", "Demand Gen", "Leadership", "Other"],
   },
 ];
 
@@ -116,42 +104,7 @@ export default function IndustryReportPage() {
           </div>
 
           <div className="irp-main-form reveal">
-            <div className="irp-form-card" aria-label="Download the report form">
-              <div className="irp-form-head">
-                <span className="live">Download now</span>
-                <p>Fill in a few details and we&apos;ll send the report.</p>
-              </div>
-
-              <form className="irp-form" action="#" method="post">
-                <div className="irp-form-grid">
-                  {FORM_FIELDS.map((field) => (
-                    <label className="irp-field" key={field.name}>
-                      <span>{field.label}</span>
-                      {field.type === "select" ? (
-                        <select name={field.name} defaultValue="" required>
-                          <option value="" disabled>
-                            Select…
-                          </option>
-                          {field.options.map((option) => (
-                            <option key={option}>{option}</option>
-                          ))}
-                        </select>
-                      ) : (
-                        <input type={field.type} name={field.name} placeholder={field.placeholder} required />
-                      )}
-                    </label>
-                  ))}
-                </div>
-
-                <label className="irp-check">
-                  <input type="checkbox" name="updates" />
-                  <span>Send me occasional insights and related reports.</span>
-                </label>
-
-                <button className="btn amber irp-submit" type="submit">Get the report</button>
-                <p className="irp-note">No heavy follow-up. One report, one clear next step.</p>
-              </form>
-            </div>
+            <ReportForm />
           </div>
         </div>
       </section>
