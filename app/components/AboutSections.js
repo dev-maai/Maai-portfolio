@@ -3,8 +3,7 @@
 import TeamRail from "./TeamRail";
 
 const TEAM = [
-  /* TODO: swap in Kriti's real photo — drop it in /public/Team and update img. */
-  { name: "Kriti Kumari", role: "Business Owner", img: "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=440&h=440&q=75&auto=format&fit=crop&crop=faces", p: "Digital strategist across social, SEO and storytelling. Blends creativity with analysis to help brands stand out through authentic, human-centered communication." },
+  { name: "Kriti Kumari", role: "Business Owner", img: "/Team/Kriti.jpeg", p: "Digital strategist across social, SEO and storytelling. Blends creativity with analysis to help brands stand out through authentic, human-centered communication." },
   { name: "Simran Gupta", role: "SEO - Data & Marketing Analyst", img: "/Team/Simran gupta.jpeg", p: "Brings data-led SEO and marketing insight to turn performance into clear growth decisions." },
   { name: "Gauri Pandey", role: "PR & Reputation Management", img: "/Team/gauri pandey.jpg", p: "Shapes narratives and protects brand reputation with thoughtful, high-impact communication." },
   /* TODO: replace with the real fourth team member — name, role, photo in /public/Team, and bio. */
