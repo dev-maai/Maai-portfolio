@@ -9,7 +9,7 @@ const PHASES = [
     days: "Days 1–14",
     range: [1, 14],
     title: "Diagnose",
-    body: "A full audit across classic search and the answer engines. We map where you win, where you leak, and who owns the fix — named specialists, not a shared inbox.",
+    body: "A full audit across classic search and the answer engines. We map where you win, where you leak, and who owns the fix: named specialists, not a shared inbox.",
     items: ["Technical + content audit", "Citation-share baseline", "Named team assigned"],
   },
   {
@@ -70,7 +70,7 @@ export default function Plan() {
         <h2 className="reveal">A plan you can actually see.</h2>
         <p className="plan-lede reveal">
           Every engagement opens with a diagnosis and a dated plan. Open a phase to see
-          exactly which days it owns — the whole first quarter, mapped day by day.
+          exactly which days it owns: the whole first quarter, mapped day by day.
         </p>
 
         <div className="q90 reveal">
@@ -136,7 +136,7 @@ export default function Plan() {
               <div
                 className="q90-grid"
                 role="img"
-                aria-label={p ? `90-day plan with the ${p.title} phase (${p.days}) highlighted` : "90-day plan across three phases — tap a phase to highlight its days"}
+                aria-label={p ? `90-day plan with the ${p.title} phase (${p.days}) highlighted` : "90-day plan across three phases. Tap a phase to highlight its days"}
               >
                 {DAYS.map((d) => {
                   const ph = phaseOfDay(d);

@@ -21,15 +21,15 @@ const CASES = {
       {
         h: "Context",
         paras: [
-          "Anglo Pacific is the UK's largest independent international removals company, handling around 20,000 individual baggage shipments and overseas removals every year, with more than 30 years in the industry. In early 2026 organic performance had plateaued. Month-over-month traffic was swinging by as much as 24% in either direction with no sustained upward trend, and average position sat at 12.1 — a spot too far down the page to convert consistently. Average click-through rate held flat at 0.4% throughout. Visibility was inconsistent, and nothing yet existed to help AI tools discover or reference the site.",
+          "Anglo Pacific is the UK's largest independent international removals company, handling around 20,000 individual baggage shipments and overseas removals every year, with more than 30 years in the industry. In early 2026 organic performance had plateaued. Month-over-month traffic was swinging by as much as 24% in either direction with no sustained upward trend, and average position sat at 12.1, a spot too far down the page to convert consistently. Average click-through rate held flat at 0.4% throughout. Visibility was inconsistent, and nothing yet existed to help AI tools discover or reference the site.",
         ],
       },
       {
         h: "Challenge",
         list: [
           "Organic traffic swinging as much as 24% month over month with no sustained upward trend, despite steady underlying demand for removals services.",
-          "Average position stuck at 12.1 — visible in results, but not high enough to reliably convert impressions into clicks.",
-          "No structured FAQs or AI-readable markup existed anywhere on the site, right as AI Overviews and LLM-based search were becoming a bigger share of how people research a move — and several country landing pages were outdated and underperforming.",
+          "Average position stuck at 12.1: visible in results, but not high enough to reliably convert impressions into clicks.",
+          "No structured FAQs or AI-readable markup existed anywhere on the site, right as AI Overviews and LLM-based search were becoming a bigger share of how people research a move. Several country landing pages were also outdated and underperforming.",
           "Multiple stale pages sat unlinked and underperforming, diluting authority instead of consolidating it.",
         ],
       },
@@ -39,11 +39,11 @@ const CASES = {
           "MAAI built a three-pronged strategy across SEO, AEO, and GEO, rolling out from May 2026, rather than treating classic search and AI search as separate problems. Anglo Pacific had three decades of trust and an established brand, so the programme focused on making that trust visible to search engines and AI answer engines alike.",
         ],
         list: [
-          "Implemented llm.txt across the site to improve how large language models discover, understand, and reference Anglo Pacific's content — an early investment in generative engine optimization (GEO).",
+          "Implemented llm.txt across the site to improve how large language models discover, understand, and reference Anglo Pacific's content, an early investment in generative engine optimization (GEO).",
           "Published new blog content targeting keywords and search queries the site wasn't previously capturing.",
           "Overhauled the primary landing page and country-specific landing pages for relevance to each market served.",
           "Added structured FAQs across key pages for answer-engine optimization, and redirected stale, underperforming pages into high-performing blog content to consolidate authority.",
-          "Each move targeted a different layer of visibility — AI discoverability, page relevance, and content depth — so no single channel carried the whole recovery.",
+          "Each move targeted a different layer of visibility (AI discoverability, page relevance, and content depth), so no single channel carried the whole recovery.",
         ],
       },
       {
@@ -59,13 +59,13 @@ const CASES = {
           "Organic users grew 29.9% across the same window.",
         ],
         outro:
-          "The pattern held at the site level too. Looking at total-site traffic in June 2026, sessions rose to 3,968 (up 77.62% month on month — the highest of the year) and users rose to 2,959 (up 103.79%, also a 2026 high). Growth landing in the same month the AEO and content work went live is consistent with the strategy taking hold, though a single strong month isn't proof on its own.",
+          "The pattern held at the site level too. Looking at total-site traffic in June 2026, sessions rose to 3,968 (up 77.62% month on month, the highest of the year) and users rose to 2,959 (up 103.79%, also a 2026 high). Growth landing in the same month the AEO and content work went live is consistent with the strategy taking hold, though a single strong month isn't proof on its own.",
       },
       {
         h: "Why it worked",
         paras: [
           "Search is split into two tracks: classic ranked results and AI-generated answers. Anglo Pacific's programme treated both as core infrastructure rather than treating AI visibility as an experiment on the side. Our content and GEO team at MAAI built durable visibility across both tracks at once.",
-          "The click and impression gains show the classic-search side working, and the AI-readiness investment — llm.txt, FAQs, structured content — is built for where more of that research is heading next. Every number in this case study ties to a matched before/after window in Search Console and GA4, so the movement here is measured, not asserted.",
+          "The click and impression gains show the classic-search side working, and the AI-readiness investment (llm.txt, FAQs, structured content) is built for where more of that research is heading next. Every number in this case study ties to a matched before/after window in Search Console and GA4, so the movement here is measured, not asserted.",
         ],
       },
     ],
@@ -84,7 +84,7 @@ const CASES = {
       {
         h: "Context",
         paras: [
-          "Pickfords is an established UK removals and moving company with a brand-owned domain. In early 2026 the organic account was under real pressure. Overall organic sessions were down about 30% year on year through May, site health had slipped from 70% to 63% since January, and average ranking position sat at 55.8 against a target under 40. Two Google core updates landed inside the same window — one in late March to early April and one in late May to early June — both of which reset rankings across the removals category.",
+          "Pickfords is an established UK removals and moving company with a brand-owned domain. In early 2026 the organic account was under real pressure. Overall organic sessions were down about 30% year on year through May, site health had slipped from 70% to 63% since January, and average ranking position sat at 55.8 against a target under 40. Two Google core updates landed inside the same window, one in late March to early April and one in late May to early June, both of which reset rankings across the removals category.",
         ],
       },
       {
@@ -104,7 +104,7 @@ const CASES = {
         list: [
           "Published guides built on Pickfords' own move statistics rather than aggregated third-party content.",
           "Built local specificity with named areas, real costs, and location-level removal guides.",
-          "Targeted informational and intent-led queries where original data could differentiate — across safest-places, local-removals, and affordable-move topics.",
+          "Targeted informational and intent-led queries where original data could differentiate, across safest-places, local-removals, and affordable-move topics.",
           "Structured every guide for clarity and relevance to lift click-through.",
           "Each move mapped to what the updates favoured: first-party data, differentiation, and depth.",
         ],
@@ -117,12 +117,12 @@ const CASES = {
         list: [
           "Blog clicks up 39% between 31 March and 29 May.",
           "Blog click-through up 38.9%, from 0.58% to 0.806%, driven by content relevance.",
-          "“Safest places to live in UK” grew from 228 to 1,540 clicks — an increase of 575%.",
+          "“Safest places to live in UK” grew from 228 to 1,540 clicks, an increase of 575%.",
           "Local removals guides up 1,210% collectively.",
           "The segment grew 39% during the same period.",
         ],
         outro:
-          "The wider trajectory then reversed. In June, following completion of the May core update on 2 June, sessions rose to 14,052 (up 8.2% month on month) and users rose to 11,089 (up 8.0%) — a 2026 high. Growth landing in the settle period straight after a core update is the signal that the content strategy put Pickfords on the correct side of it, rather than being reset by it.",
+          "The wider trajectory then reversed. In June, following completion of the May core update on 2 June, sessions rose to 14,052 (up 8.2% month on month) and users rose to 11,089 (up 8.0%), a 2026 high. Growth landing in the settle period straight after a core update is the signal that the content strategy put Pickfords on the correct side of it, rather than being reset by it.",
       },
       {
         h: "Why it worked",
@@ -168,7 +168,7 @@ const CASES = {
         ],
         list: [
           "Targeted decision-makers with buyer-intent, answer-optimised content built to surface as the answer in search and AI answer engines.",
-          "Built familiarity with the wider circle who shape and are affected by the decision — the employees who would actually move and their families. Reaching them early meant the brand was already known when the buying group formed its view.",
+          "Built familiarity with the wider circle who shape and are affected by the decision: the employees who would actually move and their families. Reaching them early meant the brand was already known when the buying group formed its view.",
           "Published answer-optimised, country-specific blog posts targeting the exact questions these buyers ask, so each post could both rank and be cited as the answer.",
         ],
       },
@@ -188,7 +188,7 @@ const CASES = {
       {
         h: "Why it worked",
         paras: [
-          "High-ticket B2B decisions are made by a group, and they favour the brand that already feels familiar when the committee forms its view. MAAI built that familiarity across the whole circle — from decision-makers to the employees and families the move affects — and pointed answer-optimised content at the questions these buyers ask. Organic traffic grew through the period, and the qualified leads that followed trace directly to specific pages, which is rare in organic search.",
+          "High-ticket B2B decisions are made by a group, and they favour the brand that already feels familiar when the committee forms its view. MAAI built that familiarity across the whole circle, from decision-makers to the employees and families the move affects, and pointed answer-optimised content at the questions these buyers ask. Organic traffic grew through the period, and the qualified leads that followed trace directly to specific pages, which is rare in organic search.",
         ],
       },
     ],
@@ -236,8 +236,8 @@ const CASES = {
         h: "Results",
         paras: ["The link-driven channels grew sharply while overall search held flat."],
         list: [
-          "Referral traffic — LinkedIn and other referring sites combined — grew the user base to 118%.",
-          "Visitors from other referring sites engaged longer, an average of 29 seconds against 16 the year before — a sign the links sent qualified traffic rather than incidental clicks.",
+          "Referral traffic, LinkedIn and other referring sites combined, grew the user base to 118%.",
+          "Visitors from other referring sites engaged longer, an average of 29 seconds against 16 the year before, a sign the links sent qualified traffic rather than incidental clicks.",
           "Event count across the link-driven channels rose by 137%.",
           "Against the whole account, new users grew 14.3% year on year.",
           "Through the same period Shira held number one on “microsurgical clamp,” so the brand grew its off-search demand while defending the commercial term it already owned.",
@@ -247,7 +247,7 @@ const CASES = {
         h: "Why it worked",
         paras: [
           "For a narrow B2B brand, the value of a link is who it reaches. By publishing where surgeons, procurement, and distributors already spend time, and earning links from relevant sources, Shira more than doubled its link-driven referral traffic and brought in an almost entirely new audience, while its category ranking stayed at number one.",
-          "The right backlink strategy does more than add to Domain Authority — it brings the right visibility to the brand, the kind that adds to sales.",
+          "The right backlink strategy does more than add to Domain Authority: it brings the right visibility to the brand, the kind that adds to sales.",
         ],
       },
     ],
@@ -261,9 +261,9 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }) {
   const { slug } = await params;
   const c = CASES[slug];
-  if (!c) return { title: "Case studies — MAAI" };
+  if (!c) return { title: "Case studies | MAAI" };
   return {
-    title: `${c.title || c.name} — Case study — MAAI`,
+    title: `${c.title || c.name} | Case study | MAAI`,
     description: c.blurb || c.sections?.[0]?.paras?.[0]?.slice(0, 160),
   };
 }

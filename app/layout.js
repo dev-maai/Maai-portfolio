@@ -34,9 +34,9 @@ const fraunces = Fraunces({
 });
 
 export const metadata = {
-  title: "MAAI — Organic Growth, Compounded",
+  title: "MAAI | Organic Growth, Compounded",
   description:
-    "MAAI is an SEO agency for global B2B. Platforms change — Google yesterday, LLMs today. Organic growth stays. We take business accountability.",
+    "MAAI is an SEO agency for global B2B. Platforms change: Google yesterday, LLMs today. Organic growth stays. We take business accountability.",
 };
 
 

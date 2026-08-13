@@ -5,7 +5,7 @@ const CASES = [
     slug: "pickfords",
     label: "Organic search",
     title: "Pickfords",
-    line: "Organic content clicks up 39% — held and grew straight through the 2026 Google core updates.",
+    line: "Organic content clicks up 39%, held and grew straight through the 2026 Google core updates.",
     img: "/case-studies/pickfords.png",
   },
   {

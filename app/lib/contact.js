@@ -6,7 +6,7 @@ export const CONTACT_EMAIL = "business@maai.agency";
 
 const TEMPLATES = {
   strategyCall: {
-    subject: "Strategy call request — [your company]",
+    subject: "Strategy call request: [your company]",
     body: `Hi MAAI team,
 
 I'd like to book a 30-minute strategy call.
@@ -21,7 +21,7 @@ Thanks,
 [your name]`,
   },
   general: {
-    subject: "Enquiry — [your company]",
+    subject: "Enquiry: [your company]",
     body: `Hi MAAI team,
 
 Company:

@@ -6,7 +6,7 @@ export default function Team() {
         <div className="wrap">
           <div className="team-head">
             <h2 className="reveal">The senior team accountable to your growth.</h2>
-            <p className="lede reveal" style={{ marginTop: "16px" }}>No juniors learning on your account. Every engagement is run by specialists who own their outcomes — and put their names to them.</p>
+            <p className="lede reveal" style={{ marginTop: "16px" }}>No juniors learning on your account. Every engagement is run by specialists who own their outcomes, and put their names to them.</p>
           </div>
           <span className="rail-hint" aria-hidden="true">Swipe</span>
           <div className="team-grid">
@@ -39,7 +39,7 @@ export default function Team() {
               <div className="member-body">
                 <span className="role">AI · Answer-Engine Lead</span>
                 <h3>Sam Whitfield</h3>
-                <p>Gets you cited in ChatGPT, Perplexity and AI Overviews — before competitors know the term.</p>
+                <p>Gets you cited in ChatGPT, Perplexity and AI Overviews, before competitors know the term.</p>
                 <div className="socials">
                   <a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.94 5a2 2 0 11-4 0 2 2 0 014 0zM3.3 8.5h3.28V21H3.3zM9.4 8.5h3.14v1.71h.05c.44-.83 1.5-1.71 3.1-1.71 3.31 0 3.92 2.18 3.92 5V21h-3.27v-4.44c0-1.06-.02-2.42-1.48-2.42s-1.7 1.15-1.7 2.34V21H9.4z" /></svg></a>
                   <a href="#" aria-label="Email"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><rect x="3" y="5" width="18" height="14" rx="2" /><path d="m3 7 9 6 9-6" /></svg></a>
@@ -51,7 +51,7 @@ export default function Team() {
               <div className="member-body">
                 <span className="role">Content Strategy Lead</span>
                 <h3>Mia Bianchi</h3>
-                <p>Builds content around buyer questions, not keyword lists — the way LLMs actually retrieve.</p>
+                <p>Builds content around buyer questions, not keyword lists: the way LLMs actually retrieve.</p>
                 <div className="socials">
                   <a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.94 5a2 2 0 11-4 0 2 2 0 014 0zM3.3 8.5h3.28V21H3.3zM9.4 8.5h3.14v1.71h.05c.44-.83 1.5-1.71 3.1-1.71 3.31 0 3.92 2.18 3.92 5V21h-3.27v-4.44c0-1.06-.02-2.42-1.48-2.42s-1.7 1.15-1.7 2.34V21H9.4z" /></svg></a>
                   <a href="#" aria-label="Email"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><rect x="3" y="5" width="18" height="14" rx="2" /><path d="m3 7 9 6 9-6" /></svg></a>
@@ -75,7 +75,7 @@ export default function Team() {
               <div className="member-body">
                 <span className="role">Growth · Accountability</span>
                 <h3>Erik Lund</h3>
-                <p>Owns the live reporting layer. Surfaces the wins, the misses, and the fix — every month.</p>
+                <p>Owns the live reporting layer. Surfaces the wins, the misses, and the fix, every month.</p>
                 <div className="socials">
                   <a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.94 5a2 2 0 11-4 0 2 2 0 014 0zM3.3 8.5h3.28V21H3.3zM9.4 8.5h3.14v1.71h.05c.44-.83 1.5-1.71 3.1-1.71 3.31 0 3.92 2.18 3.92 5V21h-3.27v-4.44c0-1.06-.02-2.42-1.48-2.42s-1.7 1.15-1.7 2.34V21H9.4z" /></svg></a>
                   <a href="#" aria-label="Email"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><rect x="3" y="5" width="18" height="14" rx="2" /><path d="m3 7 9 6 9-6" /></svg></a>

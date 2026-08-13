@@ -23,7 +23,7 @@ export default function Differentiator() {
           {/* The page's single Fraunces line — the one sentence a machine could not
               have written. Allocated here and nowhere else. OPEN #6. */}
           <p className="diff-fraunces reveal">
-            <span className="serif-voice is-pending-serif">The one Fraunces line — pending · open&nbsp;#6 · Kriti</span>
+            <span className="serif-voice is-pending-serif">The one Fraunces line, pending · open&nbsp;#6 · Kriti</span>
           </p>
         </div>
 

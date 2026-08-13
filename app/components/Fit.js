@@ -6,7 +6,7 @@ export default function Fit() {
         <div className="wrap">
           <div className="fit-inner">
             <h2 className="reveal">Not sure if SEO is the right fit for you?<br /><em>Take the 60-second fit check.</em></h2>
-            <p className="fit-lede reveal">Four quick questions. We'll tell you honestly whether organic is worth it for your business — what it would take, and when you'd see it. If it isn't a fit, we'll say so.</p>
+            <p className="fit-lede reveal">Four quick questions. We'll tell you honestly whether organic is worth it for your business: what it would take, and when you'd see it. If it isn't a fit, we'll say so.</p>
       
             <form className="fit-form reveal" id="fitForm" noValidate>
               <div className="fit-grid">
@@ -52,7 +52,7 @@ export default function Fit() {
       
             <div className="fit-done" id="fitDone" hidden>
               <div className="ic">&check;</div>
-              <h3>Thanks — your fit check is on its way.</h3>
+              <h3>Thanks, your fit check is on its way.</h3>
               <p>We'll send a short, honest assessment within one business day. If organic isn't right for you, we'll tell you that too.</p>
             </div>
           </div>

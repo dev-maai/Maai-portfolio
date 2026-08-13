@@ -44,7 +44,7 @@ const METHOD = [
     n: "02",
     k: "Intent",
     t: "Search intent mapping",
-    d: "A freight forwarder, a 3PL buyer and a next-day courier customer search in completely different language. We map the terms behind each mode, lane and service, then build a page that answers each — not one catch-all that ranks for none.",
+    d: "A freight forwarder, a 3PL buyer and a next-day courier customer search in completely different language. We map the terms behind each mode, lane and service, then build a page that answers each, not one catch-all that ranks for none.",
     img: "photo-1601584115197-04ecc0da31d7",
     alt: "Haulage truck on a freight route",
   },
@@ -60,7 +60,7 @@ const METHOD = [
     n: "04",
     k: "Authority",
     t: "Compounding authority",
-    d: "National networks outspend you on ads, not on trust. We earn the trade coverage, reviews and links that make your rankings hard to displace — and keep enquiries arriving lane after lane, quarter after quarter.",
+    d: "National networks outspend you on ads, not on trust. We earn the trade coverage, reviews and links that make your rankings hard to displace, and keep enquiries arriving lane after lane, quarter after quarter.",
     img: "photo-1516400208832-007613167c28",
     alt: "Aerial view of a freight rail yard",
   },
@@ -83,7 +83,7 @@ const SERVICES = [
   {
     k: "content",
     name: "On-page & content optimisation",
-    blurb: "Pages tuned to how buyers actually phrase the problem — titles, structure and real substance.",
+    blurb: "Pages tuned to how buyers actually phrase the problem: titles, structure and real substance.",
     inc: ["Intent-matched on-page", "Content depth & refreshes", "Internal linking model"],
   },
   {
@@ -101,7 +101,7 @@ const SERVICES = [
   {
     k: "schema",
     name: "Structured data & schema",
-    blurb: "Machine-readable markup that helps search and AI engines understand — and feature — your pages.",
+    blurb: "Machine-readable markup that helps search and AI engines understand and feature your pages.",
     inc: ["Organization & Service schema", "Product / FAQ / HowTo markup", "Validation & monitoring"],
   },
   {
@@ -113,7 +113,7 @@ const SERVICES = [
   {
     k: "reporting",
     name: "Ongoing performance reporting",
-    blurb: "Live reporting that ties organic and AI visibility back to pipeline — wins and misses in the open.",
+    blurb: "Live reporting that ties organic and AI visibility back to pipeline, with wins and misses in the open.",
     inc: ["Monthly position movement", "Citation-share dashboard", "Pipeline attribution"],
   },
 ];
@@ -186,7 +186,7 @@ export default function LogisticsPage() {
           <div className="scx-search-demo reveal">
             <SearchDemo
               queries={SEARCH_QUERIES}
-              answerLead="Buyers researching this get a shortlist — and "
+              answerLead="Buyers researching this get a shortlist, and "
               answerMark="your company"
               answerTail=" is cited as a trusted logistics partner."
               chips={["your company", "industry directory", "trade publication"]}
@@ -255,7 +255,7 @@ export default function LogisticsPage() {
         />
         <div className="scx-band-tint" />
         <div className="wrap scx-band-copy">
-          <p>Visibility earned at the point of intent keeps returning — quarter after quarter.</p>
+          <p>Visibility earned at the point of intent keeps returning, quarter after quarter.</p>
         </div>
       </section>
 

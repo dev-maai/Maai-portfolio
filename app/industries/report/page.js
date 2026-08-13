@@ -8,7 +8,7 @@ import ReportForm from "../../components/ReportForm";
 export const metadata = {
   title: "How B2B Leaders are Embracing Non-Traditional Media Channels | MAAI",
   description:
-    "A short report on how search, AI answers, peer communities, and niche media are reshaping B2B buyer discovery — and what marketing and comms teams should do next.",
+    "A short report on how search, AI answers, peer communities, and niche media are reshaping B2B buyer discovery, and what marketing and comms teams should do next.",
   alternates: { canonical: "/industries/report" },
 };
 
@@ -25,7 +25,7 @@ const STATS = [
   },
   {
     stat: "~50%",
-    copy: "report advanced measurement capability — influence is being created in places most reporting still cannot see.",
+    copy: "report advanced measurement capability: influence is being created in places most reporting still cannot see.",
   },
 ];
 
@@ -94,7 +94,7 @@ export default function IndustryReportPage() {
 
               <h2>Ready to build brand awareness in this new media era?</h2>
               <p>
-                Download the report for the full picture — where buyers actually start research, how
+                Download the report for the full picture: where buyers actually start research, how
                 answer engines reshape earned media value, and a simple way to measure influence
                 across channels you don&apos;t own.
               </p>

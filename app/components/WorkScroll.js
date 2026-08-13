@@ -29,7 +29,7 @@ export default function WorkScroll() {
                   <h3>Anglo Pacific World Movers</h3>
                   <p>Anglo Pacific came to us with organic traffic that was not scaling. We rewrote titles and meta descriptions across priority pages, added comparison tables and transit time data across destination pages, and structured the FAQ blocks for AI citation.</p>
                   <p>After stripping out normal seasonal patterns, 93 percentage points of user growth sit above the baseline. AI Visibility climbing from 22 to 26 across five months.</p>
-                  <div className="ledger-label"><i aria-hidden="true"></i>Ledger — receipts filed</div>
+                  <div className="ledger-label"><i aria-hidden="true"></i>Ledger · receipts filed</div>
                   <div className="metrics">
                     <div className="m"><div className="n"><b>▲</b> 62.9%</div><div className="l">Users, YoY</div></div>
                     <div className="m"><div className="n"><b>▲</b> 35.0%</div><div className="l">Sessions, YoY</div></div>
@@ -50,7 +50,7 @@ export default function WorkScroll() {
                   <h3>Pickfords</h3>
                   <p>When Google&rsquo;s 2026 core updates prioritised original expertise and first-party sources, we had already built Pickfords&rsquo; content strategy around exactly that. Original data. Local specificity. FAQ schema across every priority page.</p>
                   <p>The keyword growth reflects a strategy aligned with where Google was moving. Priority pages held their position through the March and May core updates while the wider category churned.</p>
-                  <div className="ledger-label"><i aria-hidden="true"></i>Ledger — receipts filed</div>
+                  <div className="ledger-label"><i aria-hidden="true"></i>Ledger · receipts filed</div>
                   <div className="metrics">
                     <div className="m"><div className="n"><b>▲</b> 575%</div><div className="l">Top priority keyword</div></div>
                     <div className="m"><div className="n"><b>▲</b> 1,210%</div><div className="l">Local removals guides</div></div>

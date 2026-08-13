@@ -28,7 +28,7 @@ export default function Proof() {
                   </div>
                   <div className="slide" role="group" aria-roledescription="slide">
                     <span className="quote-mark">&ldquo;</span>
-                    <blockquote>Kriti is one digital marketing consultant who takes client relationships seriously. She and the Maai team <b>built the LinkedIn rhythm for my profile and my company</b> — going beyond the call of duty on graphic design and events.</blockquote>
+                    <blockquote>Kriti is one digital marketing consultant who takes client relationships seriously. She and the Maai team <b>built the LinkedIn rhythm for my profile and my company</b>, going beyond the call of duty on graphic design and events.</blockquote>
                     <div className="slide-foot">
                       <div className="who">
                         <img src="/testimonal/anand.jpg" alt="Anand Parikh" loading="lazy" width="46" height="46" />
@@ -38,7 +38,7 @@ export default function Proof() {
                   </div>
                   <div className="slide" role="group" aria-roledescription="slide">
                     <span className="quote-mark">&ldquo;</span>
-                    <blockquote>Efficient, clear and incredibly pedagogical — she made complex things feel simple and actionable. What stood out was her <b>intuitive understanding of who we are</b>, without us even needing to explain it. Kriti just got it.</blockquote>
+                    <blockquote>Efficient, clear and incredibly pedagogical. She made complex things feel simple and actionable. What stood out was her <b>intuitive understanding of who we are</b>, without us even needing to explain it. Kriti just got it.</blockquote>
                     <div className="slide-foot">
                       <div className="who">
                         <img src="/testimonal/colette.jpg" alt="Colette Tostivint Gurung" loading="lazy" width="46" height="46" />

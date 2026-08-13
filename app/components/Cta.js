@@ -17,7 +17,7 @@ export default function Cta() {
         </h2>
         <p className="lede reveal">
           A 30-minute strategy call. We&apos;ll show you exactly where you stand across
-          Google and the answer engines today — and what compounding from here looks like.
+          Google and the answer engines today, and what compounding from here looks like.
         </p>
         <div className="cta-final-actions reveal">
           <LightButton href={mailtoHref("strategyCall")}>
@@ -25,7 +25,7 @@ export default function Cta() {
           </LightButton>
         </div>
         <p className="cta-alt reveal">
-          Not ready to talk yet? <a href="/fit-check">Take the 60-second fit check</a> — one honest answer, no pitch.
+          Not ready to talk yet? <a href="/fit-check">Take the 60-second fit check</a>. One honest answer, no pitch.
         </p>
       </div>
     </section>

@@ -17,7 +17,7 @@ const DEFAULT_QUERIES = [
 
 export default function SearchDemo({
   queries = DEFAULT_QUERIES,
-  answerLead = "Buyers researching this get a shortlist — and ",
+  answerLead = "Buyers researching this get a shortlist, and ",
   answerMark = "your company",
   answerTail = " is cited as a leading supplier.",
   chips = ["your company", "industry directory", "trade publication"],

@@ -45,12 +45,12 @@ export default function ReportForm() {
         <span className="live">Download started</span>
         <h3>Your report is on its way.</h3>
         <p>
-          If nothing happened, your browser may have blocked the download — grab it directly below.
+          If nothing happened, your browser may have blocked the download. Grab it directly below.
         </p>
         <a className="btn amber irp-submit" href={REPORT_FILE} download="MAAI-B2B-media-report-2026.pdf">
           Download the PDF
         </a>
-        <p className="irp-note">Draft placeholder file — the final report replaces it on publish.</p>
+        <p className="irp-note">Draft placeholder file. The final report replaces it on publish.</p>
       </div>
     );
   }

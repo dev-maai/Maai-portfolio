@@ -49,7 +49,7 @@ export default function SiteEffects() {
         { text: "best crm for enterprise sales teams", platform: 0 },
         { text: "which crm do fortune 500 teams actually use?", platform: 1 },
         { text: "compare enterprise crm platforms 2026", platform: 2 },
-        { text: "top rated crm — sources & citations", platform: 3 },
+        { text: "top rated crm · sources & citations", platform: 3 },
       ];
       const typedEl = document.getElementById("typed");
       const chips = document.querySelectorAll(".chip");

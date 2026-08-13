@@ -77,19 +77,19 @@ const SERVICES = [
   {
     k: "technical-seo",
     name: "Technical & product-page SEO",
-    blurb: "Rendering, crawl and speed fixes so your product and content pages can rank — critical on a JavaScript-heavy app.",
+    blurb: "Rendering, crawl and speed fixes so your product and content pages can rank, critical on a JavaScript-heavy app.",
     inc: ["JS render & crawl audit", "Core Web Vitals remediation", "Product-page architecture"],
   },
   {
     k: "content",
     name: "On-page & content optimisation",
-    blurb: "Pages tuned to the job your buyers are hiring software for — titles, structure and real substance.",
+    blurb: "Pages tuned to the job your buyers are hiring software for: titles, structure and real substance.",
     inc: ["Intent-matched on-page", "Content depth & refreshes", "Internal linking model"],
   },
   {
     k: "keyword-strategy",
     name: "Search intent & keyword strategy",
-    blurb: "A map of the journey — job-to-be-done, category, comparison and alternatives — and the page that converts each.",
+    blurb: "A map of the journey (job-to-be-done, category, comparison and alternatives) and the page that converts each.",
     inc: ["Journey-stage keyword model", "Competitor & alternative gaps", "Priority cluster roadmap"],
   },
   {
@@ -101,7 +101,7 @@ const SERVICES = [
   {
     k: "schema",
     name: "Structured data & schema",
-    blurb: "Machine-readable markup SoftwareApplication, FAQ, Review — that helps engines understand and feature your product.",
+    blurb: "Machine-readable markup (SoftwareApplication, FAQ, Review) that helps engines understand and feature your product.",
     inc: ["SoftwareApplication & Review schema", "FAQ / HowTo markup", "Validation & monitoring"],
   },
   {
@@ -113,7 +113,7 @@ const SERVICES = [
   {
     k: "reporting",
     name: "Ongoing performance reporting",
-    blurb: "Live reporting that ties organic and AI visibility back to signups — wins and misses in the open.",
+    blurb: "Live reporting that ties organic and AI visibility back to signups, with wins and misses in the open.",
     inc: ["Monthly position movement", "Signup & pipeline attribution", "Citation-share dashboard"],
   },
 ];
@@ -224,7 +224,7 @@ export default function SaaSPage() {
             <p className="scx-eyebrow">Our method</p>
             <TextReveal as="h2" text="How we win SaaS search" />
             <p>
-              Four moves, run in order — each one earns the right to the next.
+              Four moves, run in order. Each one earns the right to the next.
               No shortcuts, no vanity metrics.
             </p>
           </div>

@@ -5,9 +5,9 @@ import Footer from "../components/Footer";
 import SiteEffects from "../components/SiteEffects";
 
 export const metadata = {
-  title: "About — MAAI",
+  title: "About | MAAI",
   description:
-    "MAAI is a specialist organic-search agency — we make brands the answer their buyers find on Google and the AI assistants that now shape every shortlist.",
+    "MAAI is a specialist organic-search agency. We make brands the answer their buyers find on Google and the AI assistants that now shape every shortlist.",
 };
 
 export default function AboutPage() {

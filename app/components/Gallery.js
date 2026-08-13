@@ -2,7 +2,7 @@ export default function Gallery() {
   return (
     <>
       <section className="gallery" aria-label="Inside MAAI">
-        <p className="gallery-label">Inside the work — organic growth, in motion</p>
+        <p className="gallery-label">Inside the work: organic growth, in motion</p>
         <div className="gallery-track">
           <div className="gallery-item"><img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?w=560&q=72&auto=format&fit=crop" alt="Workspace by a window" loading="lazy" /><span className="cap">Strategy</span></div>
           <div className="gallery-item"><img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=560&q=72&auto=format&fit=crop" alt="Analytics dashboard" loading="lazy" /><span className="cap">Measurement</span></div>

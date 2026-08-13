@@ -13,13 +13,13 @@ const CARDS = [
     slot: 1,
     k: "Focus",
     h: "We go deep, not wide",
-    p: "We commit to a handful of sectors and learn them cold — the way your buyers phrase a problem, the questions they put to an AI, the terms that actually convert. A generalist restarts from zero on every account; we start from years in.",
+    p: "We commit to a handful of sectors and learn them cold: the way your buyers phrase a problem, the questions they put to an AI, the terms that actually convert. A generalist restarts from zero on every account; we start from years in.",
   },
   {
     slot: 2,
     k: "Honesty",
     h: "Reported in the open",
-    p: "Every month you see the positions that moved and the ones that didn't, tied back to pipeline. No vanity dashboards, no cherry-picked wins — the real picture, and the fix we're shipping next.",
+    p: "Every month you see the positions that moved and the ones that didn't, tied back to pipeline. No vanity dashboards, no cherry-picked wins: the real picture, and the fix we're shipping next.",
   },
   {
     slot: 3,

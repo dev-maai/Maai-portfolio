@@ -82,13 +82,13 @@ const SERVICES = [
   {
     k: "local-seo",
     name: "Local & service-area SEO",
-    blurb: "The local signals that win the map pack across every area you cover — profile, categories and location pages.",
+    blurb: "The local signals that win the map pack across every area you cover: profile, categories and location pages.",
     inc: ["GBP optimisation & posts", "Service-area landing pages", "Map-pack ranking signals"],
   },
   {
     k: "keyword-strategy",
     name: "Search intent & keyword strategy",
-    blurb: "A map of how movers search — home, office, international, by service and area — and the page that answers each.",
+    blurb: "A map of how movers search (home, office, international, by service and area) and the page that answers each.",
     inc: ["Service + area mapping", "Competitor gap analysis", "Priority page roadmap"],
   },
   {
@@ -100,7 +100,7 @@ const SERVICES = [
   {
     k: "schema",
     name: "Structured data & schema",
-    blurb: "Machine-readable markup — LocalBusiness, MovingCompany, FAQ, Review — that helps engines understand and feature your firm.",
+    blurb: "Machine-readable markup (LocalBusiness, MovingCompany, FAQ, Review) that helps engines understand and feature your firm.",
     inc: ["LocalBusiness & Service schema", "FAQ / review markup", "Validation & monitoring"],
   },
   {
@@ -112,7 +112,7 @@ const SERVICES = [
   {
     k: "reporting",
     name: "Ongoing performance reporting",
-    blurb: "Live reporting that ties local visibility back to bookings — wins and misses in the open.",
+    blurb: "Live reporting that ties local visibility back to bookings, with wins and misses in the open.",
     inc: ["Monthly position movement", "Map-pack & enquiry tracking", "Booking attribution"],
   },
 ];
@@ -223,7 +223,7 @@ export default function RemovalsPage() {
             <p className="scx-eyebrow">Our method</p>
             <TextReveal as="h2" text="How we win removals search" />
             <p>
-              Four moves, run in order — each one earns the right to the next.
+              Four moves, run in order. Each one earns the right to the next.
               No shortcuts, no vanity metrics.
             </p>
           </div>

@@ -9,7 +9,7 @@ import ServicesConsole from "../../components/ServicesConsole";
 import WhyCards from "../../components/WhyCards";
 
 export const metadata = {
-  title: "SEO & AEO for supply chain companies — MAAI",
+  title: "SEO & AEO for supply chain companies | MAAI",
   description:
     "Your buyers shortlist suppliers through Google and AI assistants before procurement contacts you. MAAI builds the search visibility that puts your company in those answers at the point the shortlist is formed.",
 };
@@ -66,7 +66,7 @@ const SERVICES = [
   {
     k: "content",
     name: "On-page & content optimisation",
-    blurb: "Pages tuned to how buyers actually phrase the problem — titles, structure and real substance.",
+    blurb: "Pages tuned to how buyers actually phrase the problem: titles, structure and real substance.",
     inc: ["Intent-matched on-page", "Content depth & refreshes", "Internal linking model"],
   },
   {
@@ -84,7 +84,7 @@ const SERVICES = [
   {
     k: "schema",
     name: "Structured data & schema",
-    blurb: "Machine-readable markup that helps search and AI engines understand — and feature — your pages.",
+    blurb: "Machine-readable markup that helps search and AI engines understand and feature your pages.",
     inc: ["Organization & Service schema", "Product / FAQ / HowTo markup", "Validation & monitoring"],
   },
   {
@@ -96,7 +96,7 @@ const SERVICES = [
   {
     k: "reporting",
     name: "Ongoing performance reporting",
-    blurb: "Live reporting that ties organic and AI visibility back to pipeline — wins and misses in the open.",
+    blurb: "Live reporting that ties organic and AI visibility back to pipeline, with wins and misses in the open.",
     inc: ["Monthly position movement", "Citation-share dashboard", "Pipeline attribution"],
   },
 ];
@@ -165,7 +165,7 @@ export default function SupplyChainPage() {
           <div className="scx-hero-media reveal">
             <img
               src="https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?w=1200&q=75&auto=format&fit=crop"
-              alt="Container port — global supply chain"
+              alt="Container port, global supply chain"
               loading="eager"
             />
             <span className="scx-hero-tint" aria-hidden="true" />
@@ -211,7 +211,7 @@ export default function SupplyChainPage() {
             <p className="scx-eyebrow">Our method</p>
             <TextReveal as="h2" text="How we win supply chain search" />
             <p>
-              Four moves, run in order — each one earns the right to the next.
+              Four moves, run in order. Each one earns the right to the next.
               No shortcuts, no vanity metrics.
             </p>
           </div>

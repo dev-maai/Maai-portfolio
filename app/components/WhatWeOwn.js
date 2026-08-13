@@ -20,7 +20,7 @@ const PILLARS = [
   {
     n: "02", tag: "Content",
     title: "Written for the person on the other side of the screen.",
-    body: "Content architecture, technical SEO foundations, and copy structured for how your buyers think, speak and search. Every surface your customers use is covered, from Google to Gemini to ChatGPT — built to hold through algorithm shifts because it is grounded in customer intent.",
+    body: "Content architecture, technical SEO foundations, and copy structured for how your buyers think, speak and search. Every surface your customers use is covered, from Google to Gemini to ChatGPT, built to hold through algorithm shifts because it is grounded in customer intent.",
     items: ["Content architecture", "Technical SEO", "AI search", "Digital PR"],
     img: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1100&q=72&auto=format&fit=crop",
   },
@@ -58,7 +58,7 @@ export default function WhatWeOwn() {
         <h2 className="reveal">The work MAAI is accountable for.</h2>
         <p className="lede reveal">
           Every agency delivers work. Very few take responsibility for what happens
-          after. We report the growth, the failures, and the fix — in plain English,
+          after. We report the growth, the failures, and the fix, in plain English,
           monthly, without waiting to be asked.
         </p>
       </div>

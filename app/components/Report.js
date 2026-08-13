@@ -11,7 +11,7 @@ const ROWS = [
 ];
 
 const POINTS = [
-  "A full report of work done — you never chase us for status.",
+  "A full report of work done, so you never chase us for status.",
   "Transparency on failures, with a mitigation plan attached.",
   "A team that understands your business, not just your keywords.",
 ];
@@ -31,7 +31,7 @@ export default function Report() {
           <h2 className="reveal">We take business accountability.</h2>
           <p className="lede reveal">
             Almost any agency can deliver results with the right strategy. What most
-            won&apos;t do is own the outcome. We report everything — the wins, the misses,
+            won&apos;t do is own the outcome. We report everything: the wins, the misses,
             and exactly how we&apos;re fixing them. Growth isn&apos;t linear, and we never
             pretend it is.
           </p>
@@ -100,7 +100,7 @@ export default function Report() {
 
           <div className="dif-fix">
             <b>What went wrong &amp; the fix:</b> Cluster B targeted queries LLMs now answer inline.
-            We&apos;re rebuilding it around comparison intent — new briefs shipped, re-measured in 30 days.
+            We&apos;re rebuilding it around comparison intent: new briefs shipped, re-measured in 30 days.
           </div>
         </motion.div>
       </div>

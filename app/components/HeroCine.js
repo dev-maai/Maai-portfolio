@@ -39,7 +39,7 @@ export default function HeroCine() {
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="11" cy="11" r="7" /><path d="m20 20-3.5-3.5" /></svg>
                     which agency do fortune 500 teams trust?
                   </div>
-                  <div className="carda">Top answer cites <b>your brand</b> — across Google, ChatGPT &amp; Perplexity.</div>
+                  <div className="carda">Top answer cites <b>your brand</b>, across Google, ChatGPT &amp; Perplexity.</div>
                 </div>
                 <div className="hc-card k2">
                   <div className="hc-live">Answer-engine visibility</div>
@@ -98,14 +98,14 @@ export default function HeroCine() {
               </h1>
               <p className="lede">
                 We build the organic channel global B2B teams defend to the
-                board — engineered for Google, AI answers, and everywhere your
+                board, engineered for Google, AI answers, and everywhere your
                 buyers ask.
               </p>
               <div className="hero-ctas">
                 <a className="btn amber" href="#contact">Book a strategy call</a>
                 <a className="btn ghost" href="#work">See how we work</a>
               </div>
-              <p className="hero-micro">A working session, not a pitch — where your organic is stalling, and the first three moves.</p>
+              <p className="hero-micro">A working session, not a pitch: where your organic is stalling, and the first three moves.</p>
               </div>
 
               <div className="hero-aside">
@@ -135,7 +135,7 @@ export default function HeroCine() {
                 <div className="hp-stat"><b>22&nbsp;→&nbsp;26</b><span>AI visibility, 5&nbsp;mo</span></div>
                 <div className="hp-stat"><b>+575%</b><span>Priority keyword</span></div>
               </div>
-              <p className="hero-proof-src">Anglo Pacific · reported monthly — wins and misses</p>
+              <p className="hero-proof-src">Anglo Pacific · reported monthly · wins and misses</p>
              </div>
              </div>
             </div>

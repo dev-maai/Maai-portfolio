@@ -25,7 +25,7 @@ const ENGINES = [
     n: "03",
     title: "Growth Intelligence",
     tag: "Reporting",
-    desc: "A live reporting layer with attribution and monthly growth reports — every win, miss and fix, in the open.",
+    desc: "A live reporting layer with attribution and monthly growth reports: every win, miss and fix, in the open.",
     points: ["Attribution", "Live reports", "Accountability"],
   },
 ];
@@ -149,7 +149,7 @@ export default function Products() {
         </div>
 
         <p className="engines-foot reveal">
-          <span aria-hidden="true">↳</span> Each engine feeds the next — search authority earns citations, citations earn presence, presence compounds.
+          <span aria-hidden="true">↳</span> Each engine feeds the next: search authority earns citations, citations earn presence, presence compounds.
         </p>
       </div>
     </section>
