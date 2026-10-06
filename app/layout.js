@@ -33,10 +33,42 @@ const fraunces = Fraunces({
   display: "swap",
 });
 
+/* Canonical origin for the whole site — keep in sync with BASE_URL in
+   app/sitemap.js and app/robots.js. metadataBase makes every relative OG /
+   Twitter image resolve against it. */
+const SITE_URL = "https://www.maai.agency";
+const SITE_TITLE = "MAAI | Organic Growth, Compounded";
+const SITE_DESCRIPTION =
+  "MAAI is an SEO agency for global B2B. Platforms change: Google yesterday, LLMs today. Organic growth stays. We take business accountability.";
+
 export const metadata = {
-  title: "MAAI | Organic Growth, Compounded",
-  description:
-    "MAAI is an SEO agency for global B2B. Platforms change: Google yesterday, LLMs today. Organic growth stays. We take business accountability.",
+  metadataBase: new URL(SITE_URL),
+  title: SITE_TITLE,
+  description: SITE_DESCRIPTION,
+  openGraph: {
+    title: SITE_TITLE,
+    description: SITE_DESCRIPTION,
+    url: SITE_URL,
+    siteName: "MAAI",
+    locale: "en_US",
+    type: "website",
+    images: [
+      {
+        /* The hero's poster frame doubles as the social card until a
+           dedicated 1200×630 OG image ships. */
+        url: "/hero-poster.jpg",
+        width: 1280,
+        height: 720,
+        alt: "MAAI — organic growth, compounded",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: SITE_TITLE,
+    description: SITE_DESCRIPTION,
+    images: ["/hero-poster.jpg"],
+  },
 };
 
 
