@@ -72,7 +72,7 @@ const CASES = {
   },
   pickfords: {
    img: "/case-studies/pickfords.png",
-    name: "Pickfords",
+    name: "Logistics",
     tag: "Organic search",
     title: "How MAAI grew Pickfords' organic content clicks 39% through the 2026 Google core updates",
     stats: [
@@ -194,7 +194,7 @@ const CASES = {
     ],
   },
   "backlinks-referral": {
-   img: "/case-studies/shira-medtech.png",
+   img: "/case-studies/shira.png",
     name: "Backlinks & referral",
     tag: "Backlinks & referral",
     title: "How relevance-first backlinks grew referral traffic 118% for a niche B2B surgical brand",

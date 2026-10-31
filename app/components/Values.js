@@ -20,7 +20,7 @@ const CASES = [
     label: "Backlinks & referral",
     title: "Medtech",
     line: "Referral traffic up 118% while holding #1 on the core commercial term.",
-    img: "/case-studies/shira-medtech.png",
+    img: "/case-studies/shira.png",
   },
   {
     slug: "anglo-pacific",
