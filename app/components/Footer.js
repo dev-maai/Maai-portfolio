@@ -9,7 +9,9 @@ export default function Footer() {
           <div className="footer-grid">
             <div>
               <div className="footer-brand">
-                <div className="logo">ma<span className="ai">ai</span></div>
+                <div className="logo">
+                  <img className="logo-image" src="/Maai Logo - Pink M Transparent.png" alt="MAAI" />
+                </div>
               </div>
               <p style={{ maxWidth: "34ch" }}>Organic growth, wherever attention lives. Accountable to your business, not just your rankings.</p>
               <p className="serif-voice" style={{ marginTop: "14px", fontSize: "17px" }}>Because every ranking is a person deciding something.</p>

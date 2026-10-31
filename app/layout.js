@@ -43,6 +43,10 @@ const SITE_DESCRIPTION =
 
 export const metadata = {
   metadataBase: new URL(SITE_URL),
+  icons: {
+    icon: "/Maai Logo - Pink M Transparent.png",
+    apple: "/Maai Logo - Pink M Transparent.png",
+  },
   title: SITE_TITLE,
   description: SITE_DESCRIPTION,
   openGraph: {
