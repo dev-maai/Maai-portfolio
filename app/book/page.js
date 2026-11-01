@@ -20,6 +20,12 @@ const POINTS = [
   { h: "You leave with clear next steps", p: "Whether or not we work together.", icon: <path d="M20 6 9 17l-5-5" /> },
 ];
 
+/* Read on the server so the key works under either name it was saved as in Vercel. */
+const TURNSTILE_SITE_KEY =
+  process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY || process.env.NEXTPUBLICTURNSTILESITEKEY || "";
+
+export const dynamic = "force-dynamic";
+
 export default function BookPage() {
   const [slug, c] = Object.entries(CASES)[0];
   return (
@@ -45,7 +51,7 @@ export default function BookPage() {
             </Link>
             <p className="bk-alt">Prefer email? Write to <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a></p>
           </div>
-          <BookForm />
+          <BookForm siteKey={TURNSTILE_SITE_KEY} />
         </div>
       </main>
       <Footer />

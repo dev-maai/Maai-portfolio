@@ -7,12 +7,12 @@ import { useEffect, useRef, useState } from "react";
 
 const BOOKING_URL =
   "https://calendar.google.com/calendar/appointments/schedules/AcZssZ1ONjy32yMCib4uQK5s2eNqB60GXNow_NlQBdXsMM4t7iq2r50DDxrJ115hbPfw3M86n7mOP7-a?gv=true";
-const SITE_KEY = process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY;
 
 export const INDUSTRIES = ["Removals & Relocation", "Logistics", "Supply chain", "Real estate", "Other"];
 export const BUDGETS = ["£999 to £1,950 a month", "£1,950 to £3,950 a month", "£3,950 to £6,950 a month", "£6,950+ a month", "Not sure yet"];
 
-export default function BookForm() {
+export default function BookForm({ siteKey }) {
+  const SITE_KEY = siteKey;
   const [form, setForm] = useState({ name: "", email: "", company: "", website: "", industry: "", budget: "", need: "", company_url: "" });
   const [token, setToken] = useState(SITE_KEY ? "" : "none");
   const [status, setStatus] = useState("idle"); // idle | sending | done | error
@@ -37,7 +37,7 @@ export default function BookForm() {
     s.async = true;
     s.onload = render;
     document.head.appendChild(s);
-  }, []);
+  }, [SITE_KEY]);
 
   const set = (k) => (e) => setForm((f) => ({ ...f, [k]: e.target.value }));
   const ready = form.name && form.email && form.company && form.website && token;
@@ -129,7 +129,7 @@ export default function BookForm() {
           ) : (
             <div className="bk-cal-lock">
               <p>Fill in your details above to see available times.</p>
-              <p className="bk-cal-sub">Tuesday to Thursday, 9am to 5pm UK time (GMT/BST).</p>
+              <p className="bk-cal-sub">Tuesday to Thursday, 9am to 11am UK time (GMT/BST).</p>
             </div>
           )}
         </div>

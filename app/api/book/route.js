@@ -9,7 +9,7 @@
 
 export const runtime = "nodejs";
 
-const TURNSTILE_SECRET = process.env.TURNSTILE_SECRET_KEY;
+const TURNSTILE_SECRET = process.env.TURNSTILE_SECRET_KEY || process.env.TURNSTILESECRETKEY;
 const SHEET_WEBHOOK = process.env.FIT_SHEET_WEBHOOK;
 const RESEND_API_KEY = process.env.RESEND_API_KEY;
 const NOTIFY_TO = process.env.FIT_NOTIFY_TO || "business@maai.agency";
