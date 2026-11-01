@@ -125,7 +125,16 @@ export default async function InsightPost({ params }) {
   const post = getPost(slug);
   if (!post) notFound();
   const author = AUTHORS[post.author];
-  const related = POSTS.filter((p) => p.slug !== post.slug).slice(0, 3);
+  /* Further insights: other posts first, topped up with case studies so the
+     section always shows three cards, matching "More case studies". */
+  const further = [
+    ...POSTS.filter((p) => p.slug !== post.slug).map((p) => ({
+      href: `/insights/${p.slug}`, img: p.image, tag: p.topics.join(" · "), title: p.title, go: "Read insight",
+    })),
+    ...Object.entries(CASES).map(([s, c]) => ({
+      href: `/case-studies/${s}`, img: c.img, tag: `Case study · ${c.tag}`, title: c.title || c.name, stat: c.stats?.[0], go: "Read case study",
+    })),
+  ].slice(0, 3);
 
   const jsonLd = [
     {
@@ -205,7 +214,7 @@ export default async function InsightPost({ params }) {
           <div className="ins-side-inner">
             <p className="ins-side-h">Read our case studies</p>
             <div className="ins-side-list">
-              {Object.entries(CASES).slice(0, 4).map(([s, c]) => (
+              {Object.entries(CASES).slice(0, 3).map(([s, c]) => (
                 <Link className="ins-side-card" href={`/case-studies/${s}`} key={s}>
                   <div className="ins-side-media"><img src={c.img} alt="" loading="lazy" /></div>
                   <div className="ins-side-body">
@@ -224,17 +233,29 @@ export default async function InsightPost({ params }) {
         </aside>
         </div>
 
-        {related.length > 0 && (
-          <section className="ins-related" aria-label="Related reads">
-            <h2>Related reads</h2>
-            <div className="ins-grid">
-              {related.map((p) => (
-                <Link className="ins-card" href={`/insights/${p.slug}`} key={p.slug}>
-                  <div className="ins-card-media"><img src={p.image} alt="" loading="lazy" /></div>
-                  <span className="ins-cats">{[...p.topics, ...p.industries].join(" · ")}</span>
-                  <h3>{p.title}</h3>
-                </Link>
-              ))}
+        {further.length > 0 && (
+          <section className="rel" aria-label="Further insights">
+            <div className="wrap">
+              <div className="rel-head">
+                <h2>Further insights</h2>
+                <Link className="cta-link" href="/insights">All insights <span aria-hidden="true">→</span></Link>
+              </div>
+              <div className="rel-grid">
+                {further.map((f) => (
+                  <Link className="rel-card" href={f.href} key={f.href}>
+                    <div className="rel-media">
+                      <img src={f.img} alt="" loading="lazy" />
+                      <span className="rel-tint" aria-hidden="true" />
+                    </div>
+                    <div className="rel-body">
+                      <span className="rel-tag">{f.tag}</span>
+                      <h3>{f.title}</h3>
+                      {f.stat && <span className="rel-stat"><b>{f.stat.v}</b> {f.stat.l}</span>}
+                      <span className="rel-go">{f.go} <i aria-hidden="true">→</i></span>
+                    </div>
+                  </Link>
+                ))}
+              </div>
             </div>
           </section>
         )}
