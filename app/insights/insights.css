@@ -8,6 +8,10 @@
 .ins-hero,.ins-post-hero{position:relative;overflow:hidden;background:#0E2A1E;color:#F7F7F2}
 .ins-hero>img,.ins-post-hero>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
 .ins-hero-tint{position:absolute;inset:0;background:rgba(10,32,22,.68)}
+/* Banner standard for every post: image softened and darkened to the same level,
+   so any photo (busy screenshots included) sits behind the title without competing. */
+.ins-post-hero>img{filter:blur(3px) saturate(.55) brightness(.75);transform:scale(1.04)}
+.ins-post-hero .ins-hero-tint{background:linear-gradient(180deg,rgba(10,32,22,.72) 0%,rgba(10,32,22,.86) 100%)}
 .ins-hero h1{position:relative;margin:0;padding:clamp(90px,12vw,140px) var(--pad);text-align:center;
   font-family:var(--font-display);font-weight:600;font-size:clamp(40px,6vw,66px);letter-spacing:-.03em;line-height:1.05}
 
