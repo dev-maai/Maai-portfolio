@@ -4,6 +4,7 @@ import Nav from "../../components/Nav";
 import Footer from "../../components/Footer";
 import SiteEffects from "../../components/SiteEffects";
 import { POSTS, AUTHORS, getPost, formatDate } from "../../lib/posts";
+import { CASES } from "../../lib/cases";
 import "../insights.css";
 
 export function generateStaticParams() {
@@ -174,6 +175,7 @@ export default async function InsightPost({ params }) {
           </div>
         </section>
 
+        <div className="ins-layout">
         <article className="ins-article">
           <p className="ins-intro">{post.intro}</p>
           {post.tldr?.length > 0 && (
@@ -199,9 +201,32 @@ export default async function InsightPost({ params }) {
           )}
         </article>
 
+        <aside className="ins-side" aria-label="Case studies">
+          <div className="ins-side-inner">
+            <p className="ins-side-h">Read our case studies</p>
+            <div className="ins-side-list">
+              {Object.entries(CASES).slice(0, 4).map(([s, c]) => (
+                <Link className="ins-side-card" href={`/case-studies/${s}`} key={s}>
+                  <div className="ins-side-media"><img src={c.img} alt="" loading="lazy" /></div>
+                  <div className="ins-side-body">
+                    <span className="ins-side-tag">{c.tag}</span>
+                    <span className="ins-side-title">{c.title || c.name}</span>
+                    {c.stats?.[0] && <span className="ins-side-stat"><b>{c.stats[0].v}</b> {c.stats[0].l}</span>}
+                  </div>
+                </Link>
+              ))}
+            </div>
+            <div className="ins-side-cta">
+              <p>Want results like these for your business?</p>
+              <Link className="btn amber" href="/#contact">Let&apos;s talk</Link>
+            </div>
+          </div>
+        </aside>
+        </div>
+
         {related.length > 0 && (
-          <section className="ins-related" aria-label="Related insights">
-            <h2>Related insights</h2>
+          <section className="ins-related" aria-label="Related reads">
+            <h2>Related reads</h2>
             <div className="ins-grid">
               {related.map((p) => (
                 <Link className="ins-card" href={`/insights/${p.slug}`} key={p.slug}>
@@ -214,10 +239,6 @@ export default async function InsightPost({ params }) {
           </section>
         )}
 
-        <section className="ins-cta">
-          <h2>Want this working for your business?</h2>
-          <Link className="btn amber" href="/#contact">Let&apos;s talk</Link>
-        </section>
       </main>
       <Footer />
       <SiteEffects />

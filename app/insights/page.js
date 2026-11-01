@@ -19,7 +19,7 @@ export default function InsightsPage() {
       <Nav />
       <main className="ins-page">
         <section className="ins-hero">
-          <img src="/selfstorage/compounding-authority.jpg" alt="" />
+          <img src="/hero-poster.jpg" alt="" />
           <span className="ins-hero-tint" aria-hidden="true" />
           <h1>Industry Insights</h1>
         </section>
