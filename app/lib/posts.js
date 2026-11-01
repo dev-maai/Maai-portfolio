@@ -3,8 +3,8 @@
    Body blocks render in order. Supported types: p, h2, list, ol, chart, table,
    view (Kriti's view, hidden while empty), image, faq. Every number needs a source. */
 
-export const TOPICS = ["SEO", "AEO", "GEO", "B2B SEO", "B2C SEO", "SEO vs PPC", "Opinion"];
-export const INDUSTRIES = ["Removals", "Self storage", "Logistics and freight", "Real estate"];
+export const TOPICS = ["AEO/GEO", "SEO - Begins", "B2B", "B2C", "Everything Marketing"];
+export const INDUSTRIES = ["Removals & Relocation", "Real estate", "Logistics", "Supply chain"];
 
 export const AUTHORS = {
   kriti: {
@@ -23,7 +23,7 @@ export const POSTS = [
       "Why SEO matters more for B2B companies, where search fits each stage of the B2B buying journey, and how to plan SEO for a B2B business.",
     date: "2026-11-01",
     author: "kriti",
-    topics: ["SEO", "B2B SEO"],
+    topics: ["SEO - Begins", "B2B"],
     industries: [],
     image: "/Saas/aeo.jpg",
     intro:
@@ -120,7 +120,7 @@ export const POSTS = [
       "Is SEO dead in 2027? What AI search has changed, what has not, and what business owners should ask any SEO agency they hire next year.",
     date: "2026-11-01",
     author: "kriti",
-    topics: ["SEO", "AEO", "Opinion"],
+    topics: ["AEO/GEO", "Everything Marketing"],
     industries: [],
     image: "/removals/AEO.jpg",
     intro:
@@ -193,7 +193,7 @@ export const POSTS = [
       "SEO vs PPC for B2B companies: how they differ, when to choose each, and how to use PPC data to pick SEO targets for long-term organic growth.",
     date: "2026-11-01",
     author: "kriti",
-    topics: ["SEO vs PPC", "B2B SEO"],
+    topics: ["B2B", "Everything Marketing"],
     industries: [],
     image: "/removals/foundation-dashboard.jpg",
     intro:
@@ -255,7 +255,7 @@ export const POSTS = [
       "SEO vs PPC for B2C and consumer brands: when PPC wins, when SEO wins, and a simple guide to choosing the right mix.",
     date: "2026-11-01",
     author: "kriti",
-    topics: ["SEO vs PPC", "B2C SEO"],
+    topics: ["B2C", "Everything Marketing"],
     industries: [],
     image: "/selfstorage/seo.jpg",
     intro:
