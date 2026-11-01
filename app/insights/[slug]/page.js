@@ -227,7 +227,7 @@ export default async function InsightPost({ params }) {
             </div>
             <div className="ins-side-cta">
               <p>Want results like these for your business?</p>
-              <Link className="btn amber" href="/#contact">Let&apos;s talk</Link>
+              <Link className="btn amber" href="/book">Let&apos;s talk</Link>
             </div>
           </div>
         </aside>

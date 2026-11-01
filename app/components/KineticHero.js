@@ -109,7 +109,7 @@ export default function KineticHero({ headline = "We make you the answer.", card
               <motion.path d="M14 16 C66 2 92 44 74 74 C64 92 38 86 58 112" stroke="currentColor" strokeWidth="3.4" strokeLinecap="round" style={reduce ? { pathLength: 1 } : { pathLength: lineLen }} />
               <motion.path d="M42 96 L59 114 L80 104" stroke="currentColor" strokeWidth="3.4" strokeLinecap="round" strokeLinejoin="round" style={reduce ? { pathLength: 1 } : { pathLength: headLen }} />
             </svg>
-            <a className="kh-cta" href="/#contact">
+            <a className="kh-cta" href="/book">
               Book a strategy call
               <span className="kh-cta-ic" aria-hidden="true">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14M13 6l6 6-6 6" /></svg>

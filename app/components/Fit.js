@@ -117,7 +117,7 @@ export default function Fit() {
                 </p>
               )}
 
-              <p className="fit-alt">Or <a href="/#contact">book a free discovery call</a></p>
+              <p className="fit-alt">Or <a href="/book">book a free discovery call</a></p>
               <p className="fit-note">No pitch deck. No sales sequence. One honest answer.</p>
             </form>
 

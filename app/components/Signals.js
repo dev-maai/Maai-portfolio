@@ -138,7 +138,7 @@ export default function Signals() {
             backed by industry data. Every piece of work is reported. Every result is
             measured against agreed objectives.
           </p>
-          <a className="btn contrast reveal" href="#contact">Book your discovery call</a>
+          <a className="btn contrast reveal" href="/book">Book your discovery call</a>
         </div>
 
         {/* mobile-only: a two-line keyword marquee (rows scroll opposite ways).

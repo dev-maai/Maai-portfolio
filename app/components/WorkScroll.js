@@ -13,7 +13,7 @@ export default function WorkScroll() {
             <div className="work-head-right">
               <LedgerMark className="work-head-mark" />
               <p className="sub">Two clients. Real numbers. No omitted context.</p>
-              <a className="cta-link" href="#contact">Get results like these <span aria-hidden="true">→</span></a>
+              <a className="cta-link" href="/book">Get results like these <span aria-hidden="true">→</span></a>
               <span className="hint">Scroll ↓ to move →</span>
             </div>
           </div>

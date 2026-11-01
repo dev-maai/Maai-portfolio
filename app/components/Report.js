@@ -44,7 +44,7 @@ export default function Report() {
             ))}
           </ul>
           <div className="cta-row reveal">
-            <a className="cta-link" href="#contact">Get a report like this <span aria-hidden="true">→</span></a>
+            <a className="cta-link" href="/book">Get a report like this <span aria-hidden="true">→</span></a>
           </div>
         </div>
 

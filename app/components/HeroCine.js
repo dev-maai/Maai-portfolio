@@ -102,7 +102,7 @@ export default function HeroCine() {
                 buyers ask.
               </p>
               <div className="hero-ctas">
-                <a className="btn amber" href="#contact">Book a strategy call</a>
+                <a className="btn amber" href="/book">Book a strategy call</a>
                 <a className="btn ghost" href="#work">See how we work</a>
               </div>
               <p className="hero-micro">A working session, not a pitch: where your organic is stalling, and the first three moves.</p>
