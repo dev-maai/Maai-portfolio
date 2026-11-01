@@ -22,7 +22,7 @@ export default function Tagline() {
           </p>
         </div>
         <div className="tagline-action reveal">
-          <a className="btn amber" href="#contact">Start Compounding</a>
+          <a className="btn amber" href="/book">Start Compounding</a>
         </div>
       </div>
     </section>

@@ -14,7 +14,7 @@ export default function Cta2() {
         </div>
         {/* Single dark pill. Exact label OPEN #9. */}
         <div className="cta2-action reveal">
-          <a className="btn cta2-btn" href="#contact">Get your SEO audit</a>
+          <a className="btn cta2-btn" href="/book">Get your SEO audit</a>
           <span className="pending-tag">button label · open #9 · Kriti</span>
         </div>
       </div>

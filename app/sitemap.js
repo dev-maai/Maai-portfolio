@@ -19,6 +19,7 @@ export default function sitemap() {
     { path: "", priority: 1, changeFrequency: "weekly" },
     { path: "/about", priority: 0.8, changeFrequency: "monthly" },
     { path: "/insights", priority: 0.8, changeFrequency: "weekly" },
+    { path: "/book", priority: 0.7, changeFrequency: "monthly" },
     { path: "/fit-check", priority: 0.7, changeFrequency: "monthly" },
     {
       path: "/seo-agency-for-logistics-companies",

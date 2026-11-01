@@ -37,7 +37,7 @@ export default function Footer() {
               <h4>Contact</h4>
               <ul>
                 <li><a href={mailtoHref("general")}>{CONTACT_EMAIL}</a></li>
-                <li><a href="/#contact">Book a strategy call</a></li>
+                <li><a href="/book">Book a strategy call</a></li>
                 <li><a href="https://www.linkedin.com/in/kritikumarii/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
               </ul>
             </div>

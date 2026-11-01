@@ -1,7 +1,6 @@
 import Typewriter from "./Typewriter";
 import LightButton from "./LightButton";
 import SignalFlow from "./SignalFlow";
-import { mailtoHref } from "../lib/contact";
 
 export default function Cta() {
   return (
@@ -20,7 +19,7 @@ export default function Cta() {
           Google and the answer engines today, and what compounding from here looks like.
         </p>
         <div className="cta-final-actions reveal">
-          <LightButton href={mailtoHref("strategyCall")}>
+          <LightButton href="/book">
             Book a strategy call
           </LightButton>
         </div>
