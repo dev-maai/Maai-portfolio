@@ -42,7 +42,7 @@
 .bk-turnstile{min-height:65px}
 .bk-error{margin:0;font-size:14px;color:#B4234F}
 .bk-ok{margin:0;font-size:15px;font-weight:600;color:var(--pine)}
-.bk-submit{align-self:flex-start}
+.bk-submit{align-self:stretch;justify-content:center;text-align:center}
 .bk-submit:disabled{opacity:.5;cursor:not-allowed}
 .bk-part fieldset:disabled input,.bk-part fieldset:disabled select,.bk-part fieldset:disabled textarea{opacity:.7}
 .bk-divider{height:1px;background:var(--line)}

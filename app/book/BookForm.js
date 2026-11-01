@@ -112,7 +112,7 @@ export default function BookForm() {
           {error && <p className="bk-error" role="alert">{error}</p>}
           {!done && (
             <button className="btn amber bk-submit" type="submit" disabled={!ready || status === "sending"}>
-              {status === "sending" ? "Sending…" : "Show available times"}
+              {status === "sending" ? "Sending…" : "Get yourself a free SEO audit"}
             </button>
           )}
         </fieldset>
@@ -129,7 +129,7 @@ export default function BookForm() {
           ) : (
             <div className="bk-cal-lock">
               <p>Fill in your details above to see available times.</p>
-              <p className="bk-cal-sub">Tuesday to Thursday, shown in your own time zone.</p>
+              <p className="bk-cal-sub">Tuesday to Thursday, 9am to 5pm UK time (GMT/BST).</p>
             </div>
           )}
         </div>
