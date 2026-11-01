@@ -10,7 +10,7 @@ const BOOKING_URL =
 const SITE_KEY = process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY;
 
 export const INDUSTRIES = ["Removals & Relocation", "Logistics", "Supply chain", "Real estate", "Other"];
-export const BUDGETS = ["Under £2,000 a month", "£2,000 to £5,000 a month", "£5,000+ a month", "Not sure yet"];
+export const BUDGETS = ["£999 to £1,950 a month", "£1,950 to £3,950 a month", "£3,950 to £6,950 a month", "£6,950+ a month", "Not sure yet"];
 
 export default function BookForm() {
   const [form, setForm] = useState({ name: "", email: "", company: "", website: "", industry: "", budget: "", need: "", company_url: "" });
