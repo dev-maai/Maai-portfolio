@@ -52,7 +52,9 @@ export default function Nav() {
     <>
       <header className="nav">
         <div className="wrap nav-inner">
-          <a className="logo" href="/" aria-label="MAAI home">ma<span className="ai">ai</span></a>
+          <a className="logo" href="/" aria-label="MAAI home">
+            <img className="nav-logo-image" src="/maai-logo.png" alt="MAAI" />
+          </a>
           <nav className="nav-links tube-nav" id="navmenu" onMouseLeave={() => setHover(null)}>
             {LINKS.map((l, i) => (
               <Fragment key={l.href}>

@@ -10,7 +10,7 @@ export default function Footer() {
             <div>
               <div className="footer-brand">
                 <div className="logo">
-                  <img className="logo-image" src="/Maai Logo - Pink M Transparent.png" alt="MAAI" />
+                  <img className="logo-image" src="/maai-logo.png" alt="MAAI" />
                 </div>
               </div>
               <p style={{ maxWidth: "34ch" }}>Organic growth, wherever attention lives. Accountable to your business, not just your rankings.</p>
