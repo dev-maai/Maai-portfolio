@@ -74,8 +74,14 @@ function Block({ block }) {
         <figure className="ins-quote">
           <blockquote><p>{block.text}</p></blockquote>
           <figcaption>
-            <a href={block.href} target="_blank" rel="noopener noreferrer nofollow">{block.author}</a>
-            {block.where ? ` on ${block.where}` : " on Reddit"}
+            {block.href ? (
+              <>
+                <a href={block.href} target="_blank" rel="noopener noreferrer nofollow">{block.author}</a>
+                {block.where ? ` on ${block.where}` : " on Reddit"}
+              </>
+            ) : (
+              <><strong>{block.author}</strong>{block.where ? `, ${block.where}` : ""}</>
+            )}
           </figcaption>
         </figure>
       );
@@ -167,7 +173,7 @@ export default async function InsightPost({ params }) {
       description: post.description,
       datePublished: post.date,
       image: `https://www.maai.agency${post.image}`,
-      author: { "@type": "Person", name: author.name, url: author.links[0]?.href },
+      author: { "@type": author.org ? "Organization" : "Person", name: author.name, url: author.links[0]?.href },
       publisher: { "@type": "Organization", name: "MAAI", url: "https://www.maai.agency" },
       mainEntityOfPage: `https://www.maai.agency/insights/${post.slug}`,
     },
