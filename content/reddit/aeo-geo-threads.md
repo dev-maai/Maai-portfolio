@@ -1,0 +1,42 @@
+# AEO/GEO Reddit threads supplied by Kriti (03/11/2026)
+
+## Thread 1: r/Agent_SEO "Anyone actually getting results from AEO/GEO?"
+OP u/Striking_Swimming586 (https://www.reddit.com/user/Striking_Swimming586/): "I've been doing SEO for a B2B manufacturing company for the last few months... Now the client wants to focus more on AEO/GEO/AIO and getting the site mentioned in ChatGPT, Perplexity, Google AI Overviews, etc. ... what did you change and how did you measure whether it was working?"
+Thread: https://www.reddit.com/r/Agent_SEO/comments/1wu8ygj/
+
+- u/_slimbrady (tool founder, disclose) https://www.reddit.com/r/Agent_SEO/comments/1wu8ygj/comment/19rk66tee9sqp/ : "Write for extraction, not just ranking. Put the direct answer in the first 1–2 sentences under each heading, then expand." / "Citations moved first. Mentions... only started catching up more recently." / "For manufacturing, this means things like tolerances, materials, lead times and industries served." / "ChatGPT search leans on Bing and AI Overviews on Google's index, so the technical work you've done is the foundation." / Measure: fixed prompt set across ChatGPT, Perplexity, Gemini; GA4 referrals from chatgpt.com and perplexity.ai.
+- u/OkFox6901 https://www.reddit.com/r/Agent_SEO/comments/1wu8ygj/comment/19rrhh779zfsw/ : "We revamped a B2B manufacturer site... We worked on LLMS.txt, robots.txt, schema, entity map, FAQs (not a generic one), internal links... leads started coming from AI sources and conversion rate is also much higher compared to all other sources."
+- u/NoIdea4u https://www.reddit.com/r/Agent_SEO/comments/1wu8ygj/comment/pd2xsd6/ : "It's essentially the same as traditional seo and technical seo... the Ai crawlers don't run .js so SSR is a better choice."
+- u/ReachSTH-agency https://www.reddit.com/r/Agent_SEO/comments/1wu8ygj/comment/pd38hqc/ : "We'd avoid treating 'number of AI mentions' as the main KPI. It's more useful to track visibility over time alongside citations/referrals and, ultimately, whether any of it contributes to qualified traffic or enquiries."
+- u/Fuzzy_Fish_2329 (sceptic) https://www.reddit.com/r/Agent_SEO/comments/1wu8ygj/comment/pdafv7s/ : "Horrendous waste of money. It doesn't work"
+- u/maxsemo (sceptic) https://www.reddit.com/r/Agent_SEO/comments/1wu8ygj/comment/pfg714b/ : "The results ... from AI search optimization efforts are not consistent compared to the results we get from Google search (SEO)."
+- u/Ok-Presence4367 https://www.reddit.com/r/Agent_SEO/comments/1wu8ygj/comment/pdfcep4/ : agency attributing new revenue to AI search; "since most of our clutch reviews are from years ago, and Chat GPT has a tight relationship with Clutch, we don't see leads coming from there, it's mostly Grok, Perplexity, Gemini traffic".
+- u/wltrpnm https://www.reddit.com/r/Agent_SEO/comments/1wu8ygj/comment/pdgzc9p/ : "I don't think AEO/GEO is completely separate from traditional SEO... ChatGPT tends to pick up my newer articles faster than some other AI platforms... I'm looking at the combination of visibility/citations, crawler activity, AI referrals, engagement, and ultimately conversions." (Clarity + Cloudflare + GTM + GA4)
+- u/IamJustNik (tool founder) https://www.reddit.com/r/Agent_SEO/comments/1wu8ygj/comment/pdlnf86/ : fixed prompt set; "separating discovery from intervention"; baseline, intervention, retest.
+- u/Downtown_Garden_9005 (Portuguese) https://www.reddit.com/r/Agent_SEO/comments/1wu8ygj/comment/pe5159i/ : first page of Google everywhere, but not cited by ChatGPT, which has a different search mechanism.
+- u/warishaalvi https://www.reddit.com/r/Agent_SEO/comments/1wu8ygj/comment/pd2cf6c/ : "I believe building topical authority is the key."
+
+## Thread 2: r/aeo "How is even GEO and AEO work? There is no clarity like SEO"
+OP u/Orignal_Sin_9 (https://www.reddit.com/user/Orignal_Sin_9/). Thread: https://www.reddit.com/r/aeo/comments/1x7c8rj/
+
+- u/Top-Woodpecker-9156 https://www.reddit.com/r/aeo/comments/1x7c8rj/comment/ph4e665/ : "Reputation management is also key for being recommended in AI search."
+- u/AiNewsOfficial https://www.reddit.com/r/aeo/comments/1x7c8rj/comment/phbu6y8/ : reputation/third-party mentions weighted more than structured content; "not enough 3rd parties talk about us".
+- u/Slow-Commercial4316 https://www.reddit.com/r/aeo/comments/1x7c8rj/comment/ph33wki/ : "Ask the engines your buyers' questions, write down which URLs they cite, and work on getting onto or beating those pages. Your own site comes last in that order."
+- u/Timely_Finance_2185 https://www.reddit.com/r/aeo/comments/1x7c8rj/comment/ph3ph68/ : "Google's own docs say there's nothing extra you need to 'optimize for' AI Overviews or AI Mode beyond being indexed and snippet-eligible... if you block OAI-SearchBot, you won't show in search answers... GPTBot is separate and only about training." Sources: developers.google.com/search/docs/appearance/ai-features ; platform.openai.com/docs/bots
+- u/AdamYamada https://www.reddit.com/r/aeo/comments/1x7c8rj/comment/ph3vivh/ : "You need a base level amount of SEO work done... you got to deeper because of query fan out."
+- u/Oxxypoxi (opposing) https://www.reddit.com/r/aeo/comments/1x7c8rj/comment/ph6gkjc/ : "You can get ai visibility with zero seo done"; reply u/MTMDigitalServices https://www.reddit.com/r/aeo/comments/1x7c8rj/comment/ph8cuzm/ : "you cant get visibility in highly competitive areas without some seo foundation."
+- u/FailonOB_SEO https://www.reddit.com/r/aeo/comments/1x7c8rj/comment/ph3xbct/ : "There's training data (GPTBot etc), there's retrieval (OAI-SearchBot, PerplexityBot hitting your site and pulling pages into answers), and there's answer generation (whether the model picks your quote)." Check server logs; answer-first pages; monthly buyer prompts. (Best for RAG explanation.)
+- u/keyworddotcom https://www.reddit.com/r/aeo/comments/1x7c8rj/comment/ph4bvbt/ : "Write down 10 questions your customers would ask an AI, run each one in ChatGPT and Perplexity, and list the pages they cite. If those are review sites or best-of lists, reach out... If they're competitor blog posts, write a better page."
+- u/AdultSeoMaven https://www.reddit.com/r/aeo/comments/1x7c8rj/comment/ph9456m/ : "being credible in lots of places beats gaming one page."
+- u/ronto1138 https://www.reddit.com/r/aeo/comments/1x7c8rj/comment/phcq6st/ : models answering from training data cannot mention brands newer than their training data; trial and error.
+- u/BeautifulDesign2928 https://www.reddit.com/r/aeo/comments/1x7c8rj/comment/phh95wj/ : adding new information to older articles that already get traffic helped AI visibility; near-zero-traffic pages improve less.
+- u/cswebsolutions https://www.reddit.com/r/aeo/comments/1x7c8rj/comment/ph3bbmo/ : "The real challenge is measuring influence, not just visibility."
+- u/Nyodrax https://www.reddit.com/r/aeo/comments/1x7c8rj/comment/ph3qwn6/ : "LLMs do not rank content, they use search too... If you want to understand AEO, start with query fan out." Also https://www.reddit.com/r/aeo/comments/1x7c8rj/comment/ph3qahz/ : "AEO/GEO is SEO."
+- u/Successful-Map9721 https://www.reddit.com/r/aeo/comments/1x7c8rj/comment/phair6k/ : approach from understanding LLMs and prompts rather than SEO alone.
+
+## Thread 3: r/DigitalMarketing thread on AEO tracking tools (mentioned vs cited)
+Thread: https://www.reddit.com/r/DigitalMarketing/comments/1w545i2/
+- u/Ishan_GS https://www.reddit.com/r/DigitalMarketing/comments/1w545i2/comment/p7cpird/ : losing to better competitor content vs losing because cited sources don't mention you need different responses; "most of our citations ... trace back to reddit threads and other people's listicles rather than our own domain"; they ask every inbound lead where they found them; answers shift by geography and time of day.
+- u/Significant-Still345 https://www.reddit.com/r/DigitalMarketing/comments/1w545i2/comment/p7gjhaj/ : "we're trying to get a deterministic number to measure when the models are probabilistic."
+- u/Open_Rain7513 https://www.reddit.com/r/DigitalMarketing/comments/1w545i2/comment/pa3vyo1/ : ask tools how many distinct prompts they run and whether the prompt set is frozen between runs, otherwise the trend is "prompt drift, not visibility".
+- u/Wild-Connection1661 https://www.reddit.com/r/DigitalMarketing/comments/1w545i2/comment/p7kzwxc/ : tools pull from different model versions and geos; diff cited sources manually in incognito.
