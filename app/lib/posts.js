@@ -10,7 +10,7 @@ export const AUTHORS = {
   team: {
     name: "Team MAAI",
     role: "SEO, AEO and GEO for B2B companies",
-    photo: "/icon.svg",
+    photo: "/team-maai.svg",
     org: true,
     links: [{ label: "maai.agency", href: "https://www.maai.agency" }],
   },
@@ -194,6 +194,7 @@ export const POSTS = [
         ],
       },
       { type: "p", text: "Treat these platforms as part of the same B2B SEO plan. The website holds the depth and converts the lead, while LinkedIn and X build the trust and visibility that bring buyers to it." },
+      { type: "p", text: "Buyers are also choosing to do more of this research without a salesperson. Gartner's 2026 sales survey found that 67% of B2B buyers prefer a rep-free buying experience, and 45% had already used AI during a recent purchase. If your company is not visible in search and AI answers, you are missing from the part of the journey buyers now complete on their own." },
       { type: "h2", text: "How small B2B companies can compete with big brands" },
       { type: "p", text: "A common worry is that larger competitors simply outspend you on links, content teams and influencers. A B2B service owner put it plainly on r/SEO:" },
       {
@@ -223,6 +224,7 @@ export const POSTS = [
       {
         type: "sources",
         items: [
+          { label: "Gartner: 67% of B2B buyers prefer a rep-free experience (2026)", href: "https://www.gartner.com/en/newsroom/press-releases/2026-03-09-gartner-sales-survey-finds-67-percent-of-b2b-buyers-prefer-a-rep-free-experience" },
           { label: "Semrush Keyword Overview, search volumes and keyword difficulty (November 2026)", href: "https://www.semrush.com/analytics/keywordoverview/" },
           { label: "Forrester, The State of Business Buying 2026, reported by Digital Commerce 360 (January 2026)", href: "https://digitalcommerce360.com/2026/01/22/forrester-b2b-buying-ai-2026/" },
           { label: "6sense 2025 B2B Buyer Experience Report, Business Wire (November 2025)", href: "https://www.businesswire.com/news/home/20251112018032/en" },
