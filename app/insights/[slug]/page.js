@@ -69,6 +69,16 @@ function Block({ block }) {
   switch (block.type) {
     case "h2":
       return <h2>{block.text}</h2>;
+    case "quote":
+      return (
+        <figure className="ins-quote">
+          <blockquote><p>{block.text}</p></blockquote>
+          <figcaption>
+            <a href={block.href} target="_blank" rel="noopener noreferrer nofollow">{block.author}</a>
+            {block.where ? ` on ${block.where}` : " on Reddit"}
+          </figcaption>
+        </figure>
+      );
     case "h3":
       return <h3>{block.text}</h3>;
     case "sources":
