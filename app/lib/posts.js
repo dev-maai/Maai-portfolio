@@ -194,6 +194,32 @@ export const POSTS = [
         ],
       },
       { type: "p", text: "Treat these platforms as part of the same B2B SEO plan. The website holds the depth and converts the lead, while LinkedIn and X build the trust and visibility that bring buyers to it." },
+      { type: "h2", text: "How small B2B companies can compete with big brands" },
+      { type: "p", text: "A common worry is that larger competitors simply outspend you on links, content teams and influencers. A B2B service owner put it plainly on r/SEO:" },
+      {
+        type: "quote",
+        text: "In my B2B service niche, my competitors are behemoths. So my question is, for B2B SEO, how do small companies compete?",
+        author: "A B2B service owner",
+        where: "r/SEO",
+      },
+      {
+        type: "quote",
+        text: "Videos not just in YouTube. As many social media as you can, posting by hand because they don't. Offering tips on your blog.",
+        author: "u/BusyBusinessPromos",
+        where: "r/SEO",
+        href: "https://www.reddit.com/user/BusyBusinessPromos/",
+      },
+      { type: "p", text: "That reply points in the right direction. A small B2B company cannot outspend a market leader, but it can out-focus one. This is how we help smaller B2B clients compete:" },
+      {
+        type: "list",
+        items: [
+          { lead: "Own a niche.", text: "Large competitors cover everything at a general level. A smaller company can cover one industry, one service or one region in far more depth, which is what Google and AI tools reward." },
+          { lead: "Use what only you know.", text: "Your own data, client results and on-the-ground experience cannot be copied by a bigger content team. Original insight earns links and citations." },
+          { lead: "Target specific, high-intent searches.", text: "Industry, location and problem-specific searches often have low volume but very high intent, and big brands rarely bother with them." },
+          { lead: "Show the people behind the company.", text: "Founder and team content on LinkedIn and video gives a small company a human voice that large brands struggle to match." },
+          { lead: "Move faster.", text: "Small teams can publish, test and update in days. Speed matters when AI search and Google updates keep changing the rules." },
+        ],
+      },
       {
         type: "sources",
         items: [
