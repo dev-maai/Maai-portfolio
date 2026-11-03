@@ -23,6 +23,32 @@ export async function generateMetadata({ params }) {
   };
 }
 
+/* Inline links inside post text: write [label](url). Internal paths ("/...") use
+   Link; external sources open in a new tab and are followed (no nofollow), because
+   they are sources we cite. Reddit and LinkedIn links in quotes stay nofollow. */
+const LINK_RE = /\[([^\]]+)\]\(([^)\s]+)\)/g;
+const plain = (text) => (text || "").replace(LINK_RE, "$1");
+
+function Rich({ text }) {
+  if (!text) return null;
+  const parts = [];
+  let last = 0;
+  for (const m of text.matchAll(LINK_RE)) {
+    if (m.index > last) parts.push(text.slice(last, m.index));
+    const [, label, href] = m;
+    parts.push(
+      href.startsWith("/") ? (
+        <Link href={href} key={m.index}>{label}</Link>
+      ) : (
+        <a href={href} target="_blank" rel="noopener noreferrer" key={m.index}>{label}</a>
+      )
+    );
+    last = m.index + m[0].length;
+  }
+  if (last < text.length) parts.push(text.slice(last));
+  return <>{parts}</>;
+}
+
 /* Simple column chart: side-by-side columns per row, exact value on each column.
    Built for series with very different values, so nobody has to read a scale. */
 function Chart({ block }) {
@@ -57,7 +83,7 @@ function Chart({ block }) {
       </div>
       {block.source && (
         <figcaption>
-          Source: <a href={block.source.href} target="_blank" rel="noopener noreferrer">{block.source.label}</a>
+          Source: {block.source.href ? <a href={block.source.href} target="_blank" rel="noopener noreferrer">{block.source.label}</a> : block.source.label}
           {block.source.note ? `, ${block.source.note}` : ""}
         </figcaption>
       )}
@@ -99,7 +125,7 @@ function Block({ block }) {
         </div>
       );
     case "p":
-      return <p>{block.text}</p>;
+      return <p><Rich text={block.text} /></p>;
     case "list":
     case "ol": {
       const Tag = block.type === "ol" ? "ol" : "ul";
@@ -107,7 +133,7 @@ function Block({ block }) {
         <Tag>
           {block.items.map((it, i) => (
             <li key={i}>
-              {it.lead && (it.href ? <Link href={it.href}><strong>{it.lead}</strong></Link> : <strong>{it.lead}</strong>)} {it.text}
+              {it.lead && (it.href ? <Link href={it.href}><strong>{it.lead}</strong></Link> : <strong>{it.lead}</strong>)} <Rich text={it.text} />
             </li>
           ))}
         </Tag>
@@ -182,7 +208,7 @@ export default async function InsightPost({ params }) {
     post.faq?.length && {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      mainEntity: post.faq.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })),
+      mainEntity: post.faq.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: plain(f.a) } })),
     },
   ].filter(Boolean);
 
@@ -201,7 +227,7 @@ export default async function InsightPost({ params }) {
             </div>
             <h1>{post.title}</h1>
             <div className="ins-byline">
-              <img src={author.photo} alt={author.name} />
+              <img className={author.org ? "is-logo" : undefined} src={author.photo} alt={author.name} />
               <div>
                 <span className="ins-byline-name">{author.name} <span>· {formatDate(post.date)}</span></span>
                 <span className="ins-byline-role">
@@ -217,11 +243,11 @@ export default async function InsightPost({ params }) {
 
         <div className="ins-layout">
         <article className="ins-article">
-          <p className="ins-intro">{post.intro}</p>
+          <p className="ins-intro"><Rich text={post.intro} /></p>
           {post.tldr?.length > 0 && (
             <aside className="ins-tldr" aria-label="Summary">
               <span>TLDR</span>
-              <ul>{post.tldr.map((t, i) => <li key={i}>{t}</li>)}</ul>
+              <ul>{post.tldr.map((t, i) => <li key={i}><Rich text={t} /></li>)}</ul>
             </aside>
           )}
           {post.body.map((b, i) => <Block block={b} key={i} />)}
@@ -233,7 +259,7 @@ export default async function InsightPost({ params }) {
                 {post.faq.map((f, i) => (
                   <details key={i} open={i === 0}>
                     <summary>{f.q}</summary>
-                    <p>{f.a}</p>
+                    <p><Rich text={f.a} /></p>
                   </details>
                 ))}
               </div>
