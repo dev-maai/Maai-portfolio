@@ -62,7 +62,6 @@ export const POSTS = [
         ],
         source: {
           label: "Semrush Keyword Overview",
-          href: "https://www.semrush.com/analytics/keywordoverview/",
           note: "US and UK databases, data pulled 3 November 2026. Figures are Semrush's estimated average monthly searches.",
         },
       },
