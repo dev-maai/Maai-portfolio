@@ -1026,6 +1026,7 @@ export const POSTS = [
     ],
     body: [
       { type: "h2", text: "SEO vs PPC for B2C: what is the difference?" },
+      { type: "image", src: "/insights/b2c-google-serp-velvet-sofa.jpg", alt: "Google UK results for velvet sofa showing an AI Overview, Shopping ads and an organic result", caption: "Google UK results for \"velvet sofa\": the AI Overview, Shopping ads and organic results all compete on one page." },
       { type: "p", text: "Both put your business in front of people who are searching. The difference is how you earn that place and how long it lasts." },
       {
         type: "list",
@@ -1198,6 +1199,8 @@ export const POSTS = [
       },
 
       { type: "h2", text: "Which metrics show SEO and PPC are working?" },
+      { type: "image", src: "/insights/b2c-ga4-traffic-acquisition.jpg", alt: "GA4 Traffic acquisition report showing sessions, engagement rate, key events and revenue by channel", caption: "GA4 Reports > Acquisition > Traffic acquisition: compare sessions, engagement rate, key events and revenue by channel. Values blurred." },
+      { type: "image", src: "/insights/b2c-ga4-landing-page.jpg", alt: "GA4 Landing page report showing sessions, users, engagement time and key events by page", caption: "GA4 Reports > Engagement > Landing page: see which pages bring sessions, new users and key events. Values blurred." },
       { type: "p", text: "Look at both channels together, because customers use both before buying. These are the reports and numbers to check each month." },
       {
         type: "table",
