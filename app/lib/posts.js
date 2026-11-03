@@ -1,7 +1,8 @@
 /* Insights (blog) posts. Single source of truth for /insights and /insights/[slug].
    Each post picks 2 or 3 topics and any industries; the landing page filters on both.
    Body blocks render in order. Supported types: p, h2, list, ol, chart, table,
-   view (Kriti's view, hidden while empty), image, faq. Every number needs a source. */
+   view (Kriti's view, hidden while empty), image, faq. List items may carry an href to
+   interlink posts. Every number needs a source. */
 
 export const TOPICS = ["AEO/GEO", "SEO - Begins", "B2B", "B2C", "Everything Marketing"];
 export const INDUSTRIES = ["Removals & Relocation", "Real estate", "Logistics", "Supply chain"];
@@ -23,6 +24,248 @@ export const AUTHORS = {
 };
 
 export const POSTS = [
+  {
+    slug: "generative-engine-optimization-b2b",
+    title: "B2B AEO and GEO Strategy 2027: The Complete Guide to Generative Engine Optimisation for B2B Companies",
+    description:
+      "Generative engine optimisation (GEO) for B2B companies: what GEO and AEO mean, how ChatGPT, Perplexity and Google's AI choose which brands to cite, an eight-step B2B strategy, how to measure it, and real client results.",
+    date: "2026-11-03",
+    author: "team",
+    topics: ["AEO/GEO", "B2B"],
+    industries: ["Removals & Relocation", "Logistics", "Supply chain"],
+    image: "/Saas/authority.jpg",
+    intro:
+      "Your next B2B buyer may never see your website before they build a shortlist. They will ask ChatGPT, Perplexity, Gemini or Google's AI Mode which suppliers to consider, read the answer, and check only the names it gives them. Generative engine optimisation (GEO, also spelt generative engine optimization) is the work of making sure your company is one of those names. This guide explains what GEO and answer engine optimisation (AEO) mean, how AI tools decide which brands to cite, and how to build a B2B AEO and GEO strategy for 2027 step by step, with the measurement approach and client results we use at MAAI.",
+    tldr: [
+      "Generative engine optimisation (GEO) helps your brand get cited and recommended inside AI answers. AEO focuses on direct answers. Both sit on top of SEO.",
+      "63% of software buyers used AI to research a purchase in 2026, and 94% of them fact-check what it says (TrustRadius). AI builds the shortlist; your website, reviews and proof confirm it.",
+      "AI tools retrieve pages from search indexes and the open web, then pick passages to quote. If your pages cannot be crawled, found or trusted, they cannot be cited.",
+      "A B2B GEO strategy starts with the questions your buying group asks AI, then works on the sources AI already cites, answer-first pages, third-party proof and crawl access.",
+      "Measure with a fixed prompt set, AI referrals in GA4, Search Console and, most importantly, qualified enquiries.",
+    ],
+    body: [
+      { type: "h2", text: "What is generative engine optimisation (GEO)?" },
+      { type: "p", text: "Generative engine optimisation is the practice of structuring your content and your wider online presence so that AI tools retrieve it, summarise it and cite it when people ask questions. The \"generative engines\" are tools such as ChatGPT, Perplexity, Claude, Gemini, Grok and Google's AI Overviews and AI Mode, which write an answer instead of showing a list of links." },
+      { type: "p", text: "The term comes from a research paper, \"GEO: Generative Engine Optimization\", by Pranjal Aggarwal and colleagues, first published in November 2023 and accepted to the KDD 2024 conference. The authors tested ways of rewriting content and reported that GEO methods can boost a source's visibility in generative engine responses by up to 40%. Adding statistics, quotations and cited sources was among the methods that helped most." },
+      { type: "p", text: "Answer engine optimisation (AEO) is a closely related term. It grew out of featured snippets and voice search, and focuses on giving the single best direct answer to a question. In practice, people use GEO, AEO, LLM SEO and AI SEO almost interchangeably, and there is still no agreed academic boundary between them. For a B2B company, the useful definition is simple: SEO gets you found in search results, AEO gets you used as the answer, and GEO gets you named and recommended in AI-written responses." },
+      {
+        type: "chart",
+        title: "Monthly searches for GEO and AEO terms",
+        series: [
+          { name: "US", color: "#1C3F2E" },
+          { name: "UK", color: "#86AB97" },
+        ],
+        rows: [
+          { label: "what is geo", values: [12100, 2400] },
+          { label: "generative engine optimization", values: [9900, 1600] },
+          { label: "answer engine optimization", values: [6600, 720] },
+          { label: "geo seo", values: [3600, 1600] },
+          { label: "aeo strategy", values: [480, 70] },
+        ],
+        source: {
+          label: "Semrush Keyword Overview",
+          href: "https://www.semrush.com/analytics/keywordoverview/",
+          note: "US and UK databases, data pulled 3 November 2026. Figures are Semrush's estimated average monthly searches.",
+        },
+      },
+      { type: "p", text: "Interest in GEO is now mainstream. In the UK, \"generative engine optimization\" and the UK spelling \"generative engine optimisation\" each have around 1,600 monthly searches, with a keyword difficulty of 68 and 73 out of 100. \"GEO SEO\" has the same UK volume as \"generative engine optimization\", which shows how many people still see GEO as part of SEO. Strategy searches are much smaller: \"aeo strategy\" has just 70 UK searches a month, so very few businesses have reached the planning stage yet. That gap is your opportunity." },
+
+      { type: "h2", text: "GEO vs AEO vs SEO: how the three work together" },
+      { type: "p", text: "Google's own guidance is clear on this point. Its guide to optimising for generative AI features says AI features rely on Google's core Search ranking and quality systems, and that \"you don't need to write in a specific way just for generative AI search\". Bing takes a similar view, saying SEO fundamentals support eligibility for AI-generated experiences. So treat GEO and AEO as layers on top of SEO, each with a slightly different goal." },
+      {
+        type: "table",
+        head: ["", "SEO", "AEO", "GEO"],
+        rows: [
+          ["Goal", "Rank pages in search results", "Become the direct answer", "Get named and cited in AI-written answers"],
+          ["Where it shows", "Google and Bing results pages", "Featured snippets, voice answers, AI Overviews", "ChatGPT, Perplexity, Claude, Gemini, Grok, AI Mode"],
+          ["Main levers", "Technical health, content, links", "Question-led structure, short answers, FAQs", "Facts and data, third-party mentions, entity consistency"],
+          ["Main measure", "Rankings, clicks, enquiries", "Snippet and answer ownership", "Citations, mentions, AI referrals, enquiries"],
+          ["Depends on", "Itself", "SEO foundations", "SEO foundations and wider reputation"],
+        ],
+      },
+      { type: "p", text: "If you want the longer story of how search moved from ten blue links to AI answers, our post on whether AI will replace SEO covers the data from 2023 to 2026." },
+
+      { type: "h2", text: "Why B2B companies need an AEO and GEO strategy in 2027" },
+      { type: "p", text: "B2B buyers were early adopters of AI research. Forrester reports that generative AI tools were the most cited meaningful interaction for researching B2B purchases in 2025. The TrustRadius 2026 B2B Buying Disconnect Report, based on 1,862 technology buyers surveyed in January 2026, shows how that research works in practice." },
+      {
+        type: "chart",
+        title: "How B2B software buyers researched purchases in 2026 (% of buyers)",
+        series: [{ name: "Buyers", color: "#1C3F2E" }],
+        rows: [
+          { label: "Used AI to research", values: [63] },
+          { label: "Fact-check AI answers (of AI users)", values: [94] },
+          { label: "Use reviews to decide", values: [74] },
+          { label: "Shortlisted 3 or fewer products", values: [83] },
+        ],
+        source: {
+          label: "TrustRadius 2026 B2B Buying Disconnect Report, HG Insights",
+          href: "https://hginsights.com/news/trustradius-2026-b2b-buying-disconnect-report-reveals-ai-has-changed-how-buyers-research-but-not-what-they-trust/",
+          note: "1,862 technology buyers, survey fielded January 2026, published July 2026",
+        },
+      },
+      { type: "p", text: "Read together, these numbers describe the new B2B journey. Most buyers now use AI to research, almost all of them then check what it told them, reviews still carry real weight, and the final shortlist is tiny. If AI names three suppliers and you are not one of them, you are rarely considered at all. If AI names you, your website, case studies and reviews still have to pass the fact-check that follows." },
+      { type: "p", text: "This matters even more because B2B shortlists form early. 6sense's 2025 Buyer Experience Report found that 94% of buying groups had already picked a favoured vendor before first contact. Our pillar guide to B2B SEO explains that journey touchpoint by touchpoint. GEO is how you make sure AI tools introduce you during the part of that journey that happens without you." },
+
+      { type: "h2", text: "How AI tools decide which B2B brands to cite" },
+      { type: "p", text: "AI answers are built in three stages, and each stage gives you a different lever. One r/aeo commenter summed it up well:" },
+      {
+        type: "quote",
+        text: "There's training data (GPTBot etc), there's retrieval (OAI-SearchBot, PerplexityBot hitting your site and pulling pages into answers), and there's answer generation (whether the model picks your quote).",
+        author: "u/FailonOB_SEO",
+        where: "r/aeo",
+        href: "https://www.reddit.com/r/aeo/comments/1x7c8rj/comment/ph3xbct/",
+      },
+      {
+        type: "list",
+        items: [
+          { lead: "Training data.", text: "What a model learned before its cut-off date. You influence this slowly, through a consistent presence across trusted sites over time. Brands newer than the training data are simply unknown at this stage." },
+          { lead: "Retrieval.", text: "When an AI tool searches the web live, it fetches pages and pulls the most relevant passages into its answer. This is retrieval-augmented generation (RAG). Google's AI features retrieve from Google's own index, and OpenAI states that sites opted out of its OAI-SearchBot crawler \"will not be shown in ChatGPT search answers\"." },
+          { lead: "Query fan-out.", text: "AI tools often break one question into several smaller searches. A buyer asking \"best freight forwarder for UK to India shipping\" may trigger searches on pricing, transit times, customs and reviews. Pages that answer those sub-questions clearly get pulled in, even if they do not rank first for the main query." },
+          { lead: "Answer generation.", text: "The model chooses which passages to quote and which brands to name. Clear, specific, well-sourced statements are easier to quote than vague marketing copy." },
+        ],
+      },
+      { type: "p", text: "Each platform leans on different sources. ChatGPT search and Perplexity run their own search crawlers, Google's AI Overviews and AI Mode use Google's index, and all of them draw heavily on review sites, directories, community threads and industry \"best of\" lists. That is why a B2B GEO strategy has to look beyond your own website." },
+
+      { type: "h2", text: "B2B AEO and GEO strategy: eight steps" },
+      { type: "p", text: "These are the steps we follow when we build a generative engine optimisation strategy for a B2B client. Steps one and two tell you where to focus; the rest do the work." },
+      { type: "h3", text: "1. Build a fixed set of buyer prompts" },
+      { type: "p", text: "Write down 20 to 40 questions your buyers would ask an AI tool. Cover the whole buying group: the operations lead asking about service levels, finance asking about cost, procurement asking about compliance, and the customer's customer, whose questions often shape the decision. Include problem questions (\"why are our warehouse costs rising\"), comparison questions (\"3PL vs in-house fulfilment UK\") and supplier questions (\"best international removals companies for corporate moves\"). Keep this list fixed, because you will rerun it every month." },
+      { type: "h3", text: "2. Find the sources AI already cites" },
+      { type: "p", text: "Run each prompt in ChatGPT, Perplexity, Gemini and Google AI Mode, and note every URL cited. This is the single most useful exercise in GEO, because it shows you exactly which pages shape answers in your category." },
+      {
+        type: "quote",
+        text: "Write down 10 questions your customers would ask an AI, run each one in ChatGPT and Perplexity, and list the pages they cite. If those are review sites or best-of lists, reach out... If they're competitor blog posts, write a better page.",
+        author: "u/keyworddotcom",
+        where: "r/aeo",
+        href: "https://www.reddit.com/r/aeo/comments/1x7c8rj/comment/ph4bvbt/",
+      },
+      { type: "p", text: "In B2B, the cited sources are often trade publications, industry associations, review platforms, directories and comparison articles. Getting listed, reviewed or quoted on those pages is frequently faster than ranking a new page of your own." },
+      { type: "h3", text: "3. Make sure AI crawlers can reach your pages" },
+      { type: "p", text: "Check your robots.txt file. Allow search crawlers such as Googlebot, Bingbot, OAI-SearchBot and PerplexityBot if you want to appear in their answers. GPTBot is separate and relates to model training, so you can decide on it independently. Make sure key content is visible in the page's HTML, since some AI crawlers do not run JavaScript well; server-side rendering is the safer choice. Then confirm your important pages are indexed in Google Search Console and Bing Webmaster Tools, because Google's AI features draw on the same index and ranking systems as Search." },
+      { type: "h3", text: "4. Write answer-first pages packed with specifics" },
+      { type: "p", text: "Put a direct, one or two sentence answer under each heading, then expand. Use question-led H2s and H3s that match how buyers phrase prompts. Most importantly, include the facts AI tools need to recommend a B2B supplier: sectors served, service areas, capacities, lead times, certifications, standards, typical project sizes and price ranges where you can share them. For a manufacturer, that means materials, tolerances and lead times. For a logistics company, lanes, transit times and accreditations. Specific, sourced statements are what the GEO research found AI engines reward." },
+      { type: "h3", text: "5. Build third-party proof and a consistent entity" },
+      { type: "p", text: "AI tools trust what several independent sources agree on. Keep your company name, description, services and locations identical across your website, Google Business Profile, LinkedIn, directories and industry listings. Collect recent, detailed reviews on the platforms your sector uses. Earn mentions in trade press, association member lists and partner pages. Founder and team profiles on LinkedIn help too, because they connect real expertise to your brand." },
+      { type: "h3", text: "6. Refresh pages that already earn traffic" },
+      { type: "p", text: "Pages that already rank and receive visits are usually the quickest to start appearing in AI answers. Add new data, update figures, add an FAQ and tighten the opening answer. One r/aeo commenter found that adding new information to older articles that already had traffic improved AI visibility, while pages with almost no traffic improved far less. That matches what we see in client accounts." },
+      { type: "h3", text: "7. Use structured data, and keep llms.txt in perspective" },
+      { type: "p", text: "Schema markup such as Organization, Service, Product, FAQPage and Article helps machines understand who you are and what you offer. Google says structured data is not required for its AI features but remains a good idea for SEO. Google also states it does not use llms.txt or other AI text files. Some teams still add an llms.txt file for other AI tools, and it costs little, but it should never come before crawlability, content and proof." },
+      { type: "h3", text: "8. Measure visibility, then measure enquiries" },
+      { type: "p", text: "Rerun your fixed prompt set monthly and record whether you are mentioned, whether you are cited with a link, and which sources are cited instead. Track AI referral traffic in GA4 from sources such as chatgpt.com, perplexity.ai and gemini.google.com. Review Google's generative AI performance data in Search Console and the AI performance report in Bing Webmaster Tools. Finally, ask every new lead where they first heard of you. In B2B, the enquiry and the contract are the measures that matter." },
+      {
+        type: "quote",
+        text: "We'd avoid treating 'number of AI mentions' as the main KPI. It's more useful to track visibility over time alongside citations/referrals and, ultimately, whether any of it contributes to qualified traffic or enquiries.",
+        author: "u/ReachSTH-agency",
+        where: "r/Agent_SEO",
+        href: "https://www.reddit.com/r/Agent_SEO/comments/1wu8ygj/comment/pd38hqc/",
+      },
+      { type: "p", text: "Keep the prompt set frozen between runs. AI answers vary by model version, location and even time of day, so if the questions change too, you cannot tell real progress from noise." },
+
+      { type: "h2", text: "What AEO and GEO results look like for B2B clients" },
+      { type: "p", text: "These results come from MAAI client accounts in 2026. In each case, the AI-readiness work sat on top of technical SEO and content built around real buyer questions." },
+      {
+        type: "table",
+        head: ["Client", "What we did", "Result"],
+        rows: [
+          ["Corporate employee relocation company (B2B, UK and international)", "Answer-optimised country guides for relocating employees, plus service pages for HR and global mobility teams", "Organic traffic up 81% from February to June 2026; 100% of qualified leads came through country blog posts"],
+          ["Same relocation company, buyer-intent searches", "Answer-first guides targeting how-to and supplier questions", "\"How to do employee relocation\" moved from position 40 in March to 11 in August 2026; \"rmc relocation\" from 13 to 8"],
+          ["UK international removals company", "Combined SEO, AEO and GEO: structured FAQs, an llms.txt file and refreshed country landing pages", "Organic clicks up 53%, comparing February to April with May to July 2026"],
+        ],
+      },
+      { type: "p", text: "The relocation result shows why GEO in B2B has to reach two audiences. Relocating employees ask AI tools about visas, housing and schools. When the answers come from a relocation company's guides, that company becomes familiar to the HR and mobility teams who choose the supplier." },
+
+      { type: "h2", text: "What marketers on Reddit say: supporters and sceptics" },
+      { type: "p", text: "AEO and GEO still divide the industry. In an r/Agent_SEO thread, an SEO working for a B2B manufacturing company asked whether anyone was getting real results. The replies covered both sides." },
+      {
+        type: "quote",
+        text: "We revamped a B2B manufacturer site... We worked on LLMS.txt, robots.txt, schema, entity map, FAQs (not a generic one), internal links... leads started coming from AI sources and conversion rate is also much higher compared to all other sources.",
+        author: "u/OkFox6901",
+        where: "r/Agent_SEO",
+        href: "https://www.reddit.com/r/Agent_SEO/comments/1wu8ygj/comment/19rrhh779zfsw/",
+      },
+      {
+        type: "quote",
+        text: "The results ... from AI search optimization efforts are not consistent compared to the results we get from Google search (SEO).",
+        author: "u/maxsemo",
+        where: "r/Agent_SEO",
+        href: "https://www.reddit.com/r/Agent_SEO/comments/1wu8ygj/comment/pfg714b/",
+      },
+      {
+        type: "quote",
+        text: "Horrendous waste of money. It doesn't work",
+        author: "u/Fuzzy_Fish_2329",
+        where: "r/Agent_SEO",
+        href: "https://www.reddit.com/r/Agent_SEO/comments/1wu8ygj/comment/pdafv7s/",
+      },
+      { type: "p", text: "A second debate, in r/aeo, was about whether you need SEO at all. One commenter argued you can get AI visibility with zero SEO done. Another replied:" },
+      {
+        type: "quote",
+        text: "You cant get visibility in highly competitive areas without some seo foundation.",
+        author: "u/MTMDigitalServices",
+        where: "r/aeo",
+        href: "https://www.reddit.com/r/aeo/comments/1x7c8rj/comment/ph8cuzm/",
+      },
+      { type: "h3", text: "Our view" },
+      { type: "p", text: "Both camps have a point. The sceptics are right that AI results are less consistent than Google rankings: answers change between runs, models and locations, and there is no single position to report. The supporters are right that AI referrals convert well in B2B, because a buyer who arrives after an AI recommendation has usually already done their research." },
+      { type: "p", text: "In our experience, AEO and GEO pay off when they are treated as an extension of strong SEO and measured on enquiries. Low-competition niches can see AI mentions with modest SEO, but competitive B2B categories need the foundations first. The work that helps most, specific content, third-party proof and crawlable pages, also improves your Google rankings, so very little effort is wasted." },
+      { type: "view", text: "", title: "Kriti's view" },
+
+      { type: "h2", text: "GEO priorities by B2B industry" },
+      { type: "p", text: "The eight steps apply everywhere, but the facts AI tools look for differ by sector." },
+      {
+        type: "list",
+        items: [
+          { lead: "Removals and relocation.", text: "Country and city guides, cost ranges, insurance, accreditations such as BAR membership, and reviews that mention specific move types. Corporate relocation also needs content for HR and mobility teams." },
+          { lead: "Logistics.", text: "Lanes and routes, transit times, warehouse locations and capacity, accreditations, and sector specialisms. Buyers ask AI tools to compare providers, so clear comparison and service pages matter." },
+          { lead: "Supply chain and manufacturing.", text: "Materials, tolerances, certifications, lead times, minimum order quantities and industries served. Procurement teams ask precise questions, and precise pages get quoted." },
+          { lead: "Real estate and self storage.", text: "Location pages, unit sizes and prices, access hours and security, plus a complete Google Business Profile, since local AI answers lean on local data and reviews." },
+        ],
+      },
+
+      { type: "h2", text: "Common B2B GEO mistakes to avoid" },
+      {
+        type: "list",
+        items: [
+          { lead: "Starting with tools.", text: "AI visibility tools are useful for tracking, but the strategy starts with your buyers' questions and the sources AI already cites." },
+          { lead: "Blocking AI search crawlers by accident.", text: "A blanket block in robots.txt or a firewall rule can remove you from ChatGPT search and Perplexity answers." },
+          { lead: "Writing generic content.", text: "Pages that repeat what every other supplier says give AI tools nothing new to cite. Original data and specific facts stand out." },
+          { lead: "Ignoring third-party sites.", text: "In many B2B categories, AI answers cite directories, reviews and trade press more than supplier websites." },
+          { lead: "Reporting mentions without leads.", text: "Mentions are an early signal. Tie the work to referrals, enquiries and pipeline." },
+        ],
+      },
+
+      { type: "h2", text: "Related reading" },
+      {
+        type: "list",
+        items: [
+          { lead: "B2B SEO: The Customer Journey and How to Plan SEO for B2B Companies.", href: "/insights/seo-for-b2b-companies", text: "Our pillar guide to the B2B buying journey and the SEO foundations GEO depends on." },
+          { lead: "Will AI Replace SEO? What Changes for SEO Agencies in 2027.", href: "/insights/will-ai-replace-seo", text: "The data on zero-click search and AI answers from 2023 to 2026." },
+          { lead: "SEO vs PPC for B2B Companies.", href: "/insights/seo-vs-ppc-for-b2b", text: "Why organic visibility, and not paid ads, is what AI tools cite." },
+        ],
+      },
+      {
+        type: "sources",
+        items: [
+          { label: "Aggarwal et al., GEO: Generative Engine Optimization, arXiv 2311.09735 (KDD 2024)", href: "https://arxiv.org/abs/2311.09735" },
+          { label: "Google Search Central: optimising your website for generative AI features on Google Search", href: "https://developers.google.com/search/docs/fundamentals/ai-optimization-guide" },
+          { label: "OpenAI: overview of OpenAI crawlers", href: "https://developers.openai.com/api/docs/bots" },
+          { label: "TrustRadius 2026 B2B Buying Disconnect Report, HG Insights (July 2026)", href: "https://hginsights.com/news/trustradius-2026-b2b-buying-disconnect-report-reveals-ai-has-changed-how-buyers-research-but-not-what-they-trust/" },
+          { label: "Forrester, The State of Business Buying 2026, reported by Digital Commerce 360 (January 2026)", href: "https://digitalcommerce360.com/2026/01/22/forrester-b2b-buying-ai-2026/" },
+          { label: "6sense 2025 B2B Buyer Experience Report, Business Wire (November 2025)", href: "https://www.businesswire.com/news/home/20251112018032/en" },
+          { label: "Wikipedia: Generative engine optimization (terminology and Bing's position)", href: "https://en.wikipedia.org/wiki/Generative_engine_optimization" },
+          { label: "Semrush Keyword Overview, UK and US databases (3 November 2026)", href: "https://www.semrush.com/analytics/keywordoverview/" },
+        ],
+      },
+    ],
+    faq: [
+      { q: "What is generative engine optimisation (GEO)?", a: "GEO is the practice of structuring your content and online presence so that AI tools such as ChatGPT, Perplexity, Gemini and Google's AI Overviews retrieve, cite and recommend your brand in their answers." },
+      { q: "What is the difference between AEO and GEO?", a: "AEO (answer engine optimisation) focuses on becoming the direct answer to a question, for example in featured snippets and AI Overviews. GEO focuses on being named and cited in AI-written responses. Both rely on SEO foundations, and many people use the terms interchangeably." },
+      { q: "Is GEO replacing SEO?", a: "No. Google says its AI features rely on its core Search ranking systems, and AI tools retrieve pages from search indexes. GEO extends SEO and depends on it." },
+      { q: "How long does GEO take for a B2B company?", a: "Refreshed pages that already rank can appear in AI answers within weeks. Building third-party proof and authority in a competitive B2B category usually takes several months, similar to SEO." },
+      { q: "How do you measure GEO results?", a: "Run a fixed set of buyer prompts monthly across AI tools and record mentions and citations, track AI referral traffic in GA4, review Search Console and Bing Webmaster Tools data, and ask new leads where they found you." },
+      { q: "Do I need an llms.txt file for GEO?", a: "It is optional. Google states it does not use llms.txt for Search. Some teams add one for other AI tools, but crawlability, specific content and third-party proof matter far more." },
+    ],
+  },
   {
     slug: "seo-for-b2b-companies",
     title: "B2B SEO: The Customer Journey and How to Plan SEO for B2B Companies",

@@ -106,7 +106,9 @@ function Block({ block }) {
       return (
         <Tag>
           {block.items.map((it, i) => (
-            <li key={i}>{it.lead && <strong>{it.lead}</strong>} {it.text}</li>
+            <li key={i}>
+              {it.lead && (it.href ? <Link href={it.href}><strong>{it.lead}</strong></Link> : <strong>{it.lead}</strong>)} {it.text}
+            </li>
           ))}
         </Tag>
       );
