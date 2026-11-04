@@ -750,6 +750,305 @@ export const POSTS = [
     ],
   },
   {
+    slug: "seo-vs-ppc-for-b2b",
+    title: "SEO vs PPC for B2B in 2027: How to Plan SEO, AEO and Paid Search Together",
+    description:
+      "SEO vs PPC for B2B in 2027: how B2B buyers search, how SEO and AEO make you the answer, when to start each, real UK B2B click costs, budget logic with a worked example, plans by business model and how to measure leads.",
+    date: "2026-11-04",
+    author: "team",
+    topics: ["B2B", "AEO/GEO", "SEO - Begins"],
+    industries: ["Removals & Relocation", "Real estate", "Logistics", "Supply chain"],
+    image: "/Saas/aeo.jpg",
+    intro:
+      "Before a company signs a contract with a new supplier, several people inside it ask a lot of questions. What does this usually cost? Which approach suits a business our size? Who are the specialists? Can we trust them? Those questions go into Google, ChatGPT and Google's AI Mode weeks or months before anyone fills in a contact form. SEO vs PPC is really a question of which of those moments you want to own. SEO and AEO make your company the answer while buyers research. PPC buys a place when someone is ready to enquire today. This guide explains, in plain English, how each one works for B2B companies in 2027, when to start each, what UK B2B clicks actually cost, how to set the budget, how the plan changes by business model, and how to measure it in leads and revenue.",
+    tldr: [
+      "B2B buyers do most of their research before they speak to a supplier: 94% of buying groups already have a favoured vendor by first contact (6sense, 2025). SEO and AEO are how you get into that research.",
+      "SEO earns your place in Google's free results. AEO earns your place in AI answers from ChatGPT, Perplexity and Google AI Mode, which never use ads as sources. PPC buys visibility at the moment someone searches to enquire.",
+      "B2B clicks are expensive. In Semrush's UK data, \"office removals\" costs about $14.92 a click and \"payroll software\" about $38.60, and a buying group may click several times before it enquires.",
+      "Start SEO as early as possible, because it usually takes three to six months to build. Use PPC for urgent, high-intent searches and remarketing while SEO grows, then shift budget as pages rank.",
+      "Work out your break-even cost per click from deal value, margin and conversion rates. If a search costs more than that, win it with SEO and AEO.",
+    ],
+    body: [
+      { type: "h2", text: "SEO vs PPC for B2B: what is the difference?" },
+      { type: "p", text: "Both put your company in front of business buyers who are searching. The difference is how you earn the place and how long it lasts." },
+      {
+        type: "list",
+        items: [
+          { lead: "SEO (search engine optimisation)", text: "earns your website a place in Google's free results. You invest in your website, content and reputation. Once a page ranks, it keeps bringing visitors without a cost per click." },
+          { lead: "AEO (answer engine optimisation)", text: "makes your company the answer AI tools give. When an operations director asks ChatGPT \"which 3PL providers in the Midlands handle ecommerce returns?\", AEO is what gets your company named and linked in the reply. GEO (generative engine optimisation) is the same work viewed from the AI side: being cited inside generated answers." },
+          { lead: "PPC (pay-per-click)", text: "buys a place in the paid results, usually through Google Ads or Microsoft Ads, and you pay each time someone clicks. Visibility starts the day the campaign goes live and ends the day the budget stops." },
+        ],
+      },
+      { type: "p", text: "Paying for ads does not lift your organic rankings. Google says so plainly in its own SEO vs PPC guide for advertisers: the two systems are separate. That is why most B2B companies need a plan for both, with each channel doing the job it does best." },
+
+      { type: "h2", text: "How do B2B buyers search before they contact a supplier?" },
+      { type: "p", text: "B2B buying is slow, shared and mostly invisible to the supplier. Gartner's research into the B2B buying journey shows how buyers split their time:" },
+      {
+        type: "chart",
+        title: "How B2B buyers spend their buying time (%)",
+        series: [{ name: "Share of buying time", color: "#1C3F2E" }],
+        rows: [
+          { label: "Researching independently online", values: [27] },
+          { label: "Meeting all potential suppliers", values: [17] },
+          { label: "Time with any one supplier", values: [5] },
+        ],
+        source: {
+          label: "Gartner, B2B buying journey research",
+          note: "time spent with any one supplier is about 5 to 6% when several are being compared",
+        },
+      },
+      { type: "p", text: "Buyers spend more time researching on their own than meeting every possible supplier combined. Other research points the same way. [6sense's 2025 Buyer Experience Report](https://www.businesswire.com/news/home/20251112018032/en), based on more than 4,000 buyers, found that 94% of buying groups had already picked a favoured vendor before first contact. [Gartner's 2026 sales survey](https://www.gartner.com/en/newsroom/press-releases/2026-03-09-gartner-sales-survey-finds-67-percent-of-b2b-buyers-prefer-a-rep-free-experience) found that 67% of B2B buyers prefer a rep-free buying experience. And the [TrustRadius 2026 B2B Buying Disconnect Report](https://hginsights.com/news/trustradius-2026-b2b-buying-disconnect-report-reveals-ai-has-changed-how-buyers-research-but-not-what-they-trust/) found that 63% of software buyers used AI tools during their research." },
+      { type: "p", text: "Take a finance director at a growing retailer looking for a third-party logistics (3PL) partner. Over two or three months, the buying group might search:" },
+      {
+        type: "ol",
+        items: [
+          { lead: "A problem question:", text: "\"what is a 3PL\" or \"when should you outsource warehousing\"." },
+          { lead: "A cost question:", text: "\"how much does 3PL warehousing cost per pallet UK\"." },
+          { lead: "A shortlist question:", text: "\"3PL providers for ecommerce UK\", or in ChatGPT, \"which UK 3PLs integrate with Shopify and handle returns?\"." },
+          { lead: "A trust question:", text: "\"Company X reviews\", \"Company X case study\" and a look at the founder on LinkedIn." },
+          { lead: "An enquiry search:", text: "\"Company X 3PL warehousing quote\"." },
+        ],
+      },
+      { type: "p", text: "Three or four different people might make those searches: the finance director, the operations manager and an ecommerce lead. The supplier whose guide answered question 1, whose pricing page answered question 2 and which AI tools named at question 3 is already the favourite by question 5. Our [B2B SEO guide](/insights/seo-for-b2b-companies) walks through this journey touchpoint by touchpoint." },
+
+      { type: "h2", text: "How SEO and AEO work for B2B companies, in plain English" },
+      { type: "p", text: "SEO and AEO make your company the helpful answer at each of those questions, so you are part of the decision before a salesperson is involved. Here is what happens behind the scenes." },
+      { type: "h3", text: "What Google looks for when it ranks a B2B page" },
+      {
+        type: "list",
+        items: [
+          { lead: "Can Google read the page?", text: "Technical SEO makes sure pages load quickly, work on mobile and can be found and stored by Google. Many B2B sites hide key content in PDFs, brochures or gated downloads that Google cannot use well." },
+          { lead: "Does the page answer the question?", text: "Service, industry and location pages need to match what buyers search, with specifics such as sectors served, minimum order sizes, certifications, coverage areas and typical timelines." },
+          { lead: "Can the company be trusted?", text: "Case studies, reviews, trade association memberships, press coverage and links from respected industry sites tell Google your company is credible." },
+        ],
+      },
+      { type: "h3", text: "What AI tools look for when they recommend a B2B supplier" },
+      { type: "p", text: "ChatGPT, Perplexity, Claude, Gemini and Google AI Mode search the web, read the pages they find and write an answer, often naming a short list of suppliers with links. They favour pages that answer the question directly, include concrete facts (prices or price ranges, capacities, sectors, locations) and companies that other sites, directories, reviews and forums also mention. Ads are never used as sources, so AEO depends entirely on organic content and reputation. Our [guide to B2B AEO and GEO](/insights/generative-engine-optimization-b2b) explains how AI tools choose which brands to cite." },
+      { type: "h3", text: "Why low search volume is fine in B2B" },
+      { type: "p", text: "A B2B search with 50 monthly searches can be worth more than a consumer search with 5,000, because one new client may be worth tens of thousands of pounds a year. The question to ask of every keyword is whether the people searching it could become clients, then how many of them there are." },
+
+      { type: "h2", text: "How does PPC work for B2B companies?" },
+      { type: "p", text: "Every search triggers an auction among advertisers bidding on that search. What you pay per click depends on competitors' bids and on your Quality Score, which Google bases on expected click rate, ad relevance and landing page experience. The main options for B2B are:" },
+      {
+        type: "list",
+        items: [
+          { lead: "Search ads:", text: "text ads on specific searches, such as \"office relocation company London\" or your brand name." },
+          { lead: "Remarketing:", text: "ads shown to people who visited your site, such as a buying group member who read your pricing page." },
+          { lead: "LinkedIn Ads:", text: "ads targeted by job title, company size and industry. These reach people who are not searching yet, so they support awareness rather than search demand." },
+          { lead: "Microsoft Ads:", text: "search ads on Bing, whose results also power Microsoft Copilot answers." },
+        ],
+      },
+      { type: "p", text: "PPC is strongest at the end of the journey, when someone searches to request a quote or a demo. It is a weak and expensive way to reach a buying group while it is still asking questions, because several people may click several times over several months, and you pay every time." },
+
+      { type: "h2", text: "Is SEO or PPC better for B2B lead generation?" },
+      { type: "p", text: "For long-term B2B lead generation, SEO and AEO. They reach every member of the buying group during the research where favourites form, they cost nothing per click, and they are the only way into AI answers. Most search clicks also go to organic results: [SparkToro and Datos](https://sparktoro.com/blog/2024-zero-click-search-study-for-every-1000-us-google-searches-only-374-clicks-go-to-the-open-web-in-the-eu-its-360/) found that for every 1,000 Google searches in the EU, 374 clicks go to the open web, while only about 1% of all clicks go to paid ads." },
+      { type: "p", text: "PPC is better when you need enquiries this month, when you are entering a new market, or when you want a second chance with a visitor who did not enquire. For most B2B companies the right answer is SEO and AEO as the foundation, with PPC as a targeted addition." },
+      {
+        type: "table",
+        head: ["You need to...", "Best channel", "Why"],
+        rows: [
+          ["Be found while buying groups research", "SEO and AEO", "Early questions are many and varied; paying per click for them rarely pays back"],
+          ["Be named in ChatGPT and Google AI answers", "AEO", "AI tools cite organic pages, directories and reviews, never ads"],
+          ["Win people searching for a quote today", "PPC and SEO together", "PPC catches today's enquiries while service pages build rankings"],
+          ["Launch a new service, sector or region", "PPC first, SEO in parallel", "New pages have no rankings yet"],
+          ["Stay visible to a buying group between visits", "PPC remarketing", "Only ads can follow up with a past visitor"],
+          ["Reduce cost per lead over time", "SEO and AEO", "Organic visits carry no cost per click"],
+        ],
+      },
+      { type: "view", text: "", title: "Kriti's view" },
+
+      { type: "h2", text: "How much do B2B Google Ads clicks cost in the UK?" },
+      { type: "p", text: "We pulled Semrush's UK data for searches B2B buyers make in sectors we work in and beyond. The cost per click is Semrush's estimate of what advertisers pay, shown in US dollars." },
+      {
+        type: "table",
+        head: ["Search", "UK monthly searches", "Cost per click", "Organic difficulty (0 to 100)"],
+        rows: [
+          ["payroll software", "6,600", "$38.60", "62"],
+          ["erp software", "4,400", "$32.78", "55"],
+          ["supply chain management software", "1,000", "$25.38", "30"],
+          ["office removals", "1,600", "$14.92", "27"],
+          ["office space to rent london", "1,600", "$13.81", "23"],
+          ["employee relocation", "170", "$13.27", "27"],
+          ["3pl warehousing", "480", "$9.66", "22"],
+          ["commercial removals", "1,300", "$8.57", "12"],
+          ["contract manufacturing", "1,000", "$5.03", "29"],
+          ["freight forwarding services", "1,300", "$4.14", "30"],
+          ["what is a 3pl", "480", "$3.14", "41"],
+        ],
+      },
+      { type: "p", text: "Two patterns stand out. First, software clicks are expensive, and so are many service clicks once you remember a buying group clicks more than once. Second, organic difficulty for most service searches is low to moderate: \"commercial removals\" scores 12 and \"3pl warehousing\" 22. For many B2B companies, ranking organically is more achievable than the click prices suggest. Question searches such as \"what is a 3pl\" are cheap to advertise on, but the people searching them are months from buying, so they are better won with content." },
+      { type: "p", text: "Click prices also rise over time. WordStream by LocaliQ's benchmarks, based on more than 16,000 campaigns, found the average Google Ads cost per click rose from $4.66 in 2024 to $5.42 in 2025, with increases in 87% of industries." },
+
+      { type: "h2", text: "When should a B2B company start SEO and PPC?" },
+      { type: "p", text: "SEO usually takes three to six months to bring meaningful results, and niche B2B searches can move faster because there is less competition. So the best time to start SEO is before you need the leads. PPC can start the day your landing page is ready." },
+      {
+        type: "list",
+        items: [
+          { lead: "New company or new website:", text: "start SEO from the site plan. Build pages around the services, industries and locations buyers search, set up Google Search Console and GA4 with lead tracking, and run a small PPC campaign on high-intent searches so the sales team has enquiries while SEO builds." },
+          { lead: "Established company that relies on referrals:", text: "start SEO now. Referrals still check your website, case studies and LinkedIn before they call, and new buyers who do not know you can only find you through search and AI answers." },
+          { lead: "Company already spending on PPC:", text: "start SEO now and use your Google Ads search terms report as a ready-made list of searches that bring real enquiries." },
+          { lead: "Entering a new sector or country:", text: "PPC first to test demand and messaging, SEO pages in parallel so they rank by the time the test proves the market." },
+        ],
+      },
+
+      { type: "h2", text: "What happens if a B2B company only runs PPC?" },
+      {
+        type: "list",
+        items: [
+          { lead: "You pay for every member of the buying group.", text: "Each person who clicks your ad, and each return visit, costs money. A long buying cycle multiplies this." },
+          { lead: "You miss the research.", text: "Ads are too expensive to cover the dozens of questions buyers ask months before they enquire, so suppliers who answer them become the favourite." },
+          { lead: "You are invisible in AI answers.", text: "When a buyer asks ChatGPT for a shortlist, ads-only companies rarely appear." },
+          { lead: "Costs rise and you absorb them.", text: "Every year of rising click prices raises your cost per lead just to stay where you are." },
+          { lead: "Leads stop when spending stops.", text: "A budget freeze removes you from search overnight, often at the moment you most need pipeline." },
+          { lead: "You build nothing you own.", text: "After years of spend, you have no rankings, content or reputation that keep working without a budget." },
+        ],
+      },
+      { type: "p", text: "Skipping PPC entirely has a cost too: a new site waits months for its first organic enquiries, and you lose the chance to remarket to buying group members who visited once. That is why the plan below uses PPC as a support for SEO and AEO." },
+
+      { type: "h2", text: "How SEO and PPC work for different B2B business models" },
+      { type: "p", text: "The balance between SEO, AEO and PPC depends on how your buyers buy: deal size, how many people decide, and whether they search for a category or a problem." },
+      { type: "h3", text: "How should a B2B SaaS company split SEO and PPC?" },
+      { type: "p", text: "Software buyers compare a lot, read reviews and increasingly ask AI tools for shortlists. Clicks are among the most expensive in B2B." },
+      {
+        type: "list",
+        items: [
+          { lead: "SEO focus:", text: "use-case and integration pages, comparison and alternatives pages, honest pricing pages, and help content that answers \"how do I\" questions." },
+          { lead: "AEO focus:", text: "profiles and reviews on software review sites, and clear feature and pricing facts that AI tools can quote." },
+          { lead: "PPC role:", text: "brand protection, demo and trial campaigns on the highest-intent searches, and remarketing to visitors who read pricing." },
+        ],
+      },
+      { type: "h3", text: "How do professional services firms get clients from search?" },
+      { type: "p", text: "Consultancies, law firms, accountants and agencies sell expertise, so buyers judge the people as much as the service." },
+      {
+        type: "list",
+        items: [
+          { lead: "SEO focus:", text: "service and sector pages, expert guides on the problems you solve, team and partner profiles, and case studies with outcomes." },
+          { lead: "AEO focus:", text: "being quoted in trade press and named in industry directories, plus founder and partner content on LinkedIn." },
+          { lead: "PPC role:", text: "urgent services only, such as \"employment lawyer for business\", and remarketing." },
+        ],
+      },
+      { type: "h3", text: "How can manufacturers and suppliers turn search into RFQs?" },
+      { type: "p", text: "Engineers and procurement teams search for specifications, materials, tolerances and capabilities, often with very specific phrases." },
+      {
+        type: "list",
+        items: [
+          { lead: "SEO focus:", text: "capability and process pages, materials and specifications, industries served, certifications, and downloadable data sheets with the key facts also written on the page." },
+          { lead: "PPC role:", text: "a small campaign on \"supplier\" and \"quote\" searches for your most profitable capabilities." },
+        ],
+      },
+      { type: "h3", text: "How do logistics, freight and 3PL companies win shipper enquiries?" },
+      { type: "p", text: "Shippers search by service, route, sector and location, and they compare capacity and integrations." },
+      {
+        type: "list",
+        items: [
+          { lead: "SEO focus:", text: "pages for each service (warehousing, fulfilment, freight forwarding, haulage), routes and lanes, sectors served, sites and capacities, and cost guides." },
+          { lead: "AEO focus:", text: "consistent listings in logistics directories and trade associations, so AI tools see the same facts everywhere." },
+          { lead: "PPC role:", text: "peak-season capacity campaigns and new-site launches." },
+        ],
+      },
+      { type: "h3", text: "How do commercial removals and relocation companies get B2B leads?" },
+      { type: "p", text: "Office moves and employee relocation are bought by facilities, HR and global mobility teams, while employees who move are a second audience that influences the choice." },
+      {
+        type: "list",
+        items: [
+          { lead: "SEO focus:", text: "office relocation and commercial removals pages by city, relocation policy and cost guides for HR teams, and country guides for relocating employees." },
+          { lead: "PPC role:", text: "\"office removals\" and \"office relocation\" searches in your core cities, where intent is high." },
+        ],
+      },
+      { type: "h3", text: "How do commercial property firms reach tenants and investors through search?" },
+      {
+        type: "list",
+        items: [
+          { lead: "SEO focus:", text: "pages for each property type and area, availability that Google can read, and market reports with rents and trends." },
+          { lead: "PPC role:", text: "launches of new schemes and hard-to-let space." },
+        ],
+      },
+
+      { type: "h2", text: "How to set a B2B SEO and PPC budget" },
+      { type: "p", text: "Use your own numbers to decide which searches are worth paying for. You need four figures: average first-year deal value, gross margin, website visit-to-lead rate and lead-to-client rate." },
+      {
+        type: "list",
+        items: [
+          { lead: "Profit per client", text: "= first-year deal value × gross margin." },
+          { lead: "The most you can pay per click", text: "= profit per client × lead-to-client rate × visit-to-lead rate." },
+        ],
+      },
+      { type: "p", text: "Worked example (illustrative numbers): a commercial removals company wins office moves worth £8,000 on average, at a 35% margin, so it makes £2,800 profit per client. If 2% of visitors send an enquiry and 15% of enquiries become clients, the break-even cost per click is £2,800 × 15% × 2% = £8.40. \"Office removals\" at around $14.92 a click is above that line, so the company should win it with SEO and use PPC only for its most profitable city searches or for remarketing. A software company with a £30,000 first-year contract at 80% margin, the same conversion rates and a £72 break-even can afford \"payroll software\" at $38.60 for now, but it should still build SEO so its cost per lead falls over time." },
+      { type: "p", text: "Then set the split by stage: more PPC while a new site builds, shifting steadily to SEO and AEO as service pages reach the top three, with PPC kept for launches, urgent demand and remarketing. Review the split every quarter using the measures below." },
+
+      { type: "h2", text: "How to use SEO and PPC together in B2B" },
+      {
+        type: "list",
+        items: [
+          { lead: "Turn paid searches into SEO targets.", text: "The Google Ads search terms report shows exactly what people searched before they enquired. Build or improve organic pages for the best of them." },
+          { lead: "See where you appear in both.", text: "Link Search Console to Google Ads and use the paid and organic report in Google Ads to see which searches you win in ads, organic results or both." },
+          { lead: "Test turning ads off where you rank first.", text: "Pause ads on one search where you hold the top organic spot, compare total enquiries over four to eight weeks, and keep the saving if leads hold." },
+          { lead: "Remarket to organic visitors.", text: "Build GA4 audiences of people who arrived through organic search and read service or pricing pages, then show them case-study ads while the buying group decides." },
+          { lead: "Reuse your best ad headlines.", text: "Headlines that win the most clicks make strong page titles and meta descriptions." },
+        ],
+      },
+
+      { type: "h2", text: "How to measure B2B SEO and PPC results" },
+      { type: "p", text: "Measure both channels in leads and revenue, because a buying group often touches both before it enquires. These are the numbers to check each month." },
+      {
+        type: "table",
+        head: ["Metric", "What it tells you", "Where to find it"],
+        rows: [
+          ["Qualified leads by channel", "How many sales-ready enquiries each channel brings", "GA4 key events (form submits, calls) by session default channel group, checked against your CRM"],
+          ["Leads by landing page", "Which pages turn research into enquiries", "GA4: Reports > Engagement > Landing page, filtered to the lead key event"],
+          ["Clicks, impressions and average position", "Whether your pages are rising for the searches that matter", "Google Search Console: Performance"],
+          ["Cost per qualified lead", "Whether each ad campaign is profitable", "Google Ads, with CRM lead quality imported back"],
+          ["Pipeline and revenue from search", "Whether search is making you money", "Your CRM, with the original source recorded on every lead"],
+          ["Mentions in AI answers", "Whether ChatGPT and Google AI tools recommend you", "A fixed list of buyer questions checked monthly, plus AI referrals in GA4 and \"where did you hear about us\" on forms"],
+        ],
+      },
+
+      { type: "h2", text: "B2B SEO case study: how a corporate relocation company grew organic leads" },
+      { type: "p", text: "One of our clients, a B2B corporate relocation company serving the UK and international markets, competes on searches such as \"employee relocation\", which costs about $13 a click in Semrush's UK data. Instead of buying those clicks, we built organic pages that reach both the HR teams who buy and the employees who move." },
+      { type: "p", text: "What we did:" },
+      {
+        type: "ol",
+        items: [
+          { lead: "Mapped both audiences:", text: "HR and global mobility teams, and relocating employees." },
+          { lead: "Published answer-first country guides", text: "on work permits, visas and cost of living." },
+          { lead: "Built service pages", text: "covering relocation policy, cost management and compliance." },
+          { lead: "Added business listings and syndicated guides", text: "to build trust signals beyond the website." },
+        ],
+      },
+      { type: "p", text: "What changed in Google Search Console:" },
+      {
+        type: "list",
+        items: [
+          { lead: "\"Employee relocation\":", text: "position 66 in February 2026, position 14 in August 2026." },
+          { lead: "\"How to do employee relocation\":", text: "position 40 in March 2026, position 11 in August 2026." },
+          { lead: "Daily search impressions:", text: "about 700 a day (13 to 22 January 2026), rising to about 2,600 a day (12 to 20 May 2026)." },
+          { lead: "Organic traffic:", text: "up 81% from February to June 2026, with 100% of qualified leads arriving through country guides." },
+        ],
+      },
+
+      { type: "h2", text: "B2B SEO and PPC plan: what to do in the first 12 months" },
+      {
+        type: "list",
+        items: [
+          { lead: "Months 1 to 3:", text: "fix technical issues, set up Search Console, GA4 lead tracking and CRM source fields, rewrite your main service and industry pages, and publish answers to the ten questions your sales team hears most. Run PPC on your brand name, your highest-intent service searches and remarketing." },
+          { lead: "Months 4 to 6:", text: "publish cost guides, comparisons and case studies, get listed in the directories and trade associations your buyers trust, and add the best converting paid searches to your SEO list." },
+          { lead: "Months 7 to 9:", text: "push pages ranking in positions 4 to 15 into the top three, start checking a fixed list of buyer questions in AI tools each month, and build founder and team content on LinkedIn." },
+          { lead: "Months 10 to 12:", text: "compare cost per qualified lead by channel, test turning off ads where you rank first, and move the saving into new content and authority." },
+        ],
+      },
+      { type: "p", text: "If you sell to consumers as well, our [SEO vs PPC guide for B2C](/insights/seo-vs-ppc-for-b2c) covers that side. For the bigger picture of how AI is changing search, read our post on [whether AI will replace SEO](/insights/will-ai-replace-seo)." },
+    ],
+    faq: [
+      { q: "Is SEO or PPC better for B2B?", a: "For long-term lead generation, SEO and AEO, because they reach every member of the buying group during research, cost nothing per click and are the only route into AI answers. PPC is a useful addition for urgent demand, launches and remarketing." },
+      { q: "What is AEO in B2B marketing?", a: "AEO (answer engine optimisation) is making your company the answer that AI tools such as ChatGPT, Perplexity and Google AI Mode give when buyers ask questions or ask for a shortlist of suppliers." },
+      { q: "How much does a B2B Google Ads click cost in the UK?", a: "It varies widely by sector. In Semrush's UK data, \"freight forwarding services\" is about $4 a click, \"office removals\" about $15 and \"payroll software\" about $39." },
+      { q: "When should a B2B company start SEO?", a: "As early as possible. SEO usually takes three to six months to bring meaningful results, so starting before you need the leads means it is ready when you do." },
+      { q: "What happens if a B2B company only uses PPC?", a: "It pays for every click from every member of the buying group, absorbs rising click costs, misses the research where favourites form, rarely appears in AI answers and loses visibility the day spending stops." },
+      { q: "Do Google Ads help SEO rankings?", a: "No. Google states that paid ads do not affect organic rankings. The two can still help each other: ad data shows which searches convert, and organic pages improve ad landing pages." },
+      { q: "How do I work out my break-even cost per click?", a: "Multiply profit per client by your lead-to-client rate and your visit-to-lead rate. With £2,800 profit per client, a 15% close rate and a 2% enquiry rate, the break-even is £8.40 a click." },
+    ],
+  },
+  {
     slug: "seo-vs-ppc-for-b2c",
     title: "SEO vs PPC for B2C in 2027: How to Plan SEO, AEO and Paid Search Together",
     description:
