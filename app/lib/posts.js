@@ -824,6 +824,7 @@ export const POSTS = [
       },
       { type: "h3", text: "What AI tools look for when they recommend a B2B supplier" },
       { type: "p", text: "ChatGPT, Perplexity, Claude, Gemini and Google AI Mode search the web, read the pages they find and write an answer, often naming a short list of suppliers with links. They favour pages that answer the question directly, include concrete facts (prices or price ranges, capacities, sectors, locations) and companies that other sites, directories, reviews and forums also mention. Ads are never used as sources, so AEO depends entirely on organic content and reputation. Our [guide to B2B AEO and GEO](/insights/generative-engine-optimization-b2b) explains how AI tools choose which brands to cite." },
+      { type: "image", src: "/insights/b2b-chatgpt-3pl-shortlist.jpg", alt: "ChatGPT web search answer listing UK 3PL providers that integrate with Shopify and handle returns, with a source link under each provider", caption: "A ChatGPT shortlist for a B2B question: the suppliers named come from organic pages, directories and reviews. Ads are never used as sources." },
       { type: "h3", text: "Why low search volume is fine in B2B" },
       { type: "p", text: "A B2B search with 50 monthly searches can be worth more than a consumer search with 5,000, because one new client may be worth tens of thousands of pounds a year. The question to ask of every keyword is whether the people searching it could become clients, then how many of them there are." },
 
@@ -990,6 +991,7 @@ export const POSTS = [
 
       { type: "h2", text: "How to measure B2B SEO and PPC results" },
       { type: "p", text: "Measure both channels in leads and revenue, because a buying group often touches both before it enquires. These are the numbers to check each month." },
+      { type: "image", src: "/insights/b2b-ga4-key-events-channel.jpg", alt: "GA4 Traffic acquisition table by session primary channel group, with the Key events column filtered to a quote lead event and all values blurred", caption: "GA4 Traffic acquisition with key events filtered to leads: compare Organic Search and Paid Search by enquiries, not just sessions. Values blurred." },
       {
         type: "table",
         head: ["Metric", "What it tells you", "Where to find it"],
