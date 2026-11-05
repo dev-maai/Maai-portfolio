@@ -7,7 +7,9 @@ const nextConfig = {
       { source: "/industries/logistics", destination: "/seo-agency-for-logistics-companies", permanent: true },
       { source: "/industries/removals", destination: "/industries/removals-and-relocations", permanent: true },
       // AEO pillar is unpublished while it is rewritten and screenshots are added; temporary so the slug can return
-      { source: "/insights/answer-engine-optimization", destination: "/insights/generative-engine-optimization-b2b", permanent: false },
+      ...(process.env.INSIGHTS_PREVIEW_DRAFTS === "1" ? [] : [
+        { source: "/insights/answer-engine-optimization", destination: "/insights/generative-engine-optimization-b2b", permanent: false },
+      ]),
     ];
   },
 };

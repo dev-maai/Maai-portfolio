@@ -5,6 +5,7 @@ import Footer from "../../components/Footer";
 import SiteEffects from "../../components/SiteEffects";
 import { POSTS, AUTHORS, getPost, formatDate } from "../../lib/posts";
 import { CASES } from "../../lib/cases";
+import { Rich, plain, slugify, Toc, Callout, Stats, HBar, Donut, Steps, Compare, Rewrite, Code, Flow, Checklist, Cards } from "../blocks";
 import "../insights.css";
 
 export function generateStaticParams() {
@@ -16,37 +17,11 @@ export async function generateMetadata({ params }) {
   const post = getPost(slug);
   if (!post) return {};
   return {
-    title: `${post.title} | MAAI`,
+    title: { absolute: post.seoTitle || `${post.title} | MAAI` },
     description: post.description,
     alternates: { canonical: `/insights/${post.slug}` },
-    openGraph: { title: post.title, description: post.description, images: [post.image], type: "article" },
+    openGraph: { title: post.seoTitle || post.title, description: post.description, images: [post.image], type: "article" },
   };
-}
-
-/* Inline links inside post text: write [label](url). Internal paths ("/...") use
-   Link; external sources open in a new tab and are followed (no nofollow), because
-   they are sources we cite. Reddit and LinkedIn links in quotes stay nofollow. */
-const LINK_RE = /\[([^\]]+)\]\(([^)\s]+)\)/g;
-const plain = (text) => (text || "").replace(LINK_RE, "$1");
-
-function Rich({ text }) {
-  if (!text) return null;
-  const parts = [];
-  let last = 0;
-  for (const m of text.matchAll(LINK_RE)) {
-    if (m.index > last) parts.push(text.slice(last, m.index));
-    const [, label, href] = m;
-    parts.push(
-      href.startsWith("/") ? (
-        <Link href={href} key={m.index}>{label}</Link>
-      ) : (
-        <a href={href} target="_blank" rel="noopener noreferrer" key={m.index}>{label}</a>
-      )
-    );
-    last = m.index + m[0].length;
-  }
-  if (last < text.length) parts.push(text.slice(last));
-  return <>{parts}</>;
 }
 
 /* Simple column chart: side-by-side columns per row, exact value on each column.
@@ -94,7 +69,36 @@ function Chart({ block }) {
 function Block({ block }) {
   switch (block.type) {
     case "h2":
-      return <h2>{block.text}</h2>;
+      return <h2 id={slugify(block.text)}>{block.text}</h2>;
+    case "callout":
+      return <Callout block={block} />;
+    case "stats":
+      return <Stats block={block} />;
+    case "hbar":
+      return <HBar block={block} />;
+    case "donut":
+      return <Donut block={block} />;
+    case "steps":
+      return <Steps block={block} />;
+    case "compare":
+      return <Compare block={block} />;
+    case "rewrite":
+      return <Rewrite block={block} />;
+    case "code":
+      return <Code block={block} />;
+    case "flow":
+      return <Flow block={block} />;
+    case "checklist":
+      return <Checklist block={block} />;
+    case "cards":
+      return <Cards block={block} />;
+    case "gallery":
+      return (
+        <figure className="ins-figure ins-gallery">
+          <div>{block.images.map((im) => <img key={im.src} src={im.src} alt={im.alt || ""} loading="lazy" />)}</div>
+          {block.caption && <figcaption>{block.caption}</figcaption>}
+        </figure>
+      );
     case "quote":
       return (
         <figure className="ins-quote">
@@ -112,7 +116,7 @@ function Block({ block }) {
         </figure>
       );
     case "h3":
-      return <h3>{block.text}</h3>;
+      return <h3 id={slugify(block.text)}>{block.text}</h3>;
     case "sources":
       return (
         <div className="ins-sources">
@@ -149,8 +153,8 @@ function Block({ block }) {
             <tbody>
               {block.rows.map((row, i) => (
                 <tr key={i}>
-                  <th scope="row">{row[0]}</th>
-                  {row.slice(1).map((c, j) => <td key={j}>{c}</td>)}
+                  <th scope="row"><Rich text={row[0]} /></th>
+                  {row.slice(1).map((c, j) => <td key={j}><Rich text={c} /></td>)}
                 </tr>
               ))}
             </tbody>
@@ -250,6 +254,7 @@ export default async function InsightPost({ params }) {
               <ul>{post.tldr.map((t, i) => <li key={i}><Rich text={t} /></li>)}</ul>
             </aside>
           )}
+          <Toc body={post.body} />
           {post.body.map((b, i) => <Block block={b} key={i} />)}
 
           {post.faq?.length > 0 && (
