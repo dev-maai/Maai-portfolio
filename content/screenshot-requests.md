@@ -52,26 +52,41 @@ Caption: Google Search Console Performance report: clicks, impressions and avera
 Note: sc-domain:maai.agency (last 6 months, daily and weekly) does not show a rising trend, so it does not fit the case study. Needs the case-study client property (not stated in the request) or a confirmed choice of property (04/11/2026)
 
 
+## answer-engine-optimization / (all requests below)
+Note: this post is unpublished (draft: true in app/lib/posts.js, temporary redirect in next.config.mjs) until these screenshots are added. Add the image blocks to the draft post as normal and skip the live check (the URL redirects while it is a draft). Do not remove draft: true or the redirect: the daily blog run republishes it once every request below is Done. Rewritten 05/11/2026; placements below match the rewrite.
+
 ## answer-engine-optimization / aeo-google-ai-overview.jpg
 Status: Open
-Capture: Google UK (google.co.uk, signed out or incognito, location London) results for "what is answer engine optimisation" showing the AI Overview with its source links on the right. Crop to the AI Overview and the first organic result. Blur any client domain if one appears.
-Place: after the chart "Monthly searches for AEO terms, November 2026" in the H2 "What is answer engine optimisation (AEO)?"
-Caption: Google UK's AI Overview for "what is answer engine optimisation": the answer is written first, with the cited pages listed beside it.
+Capture: Google UK (google.co.uk, signed out, location London) results for "what is a freight forwarder" showing the AI Overview with its source links. Crop to the AI Overview and the first organic result.
+Place: after the chart "AI Overviews on 24 UK business searches" in the H2 "Which websites do AI answers cite in the UK? Our research"
+Caption: Google UK's AI Overview for "what is a freight forwarder": the answer comes first, with the cited pages listed beside it.
 
 ## answer-engine-optimization / aeo-chatgpt-sources.jpg
 Status: Open
-Capture: ChatGPT (search on) answer to "Which companies handle office relocations in Manchester?" with the Sources panel open, showing the named companies and the cited websites. Crop to the question, the answer and the Sources panel. Blur any client name or domain.
-Place: after the paragraph starting "ChatGPT matters because of its scale" in the H2 "How does ChatGPT choose which sources to cite?"
-Caption: A ChatGPT answer with its Sources panel open: note which websites are cited, often directories and review sites alongside suppliers.
+Capture: ChatGPT (search on) answer to "Which UK 3PLs integrate with Shopify and handle returns?" with the Sources panel open, showing the named companies and the cited websites. Crop to the question, the answer and the Sources panel. Blur any client name or domain.
+Place: after the first paragraph of the H2 "How to rank in ChatGPT" (before the numbered list)
+Caption: A ChatGPT answer with its Sources panel open: the businesses named and the websites it relied on, often directories and review sites alongside suppliers.
 
 ## answer-engine-optimization / aeo-perplexity-citations.jpg
 Status: Open
-Capture: Perplexity answer to "Which UK freight forwarders handle customs clearance for EU shipments?" showing the numbered citations in the text and the source cards at the top. Crop to the question, the source cards and the first part of the answer. Blur any client name or domain.
-Place: after the paragraph in the H2 "How does Perplexity choose sources?"
-Caption: Perplexity shows a numbered citation for each claim, so you can see exactly which page supported which sentence.
+Capture: Perplexity answer to "How much does customs clearance cost for imports into the UK?" showing the numbered citations in the text and the source cards. Crop to the question, the source cards and the first part of the answer. Blur any client name or domain.
+Place: after the first paragraph of the H2 "How to rank in Perplexity" (before the list)
+Caption: Perplexity attaches a numbered citation to each claim, so you can see exactly which page supported which sentence.
+
+## answer-engine-optimization / aeo-claude-citations.jpg
+Status: Open
+Capture: Claude (web search on) answer to "What does a 3PL do and how do UK brands choose one?" showing the inline citations. Crop to the question and the answer with citations. Blur any client name or domain.
+Place: after the paragraph in the H2 "How to rank in Claude"
+Caption: Claude shows clickable citations when it searches the web, linking each point to the page it came from.
 
 ## answer-engine-optimization / aeo-ga4-ai-referrals.jpg
 Status: Open
-Capture: GA4 Reports > Acquisition > Traffic acquisition for maai.agency, primary dimension Session source, with a search filter matching chatgpt|perplexity|gemini|claude|copilot, last 90 days, showing Sessions and Key events columns. Hide the property name and blur all values.
+Capture: GA4 Reports > Acquisition > Traffic acquisition for maai.agency, primary dimension Session source, search filter matching chatgpt|perplexity|gemini|claude|copilot, last 90 days, Sessions and Key events columns visible. Hide the property name and blur all values.
 Place: after the list in the H2 "How do you measure AEO results?"
 Caption: GA4 Traffic acquisition filtered to AI sources: chatgpt.com, perplexity.ai and others appear as session sources. Values blurred.
+
+## answer-engine-optimization / aeo-bing-ai-performance.jpg
+Status: Open
+Capture: Bing Webmaster Tools > AI Performance for maai.agency (if available), showing Total citations, Average cited pages and the Grounding queries table. Hide the site name and blur all values.
+Place: directly after aeo-ga4-ai-referrals.jpg in the H2 "How do you measure AEO results?"
+Caption: Bing Webmaster Tools' AI Performance report shows how often your pages are cited in Copilot and other AI answers. Values blurred.

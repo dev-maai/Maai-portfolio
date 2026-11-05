@@ -23,31 +23,35 @@ export const AUTHORS = {
   },
 };
 
-export const POSTS = [
+/* Posts with draft: true stay out of the site, sitemap and listings until republished. */
+const ALL_POSTS = [
   {
     slug: "answer-engine-optimization",
-    title: "Answer Engine Optimisation (AEO) and SEO in 2027: How ChatGPT, Perplexity, Claude, Gemini and Grok Choose Which Brands to Cite",
+    draft: true,
+    title: "Answer Engine Optimisation (AEO) in 2027: How to Rank in ChatGPT, Perplexity, Claude, Gemini and Grok",
     description:
-      "Answer engine optimization (AEO) in 2027, explained in plain English: what AEO is, how it differs from SEO, how ChatGPT, Perplexity, Claude, Gemini, Grok and Google's AI Overviews choose which brands to cite, a step-by-step AEO strategy, costs and how to measure it.",
+      "Answer engine optimization (AEO) for 2027: how to rank in ChatGPT, Perplexity, Claude, Gemini, Grok and Google AI Overviews, with original UK research on which sources AI answers cite, a step-by-step AEO strategy, budget logic and how to measure results.",
     date: "2026-11-05",
     author: "team",
-    topics: ["AEO/GEO", "B2B", "SEO - Begins"],
-    industries: ["Removals & Relocation", "Logistics", "Real estate", "Supply chain"],
+    topics: ["AEO/GEO"],
+    industries: [],
     image: "/removals/intent-map.jpg",
     intro:
-      "Before your next customer contacts you, they will ask a question. Which removal company handles office moves in Manchester? Which 3PL integrates with Shopify? Is it worth paying for a buyer's agent? More and more of those questions now go to ChatGPT, Perplexity, Claude, Gemini, Grok and Google's AI Overviews, and each tool writes one answer that names a handful of brands. Answer engine optimisation (AEO, also spelt answer engine optimization) is the work of making your brand one of those names. This guide explains how each answer engine picks its sources, where SEO fits, and the AEO strategy we use at MAAI for 2027, step by step.",
+      "Your customers ask a lot of questions before they buy. What does a 3PL actually do? How much should an office move cost? Which estate agent charges the lowest fees? More and more of those questions now go to ChatGPT, Perplexity, Claude, Gemini, Grok and Google's AI Overviews, and each one replies with a single answer that names a handful of businesses. Answer engine optimisation (AEO, also spelt answer engine optimization) is how you become one of those names. This guide explains, in plain English, how each answer engine chooses its sources, what our own research on 24 UK buyer searches found, and the step-by-step AEO strategy we use at MAAI to help businesses rank in AI answers in 2027.",
     tldr: [
-      "Answer engine optimisation (AEO) makes your brand the answer when people ask AI tools and Google's AI features a question. SEO gets your pages found; AEO gets them quoted and your brand named.",
-      "Every major answer engine searches the web before it answers: ChatGPT uses its own crawler plus Bing's index, Google's AI Overviews and Gemini use Google's index, Claude's search has been linked to Brave Search, Perplexity runs its own index, and Grok adds posts from X.",
-      "If a page cannot be crawled, indexed and trusted, it cannot be cited. AEO starts with SEO foundations, then adds answer-first writing, third-party mentions and specific facts.",
-      "In the UK, about 30% of Google searches now show an AI Overview, and ChatGPT had 1.8 billion UK visits in the first eight months of 2025 (Ofcom).",
-      "Measure AEO with a fixed set of buyer prompts, AI referrals in GA4, Search Console and, above all, qualified enquiries.",
+      "AEO makes your business the answer when people ask AI tools a question. It builds on SEO: answer engines search the web before they reply, so pages they cannot find, they cannot cite.",
+      "Each engine searches a different index. ChatGPT uses OpenAI's crawler and Bing, Google's AI Overviews, AI Mode and Gemini use Google Search, Claude's search has been linked to Brave Search, Perplexity runs its own index, and Grok adds posts from X.",
+      "In our study of 24 UK B2B searches, 20 showed an AI Overview, and 74% of the sources those Overviews cited also ranked in Google's organic top 10. Strong SEO is the entry ticket.",
+      "12 of those 20 AI Overviews also cited a trade body, government site, portal, directory, publication or video. What other websites say about you matters as much as your own pages.",
+      "Measure AEO with a fixed set of customer questions, AI referrals in GA4, the new AI reports in Search Console and Bing Webmaster Tools, and the enquiries they bring.",
     ],
     body: [
       { type: "h2", text: "What is answer engine optimisation (AEO)?" },
-      { type: "p", text: "Answer engine optimisation is the practice of shaping your content and your wider online presence so that AI tools use it to answer people's questions, quote it and name your brand. An answer engine is any tool that replies with a written answer instead of a list of links: ChatGPT, Perplexity, Claude, Gemini, Grok, Microsoft Copilot, and Google's AI Overviews and AI Mode." },
-      { type: "p", text: "The idea is older than ChatGPT. SEOs first used \"answer engine optimisation\" for featured snippets and voice assistants, where Google or Alexa read out one answer. Generative AI made the answer longer and added citations, so the goal grew from \"be the one snippet\" to \"be one of the few brands the answer names\". You will also hear generative engine optimisation (GEO), LLM SEO and AI SEO. They overlap heavily; our [B2B guide to AEO and GEO strategy](/insights/generative-engine-optimization-b2b) explains the differences." },
-      { type: "p", text: "Interest is growing fast on both sides of the Atlantic. Here is what people searched each month in November 2026, according to our Semrush research." },
+      { type: "p", text: "Answer engine optimisation is the work of shaping your website and your wider online presence so that AI tools use your information to answer people's questions, cite your pages as a source and recommend your business by name." },
+      { type: "p", text: "An answer engine is any tool that replies with a written answer instead of a list of links. The main ones in 2027 are ChatGPT, Perplexity, Claude, Gemini, Grok and Microsoft Copilot, plus the AI features inside Google Search: AI Overviews at the top of the results page and AI Mode, Google's chat-style search." },
+      { type: "h3", text: "Where did the term AEO come from?" },
+      { type: "p", text: "SEOs started using \"answer engine optimisation\" around featured snippets and voice assistants, where Google or Alexa read out one answer to a question. Generative AI made those answers longer, added citations and spread them across many more tools. The goal grew from \"win the one snippet\" to \"be one of the few businesses the answer names\". You will also hear [generative engine optimisation (GEO)](/insights/generative-engine-optimization-b2b), LLM SEO and AI SEO. The labels overlap heavily, and the work behind them is largely the same." },
+      { type: "p", text: "Interest in AEO has grown quickly on both sides of the Atlantic. These are the monthly searches we found in Semrush in November 2026." },
       {
         type: "chart",
         title: "Monthly searches for AEO terms, November 2026",
@@ -64,104 +68,134 @@ export const POSTS = [
       },
 
       { type: "h2", text: "What is the difference between AEO and SEO?" },
-      { type: "p", text: "SEO (search engine optimisation) helps your pages rank in search results so that people click through to your website. AEO helps your content become the answer itself, inside Google's AI features and AI chat tools, so that your brand is named and your page is cited even when nobody clicks." },
+      { type: "p", text: "SEO (search engine optimisation) helps your pages rank in search results so that people click through to your website. AEO helps your information become the answer itself, so that your business is named and your page is cited inside the AI response, often before anyone clicks." },
       {
         type: "table",
         head: ["", "SEO", "AEO"],
         rows: [
-          ["Goal", "Rank pages and earn clicks", "Be quoted, cited and named in the answer"],
+          ["What you win", "A position in the results and a click", "A mention, a citation or a recommendation inside the answer"],
           ["Where it shows", "Google and Bing results pages", "AI Overviews, AI Mode, ChatGPT, Perplexity, Claude, Gemini, Grok, Copilot"],
-          ["What you optimise", "Pages, site structure, links", "Passages, facts, and what other sites say about you"],
-          ["Main measure", "Rankings, clicks, enquiries", "Citations, mentions, AI referrals, enquiries"],
+          ["Unit of work", "Whole pages and the site", "Individual passages, facts and what other sites say about you"],
+          ["How you measure it", "Rankings, clicks, enquiries", "Mentions, citations, AI referrals, enquiries"],
         ],
       },
-      { type: "p", text: "The two depend on each other. Answer engines search the web before they answer, so a page that search engines cannot find is a page AI tools cannot quote. AEO then asks a second question: once your page is found, is it the clearest, most specific and most trusted answer available?" },
-      { type: "p", text: "Clicks are also changing. [Pew Research Center](https://www.pewresearch.org/short-reads/2025/07/22/google-users-are-less-likely-to-click-on-links-when-an-ai-summary-appears/) tracked the browsing of 900 US adults in March 2025. When a Google AI summary appeared, people clicked a traditional result in 8% of visits, against 15% when there was none, and they clicked a link inside the summary itself in just 1% of visits. Being named in the answer is now part of being found." },
+      { type: "p", text: "The two are joined at the hip. Our own research below found that three quarters of the sources cited in UK AI Overviews already rank on page one of Google. AEO adds a second test on top of SEO: once your page is found, is it the clearest, most specific and most trusted answer available?" },
+      { type: "p", text: "The reason AEO matters is that clicks are thinning out. [Pew Research Center](https://www.pewresearch.org/short-reads/2025/07/22/google-users-are-less-likely-to-click-on-links-when-an-ai-summary-appears-in-the-results/) tracked the browsing of 900 US adults in March 2025. When a Google AI summary appeared, people clicked a traditional result in 8% of visits, against 15% when there was none, and they clicked a link inside the summary in just 1% of visits. The answer itself now does much of the persuading." },
 
-      { type: "h2", text: "How do answer engines choose which sources to cite?" },
-      { type: "p", text: "Almost every answer engine follows the same three steps. Knowing them tells you where you can make a difference." },
+      { type: "h2", text: "How do AI answer engines decide what to say?" },
+      { type: "p", text: "Before you can influence an answer, it helps to know how one is built. Almost every answer engine follows the same four steps." },
       {
         type: "ol",
         items: [
-          { lead: "It rewrites your question into searches.", text: "A question such as \"which UK freight forwarder handles customs for EU shipments?\" becomes several smaller searches about customs, pricing, transit times and reviews. Google calls this \"query fan-out\"." },
-          { lead: "It retrieves pages from a search index.", text: "Each tool searches its own index or a partner's, then pulls the most relevant passages from the pages it finds. This is called retrieval-augmented generation (RAG)." },
-          { lead: "It writes the answer and picks what to cite.", text: "The model chooses the passages and brands it trusts most. Clear, specific, well-sourced statements are the easiest to quote. What the model learned in training also shapes which brands feel familiar." },
+          { lead: "It reads the question and decides whether to search.", text: "Simple or timeless questions may be answered from what the model learned in training. Questions about prices, suppliers, products or anything recent usually trigger a live web search." },
+          { lead: "It splits the question into several searches.", text: "\"Which 3PL should a Shopify brand in the Midlands use?\" becomes separate searches about 3PLs in the Midlands, Shopify integrations, pricing and reviews. Google calls this \"query fan-out\"." },
+          { lead: "It retrieves pages and pulls out passages.", text: "The engine searches its index, opens the most relevant pages and extracts the passages that answer each sub-question. This is called retrieval-augmented generation (RAG)." },
+          { lead: "It writes the answer and chooses what to cite.", text: "The model combines the passages, names the businesses it finds most relevant and trustworthy, and links to some of its sources." },
         ],
       },
-      { type: "p", text: "What makes a brand familiar? Ahrefs analysed 75,000 brands and found that mentions of a brand across the web had the strongest link to appearing in Google's AI Overviews (a correlation of 0.664), well ahead of the number of backlinks (0.218). The [GEO research paper](https://arxiv.org/abs/2311.09735) from Princeton and partners found that adding statistics, quotations and cited sources to content can raise its visibility in AI answers by up to 40%." },
-      { type: "p", text: "The steps are the same everywhere, but each platform searches a different index. That is why your brand can appear in Perplexity and be missing from ChatGPT." },
+      { type: "p", text: "Two things shape which businesses survive to the final answer. The first is how often a brand is mentioned across the web: Ahrefs analysed 75,000 brands and found that web mentions had the strongest link with appearing in Google's AI Overviews (a correlation of 0.664), well ahead of backlinks (0.218). The second is how quotable the content is. Researchers at [Princeton University](https://arxiv.org/abs/2311.09735) and partner institutions tested ways of rewriting content and found that adding statistics, quotations and cited sources could raise its visibility in AI answers by up to 40%." },
+
+      { type: "h2", text: "Which websites do AI answers cite in the UK? Our research" },
+      { type: "p", text: "To see what this looks like for UK businesses, we checked 24 UK searches that business buyers make across removals and relocation, logistics, supply chain, property and business services, using Semrush's UK database on 5 November 2026. For each one we recorded whether Google showed an AI Overview, which websites it cited, and where those websites ranked in the normal results." },
+      {
+        type: "chart",
+        title: "AI Overviews on 24 UK business searches",
+        series: [{ name: "Share", color: "#1C3F2E" }],
+        rows: [
+          { label: "Searches that showed an AI Overview", values: [83] },
+          { label: "Cited sources that also rank in the organic top 10", values: [74] },
+          { label: "AI Overviews citing a non-supplier source", values: [60] },
+        ],
+        source: { label: "MAAI analysis of Semrush UK SERP data, 05/11/2026", note: "24 searches, 20 AI Overviews, 72 cited sources; values in %" },
+      },
+      { type: "p", text: "Four findings stood out." },
+      {
+        type: "list",
+        items: [
+          { lead: "AI Overviews are now the norm for business questions.", text: "20 of the 24 searches showed one, from \"what is a freight forwarder\" to \"payroll outsourcing\" and \"warehouse space to rent\"." },
+          { lead: "Ranking on page one is the entry ticket.", text: "53 of the 72 cited sources (74%) also ranked in Google's organic top 10 for the same search, and 32 (44%) ranked in the top three." },
+          { lead: "Third-party sites earn a large share of citations.", text: "12 of the 20 AI Overviews cited at least one source other than a supplier: a trade body such as FIATA, CIPS or ASCM, a government site such as GOV.UK, a property portal such as Rightmove or Zoopla, a directory such as WhichWarehouse, a publication such as Startups.co.uk, Wikipedia, Reddit or YouTube. YouTube alone appeared in 6 of them." },
+          { lead: "Searches for a supplier near you still lean on the map.", text: "Three of the four searches without an AI Overview, including \"office removals\" and \"international removals\", showed Google's local map results instead. Your Google Business Profile is part of AEO." },
+        ],
+      },
+      { type: "p", text: "Other engines behave differently from Google. Semrush's study of ChatGPT search found that the pages it cites rank in position 21 or lower in Google for related searches almost 90% of the time. So page-one rankings are a strong route into AI Overviews, while ChatGPT digs deeper and rewards pages that answer the specific question well, wherever they rank." },
+
+      { type: "h2", text: "How do customers' questions turn into AI answers?" },
+      { type: "p", text: "Here is how that plays out for a real buying journey. Imagine an online retailer looking for a UK 3PL (a third-party logistics company that stores, packs and ships orders on its behalf). Each stage brings a different kind of question, and answer engines reach for different sources at each stage." },
       {
         type: "table",
-        head: ["Answer engine", "Where it searches", "Crawler to allow", "What to work on first"],
+        head: ["Stage", "Question the buyer asks", "What AI answers drew on in our research", "What you should publish"],
         rows: [
-          ["ChatGPT", "OpenAI's own crawler plus Bing's index", "OAI-SearchBot", "Bing indexing, answer-first pages, review and directory listings"],
-          ["Google AI Overviews, AI Mode and Gemini", "Google's index", "Googlebot", "Core SEO, snippet-ready passages, Business Profile"],
-          ["Perplexity", "Its own index, searched live", "PerplexityBot", "Fresh, dated pages with clear facts"],
-          ["Claude", "Web search reported to use Brave Search", "Claude-SearchBot", "Crawl access, specific facts, third-party mentions"],
-          ["Grok", "Its own web index plus posts on X", "Keep your site crawlable", "An active X presence and news coverage"],
+          ["Learning", "\"What is a 3PL?\" (480 UK searches a month)", "DHL, the trade body ASCM, a software company and YouTube", "A plain-English explainer with a short definition, a video and your own data"],
+          ["Comparing", "\"3PL warehouse UK\"", "The directory WhichWarehouse, two fulfilment providers and YouTube", "Service pages that state locations, integrations, minimum volumes and pricing models, plus directory listings"],
+          ["Shortlisting", "\"Ecommerce fulfilment UK\"", "Five fulfilment providers, all ranking on page one", "Strong organic pages, reviews and case studies with numbers"],
+          ["Deciding", "\"[Your brand] reviews\" or \"[Your brand] vs [competitor]\"", "Review sites, Reddit and your own pages", "Honest comparison pages, a clear FAQ and recent reviews on independent sites"],
+        ],
+      },
+      { type: "p", text: "The lesson for any business: list the questions at each stage, check who the answer engines cite today, then make sure your own pages and the third-party sites they trust both carry your answer. Our [B2B SEO](/insights/seo-for-b2b-companies) guide walks through the full buying journey touchpoint by touchpoint." },
+
+      { type: "h2", text: "How to rank in ChatGPT" },
+      { type: "p", text: "ChatGPT decides for itself when to search the web. When it does, it combines Bing's index with pages fetched by OpenAI's own search crawler, OAI-SearchBot, and lists its sources beside the answer. Its scale makes it the first engine to work on: OpenAI announced in August 2026 that ChatGPT had passed one billion weekly users, and [Ofcom](https://www.ofcom.org.uk/media-use-and-attitudes/online-habits/from-apps-to-ai-search-how-the-uk-goes-online-in-2025) recorded 1.8 billion UK visits to ChatGPT in the first eight months of 2025, up from 368 million a year earlier." },
+      {
+        type: "ol",
+        items: [
+          { lead: "Allow OAI-SearchBot.", text: "OpenAI's crawler documentation states that sites which block OAI-SearchBot will not be shown in ChatGPT search answers. GPTBot is a separate crawler used for model training, so you can block GPTBot and still appear in ChatGPT search. Check your robots.txt and your firewall or CDN bot settings, which can block AI crawlers without anyone noticing." },
+          { lead: "Get properly indexed in Bing.", text: "Verify your site in Bing Webmaster Tools and submit your sitemap. Many UK businesses have never logged in." },
+          { lead: "Answer long, specific questions.", text: "ChatGPT prompts are conversational and detailed. Pages that answer \"how much does it cost to move a 20-person office in Leeds?\" directly, with a figure or range, are easier to cite than a general services page." },
+          { lead: "Be present where ChatGPT looks for recommendations.", text: "For \"best\" and \"which company\" questions, ChatGPT often cites review platforms, directories and roundup articles. Make sure you are listed, accurately described and reviewed on the ones in your sector." },
         ],
       },
 
-      { type: "h2", text: "How does ChatGPT choose which sources to cite?" },
-      { type: "p", text: "ChatGPT decides for itself when to search the web. When it does, it combines Bing's search index with pages fetched by OpenAI's own search crawler, OAI-SearchBot. OpenAI's crawler documentation is clear that sites which block OAI-SearchBot will not be shown in ChatGPT search answers. GPTBot is a separate crawler for model training, so you can block GPTBot and still appear in ChatGPT search." },
-      { type: "p", text: "ChatGPT matters because of its scale. OpenAI announced in August 2026 that ChatGPT had passed one billion weekly users, and [Ofcom](https://www.ofcom.org.uk/media-use-and-attitudes/online-habits/from-apps-to-ai-search-how-the-uk-goes-online-in-2025) recorded 1.8 billion UK visits in the first eight months of 2025, up from 368 million in the same period of 2024." },
+      { type: "h2", text: "How to rank in Google AI Overviews and AI Mode" },
+      { type: "p", text: "Google's AI features are built on Google Search, so SEO and AEO overlap most here. Google's guidance for site owners says there are \"no additional requirements to appear in AI Overviews or AI Mode\": a page needs to be indexed and eligible to show in Search with a snippet. Both features may use query fan-out, and AI Mode and AI Overviews use different models, so the links in each can differ. The reach is enormous: Google said at I/O in May 2026 that AI Overviews reach more than 2.5 billion users, and Ofcom found that about 30% of UK searches now show one." },
+      {
+        type: "ol",
+        items: [
+          { lead: "Rank on page one for the question.", text: "In our research, 74% of cited sources already ranked in the organic top 10. Technical health, internal links and relevant content come first." },
+          { lead: "Write snippet-ready passages.", text: "Put the direct answer in the first one or two sentences under a heading phrased as the question, then add detail, examples and data." },
+          { lead: "Cover the follow-up questions.", text: "Fan-out means Google also searches the next questions a person would ask. A page that covers cost, timing, risks and alternatives gives it more to quote." },
+          { lead: "Complete your Google Business Profile.", text: "For local questions, Google leans on its local data, so categories, services, photos and recent reviews all matter." },
+        ],
+      },
+
+      { type: "h2", text: "How to rank in Gemini" },
+      { type: "p", text: "Gemini is Google's AI assistant, used in its own app and across Android and Google Workspace. Google said in May 2026 that the Gemini app has 900 million monthly users. When Gemini needs current information it grounds its answers in Google Search, so the work above for AI Overviews applies here too. Two extras help: a complete Google Business Profile for local questions, and YouTube videos, because YouTube is a Google property and appeared in 6 of the 20 AI Overviews in our research." },
+
+      { type: "h2", text: "How to rank in Perplexity" },
+      { type: "p", text: "Perplexity searches the web for almost every question and places numbered citations beside each sentence, so you can see exactly which page supported which claim. It runs its own crawler, PerplexityBot, to build its index. Because it searches live and shows its sources so openly, it rewards pages that are current, specific and easy to quote." },
       {
         type: "list",
         items: [
-          { lead: "Check you are indexed in Bing.", text: "Verify your site in Bing Webmaster Tools and submit your sitemap. Many UK businesses have never opened it." },
-          { lead: "Allow OAI-SearchBot.", text: "Check robots.txt and your firewall or CDN bot settings, which can block AI crawlers without anyone noticing." },
-          { lead: "Look at the sources ChatGPT already cites.", text: "Ask your buyers' questions and note every website in the sources panel. Review sites, directories and \"best of\" lists are often listed ahead of supplier websites." },
+          { lead: "Allow PerplexityBot", text: "in robots.txt and any bot protection you use." },
+          { lead: "Show dates and update them.", text: "Display a \"last updated\" date on guides and refresh figures at least once a year." },
+          { lead: "Lead with facts.", text: "Numbers, named standards, locations and timescales are what Perplexity attaches citations to." },
         ],
       },
 
-      { type: "h2", text: "How do Google AI Overviews, AI Mode and Gemini choose sources?" },
-      { type: "p", text: "Google's AI features are built on Google Search. Google's own guidance for site owners says there are \"no additional requirements to appear in AI Overviews or AI Mode\": a page needs to be indexed and eligible to show in Search with a snippet. Both features may use query fan-out, running several related searches across subtopics, and they can show a wider set of supporting links than a normal results page." },
-      { type: "p", text: "This is where AEO and SEO overlap most. Ofcom found that about 30% of UK searches now show an AI Overview, and 53% of UK adults say they see these summaries often. Search Console counts clicks and impressions from AI features in the normal Performance report, so you can track them with the tools you already have." },
+      { type: "h2", text: "How to rank in Claude" },
+      { type: "p", text: "Claude, made by Anthropic, gained web search in March 2025 and shows clickable citations in its answers. Reports at the time noted that Anthropic had added Brave Search to its list of subprocessors, and that some Claude citations matched Brave's results exactly, which suggests Brave powers at least part of Claude's search. Anthropic's help centre describes three crawlers: ClaudeBot for training, Claude-User for fetching pages a person asks about, and Claude-SearchBot for search. Allow Claude-SearchBot and Claude-User if you want to be cited, keep key content in the page HTML rather than only in scripts, and check how your pages appear in Brave Search." },
+
+      { type: "h2", text: "How to rank in Grok" },
+      { type: "p", text: "Grok, from xAI, is built into X. Alongside its own web index, it can search posts and discussions on X and compare them with news coverage and websites. If your buyers use X, that gives you a direct lever: post specific, useful updates from your company and founder accounts, take part in industry conversations, and earn coverage in trade and news publications that Grok can cross-check." },
       {
-        type: "list",
-        items: [
-          { lead: "Win the basics.", text: "Pages that are fast, indexable and well linked internally are the pool AI Overviews draw from." },
-          { lead: "Write snippet-ready passages.", text: "Answer each question in the first one or two sentences under its heading, then add detail." },
-          { lead: "Complete your Google Business Profile.", text: "For local questions, Gemini and AI Mode lean on Google's local data, so categories, services and recent reviews matter." },
+        type: "table",
+        head: ["Answer engine", "Where it searches", "Crawler to allow", "Your first move"],
+        rows: [
+          ["ChatGPT", "OpenAI's crawler plus Bing's index", "OAI-SearchBot, ChatGPT-User", "Check Bing indexing and review site listings"],
+          ["Google AI Overviews and AI Mode", "Google Search", "Googlebot", "Rank on page one with answer-first passages"],
+          ["Gemini", "Google Search", "Googlebot", "Google Business Profile and YouTube"],
+          ["Perplexity", "Its own index, searched live", "PerplexityBot", "Dated pages with clear facts"],
+          ["Claude", "Web search linked to Brave Search", "Claude-SearchBot, Claude-User", "Crawl access and Brave visibility"],
+          ["Grok", "Its own web index plus posts on X", "Keep the site crawlable", "An active, specific X presence"],
         ],
       },
-
-      { type: "h2", text: "How does Perplexity choose sources?" },
-      { type: "p", text: "Perplexity searches the web for almost every question and shows numbered citations next to each sentence, so you can see exactly which page supported which claim. It runs its own crawler, PerplexityBot, to build its index. Because it searches live, it rewards pages that are current: a dated, recently updated guide with clear figures is far easier for Perplexity to quote than an undated brochure page." },
-
-      { type: "h2", text: "How does Claude search the web and cite sources?" },
-      { type: "p", text: "Claude, made by Anthropic, gained web search in March 2025 and shows clickable citations in its answers. Reports at the time noted that Anthropic had added Brave Search to its list of subprocessors, and that some Claude citations matched Brave's results exactly, which suggests Brave powers at least part of Claude's search. Anthropic's help centre describes three crawlers: ClaudeBot for training, Claude-User for fetching pages a user asks about, and Claude-SearchBot for search quality. Blocking Claude-SearchBot can reduce how visible your pages are in Claude's answers." },
-      { type: "p", text: "For Claude, the practical work is the same as for the other engines: open crawl access, specific facts on your pages, and mentions on the sites Claude cites." },
-
-      { type: "h2", text: "How does Grok choose sources?" },
-      { type: "p", text: "Grok, from xAI, is built into X. Alongside its own web index, it can search posts and discussions on X. For brands, that means your X presence, the people who talk about you there and recent news coverage all feed Grok's answers. If your buyers are active on X, posting useful, specific updates from your company and founder accounts is part of AEO." },
-
-      { type: "h2", text: "Why does AEO matter for UK businesses in 2027?" },
-      { type: "p", text: "Buyers now ask AI before they ask you. The [TrustRadius 2026 B2B Buying Disconnect Report](https://hginsights.com/news/trustradius-2026-b2b-buying-disconnect-report-reveals-ai-has-changed-how-buyers-research-but-not-what-they-trust/), based on 1,862 technology buyers, found that 63% used AI to research a purchase and 94% of those went on to fact-check what it told them. AI builds the shortlist; your website, reviews and case studies win the fact-check." },
-      { type: "p", text: "Consumers are on the same path. In Ofcom's research, most UK adults who see AI Overviews did not go looking for them: they now appear by default in the search services people already use. Whether you sell to businesses or households, the first impression of your brand is increasingly written by an AI tool." },
-
-      { type: "h2", text: "When should a business start AEO?" },
-      { type: "p", text: "Start as soon as your SEO foundations are in place, and before your competitors become the default answer. Three signs say now is the time:" },
-      {
-        type: "list",
-        items: [
-          { lead: "Your buyers research before they enquire.", text: "Any business with a considered purchase, from office relocation to commercial property to freight, is already being researched in AI tools." },
-          { lead: "Your category has \"best\" and \"how do I choose\" questions.", text: "Those are the questions answer engines answer with brand names." },
-          { lead: "You already rank on Google.", text: "Pages that rank are the fastest to turn into cited answers, because answer engines already find them." },
-        ],
-      },
-      { type: "p", text: "A new business with no indexed pages should start with SEO and add AEO as its pages go live. Our [SEO vs PPC guide for B2B](/insights/seo-vs-ppc-for-b2b) covers how to balance paid search while organic visibility grows." },
-
-      { type: "h2", text: "What happens if you ignore AEO?" },
-      { type: "p", text: "The answer still gets written, with someone else's name in it. AI shortlists are short, so if a tool names three suppliers and you are not one of them, many buyers will never reach your website. You also lose control of the story: AI tools will describe your brand using whatever third-party pages they find, including out-of-date directory listings and old reviews." },
-      { type: "p", text: "Brands that start early compound their advantage. Every mention, review and well-cited page makes the next answer more likely to include them. Our post on [whether AI will replace SEO](/insights/will-ai-replace-seo) shows how quickly search behaviour moved between 2023 and 2026." },
 
       { type: "h2", text: "How to do answer engine optimisation: a step-by-step AEO strategy" },
-      { type: "p", text: "These are the steps we follow for clients. A business owner can do the first three in an afternoon; the rest is where an SEO practitioner earns their keep." },
-      { type: "h3", text: "1. List the questions customers ask before they buy" },
-      { type: "p", text: "Write down 20 to 30 questions your customers ask before they contact you, using their words. Include early questions (\"how much does an office move cost?\"), comparison questions (\"which removal companies offer insurance?\") and decision questions (\"best office removal company in Leeds\"). Keep this list fixed, because you will rerun it every month." },
-      { type: "h3", text: "2. Ask each answer engine and record what it cites" },
-      { type: "p", text: "Run every question in ChatGPT, Perplexity, Gemini, Claude and Google's AI Mode. Note which brands are named and which pages are cited. One r/aeo commenter put the priority order well:" },
+      { type: "p", text: "These are the steps we follow for clients. Steps 1 to 3 are a good afternoon's work for a business owner; steps 4 to 8 are where an SEO practitioner earns their keep." },
+      { type: "h3", text: "1. Write down the questions customers ask before they buy" },
+      { type: "p", text: "Collect 20 to 30 questions in your customers' own words. The best sources are your sales calls, enquiry forms, support emails and the \"People also ask\" box in Google. Cover every stage: learning (\"what is...\"), comparing (\"X vs Y\", \"how much does...\"), shortlisting (\"best... in [city]\") and deciding (\"[brand] reviews\"). Keep the list fixed, because you will rerun it every month." },
+      { type: "h3", text: "2. Ask each answer engine and record who it cites" },
+      { type: "p", text: "Run every question in ChatGPT, Google (AI Overviews and AI Mode), Gemini, Perplexity and Claude. Record whether your business is named, which competitors are named and which websites are cited. Use a simple spreadsheet. One r/aeo commenter described the priority order well:" },
       {
         type: "quote",
         text: "Ask the engines your buyers' questions, write down which URLs they cite, and work on getting onto or beating those pages. Your own site comes last in that order.",
@@ -169,50 +203,69 @@ export const POSTS = [
         where: "r/aeo",
         href: "https://www.reddit.com/r/aeo/comments/1x7c8rj/comment/ph33wki/",
       },
-      { type: "h3", text: "3. Fix crawl access and indexing" },
-      { type: "p", text: "Check robots.txt and firewall settings for Googlebot, Bingbot, OAI-SearchBot, PerplexityBot and Claude-SearchBot. Make sure key content is in the page HTML rather than loaded only by JavaScript, because many AI crawlers do not run scripts. Confirm your important pages are indexed in both Google Search Console and Bing Webmaster Tools." },
-      { type: "h3", text: "4. Write answer-first pages" },
-      { type: "p", text: "Give each question its own heading, phrased the way people ask it, and answer it in the first one or two sentences. Then add the specifics answer engines love to quote: prices or price ranges, lead times, service areas, accreditations, materials, minimum orders. Add an FAQ written from real customer questions, with FAQ schema, and date your pages so freshness is visible." },
-      { type: "h3", text: "5. Add original data and expert quotes" },
-      { type: "p", text: "Publish facts only you have: average move times from your own jobs, survey results from your customers, pricing benchmarks from your quotes. Quote your own experts by name. This is the kind of content the GEO research paper found most likely to be cited." },
-      { type: "h3", text: "6. Earn mentions on the sites AI already cites" },
-      { type: "p", text: "Use your step 2 list. If answer engines cite review sites, directories, trade associations or \"best of\" articles, get listed, ask happy customers for detailed reviews, and offer useful data to the writers of those articles. Keep your company name, address, services and descriptions consistent everywhere." },
-      { type: "h3", text: "7. Refresh pages that already rank" },
-      { type: "p", text: "Pages with existing Google traffic are the quickest wins. For a UK international removals client, we refreshed country pages with current costs, transit times and process steps, and added structured FAQs answering pre-booking questions. Organic clicks rose 53%, comparing February to April 2026 with May to July 2026 in Search Console." },
+      { type: "h3", text: "3. Check crawl access and indexing" },
+      { type: "p", text: "Open your robots.txt (yourdomain.co.uk/robots.txt) and check that Googlebot, Bingbot, OAI-SearchBot, PerplexityBot and Claude-SearchBot are allowed. Ask whoever manages your hosting or CDN whether bot protection blocks AI crawlers. Then confirm your key pages are indexed in both Google Search Console and Bing Webmaster Tools." },
+      { type: "h3", text: "4. Rewrite key pages answer-first" },
+      { type: "p", text: "Give each question its own heading, phrased the way people ask it, and answer it in the first one or two sentences. Then add the details answer engines like to quote: price ranges, lead times, service areas, accreditations, minimum orders, integrations. Write in short, self-contained sections, so that any one of them makes sense if it is lifted out on its own." },
+      { type: "h3", text: "5. Add facts only you can provide" },
+      { type: "p", text: "Publish your own numbers: average move times from your jobs, typical costs from your quotes, results from a customer survey. Quote your own experts by name and link to their profiles. Original information gives answer engines a reason to cite you rather than a page that repeats what everyone else says." },
+      { type: "h3", text: "6. Add structured data and keep it accurate" },
+      { type: "p", text: "Mark up your organisation, services, articles, FAQs and reviews with schema.org structured data, and make sure your company name, address, phone number and descriptions match everywhere they appear. Structured data helps machines read your pages; it supports good content rather than replacing it." },
+      { type: "h3", text: "7. Earn mentions on the sites AI already cites" },
+      { type: "p", text: "Go back to your list from step 2. If answer engines cite trade bodies, directories, portals, review sites or publications, get listed, keep the listing complete, ask happy customers for detailed reviews and offer useful data or commentary to the writers of roundup articles. Publish short videos answering your top questions, since YouTube is cited so often." },
+      { type: "h3", text: "8. Refresh the pages that already rank" },
+      { type: "p", text: "Pages with existing Google traffic are the quickest wins. For a UK international removals client, we refreshed the country pages with current costs, transit times and process steps, and added structured FAQs answering the questions customers ask before booking. In Search Console, organic clicks rose 53%, comparing February to April 2026 with May to July 2026." },
+
+      { type: "h2", text: "When should a business start AEO?" },
+      { type: "p", text: "Start once your basic SEO is in place: a crawlable, indexed site with a page for each core service. If that is true, the best time is now, before a competitor becomes the default answer in your category. AEO is especially urgent if any of these apply to you:" },
+      {
+        type: "list",
+        items: [
+          { lead: "Customers research before they enquire.", text: "Office moves, freight, commercial property, software and professional services are all researched in AI tools before anyone picks up the phone." },
+          { lead: "Your category has \"best\" and \"how do I choose\" questions.", text: "These are the questions answer engines answer with business names." },
+          { lead: "You already rank on Google.", text: "Pages that rank are the fastest to turn into AI citations, as our research shows." },
+        ],
+      },
+      { type: "p", text: "A brand-new business should start with SEO and build AEO into every page from day one. Our guide to [SEO vs PPC for B2B](/insights/seo-vs-ppc-for-b2b) explains how to use paid search to bring in enquiries while organic visibility grows." },
+
+      { type: "h2", text: "What happens if you ignore AEO?" },
+      { type: "p", text: "The answer still gets written, just with other businesses' names in it. AI shortlists are short: the [TrustRadius](https://hginsights.com/news/trustradius-2026-b2b-buying-disconnect-report-reveals-ai-has-changed-how-buyers-research-but-not-what-they-trust/) 2026 B2B Buying Disconnect Report, based on 1,862 technology buyers, found that 63% used AI to research a purchase and 83% shortlisted three or fewer products. If you are missing from the answer, you are often missing from the shortlist." },
+      { type: "p", text: "You also lose control of your story. AI tools describe your business using whatever they can find, including out-of-date directory entries and old reviews. Businesses that start early compound their lead, because every mention, review and well-cited page makes the next answer more likely to include them. Our post asking [will AI replace SEO](/insights/will-ai-replace-seo) shows how fast search behaviour moved between 2023 and 2026." },
 
       { type: "h2", text: "How does AEO work for different types of business?" },
       { type: "p", text: "The steps stay the same, but the questions, and the sources answer engines trust, change with your business model." },
       { type: "h3", text: "AEO for B2B companies" },
-      { type: "p", text: "B2B purchases involve several people, each asking different questions: the finance lead asks about cost, operations asks about service levels, IT asks about integrations. Build answer pages for each role, publish case studies with specific results, and get listed on the industry directories and comparison sites your buyers use. Our [B2B SEO pillar guide](/insights/seo-for-b2b-companies) maps that journey in detail." },
+      { type: "p", text: "B2B purchases involve several people asking different questions: finance asks about cost, operations about service levels, IT about integrations. Build an answer page for each role, publish case studies with specific results, and get listed on the trade directories and comparison sites your buyers use. Trade bodies appeared again and again in our research, so membership pages and association listings are worth keeping current." },
       { type: "h3", text: "AEO for local businesses" },
-      { type: "p", text: "For questions such as \"removal company near me\", Gemini and AI Mode lean on Google's local data, and ChatGPT shows its own map results. Complete your Google Business Profile, choose accurate categories, list every service, and encourage reviews that mention specific services and areas, because answer engines match those words to the question." },
+      { type: "p", text: "For \"near me\" and city searches, Google often shows its map results, and Gemini, AI Mode and ChatGPT all draw on local listings. Choose accurate Google Business Profile categories, list every service, add photos, and encourage reviews that mention specific services and areas, because answer engines match those words to the question." },
       { type: "h3", text: "AEO for ecommerce brands" },
-      { type: "p", text: "Shoppers ask comparison and suitability questions: which size, which material, which is best for a small flat. Answer them on product and category pages with clear specifications, sizing guides and honest comparisons, and keep product data and reviews complete. Our [B2C SEO and PPC guide](/insights/seo-vs-ppc-for-b2c) covers the wider plan." },
+      { type: "p", text: "Shoppers ask about suitability and comparisons: which size, which material, which is best for a small flat. Answer them on product and category pages with clear specifications, sizing guides and fair comparisons, keep product data complete, and collect detailed reviews. Our guide to [SEO for B2C brands](/insights/seo-vs-ppc-for-b2c) covers the wider plan." },
       { type: "h3", text: "AEO for professional services and property firms" },
-      { type: "p", text: "Estate agents, solicitors, consultants and commercial property firms are judged on trust. Publish named expert guidance, local market data and fee explanations, and keep profiles on portals and professional directories accurate, since answer engines cite those heavily." },
-      { type: "h3", text: "AEO for logistics and supply chain companies" },
-      { type: "p", text: "Shippers and procurement teams ask about capabilities: routes, customs, warehousing, certifications, integrations. Publish a page for each capability with hard facts, and get those facts repeated on trade directories, association listings and logistics publications." },
+      { type: "p", text: "Estate agents, solicitors, accountants and consultants are judged on trust and fees. Our research found Rightmove, Zoopla and the HomeOwners Alliance cited for property fee questions, so keep portal profiles accurate, publish clear fee explanations and local market data, and put named experts on your guidance pages." },
+      { type: "h3", text: "AEO for SaaS and software companies" },
+      { type: "p", text: "Software buyers ask \"best [category] for [use case]\" and compare features and prices. Publish honest comparison and alternatives pages, keep pricing and feature pages crawlable, and earn reviews on the software review platforms in your category, which answer engines use heavily for shortlists." },
 
       { type: "h2", text: "How much does AEO cost?" },
-      { type: "p", text: "AEO is usually priced as part of an SEO retainer, because the work overlaps so heavily: technical fixes, content, digital PR and measurement. The right budget depends on the value of a new customer, so start from that." },
-      { type: "p", text: "Here is a worked example with illustrative figures. Say a UK logistics company wins contracts worth £30,000 a year on average, and closes one in five qualified enquiries. If it invests £2,500 a month in SEO and AEO, that is £30,000 a year. One extra contract covers the year's spend, and that needs five extra qualified enquiries across twelve months. Run the same sum with your own contract value and close rate. If the number of enquiries you need looks realistic for your market, the budget makes sense." },
-      { type: "p", text: "Smaller businesses can start lean: steps 1 to 4 above cost mostly time, and many pages only need rewriting. Budget rises with the competitiveness of your market and the amount of third-party work needed." },
+      { type: "p", text: "Most agencies price AEO within an SEO retainer, because the work overlaps so heavily: technical fixes, content, digital PR and measurement. The right budget depends on what a new customer is worth to you, so start from that number rather than from a price list." },
+      { type: "p", text: "Here is a worked example using illustrative figures. Say a UK logistics company wins contracts worth £30,000 a year on average and closes one in five qualified enquiries. If it invests £2,500 a month in SEO and AEO, that is £30,000 a year. One extra contract covers the whole year's spend, and winning one contract takes five extra qualified enquiries across twelve months, fewer than one every two months. Run the same sum with your own contract value and close rate. If the number of enquiries you need looks realistic for your market, the budget makes sense." },
+      { type: "p", text: "Smaller businesses can start lean. Steps 1 to 4 above cost mostly time, and many pages only need rewriting. Budgets rise with the competitiveness of your market and the amount of third-party work needed." },
 
       { type: "h2", text: "How do you measure AEO results?" },
-      { type: "p", text: "Measure in layers, from early signals to revenue." },
+      { type: "p", text: "Measure in layers, from early signals to revenue. No single tool shows the whole picture yet, so combine these." },
       {
         type: "list",
         items: [
-          { lead: "Prompt tracking.", text: "Rerun your fixed question list monthly and record whether your brand is named and your pages are cited, in each answer engine. Keep the list fixed so that any change reflects your visibility rather than new prompts." },
-          { lead: "AI referrals in GA4.", text: "In Traffic acquisition, view Session source and look for chatgpt.com, perplexity.ai, gemini.google.com, claude.ai and copilot.microsoft.com. Track key events (enquiries) from these sources." },
-          { lead: "Search Console and Bing Webmaster Tools.", text: "AI Overview and AI Mode clicks sit inside the Search Console Performance report. Rising impressions on question queries are an early sign." },
-          { lead: "Ask every new lead.", text: "Add \"Where did you first hear about us?\" to your enquiry form, with ChatGPT and other AI tools as options. Many AI-influenced buyers arrive later through branded search or direct visits." },
+          { lead: "Prompt tracking.", text: "Rerun your fixed question list every month in each answer engine and record whether you are named and cited. Keep the list fixed, so that any change reflects your visibility rather than new questions." },
+          { lead: "AI referrals in GA4.", text: "Go to Reports, Acquisition, Traffic acquisition, set the primary dimension to Session source and search for chatgpt.com, perplexity.ai, gemini.google.com, claude.ai and copilot.microsoft.com. Add your enquiry event as a key event and compare conversion rates by source." },
+          { lead: "Google Search Console.", text: "Clicks and impressions from AI Overviews and AI Mode are included in the Performance report. Google also began rolling out separate generative AI performance reports to a subset of sites in June 2026, showing which of your pages appear in AI features." },
+          { lead: "Bing Webmaster Tools.", text: "Its AI Performance report, in public preview since early 2026, shows how often your pages are cited in Copilot and other AI answers, which pages are cited and the grounding queries behind them." },
+          { lead: "Ask every new enquiry.", text: "Add \"Where did you first hear about us?\" to your enquiry form, with ChatGPT and other AI tools as options. Many buyers who first meet you in an AI answer come back later through a branded search or a direct visit." },
         ],
       },
-      { type: "p", text: "Mentions are a leading signal. Qualified enquiries and revenue are the result to report to your board." },
+      { type: "p", text: "Mentions are an early signal. Qualified enquiries and revenue are the results to report to your board. For context, Semrush's research found the average visitor from AI search was worth 4.4 times a traditional organic visitor, based on conversion rate, which is why a small amount of AI traffic can matter a great deal." },
 
       { type: "h2", text: "Does AEO actually work?" },
-      { type: "p", text: "Marketers disagree, and both sides make fair points. In an r/Agent_SEO thread about AEO for a B2B manufacturer, one sceptic was blunt:" },
+      { type: "p", text: "Marketers disagree, and both sides make fair points. In an r/Agent_SEO thread about AEO for a B2B manufacturer, one marketer found results less steady than search:" },
       {
         type: "quote",
         text: "The results ... from AI search optimization efforts are not consistent compared to the results we get from Google search (SEO).",
@@ -220,7 +273,7 @@ export const POSTS = [
         where: "r/Agent_SEO",
         href: "https://www.reddit.com/r/Agent_SEO/comments/1wu8ygj/comment/pfg714b/",
       },
-      { type: "p", text: "Others reported clear gains. One agency described rebuilding a manufacturer's site with schema, an entity map, specific FAQs and better internal links, after which \"leads started coming from AI sources and conversion rate is also much higher compared to all other sources\" ([u/OkFox6901](https://www.reddit.com/r/Agent_SEO/comments/1wu8ygj/comment/19rrhh779zfsw/)). Another commenter warned against chasing mention counts:" },
+      { type: "p", text: "Others in the same thread reported clear gains. One described rebuilding a manufacturer's site with schema, an entity map, specific FAQs and better internal links, after which \"leads started coming from AI sources and conversion rate is also much higher compared to all other sources\" ([u/OkFox6901](https://www.reddit.com/r/Agent_SEO/comments/1wu8ygj/comment/19rrhh779zfsw/)). Another warned against chasing mention counts on their own:" },
       {
         type: "quote",
         text: "It's more useful to track visibility over time alongside citations/referrals and, ultimately, whether any of it contributes to qualified traffic or enquiries.",
@@ -228,17 +281,18 @@ export const POSTS = [
         where: "r/Agent_SEO",
         href: "https://www.reddit.com/r/Agent_SEO/comments/1wu8ygj/comment/pd38hqc/",
       },
-      { type: "p", text: "Our view: AEO works when it is built on SEO and judged on enquiries. AI answers do vary from one run to the next, so single checks prove little. A fixed prompt set tracked over months, alongside AI referrals and lead source data, shows the real trend." },
+      { type: "p", text: "Our view: AEO works when it is built on solid SEO and judged on enquiries. AI answers vary from one run to the next, so a single check proves little. A fixed set of questions tracked over several months, alongside AI referrals and lead-source data, shows the real trend." },
       { type: "view", text: "", title: "Kriti's view" },
     ],
     faq: [
-      { q: "What is answer engine optimisation (AEO)?", a: "AEO is the practice of shaping your content and online presence so that AI tools such as ChatGPT, Perplexity, Claude, Gemini, Grok and Google's AI Overviews use it to answer questions, cite your pages and name your brand." },
-      { q: "Is AEO different from SEO?", a: "AEO builds on SEO. SEO helps your pages rank and earn clicks; AEO helps your content become the answer itself. Answer engines search the web before they answer, so strong SEO foundations come first." },
-      { q: "How does ChatGPT decide which websites to cite?", a: "When ChatGPT searches, it uses Bing's index and OpenAI's own crawler, OAI-SearchBot, then cites the pages whose passages best answer the question. Sites that block OAI-SearchBot are not shown in ChatGPT search answers." },
-      { q: "Do I need to do anything special for Google AI Overviews?", a: "Google says there are no additional requirements beyond being indexed and eligible to show with a snippet. Clear, answer-first passages and strong SEO give you the best chance of being a supporting link." },
-      { q: "How long does AEO take to work?", a: "Refreshed pages that already rank can appear in AI answers within weeks. Building mentions and authority in a competitive market usually takes several months, similar to SEO." },
-      { q: "How much does AEO cost in the UK?", a: "Most agencies price AEO within an SEO retainer. Work out your budget from the value of a new customer and your close rate, then check how many extra enquiries you need to break even." },
-      { q: "How do I track traffic from ChatGPT and Perplexity?", a: "In GA4, open Traffic acquisition, set the dimension to Session source and look for chatgpt.com, perplexity.ai, gemini.google.com and claude.ai. Add a \"where did you hear about us\" question to your enquiry form too." },
+      { q: "What is answer engine optimisation (AEO)?", a: "AEO is the work of shaping your website and online presence so that AI tools such as ChatGPT, Perplexity, Claude, Gemini, Grok and Google's AI Overviews use your information to answer questions, cite your pages and recommend your business." },
+      { q: "Is AEO different from SEO?", a: "AEO builds on SEO. SEO helps your pages rank and earn clicks; AEO helps your information become the answer itself. In our research on 24 UK searches, 74% of the sources cited in AI Overviews already ranked in Google's top 10." },
+      { q: "How do I rank in ChatGPT?", a: "Allow OpenAI's OAI-SearchBot crawler, make sure your site is indexed in Bing, answer specific customer questions directly on your pages, and get listed and reviewed on the directories and review sites ChatGPT cites in your sector." },
+      { q: "Do I need to do anything special for Google AI Overviews?", a: "Google says there are no additional requirements beyond being indexed and eligible to show with a snippet. Ranking on page one, answer-first passages and covering follow-up questions give you the best chance of being cited." },
+      { q: "How long does AEO take to work?", a: "Refreshed pages that already rank can start appearing in AI answers within weeks. Building mentions and authority in a competitive market usually takes several months, similar to SEO." },
+      { q: "How much does AEO cost in the UK?", a: "Most agencies price AEO within an SEO retainer. Work out your budget from the value of a new customer and your close rate, then check how many extra enquiries you need to cover the cost." },
+      { q: "How do I track traffic from ChatGPT and Perplexity?", a: "In GA4, open Traffic acquisition, set the dimension to Session source and look for chatgpt.com, perplexity.ai, gemini.google.com and claude.ai. Add a \"where did you hear about us\" question to your enquiry form as well." },
+      { q: "Should I block AI crawlers?", a: "Block training crawlers such as GPTBot if you prefer, but allow search crawlers such as OAI-SearchBot, PerplexityBot and Claude-SearchBot if you want to be cited in AI answers." },
     ],
   },
   {
@@ -249,7 +303,7 @@ export const POSTS = [
     date: "2026-11-03",
     author: "team",
     topics: ["AEO/GEO", "B2B"],
-    industries: ["Removals & Relocation", "Logistics", "Supply chain"],
+    industries: [],
     image: "/Saas/authority.jpg",
     intro:
       "Your next B2B buyer may never see your website before they build a shortlist. They will ask ChatGPT, Perplexity, Gemini or Google's AI Mode which suppliers to consider, read the answer, and check only the names it gives them. Generative engine optimisation (GEO, also spelt generative engine optimization) is the work of making sure your company is one of those names. This guide explains what GEO and answer engine optimisation (AEO) mean, how AI tools decide which brands to cite, and how to build a B2B AEO and GEO strategy for 2027 step by step, with the measurement approach and client results we use at MAAI.",
@@ -300,7 +354,7 @@ export const POSTS = [
       { type: "p", text: "If you want the longer story of how search moved from ten blue links to AI answers, our post on [whether AI will replace SEO](/insights/will-ai-replace-seo) covers the data from 2023 to 2026." },
 
       { type: "h2", text: "Why B2B companies need an AEO and GEO strategy in 2027" },
-      { type: "p", text: "B2B buyers were early adopters of AI research. [Forrester's State of Business Buying 2026](https://digitalcommerce360.com/2026/01/22/forrester-b2b-buying-ai-2026/) reports that generative AI tools were the most cited meaningful interaction for researching B2B purchases in 2025. The [TrustRadius 2026 B2B Buying Disconnect Report](https://hginsights.com/news/trustradius-2026-b2b-buying-disconnect-report-reveals-ai-has-changed-how-buyers-research-but-not-what-they-trust/), based on 1,862 technology buyers surveyed in January 2026, shows how that research works in practice." },
+      { type: "p", text: "B2B buyers were early adopters of AI research. [Forrester](https://digitalcommerce360.com/2026/01/22/forrester-b2b-buying-ai-2026/)'s State of Business Buying 2026 reports that generative AI tools were the most cited meaningful interaction for researching B2B purchases in 2025. The [TrustRadius](https://hginsights.com/news/trustradius-2026-b2b-buying-disconnect-report-reveals-ai-has-changed-how-buyers-research-but-not-what-they-trust/) 2026 B2B Buying Disconnect Report, based on 1,862 technology buyers surveyed in January 2026, shows how that research works in practice." },
       {
         type: "chart",
         title: "How B2B software buyers researched purchases in 2026 (% of buyers)",
@@ -318,7 +372,7 @@ export const POSTS = [
         },
       },
       { type: "p", text: "Read together, these numbers describe the new B2B journey. Most buyers now use AI to research, almost all of them then check what it told them, reviews still carry real weight, and the final shortlist is tiny. If AI names three suppliers and you are not one of them, you are rarely considered at all. If AI names you, your website, case studies and reviews still have to pass the fact-check that follows." },
-      { type: "p", text: "This matters even more because B2B shortlists form early. [6sense's 2025 Buyer Experience Report](https://www.businesswire.com/news/home/20251112018032/en) found that 94% of buying groups had already picked a favoured vendor before first contact. Our [pillar guide to B2B SEO](/insights/seo-for-b2b-companies) explains that journey touchpoint by touchpoint. GEO is how you make sure AI tools introduce you during the part of that journey that happens without you." },
+      { type: "p", text: "This matters even more because B2B shortlists form early. [6sense](https://www.businesswire.com/news/home/20251112018032/en)'s 2025 Buyer Experience Report found that 94% of buying groups had already picked a favoured vendor before first contact. Our guide to [B2B SEO](/insights/seo-for-b2b-companies) explains that journey touchpoint by touchpoint. GEO is how you make sure AI tools introduce you during the part of that journey that happens without you." },
 
       { type: "h2", text: "How AI tools decide which B2B brands to cite" },
       { type: "p", text: "AI answers are built in three stages, and each stage gives you a different lever. One r/aeo commenter summed it up well:" },
@@ -382,7 +436,7 @@ export const POSTS = [
         ],
       },
       { type: "h3", text: "4. Write answer-first pages packed with specifics" },
-      { type: "p", text: "AI tools quote clear, specific statements. Put a direct one or two sentence answer under each heading, then expand. Specific, sourced statements are what the [GEO research paper](https://arxiv.org/abs/2311.09735) found AI engines reward." },
+      { type: "p", text: "AI tools quote clear, specific statements. Put a direct one or two sentence answer under each heading, then expand. Specific, sourced statements are what the GEO research paper from [Princeton University](https://arxiv.org/abs/2311.09735) and partner institutions found AI engines reward." },
       {
         type: "list",
         items: [
@@ -973,8 +1027,8 @@ export const POSTS = [
       "SEO vs PPC for B2B in 2027: how B2B buyers search, how SEO and AEO make you the answer, when to start each, real UK B2B click costs, budget logic with a worked example, plans by business model and how to measure leads.",
     date: "2026-11-04",
     author: "team",
-    topics: ["B2B", "AEO/GEO", "SEO - Begins"],
-    industries: ["Removals & Relocation", "Real estate", "Logistics", "Supply chain"],
+    topics: ["B2B", "SEO - Begins"],
+    industries: [],
     image: "/Saas/aeo.jpg",
     intro:
       "Before a company signs a contract with a new supplier, several people inside it ask a lot of questions. What does this usually cost? Which approach suits a business our size? Who are the specialists? Can we trust them? Those questions go into Google, ChatGPT and Google's AI Mode weeks or months before anyone fills in a contact form. SEO vs PPC is really a question of which of those moments you want to own. SEO and AEO make your company the answer while buyers research. PPC buys a place when someone is ready to enquire today. This guide explains, in plain English, how each one works for B2B companies in 2027, when to start each, what UK B2B clicks actually cost, how to set the budget, how the plan changes by business model, and how to measure it in leads and revenue.",
@@ -1014,7 +1068,7 @@ export const POSTS = [
           note: "time spent with any one supplier is about 5 to 6% when several are being compared",
         },
       },
-      { type: "p", text: "Buyers spend more time researching on their own than meeting every possible supplier combined. Other research points the same way. [6sense's 2025 Buyer Experience Report](https://www.businesswire.com/news/home/20251112018032/en), based on more than 4,000 buyers, found that 94% of buying groups had already picked a favoured vendor before first contact. [Gartner's 2026 sales survey](https://www.gartner.com/en/newsroom/press-releases/2026-03-09-gartner-sales-survey-finds-67-percent-of-b2b-buyers-prefer-a-rep-free-experience) found that 67% of B2B buyers prefer a rep-free buying experience. And the [TrustRadius 2026 B2B Buying Disconnect Report](https://hginsights.com/news/trustradius-2026-b2b-buying-disconnect-report-reveals-ai-has-changed-how-buyers-research-but-not-what-they-trust/) found that 63% of software buyers used AI tools during their research." },
+      { type: "p", text: "Buyers spend more time researching on their own than meeting every possible supplier combined. Other research points the same way. [6sense](https://www.businesswire.com/news/home/20251112018032/en)'s 2025 Buyer Experience Report, based on more than 4,000 buyers, found that 94% of buying groups had already picked a favoured vendor before first contact. [Gartner](https://www.gartner.com/en/newsroom/press-releases/2026-03-09-gartner-sales-survey-finds-67-percent-of-b2b-buyers-prefer-a-rep-free-experience)'s 2026 sales survey found that 67% of B2B buyers prefer a rep-free buying experience. And the [TrustRadius](https://hginsights.com/news/trustradius-2026-b2b-buying-disconnect-report-reveals-ai-has-changed-how-buyers-research-but-not-what-they-trust/) 2026 B2B Buying Disconnect Report found that 63% of software buyers used AI tools during their research." },
       { type: "p", text: "Take a finance director at a growing retailer looking for a third-party logistics (3PL) partner. Over two or three months, the buying group might search:" },
       {
         type: "ol",
@@ -1026,7 +1080,7 @@ export const POSTS = [
           { lead: "An enquiry search:", text: "\"Company X 3PL warehousing quote\"." },
         ],
       },
-      { type: "p", text: "Three or four different people might make those searches: the finance director, the operations manager and an ecommerce lead. The supplier whose guide answered question 1, whose pricing page answered question 2 and which AI tools named at question 3 is already the favourite by question 5. Our [B2B SEO guide](/insights/seo-for-b2b-companies) walks through this journey touchpoint by touchpoint." },
+      { type: "p", text: "Three or four different people might make those searches: the finance director, the operations manager and an ecommerce lead. The supplier whose guide answered question 1, whose pricing page answered question 2 and which AI tools named at question 3 is already the favourite by question 5. Our guide to [B2B SEO](/insights/seo-for-b2b-companies) walks through this journey touchpoint by touchpoint." },
 
       { type: "h2", text: "How SEO and AEO work for B2B companies, in plain English" },
       { type: "p", text: "SEO and AEO make your company the helpful answer at each of those questions, so you are part of the decision before a salesperson is involved. Here is what happens behind the scenes." },
@@ -1040,7 +1094,7 @@ export const POSTS = [
         ],
       },
       { type: "h3", text: "What AI tools look for when they recommend a B2B supplier" },
-      { type: "p", text: "ChatGPT, Perplexity, Claude, Gemini and Google AI Mode search the web, read the pages they find and write an answer, often naming a short list of suppliers with links. They favour pages that answer the question directly, include concrete facts (prices or price ranges, capacities, sectors, locations) and companies that other sites, directories, reviews and forums also mention. Ads are never used as sources, so AEO depends entirely on organic content and reputation. Our [guide to B2B AEO and GEO](/insights/generative-engine-optimization-b2b) explains how AI tools choose which brands to cite." },
+      { type: "p", text: "ChatGPT, Perplexity, Claude, Gemini and Google AI Mode search the web, read the pages they find and write an answer, often naming a short list of suppliers with links. They favour pages that answer the question directly, include concrete facts (prices or price ranges, capacities, sectors, locations) and companies that other sites, directories, reviews and forums also mention. Ads are never used as sources, so AEO depends entirely on organic content and reputation. Our guide to [B2B AEO and GEO strategy](/insights/generative-engine-optimization-b2b) explains how AI tools choose which brands to cite." },
       { type: "image", src: "/insights/b2b-chatgpt-3pl-shortlist.jpg", alt: "ChatGPT web search answer listing UK 3PL providers that integrate with Shopify and handle returns, with a source link under each provider", caption: "A ChatGPT shortlist for a B2B question: the suppliers named come from organic pages, directories and reviews. Ads are never used as sources." },
       { type: "h3", text: "Why low search volume is fine in B2B" },
       { type: "p", text: "A B2B search with 50 monthly searches can be worth more than a consumer search with 5,000, because one new client may be worth tens of thousands of pounds a year. The question to ask of every keyword is whether the people searching it could become clients, then how many of them there are." },
@@ -1255,7 +1309,7 @@ export const POSTS = [
           { lead: "Months 10 to 12:", text: "compare cost per qualified lead by channel, test turning off ads where you rank first, and move the saving into new content and authority." },
         ],
       },
-      { type: "p", text: "If you sell to consumers as well, our [SEO vs PPC guide for B2C](/insights/seo-vs-ppc-for-b2c) covers that side. For the bigger picture of how AI is changing search, read our post on [whether AI will replace SEO](/insights/will-ai-replace-seo)." },
+      { type: "p", text: "If you sell to consumers as well, our guide to [SEO vs PPC for B2C](/insights/seo-vs-ppc-for-b2c) covers that side. For the bigger picture of how AI is changing search, read our post on [whether AI will replace SEO](/insights/will-ai-replace-seo)." },
     ],
     faq: [
       { q: "Is SEO or PPC better for B2B?", a: "For long-term lead generation, SEO and AEO, because they reach every member of the buying group during research, cost nothing per click and are the only route into AI answers. PPC is a useful addition for urgent demand, launches and remarketing." },
@@ -1274,7 +1328,7 @@ export const POSTS = [
       "SEO vs PPC for B2C brands in 2027: how SEO and AEO work in plain English, when to start each, what happens if you only run ads, how the plan differs for ecommerce, D2C, marketplace, local and subscription businesses, and which metrics to track.",
     date: "2026-11-01",
     author: "team",
-    topics: ["B2C", "AEO/GEO", "SEO - Begins"],
+    topics: ["B2C", "SEO - Begins"],
     industries: [],
     image: "/selfstorage/seo.jpg",
     intro:
@@ -1314,7 +1368,7 @@ export const POSTS = [
         ],
       },
       { type: "p", text: "Every one of those questions is a chance to be found. The brand whose guide answers question 1, whose comparison answers question 2, and which AI tools mention for question 3 is already familiar and trusted by question 4. By the time the shopper reaches the buying search, they are searching for that brand by name." },
-      { type: "p", text: "That is what SEO and AEO do: they make your brand the helpful answer at each question, so you are part of the decision from the start. Google's own research calls this stage of shopping the [\"messy middle\"](https://business.google.com/in/think/consumer-insights/navigating-purchase-behavior-and-decision-making/): after studying 310,000 simulated purchase decisions, it found people loop between exploring options and narrowing them down, again and again, before they buy." },
+      { type: "p", text: "That is what SEO and AEO do: they make your brand the helpful answer at each question, so you are part of the decision from the start. [Google](https://business.google.com/in/think/consumer-insights/navigating-purchase-behavior-and-decision-making/)'s own research calls this stage of shopping the \"messy middle\": after studying 310,000 simulated purchase decisions, it found people loop between exploring options and narrowing them down, again and again, before they buy." },
       { type: "h3", text: "What Google looks for when it ranks a page" },
       { type: "p", text: "Behind the scenes, Google sends software to read your pages, stores them, and decides which page best answers each search. It looks at three things, which is where the technical side of SEO comes in:" },
       {
@@ -1326,7 +1380,7 @@ export const POSTS = [
         ],
       },
       { type: "h3", text: "What AI tools look for when they recommend a brand" },
-      { type: "p", text: "AI tools such as ChatGPT search the web, read the pages they find, and write an answer, often naming a few brands with links. They favour pages that answer the question directly, include specific facts (sizes, prices, materials, delivery times), and brands that other sites, reviews and forums also talk about. Ads are never used as sources, so AEO depends entirely on organic content and reputation. Our [guide to AEO and GEO](/insights/generative-engine-optimization-b2b) explains how AI tools choose which brands to cite." },
+      { type: "p", text: "AI tools such as ChatGPT search the web, read the pages they find, and write an answer, often naming a few brands with links. They favour pages that answer the question directly, include specific facts (sizes, prices, materials, delivery times), and brands that other sites, reviews and forums also talk about. Ads are never used as sources, so AEO depends entirely on organic content and reputation. Our guide to [generative engine optimisation](/insights/generative-engine-optimization-b2b) explains how AI tools choose which brands to cite." },
 
       { type: "h2", text: "How PPC works for B2C brands" },
       { type: "p", text: "Every time someone searches, Google runs an auction among the advertisers bidding on that search. The price you pay per click depends on how much competitors bid and on your Quality Score, which Google bases on how likely people are to click your ad, how relevant it is, and how good your landing page is. The main ad types for consumer brands are:" },
@@ -1500,6 +1554,8 @@ export const POSTS = [
     ],
   },
 ];
+
+export const POSTS = ALL_POSTS.filter((p) => !p.draft);
 
 export function getPost(slug) {
   return POSTS.find((p) => p.slug === slug);
