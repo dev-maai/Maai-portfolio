@@ -230,6 +230,7 @@ export default async function InsightPost({ params }) {
               {[...post.topics, ...post.industries].map((t) => <span key={t}>{t}</span>)}
             </div>
             <h1>{post.title}</h1>
+            {post.description && <p className="ins-standfirst">{plain(post.description)}</p>}
             <div className="ins-byline">
               <img className={author.org ? "is-logo" : undefined} src={author.photo} alt={author.name} />
               <div>

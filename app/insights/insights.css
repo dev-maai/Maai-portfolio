@@ -43,6 +43,7 @@
 .ins-tags{display:flex;gap:8px;flex-wrap:wrap}
 .ins-tags span{font-family:var(--font-mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;
   padding:6px 12px;border:1px solid rgba(247,247,242,.45);border-radius:999px}
+.ins-standfirst{margin:0;max-width:680px;font-size:clamp(17px,1.6vw,19.5px);line-height:1.55;color:#DDE0D5}
 .ins-post-hero h1{margin:0;font-family:var(--font-display);font-weight:600;font-size:clamp(32px,4.6vw,50px);line-height:1.1;letter-spacing:-.025em}
 .ins-byline{display:flex;align-items:center;gap:14px;margin-top:6px}
 .ins-byline img{width:48px;height:48px;border-radius:50%;object-fit:cover;border:2px solid rgba(247,247,242,.6);flex:none}
@@ -144,9 +145,10 @@
 }
 
 /* inline links in post text */
-.ins-article p a,.ins-article li a,.ins-tldr a,.ins-faq a{color:inherit;text-decoration:underline;
-  text-decoration-color:var(--amber);text-decoration-thickness:1.5px;text-underline-offset:3px}
-.ins-article p a:hover,.ins-article li a:hover,.ins-tldr a:hover,.ins-faq a:hover{color:var(--amber)}
+.ins-article p a,.ins-article li a,.ins-tldr a,.ins-faq a,.ins-stat small a{color:var(--amber);font-weight:500;text-decoration:none;
+  border-radius:3px;padding:0 2px;margin:0 -2px;transition:background-color .15s,color .15s}
+.ins-article p a:hover,.ins-article li a:hover,.ins-tldr a:hover,.ins-faq a:hover,.ins-stat small a:hover,
+.ins-article a:focus-visible{background:rgba(230,46,107,.12);text-decoration:none}
 
 /* ---------- extra post blocks ---------- */
 .ins-article>h2{scroll-margin-top:100px}
@@ -159,7 +161,8 @@
 .ins-toc ol{margin:0;padding-left:22px;columns:2;column-gap:32px;font-size:15px;line-height:1.5}
 .ins-toc li{break-inside:avoid;margin-bottom:6px}
 .ins-toc a{color:var(--ink);text-decoration:none}
-.ins-toc a:hover{color:var(--amber);text-decoration:underline}
+.ins-article .ins-toc a{color:var(--ink);font-weight:400;text-decoration:none}
+.ins-article .ins-toc a:hover{color:var(--amber);background:rgba(230,46,107,.08);text-decoration:none}
 
 /* callouts */
 .ins-callout{padding:20px 24px;border-radius:14px;background:var(--panel);border:1px solid var(--line);position:relative}
@@ -178,9 +181,10 @@
 
 /* stat cards */
 .ins-stats{margin:8px 0;display:flex;flex-direction:column;gap:14px}
-.ins-stats-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px}
-.ins-stat{padding:20px;border-radius:14px;background:var(--surface);border:1px solid var(--line);display:flex;flex-direction:column;gap:6px}
-.ins-stat b{font-family:var(--font-display);font-size:clamp(30px,3.4vw,40px);line-height:1;letter-spacing:-.03em;color:var(--amber)}
+.ins-stats-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px}
+.ins-stats-grid:has(> :nth-child(4):last-child){grid-template-columns:repeat(2,minmax(0,1fr))}
+.ins-stat{min-width:0;padding:20px;border-radius:14px;background:var(--surface);border:1px solid var(--line);display:flex;flex-direction:column;gap:6px}
+.ins-stat b{font-family:var(--font-display);font-size:clamp(26px,2.8vw,34px);overflow-wrap:anywhere;line-height:1;letter-spacing:-.03em;color:var(--amber)}
 .ins-stat span{font-size:14.5px;line-height:1.45}
 .ins-stat small{font-family:var(--font-mono);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--sage)}
 .ins-stats figcaption,.ins-hbar figcaption,.ins-donut figcaption,.ins-rewrite figcaption,.ins-code figcaption:not(.ins-code-title),.ins-flow figcaption{font-size:13px;line-height:1.5;color:var(--sage)}
@@ -283,4 +287,3 @@
   .ins-compare-grid{grid-template-columns:1fr !important}
   .ins-hbar-row{grid-template-columns:1fr;gap:6px}
 }
-.ins-stat small a{color:inherit;text-decoration:underline;text-underline-offset:2px}
