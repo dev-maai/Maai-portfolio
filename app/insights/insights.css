@@ -178,7 +178,7 @@
 
 /* stat cards */
 .ins-stats{margin:8px 0;display:flex;flex-direction:column;gap:14px}
-.ins-stats-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px}
+.ins-stats-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px}
 .ins-stat{padding:20px;border-radius:14px;background:var(--surface);border:1px solid var(--line);display:flex;flex-direction:column;gap:6px}
 .ins-stat b{font-family:var(--font-display);font-size:clamp(30px,3.4vw,40px);line-height:1;letter-spacing:-.03em;color:var(--amber)}
 .ins-stat span{font-size:14.5px;line-height:1.45}
@@ -283,3 +283,4 @@
   .ins-compare-grid{grid-template-columns:1fr !important}
   .ins-hbar-row{grid-template-columns:1fr;gap:6px}
 }
+.ins-stat small a{color:inherit;text-decoration:underline;text-underline-offset:2px}

@@ -95,3 +95,30 @@ Capture: Bing Webmaster Tools > AI Performance for maai.agency (if available), s
 Place: after the two-column comparison in the H2 "How to measure AEO in Google Search Console and Bing Webmaster Tools"
 Caption: Bing Webmaster Tools' AI Performance report shows how often your pages are cited in Copilot and other AI answers, and the queries behind them. Values blurred.
 Note: Bing Webmaster Tools needs a Microsoft sign-in in Chrome, which the run cannot do (05/11/2026)
+
+## seo-for-b2b-companies / (all requests below)
+Note: this post is LIVE (rewritten 05/11/2026 and published at Kriti's request before its screenshots). Add each image under the named heading and check it on the live page.
+
+## seo-for-b2b-companies / b2b-google-serp-freight-forwarder-uk.jpg
+Status: Open
+Capture: Google UK results for "freight forwarder uk" (signed out or non-personalised, desktop) showing the AI Overview and the local map. Hide any client domain.
+Place: after the list in the H2 "What do B2B buyers see in Google and AI answers at each stage of the journey?" (before the key takeaway callout)
+Caption: For a supplier search, Google shows an AI answer and its local map, so ranking pages and an accurate Business Profile both matter.
+
+## seo-for-b2b-companies / b2b-gsc-question-filter.jpg
+Status: Open
+Capture: Search Console Performance > Search results for sc-domain:maai.agency, last 3 months, with a Query filter set to Custom (regex) ^(what|how|why|which|who|when|where|is|are|can|does|do|should|best)\b. Show the filter and the query table; blur figures.
+Place: after the code block in the H3 "Step 1. Find the questions your buyers ask at each stage"
+Caption: Filtering Search Console to question searches shows the questions buyers already use to find you.
+
+## seo-for-b2b-companies / b2b-semrush-questions-3pl.jpg
+Status: Open
+Capture: Semrush Keyword Magic Tool for "3pl" (UK database) with the Questions filter on, showing the question list with volumes.
+Place: after the steps in the H3 "Step 2. Map keywords to each buying job"
+Caption: The Questions filter in Semrush's Keyword Magic Tool lists the learning searches buyers make before they look for a supplier.
+
+## seo-for-b2b-companies / b2b-ga4-landing-page-organic.jpg
+Status: Open
+Capture: GA4 Reports > Engagement > Landing page, filtered to Session default channel group = Organic Search, with the enquiry key event column. Hide the property name and blur values. If maai.agency's GA4 still shows no data, use the channel group set-up screen instead and note it.
+Place: after the code block in the H3 "Step 9. Track AI visibility, leads and pipeline"
+Caption: GA4's Landing page report, filtered to organic search, shows which pages bring enquiries.

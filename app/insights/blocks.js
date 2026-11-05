@@ -81,7 +81,7 @@ export function Stats({ block }) {
           <div className="ins-stat" key={i}>
             <b>{s.value}</b>
             <span><Rich text={s.label} /></span>
-            {s.by && <small>{s.by}</small>}
+            {s.by && <small><Rich text={s.by} /></small>}
           </div>
         ))}
       </div>
