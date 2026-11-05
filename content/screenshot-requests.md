@@ -31,6 +31,7 @@ Place: after "SEO vs PPC for B2B: what is the difference?" (before the first par
 Caption: Google UK results for "office removals": ads, AI answers and organic results compete for the same B2B search.
 Note: Chrome cannot open incognito, and the signed-in results page shows a "Your Google Ads summary" panel with client campaign names, budgets and a client ad above the results instead of normal top ads. Needs a signed-out or incognito capture (04/11/2026)
 Note: retried signed-in in Chrome; results are localised to Edinburgh (not London), show no ads or AI Overview, and include a private Search Console Insights panel for a client domain. Still needs a signed-out or incognito capture (05/11/2026)
+Note: retried with non-personalised results (pws=0); the signed-in page still opens with the private "Your Google Ads summary" panel showing a client campaign and ad. Still needs a signed-out capture (05/11/2026)
 
 ## seo-vs-ppc-for-b2b / b2b-chatgpt-3pl-shortlist.jpg
 Status: Done (04/11/2026)
@@ -56,13 +57,13 @@ Note: sc-domain:maai.agency (last 6 months, daily and weekly) does not show a ri
 Note: this post is unpublished (draft: true in app/lib/posts.js, temporary redirect in next.config.mjs) until these screenshots are added. Add the image blocks to the draft post as normal and skip the live check (the URL redirects while it is a draft). Do not remove draft: true or the redirect: the daily blog run republishes it once every request below is Done. Rewritten 05/11/2026; placements below match the rewrite.
 
 ## answer-engine-optimization / aeo-google-ai-overview.jpg
-Status: Open
+Status: Done (05/11/2026)
 Capture: Google UK (google.co.uk, signed out, location London) results for "what is a freight forwarder" showing the AI Overview with its source links. Crop to the AI Overview and the first organic result.
 Place: after the chart "AI Overviews on 24 UK business searches" in the H2 "Which websites do AI answers cite in the UK? Our research"
 Caption: Google UK's AI Overview for "what is a freight forwarder": the answer comes first, with the cited pages listed beside it.
 
 ## answer-engine-optimization / aeo-chatgpt-sources.jpg
-Status: Open
+Status: Done (05/11/2026)
 Capture: ChatGPT (search on) answer to "Which UK 3PLs integrate with Shopify and handle returns?" with the Sources panel open, showing the named companies and the cited websites. Crop to the question, the answer and the Sources panel. Blur any client name or domain.
 Place: after the first paragraph of the H2 "How to rank in ChatGPT" (before the numbered list)
 Caption: A ChatGPT answer with its Sources panel open: the businesses named and the websites it relied on, often directories and review sites alongside suppliers.
@@ -72,21 +73,25 @@ Status: Open
 Capture: Perplexity answer to "How much does customs clearance cost for imports into the UK?" showing the numbered citations in the text and the source cards. Crop to the question, the source cards and the first part of the answer. Blur any client name or domain.
 Place: after the first paragraph of the H2 "How to rank in Perplexity" (before the list)
 Caption: Perplexity attaches a numbered citation to each claim, so you can see exactly which page supported which sentence.
+Note: Perplexity shows a Cloudflare "Verify you are human" check, which the run cannot complete. Needs Kriti to pass the check once in Chrome, then rerun (05/11/2026)
 
 ## answer-engine-optimization / aeo-claude-citations.jpg
 Status: Open
 Capture: Claude (web search on) answer to "What does a 3PL do and how do UK brands choose one?" showing the inline citations. Crop to the question and the answer with citations. Blur any client name or domain.
 Place: after the paragraph in the H2 "How to rank in Claude"
 Caption: Claude shows clickable citations when it searches the web, linking each point to the page it came from.
+Note: Claude answered from its own knowledge without searching the web, so no citations appeared, and claude.ai shows no web search toggle to force it. Needs a capture where Claude searches (for example with web search switched on in settings) (05/11/2026)
 
 ## answer-engine-optimization / aeo-ga4-ai-referrals.jpg
 Status: Open
 Capture: GA4 Reports > Acquisition > Traffic acquisition for maai.agency, primary dimension Session source, search filter matching chatgpt|perplexity|gemini|claude|copilot, last 90 days, Sessions and Key events columns visible. Hide the property name and blur all values.
 Place: after the list in the H2 "How do you measure AEO results?"
 Caption: GA4 Traffic acquisition filtered to AI sources: chatgpt.com, perplexity.ai and others appear as session sources. Values blurred.
+Note: the maai.agency GA4 property (Maai Agency, G-11BVR3MJ43) shows "No data received from your website yet", so there are no session sources to show. Needs the GA4 tag live on maai.agency, or a different property confirmed (05/11/2026)
 
 ## answer-engine-optimization / aeo-bing-ai-performance.jpg
 Status: Open
 Capture: Bing Webmaster Tools > AI Performance for maai.agency (if available), showing Total citations, Average cited pages and the Grounding queries table. Hide the site name and blur all values.
 Place: directly after aeo-ga4-ai-referrals.jpg in the H2 "How do you measure AEO results?"
 Caption: Bing Webmaster Tools' AI Performance report shows how often your pages are cited in Copilot and other AI answers. Values blurred.
+Note: Bing Webmaster Tools needs a Microsoft sign-in in Chrome, which the run cannot do (05/11/2026)

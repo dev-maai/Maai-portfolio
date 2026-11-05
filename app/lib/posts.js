@@ -108,6 +108,7 @@ const ALL_POSTS = [
         ],
         source: { label: "MAAI analysis of Semrush UK SERP data, 05/11/2026", note: "24 searches, 20 AI Overviews, 72 cited sources; values in %" },
       },
+      { type: "image", src: "/insights/aeo-google-ai-overview.jpg", alt: "Google UK AI Overview for what is a freight forwarder, with a short definition on the left and cited pages from DHL, Wikipedia and DP World listed on the right", caption: "Google UK's AI Overview for \"what is a freight forwarder\": the answer comes first, with the cited pages listed beside it." },
       { type: "p", text: "Four findings stood out." },
       {
         type: "list",
@@ -136,6 +137,7 @@ const ALL_POSTS = [
 
       { type: "h2", text: "How to rank in ChatGPT" },
       { type: "p", text: "ChatGPT decides for itself when to search the web. When it does, it combines Bing's index with pages fetched by OpenAI's own search crawler, OAI-SearchBot, and lists its sources beside the answer. Its scale makes it the first engine to work on: OpenAI announced in August 2026 that ChatGPT had passed one billion weekly users, and [Ofcom](https://www.ofcom.org.uk/media-use-and-attitudes/online-habits/from-apps-to-ai-search-how-the-uk-goes-online-in-2025) recorded 1.8 billion UK visits to ChatGPT in the first eight months of 2025, up from 368 million a year earlier." },
+      { type: "image", src: "/insights/aeo-chatgpt-sources.jpg", alt: "ChatGPT web search answer to which UK 3PLs integrate with Shopify and handle returns, with the Sources panel open listing the provider websites it cited", caption: "A ChatGPT answer with its Sources panel open: the businesses named and the websites it relied on, often directories and review sites alongside suppliers." },
       {
         type: "ol",
         items: [
