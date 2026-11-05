@@ -44,9 +44,15 @@ Read this before writing, rewriting or adding images to any post. These are Krit
 
 ## 5. Images and screenshots
 - Real screenshots only for anything presented as real (Google results, ChatGPT, Perplexity, Claude, GA4, Search Console, Bing, tools), lightly cropped, client names, domains and private figures hidden.
+- Keep Kriti's paid tools (Semrush, Ahrefs) to a minimum. Choose visuals in this order:
+  1. Our own visuals built from published data: stat cards, bar charts, tables, timelines and diagrams made from original research (6sense, Gartner, Forrester, Pew, Ofcom, Edelman and LinkedIn, our own studies). No screenshot or login needed. Credit the source on the visual.
+  2. Screenshots of free, public pages: Google results (including AI Overviews and the local map), Google Trends, free AI answers (Perplexity, Gemini, Google AI Mode), and charts inside published research reports (credited to the publisher).
+  3. Screenshots of MAAI's own accounts (maai.agency in GA4, Search Console, Bing Webmaster Tools, LinkedIn page).
+  4. Semrush or Ahrefs screenshots only when the paragraph teaches how to use that tool, and at most one per post.
 - Explain processes and concepts with diagrams (`flow`, `compare`, `cards`) rather than walls of text.
 - Aim for a screenshot or visual at least every 2 to 3 sections, at the point where it helps.
 - Never publish a post without its screenshots. If they cannot be captured in the run, keep the post as `draft: true` (off the site and sitemap), queue the requests in `content/screenshot-requests.md`, and publish once they are Done.
+- New posts are drafted as a Google Doc for Kriti's review first and published only after her approval.
 
 ## 6. Links
 - Link inline only: original research and data reports, named people (LinkedIn, verified), and our own live posts. Never link other blogs, vendor or tool pages, documentation, Wikipedia or event sites; name them instead. No "Sources" or "Related reading" sections.
