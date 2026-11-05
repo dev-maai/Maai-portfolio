@@ -30,6 +30,7 @@ Capture: Google UK (google.co.uk, incognito, location London) results for "offic
 Place: after "SEO vs PPC for B2B: what is the difference?" (before the first paragraph)
 Caption: Google UK results for "office removals": ads, AI answers and organic results compete for the same B2B search.
 Note: Chrome cannot open incognito, and the signed-in results page shows a "Your Google Ads summary" panel with client campaign names, budgets and a client ad above the results instead of normal top ads. Needs a signed-out or incognito capture (04/11/2026)
+Note: retried signed-in in Chrome; results are localised to Edinburgh (not London), show no ads or AI Overview, and include a private Search Console Insights panel for a client domain. Still needs a signed-out or incognito capture (05/11/2026)
 
 ## seo-vs-ppc-for-b2b / b2b-chatgpt-3pl-shortlist.jpg
 Status: Done (04/11/2026)
