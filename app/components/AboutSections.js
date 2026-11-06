@@ -5,7 +5,7 @@ import TeamRail from "./TeamRail";
 const TEAM = [
   { name: "Kriti Kumari", role: "Business Owner", img: "/Team/Kriti.jpeg", li: "https://www.linkedin.com/in/kritikumarii/", p: "Digital strategist across social, SEO and storytelling. Blends creativity with analysis to help brands stand out through authentic, human-centered communication." },
   { name: "Simran Gupta", role: "SEO - Data & Marketing Analyst", img: "/Team/Simran gupta.jpeg", li: "https://www.linkedin.com/in/simran-gupta16/", p: "Brings data-led SEO and marketing insight to turn performance into clear growth decisions." },
-  { name: "Gauri Pandey", role: "PR & Reputation Management", img: "/Team/gauri pandey.jpg", li: "https://www.linkedin.com/in/gauri-pandey-digital-strategist/", p: "Shapes narratives and protects brand reputation with thoughtful, high-impact communication." },
+  { name: "Auberon Mansfield", role: "Business Associate", img: "/Team/Auberon Mansfield.jpeg", li: "https://www.linkedin.com/in/auberon-mansfield-35b7b5151/", p: "Driving business growth through strategic partnerships, client relationships, and operational excellence." },
   { name: "Sana Fathima", role: "Developer", img: "/Team/Sana.jpeg", li: "https://www.linkedin.com/in/sana-fathima-060396342/", p: "Builds and maintains the sites behind the strategy. Turns design and content decisions into fast, accessible pages that hold up in search." },
   { name: "Meera Singh", role: "PR Management", img: "/Team/Meera singh.jpeg", p: "Builds trusted relationships with the right audiences and turns important stories into clear, credible conversations that strengthen a brand's reputation." },
 ];
