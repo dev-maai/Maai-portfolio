@@ -46,7 +46,7 @@ export default function SignalsBanner() {
       </div>
 
       <div className="wrap sig-banner-inner">
-        <a className="sb-cta reveal" href="/#contact">
+        <a className="sb-cta reveal" href="/book">
           Book a complimentary call <span aria-hidden="true">→</span>
         </a>
       </div>

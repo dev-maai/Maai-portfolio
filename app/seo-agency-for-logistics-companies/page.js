@@ -162,7 +162,7 @@ export default function LogisticsPage() {
               shortlist across search engines and AI answer engines.
             </p>
             <div className="scx-hero-cta">
-              <a className="btn amber" href="/#contact">Get in touch.</a>
+              <a className="btn amber" href="/book">Get in touch.</a>
             </div>
           </div>
           <div className="scx-hero-media reveal">

@@ -1,6 +1,8 @@
 /* Served by Next.js at /sitemap.xml. Keep the case-study slugs in sync with
    the CASES keys in app/case-studies/[slug]/page.js, and the base URL in sync
    with app/robots.js. */
+import { POSTS } from "./lib/posts";
+
 const BASE_URL = "https://www.maai.agency";
 
 const CASE_STUDY_SLUGS = [
@@ -16,6 +18,8 @@ export default function sitemap() {
   const staticRoutes = [
     { path: "", priority: 1, changeFrequency: "weekly" },
     { path: "/about", priority: 0.8, changeFrequency: "monthly" },
+    { path: "/insights", priority: 0.8, changeFrequency: "weekly" },
+    { path: "/book", priority: 0.7, changeFrequency: "monthly" },
     { path: "/fit-check", priority: 0.7, changeFrequency: "monthly" },
     {
       path: "/seo-agency-for-logistics-companies",
@@ -45,5 +49,12 @@ export default function sitemap() {
     priority: 0.8,
   }));
 
-  return [...staticRoutes, ...caseStudyRoutes];
+  const insightRoutes = POSTS.map((p) => ({
+    url: `${BASE_URL}/insights/${p.slug}`,
+    lastModified: new Date(p.date),
+    changeFrequency: "monthly",
+    priority: 0.7,
+  }));
+
+  return [...staticRoutes, ...caseStudyRoutes, ...insightRoutes];
 }

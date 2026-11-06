@@ -4,6 +4,7 @@
 export const NAV_LINKS = [
   { label: "Why organic", href: "/#thesis", id: "thesis" },
   { label: "Case studies", href: "/#values", id: "values" },
+  { label: "Insights", href: "/insights", id: "__insights" },
   { label: "About", href: "/about", id: "__about" },
 ];
 

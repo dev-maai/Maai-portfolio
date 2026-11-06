@@ -1,0 +1,58 @@
+/* ============================================================
+   BOOK A CALL — intro on the left, one card (details + calendar) on the right.
+   ============================================================ */
+.bk-page{background:var(--paper);color:var(--ink)}
+.bk-wrap{max-width:var(--max);margin:0 auto;padding:clamp(48px,7vw,80px) var(--pad) 96px;
+  display:flex;flex-wrap:wrap;gap:56px;align-items:flex-start}
+
+.bk-intro{flex:1 1 360px;min-width:0;display:flex;flex-direction:column;gap:24px;position:sticky;top:110px}
+.bk-intro h1{margin:0;font-family:var(--font-display);font-weight:600;font-size:clamp(38px,4.6vw,52px);line-height:1.08;letter-spacing:-.03em}
+.bk-lead{margin:0;font-size:19px;line-height:1.6;color:var(--sage)}
+.bk-points{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:18px}
+.bk-points li{display:flex;gap:14px;align-items:flex-start}
+.bk-points svg{width:22px;height:22px;flex:none;color:var(--amber);margin-top:2px}
+.bk-points div{display:flex;flex-direction:column;gap:2px}
+.bk-points span{font-size:15px;color:var(--sage)}
+.bk-proof{display:flex;flex-direction:column;gap:8px;padding:22px 24px;border:1px solid var(--line);border-radius:var(--radius);
+  background:var(--surface);text-decoration:none;color:var(--ink);transition:border-color .3s var(--ease)}
+.bk-proof:hover{border-color:var(--pine)}
+.bk-proof-tag{font-family:var(--font-mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--sage)}
+.bk-proof-title{font-family:var(--font-display);font-size:17px;font-weight:600;line-height:1.4}
+.bk-proof-go{font-size:14px;font-weight:600}
+.bk-alt{margin:0;font-size:14px;color:var(--sage)}
+
+.bk-card{flex:1 1 560px;min-width:0;border:1px solid var(--line);border-radius:var(--radius);background:var(--surface);
+  padding:clamp(22px,3vw,32px);display:flex;flex-direction:column;gap:28px}
+.bk-part{display:flex;flex-direction:column;gap:18px}
+.bk-part fieldset{border:0;margin:0;padding:0;min-width:0;display:flex;flex-direction:column;gap:16px}
+.bk-step{display:flex;align-items:center;gap:12px}
+.bk-step span{width:26px;height:26px;border-radius:50%;background:#0E2A1E;color:#F7F7F2;font-size:13px;font-weight:600;
+  display:flex;align-items:center;justify-content:center}
+.bk-step h2{margin:0;font-family:var(--font-display);font-size:20px;font-weight:600}
+.bk-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.bk-field{display:flex;flex-direction:column;gap:6px}
+.bk-field label{font-size:14px;font-weight:500}
+.bk-field input,.bk-field select,.bk-field textarea{font:15px var(--font-body);min-height:46px;padding:0 14px;
+  border:1px solid var(--line);border-radius:10px;background:var(--surface);color:var(--ink)}
+.bk-field textarea{padding:12px 14px;resize:vertical}
+.bk-field select{-webkit-appearance:none;appearance:none;padding-right:40px;cursor:pointer;
+  background:var(--surface) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8' fill='none' stroke='%235E6B60' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M1 1.5l5 5 5-5'/%3E%3C/svg%3E") no-repeat right 14px center}
+.bk-field input:focus,.bk-field select:focus,.bk-field textarea:focus{outline:2px solid var(--pine);outline-offset:1px}
+.bk-hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+.bk-turnstile{min-height:65px}
+.bk-error{margin:0;font-size:14px;color:#B4234F}
+.bk-ok{margin:0;font-size:15px;font-weight:600;color:var(--pine)}
+.bk-submit{align-self:stretch;justify-content:center;text-align:center}
+.bk-submit:disabled{opacity:.5;cursor:not-allowed}
+.bk-part fieldset:disabled input,.bk-part fieldset:disabled select,.bk-part fieldset:disabled textarea{opacity:.7}
+.bk-divider{height:1px;background:var(--line)}
+
+.bk-cal{border:1px solid var(--line);border-radius:14px;overflow:hidden;min-height:180px;background:var(--panel)}
+.bk-cal.is-open{background:#fff}
+.bk-cal iframe{display:block;width:100%;height:640px;border:0}
+.bk-cal-lock{min-height:180px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;padding:28px;text-align:center}
+.bk-cal-lock p{margin:0;font-weight:600}
+.bk-cal-lock .bk-cal-sub{font-weight:400;font-size:14px;color:var(--sage)}
+
+@media(max-width:900px){.bk-intro{position:static}}
+@media(max-width:560px){.bk-grid{grid-template-columns:1fr}}

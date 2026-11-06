@@ -1,0 +1,179 @@
+AEO/GEO for hyperlocal business (Clinics, Restaurants, Shops)
+I did some test runs for hyperlocal businesses. I noticed that brand visibility is highly concentrated around IP address/location because I was getting a list of only 5 businesses near me. Even if a business was close, it was still not recommended.
+
+ChatGPT was giving a map view for almost all responses, but AI Mode and Gemini were giving a list of the nearest-first order.
+one thing that interesting is GEO tools will only work for citation finding and "NAP" Update.
+
+How do you optimize for this? Is anyone else facing the same thing?
+
+
+Upvote
+17
+
+Downvote
+
+13
+Go to comments
+
+1
+Repost
+
+Share
+Join the conversation
+
+Sort by:
+
+Best
+
+Search Comments
+Expand comment search
+Comments Section
+nazran7
+•
+1mo ago
+Yes. For local-intent prompts, AI Mode and Gemini are largely pulling from Google's local data, so the result behaves a lot like the map pack. Proximity first, then relevance and prominence. ChatGPT's map view works similarly off its own local data. That's why a check from your own IP only tells you what's recommended from where you're standing. To track properly, you need to run the same prompts from multiple locations across the business's service area, the same idea as grid tracking for the map pack.
+
+Being close but still not recommended usually comes down to relevance and prominence. The businesses that got picked over it most likely have better-matched categories, more complete services and attributes, and more recent reviews. That gap is the thing to investigate.
+
+I'd push back a little on GEO only being useful for citations and NAP. NAP consistency is the baseline, but there are real levers beyond it:
+
+Review content, not just rating. Local prompts usually carry modifiers like "kid friendly," "accepts insurance," "open late," or "good for groups." The engines match those against what reviewers actually wrote. A clinic whose reviews mention "same-day appointments" gets picked for that prompt over one with a higher rating and generic reviews.
+
+Profile completeness. Secondary categories, the services list, attributes, menus and products all give the engine something to match a specific prompt against. Most local profiles leave half of this empty.
+
+Local roundups. "Best dentists in [area]" articles, local news, Yelp and TripAdvisor get cited a lot, especially in ChatGPT answers. Getting onto the pages that already rank for those roundups is often faster than anything on the business's own site.
+
+To diagnose a specific business, take 10 real prompts with modifiers and run them from 3-4 points across its service area. Then look at the businesses that do get recommended and compare their categories, attributes and review content against the business you're working on. The gap usually shows up quickly.
+
+
+Upvote
+2
+
+Downvote
+
+Reply
+
+Award
+
+Share
+
+Extreme_One_7631
+OP
+•
+1mo ago
+Yes, i did compare and found lot of gaps / points that I was consider less impacting.
+
+
+Upvote
+1
+
+Downvote
+
+Reply
+
+Award
+
+Share
+
+BeautifulDesign2928
+•
+1mo ago
+Proximity is only part of it, and relevancy is the other main factor to focus on when optimizing for maps. A close business can still get skipped if the AI can't tell clearly what it offers. How are AI and other crawlers finding your information, and how are you feeding it to them? Have you done any posting, product listings or profile enhancement on your GBP?
+
+
+Upvote
+1
+
+Downvote
+
+Reply
+
+Award
+
+Share
+
+u/kamilbuilds avatar
+kamilbuilds
+•
+1mo ago
+Seeing the same thing. A few things that helped me make sense of it:
+
+"Near me" and city-named questions behave differently. "Best dentist near me" gets resolved from the user's location, so results shift with IP and you mostly see the closest few. "Best implant dentist in Austin" depends much less on where you are. When testing local businesses, write the questions with the city or neighborhood in them, otherwise runs aren't comparable.
+
+For AI Mode and AI Overviews, Google's own guide says Business Profile details help businesses show up in AI responses, so categories, hours, photos and reviews there matter a lot.
+
+You can't optimize proximity, but you can work on what separates equally close businesses: consistent name, address and phone across directories, review volume and recency, and specific pages per service and location that answer real questions (prices, procedures, insurance, parking).
+
+Test from more than one location, or with the location stated, before concluding a business "isn't recommended". Being sixth in a radius isn't the same as being invisible.
+
+Did you notice any difference in ChatGPT between answers with web search on and off?
+
+
+Upvote
+1
+
+Downvote
+
+Reply
+
+Award
+
+Share
+
+Extreme_One_7631
+OP
+•
+1mo ago
+no difference other than citations.
+
+
+Upvote
+1
+
+Downvote
+
+Reply
+
+Award
+
+Share
+
+ProfessionalRip3220
+•
+1mo ago
+I've been running into the exact same wall with ChatGPT. It heavily over-indexes on IP proximity for local queries, almost entirely ignoring broader authority if a competitor is just physically closer. Standard NAP updates definitely aren't cutting it for AI models anymore. I started using Netranks to actually track how these shifts happen across different AI engines, and combining structured data optimization with highly localized PR seems to be the only way to slightly expand that radius. What kind of local businesses are you testing this on right now?
+
+
+Upvote
+1
+
+Downvote
+
+Reply
+
+Award
+
+Share
+
+Extreme_One_7631
+OP
+•
+1mo ago
+Restaurant in NJ, Counselor in Dallas, Roofing contractor
+
+
+Upvote
+1
+
+Downvote
+
+Reply
+
+Award
+
+Share
+
+Silent-Oil-6999
+•
+20d ago
+For local businesses, I have noticed few things like Google Business profiles, reviews, loc

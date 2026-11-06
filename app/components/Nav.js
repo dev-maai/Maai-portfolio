@@ -83,10 +83,10 @@ export default function Nav() {
                 )}
               </Fragment>
             ))}
-            <a className="btn amber nav-cta-m" href="/#contact">Book a strategy call</a>
+            <a className="btn amber nav-cta-m" href="/book">Book a strategy call</a>
           </nav>
           <div className="nav-right">
-            <a className="btn amber nav-cta-d" href="/#contact">Book a strategy call</a>
+            <a className="btn amber nav-cta-d" href="/book">Book a strategy call</a>
             <button className="nav-burger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="navmenu">
               <span></span><span></span><span></span>
             </button>
