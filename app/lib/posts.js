@@ -27,6 +27,1687 @@ export const AUTHORS = {
    To preview drafts locally, run the dev server with INSIGHTS_PREVIEW_DRAFTS=1. */
 const ALL_POSTS = [
   {
+    "slug": "track-ai-traffic",
+    "seoTitle": "How to Track AI Traffic in Google Analytics 4 and Search Console (2027)",
+    "title": "How to Track AI Traffic for Free in 2027: Google Analytics 4 and Search Console Guide",
+    "description": "How to track AI traffic for free in 2027: set up Google Analytics 4 and Search Console to measure visits from ChatGPT, Claude, Perplexity and Google AI Overviews.",
+    "date": "2026-11-09",
+    "author": "team",
+    "topics": [
+      "AEO/GEO"
+    ],
+    "industries": [],
+    "image": "/removals/foundation-dashboard.jpg",
+    "intro": "For twenty years, getting found online meant ranking in a list of ten blue links and waiting for the clicks. That has changed. Your buyers now ask ChatGPT, Claude and Perplexity for answers, and Google shows an AI Overview above its results for millions of searches. Many of those people get what they need without visiting any website. Others arrive having already read about you in an AI answer. This guide explains how search traffic has shifted, why your impressions may be rising while your clicks fall, and [how to track AI traffic on your website](/insights/track-ai-traffic) for free with Google Analytics 4 (GA4) and Google Search Console.",
+    "body": [
+      {
+        "type": "h2",
+        "text": "How has search traffic shifted to AI?"
+      },
+      {
+        "type": "p",
+        "text": "Search used to be a two-step process: type a question, then click a result to find the answer. AI has merged those steps. People now ask AI assistants full questions, read AI Overviews at the top of Google, or have a whole conversation in Google's AI Mode, and the answer arrives without a click."
+      },
+      {
+        "type": "p",
+        "text": "The effect on clicks is now well measured:"
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Research by [Pew Research Center](https://www.pewresearch.org/short-reads/2025/07/22/google-users-are-less-likely-to-click-on-links-when-an-ai-summary-appears-in-the-results/) found Google users clicked a traditional result in 8% of visits when an AI summary appeared, compared with 15% when it did not."
+          },
+          {
+            "text": "[Ahrefs](https://ahrefs.com/blog/ai-overviews-reduce-clicks/) measured a 34.5% drop in click-through rate for the top-ranking page when an AI Overview was present."
+          },
+          {
+            "text": "[Seer Interactive](https://www.seerinteractive.com/insights/aio-impact-on-google-ctr-september-2025-update) reported drops as high as 61%."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "For your business, this has two sides. Simple questions, such as \"what is a 3PL?\", now send far fewer visitors, because the answer sits on Google. But people who do click through from an AI answer or an AI assistant tend to arrive further along: they have already compared options and often know your name. Fewer visits, but better-informed ones, is the pattern most businesses now see."
+      },
+      {
+        "type": "quote",
+        "text": "Yes it's dropping organic.",
+        "author": "One business owner",
+        "where": "r/digital_marketing",
+        "href": "https://www.reddit.com/r/digital_marketing/comments/1tvos1i/discussion_is_google_killing_organic_traffic_with/"
+      },
+      {
+        "type": "h2",
+        "text": "Why are impressions rising while clicks fall?"
+      },
+      {
+        "type": "p",
+        "text": "Four terms explain what you see in Search Console:"
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Impressions: how many times your page appeared in Google's results."
+          },
+          {
+            "text": "Clicks: how many times someone clicked through to your page."
+          },
+          {
+            "text": "CTR (click-through rate): clicks divided by impressions."
+          },
+          {
+            "text": "Average position: where your page ranked, on average."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "When an AI Overview appears, your page can still rank in the same position and still be seen, so impressions hold steady or rise. But the AI answer above it satisfies many searchers, so fewer of them click, and CTR falls. SEOs call this gap between impressions and clicks \"the great decoupling\"."
+      },
+      {
+        "type": "image",
+        "src": "/insights/track-1.jpg",
+        "alt": "Google Search Console performance report with total clicks, impressions, average CTR and average position over 16 months",
+        "caption": "Search Console Performance report: impressions and clicks over time."
+      },
+      {
+        "type": "p",
+        "text": "Seeing this pattern does not mean your SEO has failed. If impressions and position hold while CTR falls, the results page has changed around you. The useful question becomes which pages are affected, and whether the searches behind them still matter to your business. This guide shows you how to answer that with free tools."
+      },
+      {
+        "type": "h2",
+        "text": "What counts as AI traffic?"
+      },
+      {
+        "type": "p",
+        "text": "AI traffic comes in three forms, and each shows up differently in your data."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Visits from AI assistants: people who click a link in ChatGPT, Claude, Perplexity, Gemini or Copilot. These usually appear in GA4 as referrals from chatgpt.com, claude.ai, perplexity.ai, gemini.google.com or copilot.microsoft.com."
+          },
+          {
+            "text": "Clicks from Google AI Overviews and AI Mode: people who click a source inside Google's AI answers. These appear as normal Google organic traffic."
+          },
+          {
+            "text": "Invisible AI influence: people who read an AI answer, then later search your brand name or type your web address. These appear as branded search or direct visits, with no link back to the AI tool."
+          }
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Why is AI traffic hard to track?"
+      },
+      {
+        "type": "p",
+        "text": "Three things make AI traffic harder to see than other channels."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Missing referrers: visits from AI mobile apps, or from links people copy and paste, often arrive with no referrer and land in your Direct traffic."
+          },
+          {
+            "text": "Blended Google data: Google includes AI Overview and AI Mode clicks and impressions in its normal search data, with no separate filter."
+          },
+          {
+            "text": "No click, no record: when an AI answer names your business but nobody clicks, analytics records nothing."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "No free tool solves all three, but two free Google tools cover most of it. GA4 shows who visits from AI assistants, which pages they land on and whether they enquire. Search Console shows which searches you appear for, and where impressions and clicks are moving apart. Set up both properly and you have a reliable picture."
+      },
+      {
+        "type": "h2",
+        "text": "Free tools for tracking AI traffic on your website"
+      },
+      {
+        "type": "h3",
+        "text": "How to set up Google Analytics 4, step by step"
+      },
+      {
+        "type": "p",
+        "text": "GA4 is Google's free analytics tool. If you already have it, check each step below anyway, as several settings that matter for AI tracking are off by default."
+      },
+      {
+        "type": "h3",
+        "text": "Step 1: Create your account and property"
+      },
+      {
+        "type": "p",
+        "text": "The account holds your business, and the property holds the data for your website."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Go to analytics.google.com and sign in with your business Google account."
+          },
+          {
+            "text": "Select \"Start measuring\" and enter an account name, usually your business name."
+          },
+          {
+            "text": "Choose your data-sharing settings and continue."
+          },
+          {
+            "text": "Enter a property name, such as \"Company website\"."
+          },
+          {
+            "text": "Set the reporting time zone and currency to match your business, so daily figures and revenue line up with your own records."
+          },
+          {
+            "text": "Enter your industry and business size, choose the objectives that fit (for most service businesses, \"Generate leads\"), and accept the terms."
+          }
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "Step 2: Create a web data stream"
+      },
+      {
+        "type": "p",
+        "text": "A data stream connects your website to the property."
+      },
+      {
+        "type": "image",
+        "src": "/insights/track-2.jpg",
+        "alt": "GA4 Data streams screen showing the web stream for the MAAI website",
+        "caption": "GA4 Admin, Data streams: check your web stream is collecting data."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Choose \"Web\" as the platform."
+          },
+          {
+            "text": "Enter your website address and a stream name."
+          },
+          {
+            "text": "Leave Enhanced Measurement switched on. It tracks page views, scrolls, outbound clicks, site search, form interactions, video engagement and file downloads without extra code."
+          },
+          {
+            "text": "Select \"Create stream\" and copy your Measurement ID, which starts with \"G-\"."
+          }
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "Step 3: Install the Google tag on your website"
+      },
+      {
+        "type": "p",
+        "text": "The Google tag is a short piece of code that sends visit data to GA4. Choose the method that suits your website."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Manually: copy the tag from \"View tag instructions\" and paste it straight after the opening <head> tag on every page."
+          },
+          {
+            "text": "Google Tag Manager: create a Google tag in Tag Manager, add your Measurement ID, set it to fire on all pages and publish."
+          },
+          {
+            "text": "WordPress: install Google's Site Kit plugin and connect Analytics."
+          },
+          {
+            "text": "Shopify: install the Google and YouTube app and connect your GA4 property."
+          },
+          {
+            "text": "Wix and Squarespace: add your Measurement ID in the site's marketing or external services settings."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Use only one method, as installing the tag twice counts every visit twice."
+      },
+      {
+        "type": "h3",
+        "text": "Step 4: Check the tag is working"
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Visit your website, then open Reports, then Realtime in GA4. You should see yourself as an active user within a minute."
+          },
+          {
+            "text": "For more detail, use Tag Assistant (tagassistant.google.com) with your site, then open Admin, then DebugView, to watch each event arrive."
+          },
+          {
+            "text": "Standard reports fill in within 24 to 48 hours."
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "src": "/insights/track-3.jpg",
+        "alt": "GA4 Realtime overview showing active users on a world map",
+        "caption": "GA4 Realtime overview, useful for checking tracking works."
+      },
+      {
+        "type": "h3",
+        "text": "Step 5: Extend data retention to 14 months"
+      },
+      {
+        "type": "p",
+        "text": "By default, GA4 keeps detailed event data for only two months, which limits the comparisons you can run in Explorations. This is one of the most commonly missed settings."
+      },
+      {
+        "type": "image",
+        "src": "/insights/track-4.jpg",
+        "alt": "GA4 Data retention settings with event data retention and user data retention options",
+        "caption": "GA4 Data retention settings. Set event data retention to 14 months."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Go to Admin, then Data collection and modification, then Data retention."
+          },
+          {
+            "text": "Change \"Event data retention\" from 2 months to 14 months and save."
+          }
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "Step 6: Filter out your own team's visits"
+      },
+      {
+        "type": "p",
+        "text": "Visits from your office can inflate your figures and hide real changes in AI traffic."
+      },
+      {
+        "type": "image",
+        "src": "/insights/track-5.jpg",
+        "alt": "GA4 Data filters screen with an Internal Traffic filter set to Exclude",
+        "caption": "GA4 Data filters: exclude internal traffic."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Go to Admin, then Data streams, select your stream, then Configure tag settings, then Show more, then Define internal traffic."
+          },
+          {
+            "text": "Create a rule with your office IP address (search \"what is my IP\" from the office network to find it)."
+          },
+          {
+            "text": "Go to Admin, then Data filters, open the \"Internal Traffic\" filter and change it from Testing to Active."
+          }
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "Step 7: Set up key events for enquiries"
+      },
+      {
+        "type": "p",
+        "text": "Key events (formerly called conversions) let you see whether AI visitors take action, which matters more than how many arrive."
+      },
+      {
+        "type": "image",
+        "src": "/insights/track-6.jpg",
+        "alt": "GA4 Events screen where you mark events as key events with a star",
+        "caption": "GA4 Events: mark enquiry events as key events."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Decide what counts as an enquiry: a form submission, a booking, a phone click or an email click."
+          },
+          {
+            "text": "If your forms lead to a thank-you page, go to Admin, then Events, then Create event, and create an event such as \"generate_lead\" when page_location contains \"/thank-you\"."
+          },
+          {
+            "text": "Go to Admin, then Key events, and mark that event as a key event."
+          },
+          {
+            "text": "Test it by submitting your own form and checking DebugView."
+          }
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "Step 8: Set up Consent Mode for UK and EU visitors"
+      },
+      {
+        "type": "p",
+        "text": "Under UK and EU privacy rules, you need consent before setting analytics cookies. Consent Mode tells GA4 whether each visitor has agreed, and lets Google model some of the activity of visitors who decline, so your figures are less understated."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Choose a cookie banner (consent management platform) certified by Google."
+          },
+          {
+            "text": "Turn on its Google Consent Mode integration, ideally the \"advanced\" setting."
+          },
+          {
+            "text": "Check in Tag Assistant that consent signals are sent before the Google tag fires."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Without consent mode, your GA4 figures for UK and EU visitors can look much lower than reality, so keep this in mind when you compare channels."
+      },
+      {
+        "type": "h3",
+        "text": "Step 9: Link Google Search Console"
+      },
+      {
+        "type": "p",
+        "text": "Linking the two tools brings your search data into GA4, so you can see search queries and landing pages alongside visits and enquiries."
+      },
+      {
+        "type": "image",
+        "src": "/insights/track-7.jpg",
+        "alt": "GA4 Search Console links screen with the Link button",
+        "caption": "GA4 Search Console links: connect Search Console to GA4."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Go to Admin, then Product links, then Search Console links, then Link."
+          },
+          {
+            "text": "Choose your Search Console property and your web data stream, then submit."
+          },
+          {
+            "text": "Go to Reports, then Library, find the \"Search Console\" collection and publish it so it appears in your menu."
+          }
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "How to set up Google Search Console to track AI performance"
+      },
+      {
+        "type": "p",
+        "text": "Search Console is Google's free tool for seeing how your site performs in Google Search, including AI Overviews and AI Mode, which Google counts within its normal search data."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Sign in at search.google.com/search-console and select \"Add property\"."
+          },
+          {
+            "text": "Choose a Domain property, which covers every version of your site (www, non-www, http and https, and subdomains)."
+          },
+          {
+            "text": "Verify ownership by adding the TXT record Google gives you to your domain's DNS settings. If you can't edit DNS, use a URL-prefix property and verify with the HTML tag or your GA4 account."
+          },
+          {
+            "text": "Go to Sitemaps and submit your sitemap address, usually yoursite.com/sitemap.xml."
+          },
+          {
+            "text": "Link Search Console to GA4, as in Step 9 above."
+          },
+          {
+            "text": "Go to Settings, then Users and permissions, and add team members with full or restricted access."
+          },
+          {
+            "text": "Bookmark the filtered reports you will reuse for AI tracking (set out in the next section). Search Console keeps filters in the page address, so a bookmark saves the view."
+          }
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "How to track visits from AI assistants in GA4"
+      },
+      {
+        "type": "h3",
+        "text": "1. Find AI referrals in the Traffic acquisition report"
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Go to Reports, then Acquisition, then Traffic acquisition."
+          },
+          {
+            "text": "Change the main dimension to \"Session source / medium\"."
+          },
+          {
+            "text": "Type \"chatgpt\" in the search box to see ChatGPT visits, then repeat for \"claude\", \"perplexity\", \"gemini\" and \"copilot\"."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "ChatGPT adds a tracking tag (utm_source=chatgpt.com) to many of its links, so its visits are usually labelled clearly."
+      },
+      {
+        "type": "h3",
+        "text": "2. Filter all AI sources at once with a regex"
+      },
+      {
+        "type": "p",
+        "text": "A regex (regular expression) is a short pattern that matches several sources at once. Add a filter on \"Session source\" that matches this regex:"
+      },
+      {
+        "type": "p",
+        "text": "chatgpt\\.com|chat\\.openai\\.com|claude\\.ai|perplexity|gemini\\.google\\.com|copilot\\.microsoft\\.com|deepseek|grok|meta\\.ai|mistral"
+      },
+      {
+        "type": "p",
+        "text": "Update the pattern as new AI tools appear."
+      },
+      {
+        "type": "h3",
+        "text": "3. Create an \"AI assistants\" channel"
+      },
+      {
+        "type": "p",
+        "text": "By default, GA4 lumps AI visits into Referral, where they get lost. A custom channel group gives them their own line in every report."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Go to Admin, then Data display, then Channel groups, then Create new channel group (or copy the default group)."
+          },
+          {
+            "text": "Add a new channel called \"AI assistants\" with the condition: Source matches regex, using the pattern above."
+          },
+          {
+            "text": "Move \"AI assistants\" above \"Referral\" in the list. GA4 applies channels in order, so this step is essential."
+          },
+          {
+            "text": "Save, then select your new channel group in the Traffic acquisition report."
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "src": "/insights/track-8.jpg",
+        "alt": "GA4 Traffic acquisition report by session primary channel group, including an AI Assistant row",
+        "caption": "GA4 Traffic acquisition by channel group, with AI tools in their own row."
+      },
+      {
+        "type": "h3",
+        "text": "4. See which pages AI visitors land on, and whether they enquire"
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Go to Explore and create a Free form exploration."
+          },
+          {
+            "text": "Add the dimensions \"Session source / medium\" and \"Landing page + query string\"."
+          },
+          {
+            "text": "Add the metrics Sessions, Engaged sessions, Engagement rate and Key events."
+          },
+          {
+            "text": "Filter Session source with the AI regex."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "This shows the pages AI tools send people to. These are usually the pages AI assistants cite most, and the ones worth keeping sharp."
+      },
+      {
+        "type": "h3",
+        "text": "5. Compare AI visitors with organic visitors"
+      },
+      {
+        "type": "p",
+        "text": "Compare engagement rate and key event rate for the \"AI assistants\" channel against \"Organic search\". If AI visitors enquire at a higher rate, as many businesses find, that is your case for investing in AEO even while the numbers are small."
+      },
+      {
+        "type": "quote",
+        "text": "Volume is small, but engagement seems surprisingly strong.",
+        "author": "One marketer",
+        "where": "r/digital_marketing",
+        "href": "https://www.reddit.com/r/digital_marketing/comments/1r6xi3s/ai_brand_visibility_tracking_chatgpt_referral/"
+      },
+      {
+        "type": "h2",
+        "text": "How to track Google AI Overviews and AI Mode in Search Console"
+      },
+      {
+        "type": "p",
+        "text": "Search Console has no AI Overview filter, so you track Google's AI features through patterns in your data."
+      },
+      {
+        "type": "image",
+        "src": "/insights/track-9.jpg",
+        "alt": "Search Console Generative AI features performance report showing impressions and top pages",
+        "caption": "Search Console report for Google's generative AI features, with impressions by page."
+      },
+      {
+        "type": "h3",
+        "text": "1. Filter question-style searches"
+      },
+      {
+        "type": "p",
+        "text": "Almost all searches that trigger AI Overviews are informational, according to [Ahrefs](https://ahrefs.com/blog/ai-overview-triggers/). Filtering for question-style searches isolates the ones most likely to show an AI Overview."
+      },
+      {
+        "type": "image",
+        "src": "/insights/track-10.jpg",
+        "alt": "Google Search Console performance report showing 1.43k clicks, 271k impressions, 0.5% CTR and average position 8.2",
+        "caption": "Rising impressions with flat clicks in Search Console."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Go to Performance, then Search results."
+          },
+          {
+            "text": "Select \"Add filter\", then Query, then \"Custom (regex)\"."
+          },
+          {
+            "text": "Use a pattern such as: ^(what|how|why|when|which|who|is|are|can|does|do|should)\\b|\\b(vs|versus|difference|meaning|guide)\\b"
+          }
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "2. Find pages where CTR falls but position holds"
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Select Date, then Compare, and compare the last three months with the same period last year."
+          },
+          {
+            "text": "Turn on all four metrics: clicks, impressions, CTR and position."
+          },
+          {
+            "text": "Open the Pages tab and look for pages where position and impressions are stable or rising, but CTR has dropped."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "These pages are likely appearing under AI Overviews. Search the main queries yourself to confirm, and note whether your page is one of the cited sources."
+      },
+      {
+        "type": "h3",
+        "text": "3. Decide which searches are still worth winning"
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Keep defending: comparison, cost, \"best\" and supplier searches, where buyers still click to check details."
+          },
+          {
+            "text": "Accept the change: simple definition searches that the AI answer now covers in full. Aim to be cited there for visibility rather than clicks."
+          },
+          {
+            "text": "Rework: pages losing clicks on valuable searches, by answering the question earlier and covering the follow-up questions."
+          }
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "4. Optional: capture AI Overview clicks with text fragments"
+      },
+      {
+        "type": "p",
+        "text": "Google sometimes adds a text fragment (#:~:text=) to links from AI Overviews, which scrolls the visitor to the quoted passage. GA4 cannot see this by default, but with a custom JavaScript variable in Google Tag Manager you can pass it to GA4 as a custom dimension. Analytics consultant Dana Di Tomaso has published a step-by-step method. Note that clicks from featured snippets and People Also Ask can use the same fragment, so treat the result as an estimate."
+      },
+      {
+        "type": "h2",
+        "text": "How to check your rankings, keywords and indexing in Search Console"
+      },
+      {
+        "type": "h3",
+        "text": "How to check your Google ranking for a keyword"
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Go to Performance, then Search results, and turn on \"Average position\"."
+          },
+          {
+            "text": "Open the Queries tab to see the searches you appear for, with clicks, impressions, CTR and position."
+          },
+          {
+            "text": "Filter by a single query to check your position for that keyword over time."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Average position is an average across every time you appeared, so it can differ from what you see when you search yourself."
+      },
+      {
+        "type": "h3",
+        "text": "Why does Google Analytics say \"keyword (not provided)\"?"
+      },
+      {
+        "type": "p",
+        "text": "Google encrypts searches, so analytics tools cannot see which keyword a visitor typed. GA4 therefore shows organic visits without the search term. Search Console is where that data lives. Once the two are linked, open the Search Console reports in GA4 (Reports, then Search Console, then Queries) to see the searches that bring people to each page. Search Console also hides some rare searches to protect privacy, so totals may not match exactly."
+      },
+      {
+        "type": "h3",
+        "text": "How to check indexing and submit a page to Google"
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Paste a page address into the URL Inspection tool at the top of Search Console."
+          },
+          {
+            "text": "Check whether the page is indexed, and whether Google can crawl it."
+          },
+          {
+            "text": "If it is new or updated, select \"Request indexing\"."
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "src": "/insights/track-11.jpg",
+        "alt": "Search Console URL Inspection result showing URL is on Google and the page is indexed",
+        "caption": "Search Console URL Inspection: check a page is indexed."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Open Indexing, then Pages, to see which pages are not indexed and why."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "A page that is not indexed cannot appear in Google's results or its AI answers, so check new pages within a few days of publishing."
+      },
+      {
+        "type": "h2",
+        "text": "How to build a free monthly AI traffic report"
+      },
+      {
+        "type": "p",
+        "text": "Looker Studio, Google's free reporting tool, connects to both GA4 and Search Console, so one dashboard can track your AI performance each month."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Go to lookerstudio.google.com and create a blank report."
+          },
+          {
+            "text": "Add GA4 and Search Console as data sources."
+          },
+          {
+            "text": "Build a page with five metrics:"
+          },
+          {
+            "text": "visits from the \"AI assistants\" channel"
+          },
+          {
+            "text": "key events from AI visitors"
+          },
+          {
+            "text": "impressions and CTR for question-style searches (using the regex filter)"
+          },
+          {
+            "text": "branded searches, a sign of invisible AI influence"
+          },
+          {
+            "text": "a simple table of your monthly manual checks of key prompts in ChatGPT, Claude and AI Overviews"
+          },
+          {
+            "text": "Set the date range to compare each month with the previous month and the same month last year."
+          }
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "What should you do with your AI traffic data?"
+      },
+      {
+        "type": "p",
+        "text": "Tracking only pays off when it changes what you do. Each month, use your report to act in four ways."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Strengthen the pages AI already sends visitors to: keep their facts current, answer questions early and make the next step clear."
+          },
+          {
+            "text": "Rework pages losing CTR on valuable searches: tighten the opening answer and cover the follow-up questions."
+          },
+          {
+            "text": "Defend comparison and cost searches, where buyers still click."
+          },
+          {
+            "text": "Grow branded search through PR and mentions, since it reflects AI influence you cannot track directly."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "For platform-specific improvements, see our guides on [how to rank in ChatGPT](/insights/how-to-rank-in-chatgpt), [how to rank in Claude](/insights/how-to-rank-in-claude) and [how to rank in AI Overviews and AI Mode](/insights/how-to-rank-in-ai-overviews)."
+      },
+      {
+        "type": "h2",
+        "text": "Paid tools to consider as your business scales"
+      },
+      {
+        "type": "p",
+        "text": "Free tools show what reaches your website. They cannot show AI mentions that never produce a click, which AI platforms cite you, how AI Mode differs from AI Overviews, or how your visibility compares with competitors. Paid AI visibility tools fill those gaps, and become worth considering when you track many topics or markets, report to a board or clients, or compete hard for AI visibility. Once you can measure it, our guide on [whether SEO can generate leads](/insights/can-seo-generate-leads) shows how to turn that traffic into enquiries."
+      },
+      {
+        "type": "p",
+        "text": "Tools worth considering include:"
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Ahrefs Brand Radar: brand mentions and citations across AI Overviews, AI Mode, ChatGPT, Perplexity and more."
+          },
+          {
+            "text": "Semrush AI Toolkit: AI visibility, mentions and sentiment alongside Semrush's SEO data."
+          },
+          {
+            "text": "Peec AI: prompt-level tracking of brand visibility across AI assistants."
+          },
+          {
+            "text": "Profound: enterprise-level AI visibility and citation tracking."
+          },
+          {
+            "text": "Otterly.AI: simpler monitoring of brand mentions and citations in AI answers."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Our upcoming guide to paid AI visibility tools compares them in detail. For the bigger picture, read our guide to [answer engine optimisation](/insights/answer-engine-optimisation)."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Is Google Analytics free?",
+        "a": "Yes. GA4 is free for almost all businesses, with no fee or payment method needed. Google also sells Google Analytics 360, a paid enterprise version with higher limits and service agreements, which only very large websites usually need."
+      },
+      {
+        "q": "How do you set up Google Search Console for a small business?",
+        "a": "Sign in with your business Google account, add your website as a Domain property and verify it through your domain's DNS settings. If your website platform makes DNS hard to reach, add a URL-prefix property and verify with your GA4 account instead. Then submit your sitemap and link Search Console to GA4. Most small businesses can do this in under 30 minutes without a developer."
+      },
+      {
+        "q": "Why do ChatGPT visits show as Direct in GA4?",
+        "a": "Visits from AI mobile and desktop apps, or from links people copy and paste, often arrive without a referrer. GA4 then records them as Direct. A rise in direct visits to deep pages, such as specific service pages, can be a sign of AI traffic."
+      },
+      {
+        "q": "How long before AI traffic shows in GA4?",
+        "a": "Visits appear in the Realtime report within seconds, and in standard reports within 24 to 48 hours. A new custom channel group applies to your data straight away in reports."
+      },
+      {
+        "q": "What is the difference between Semrush and Google Analytics?",
+        "a": "They do different jobs. Google Analytics measures real visitors to your own website: where they came from and what they did. Semrush estimates search data across the whole market, such as keyword volumes, competitors' rankings and AI visibility. Many businesses use both."
+      },
+      {
+        "q": "Are there free alternatives to Google Analytics?",
+        "a": "Yes. Options include Matomo (free to self-host), Microsoft Clarity (free session recordings and heatmaps, often used alongside GA4) and Ahrefs Web Analytics (free tier). Privacy-focused tools such as Plausible and Fathom are paid. Whichever you use, set up the same AI source filter to keep AI visits separate."
+      },
+      {
+        "q": "Does Google Search Console show AI Overview data?",
+        "a": "Yes, but blended in. Google includes impressions and clicks from AI Overviews and AI Mode in Search Console's normal performance data, without a separate filter. Use the question-search filter and CTR comparison above to spot the effect. Want help setting up AI tracking for your business? [Book a call with Team MAAI](/book)."
+      }
+    ]
+  },
+  {
+    "slug": "can-seo-generate-leads",
+    "seoTitle": "Can SEO Generate Leads? SEO, AEO and GEO for Sales in 2027",
+    "title": "Can SEO Generate Leads? How AEO and GEO Generate Sales in 2027",
+    "description": "Can SEO generate leads? How SEO, AEO and GEO bring leads and sales in 2027, by buyer stage and business type, and how to measure them.",
+    "date": "2026-11-09",
+    "author": "team",
+    "topics": [
+      "B2B",
+      "SEO - Begins"
+    ],
+    "industries": [],
+    "image": "/removals/authority.jpg",
+    "intro": "Buyers no longer wait for a sales call to learn about you. Research by 6sense found that B2B buyers make first contact 61% of the way through their buying process, and Forrester reports that 94% of B2B buyers now use AI while they buy. By the time someone fills in your form, they have already searched Google, read AI answers in ChatGPT or Google's AI Mode, compared options and formed a shortlist. Yet many business owners still believe that \"SEO brings traffic, ads bring leads\". The truth is that SEO, AEO (answer engine optimisation) and GEO (generative engine optimisation) generate leads when they are built around how buyers research and decide, and AI-referred visitors already convert at higher rates than almost any other channel. This guide explains how SEO brings leads and sales, how it has changed with AI, how to reach buyers at every touch point in your industry, and how to measure the results.",
+    "body": [
+      {
+        "type": "h2",
+        "text": "How does SEO bring leads and generate sales for a business?"
+      },
+      {
+        "type": "p",
+        "text": "SEO brings leads by putting your business in front of people at the moment they search for what you sell. When your pages rank for the questions, comparisons and services buyers search, and those pages make the next step easy, visitors become enquiries without you paying for each click."
+      },
+      {
+        "type": "p",
+        "text": "The mechanism is simple. Every search shows intent. Someone searching \"office removals cost London\" or \"best property management software for landlords\" is telling you what they need, often with a budget in mind. A page that answers that search well earns the visit, and a clear call to action turns the visit into a lead."
+      },
+      {
+        "type": "p",
+        "text": "Businesses that commit to SEO see this play out. In a long-running r/SEO discussion, a former director of digital marketing at a B2B tech company acquired for $250 million said that Google \"accounted for 99% of leads\". Another business owner in the same thread ran only SEO for a year, with no ads, and still received leads every month."
+      },
+      {
+        "type": "h3",
+        "text": "How much do big and small businesses invest in SEO compared with PPC?"
+      },
+      {
+        "type": "p",
+        "text": "Spending tells an interesting story. Businesses still put far more money into paid search than SEO:"
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Global spending on search ads reached $330 billion in 2024, according to [MAGNA](https://magnaglobal.com/wp-content/uploads/2025/02/MAGNA-Search-Report-2025-Summary95.pdf)."
+          },
+          {
+            "text": "The global SEO market was estimated at around $82 billion in 2023, according to Research and Markets."
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "src": "/insights/leads-1.jpg",
+        "alt": "Pie chart: paid search about 80% of global search spend (USD 330bn, MAGNA 2024), SEO about 20% (USD 82bn, Research and Markets 2023)",
+        "caption": "Global search spend, paid vs SEO. Approximate, different years and scopes."
+      },
+      {
+        "type": "p",
+        "text": "Small businesses follow the same pattern. In a 2025 survey by CallRail, small and medium businesses named PPC (68%) as a top spending priority, ahead of SEO (40%). In LocaliQ's 2026 report, 53% of small businesses used SEO, behind unpaid social media and social ads. Yet a 2024 Service Direct survey found that 78% of US small business marketers used SEO and 75% used paid search, so most use both."
+      },
+      {
+        "type": "p",
+        "text": "Large companies invest in SEO because organic search compounds. Paid search buys a click today; a strong page keeps bringing visitors and leads for years. Many smaller businesses lean on ads because results come faster and are easier to measure, which is exactly why SEO's lead value often goes unseen."
+      },
+      {
+        "type": "h3",
+        "text": "When can SEO generate leads on its own?"
+      },
+      {
+        "type": "p",
+        "text": "It depends on how aware your buyers are. One experienced contributor in the same Reddit thread framed it well: if buyers know their problem and know solutions exist, SEO alone can do it; if they are unaware of the problem, they \"definitely\" need other channels first."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Problem and solution aware: buyers search for providers directly. SEO and GEO can carry most of your lead generation."
+          },
+          {
+            "text": "Problem aware, solution unaware: buyers search for their problem. SEO works through educational content that introduces your solution."
+          },
+          {
+            "text": "Unaware: buyers do not search yet. You need PR, social, partnerships or ads to create demand, and SEO to capture it later."
+          }
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "What does this look like for a real B2B business?"
+      },
+      {
+        "type": "p",
+        "text": "One of our clients sells high-value corporate relocation services to companies worldwide, a sale decided by a buying group rather than one person. We built answer-first, country-specific blog posts around the exact questions those buyers and the employees moving abroad ask, written to rank in Google and be quoted in AI answers. Organic traffic grew 81% from February to June, and 100% of the client's qualified leads in that period came directly through those country blog posts."
+      },
+      {
+        "type": "h2",
+        "text": "How has SEO evolved with AEO and GEO?"
+      },
+      {
+        "type": "p",
+        "text": "SEO used to mean ranking in a list of ten blue links. In 2027, a growing share of searches end with an AI-written answer, and both how people search and how answers are chosen have changed."
+      },
+      {
+        "type": "h3",
+        "text": "How has people's search behaviour changed?"
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Longer questions: people now type or speak full questions, such as \"which removals company in Leeds handles office moves over a weekend?\", instead of \"removals Leeds\"."
+          },
+          {
+            "text": "Conversation instead of searching: buyers ask follow-up questions in ChatGPT, Claude or Google's AI Mode, refining their shortlist in one session."
+          },
+          {
+            "text": "Answers without clicks: research by [Pew Research Center](https://www.pewresearch.org/short-reads/2025/07/22/google-users-are-less-likely-to-click-on-links-when-an-ai-summary-appears-in-the-results/) found Google users clicked a traditional result in 8% of visits when an AI summary appeared, compared with 15% without one."
+          },
+          {
+            "text": "Research spread across platforms: buyers check YouTube, Reddit, review sites and LinkedIn alongside Google and AI tools."
+          },
+          {
+            "text": "Later contact: buyers reach out once they have already narrowed their options, so the shortlist is formed in search and AI answers."
+          }
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "How do AI tools choose which businesses to recommend?"
+      },
+      {
+        "type": "p",
+        "text": "When a buyer asks an AI tool a question, the tool usually searches the web first and writes its answer from what it finds, a method called retrieval-augmented generation (RAG). It also uses query fan-out, splitting one question into several smaller searches. \"Best hotel for a corporate retreat near Edinburgh\" might become searches for meeting room capacity, retreat packages, reviews and prices."
+      },
+      {
+        "type": "p",
+        "text": "The tool then picks the passages that answer each part most clearly, and favours businesses that several trusted sources agree on. That is why ranking well, answering questions directly and being mentioned on other sites all feed AI visibility. In a study of 1.9 million citations, [Ahrefs](https://ahrefs.com/blog/search-rankings-ai-citations/) found 76% of pages cited in Google's AI Overviews already ranked in the top 10."
+      },
+      {
+        "type": "h3",
+        "text": "What do AEO and GEO add to SEO?"
+      },
+      {
+        "type": "p",
+        "text": "SEO earns you a place in the results. AEO and GEO earn you a place in the answer: being cited as a source and named as a recommended business. They rely on the same foundation, with extra focus on answer-first content, entity consistency and third-party mentions. Our guide to [answer engine optimisation](/insights/answer-engine-optimisation) explains how it works in depth."
+      },
+      {
+        "type": "h2",
+        "text": "How to use AEO and GEO for your business"
+      },
+      {
+        "type": "p",
+        "text": "Every buyer moves through three stages, and the searches and AI prompts they use change at each one."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "TOFU (top of funnel): the buyer notices a problem and researches it. They need education."
+          },
+          {
+            "text": "MOFU (middle of funnel): the buyer compares solutions and providers. They need comparisons, costs and proof."
+          },
+          {
+            "text": "BOFU (bottom of funnel): the buyer is ready to choose. They need confidence and a clear next step."
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "src": "/insights/leads-2.jpg",
+        "alt": "Funnel diagram of TOFU, MOFU and BOFU search stages with example searches for each",
+        "caption": "Example searches at each stage of the buying journey."
+      },
+      {
+        "type": "p",
+        "text": "The touch points that matter most differ by industry. Here is how the journey looks in six common business types."
+      },
+      {
+        "type": "h3",
+        "text": "B2B services: logistics, consulting and professional services"
+      },
+      {
+        "type": "p",
+        "text": "B2B purchases involve a buying team and weeks or months of research. An operations manager, a finance lead and a director each ask different questions."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "TOFU: \"how to cut warehouse costs\", \"what is a 3PL\", asked on Google and ChatGPT."
+          },
+          {
+            "text": "MOFU: \"in-house vs outsourced logistics\", \"3PL pricing per pallet UK\", plus peer opinions on LinkedIn and Reddit."
+          },
+          {
+            "text": "BOFU: \"3PL Midlands\", \"[company] reviews\", \"[company A] vs [company B]\", plus case studies and the AI shortlist."
+          },
+          {
+            "text": "Key touch points: AI shortlists, comparison pages, case studies, trade publications and LinkedIn."
+          }
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "Real estate and property"
+      },
+      {
+        "type": "p",
+        "text": "Property buyers, sellers and landlords research heavily, and portals play a big part."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "TOFU: \"how much is my house worth\", \"best areas to buy in Manchester\"."
+          },
+          {
+            "text": "MOFU: \"estate agent fees UK\", \"online vs high street estate agent\", local reviews."
+          },
+          {
+            "text": "BOFU: \"estate agent Didsbury\", the Google Business Profile, reviews, and valuation request pages."
+          },
+          {
+            "text": "Key touch points: local search and the map pack, area guides, reviews, portals and AI answers to \"best agent in [area]\"."
+          }
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "Removals and local services"
+      },
+      {
+        "type": "p",
+        "text": "Local service buyers decide faster, and location matters most."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "TOFU: \"moving house checklist\", \"how much does a removal cost\"."
+          },
+          {
+            "text": "MOFU: \"removal company vs man and van\", \"best removal companies [city]\"."
+          },
+          {
+            "text": "BOFU: \"removals near me\", quote forms and phone calls."
+          },
+          {
+            "text": "Key touch points: Google Business Profile, reviews, cost guides, location pages and \"near me\" AI answers."
+          }
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "Hospitality: hotels, venues and restaurants"
+      },
+      {
+        "type": "p",
+        "text": "Travellers and event planners now plan trips and events with AI tools, then book either directly or through online travel agencies (OTAs)."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "TOFU: \"things to do in the Lake District\", \"best places for a team retreat in Scotland\", trip-planning prompts in ChatGPT."
+          },
+          {
+            "text": "MOFU: \"boutique hotels Edinburgh with meeting rooms\", \"wedding venues near Bath under £10,000\", reviews and YouTube tours."
+          },
+          {
+            "text": "BOFU: the hotel or venue name, \"book [hotel] direct\", availability and package pages."
+          },
+          {
+            "text": "Key touch points: AI travel itineraries, Google Business Profile and Hotels listings, review sites, local guides, video tours and a direct booking page that beats OTA convenience."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "For hospitality, every direct booking won through search avoids OTA commission, so SEO and GEO directly protect margin."
+      },
+      {
+        "type": "h3",
+        "text": "B2B SaaS and technology"
+      },
+      {
+        "type": "p",
+        "text": "Software buyers compare features, prices and alternatives in detail, often across review platforms."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "TOFU: \"how to automate invoicing\", \"what is a CRM\"."
+          },
+          {
+            "text": "MOFU: \"best CRM for small teams\", \"[tool] alternatives\", \"[tool A] vs [tool B]\"."
+          },
+          {
+            "text": "BOFU: pricing pages, review platforms such as G2 and Capterra, free trials and demos."
+          },
+          {
+            "text": "Key touch points: \"alternatives\" and comparison pages, review platforms, AI shortlists, YouTube walkthroughs and pricing pages."
+          }
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "Ecommerce and D2C brands"
+      },
+      {
+        "type": "p",
+        "text": "Consumers often decide in one session, guided by reviews, video and AI shopping results."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "TOFU: \"how to choose a running shoe\", \"best skincare routine for dry skin\"."
+          },
+          {
+            "text": "MOFU: \"best running shoes for flat feet under £120\", reviews, Reddit threads and YouTube reviews."
+          },
+          {
+            "text": "BOFU: product pages, Google Shopping, AI shopping results and offers."
+          },
+          {
+            "text": "Key touch points: product pages with full details, reviews, buying guides, video and accurate product feeds."
+          }
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "How to use content to reach those customer touch points"
+      },
+      {
+        "type": "p",
+        "text": "Each content type does a specific job at a specific stage. Together, linked to each other, they form a structure that moves buyers from research to enquiry."
+      },
+      {
+        "type": "h3",
+        "text": "Pillar guides and cluster posts (TOFU)"
+      },
+      {
+        "type": "p",
+        "text": "A pillar is an in-depth guide on a broad topic. Cluster posts each answer one sub-question and link back to it. Together they build topic authority, which helps both rankings and AI citations, and they capture buyers early in their research."
+      },
+      {
+        "type": "h3",
+        "text": "Comparison, cost and \"best\" pages (MOFU)"
+      },
+      {
+        "type": "p",
+        "text": "Buyers comparing options search for costs, alternatives and \"best\" lists, and AI tools rely heavily on these pages when building shortlists. Clear, fair comparisons and honest price ranges win both the click and the citation."
+      },
+      {
+        "type": "h3",
+        "text": "Service, industry and location pages (BOFU)"
+      },
+      {
+        "type": "p",
+        "text": "These are your money pages: one page per service, per industry you serve and per location you cover. Each needs a direct answer to \"what you do and for whom\", proof, pricing guidance and a clear call to action."
+      },
+      {
+        "type": "h3",
+        "text": "Case studies and proof pages (BOFU)"
+      },
+      {
+        "type": "p",
+        "text": "Case studies, reviews and credentials settle the decision. Describe the problem, the work and the measured result, so both buyers and AI tools can repeat the facts."
+      },
+      {
+        "type": "h3",
+        "text": "Original data and research (all stages)"
+      },
+      {
+        "type": "p",
+        "text": "Data from your own work, such as average costs, timelines or survey results, is the content most likely to be quoted by journalists, linked by other sites and cited by AI tools."
+      },
+      {
+        "type": "h3",
+        "text": "Video (all stages)"
+      },
+      {
+        "type": "p",
+        "text": "Short explainers, tours, demos and customer stories serve every stage. YouTube is the most cited domain in Google's AI Overviews, so video is also a direct route into AI answers."
+      },
+      {
+        "type": "h3",
+        "text": "FAQs and answer-first sections (all stages)"
+      },
+      {
+        "type": "p",
+        "text": "Question-led headings with 40 to 60 word answers make every page easy for buyers to scan and for AI tools to quote."
+      },
+      {
+        "type": "h3",
+        "text": "Which channels should you use for your content?"
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Your website: the home for every page above, and where every touch point leads back to."
+          },
+          {
+            "text": "Google Business Profile: essential for local services, property and hospitality."
+          },
+          {
+            "text": "YouTube: for explainers, tours, demos and reviews."
+          },
+          {
+            "text": "LinkedIn: for B2B expertise, founder insights and case studies."
+          },
+          {
+            "text": "Reddit and industry forums: for honest answers where buyers ask peers."
+          },
+          {
+            "text": "Trade publications and digital PR: for authority, links and mentions."
+          },
+          {
+            "text": "Review platforms: Google, Trustpilot, G2, TripAdvisor or the ones your industry uses."
+          },
+          {
+            "text": "Email: to nurture buyers who are not ready yet."
+          }
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Is writing and publishing on your website still relevant?"
+      },
+      {
+        "type": "p",
+        "text": "Yes. Your website remains the source that search engines and AI tools check, and the place every channel sends buyers to convert. But in 2027, publishing on your website is necessary and not enough on its own."
+      },
+      {
+        "type": "h3",
+        "text": "Where do AI tools pick up their information?"
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Search indexes such as Google and Bing, which decide which pages are retrieved."
+          },
+          {
+            "text": "Trusted websites, including publications, directories and industry associations."
+          },
+          {
+            "text": "YouTube, Reddit and forums, for demonstrations and real opinions."
+          },
+          {
+            "text": "Review sites, for reputation."
+          },
+          {
+            "text": "Reference sources such as Wikipedia."
+          },
+          {
+            "text": "Training data collected before each model was released."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Your website feeds the first of these directly. The rest depend on what other people and platforms say about you."
+      },
+      {
+        "type": "h3",
+        "text": "Why will authority content win?"
+      },
+      {
+        "type": "p",
+        "text": "AI tools can summarise generic content from anywhere, so generic content gives them no reason to cite you. Content with original data, first-hand experience, specific facts and clear answers gives them something worth quoting. Pages that already rank and are well linked are the ones retrieved first."
+      },
+      {
+        "type": "h3",
+        "text": "Why are backlinks and social media still important?"
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Backlinks: links from respected sites still drive Google rankings, and Google's AI features draw from ranking pages. Mentions on well-linked pages correlate strongly with AI Overview visibility, according to [Ahrefs](https://ahrefs.com/blog/does-being-mentioned-on-highly-linked-pages-influence-ai-mentions/)."
+          },
+          {
+            "text": "Brand mentions: even unlinked mentions help AI tools connect your business with a topic."
+          },
+          {
+            "text": "Social: LinkedIn, YouTube and Reddit put your content in front of buyers directly, send referral traffic, and create the discussion AI tools pick up."
+          }
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Do AEO and GEO leads convert better in 2027?"
+      },
+      {
+        "type": "p",
+        "text": "Yes. Visitors who arrive from AI answers convert at much higher rates than average, because the AI tool has already done part of the selling."
+      },
+      {
+        "type": "h3",
+        "text": "What does the data show?"
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "[Orbit Media](https://www.orbitmedia.com/blog/conversion-rates-ai-search/) analysed 97 B2B lead generation websites and 29 million visits. ChatGPT visitors converted to leads at 2.1%, compared with 0.5% for Google search."
+          },
+          {
+            "text": "Ahrefs reported that AI search made up 0.5% of its visits but 12.1% of new signups."
+          },
+          {
+            "text": "Semrush found AI search visitors converted 4.4 times better than traditional organic visitors."
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "src": "/insights/leads-3.jpg",
+        "alt": "Bar chart: 2.1% of ChatGPT visitors converted to leads, against 0.5% of Google search visitors",
+        "caption": "Conversion rate to lead. Source: Orbit Media."
+      },
+      {
+        "type": "h3",
+        "text": "Why are AI-referred buyers more likely to convert?"
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Pre-qualified: the AI answer has already compared options and recommended you."
+          },
+          {
+            "text": "Further along: buyers often click through only when they are ready to check details or get in touch."
+          },
+          {
+            "text": "Higher trust: being named in an answer works like a recommendation."
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "src": "/insights/leads-4.jpg",
+        "alt": "GA4 Traffic acquisition report showing key events and session key event rate by channel, including AI Assistant",
+        "caption": "GA4 Traffic acquisition with key events by channel."
+      },
+      {
+        "type": "h3",
+        "text": "Does Google search still matter more for volume?"
+      },
+      {
+        "type": "p",
+        "text": "Yes. Orbit Media's data showed Google still sends far more traffic than AI tools, so organic search remains the largest source of leads overall. The strongest approach builds both: SEO for volume, AEO and GEO for high-intent visitors and shortlist inclusion."
+      },
+      {
+        "type": "h2",
+        "text": "How do you measure leads coming from SEO?"
+      },
+      {
+        "type": "p",
+        "text": "No single tool shows every SEO and GEO lead, so you combine five systems. Set up properly, together they show where leads come from, which pages create them and which become customers."
+      },
+      {
+        "type": "h3",
+        "text": "Google Analytics 4: visits, pages and enquiries"
+      },
+      {
+        "type": "p",
+        "text": "GA4 shows where visitors come from, which pages they land on and whether they enquire."
+      },
+      {
+        "type": "image",
+        "src": "/insights/leads-5.jpg",
+        "alt": "GA4 Traffic acquisition report by session primary channel group with sessions and engagement per channel",
+        "caption": "GA4 Traffic acquisition by channel group."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Set up key events for every enquiry type: form submissions, bookings, phone clicks and email clicks."
+          },
+          {
+            "text": "Create an \"AI assistants\" channel group so visits from ChatGPT, Claude, Perplexity, Gemini and Copilot get their own line, placed above Referral."
+          },
+          {
+            "text": "Extend data retention to 14 months, filter out internal traffic and set up Consent Mode for UK and EU visitors."
+          },
+          {
+            "text": "Use the Landing page report with key events to see which pages generate leads."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Our guide on [how to track AI traffic for free](/insights/track-ai-traffic) walks through each setting step by step."
+      },
+      {
+        "type": "h3",
+        "text": "Google Search Console: searches, rankings and AI Overview impact"
+      },
+      {
+        "type": "p",
+        "text": "Search Console shows the searches you appear for, your rankings, clicks and click-through rate, including data from AI Overviews and AI Mode."
+      },
+      {
+        "type": "image",
+        "src": "/insights/leads-6.jpg",
+        "alt": "Google Search Console performance report showing 45.2k clicks, 9.98m impressions, 0.5% CTR and average position 10.5",
+        "caption": "Search Console Performance report for tracking clicks and impressions from search."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Verify a Domain property, submit your sitemap and link it to GA4."
+          },
+          {
+            "text": "Track BOFU searches (service, location, \"near me\", pricing) separately from TOFU searches."
+          },
+          {
+            "text": "Watch branded searches, which grow as AI answers and content build awareness."
+          }
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "Your CRM: from lead to customer"
+      },
+      {
+        "type": "p",
+        "text": "A CRM such as HubSpot, Salesforce or Pipedrive connects each lead to the deal it becomes, which is how you prove revenue from SEO."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Add hidden fields to your forms that capture the source, medium, landing page and first page visited."
+          },
+          {
+            "text": "Store the original source on the contact record so it is never overwritten."
+          },
+          {
+            "text": "Report on deals and revenue by original source, including organic search and AI assistants."
+          }
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "Call tracking: phone leads"
+      },
+      {
+        "type": "p",
+        "text": "For local services, property and hospitality, many leads call instead of filling in a form."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Use a call tracking tool with dynamic number insertion, which shows a different number to visitors from each source."
+          },
+          {
+            "text": "Connect it to GA4 and your CRM so calls count as leads with their source."
+          }
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "Self-reported attribution: what buyers tell you"
+      },
+      {
+        "type": "p",
+        "text": "Some influence leaves no data trail, such as a buyer who read an AI answer, then searched your name a week later."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Add a required \"How did you hear about us?\" field, with options including \"Google search\", \"ChatGPT or another AI tool\" and \"Recommendation\"."
+          },
+          {
+            "text": "Ask the same question on discovery calls and record it in the CRM."
+          }
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "How do you bring it all together?"
+      },
+      {
+        "type": "p",
+        "text": "Build a monthly dashboard in Looker Studio with GA4 and Search Console data, and add CRM figures for deals and revenue. Track organic leads, AI leads, lead-to-customer rate and revenue by source, and compare each month with the same month last year."
+      },
+      {
+        "type": "h2",
+        "text": "How long does SEO take to generate leads?"
+      },
+      {
+        "type": "p",
+        "text": "Most businesses see early leads from SEO within three to six months, with steady growth over six to twelve months. The timeline depends on competition, your site's existing authority and how far buyers travel before deciding."
+      },
+      {
+        "type": "h3",
+        "text": "How does the timeline differ by business type?"
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Local services and hospitality: often the fastest, around two to four months, when your Google Business Profile, reviews and location pages are strong."
+          },
+          {
+            "text": "Real estate: around three to six months for local terms, longer for competitive city searches."
+          },
+          {
+            "text": "B2B services: around four to nine months, as content builds authority and buying cycles run for weeks or months."
+          },
+          {
+            "text": "SaaS and ecommerce: often six to twelve months in competitive markets, faster for niche products and long-tail searches."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "AI answers can move faster. Once a page ranks and is indexed, AI tools that search live can start citing it within weeks."
+      },
+      {
+        "type": "h3",
+        "text": "How do you attribute leads across a long buying journey?"
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "First touch: the channel that first brought the buyer, which often credits SEO and GEO for starting the journey."
+          },
+          {
+            "text": "Last touch: the channel just before the enquiry, which often credits ads, email or direct visits."
+          },
+          {
+            "text": "Assisted conversions: GA4's attribution reports show channels that contributed earlier in the journey."
+          },
+          {
+            "text": "Self-reported source: what the buyer says, which captures AI influence that analytics misses."
+          },
+          {
+            "text": "Branded search growth: rising searches for your name signal growing awareness from content and AI answers."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Using several views together stops SEO's early influence from being credited to whichever channel happened to come last."
+      },
+      {
+        "type": "h2",
+        "text": "Why is PPC alone not enough?"
+      },
+      {
+        "type": "p",
+        "text": "PPC is useful for speed, launches, seasonal offers and testing new markets. On its own, it has limits that SEO and GEO fill."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Leads stop when spending stops: paid traffic ends the day the budget does. Strong pages keep bringing leads month after month, so organic leads become recurring revenue."
+          },
+          {
+            "text": "Costs keep rising: click prices rise as competition grows, while the cost of each organic lead tends to fall over time as content compounds."
+          },
+          {
+            "text": "Brand is built through repeated visibility: appearing across Google results, AI answers, reviews and publications builds familiarity and trust, which shows up as branded searches and higher conversion on every channel, paid ones included."
+          },
+          {
+            "text": "AI answers cannot be bought: being cited in ChatGPT, Claude or AI Overviews is earned through content, authority and mentions."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "The strongest approach uses both: PPC for immediate demand and testing, SEO and GEO for compounding, lower-cost leads and a brand buyers already trust when they arrive. For B2B, our [B2B SEO strategy guide](/insights/seo-for-b2b-companies) shows the full buyer journey, and [will AI replace SEO?](/insights/will-ai-replace-seo) covers where search is heading."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Can SEO single-handedly get you leads?",
+        "a": "Yes, when buyers already search for what you offer and you can wait for results to build. Many B2B and local businesses get most of their leads from organic search. If buyers are unaware of the problem you solve, you need other channels to create demand first."
+      },
+      {
+        "q": "Which channels support SEO best?",
+        "a": "Digital PR, LinkedIn, YouTube, Reddit, review platforms and email all support SEO. They create mentions and links, send referral traffic and nurture buyers who find you through search."
+      },
+      {
+        "q": "How do you manage an SEO budget efficiently?",
+        "a": "Start with BOFU pages closest to revenue, such as service, location and comparison pages, then build supporting content around them. Track leads and revenue, not just rankings, and move budget towards the pages and topics that produce enquiries."
+      },
+      {
+        "q": "Do you need to be an authority to rank?",
+        "a": "You need some authority, which comes from links, mentions and helpful content, but you do not need to be the biggest name. Specialist businesses often rank well for specific, niche searches."
+      },
+      {
+        "q": "Does site speed matter for a small website?",
+        "a": "Speed matters for user experience and conversions at any size. For a new site with little traffic, content, relevance and links usually matter more for rankings than small speed gains."
+      },
+      {
+        "q": "Does SEO lead generation depend on your niche?",
+        "a": "Yes. Competition, search volume and buyer awareness vary by niche. Competitive markets take longer; niche and local markets often show leads sooner."
+      },
+      {
+        "q": "Should you add ads alongside SEO?",
+        "a": "Often, yes, especially while SEO builds. Ads bring immediate leads and show which keywords convert, and SEO then targets those keywords for long-term, lower-cost leads."
+      },
+      {
+        "q": "Can ChatGPT generate leads for a business?",
+        "a": "ChatGPT can send leads when it recommends your business and links to your site. AI-referred visitors often convert at higher rates than average. See our guide on [how to rank your business in ChatGPT](/insights/how-to-rank-in-chatgpt)."
+      },
+      {
+        "q": "What is the 80/20 rule in SEO?",
+        "a": "It suggests that around 20% of your pages or keywords produce around 80% of your results. Find those pages, usually service, comparison and location pages, and prioritise improving them."
+      },
+      {
+        "q": "Is lead generation legal in the UK?",
+        "a": "Yes. Lead generation is legal, but collecting and using personal data must follow UK GDPR and, for marketing emails, calls and texts, the Privacy and Electronic Communications Regulations (PECR). Be clear about how you use data and get consent where required. Want to know how many leads SEO and GEO could bring your business? [Book a call with Team MAAI](/book)."
+      }
+    ]
+  },
+  {
     "slug": "how-to-rank-in-chatgpt",
     "seoTitle": "How to Rank Your Business in ChatGPT in 2027 (SEO and AEO Guide)",
     "title": "How to Rank Your Business in ChatGPT in 2027: A Step-by-Step Guide",
@@ -552,7 +2233,7 @@ const ALL_POSTS = [
       },
       {
         "type": "p",
-        "text": "When someone asks ChatGPT for a business \"near me\", it uses their approximate location and relies heavily on map listings, local directories and reviews. Reviews make a striking difference: research by Insites found that local businesses recommended by ChatGPT and Perplexity averaged 133 Google reviews, compared with 11 for businesses the AI tools ignored."
+        "text": "When someone asks ChatGPT for a business \"near me\", it uses their approximate location and relies heavily on map listings, local directories and reviews. Reviews make a striking difference: research by Insites found that local businesses recommended by ChatGPT and Perplexity averaged 133 Google reviews, compared with 11 for businesses the AI tools ignored. For a worked example, see our guide to [Google My Business for self storage](/insights/google-my-business-self-storage)."
       },
       {
         "type": "image",
@@ -1177,7 +2858,7 @@ const ALL_POSTS = [
       },
       {
         "type": "p",
-        "text": "Visits from Claude usually show in analytics with claude.ai as the referral source."
+        "text": "Visits from Claude usually show in analytics with claude.ai as the referral source. "
       },
       {
         "type": "list",
@@ -1204,7 +2885,7 @@ const ALL_POSTS = [
       },
       {
         "type": "p",
-        "text": "Our guide on how to track AI traffic on your website covers free and paid tools for every AI platform."
+        "text": "Our guide on [how to track AI traffic on your website](/insights/track-ai-traffic) covers free and paid tools for every AI platform."
       }
     ],
     "faq": [
@@ -1726,7 +3407,7 @@ const ALL_POSTS = [
       },
       {
         "type": "p",
-        "text": "For local searches, Google blends AI answers with map results and Business Profiles, so your profile matters as much as your website."
+        "text": "For local searches, Google blends AI answers with map results and Business Profiles, so your profile matters as much as your website. For a worked example, see our guide to [Google My Business for self storage](/insights/google-my-business-self-storage)."
       },
       {
         "type": "list",
@@ -1781,7 +3462,7 @@ const ALL_POSTS = [
       },
       {
         "type": "p",
-        "text": "Our guide on how to track AI traffic on your website covers the free and paid tools in detail."
+        "text": "Our guide on [how to track AI traffic on your website](/insights/track-ai-traffic) covers the free and paid tools in detail."
       },
       {
         "type": "h2",
@@ -1809,7 +3490,7 @@ const ALL_POSTS = [
       },
       {
         "q": "Can you turn off AI Overviews on Google?",
-        "a": "Google does not offer a setting to switch AI Overviews off completely. There are a few ways to see results without them: Select the \"Web\" filter under the search box, which shows plain links only. Add \"-ai\" to the end of your search, which many people report hides the AI Overview, although Google could change this at any time. In Chrome, Safari or Firefox, set up a custom search engine that uses Google's Web results (the address ending in udm=14), so every search opens without AI Overviews. For businesses, this is a reminder that some searchers skip AI answers entirely, so your normal organic rankings still matter."
+        "a": "Google does not offer a setting to switch AI Overviews off completely. Our guide on [how to turn off AI Overview on Google](/insights/how-to-turn-off-ai-overview-google) covers every workaround. There are a few ways to see results without them: Select the \"Web\" filter under the search box, which shows plain links only. Add \"-ai\" to the end of your search, which many people report hides the AI Overview, although Google could change this at any time. In Chrome, Safari or Firefox, set up a custom search engine that uses Google's Web results (the address ending in udm=14), so every search opens without AI Overviews. For businesses, this is a reminder that some searchers skip AI answers entirely, so your normal organic rankings still matter."
       },
       {
         "q": "How do you turn on AI Overviews?",
@@ -2227,7 +3908,7 @@ const ALL_POSTS = [
       },
       {
         "type": "p",
-        "text": "For most businesses, no. AI Overviews and AI Mode are where many buyers now research and build shortlists, and visitors who arrive from AI answers tend to convert well. Research by [Orbit Media](https://www.orbitmedia.com/blog/conversion-rates-ai-search/) across 97 B2B websites found ChatGPT visitors converted to leads at 2.1%, compared with 0.5% for Google search. If you opt out, the AI answer still appears, but it names and links to your competitors instead."
+        "text": "For most businesses, no. AI Overviews and AI Mode are where many buyers now research and build shortlists, and visitors who arrive from AI answers tend to convert well. Research by [Orbit Media](https://www.orbitmedia.com/blog/conversion-rates-ai-search/) across 97 B2B websites found ChatGPT visitors converted to leads at 2.1%, compared with 0.5% for Google search. If you opt out, the AI answer still appears, but it names and links to your competitors instead. To appear in those answers instead, read [how to rank in Google AI Overviews and AI Mode](/insights/how-to-rank-in-ai-overviews) and our guide to [answer engine optimisation](/insights/answer-engine-optimisation)."
       },
       {
         "type": "p",
@@ -2679,7 +4360,7 @@ const ALL_POSTS = [
       },
       {
         "type": "p",
-        "text": "Track your Google My Business Performance report for calls, direction requests and website clicks, and use GA4 to see what visitors from your listing do on your site. Rankings change by location, so also check them from the area around each facility."
+        "text": "Track your Google My Business Performance report for calls, direction requests and website clicks, and use GA4 to see what visitors from your listing do on your site. Rankings change by location, so also check them from the area around each facility. Our guide on [how to track AI traffic on your website](/insights/track-ai-traffic) shows the full GA4 setup."
       },
       {
         "type": "list",
@@ -2714,7 +4395,7 @@ const ALL_POSTS = [
       },
       {
         "type": "p",
-        "text": "Listing fixes can show results in a few weeks, but reaching the top of the map results usually takes two to six months. Sources give different timelines, from 2 to 4 weeks for profile changes to 3 to 6 months for map pack movement, because it depends on your competition, your area and how much needs fixing."
+        "text": "Listing fixes can show results in a few weeks, but reaching the top of the map results usually takes two to six months. Sources give different timelines, from 2 to 4 weeks for profile changes to 3 to 6 months for map pack movement, because it depends on your competition, your area and how much needs fixing. For the AI side, see [how to rank in Google AI Overviews and AI Mode](/insights/how-to-rank-in-ai-overviews) and [how to rank your business in ChatGPT](/insights/how-to-rank-in-chatgpt)."
       },
       {
         "type": "list",
@@ -2861,7 +4542,7 @@ const ALL_POSTS = [
         { text: "Take part in Reddit, LinkedIn and industry forums where your buyers ask questions." },
       ] },
       { type: "h3", text: "6. Optimise for each platform" },
-      { type: "p", text: "Once the foundation is in place, tune for the platforms your buyers use most. Each one has its own sources and signals: Bing and OpenAI's crawler for ChatGPT, live web search for Claude, and Google's own index for AI Overviews, AI Mode and Gemini." },
+      { type: "p", text: "Once the foundation is in place, tune for the platforms your buyers use most. Each one has its own sources and signals. Our step-by-step guides cover [how to rank your business in ChatGPT](/insights/how-to-rank-in-chatgpt), [how to rank your business in Claude](/insights/how-to-rank-in-claude) and [how to rank in Google AI Overviews and AI Mode](/insights/how-to-rank-in-ai-overviews)." },
 
       { type: "h2", text: "How do you measure AEO results?" },
       { type: "p", text: "You measure AEO by tracking how often AI tools name your business, how often they link to you, and how much of that turns into visits and leads. No single tool shows all of it yet, so most businesses combine a few." },
@@ -2876,13 +4557,13 @@ const ALL_POSTS = [
         { src: "/insights/aeo-ga4-chatgpt-referrals.jpg", alt: "GA4 Traffic acquisition report filtered to the chatgpt.com session source, showing key events up 30% on 2025", caption: "GA4 filtered to chatgpt.com" },
       ], caption: "GA4 Traffic acquisition, session source filtered to claude.ai and chatgpt.com, this year against last. Property details hidden." },
       { type: "quote", text: "When leads do come in from AI they are much more likely to convert.", author: "One business owner on Reddit", where: "r/digital_marketing", href: "https://www.reddit.com/r/digital_marketing/comments/1tvos1i/discussion_is_google_killing_organic_traffic_with/" },
-      { type: "p", text: "That pattern is common, which is why counting enquiries matters as much as counting visits." },
+      { type: "p", text: "That pattern is common, which is why counting enquiries matters as much as counting visits. Our guide on [how to track AI traffic on your website](/insights/track-ai-traffic) walks through the free setup in GA4 and Search Console, and [can SEO generate leads?](/insights/can-seo-generate-leads) explains how that traffic turns into sales." },
 
       { type: "h2", text: "How long does AEO take to show results?" },
       { type: "p", text: "Platforms that search the web live, such as Perplexity, AI Overviews and ChatGPT search, can start citing a new or improved page within a few weeks of it being indexed. Changing what AI tools say about your business as a whole usually takes three to six months, because it depends on reviews, PR coverage and rankings building up. Mentions in an AI model's own trained knowledge change slowest, since they update only when the model is retrained." },
 
       { type: "h2", text: "How is AEO different for B2B and B2C businesses?" },
-      { type: "p", text: "B2B buyers ask fewer, longer and higher-value questions, often as part of a team that compares several suppliers over weeks or months. That makes detailed comparison pages, pricing guidance, case studies and proof of expertise the most valuable AEO content for B2B. A freight forwarder in Rotterdam, a commercial property firm in Sydney or a software company in Toronto all need to be named when a buyer asks AI for a shortlist." },
+      { type: "p", text: "B2B buyers ask fewer, longer and higher-value questions, often as part of a team that compares several suppliers over weeks or months (our [B2B SEO strategy guide](/insights/seo-for-b2b-companies) maps that journey stage by stage). That makes detailed comparison pages, pricing guidance, case studies and proof of expertise the most valuable AEO content for B2B. A freight forwarder in Rotterdam, a commercial property firm in Sydney or a software company in Toronto all need to be named when a buyer asks AI for a shortlist." },
       { type: "quote", text: "I find Perplexity really good for this.", author: "One IT manager on Reddit, on researching vendors before an evaluation", where: "r/ITManagers", href: "https://www.reddit.com/r/ITManagers/comments/1pcfvqe/how_do_you_run_vendor_evaluations_without_burning/" },
       { type: "p", text: "B2C buyers ask quicker questions and often decide in one session. A homeowner asking \"best removals company near me\" or a shopper asking \"best running shoes for flat feet\" gets a short list built mostly from reviews, local listings and product information. For B2C, reviews, local SEO and clear product data carry the most weight." },
       { type: "p", text: "In both cases, buyers now arrive having already read about you. In B2B, that research decides the shortlist. In B2C, it often decides the purchase." },
@@ -2928,7 +4609,7 @@ const ALL_POSTS = [
       { type: "h3", text: "\"AEO is only for big brands\"" },
       { type: "p", text: "AI tools often name smaller, specialist businesses when a question is specific, such as a niche service in a named city. Specific questions favour specialists." },
       { type: "h3", text: "\"If AI answers the question, nobody visits your website\"" },
-      { type: "p", text: "Fewer people click for simple facts, but buyers comparing suppliers still click through to check pricing, case studies and contact details. Those visits tend to be better informed and closer to buying." },
+      { type: "p", text: "Fewer people click for simple facts, but buyers comparing suppliers still click through to check pricing, case studies and contact details. Those visits tend to be better informed and closer to buying. For the wider picture, read [will AI replace SEO?](/insights/will-ai-replace-seo)" },
       { type: "p", text: "Want to know what AI tools say about your business today? [Book a call with Team MAAI](/book)." },
     ],
   },
@@ -3226,10 +4907,10 @@ const ALL_POSTS = [
           { value: "4", label: "extra qualified enquiries a year cover the full year's spend" },
         ],
       },
-      { type: "p", text: "Use your own client value and close rate, in any currency. If the number of enquiries you need looks realistic for your market, the budget makes sense. If you need leads while SEO and AEO build, our guide to SEO vs PPC for B2B explains how paid search fits alongside them." },
+      { type: "p", text: "Use your own client value and close rate, in any currency. If the number of enquiries you need looks realistic for your market, the budget makes sense. If you need leads while SEO and AEO build, our guide to SEO vs PPC for B2B explains how paid search fits alongside them. Set up tracking first with our guide on [how to track AI traffic on your website](/insights/track-ai-traffic)." },
 
       { type: "h2", text: "How long does B2B SEO and AEO take to work?" },
-      { type: "p", text: "In our experience, rankings and impressions start to move within three to six months, and qualified leads follow as pages climb for supplier searches. Refreshed pages that already rank can appear in AI answers within weeks. For the relocation client mentioned above, daily search impressions grew from about 700 to about 2,600 between January and May 2026. Here is a typical timeline from our client work. It varies with how competitive your market is and how much of your site already ranks." },
+      { type: "p", text: "In our experience, rankings and impressions start to move within three to six months, and qualified leads follow as pages climb for supplier searches. Refreshed pages that already rank can appear in AI answers within weeks. For the relocation client mentioned above, daily search impressions grew from about 700 to about 2,600 between January and May 2026. Here is a typical timeline from our client work. It varies with how competitive your market is and how much of your site already ranks. Our guide to [whether SEO can generate leads](/insights/can-seo-generate-leads) covers how those leads are measured." },
       {
         type: "flow",
         title: "A typical B2B SEO and AEO timeline",
@@ -3382,7 +5063,7 @@ const ALL_POSTS = [
 
       { type: "h2", text: "A founder's note: what this means for SEO agencies in 2027" },
       { type: "p", text: "I thought about starting an agency for a long time before I did it. By the time I started MAAI in 2024, AI was already part of search. Most of our clients are B2B companies, across niches such as removals, logistics, supply chain and real estate, and I have watched the work change in front of me since." },
-      { type: "p", text: "The biggest change is competition. Every agency and every in-house team now has the same AI tools, so the baseline has risen. Work that once needed a team of five, I can now run largely on my own, because research, drafting, reporting and audits have become far more streamlined. That helps margins, and it also means anyone can produce volume." },
+      { type: "p", text: "The biggest change is competition. Every agency and every in-house team now has the same AI tools, so the baseline has risen. Work that once needed a team of five, I can now run largely on my own, because research, drafting, reporting and audits have become far more streamlined. That helps margins, and it also means anyone can produce volume. Our guide to [answer engine optimisation (AEO)](/insights/answer-engine-optimisation) explains what the new work involves." },
       { type: "p", text: "So content has to be good and frequent at the same time. You cannot trade one for the other any more. Quality on its own is too slow to build topical authority, and volume on its own gets ignored by both Google and AI tools. Here is what that means in practice:" },
       {
         type: "list",
@@ -3394,7 +5075,7 @@ const ALL_POSTS = [
           { lead: "Funnels matter more than traffic.", text: "The best agencies always talked about the full funnel. Now it is unavoidable. If you only chase top-of-funnel traffic, the AI summary absorbs most of it. The work has to connect visibility to enquiries and leads, beyond awareness campaigns." },
         ],
       },
-      { type: "p", text: "My view for 2027 is simple. The agencies that do well will know an industry deeply, publish what they know, use AI to work faster without lowering their standards, and measure success in leads as well as traffic." },
+      { type: "p", text: "My view for 2027 is simple. The agencies that do well will know an industry deeply, publish what they know, use AI to work faster without lowering their standards, and measure success in leads as well as traffic. For how this plays out with B2B buyers, read our [B2B SEO strategy guide](/insights/seo-for-b2b-companies)." },
     ],
     faq: [
       { q: "Is SEO dead in 2027?", a: "No. Traditional, Google-only SEO has largely been replaced, but being found in search results and AI answers still depends on SEO foundations such as technical health, content quality and authority." },
