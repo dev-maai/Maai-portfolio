@@ -27,6 +27,720 @@ export const AUTHORS = {
    To preview drafts locally, run the dev server with INSIGHTS_PREVIEW_DRAFTS=1. */
 const ALL_POSTS = [
   {
+    "slug": "best-ai-marketing-agency-self-storage",
+    "seoTitle": "Best AI Marketing Agency for Self Storage in 2027 | MAAI",
+    "title": "Best AI Marketing Agency for Self Storage Business Owners in 2027 (SEO + AEO)",
+    "description": "Four agencies that work with self storage owners in 2027, who each one suits, and six checks to run before you sign. Covers SEO and AEO.",
+    "date": "2026-11-09",
+    "author": "team",
+    "topics": [
+      "AEO/GEO"
+    ],
+    "industries": [],
+    "image": "/insights/self-storage-banner.jpg",
+    "intro": "Before anyone rents a storage unit, they ask questions. Which facility is closest? Is it secure? What does a small unit cost? Is there climate control? They ask Google, ChatGPT and other AI tools. If your facility is missing from those answers, the renter calls someone else. You face the same problem as an owner choosing a marketing partner. Search results now include AI answers, and [Ahrefs](https://ahrefs.com/blog/search-rankings-ai-citations/) found that 76% of pages cited in Google AI Overviews also rank in the top 10. SEO and answer engine optimisation (AEO) now work as a pair. Below are five agencies that work with self storage owners, who each one suits, and the checks to run before you sign.",
+    "tldr": [
+      "Four agencies work with self storage owners on SEO, local SEO or AI search: Digital First, MAAI, Market Apts and Thrive Internet Marketing Agency.",
+      "Match the agency to your size. Month-to-month suits one site, a fixed-price package suits a quick start, and a broad agency suits several channels.",
+      "Check six things before you sign: move-in results, local SEO, AI search work, mentions and reviews, reporting and contract terms.",
+      "Published prices start at $179 a month.",
+      "Local profile gains can show within weeks. Organic gains take months."
+    ],
+    "body": [
+      {
+        "type": "image",
+        "src": "/insights/storage-2.jpg",
+        "alt": "Pie chart: 76% of pages cited in Google AI Overviews rank in the top 10, 24% rank outside it",
+        "caption": "The chart shows that three in four cited pages already rank in the top 10. AI answers draw on pages that search already trusts."
+      },
+      {
+        "type": "h2",
+        "text": "Which are the best AI marketing agencies for self storage owners in 2027?"
+      },
+      {
+        "type": "p",
+        "text": "Digital First, MAAI, Market Apts and Thrive Internet Marketing Agency all work with self storage owners on SEO, local SEO or AI search. The right one depends on your size, your budget and how much AI search work you want included. They are listed alphabetically. Prices and terms were checked on 9 November 2026."
+      },
+      {
+        "type": "h3",
+        "text": "Digital First"
+      },
+      {
+        "type": "p",
+        "text": "Digital First says it has marketed self storage for over 20 years. Its team of 30+ works with operators across 85+ cities and 250+ stores, and it reports 4 million+ enquiries generated. Named clients include Storage King and Stor-Age. It shares results such as 107% more enquiries for an operator in Jordan and a 298% higher conversion rate for an operator in Liverpool. What sets it apart is that it owns and runs its own facilities, so it tests strategies on its own revenue. It offers SEO, paid media and generative engine optimisation (GEO). No pricing is published."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Best for: operators who want a long-established storage specialist with global reach."
+          },
+          {
+            "text": "Ask them: how its GEO work is delivered, and what a typical contract looks like."
+          }
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "MAAI.AGENCY"
+      },
+      {
+        "type": "p",
+        "text": "That is us. We run SEO, AEO and local SEO for logistics, moving and storage businesses. Every resource and every growth lever we use is tied to data, from the pages we write to the AI answers we track. We also run local SEO across many sites and build authority in your niche with premium backlinks."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Best for: owners who want SEO and AEO tied to data, local pages across several sites and authority built through premium backlinks."
+          },
+          {
+            "text": "Ask us: for the same proof you would ask any agency."
+          }
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "Market Apts"
+      },
+      {
+        "type": "p",
+        "text": "Market Apts is mostly an apartment marketing company based in Salt Lake City. It says it works with 1,000+ communities, has done so for over a decade, and that 8 in 10 clients renew each year. Self storage is a product line. It offers a storage website template with online rental and payment features, plus SEO and Google Business Profile management from $179 a month. The $299 a month plan adds Google Ads management and AI Overviews work, with ad spend extra. Its self storage page says engagements start with a 6-month term."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Best for: US owners who want a low fixed monthly price."
+          },
+          {
+            "text": "Ask them: how many storage facilities it manages, since its site does not say."
+          }
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "Thrive Internet Marketing Agency"
+      },
+      {
+        "type": "p",
+        "text": "Thrive has been going since 2005. Its team of 160+ is based in Arlington, Texas, and it has made the Inc. 5000 list of fastest-growing US companies seven years in a row. Self storage is one of many industries it serves, with SEO, local SEO, web design and reputation management. Its AI search work includes GEO and ChatGPT and Gemini optimisation, and it reports results such as 2,658% more Google AI Overview citations for a medical group. It names no self storage case studies. Its forms list marketing budgets from $2,500 to $5,000 a month upwards, and it says no long-term contracts are required."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Best for: operators who want a large, broad agency across several channels."
+          },
+          {
+            "text": "Ask them: for storage-specific examples and how its AI search work applies to storage."
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "src": "/insights/storage-3.jpg",
+        "alt": "Google AI Overview on AEO for self storage, naming Fuel Online and MAAI Agency as agencies that specialise in the sector",
+        "caption": "A Google AI Overview for a self storage AEO search names MAAI Agency among the agencies for the sector."
+      },
+      {
+        "type": "h2",
+        "text": "How do you choose the best agency for your storage business?"
+      },
+      {
+        "type": "p",
+        "text": "Choose the agency that can show you rentals, runs your local listings, does real AI search work, builds mentions beyond your website, reports in plain language and gives clear contract terms. Ask each of the six questions below, whichever agency you speak to."
+      },
+      {
+        "type": "h3",
+        "text": "Can they show results in move-ins, not only traffic?"
+      },
+      {
+        "type": "p",
+        "text": "Ask for a recent example with calls, reservations or move-ins next to the rankings. Traffic alone does not fill units."
+      },
+      {
+        "type": "h3",
+        "text": "Do they run your Google Business Profile and local SEO?"
+      },
+      {
+        "type": "p",
+        "text": "Ask how they manage your profiles, reviews and location pages. A profile that points to the wrong page sends renters to the wrong place."
+      },
+      {
+        "type": "h3",
+        "text": "What AI search work do they actually do?"
+      },
+      {
+        "type": "p",
+        "text": "Ask which AI answers they test, how often, and what they change as a result. We track citation rate: brand citations divided by the relevant questions tested, multiplied by 100."
+      },
+      {
+        "type": "h3",
+        "text": "Do they build mentions and reviews beyond your website?"
+      },
+      {
+        "type": "p",
+        "text": "AI answers lean on what the wider web says about you. [Ahrefs](https://ahrefs.com/blog/ai-overview-brand-correlation/) found branded web mentions correlated at 0.664 with AI Overview visibility, stronger than backlinks. Ask how they earn mentions, reviews and listings for each facility."
+      },
+      {
+        "type": "h3",
+        "text": "Do they report on what matters to you?"
+      },
+      {
+        "type": "p",
+        "text": "Reports should show calls, form fills, map visibility and AI mentions each month, in language you can read in two minutes."
+      },
+      {
+        "type": "h3",
+        "text": "What are the contract terms and the full cost?"
+      },
+      {
+        "type": "p",
+        "text": "Check the minimum term, the notice period, what ad spend is excluded and what each plan includes."
+      },
+      {
+        "type": "h2",
+        "text": "How do renters find storage units in 2027?"
+      },
+      {
+        "type": "p",
+        "text": "Renters search for a unit near them, compare the first results, the reviews and the prices, and many now ask an AI tool for a shortlist. Your facility needs to show up in all three places: the map, the search results and the AI answer."
+      },
+      {
+        "type": "h3",
+        "text": "How do renters find storage on Google and Maps?"
+      },
+      {
+        "type": "p",
+        "text": "The search is local and the competition is large. In Semrush's US data, \"storage units near me\" has about 823,000 searches a month. Strong local pages, a complete Google Business Profile and recent reviews decide who gets the call."
+      },
+      {
+        "type": "image",
+        "src": "/insights/storage-4.jpg",
+        "alt": "Stat card: 823,000 searches a month for storage units near me in the US",
+        "caption": "823,000 monthly US searches for \"storage units near me\". Source: Semrush, US database."
+      },
+      {
+        "type": "h3",
+        "text": "How do AI tools choose which storage facility to recommend?"
+      },
+      {
+        "type": "p",
+        "text": "AI tools break a question like \"safe climate-controlled storage near me\" into smaller searches about price, location, reviews and security. Then they pick the pages that answer those smaller questions best. In plain English, a facility with clear pages, the same details everywhere and good reviews gives the AI more to work with. Our guide on [answer engine optimisation](/insights/answer-engine-optimisation) explains how this works. Read more in our guide to [answer engine optimisation (AEO)](/insights/answer-engine-optimisation) and [how to rank your business in ChatGPT](/insights/how-to-rank-in-chatgpt)."
+      },
+      {
+        "type": "h2",
+        "text": "Which type of storage business needs which approach?"
+      },
+      {
+        "type": "p",
+        "text": "The right approach depends on how many sites you run and what you store. Single sites need the basics done well, multi-site operators need a system, and specialist storage needs its own search terms."
+      },
+      {
+        "type": "h3",
+        "text": "Single-site owners"
+      },
+      {
+        "type": "p",
+        "text": "Start with your Google Business Profile, one strong location page and a steady flow of reviews. A month-to-month agency or a fixed-price package keeps cost and commitment low. Our guide to [Google My Business for self storage](/insights/google-my-business-self-storage) shows each step, and these [11 free tools](/insights/free-tools-self-storage-website-google-my-business) cover the basics without an agency."
+      },
+      {
+        "type": "h3",
+        "text": "Multi-site operators"
+      },
+      {
+        "type": "p",
+        "text": "Each facility needs its own page and its own profile, linked to each other, plus reporting that compares sites."
+      },
+      {
+        "type": "h3",
+        "text": "Container, vehicle and boat storage"
+      },
+      {
+        "type": "p",
+        "text": "People search for these with different words, such as \"container storage\" or \"caravan storage\". Ask whether the agency has built pages for those terms."
+      },
+      {
+        "type": "h3",
+        "text": "Student and seasonal storage"
+      },
+      {
+        "type": "p",
+        "text": "Demand follows term dates, so plan content and offers around them. A student storage page with clear unit sizes and prices helps both Google and AI answers."
+      },
+      {
+        "type": "h2",
+        "text": "How do you measure whether an agency is working?"
+      },
+      {
+        "type": "p",
+        "text": "Measure calls, form fills and move-ins first, then map visibility, Search Console clicks and impressions, and AI mentions. In Search Console, open Performance, filter to your location pages and compare three-month periods. For AI mentions, ask the same set of questions every month and note how often your facility appears."
+      },
+      {
+        "type": "h2",
+        "text": "How long does it take to see results?"
+      },
+      {
+        "type": "p",
+        "text": "Local profile gains can show in weeks, organic SEO usually takes several months, and AI answers vary by platform. Ask every agency for its own timeline and what it is based on."
+      },
+      {
+        "type": "h2",
+        "text": "Should you hire an agency, build in-house or use software?"
+      },
+      {
+        "type": "p",
+        "text": "Hire an agency if you want expertise without hiring, build in-house if you run enough sites to keep one person busy, and use storage software if you want to manage listings and data yourself. Many owners combine an agency for strategy with software for day-to-day tasks."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Do I need a self storage specialist agency?",
+        "a": "A specialist knows the sector, and a broader agency brings more channels. Ask either for storage examples."
+      },
+      {
+        "q": "How much does a self storage marketing agency cost?",
+        "a": "Published prices above start at $179 a month. Compare what each plan includes."
+      },
+      {
+        "q": "Can ChatGPT recommend my storage facility?",
+        "a": "It can, when your pages, reviews and business details are clear and match across the web."
+      },
+      {
+        "q": "What is AEO for self storage?",
+        "a": "AEO is answer engine optimisation. It makes your facility easy for AI answers to find and name, alongside normal SEO."
+      },
+      {
+        "q": "How long does self storage SEO take?",
+        "a": "Expect several months, with local profile gains often sooner."
+      }
+    ]
+  },
+  {
+    "slug": "free-tools-self-storage-website-google-my-business",
+    "seoTitle": "11 Free Tools to Grow Your Self Storage Website and Google My Business in 2027",
+    "title": "11 Free Tools to Grow Your Self Storage Website and Google My Business in 2027",
+    "description": "The 11 free tools that help a self storage business grow its website and Google My Business listing, with how to use each one, step by step.",
+    "date": "2026-11-09",
+    "author": "team",
+    "topics": [
+      "SEO - Begins"
+    ],
+    "industries": [],
+    "image": "/insights/self-storage-banner.jpg",
+    "intro": "Someone searches \"storage units near me\", picks one of the first three results and rents a unit within a week. Around 823,000 people a month search that phrase in the US alone (Semrush, US database). You do not need a big budget to be one of those three. Eleven free tools cover your Google My Business listing, your self storage website, your keywords and even whether AI tools such as ChatGPT name your facility. This guide shows what each tool does and how to use it to get more calls, direction requests and unit rentals in 2027.",
+    "tldr": [
+      "Start with Google Business Profile (Google My Business). It is free, and it controls how you appear on Google Maps and in the map results.",
+      "Search Console and Google Analytics 4 show what works. Both are free, and Search Console now has a report for Google's AI features.",
+      "Keyword Planner, Google Trends and PageSpeed Insights tell you what renters search for, when demand rises and whether your site loads fast on a phone.",
+      "Bing tools and a free AI assistant cover the places Google does not: Bing search and the answers ChatGPT gives.",
+      "One hour a month is enough to use all eleven. A routine is at the end of this guide."
+    ],
+    "body": [
+      {
+        "type": "h2",
+        "text": "Which free tools help you grow a self storage website and Google My Business in 2027?"
+      },
+      {
+        "type": "p",
+        "text": "Eleven free tools do most of the work: three for your Google My Business listing, four that show how your website performs, and four that find keywords and fix problems. The table shows what each one is best for. Pink marks the tools for your listing."
+      },
+      {
+        "type": "image",
+        "src": "/insights/tools-1.jpg",
+        "alt": "Table of the 11 free tools and what each is best for, from Google Business Profile to Screaming Frog",
+        "caption": "The 11 free tools and what each one is best for."
+      },
+      {
+        "type": "h2",
+        "text": "Which free tools grow your Google My Business listing?"
+      },
+      {
+        "type": "p",
+        "text": "Three free tools cover your listing: Google Business Profile (the new name for Google My Business), Bing Places for Business and a free AI assistant to check how your business is described."
+      },
+      {
+        "type": "h3",
+        "text": "1. Google Business Profile (Google My Business)"
+      },
+      {
+        "type": "p",
+        "text": "Google Business Profile is the free listing that shows your facility on Google Search and Google Maps. It is the most important tool on this list, because your primary category, distance, hours and reviews decide who appears in the top three map results. Our guide to [Google My Business for self storage](/insights/google-my-business-self-storage) covers how to rank 1st."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Complete every section. Add your real business name, address, phone number, opening hours, unit sizes, photos and a link to the matching location page."
+          },
+          {
+            "text": "Post every week. Use the Posts feature for offers, news and events, such as a first-month discount or student storage at term end."
+          },
+          {
+            "text": "Read the Performance report each month. It shows calls, direction requests and website clicks. This is your scoreboard."
+          },
+          {
+            "text": "Reply to every review and send tenants a direct review link after they move in."
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "src": "/insights/tools-2.jpg",
+        "alt": "Four steps to open the Google Business Profile Performance report",
+        "caption": "Where to find your Performance report. Source: Google Business Profile Help."
+      },
+      {
+        "type": "h3",
+        "text": "2. Bing Places for Business"
+      },
+      {
+        "type": "p",
+        "text": "Bing Places is Microsoft's free version of Google Business Profile. It puts your facility on Bing search and Bing Maps, and you can usually import your Google listing instead of typing everything again."
+      },
+      {
+        "type": "p",
+        "text": "Sources disagree on whether ChatGPT reads Bing Places directly. Several marketing sites say it pulls local business data from Bing Places. Search Engine Land reported that ChatGPT does not see the profile data businesses manage in Bing Places, and [Whitespark](https://whitespark.ca/blog/want-to-rank-in-chatgpt-focus-on-these-review-sites-new-research/)'s research says Bing listings influence the web results ChatGPT looks at. Our view: claiming the listing costs you nothing and adds a trusted source for your name, address and hours, so do it, and do not expect a direct feed into ChatGPT."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Claim and import your listing, then check that your name, address, phone number and hours match Google exactly."
+          },
+          {
+            "text": "Add photos and your location page link."
+          }
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "3. Free AI assistants: ChatGPT, Gemini and Claude"
+      },
+      {
+        "type": "p",
+        "text": "The free plans of ChatGPT, Gemini and Claude show you what a renter sees when they ask an AI tool for a facility. A [Yext](https://www.businesswire.com/news/home/20251009106549/en) study of 6.8 million AI citations found 44% came from business websites and 42% from business listings, so your listing and website are what these tools quote."
+      },
+      {
+        "type": "image",
+        "src": "/insights/tools-3.jpg",
+        "alt": "ChatGPT answer listing the top self storage companies in Manchester with a map, star ratings and listing cards",
+        "caption": "ChatGPT shows a map with Google star ratings when asked for self storage in Manchester."
+      },
+      {
+        "type": "p",
+        "text": "When we asked ChatGPT for the best self storage companies in Manchester, it showed a map with Google star ratings and review counts next to each listing. That makes your reviews and listing details part of your AI visibility."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Ask the same questions each month: \"best self storage in [your town]\", \"cheap student storage in [your town]\" and \"storage units near [landmark]\"."
+          },
+          {
+            "text": "Write down whether you are named, which sources it shows and what it says about your prices and hours."
+          },
+          {
+            "text": "Fix what is wrong at the source: your listing, your location page or a directory."
+          }
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Which free tools show how your self storage website performs?"
+      },
+      {
+        "type": "p",
+        "text": "Google Search Console, Google Analytics 4, Bing Webmaster Tools and Ahrefs Webmaster Tools show how people find your website and what they do next. The first three come from search engines and the fourth from an SEO company."
+      },
+      {
+        "type": "h3",
+        "text": "4. Google Search Console"
+      },
+      {
+        "type": "p",
+        "text": "Search Console shows the searches your website appears for, your average position, and which pages get clicks. It also has a Generative AI features report, in beta at the time of writing, that shows impressions from Google's AI features by page."
+      },
+      {
+        "type": "image",
+        "src": "/insights/tools-4.jpg",
+        "alt": "Search Console Generative AI features performance report with impressions and top pages",
+        "caption": "The Generative AI features report in Search Console."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Filter your queries for \"storage\", \"unit\" and your town to see where you already appear and where you sit on page two."
+          },
+          {
+            "text": "Open the Pages tab to see which location pages get impressions without clicks, then improve their titles and first paragraph."
+          },
+          {
+            "text": "Use URL Inspection to check a new page is on Google and to request indexing."
+          },
+          {
+            "text": "Open the Generative AI features report to see which pages appear in AI answers."
+          }
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "5. Google Analytics 4"
+      },
+      {
+        "type": "p",
+        "text": "Google Analytics 4 (GA4) shows how many people visit your website, where they come from and whether they enquire or reserve a unit. It only counts what you ask it to, so the key step is marking your enquiry events as key events. For the full setup, read [how to track AI traffic on your website](/insights/track-ai-traffic)."
+      },
+      {
+        "type": "image",
+        "src": "/insights/tools-5.jpg",
+        "alt": "GA4 Events screen where enquiry and reservation events are marked as key events",
+        "caption": "GA4 Events: star the events that count as enquiries."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Mark key events for reservations, enquiry forms and click-to-call. In Admin, open Events and select the star next to each one."
+          },
+          {
+            "text": "Check Traffic acquisition to compare Organic Search, Direct and referrals."
+          },
+          {
+            "text": "Look for AI tools as a source, such as chatgpt.com, and create an \"AI assistants\" channel group so their visits stay together."
+          },
+          {
+            "text": "Link Search Console so your search data sits in the same place."
+          }
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "6. Bing Webmaster Tools"
+      },
+      {
+        "type": "p",
+        "text": "Bing Webmaster Tools is the free Search Console equivalent for Bing. Bing is one of the search sources behind ChatGPT's web search, so it is worth ten minutes."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Import your site from Google Search Console instead of verifying it again."
+          },
+          {
+            "text": "Submit your sitemap and check that your location pages are indexed."
+          },
+          {
+            "text": "Review the search terms report for searches that bring Bing visitors."
+          }
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "7. Ahrefs Webmaster Tools"
+      },
+      {
+        "type": "p",
+        "text": "Ahrefs Webmaster Tools is free for websites you can verify. It runs a site audit and shows the backlinks pointing to your site, which helps you plan local PR and partner links."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Verify your website with your Search Console account."
+          },
+          {
+            "text": "Run the site audit and fix broken links, missing titles and duplicate pages first."
+          },
+          {
+            "text": "Open the backlinks report to see who links to your facility, then ask local partners such as movers, estate agents and universities for a link to your location page."
+          }
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Which free tools find keywords and fix your self storage website?"
+      },
+      {
+        "type": "p",
+        "text": "Google Keyword Planner and Google Trends show what renters search for and when, while PageSpeed Insights and Screaming Frog find problems that slow your site down or confuse Google."
+      },
+      {
+        "type": "h3",
+        "text": "8. Google Keyword Planner"
+      },
+      {
+        "type": "p",
+        "text": "Keyword Planner is free with a Google Ads account, and you do not have to run ads to use it. It shows how often people search for a phrase, and gives ideas for related searches."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Search \"self storage [your town]\", \"storage units near me\" and \"student storage\"."
+          },
+          {
+            "text": "Pick one main phrase per location page and use it in the title, the first heading and the first paragraph."
+          },
+          {
+            "text": "Add the related questions renters ask, such as unit sizes and prices, to your FAQ."
+          }
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "9. Google Trends"
+      },
+      {
+        "type": "p",
+        "text": "Google Trends shows when searches rise and fall, so you can time offers and posts. In the UK, interest in \"self storage\" rose over the last five years, while \"storage units near me\" stayed flat."
+      },
+      {
+        "type": "image",
+        "src": "/insights/tools-6.jpg",
+        "alt": "Google Trends comparison of storage units near me and self storage in the United Kingdom over five years",
+        "caption": "Google Trends: compare storage searches over time to plan offers."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Compare phrases such as \"self storage\", \"student storage\" and \"storage near me\"."
+          },
+          {
+            "text": "Look at the yearly pattern. Plan posts and offers for the weeks before searches rise, for example house-move season and student term ends."
+          },
+          {
+            "text": "Check your region with the location filter, because demand differs by town."
+          }
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "10. PageSpeed Insights"
+      },
+      {
+        "type": "p",
+        "text": "PageSpeed Insights tests how fast a page loads on a phone and flags what slows it down. Most renters search on mobile, so a slow location page loses enquiries. Our own homepage scored 74 for performance on mobile when we ran it on 9 November 2026, which shows even a carefully built site has fixes to find."
+      },
+      {
+        "type": "image",
+        "src": "/insights/tools-7.jpg",
+        "alt": "PageSpeed Insights mobile report showing performance, accessibility, best practices and SEO scores",
+        "caption": "PageSpeed Insights mobile report."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Test your home page and each location page on Mobile."
+          },
+          {
+            "text": "Fix the largest problems first, usually oversized photos and heavy scripts."
+          },
+          {
+            "text": "Run it again after each change and note the score in your monthly report."
+          }
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "11. Screaming Frog SEO Spider (free version)"
+      },
+      {
+        "type": "p",
+        "text": "Screaming Frog is a free desktop crawler that scans up to 500 URLs, which is enough for most self storage websites. It finds broken links, missing page titles, duplicate content and redirect problems in one run."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Crawl your website and sort by response codes to find broken pages."
+          },
+          {
+            "text": "Check titles and headings on each location page so every one has its town and \"self storage\" in the right places."
+          },
+          {
+            "text": "Look for duplicate location pages that only change the town name, and rewrite them with local detail."
+          }
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "How do you use these free tools together each month?"
+      },
+      {
+        "type": "p",
+        "text": "Set aside one hour on the same day each month and work through the tools in order: listing, website, keywords, then fixes. Write the numbers in one sheet so you can see the trend."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Minutes 1 to 15, your listing: read the Google Business Profile Performance report, reply to new reviews and schedule next month's posts. Share your best post on your local Facebook page too."
+          },
+          {
+            "text": "Minutes 15 to 25, AI answers: ask ChatGPT, Gemini and Claude the same three questions and note whether you are named."
+          },
+          {
+            "text": "Minutes 25 to 40, your website: check Search Console clicks, impressions and the Generative AI features report, then GA4 enquiries and key events."
+          },
+          {
+            "text": "Minutes 40 to 50, keywords: check Google Trends for the next season and Keyword Planner for one new phrase to add to a location page."
+          },
+          {
+            "text": "Minutes 50 to 60, fixes: run PageSpeed Insights on one page and fix the top issue. Run Screaming Frog every quarter."
+          }
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "When are free tools not enough?"
+      },
+      {
+        "type": "p",
+        "text": "Free tools show you what is happening. They do not do the work for you, and they are built for one site at a time. They cannot track your map ranking street by street, manage reviews across many branches or build links for you. If you would rather hand the work over, compare [the best AI marketing agencies for self storage](/insights/best-ai-marketing-agency-self-storage)."
+      },
+      {
+        "type": "p",
+        "text": "If you are running multiple self storage sites, then you might consider premium tools for running your business efficiently. We have covered that in the next blogs to help you understand better."
+      },
+      {
+        "type": "p",
+        "text": "Want us to look at your listing? Get a Google My Business audit done by MAAI. We check your categories, hours, location pages, reviews and local links, then send you a plan in order of impact. [Book your audit](/book)"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Is Google My Business free?",
+        "a": "Yes. Google My Business is now called Google Business Profile, and creating and managing a listing is free. People still search for \"Google My Business\", and it is the same listing."
+      },
+      {
+        "q": "Do I need paid SEO tools for a small self storage business?",
+        "a": "No. A single facility can do well with the free tools in this guide. Paid tools become useful when you manage several sites or want to track rankings location by location."
+      },
+      {
+        "q": "Which free tool should I start with?",
+        "a": "Start with Google Business Profile, because it controls your map listing. Then add Search Console and Google Analytics 4 so you can see what your website does."
+      },
+      {
+        "q": "How often should I check these tools?",
+        "a": "Once a month is enough for most owners, with a quick weekly look at new reviews. Use the one-hour routine above."
+      },
+      {
+        "q": "Can free tools show if I appear in AI answers?",
+        "a": "Partly. A free AI assistant shows what it says about you, and the Generative AI features report in Search Console shows impressions from Google's AI features. Neither is a full tracker, so check both monthly."
+      },
+      {
+        "q": "How long do free tools take to show results?",
+        "a": "The tools give you data straight away. Changes you make from that data, such as listing fixes, usually show in weeks, and map ranking movement usually takes a few months."
+      }
+    ]
+  },
+  {
     "slug": "track-ai-traffic",
     "seoTitle": "How to Track AI Traffic in Google Analytics 4 and Search Console (2027)",
     "title": "How to Track AI Traffic for Free in 2027: Google Analytics 4 and Search Console Guide",
@@ -38,7 +752,7 @@ const ALL_POSTS = [
     ],
     "industries": [],
     "image": "/removals/foundation-dashboard.jpg",
-    "intro": "For twenty years, getting found online meant ranking in a list of ten blue links and waiting for the clicks. That has changed. Your buyers now ask ChatGPT, Claude and Perplexity for answers, and Google shows an AI Overview above its results for millions of searches. Many of those people get what they need without visiting any website. Others arrive having already read about you in an AI answer. This guide explains how search traffic has shifted, why your impressions may be rising while your clicks fall, and [how to track AI traffic on your website](/insights/track-ai-traffic) for free with Google Analytics 4 (GA4) and Google Search Console.",
+    "intro": "For twenty years, getting found online meant ranking in a list of ten blue links and waiting for the clicks. That has changed. Your buyers now ask ChatGPT, Claude and Perplexity for answers, and Google shows an AI Overview above its results for millions of searches. Many of those people get what they need without visiting any website. Others arrive having already read about you in an AI answer. This guide explains how search traffic has shifted, why your impressions may be rising while your clicks fall, and [how to track AI traffic on your website](/insights/track-ai-traffic) for free with Google Analytics 4 (GA4) and Google Search Console. ",
     "body": [
       {
         "type": "h2",
@@ -4395,7 +5109,7 @@ const ALL_POSTS = [
       },
       {
         "type": "p",
-        "text": "Listing fixes can show results in a few weeks, but reaching the top of the map results usually takes two to six months. Sources give different timelines, from 2 to 4 weeks for profile changes to 3 to 6 months for map pack movement, because it depends on your competition, your area and how much needs fixing. For the AI side, see [how to rank in Google AI Overviews and AI Mode](/insights/how-to-rank-in-ai-overviews) and [how to rank your business in ChatGPT](/insights/how-to-rank-in-chatgpt)."
+        "text": "Listing fixes can show results in a few weeks, but reaching the top of the map results usually takes two to six months. Sources give different timelines, from 2 to 4 weeks for profile changes to 3 to 6 months for map pack movement, because it depends on your competition, your area and how much needs fixing. For the AI side, see [how to rank in Google AI Overviews and AI Mode](/insights/how-to-rank-in-ai-overviews) and [how to rank your business in ChatGPT](/insights/how-to-rank-in-chatgpt). To track progress without paying for software, use our list of [11 free tools for self storage websites and Google My Business](/insights/free-tools-self-storage-website-google-my-business), and if you want outside help, see [the best AI marketing agencies for self storage](/insights/best-ai-marketing-agency-self-storage)."
       },
       {
         "type": "list",
