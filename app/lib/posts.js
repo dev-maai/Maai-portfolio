@@ -27,6 +27,2738 @@ export const AUTHORS = {
    To preview drafts locally, run the dev server with INSIGHTS_PREVIEW_DRAFTS=1. */
 const ALL_POSTS = [
   {
+    "slug": "how-to-rank-in-chatgpt",
+    "seoTitle": "How to Rank Your Business in ChatGPT in 2027 (SEO and AEO Guide)",
+    "title": "How to Rank Your Business in ChatGPT in 2027: A Step-by-Step Guide",
+    "description": "How to rank your business in ChatGPT in 2027: how ChatGPT finds sources, then step-by-step SEO and AEO for B2B, B2C and local businesses, with tracking.",
+    "date": "2026-11-09",
+    "author": "team",
+    "topics": [
+      "AEO/GEO"
+    ],
+    "industries": [],
+    "image": "/removals/AEO.jpg",
+    "intro": "More of your customers now ask ChatGPT questions such as \"who is the best removals company in Leeds?\" or \"which accounting software suits a small business?\" before they search Google. ChatGPT replies with a short answer and a few named businesses. If yours is one of them, you win a customer who already trusts you. This guide explains how ChatGPT builds its answers, how SEO and AEO (answer engine optimisation) get your business named, and the exact steps to rank in ChatGPT in 2027, whether you sell to other businesses, to consumers or to people nearby.",
+    "body": [
+      {
+        "type": "h2",
+        "text": "What is ChatGPT, and who owns it?"
+      },
+      {
+        "type": "p",
+        "text": "ChatGPT is an AI assistant made by OpenAI, an American AI company. GPT stands for \"Generative Pre-trained Transformer\", the type of AI model that powers it. People use ChatGPT to answer questions, write and edit text, create images, research products and services, analyse files and plan tasks. For your business, the use that matters most is research: people asking ChatGPT what to buy and who to buy it from."
+      },
+      {
+        "type": "image",
+        "src": "/insights/chatgpt-1.jpg",
+        "alt": "ChatGPT home screen with the \"Ask ChatGPT\" message box",
+        "caption": "ChatGPT, made by OpenAI."
+      },
+      {
+        "type": "h2",
+        "text": "Where does ChatGPT get its information from?"
+      },
+      {
+        "type": "p",
+        "text": "ChatGPT answers from two sources. Its training data is a large snapshot of public web pages, books and other text collected before the model was released. Its web search reads live pages when a question needs current or specific information, such as prices, reviews or local suppliers, and it shows links to the sources it used. For questions about which business to choose, web search does most of the work."
+      },
+      {
+        "type": "h2",
+        "text": "How does ChatGPT build an answer? RAG and query fan-out explained"
+      },
+      {
+        "type": "p",
+        "text": "When ChatGPT searches the web, it uses a method called retrieval-augmented generation (RAG). It retrieves pages first, then writes its answer from what those pages say. Understanding these steps shows you exactly where your business can win or lose a place in the answer."
+      },
+      {
+        "type": "h3",
+        "text": "Step 1: ChatGPT decides whether to search"
+      },
+      {
+        "type": "p",
+        "text": "For general knowledge, such as \"what is a 3PL?\", ChatGPT may answer from training data alone. For anything current, local, priced or comparative, such as \"best 3PL for a small ecommerce brand in the UK\", it runs a web search. Most buying questions trigger a search."
+      },
+      {
+        "type": "h3",
+        "text": "Step 2: Query fan-out turns one question into several searches"
+      },
+      {
+        "type": "p",
+        "text": "ChatGPT rarely searches the exact words your customer typed. It rewrites the question into several shorter searches, a process called query fan-out. A question like \"best 3PL for a small ecommerce brand in the UK\" might become searches such as \"3PL for small ecommerce UK\", \"3PL pricing per pallet UK\", \"3PL reviews UK\" and \"best fulfilment companies UK 2027\"."
+      },
+      {
+        "type": "p",
+        "text": "This matters because your business can be found through any of those smaller searches. A page that ranks for \"3PL pricing per pallet UK\" can earn you a place in the answer even if you never rank for the original question."
+      },
+      {
+        "type": "h3",
+        "text": "Step 3: Retrieval pulls in pages from search providers"
+      },
+      {
+        "type": "p",
+        "text": "ChatGPT sends those searches to third-party search providers, of which Microsoft's Bing is the best known, and its own crawler, OAI-SearchBot, fetches pages. It collects the top results from each search, so the same business appearing across several of them gets a stronger signal."
+      },
+      {
+        "type": "h3",
+        "text": "Step 4: ChatGPT reads, compares and writes the answer"
+      },
+      {
+        "type": "p",
+        "text": "ChatGPT breaks the pages into passages and picks the ones that answer the question most clearly. It then writes a summary, names the businesses that appear most often and most credibly, and links to its sources. A business mentioned by your own website, a trade publication and a review site at once looks far more trustworthy than one mentioned only by itself."
+      },
+      {
+        "type": "image",
+        "src": "/insights/chatgpt-2.jpg",
+        "alt": "ChatGPT answer recommending three ecommerce fulfilment warehouses in Greater Manchester, with source links for each",
+        "caption": "ChatGPT shortlists three fulfilment providers and links to the sources behind each pick."
+      },
+      {
+        "type": "h2",
+        "text": "How is ChatGPT different from Claude, Gemini, Grok and Copilot?"
+      },
+      {
+        "type": "p",
+        "text": "Each AI assistant reads the web through a different search source, so your business can appear in one and not another. ChatGPT draws on third-party search providers including Bing. Gemini and Google's AI Overviews draw on Google Search. Microsoft Copilot draws on Bing. Claude, made by Anthropic, runs web searches through its own search provider and cites pages inline. Grok, made by xAI, draws heavily on posts from X as well as the web."
+      },
+      {
+        "type": "p",
+        "text": "ChatGPT is also where most AI referral traffic comes from today. Webflow's VP of Growth reported that 91% of the company's AI referrals came from ChatGPT, with Perplexity at 4% and all other AI tools sharing the rest."
+      },
+      {
+        "type": "image",
+        "src": "/insights/chatgpt-3.jpg",
+        "alt": "Bar chart: ChatGPT 91% of Webflow AI referrals, Perplexity 4%, all other AI tools 5%",
+        "caption": "Where Webflow's AI referrals come from. Source: Webflow, as reported by its VP of Growth."
+      },
+      {
+        "type": "p",
+        "text": "People often ask whether Grok or Copilot is better than ChatGPT. Each suits different tasks, and the answer depends on what you use it for. For your business, the more useful question is which assistants your customers use, so you can appear in each. Our guides on [how to rank in Claude](/insights/how-to-rank-in-claude) and [how to rank in AI Overviews and AI Mode](/insights/how-to-rank-in-ai-overviews) cover the others."
+      },
+      {
+        "type": "h2",
+        "text": "Does SEO help you rank in ChatGPT?"
+      },
+      {
+        "type": "p",
+        "text": "Yes. ChatGPT finds most of its sources through search engines, so a website that ranks well is far more likely to be read, quoted and recommended. Because of query fan-out, ranking for many related questions matters as much as ranking for your main keyword."
+      },
+      {
+        "type": "quote",
+        "text": "Competitors with more mentions on forums and blogs get recommended more.",
+        "author": "One marketer",
+        "where": "Reddit",
+        "href": "https://www.reddit.com/comments/1rwzbji"
+      },
+      {
+        "type": "p",
+        "text": "That marketer also argues that SEO alone doesn't move the needle, and there is truth in it. Rankings get your pages read; mentions on other sites decide whether ChatGPT trusts you enough to name you. A properly SEO-optimised website is where it starts, with a few additions for AI. That website needs:"
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "pages indexed in both Bing and Google"
+          },
+          {
+            "text": "a clear page for each service and location you cover"
+          },
+          {
+            "text": "fast, crawlable pages with the main content in plain HTML"
+          },
+          {
+            "text": "content that answers the many smaller questions behind each buying decision"
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "AEO builds on that foundation. It shapes your content and reputation so ChatGPT chooses your business when it writes its answer. Our guide to [answer engine optimisation](/insights/answer-engine-optimisation) explains how the two fit together."
+      },
+      {
+        "type": "h2",
+        "text": "How to rank your business in ChatGPT, step by step"
+      },
+      {
+        "type": "h3",
+        "text": "1. Check what ChatGPT says about you today"
+      },
+      {
+        "type": "p",
+        "text": "Start by finding out where you stand. Ask ChatGPT the questions your customers ask, and note which businesses it names, which sources it links to and what it says about you."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Write 10 to 20 prompts your customers would use, such as \"best [service] in [city]\" or \"[service] for small businesses in the UK\"."
+          },
+          {
+            "text": "Run each prompt in ChatGPT with search on, using a fresh session."
+          },
+          {
+            "text": "Ask \"what do you know about [your business name]?\" and check the facts are correct."
+          },
+          {
+            "text": "Open the sources panel and list every site ChatGPT cites. These are the sites you want to rank on or be mentioned by."
+          },
+          {
+            "text": "Repeat monthly with the same prompts."
+          }
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "2. Get indexed in Bing and submit to Bing Webmaster Tools"
+      },
+      {
+        "type": "p",
+        "text": "Since Bing is one of the main search sources behind ChatGPT, a site missing from Bing can be missing from ChatGPT too. Many businesses only ever check Google, so this step is often the quickest win."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Create a free Bing Webmaster Tools account and verify your site (you can import it from Google Search Console)."
+          },
+          {
+            "text": "Submit your XML sitemap."
+          },
+          {
+            "text": "Use URL Inspection to check your key pages are indexed."
+          },
+          {
+            "text": "Set up IndexNow so Bing hears about new and updated pages straight away."
+          },
+          {
+            "text": "Check robots.txt allows OAI-SearchBot and Bingbot."
+          }
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "3. Write answer-first pages for every question behind the buying decision"
+      },
+      {
+        "type": "p",
+        "text": "ChatGPT lifts short, clear passages, so each page should answer its question in the first two or three sentences. Query fan-out means you also need pages for the smaller questions buyers ask on the way to a decision: cost, comparisons, timelines and suitability."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Create one page per service, and one per location if you serve several areas."
+          },
+          {
+            "text": "List the fan-out questions for each service: price, process, timeline, alternatives, reviews and who it suits."
+          },
+          {
+            "text": "Write headings as those questions, such as \"How much does office removal cost in London?\"."
+          },
+          {
+            "text": "Answer each one in 40 to 60 words under the heading, then add detail."
+          },
+          {
+            "text": "Add an FAQ section and FAQ schema to your main service pages."
+          }
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "4. Build authority with digital PR"
+      },
+      {
+        "type": "p",
+        "text": "ChatGPT trusts businesses that other credible sources talk about. Digital PR earns that coverage: stories, data and expert comments that journalists and trade publications want to use. Each article that names you becomes another source ChatGPT can retrieve, and coverage on respected sites signals that your business is worth recommending."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Publish original data from your own work, such as average costs, timelines or customer survey results, and pitch it to journalists."
+          },
+          {
+            "text": "Offer expert comment through journalist request services and on topical industry news."
+          },
+          {
+            "text": "Write guest articles for trade publications your buyers read."
+          },
+          {
+            "text": "Appear on industry podcasts, webinars and event speaker lists."
+          },
+          {
+            "text": "Enter industry awards and apply for \"best of\" and \"top companies\" lists in your category."
+          },
+          {
+            "text": "Track every new mention, and check whether ChatGPT starts citing those articles."
+          }
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "5. Build mentions on directories and review sites"
+      },
+      {
+        "type": "p",
+        "text": "Directories and review sites confirm the basics: that you exist, what you do and whether customers rate you. ChatGPT often cites them directly in its answers."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "List your business on the main directories for your industry and country."
+          },
+          {
+            "text": "Collect reviews on Google, Trustpilot or the review sites your customers use, and reply to them."
+          },
+          {
+            "text": "Answer questions in Reddit, LinkedIn and industry forums where people ask for recommendations, as yourself and without hard selling."
+          }
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "6. Keep your business details consistent everywhere"
+      },
+      {
+        "type": "p",
+        "text": "If your name, address, services or phone number differ between sites, ChatGPT may be unsure which details are correct, or mix you up with another business."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Use the exact same business name and description on every listing."
+          },
+          {
+            "text": "Keep your address and phone number identical across your website, Google Business Profile, Bing Places and directories."
+          },
+          {
+            "text": "Add Organization schema to your website with links to your official profiles."
+          },
+          {
+            "text": "Update every listing when anything changes."
+          }
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "How to rank a B2B business in ChatGPT"
+      },
+      {
+        "type": "p",
+        "text": "B2B buying is slower, higher in value and made by a group. A buying team may include an operations manager, a finance lead and a director, and each asks ChatGPT different questions over weeks or months. To rank a B2B business in ChatGPT, your content and reputation need to answer every one of those people."
+      },
+      {
+        "type": "h3",
+        "text": "What do B2B buyers ask ChatGPT?"
+      },
+      {
+        "type": "p",
+        "text": "Take a UK online retailer looking for a new fulfilment partner. Over a few weeks, the buying team might ask:"
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Operations: \"Which 3PLs in the Midlands can handle same-day dispatch for 2,000 orders a day?\""
+          },
+          {
+            "text": "Finance: \"How much does 3PL fulfilment cost per order in the UK?\""
+          },
+          {
+            "text": "Director: \"What are the risks of switching 3PL during peak season?\""
+          },
+          {
+            "text": "All of them: \"Compare [Company A] and [Company B] for ecommerce fulfilment.\""
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "ChatGPT fans each question out into several searches. The 3PL that appears across the answers, on its own site, in trade press and in reviews, becomes the favourite before anyone books a call."
+      },
+      {
+        "type": "quote",
+        "text": "The intent from those leads felt noticeably higher.",
+        "author": "One marketer",
+        "where": "Reddit",
+        "href": "https://www.reddit.com/comments/1sgpd62"
+      },
+      {
+        "type": "h3",
+        "text": "What content does a B2B business need to rank in ChatGPT?"
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Service and industry pages: one page per service, and one per industry you serve, such as \"3PL for health and beauty brands\". Specific pages match specific questions."
+          },
+          {
+            "text": "Pricing guidance: price ranges and what drives cost. B2B firms often avoid this, which leaves ChatGPT to quote someone else."
+          },
+          {
+            "text": "Comparison pages: fair comparisons of approaches or options, such as \"in-house warehousing vs 3PL\"."
+          },
+          {
+            "text": "Case studies: the problem, what you did and the measured result, described by industry and market."
+          },
+          {
+            "text": "Proof of capability: certifications, accreditations, locations, capacity and systems you integrate with, written as plain facts ChatGPT can repeat."
+          },
+          {
+            "text": "Risk and process content: onboarding steps, timelines and how you handle problems, which answer the director's questions."
+          }
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "Where should a B2B business be mentioned?"
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Trade publications and industry news sites your buyers read."
+          },
+          {
+            "text": "Industry association member directories."
+          },
+          {
+            "text": "B2B review platforms such as Clutch or G2, where relevant to your sector."
+          },
+          {
+            "text": "LinkedIn, through company and founder posts that share real expertise."
+          },
+          {
+            "text": "Partner and supplier pages, such as software you integrate with."
+          }
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "B2B steps to rank in ChatGPT"
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Map the questions each member of the buying team asks, from first research to final decision."
+          },
+          {
+            "text": "Build or improve a page for each of those questions."
+          },
+          {
+            "text": "Publish at least one case study per core service and industry."
+          },
+          {
+            "text": "Add pricing guidance, even as ranges."
+          },
+          {
+            "text": "Earn coverage in two or three trade publications through data or expert comment."
+          },
+          {
+            "text": "Test the buying team's prompts in ChatGPT monthly and track who is named."
+          }
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "How to rank a B2C business in ChatGPT"
+      },
+      {
+        "type": "p",
+        "text": "Consumers ask quicker questions and often decide in a single session. ChatGPT builds these answers mostly from reviews, product details, buying guides and \"best of\" lists, and it can show products with images, prices and links in its shopping results."
+      },
+      {
+        "type": "h3",
+        "text": "What do B2C customers ask ChatGPT?"
+      },
+      {
+        "type": "p",
+        "text": "Take someone buying a new mattress. They might ask \"best mattress for back pain under £600\", then \"is [Brand A] or [Brand B] better for side sleepers?\", then \"does [Brand A] offer a free trial?\". ChatGPT fans these out into searches for reviews, prices, return policies and buying guides, then names the brands that appear across them."
+      },
+      {
+        "type": "h3",
+        "text": "What does a B2C business need to rank in ChatGPT?"
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Complete product and service pages: price, specifications, sizes, who it suits and what makes it different, written as clear facts."
+          },
+          {
+            "text": "Accurate product data: Product schema with price, availability and reviews, and consistent prices across your site and retailers."
+          },
+          {
+            "text": "Policy information: delivery, returns, warranties and trials on clear pages, since shoppers often ask about these."
+          },
+          {
+            "text": "Reviews: a steady flow of recent reviews on Google, Trustpilot and retailer sites."
+          },
+          {
+            "text": "Buying guide coverage: inclusion in \"best of\" articles from publishers, consumer review sites and niche bloggers."
+          },
+          {
+            "text": "Community presence: genuine discussion on Reddit and forums, where ChatGPT often looks for honest opinions."
+          }
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "How do you check if your website appears in ChatGPT product recommendations?"
+      },
+      {
+        "type": "p",
+        "text": "Ask ChatGPT for products in your category, such as \"best waterproof walking boots under £150\", with search on. Look for your products in the results and check which sites are cited. Repeat with different budgets, uses and locations, and note where competitors appear and you do not. The cited buying guides become your PR target list."
+      },
+      {
+        "type": "image",
+        "src": "/insights/chatgpt-4.jpg",
+        "alt": "ChatGPT product recommendations for waterproof walking boots, with prices, retailer and verdict for each",
+        "caption": "ChatGPT product recommendations show price, retailer and a short verdict for each product."
+      },
+      {
+        "type": "h3",
+        "text": "B2C steps to rank in ChatGPT"
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Fill every product page with price, specifications, use cases and FAQs."
+          },
+          {
+            "text": "Add Product and Review schema, and keep prices consistent everywhere."
+          },
+          {
+            "text": "Ask every customer for a review after purchase."
+          },
+          {
+            "text": "Pitch your products to the buying guides ChatGPT already cites."
+          },
+          {
+            "text": "Send samples to reviewers and creators in your category."
+          },
+          {
+            "text": "Test your top product prompts monthly."
+          }
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "How to rank a local business in ChatGPT for \"near me\" searches"
+      },
+      {
+        "type": "p",
+        "text": "When someone asks ChatGPT for a business \"near me\", it uses their approximate location and relies heavily on map listings, local directories and reviews. Reviews make a striking difference: research by Insites found that local businesses recommended by ChatGPT and Perplexity averaged 133 Google reviews, compared with 11 for businesses the AI tools ignored."
+      },
+      {
+        "type": "image",
+        "src": "/insights/chatgpt-5.jpg",
+        "alt": "Bar chart: local businesses recommended by AI averaged 133 Google reviews, against 11 for businesses ignored by AI",
+        "caption": "Average Google reviews of local businesses recommended or ignored by AI. Source: Insites."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Claim and complete your Bing Places for Business listing, as well as your Google Business Profile."
+          },
+          {
+            "text": "Choose accurate categories and list every area you serve."
+          },
+          {
+            "text": "Build a page on your website for each town or area you cover."
+          },
+          {
+            "text": "Collect reviews that mention your service and location, and reply to every one."
+          },
+          {
+            "text": "Get listed in local directories and covered by local news sites."
+          }
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "How to see if ChatGPT sends traffic to your website"
+      },
+      {
+        "type": "p",
+        "text": "ChatGPT adds a tracking tag (utm_source=chatgpt.com) to many of the links it shows, so its visits appear in your analytics. Those visits are worth tracking closely, because they convert well. [Orbit Media](https://www.orbitmedia.com/blog/conversion-rates-ai-search/) analysed 97 B2B websites and found ChatGPT visitors converted to leads at 2.1%, compared with 0.5% for Google search."
+      },
+      {
+        "type": "image",
+        "src": "/insights/chatgpt-6.jpg",
+        "alt": "Bar chart: 2.1% of ChatGPT visitors became leads, against 0.5% of Google search visitors, across 97 B2B websites",
+        "caption": "Lead conversion across 97 B2B websites. Source: Orbit Media."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "In Google Analytics 4, open Reports, then Acquisition, then Traffic acquisition."
+          },
+          {
+            "text": "Set the dimension to \"Session source / medium\" and search for \"chatgpt\"."
+          },
+          {
+            "text": "Check which landing pages those visits arrive on, and whether they turn into enquiries."
+          },
+          {
+            "text": "Add \"ChatGPT or another AI tool\" as an option on your \"how did you hear about us?\" form."
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "src": "/insights/chatgpt-7.jpg",
+        "alt": "GA4 Traffic acquisition report filtered to chatgpt.com, showing sessions, engagement and key events",
+        "caption": "GA4 Traffic acquisition with session source / medium filtered to chatgpt."
+      },
+      {
+        "type": "quote",
+        "text": "In my data chatgpt traffic converted 1.5 to 2x higher than organic.",
+        "author": "One marketer",
+        "where": "Reddit",
+        "href": "https://www.reddit.com/comments/1r6xi3s"
+      },
+      {
+        "type": "p",
+        "text": "The same marketer notes that volume is still small, so the total revenue lift depends on your deal size. That is why tracking enquiries matters as much as tracking visits. Our guide on how to track AI traffic for free covers every setting in GA4 and Search Console."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Is ChatGPT safe to use for my business?",
+        "a": "ChatGPT is safe for everyday tasks such as drafting, research and brainstorming. Treat it like any online service: avoid entering passwords, customer data or anything you would not share outside the business, unless you use a business plan with data controls in place."
+      },
+      {
+        "q": "Is ChatGPT safe for confidential information?",
+        "a": "On free and personal plans, your chats may be used to improve OpenAI's models unless you turn this off in settings. OpenAI's business plans exclude your data from training by default. Check OpenAI's current privacy policy and your own data rules before sharing anything confidential."
+      },
+      {
+        "q": "Does ChatGPT share your data?",
+        "a": "OpenAI states that it does not sell your data. Chats can be used to improve its models on personal plans unless you opt out, and you can delete chats or turn off chat history in settings."
+      },
+      {
+        "q": "Is ChatGPT GDPR compliant?",
+        "a": "OpenAI offers a data processing agreement for business customers and publishes privacy terms for users in the UK and EU. Whether your use is GDPR compliant depends on what data you enter and how, so check with your data protection lead before using ChatGPT with personal data."
+      },
+      {
+        "q": "How much is ChatGPT in the UK?",
+        "a": "ChatGPT has a free plan and several paid plans for individuals and teams, priced monthly."
+      },
+      {
+        "q": "Which ChatGPT model is best?",
+        "a": "The default model suits most everyday questions. Reasoning models handle complex analysis, maths and planning better but take longer to answer. For ranking your business, the model matters less than whether ChatGPT search can find you."
+      },
+      {
+        "q": "Can ChatGPT generate images?",
+        "a": "Yes. ChatGPT can create and edit images from a written description, such as a product mock-up, a social media graphic or an illustration for a blog post. An image usually takes from a few seconds to a minute or two, depending on its detail and how busy the service is. Free users can create a limited number of images, and paid plans such as ChatGPT Plus allow more."
+      },
+      {
+        "q": "Can ChatGPT create videos?",
+        "a": "OpenAI's video model, Sora, creates short videos from text and images, and it is available to some ChatGPT users depending on their plan and country. The standard ChatGPT chat focuses on text and images."
+      },
+      {
+        "q": "Can ChatGPT analyse videos?",
+        "a": "ChatGPT can analyse images, screenshots, PDFs and documents you upload. Support for analysing full video files is limited, so a reliable approach is to upload a transcript or screenshots of key moments and ask ChatGPT to analyse those."
+      },
+      {
+        "q": "Do I need to pay for ChatGPT to appear in its answers?",
+        "a": "No. Your business appears in ChatGPT's standard answers because of your website, rankings, reviews and mentions across the web."
+      },
+      {
+        "q": "How long does it take to rank in ChatGPT?",
+        "a": "Once Bing indexes a new or improved page, ChatGPT search can start citing it within a few weeks. Being recommended consistently usually takes three to six months, as reviews, PR coverage and rankings build up. Want to know what ChatGPT says about your business today? [Book a call with Team MAAI](/book)."
+      }
+    ]
+  },
+  {
+    "slug": "how-to-rank-in-claude",
+    "seoTitle": "How to Rank Your Business in Claude AI in 2027 (SEO and AEO Guide)",
+    "title": "How to Rank Your Business in Claude in 2027: A Step-by-Step Guide",
+    "description": "How to rank your business in Claude in 2027: how Claude searches and cites sources, then step-by-step SEO and AEO for B2B, B2C and local businesses.",
+    "date": "2026-11-09",
+    "author": "team",
+    "topics": [
+      "AEO/GEO"
+    ],
+    "industries": [],
+    "image": "/removals/authority.jpg",
+    "intro": "Claude is fast becoming the AI assistant professionals use for serious research: comparing suppliers, checking a market, or building a shortlist before a big purchase. When someone asks Claude \"which commercial cleaning companies in Birmingham work with offices over 10,000 sq ft?\", it searches the web, reads the best sources and names a few businesses. This guide explains how Claude finds and chooses those businesses, how SEO and AEO (answer engine optimisation) get yours named, and the exact steps to rank in Claude in 2027 for B2B, B2C and local businesses.",
+    "body": [
+      {
+        "type": "h2",
+        "text": "What is Claude, and who makes it?"
+      },
+      {
+        "type": "p",
+        "text": "Claude is an AI assistant made by Anthropic, an AI safety and research company based in San Francisco. People use Claude to research, write, analyse documents and data, code and plan work. It is especially popular for work tasks, which means many of the people asking Claude for recommendations are professionals making decisions for a business."
+      },
+      {
+        "type": "h2",
+        "text": "Where does Claude get its information from?"
+      },
+      {
+        "type": "p",
+        "text": "Claude answers from two sources. Its training data is a large snapshot of public web pages and other text collected before each model was released. Its web search reads live pages when a question needs current or specific information, and Claude cites the sources it used inline, next to the sentence they support. For questions about suppliers, prices and reviews, web search does most of the work."
+      },
+      {
+        "type": "h2",
+        "text": "How does Claude build an answer? RAG and query fan-out explained"
+      },
+      {
+        "type": "p",
+        "text": "When Claude searches the web, it uses retrieval-augmented generation (RAG). It retrieves pages first, then writes its answer from what those pages say. Here is how that works, step by step."
+      },
+      {
+        "type": "h3",
+        "text": "Step 1: Claude decides whether it needs to search"
+      },
+      {
+        "type": "p",
+        "text": "For general knowledge, Claude can answer from training data. For anything current, local, priced or comparative, it searches. Claude can also run several rounds of searching on one question, reading results and then searching again to fill gaps, which makes it thorough on complex buying questions."
+      },
+      {
+        "type": "h3",
+        "text": "Step 2: Query fan-out turns one question into several searches"
+      },
+      {
+        "type": "p",
+        "text": "Claude rewrites your customer's question into a set of focused searches. \"Which commercial cleaning companies in Birmingham work with large offices?\" might become \"commercial office cleaning Birmingham\", \"office cleaning contract prices Birmingham\" and \"commercial cleaning company reviews Birmingham\". Each search is a separate chance for your business to be found."
+      },
+      {
+        "type": "h3",
+        "text": "Step 3: Retrieval pulls in pages from a search index"
+      },
+      {
+        "type": "p",
+        "text": "Claude sends those searches to its web search provider and fetches the top pages with its own crawlers. Anthropic runs separate crawlers for training (ClaudeBot), for search (Claude-SearchBot) and for pages users ask Claude to open (Claude-User). If your site blocks the search crawler, Claude may be unable to read or cite your pages."
+      },
+      {
+        "type": "h3",
+        "text": "Step 4: Claude reads, cross-checks and writes the answer"
+      },
+      {
+        "type": "p",
+        "text": "Claude reads the retrieved pages, compares what they say and writes an answer with inline citations. It tends to favour sources that are specific, well-structured and consistent with other sources. A business described the same way on its own site, in a trade publication and on a review site is far easier for Claude to recommend with confidence."
+      },
+      {
+        "type": "image",
+        "src": "/insights/claude-1.jpg",
+        "alt": "Claude web search answer naming three commercial office cleaning companies in Birmingham, with inline citations and a sources list",
+        "caption": "Claude cites its sources inline, sentence by sentence, and lists them under the answer."
+      },
+      {
+        "type": "h2",
+        "text": "How is Claude different from ChatGPT, Gemini and Perplexity?"
+      },
+      {
+        "type": "p",
+        "text": "Each assistant uses a different search source, so your business can appear in one and be missing from another. ChatGPT draws on third-party providers including Bing. Gemini and Google's AI Overviews draw on Google Search. Perplexity runs its own search for almost every question. Claude uses its own web search provider and its own crawlers."
+      },
+      {
+        "type": "p",
+        "text": "Two differences matter most for your business. Claude cites sources inline, sentence by sentence, so the pages it quotes are easy for the reader to click. And Claude's audience leans towards professionals and knowledge workers, which makes it especially valuable for B2B businesses. Our guide on [how to rank in ChatGPT](/insights/how-to-rank-in-chatgpt) covers that platform in detail."
+      },
+      {
+        "type": "h2",
+        "text": "Does SEO help you rank in Claude?"
+      },
+      {
+        "type": "p",
+        "text": "Yes. Claude finds its sources through a search index, so a website that ranks well, loads cleanly and answers questions clearly is far more likely to be retrieved and cited. Because of query fan-out, ranking for many of the smaller questions around your service matters as much as ranking for your main keyword."
+      },
+      {
+        "type": "quote",
+        "text": "Getting mentioned on ChatGPT, Gemini etc is basically just SEO.",
+        "author": "One entrepreneur",
+        "where": "r/Entrepreneur",
+        "href": "https://www.reddit.com/r/Entrepreneur/comments/1sm02ku/experts_here_is_there_a_way_to_rank_on_chatgpt/"
+      },
+      {
+        "type": "p",
+        "text": "That matches what we see across client work. A properly SEO-optimised website needs:"
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "pages indexed in the major search engines"
+          },
+          {
+            "text": "a clear page for each service and location you cover"
+          },
+          {
+            "text": "fast pages with the main content in plain HTML, since AI crawlers often do not run JavaScript"
+          },
+          {
+            "text": "content that answers the questions behind each buying decision"
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "AEO builds on that foundation so Claude chooses your business when it writes its answer. Our guide to [answer engine optimisation](/insights/answer-engine-optimisation) explains how the two fit together."
+      },
+      {
+        "type": "h2",
+        "text": "How to rank your business in Claude, step by step"
+      },
+      {
+        "type": "h3",
+        "text": "1. Check what Claude says about you today"
+      },
+      {
+        "type": "p",
+        "text": "Start by finding out where you stand. Ask Claude the questions your customers ask, with web search on, and note which businesses it names and which sources it cites."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Write 10 to 20 prompts your customers would use, such as \"best [service] in [city]\" or \"[service] for mid-sized businesses in the UK\"."
+          },
+          {
+            "text": "Run each prompt in Claude with web search turned on."
+          },
+          {
+            "text": "Ask \"what do you know about [your business name]?\" and check every fact."
+          },
+          {
+            "text": "List every source Claude cites. These are the sites you want to rank on or be mentioned by."
+          },
+          {
+            "text": "Repeat monthly with the same prompts."
+          }
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "2. Let Claude's crawlers reach your site"
+      },
+      {
+        "type": "p",
+        "text": "Some websites block AI crawlers by default, often through a security setting or a robots.txt rule added years ago. If Claude-SearchBot cannot reach your pages, Claude cannot cite them."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Open yoursite.com/robots.txt and check it does not block Claude-SearchBot, Claude-User or ClaudeBot."
+          },
+          {
+            "text": "Check your firewall or CDN (for example Cloudflare) is not blocking AI crawlers."
+          },
+          {
+            "text": "Make sure your main content appears in the page HTML, not only after JavaScript runs."
+          },
+          {
+            "text": "Submit your sitemap to Google Search Console and Bing Webmaster Tools so your pages are indexed widely."
+          }
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "3. Write clear, well-structured, answer-first pages"
+      },
+      {
+        "type": "p",
+        "text": "Claude quotes passages that answer a question directly and back it up with specifics. Pages with clear headings, short answers and supporting facts are much easier for Claude to cite sentence by sentence."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Create one page per service, and one per location or industry you serve."
+          },
+          {
+            "text": "Write headings as the questions customers ask."
+          },
+          {
+            "text": "Answer each question in 40 to 60 words under the heading, then add detail."
+          },
+          {
+            "text": "Back claims with numbers, sources, standards and dates."
+          },
+          {
+            "text": "Show who wrote or reviewed the page, and when it was last updated."
+          }
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "4. Build authority with digital PR"
+      },
+      {
+        "type": "p",
+        "text": "Claude cross-checks sources before it recommends a business, so being covered by credible third parties carries real weight. Digital PR earns that coverage, and each article that names you becomes another page Claude can retrieve and cite."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Publish original data from your work, such as costs, timelines or survey results, and pitch it to journalists."
+          },
+          {
+            "text": "Offer expert comment on industry news through journalist request services."
+          },
+          {
+            "text": "Write guest articles and opinion pieces for trade publications."
+          },
+          {
+            "text": "Speak at events, webinars and podcasts, and make sure the event pages name your business."
+          },
+          {
+            "text": "Apply for industry awards and \"top companies\" lists."
+          }
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "5. Build mentions on directories, review sites and communities"
+      },
+      {
+        "type": "p",
+        "text": "Directories and review sites confirm the basics: that you exist, what you do and what customers think. Claude often cites them when it compares options."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "List your business on the main directories for your industry and country."
+          },
+          {
+            "text": "Collect reviews on Google, Trustpilot or the platforms your customers use."
+          },
+          {
+            "text": "Take part in Reddit, LinkedIn and industry forums where people ask for recommendations."
+          }
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "6. Keep your business details consistent everywhere"
+      },
+      {
+        "type": "p",
+        "text": "Claude compares sources, so conflicting details about your business can make it less confident about recommending you."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Use the same business name, description and services on every listing."
+          },
+          {
+            "text": "Keep your address and phone number identical everywhere."
+          },
+          {
+            "text": "Add Organization schema to your website with links to your official profiles."
+          }
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "How to rank a B2B business in Claude"
+      },
+      {
+        "type": "p",
+        "text": "Claude is particularly strong for B2B research because its users often use it for work, and they ask long, detailed questions. A buying team may use Claude to research a market, compare suppliers and draft a business case, all before contacting anyone."
+      },
+      {
+        "type": "h3",
+        "text": "What do B2B buyers ask Claude?"
+      },
+      {
+        "type": "p",
+        "text": "Take a property developer looking for a construction logistics partner for a London site. The team might ask Claude:"
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "\"Which construction logistics companies in London manage deliveries for city-centre sites with strict access windows?\""
+          },
+          {
+            "text": "\"What does a construction logistics plan cost for a 200-unit residential project?\""
+          },
+          {
+            "text": "\"Summarise the pros and cons of [Company A] and [Company B] for construction logistics.\""
+          },
+          {
+            "text": "\"Draft a supplier comparison table for our board.\""
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "The last request is important. Claude often turns research into documents, such as comparison tables, briefs and business cases. If your business is in Claude's research, it can end up in the document that goes to the decision-maker."
+      },
+      {
+        "type": "h3",
+        "text": "What content does a B2B business need to rank in Claude?"
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Specialist service and industry pages: one page per service and per sector, written with the detail a professional expects."
+          },
+          {
+            "text": "Clear facts Claude can compare: capacity, locations, certifications, standards, response times and contract types, stated plainly."
+          },
+          {
+            "text": "Pricing guidance: ranges and what drives cost, so Claude can include you in budget questions."
+          },
+          {
+            "text": "Case studies: the problem, the approach and the measured result, described by industry and market."
+          },
+          {
+            "text": "Expert content: guides, data and opinion from named people in your business, which builds the credibility Claude looks for."
+          },
+          {
+            "text": "Readable detail: spec sheets and capability statements as web pages as well as PDFs."
+          }
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "Where should a B2B business be mentioned?"
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Trade publications and industry news sites."
+          },
+          {
+            "text": "Industry association member directories and supplier frameworks."
+          },
+          {
+            "text": "B2B review platforms relevant to your sector."
+          },
+          {
+            "text": "LinkedIn, through company pages and founder or expert posts."
+          },
+          {
+            "text": "Partner, client and event pages that name you."
+          }
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "B2B steps to rank in Claude"
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Map the questions each member of the buying team asks, including requests to compare or summarise."
+          },
+          {
+            "text": "Build a page that answers each question with specific, comparable facts."
+          },
+          {
+            "text": "Publish at least one case study per core service and sector."
+          },
+          {
+            "text": "Earn coverage in two or three trade publications through data or expert comment."
+          },
+          {
+            "text": "Test the buying team's prompts in Claude monthly and track who is named."
+          }
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "How to rank a B2C business in Claude"
+      },
+      {
+        "type": "p",
+        "text": "Consumers use Claude for considered purchases, where they want a careful comparison: a new laptop, a holiday, a course, a financial product or a home improvement project. Claude builds these answers from reviews, buying guides, product details and community discussion."
+      },
+      {
+        "type": "h3",
+        "text": "What do B2C customers ask Claude?"
+      },
+      {
+        "type": "p",
+        "text": "Take someone planning a kitchen renovation. They might ask Claude \"how much does a mid-range kitchen renovation cost in the UK?\", then \"what should I look for in a kitchen fitter?\", then \"compare [Brand A] and [Brand B] kitchens for durability\". Claude fans these out into searches for cost guides, reviews, buying advice and brand pages, then names the businesses that appear across them."
+      },
+      {
+        "type": "h3",
+        "text": "What does a B2C business need to rank in Claude?"
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Detailed product and service pages: prices, specifications, materials, sizes and who each option suits."
+          },
+          {
+            "text": "Honest buying guidance: guides that help people choose, including when your product is not the right fit. Balanced content is easier for Claude to trust and quote."
+          },
+          {
+            "text": "Cost guides: clear price ranges and what changes the cost."
+          },
+          {
+            "text": "Policy pages: delivery, returns, guarantees and aftercare."
+          },
+          {
+            "text": "Reviews: recent reviews on Google, Trustpilot and retailer sites."
+          },
+          {
+            "text": "Buying guide and community coverage: inclusion in \"best of\" articles and genuine discussion on Reddit and forums."
+          }
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "B2C steps to rank in Claude"
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Fill every product or service page with prices, specifications and FAQs."
+          },
+          {
+            "text": "Publish one honest buying guide and one cost guide for each main category."
+          },
+          {
+            "text": "Add Product and Review schema."
+          },
+          {
+            "text": "Ask every customer for a review."
+          },
+          {
+            "text": "Pitch the buying guides and publishers Claude already cites in your category."
+          },
+          {
+            "text": "Test your top customer prompts monthly."
+          }
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "How to rank a local business in Claude for \"near me\" searches"
+      },
+      {
+        "type": "p",
+        "text": "When someone asks Claude for a local business, it relies on web search results, local directories and review sites, reading the web like a researcher rather than showing a map. Clear location pages and consistent listings make the biggest difference."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Build a page for each town or area you serve, with real local detail."
+          },
+          {
+            "text": "Keep your Google Business Profile and Bing Places listing complete and accurate."
+          },
+          {
+            "text": "Get listed in local directories and covered by local news sites."
+          },
+          {
+            "text": "Collect reviews that mention your service and location."
+          },
+          {
+            "text": "Include your full address and service areas in plain text and in LocalBusiness schema."
+          }
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "How to see if Claude sends traffic to your website"
+      },
+      {
+        "type": "p",
+        "text": "Visits from Claude usually show in analytics with claude.ai as the referral source."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "In Google Analytics 4, open Reports, then Acquisition, then Traffic acquisition."
+          },
+          {
+            "text": "Set the dimension to \"Session source / medium\" and search for \"claude\"."
+          },
+          {
+            "text": "Check which landing pages those visits reach and whether they turn into enquiries."
+          },
+          {
+            "text": "Add \"Claude or another AI tool\" to your \"how did you hear about us?\" form, since some visits arrive without a referral source."
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "src": "/insights/claude-2.jpg",
+        "alt": "GA4 Traffic acquisition report by session primary channel group, with an AI Assistant row",
+        "caption": "GA4 Traffic acquisition by channel group. AI tools such as Claude show in their own row."
+      },
+      {
+        "type": "p",
+        "text": "Our guide on how to track AI traffic on your website covers free and paid tools for every AI platform."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Is Claude free to use?",
+        "a": "Yes, there is a free version of Claude. You can sign up at claude.ai or in the Claude app and use it for free with daily usage limits. Paid plans give higher limits, access to more models and extra features."
+      },
+      {
+        "q": "Is Claude Pro worth it?",
+        "a": "Claude Pro suits people who use Claude most days for work, such as writing, research or analysis, and keep reaching the free plan's limits. If you use Claude now and then, the free plan is usually enough. Claude Max offers much higher usage limits again, and is worth it mainly for heavy daily users, such as people who rely on Claude for long research or coding sessions. For teams, Anthropic's business plans add shared workspaces and admin controls."
+      },
+      {
+        "q": "Is Claude the best AI?",
+        "a": "No single AI assistant is best for everything. Claude is widely rated for writing, careful reasoning, analysing long documents and coding. Other assistants have their own strengths, such as image and video tools or close links to a search engine. The best choice depends on the tasks you use it for, and many businesses use more than one."
+      },
+      {
+        "q": "What is an artifact in Claude?",
+        "a": "An artifact is a piece of work Claude creates in its own window beside the chat, such as a document, a piece of code, a chart, a diagram or a small interactive app. You can view, edit, download or share it, which makes artifacts useful for drafting reports, building simple tools or creating visuals for your business."
+      },
+      {
+        "q": "Can Claude generate images?",
+        "a": "Claude does not create photographic images in the way dedicated image generators do. It can create visuals through code, such as charts, diagrams, illustrations and designs, and it can read and analyse images you upload."
+      },
+      {
+        "q": "Can Claude analyse video?",
+        "a": "Claude can analyse images, screenshots, PDFs, spreadsheets and documents. Support for analysing video files directly has been limited, so check Anthropic's current features. A common workaround is to share a transcript or key frames from the video for Claude to analyse."
+      },
+      {
+        "q": "Is Claude more ethical than ChatGPT?",
+        "a": "Both Anthropic and OpenAI publish safety policies and rules for how their assistants should behave. Anthropic guides Claude with a published set of principles, sometimes called its constitution, which sets out the values Claude should follow. Whether one assistant is more ethical than another depends on what you value, so it is worth reading each company's published policies yourself."
+      },
+      {
+        "q": "Is Claude safe for business information?",
+        "a": "Anthropic's business and team plans do not use your conversations to train its models by default. On personal plans, you can choose in your settings whether your chats help improve Claude. Check Anthropic's current privacy policy and your own data rules before sharing confidential information."
+      },
+      {
+        "q": "Does Claude search the internet?",
+        "a": "Yes. With web search turned on, Claude searches the web for current information and cites its sources inline."
+      },
+      {
+        "q": "Do I need to pay to appear in Claude's answers?",
+        "a": "No. Your business appears in Claude's answers because of your website, rankings, reviews and mentions across the web."
+      },
+      {
+        "q": "Should I block AI crawlers like ClaudeBot?",
+        "a": "Blocking ClaudeBot stops your content being used for training, while blocking Claude-SearchBot and Claude-User stops Claude reading your pages for search answers. If you want to appear in Claude's answers, allow the search and user crawlers at the very least."
+      },
+      {
+        "q": "How long does it take to rank in Claude?",
+        "a": "Once your pages are indexed and crawlable, Claude can start citing them within a few weeks. Being recommended consistently usually takes three to six months, as reviews, PR coverage and rankings build up. Want to know what Claude says about your business today? [Book a call with Team MAAI](/book)."
+      }
+    ]
+  },
+  {
+    "slug": "how-to-rank-in-ai-overviews",
+    "seoTitle": "How to Rank in Google AI Overviews and AI Mode in 2027 (Data-Backed Guide)",
+    "title": "How to Rank Your Business in Google AI Overviews and AI Mode in 2027",
+    "description": "How to rank your business in Google AI Overviews and AI Mode in 2027: how Google's AI picks sources, seven steps, and B2B, B2C and local tactics.",
+    "date": "2026-11-09",
+    "author": "team",
+    "topics": [
+      "AEO/GEO"
+    ],
+    "industries": [],
+    "image": "/removals/foundation-dashboard.jpg",
+    "intro": "Ranking in Google's AI Overviews and AI Mode works differently from ranking in ChatGPT, Claude or Perplexity. Google's AI answers are built from Google's own search index, shaped by Google's own ranking systems and fed by Google's own properties, such as YouTube and Business Profiles. That makes them the AI answers where traditional SEO matters most, and also the ones that change fastest. This guide explains how AI Overviews and AI Mode choose their sources, what the data says about who gets cited, how the two features differ from each other, and the exact steps to rank your business in both in 2027.",
+    "body": [
+      {
+        "type": "h2",
+        "text": "What are Google AI Overviews and AI Mode?"
+      },
+      {
+        "type": "p",
+        "text": "AI Overviews are AI-generated summaries that appear at the top of some Google search results, with links to the sources they used. They grew out of Google's Search Generative Experience (SGE) test and are powered by Google's Gemini models. AI Mode is a separate tab in Google Search where people ask longer questions, follow up and get a conversational answer with source links."
+      },
+      {
+        "type": "image",
+        "src": "/insights/aio-1.jpg",
+        "alt": "Google AI Overview on UK 3PL pallet storage costs, with a cost table and cited sources on the right",
+        "caption": "An AI Overview with its cited sources on the right."
+      },
+      {
+        "type": "p",
+        "text": "When your page is linked inside the AI answer, you are \"ranking\" in it. On desktop, the first cited source is visible straight away, and the rest appear when someone expands the answer, so the first few citation spots matter most."
+      },
+      {
+        "type": "h2",
+        "text": "How is ranking in Google's AI different from ChatGPT and other LLMs?"
+      },
+      {
+        "type": "p",
+        "text": "ChatGPT, Claude and Perplexity are standalone assistants that search the web through other providers. Google's AI features live inside Google Search and use everything Google already knows about your website and business. Here are the differences that change how you optimise."
+      },
+      {
+        "type": "h3",
+        "text": "1. Google uses its own index and ranking systems"
+      },
+      {
+        "type": "p",
+        "text": "ChatGPT draws on third-party search providers including Bing, and Claude uses its own search provider and crawlers. Google's AI features retrieve pages from Google's own index, ranked by its own systems. There is no separate AI crawler to allow: if Googlebot can crawl your page and Google can show a snippet from it, it is eligible. Blocking Google-Extended does not remove you from AI Overviews, as they are part of Search."
+      },
+      {
+        "type": "h3",
+        "text": "2. Organic rankings matter more than on any other AI platform"
+      },
+      {
+        "type": "p",
+        "text": "Analysis of 1.9 million AI Overview citations by [Ahrefs](https://ahrefs.com/blog/search-rankings-ai-citations/) found that 76% of cited pages also ranked in Google's top 10 for the same search, and the median position of the top-cited page was 2."
+      },
+      {
+        "type": "p",
+        "text": "The link between authority and AI visibility is also much stronger on Google. In a study of the top 50 websites mentioned across 76.7 million AI Overviews, [Ahrefs](https://ahrefs.com/blog/does-being-mentioned-on-highly-linked-pages-influence-ai-mentions/) found a correlation of about 0.70 between being mentioned on highly linked pages and AI Overview visibility, compared with about 0.4 for Perplexity and about 0.1 for ChatGPT. Links and authority carry far more weight in Google's AI than elsewhere."
+      },
+      {
+        "type": "image",
+        "src": "/insights/aio-2.jpg",
+        "alt": "Bar chart: correlation between links and mentions and AI visibility, Google AI Overviews 0.70, Perplexity 0.4, ChatGPT 0.1",
+        "caption": "How much links and mentions matter on each AI platform. Source: Ahrefs."
+      },
+      {
+        "type": "h3",
+        "text": "3. Google's own properties feed its answers"
+      },
+      {
+        "type": "p",
+        "text": "Google draws heavily on platforms it owns or controls. YouTube is the most cited domain in AI Overviews, and in a study of 75,000 brands, [Ahrefs](https://ahrefs.com/blog/ai-brand-visibility-correlations/) found YouTube mentions had the strongest correlation with AI Overview visibility (0.740), ahead of branded web mentions. Google Business Profiles shape local answers, Merchant Center feeds shape product answers, and Google reviews shape both. No other AI assistant has this level of access."
+      },
+      {
+        "type": "h3",
+        "text": "4. AI Overviews appear for research questions, not every search"
+      },
+      {
+        "type": "p",
+        "text": "People ask ChatGPT for recommendations directly. On Google, AI Overviews mostly appear at the research stage. Across 146 million results pages, [Ahrefs](https://ahrefs.com/blog/ai-overview-triggers/) found AI Overviews on 21% of all keywords, but on 57.9% of question searches and 46.4% of searches with seven or more words. Almost every keyword that triggers one is informational. For your business, that means AI Overviews shape how buyers understand a problem before they compare suppliers."
+      },
+      {
+        "type": "h3",
+        "text": "5. Answers change constantly and are personalised"
+      },
+      {
+        "type": "p",
+        "text": "Google's AI answers are generated fresh each time. [Ahrefs](https://ahrefs.com/blog/ai-overview-change/) found AI Overview content changes 70% of the time and its citations change 46% of the time between generations, although the meaning stays very stable. Results also vary by location and search history. A single check tells you little, so you need to track the same searches over time."
+      },
+      {
+        "type": "h3",
+        "text": "6. Google's AI answers sit beside ads and normal results"
+      },
+      {
+        "type": "p",
+        "text": "ChatGPT's answer is the whole page. An AI Overview sits above ads, local results and the usual links, so your page competes for attention with every other result. Being the cited source, appearing in the organic results below and showing in the map pack all work together."
+      },
+      {
+        "type": "h2",
+        "text": "What is the difference between AI Overviews and AI Mode?"
+      },
+      {
+        "type": "p",
+        "text": "AI Overviews and AI Mode come from the same company and often agree, but they behave as separate citation systems. In a study of 730,000 response pairs, [Ahrefs](https://ahrefs.com/blog/ai-overviews-vs-ai-mode/) found the two gave answers with the same meaning 86% of the time, yet cited the same pages only 13.7% of the time."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Length and brands: AI Mode answers are about four times longer and mention 3.3 brands or people on average, against 1.3 in AI Overviews."
+          },
+          {
+            "text": "Brand carry-over: if your brand appears in an AI Overview, there is a 61% chance it also appears in AI Mode, usually alongside more competitors."
+          },
+          {
+            "text": "Sources: AI Overviews favour YouTube, Reddit, videos and core pages such as homepages. AI Mode leans more on Wikipedia (28.9% of citations, against 18.1% in AI Overviews) and cites Quora 3.5 times as often."
+          },
+          {
+            "text": "Citations: 11% of AI Overviews cite no sources at all, against 3% of AI Mode answers, and 59% of AI Overviews mention no brands."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "For your business, this means two things. Track AI Overviews and AI Mode separately, since winning one does not guarantee the other. And build topic-wide authority, since both systems agree on what to say even when they choose different pages to cite."
+      },
+      {
+        "type": "image",
+        "src": "/insights/aio-3.jpg",
+        "alt": "Bar chart: AI Overviews and AI Mode give the same meaning 86% of the time but cite the same pages only 13.7% of the time",
+        "caption": "AI Overviews and AI Mode agree on meaning but rarely cite the same pages. Source: Ahrefs."
+      },
+      {
+        "type": "h2",
+        "text": "How do AI Overviews and AI Mode build an answer? RAG and query fan-out"
+      },
+      {
+        "type": "p",
+        "text": "Both features use retrieval-augmented generation (RAG): Google retrieves passages from its index, then Gemini writes an answer grounded in them. Google's own guidance confirms that both AI Overviews and AI Mode may use query fan-out, running several related searches across subtopics to build one answer."
+      },
+      {
+        "type": "p",
+        "text": "Take the search \"what will a 3PL cost for a small ecommerce brand in the UK\". Gemini might fan it out into searches such as \"3PL pricing per order UK\", \"3PL pick and pack fees\", \"3PL storage cost per pallet\" and \"3PL minimum order volumes\". Pages that rank for these sub-searches become candidates for the final answer."
+      },
+      {
+        "type": "p",
+        "text": "The effect is measurable. Research by [Surfer](https://surferseo.com/blog/query-fan-out-impact/) found pages ranking for fan-out searches were 161% more likely to be cited in the AI Overview than pages ranking only for the main search, with a strong correlation of 0.77 between fan-out rankings and citations."
+      },
+      {
+        "type": "p",
+        "text": "Gemini also uses only part of each page. Analysis of more than 7,000 searches by [Dejan](https://dejan.ai/blog/how-big-are-googles-grounding-chunks/) found the text Google grounds its answers on levels off at around 540 words per page, and [Ahrefs](https://ahrefs.com/blog/short-vs-long-content-in-ai-overviews/) found almost no correlation between word count and AI Overview citations. A focused page that answers the question early beats a long page that wanders."
+      },
+      {
+        "type": "h2",
+        "text": "Do AI Overviews reduce clicks to your website?"
+      },
+      {
+        "type": "p",
+        "text": "Yes, for many searches. Research by [Pew Research Center](https://www.pewresearch.org/short-reads/2025/07/22/google-users-are-less-likely-to-click-on-links-when-an-ai-summary-appears-in-the-results/) found that Google users clicked a traditional result in 8% of visits when an AI summary appeared, compared with 15% when it did not. [Ahrefs](https://ahrefs.com/blog/ai-overviews-reduce-clicks/) measured a 34.5% drop in click-through rate for the top result, and [Seer Interactive](https://www.seerinteractive.com/insights/aio-impact-on-google-ctr-september-2025-update) reported drops as high as 61%."
+      },
+      {
+        "type": "p",
+        "text": "That is why being cited matters more than ever: the visibility moves into the answer itself. The impact also depends on intent. A search like \"what is a 3PL\" can be fully answered on Google, so few people click. A search like \"3PL pricing comparison UK\" still sends buyers through to check details, case studies and contact pages."
+      },
+      {
+        "type": "quote",
+        "text": "Yes it's dropping organic.",
+        "author": "One business owner",
+        "where": "r/digital_marketing",
+        "href": "https://www.reddit.com/r/digital_marketing/comments/1tvos1i/discussion_is_google_killing_organic_traffic_with/"
+      },
+      {
+        "type": "h2",
+        "text": "How to rank your business in AI Overviews, step by step"
+      },
+      {
+        "type": "h3",
+        "text": "1. Find the searches in your market that trigger AI Overviews"
+      },
+      {
+        "type": "p",
+        "text": "Since AI Overviews appear mostly on question and long-tail searches, start by mapping the questions your buyers ask while they research."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "List 30 to 50 questions your buyers ask, from \"what is\" and \"how does\" to cost, comparison and \"why\" questions."
+          },
+          {
+            "text": "Search each one on Google, logged out and set to your target country, and note whether an AI Overview appears."
+          },
+          {
+            "text": "Expand every AI Overview and record each cited source and its position."
+          },
+          {
+            "text": "Use the AI Overview filter in your SEO tool to find more questions in your topic that trigger one."
+          },
+          {
+            "text": "Prioritise questions that show an AI Overview and relate closely to what you sell."
+          }
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "2. Rank on page one for the main search"
+      },
+      {
+        "type": "p",
+        "text": "With three in four citations coming from the top 10, organic ranking is the entry ticket. If your page sits on page two or lower, improve its ranking first."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Check where your page ranks for each target search in Search Console."
+          },
+          {
+            "text": "Improve the page title, headings and opening answer to match the search intent."
+          },
+          {
+            "text": "Add internal links from related pages with clear, descriptive anchor text."
+          },
+          {
+            "text": "Fix indexing, speed and mobile issues in Search Console."
+          }
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "3. Cover the fan-out questions to own the topic"
+      },
+      {
+        "type": "p",
+        "text": "Because fan-out rankings make a citation far more likely, build pages that cover the sub-questions Gemini is likely to search."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Search your main question in AI Mode and note the follow-up angles it covers."
+          },
+          {
+            "text": "Check People Also Ask and related searches for each target search."
+          },
+          {
+            "text": "Use a free fan-out tool such as Qforia, which uses Gemini to generate likely sub-searches."
+          },
+          {
+            "text": "Answer the closest sub-questions on the main page, and give larger ones their own linked page."
+          },
+          {
+            "text": "Link the whole topic cluster together, with the main service page at the centre."
+          }
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "4. Answer early, clearly and specifically"
+      },
+      {
+        "type": "p",
+        "text": "Gemini grounds its answer on a limited slice of each page, so put the answer where it will be read."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Match each heading to the question, and answer it in the first 40 to 60 words beneath it."
+          },
+          {
+            "text": "Give specific facts: prices, ranges, timelines, sizes, standards and locations."
+          },
+          {
+            "text": "Use lists for steps and tables for comparisons."
+          },
+          {
+            "text": "Remove sections that drift away from the page's main intent."
+          },
+          {
+            "text": "Keep the page focused, and let the topic decide its length."
+          }
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "5. Build brand mentions on authoritative pages and \"best\" lists"
+      },
+      {
+        "type": "p",
+        "text": "Brand mentions are the strongest correlating factor with AI Overview visibility, and mentions on well-linked pages matter far more on Google than on other AI platforms. \"Best\" lists are especially important: research by [Ahrefs](https://ahrefs.com/blog/best-lists-research/) found nearly half of AI Overview citations in the categories studied came from \"best\" style articles."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Find well-linked industry pages that mention competitors but not you, and pitch expert comment, data or a guest piece."
+          },
+          {
+            "text": "Approach publishers in your niche about \"best\" lists, offering a genuine trial or demo so the review is honest."
+          },
+          {
+            "text": "Publish original data from your work and pitch it through digital PR."
+          },
+          {
+            "text": "Earn listings in industry associations and directories with strong authority."
+          }
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "6. Use YouTube and Google's own platforms"
+      },
+      {
+        "type": "p",
+        "text": "YouTube is Google's most cited source in AI Overviews, so video is a direct route into Google's answers."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Create short videos answering your top buyer questions, with clear titles and accurate transcripts."
+          },
+          {
+            "text": "Partner with YouTube creators in your industry whose videos already appear in AI Overviews."
+          },
+          {
+            "text": "Complete and update your Google Business Profile, with services, photos and regular posts."
+          },
+          {
+            "text": "For products, keep your Merchant Center feed accurate and complete."
+          },
+          {
+            "text": "Collect Google reviews that describe the service and location."
+          }
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "7. Keep pages eligible and fresh"
+      },
+      {
+        "type": "p",
+        "text": "Eligibility rules are simple but easy to break, and freshness matters for searches where dates count."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Check pages are indexed and do not use nosnippet or a very low max-snippet setting."
+          },
+          {
+            "text": "Add structured data, such as Organization, Service, Product, FAQPage and Article, where it fits. It helps Google understand your page, although studies have not shown a direct effect on citations."
+          },
+          {
+            "text": "Review key pages every three to six months, update figures and dates, and request indexing after major changes."
+          }
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "How to rank your business in Google AI Mode"
+      },
+      {
+        "type": "p",
+        "text": "AI Mode uses the same index but fans out more widely, writes longer answers and names more brands. With only 13.7% citation overlap, it needs its own attention."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Build comprehensive topic clusters, since AI Mode explores more sub-questions per answer."
+          },
+          {
+            "text": "Write reference-style pages that define, explain and compare clearly, the encyclopedic format AI Mode leans on."
+          },
+          {
+            "text": "Make sure your business is described accurately on Wikipedia, Wikidata and industry reference sites where you are eligible."
+          },
+          {
+            "text": "Answer the follow-up questions buyers ask after their first one: cost, risks, alternatives and timelines."
+          },
+          {
+            "text": "Test full multi-step conversations in AI Mode, and track your citations separately from AI Overviews."
+          }
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "How to rank a B2B business in AI Overviews and AI Mode"
+      },
+      {
+        "type": "p",
+        "text": "B2B searches are full of the long, research-stage questions that trigger AI Overviews, so Google's AI shapes how buyers understand a problem before they shortlist suppliers."
+      },
+      {
+        "type": "h3",
+        "text": "What does a B2B buying journey look like on Google?"
+      },
+      {
+        "type": "p",
+        "text": "Take a manufacturer looking for an export freight partner. Their searches might move from \"how does freight forwarding work for exports\" to \"freight forwarder costs UK to Germany\", then \"best freight forwarders for manufacturers UK\", then \"[Company A] vs [Company B] freight\". The early searches trigger AI Overviews, and the later ones often bring up AI Mode, map results and \"best\" lists."
+      },
+      {
+        "type": "h3",
+        "text": "B2B steps to rank in Google's AI"
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Map searches across the buying journey, from education to supplier comparison."
+          },
+          {
+            "text": "Build an answer-first guide for each early-stage question, linked to the matching service page."
+          },
+          {
+            "text": "Publish cost guides and fair comparisons, since these are common fan-out searches."
+          },
+          {
+            "text": "Earn mentions in trade publications, industry \"best\" lists and association directories."
+          },
+          {
+            "text": "Create short explainer videos on YouTube for your most common buyer questions."
+          },
+          {
+            "text": "Track AI Overview and AI Mode citations separately each month."
+          }
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "How to rank a B2C business in AI Overviews and AI Mode"
+      },
+      {
+        "type": "p",
+        "text": "For consumers, Google's AI often answers buying questions directly, such as \"best air fryer for a family of four\" or \"how much does a boiler service cost\", drawing on product data, reviews, videos and forums."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Complete every product page with prices, specifications and FAQs, plus Product and Review schema."
+          },
+          {
+            "text": "Keep your Merchant Center feed accurate, as Google's shopping features draw on it. This applies to Shopify stores too, through the Google and YouTube app."
+          },
+          {
+            "text": "Publish honest buying guides and cost guides for each main category."
+          },
+          {
+            "text": "Collect Google reviews after every purchase."
+          },
+          {
+            "text": "Create review, comparison and how-to videos, or work with creators who already appear in AI Overviews."
+          },
+          {
+            "text": "Take part in Reddit discussions in your category, since AI Overviews cite community sources often."
+          }
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "How to rank a local business in AI Overviews and AI Mode"
+      },
+      {
+        "type": "p",
+        "text": "For local searches, Google blends AI answers with map results and Business Profiles, so your profile matters as much as your website."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Complete every section of your Google Business Profile: categories, services, hours, photos and description."
+          },
+          {
+            "text": "Collect reviews that mention your services and location, and reply to them."
+          },
+          {
+            "text": "Build a page for each town or area you serve, with real local detail."
+          },
+          {
+            "text": "Keep your name, address and phone number identical everywhere."
+          },
+          {
+            "text": "Get covered by local news sites and listed in local directories."
+          }
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "How to track AI Overviews and AI Mode"
+      },
+      {
+        "type": "p",
+        "text": "Google blends AI Overview and AI Mode data into normal search data, so there is no separate report for them. Clicks show up as Google organic traffic or with no referrer at all. Here is how to track them anyway."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Citations: use an AI visibility tool that tracks AI Overview and AI Mode citations separately, or check your target searches by hand each month."
+          },
+          {
+            "text": "Click impact: in Search Console, filter question-style searches and look for pages where impressions and rankings hold steady but click-through rate falls."
+          },
+          {
+            "text": "AI Overview clicks: Google sometimes adds a text fragment (#:~:text=) to links from AI answers. With Google Tag Manager, you can capture it as a custom dimension in GA4."
+          },
+          {
+            "text": "Leads: ask \"how did you find us?\" on every enquiry form."
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "src": "/insights/aio-4.jpg",
+        "alt": "Google Search Console performance report showing 1.43k clicks, 271k impressions, 0.5% CTR and average position 8.2",
+        "caption": "Google Search Console Performance report, where AI Overview and AI Mode clicks are counted with normal search."
+      },
+      {
+        "type": "p",
+        "text": "Our guide on how to track AI traffic on your website covers the free and paid tools in detail."
+      },
+      {
+        "type": "h2",
+        "text": "What does this look like in practice?"
+      },
+      {
+        "type": "image",
+        "src": "/insights/aio-5.jpg",
+        "alt": "Google AI Overview for aeo agency for self storage naming MAAI Agency as a specialist",
+        "caption": "MAAI named in Google's AI Overview for \"aeo agency for self storage\"."
+      },
+      {
+        "type": "p",
+        "text": "MAAI's own site now appears as a source in Google's AI Overview for \"aeo agency for self storage\"."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is an AI Overview?",
+        "a": "An AI Overview is a short AI-written summary at the top of Google's search results that answers your question and links to the sources it used. You can expand it to see more detail and every cited source."
+      },
+      {
+        "q": "What AI does Google AI Overview use?",
+        "a": "AI Overviews and AI Mode are powered by Google's Gemini models, customised for Search and connected to Google's search index."
+      },
+      {
+        "q": "Can you turn off AI Overviews on Google?",
+        "a": "Google does not offer a setting to switch AI Overviews off completely. There are a few ways to see results without them: Select the \"Web\" filter under the search box, which shows plain links only. Add \"-ai\" to the end of your search, which many people report hides the AI Overview, although Google could change this at any time. In Chrome, Safari or Firefox, set up a custom search engine that uses Google's Web results (the address ending in udm=14), so every search opens without AI Overviews. For businesses, this is a reminder that some searchers skip AI answers entirely, so your normal organic rankings still matter."
+      },
+      {
+        "q": "How do you turn on AI Overviews?",
+        "a": "AI Overviews appear automatically when Google decides they help, in supported countries and languages, including the UK. There is no switch to turn them on. AI Mode can be opened at any time from its own tab."
+      },
+      {
+        "q": "Is AI Overview accurate?",
+        "a": "AI Overviews are usually accurate on well-covered topics but can make mistakes, especially on unusual, fast-changing or niche questions. Check the cited sources before relying on an answer for anything important. For businesses, an accurate, clear page about your own services helps Google describe you correctly."
+      },
+      {
+        "q": "Why does the AI Overview keep disappearing?",
+        "a": "Google only shows an AI Overview when it judges one will help, and answers are generated fresh each time, so the same search can show one and then not. Location, search history and how busy the service is also play a part. The message \"can't generate an AI Overview right now\" usually means a temporary issue, and the answer often returns if you search again later."
+      },
+      {
+        "q": "Does schema help you rank in AI Overviews?",
+        "a": "Structured data helps Google understand your pages and supports rich results, but studies have not shown a direct link between schema and AI Overview citations. Add the schema types that fit your pages as good practice, then focus on rankings, answers and mentions."
+      },
+      {
+        "q": "Can I pay to appear in AI Overviews?",
+        "a": "No. Citations are organic. Google can show ads above, below or within AI Overviews, but those are labelled as sponsored and are separate from the cited sources."
+      },
+      {
+        "q": "How long does it take to appear in AI Overviews?",
+        "a": "If your page already ranks on page one, sharpening its answers can lead to citations within a few weeks of Google recrawling it. If you need to build rankings and mentions first, expect three to six months."
+      },
+      {
+        "q": "Do I need an AI Overview optimisation agency?",
+        "a": "Many businesses can start with the steps in this guide. An agency helps when you need to cover many topics, build fan-out content at scale and earn PR coverage. See our list of the best AI and GEO marketing agencies for B2B in the UK. Want to know where your business appears in Google's AI answers? [Book a call with Team MAAI](/book)."
+      }
+    ]
+  },
+  {
+    "slug": "how-to-turn-off-ai-overview-google",
+    "seoTitle": "How to Turn Off AI Overview on Google (2027 Guide)",
+    "title": "How to Turn Off AI Overview on Google in 2027: Desktop, Mobile and AI Mode",
+    "description": "How to turn off AI Overview on Google in 2027 on desktop and mobile, how to remove AI Mode, and whether your business should opt out.",
+    "date": "2026-11-09",
+    "author": "team",
+    "topics": [
+      "AEO/GEO"
+    ],
+    "industries": [],
+    "image": "/removals/intent-map.jpg",
+    "intro": "Google now shows an AI Overview above its results for a large share of searches, and its AI Mode button sits in the search bar and in Chrome. Some people find the summaries useful. Many would rather go straight to the links, check sources themselves, or avoid answers that can get facts wrong. If that is you, the good news is that you can stop seeing AI Overviews in a few minutes, on desktop and on your phone. This guide explains five ways to turn off AI Overview on Google, how to remove AI Mode and other Google AI features, and, for business owners, the new option that lets websites opt out of Google's AI answers, plus whether your business should use it.",
+    "body": [
+      {
+        "type": "h2",
+        "text": "Can you turn off AI Overviews on Google?"
+      },
+      {
+        "type": "p",
+        "text": "No, Google does not offer an official switch to turn off AI Overviews. Google treats them as a core part of Search, like featured snippets. You can still stop seeing them by using the Web filter, adding \"-ai\" to a search, using the udm=14 web address, setting a custom search engine or installing a browser extension."
+      },
+      {
+        "type": "p",
+        "text": "Each method works differently. Some hide the AI Overview after the page loads. Others ask Google for a results page that never includes it. Because none of them is a true off switch, Google could change how they work at any time, so it helps to know more than one."
+      },
+      {
+        "type": "h2",
+        "text": "How to turn off AI Overview on Google: 5 methods"
+      },
+      {
+        "type": "h3",
+        "text": "1. Use the Web filter"
+      },
+      {
+        "type": "p",
+        "text": "The Web filter is Google's own way to show only text links, without AI Overviews. It works on desktop, mobile and in the Google app, but you need to select it for each search."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Search for anything on Google."
+          },
+          {
+            "text": "Under the search box, select \"Web\". If you can't see it, select \"More\" first."
+          },
+          {
+            "text": "The page reloads with links only."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "The Web filter also removes other features, such as image results and knowledge panels."
+      },
+      {
+        "type": "image",
+        "src": "/insights/turnoff-1.jpg",
+        "alt": "Google results page with the Web filter selected, showing links without an AI Overview",
+        "caption": "The Web filter shows links only, with no AI Overview."
+      },
+      {
+        "type": "h3",
+        "text": "2. Add \"-ai\" to your search"
+      },
+      {
+        "type": "p",
+        "text": "Adding \"-ai\" to the end of a search, such as \"best walking boots -ai\", is widely reported to hide the AI Overview. It is the quickest trick, with nothing to set up."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Type your search as usual."
+          },
+          {
+            "text": "Add a space, then \"-ai\", at the end."
+          },
+          {
+            "text": "Press Enter."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "This is a loophole, not a feature, so Google could stop it at any time. The minus sign also tells Google to leave out results containing \"ai\", which can affect searches where that word matters."
+      },
+      {
+        "type": "h3",
+        "text": "3. Add udm=14 to the search address"
+      },
+      {
+        "type": "p",
+        "text": "The Web filter adds a short code, udm=14, to Google's web address. You can add it yourself to go straight to the links-only page."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Search on Google, then click the address bar."
+          },
+          {
+            "text": "Add \"&udm=14\" to the end of the address and press Enter."
+          },
+          {
+            "text": "To make it reusable, bookmark https://www.google.com/search?udm=14&q= and type your search after \"q=\"."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Google does not document udm=14 publicly, so treat it as useful but not guaranteed."
+      },
+      {
+        "type": "h3",
+        "text": "4. Make \"Google Web\" your default search engine"
+      },
+      {
+        "type": "p",
+        "text": "This is the most reliable permanent fix on desktop. You add a version of Google that always uses udm=14, then make it your default, so every search from your address bar opens without AI Overviews."
+      },
+      {
+        "type": "p",
+        "text": "Google Chrome and Microsoft Edge (desktop):"
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Chrome: go to Settings, then Search engine, then Manage search engines and site search. Edge: go to Settings, then Privacy, search and services, then Address bar and search, then Manage search engines."
+          },
+          {
+            "text": "Next to \"Site search\", select \"Add\"."
+          },
+          {
+            "text": "Enter the name \"Google Web\", the shortcut \"@web\", and the URL https://www.google.com/search?q=%s&udm=14"
+          },
+          {
+            "text": "Select \"Add\", then open the three-dot menu next to \"Google Web\" and choose \"Make default\"."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Firefox (desktop):"
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Go to Settings, then Search, then Search Shortcuts, and select \"Add\"."
+          },
+          {
+            "text": "Enter the name \"Google Web\" and the same URL, then save."
+          },
+          {
+            "text": "Under \"Default Search Engine\", choose \"Google Web\"."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Safari: Safari does not let you add custom search engines. Use the bookmark from method 3, or install a Safari extension that redirects Google searches to the Web view."
+      },
+      {
+        "type": "h3",
+        "text": "5. Use a browser extension"
+      },
+      {
+        "type": "p",
+        "text": "Extensions such as \"Bye Bye, Google AI\" or \"Hide Google AI Overviews\" hide the AI Overview box, and often AI Mode buttons, after the page loads."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Search your browser's extension store for an AI Overview blocker."
+          },
+          {
+            "text": "Check its reviews, last update date and the permissions it asks for."
+          },
+          {
+            "text": "Install it and test a search."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Extensions can break when Google changes its page design, and any extension that reads your search pages can see your searches, so choose one from a developer you trust."
+      },
+      {
+        "type": "h2",
+        "text": "How to turn off AI Overview on mobile"
+      },
+      {
+        "type": "p",
+        "text": "Phones offer fewer settings, but you can still avoid AI Overviews."
+      },
+      {
+        "type": "h3",
+        "text": "iPhone and iPad"
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Use the Web filter after each search, in Safari, Chrome or the Google app."
+          },
+          {
+            "text": "Save the udm=14 bookmark from method 3, and add it to your home screen through Safari's Share menu for one-tap access."
+          },
+          {
+            "text": "Install a Safari extension that redirects Google to the Web view, through Settings, then Safari, then Extensions."
+          }
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "Android"
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Use the Web filter after each search."
+          },
+          {
+            "text": "Chrome on Android does not let you type a custom search engine address, so save the udm=14 bookmark to your home screen instead."
+          },
+          {
+            "text": "Firefox for Android supports custom search engines: go to Settings, then Search, then Default search engine, then \"Add search engine\", and use the Google Web URL from method 4."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "The Google app itself has no setting to remove AI Overviews."
+      },
+      {
+        "type": "h2",
+        "text": "How to turn off AI Mode on Google"
+      },
+      {
+        "type": "p",
+        "text": "AI Mode is Google's conversational search, reached through a button in Chrome's address bar, on the New Tab page and in Google Search. You can hide most of these entry points."
+      },
+      {
+        "type": "h3",
+        "text": "Remove AI Mode from Chrome's address bar"
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Right-click Chrome's address bar."
+          },
+          {
+            "text": "Untick \"Always show AI Mode\"."
+          }
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "Remove AI Mode from the New Tab search box and right-click menu"
+      },
+      {
+        "type": "p",
+        "text": "Some AI Mode buttons are controlled by Chrome's experimental settings, called flags. Flags can change or disappear between Chrome updates."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Type chrome://flags in the address bar and press Enter."
+          },
+          {
+            "text": "Search for \"AI Mode\" and set the related flags, such as \"AI Mode Omnibox entrypoint\", to \"Disabled\"."
+          },
+          {
+            "text": "Search for \"Search with AI Mode\" to remove the right-click option, and set it to \"Disabled\"."
+          },
+          {
+            "text": "Select \"Relaunch\"."
+          }
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "Turn off AI Mode in Search Labs"
+      },
+      {
+        "type": "p",
+        "text": "If you joined Google's Search Labs experiments, open Search Labs from the Labs icon on Google, go to Manage, and turn off AI Mode."
+      },
+      {
+        "type": "h3",
+        "text": "Remove AI Mode from your Android search bar"
+      },
+      {
+        "type": "p",
+        "text": "On Pixel phones, tap the \"G\" in the home-screen search bar, tap your profile picture, go to Settings, then Customize Pixel Search Box, and turn off AI Mode. Other Android phones may show a similar setting in the Google search widget's settings."
+      },
+      {
+        "type": "p",
+        "text": "The AI Mode tab on Google's results page itself cannot be removed, but the Web filter and udm=14 methods keep you on links-only results."
+      },
+      {
+        "type": "h2",
+        "text": "How to turn off other Google AI features"
+      },
+      {
+        "type": "p",
+        "text": "Google's AI appears in several places, and each has its own setting."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Gemini in Chrome: open chrome://settings, search for \"Gemini\" and turn off \"Gemini in Chrome\". Right-click the Gemini button at the top of Chrome and select \"Unpin\" to hide it."
+          },
+          {
+            "text": "AI writing help in Chrome: in Chrome's settings, search for \"Help me write\" and turn it off."
+          },
+          {
+            "text": "Gemini in Gmail and Google Docs: these are managed in each app's settings, or by your organisation's admin on work accounts."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "There is no single switch that turns off all Google AI at once."
+      },
+      {
+        "type": "h2",
+        "text": "Why does the AI Overview keep disappearing, and how do you turn it back on?"
+      },
+      {
+        "type": "p",
+        "text": "Google only shows an AI Overview when its systems judge that one will help, and each answer is generated fresh, so the same search can show one and then not. Your location, search history and the type of question also play a part. If you have used any method above, it will also hide them."
+      },
+      {
+        "type": "p",
+        "text": "There is no switch to turn AI Overviews on. To see them again, remove \"-ai\" from your searches, switch back from the Web filter, set Google as your default search engine instead of Google Web, or disable your extension."
+      },
+      {
+        "type": "h2",
+        "text": "Can website owners stop Google using their content in AI Overviews?"
+      },
+      {
+        "type": "p",
+        "text": "Yes, increasingly. On 3 June 2026, the UK's Competition and Markets Authority (CMA) required Google to let website owners opt out of having their content used in its AI search features. In response, Google began testing a new toggle in Search Console that lets site owners choose whether their content appears in, and helps ground, AI Overviews, AI Mode and AI Overviews in Discover."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Opting out keeps your pages in normal search results and rankings."
+          },
+          {
+            "text": "Sites that opt out lose impressions and traffic from Google's AI features."
+          },
+          {
+            "text": "The toggle is rolling out to a subset of UK site owners first, with a global rollout planned."
+          },
+          {
+            "text": "Google is also adding reports in Search Console showing how your site appears in its AI features."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Before this, the only option was blocking Google-Extended in robots.txt. That stops your content being used to train Google's AI models, but it does not remove you from AI Overviews or AI Mode, because those draw on the normal search index."
+      },
+      {
+        "type": "image",
+        "src": "/insights/turnoff-2.jpg",
+        "alt": "Search Console AI controls setting for Search generative AI, set to Include",
+        "caption": "The AI controls setting for site owners."
+      },
+      {
+        "type": "h2",
+        "text": "Should your business opt out of AI Overviews?"
+      },
+      {
+        "type": "p",
+        "text": "For most businesses, no. AI Overviews and AI Mode are where many buyers now research and build shortlists, and visitors who arrive from AI answers tend to convert well. Research by [Orbit Media](https://www.orbitmedia.com/blog/conversion-rates-ai-search/) across 97 B2B websites found ChatGPT visitors converted to leads at 2.1%, compared with 0.5% for Google search. If you opt out, the AI answer still appears, but it names and links to your competitors instead."
+      },
+      {
+        "type": "p",
+        "text": "Opting out can make sense for publishers whose content is the product itself, such as paywalled research, licensed data or news, where AI summaries replace a paid visit. For everyone else, the better move is to make sure Google's AI describes your business accurately and cites your pages. Our guide on [how to rank your business in AI Overviews and AI Mode](/insights/how-to-rank-in-ai-overviews) shows how."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Does turning off AI Overviews change my search results?",
+        "a": "No. The links underneath are the same. The Web filter and udm=14 simply show a links-only page, which also leaves out features such as image results and knowledge panels."
+      },
+      {
+        "q": "Does \"-ai\" still work?",
+        "a": "Many people report that it does at the time of writing, but it is an unofficial trick that Google could stop at any time. The Web filter and the Google Web search engine are more reliable."
+      },
+      {
+        "q": "Is there a Google setting to turn off AI forever?",
+        "a": "No. Google has no account setting that turns off AI Overviews or all of its AI features. The custom \"Google Web\" search engine is the closest permanent option on desktop."
+      },
+      {
+        "q": "Does udm=14 remove other features too?",
+        "a": "Yes. It shows web links only, so it also removes image packs, knowledge panels, People Also Ask and other results-page features."
+      },
+      {
+        "q": "Can I turn off AI Overviews in the Google app?",
+        "a": "Not with a setting. Use the Web filter after each search, or search in a browser with the Google Web shortcut instead. Running a business and wondering how Google's AI describes you? [Book a call with Team MAAI](/book)."
+      }
+    ]
+  },
+  {
+    "slug": "google-my-business-self-storage",
+    "seoTitle": "Google My Business for Self Storage: Rank 1st in 2027",
+    "title": "Rank 1st in Google My Business: A Guide for Self Storage Businesses in 2027",
+    "description": "How to rank 1st in Google My Business for self storage: set up your listing, posts, reviews, local PR, social and AI answers, step by step.",
+    "date": "2026-11-09",
+    "author": "team",
+    "topics": [
+      "AEO/GEO"
+    ],
+    "industries": [],
+    "image": "/removals/intent-map.jpg",
+    "intro": "Someone needs space for their furniture for three months. They pick up their phone, search \"storage units near me\" and choose one of the three businesses that appear on the map. Most never scroll further. If your self storage facility is not one of those three, that customer rents from a competitor. This guide shows how to rank 1st in Google My Business (now officially called Google Business Profile) for your self storage business in 2027: how the ranking works, how to set up your listing, how to use posts, reviews, local PR and social media to build trust, and how to get named in AI answers too. Around 823,000 people a month search \"storage units near me\" in the US (Semrush, US database). Each one is looking at the same three map results.",
+    "tldr": [
+      "Your primary category, your distance from the searcher and your business name carry the most weight for the map results (Whitespark's 2026 survey of local SEO experts).",
+      "Open hours matter. Whether your business is open when someone searches ranks 5th out of all the map ranking factors in that survey.",
+      "Reviews, Google My Business posts, local PR and a consistent brand on social media and across the web build the trust that moves you from 4th to 1st.",
+      "AI answers pull from your website and your listing. A Yext study found business websites and business listings made up 86% of the sources cited by ChatGPT, Gemini and Perplexity.",
+      "Expect results in weeks for listing fixes and months for the top spot."
+    ],
+    "body": [
+      {
+        "type": "h2",
+        "text": "What decides who ranks 1st in Google My Business for self storage?"
+      },
+      {
+        "type": "p",
+        "text": "Three things decide who ranks 1st: how well your listing matches the search, how close you are to the person searching, and how trusted your business looks online. Google calls these relevance, distance and prominence. Where you appear depends on which Google surface the customer is using, so we take them one at a time."
+      },
+      {
+        "type": "h3",
+        "text": "Google map results (the \"3-pack\")"
+      },
+      {
+        "type": "p",
+        "text": "The map results come mostly from your Google My Business listing. In [Whitespark](https://whitespark.ca/local-search-ranking-factors/)'s 2026 Local Search Ranking Factors survey of 47 local SEO experts, the top factors for the map results were your primary category (score 227), the distance between your address and the searcher (225) and keywords in your business name (223)."
+      },
+      {
+        "type": "image",
+        "src": "/insights/gmb-1.jpg",
+        "alt": "Bar chart of the top three map pack ranking factors: primary category 227, distance 225, keywords in business name 223",
+        "caption": "The top three map pack ranking factors. Source: Whitespark Local Search Ranking Factors 2026."
+      },
+      {
+        "type": "p",
+        "text": "The chart shows the top three are close together, so none of them wins alone. Below them in the same survey:"
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Business open at the time of search (189)"
+          },
+          {
+            "text": "A high star rating (181)"
+          },
+          {
+            "text": "The number of Google reviews (170)"
+          },
+          {
+            "text": "How recent they are (164)"
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Your website matters too: the survey also lists how closely the address on your website matches your listing (153) and the quality of the links to the page your listing points to (127)."
+      },
+      {
+        "type": "p",
+        "text": "The hours result deserves its own look, because it is easy to fix."
+      },
+      {
+        "type": "image",
+        "src": "/insights/gmb-2.jpg",
+        "alt": "Stat card: business open at the time of search is the 5th map pack ranking factor, score 189",
+        "caption": "Opening hours rank 5th among map pack factors. Source: Whitespark Local Search Ranking Factors 2026."
+      },
+      {
+        "type": "p",
+        "text": "Whitespark's report states that whether your business is open or closed when someone searches \"will have a huge impact\" on rankings. We cover how to set your hours below."
+      },
+      {
+        "type": "h3",
+        "text": "Google AI Overviews and AI Mode"
+      },
+      {
+        "type": "p",
+        "text": "Google's AI answers about local businesses are built on the same Google data: your listing, your reviews and your website. If you rank well in the map results and on your own location page, you give Google's AI more to quote. In the Whitespark survey, the strongest factors for showing up in AI search were being on expert-curated \"best of\" lists (179), having a dedicated page for each service (170) and being prominent on key industry domains (167)."
+      },
+      {
+        "type": "h3",
+        "text": "AI assistants such as ChatGPT, Gemini and Perplexity"
+      },
+      {
+        "type": "p",
+        "text": "AI assistants search the web, then name a few businesses. They rely heavily on business websites and business listings, which we cover in section 8. The practical point: the same listing and the same website that win you the map results also feed AI answers."
+      },
+      {
+        "type": "h2",
+        "text": "How do you set up your Google My Business listing to rank 1st?"
+      },
+      {
+        "type": "p",
+        "text": "Fill in every part of your Google My Business listing accurately, starting with your primary category, name, address, phone number and hours. Many self storage listings have gaps in these basics, and the basics carry the most ranking weight."
+      },
+      {
+        "type": "h3",
+        "text": "Which primary category should a self storage business choose?"
+      },
+      {
+        "type": "p",
+        "text": "Choose \"Self-storage facility\" as your primary category, because the primary category is the highest-scoring map ranking factor in the Whitespark survey. Add secondary categories only for services you really offer, such as vehicle or business storage, and check Google's category list to find the exact names."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Pick one primary category and keep it. Changing it often can move you down."
+          },
+          {
+            "text": "Use secondary categories for real services. Do not add categories you do not offer."
+          }
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "What should your business name, address and phone number look like?"
+      },
+      {
+        "type": "p",
+        "text": "Use your real business name exactly as it appears on your signage and website. Keywords in the business name scored 223 in the Whitespark survey, so a name such as \"Oakfield Self Storage\" helps when it is genuinely your trading name. Adding extra keywords that are not part of your name breaks Google's guidelines and risks a suspension."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Keep your name, address and phone number identical everywhere. Match your website, social profiles and directories letter for letter."
+          },
+          {
+            "text": "Use a local phone number your team answers, and a tracking number only if you keep your main number listed too."
+          }
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "How should you set your business hours?"
+      },
+      {
+        "type": "p",
+        "text": "Set your hours to match when people can actually reach you, and keep them current, including bank holidays. Because \"open at the time of search\" is the 5th-ranked factor, a listing shown as closed loses to an open competitor for the same search."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Set staffed office hours accurately. If your listing offers extra hour types, such as access hours for 24 hour gate access, fill them in."
+          },
+          {
+            "text": "Update special hours for holidays and for busy periods such as university move-out weeks."
+          },
+          {
+            "text": "Match the hours on your website and your other listings."
+          }
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "How do you link your Google My Business listing to the right page on your website?"
+      },
+      {
+        "type": "p",
+        "text": "Point each listing's website link to the matching location page, not your home page. This is a common gap, and it is quick to fix. The survey lists keywords in the title tag of the listing's landing page (146) and quality links to that page (127) as ranking factors, so the page you link to counts."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Build one page per location with the address, opening hours, unit sizes, prices, local landmarks and the nearby areas you serve."
+          },
+          {
+            "text": "Add a Google Map to the page and mention your postcode or ZIP code."
+          },
+          {
+            "text": "Link to the location page from your listing and back from your main self storage page."
+          }
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "What photos, services and details should you add?"
+      },
+      {
+        "type": "p",
+        "text": "Add real photos and video of your units, entrance, access areas, security and staff, then list every service and detail you offer. Complete listings answer more of the questions customers ask before they call."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Upload photos regularly. Show outside, inside, each unit size and a drive-up bay if you have one."
+          },
+          {
+            "text": "List unit sizes and services such as climate control, vehicle storage, packing materials and free collection."
+          },
+          {
+            "text": "Complete the attributes such as accessibility details, and add your booking or enquiry link."
+          },
+          {
+            "text": "Write your description in plain English and mention the area you serve. Avoid phone numbers and web links in it."
+          }
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "How do Google My Business posts help you rank?"
+      },
+      {
+        "type": "p",
+        "text": "Google My Business posts are short updates, offers and events that appear on your listing, and they show Google and customers that your business is active. Whitespark's survey lists the amount of engagement on a listing (120) among its ranking factors, and posts give people something to click, so a regularly updated listing has more chances to earn that engagement. Google has not published posts as a direct ranking factor, so treat them as a trust and conversion tool that supports your ranking."
+      },
+      {
+        "type": "p",
+        "text": "There are three post types. Updates cover news, tips and what is new at your facility. Offers have a title, start and end date, and suit promotions such as a first-month discount. Events have a title and dates and suit things like an open day or a charity clear-out."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Post at least weekly. Sources differ on the ideal number, and no cap exists, so choose a rhythm you can keep up."
+          },
+          {
+            "text": "Rotate the post types: an offer, a tip, a new unit size or a seasonal reminder."
+          },
+          {
+            "text": "Tie posts to the calendar: student term ends, house-move season, spring declutters and the weeks after Christmas."
+          },
+          {
+            "text": "Add a photo and a button such as \"Learn more\" or \"Call now\", pointing to the location page."
+          },
+          {
+            "text": "Keep phone numbers out of the post text and use the call button instead."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Post content also helps off Google. Reuse the same offer on your website and your Facebook page so the message stays consistent."
+      },
+      {
+        "type": "h2",
+        "text": "How do reviews help your Google My Business ranking?"
+      },
+      {
+        "type": "p",
+        "text": "Reviews help your Google My Business ranking in three ways: a high star rating, a large number of reviews, and recent reviews. In the Whitespark survey they scored 181, 170 and 164, which puts all three in the top 12 map ranking factors. Reviews also decide whether a customer picks you once you do show up."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Ask every tenant at the right moment. The best moment is right after move-in or when a tenant tells you the service was good. Send a direct link to your Google review form by text or email."
+          },
+          {
+            "text": "Put the link in the places tenants already look: the move-in email, the receipt, the QR code at the front desk and your website."
+          },
+          {
+            "text": "Do not offer incentives for reviews. Google's guidelines do not allow it."
+          },
+          {
+            "text": "Reply to every review, good or bad. Thank the happy ones by name and mention the facility. Answer problems calmly, say what you will do and give a contact for follow-up."
+          },
+          {
+            "text": "Keep reviews coming. A steady flow beats a burst, because recency counts."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Rating alone does not guarantee a top spot. Category, distance and the other factors can outweigh stars. Reviews help most when your basics are already right."
+      },
+      {
+        "type": "h2",
+        "text": "How does local PR help your self storage show up in Google My Business?"
+      },
+      {
+        "type": "p",
+        "text": "Local PR gets your self storage business mentioned and linked by trusted local websites, which builds the \"prominence\" Google uses to rank you. Mentions in local news, partner websites and community pages show Google that real people in your area know you. Ahrefs found that brand mentions across the web correlate with showing up in AI Overviews (0.664, stronger than backlinks), so local PR also feeds AI answers."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Pitch local news and radio with something real: a new facility, a community clear-out day, free storage for a local charity, or student move-out data."
+          },
+          {
+            "text": "Partner with local movers, estate agents, letting agents, universities and solicitors. Ask for a link to your location page and offer the same in return. These links are also local citations, which show Google your address appears consistently across trusted sources."
+          },
+          {
+            "text": "Sponsor a local team or event and ask for a link from their website."
+          },
+          {
+            "text": "Get on local \"best of\" lists and local business directories, with the same name, address and phone number each time. Consistency across the main search engines' sources scored 124 in the survey."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Pointing links at your location page rather than your home page matters, since the quality of links to the page your listing uses is a ranking factor (127)."
+      },
+      {
+        "type": "p",
+        "text": "Want us to look at your listing? Get a Google My Business audit done by MAAI. We check your categories, hours, location pages, reviews and local links, then send you a plan in order of impact. [Book your audit](/book)"
+      },
+      {
+        "type": "h2",
+        "text": "How does social media, including local Facebook, help your Google My Business ranking?"
+      },
+      {
+        "type": "p",
+        "text": "Social media helps people find and trust your self storage business, and gives Google and AI tools more consistent signs that your business is real and active. Google has not said social posts are a direct ranking factor, so think of social as brand visibility that supports the factors above."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Set up and complete your Facebook business page. Use the same name, address, phone number and hours as your Google listing and link to your location page."
+          },
+          {
+            "text": "Show up in local Facebook groups. Community groups for your town, moving and student housing groups are where people ask \"where can I store my stuff?\". Answer helpfully and mention you can help only where it fits the question."
+          },
+          {
+            "text": "Post local content: unit size tips, packing advice, open days and tenant stories. Repeat your Google My Business offers here."
+          },
+          {
+            "text": "Run local Facebook ads to your location page for the moving season, if you have budget. They send more local people to your website, where a consistent brand supports the rest."
+          },
+          {
+            "text": "Link your social profiles from your Google listing. It helps customers and keeps your details consistent."
+          }
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "How do you rank every self storage location in Google My Business?"
+      },
+      {
+        "type": "p",
+        "text": "Give each facility its own Google My Business listing, its own location page and its own set of reviews and posts. Google ranks listings one place at a time, so a strong main site does not carry a weak branch."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Create one listing per physical site. Use each site's real address and local number."
+          },
+          {
+            "text": "Write each location page for that area, not a copy of another page with the town name swapped."
+          },
+          {
+            "text": "Check the top three competitors in each area. Note their categories, review counts, photos and hours, then close the gaps one location at a time."
+          },
+          {
+            "text": "Ask for reviews per site, so each listing builds its own rating."
+          },
+          {
+            "text": "Track rankings per location, because rankings change street by street."
+          }
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Does Google My Business help your self storage show up in AI answers?"
+      },
+      {
+        "type": "p",
+        "text": "Yes. AI answers about local businesses draw heavily from business websites and business listings, so a complete Google My Business listing and a strong location page both help you get named. A [Yext](https://www.businesswire.com/news/home/20251009106549/en) study of 6.8 million citations from ChatGPT, Gemini and Perplexity found 44% came from business websites and 42% from business listings, and only 8% from reviews and social media."
+      },
+      {
+        "type": "image",
+        "src": "/insights/gmb-3.jpg",
+        "alt": "Bar chart: AI answers cite business websites 44%, business listings 42%, reviews and social 8%",
+        "caption": "Where AI answers get their sources. Source: Yext, 6.8 million citations from ChatGPT, Gemini and Perplexity."
+      },
+      {
+        "type": "p",
+        "text": "That means the facts on your listing and your website are the facts AI tools repeat when someone asks \"what is the best self storage near me?\". If your hours, prices or address are wrong or different across sources, AI tools can show the wrong answer. The Yext study is from a company that sells listings software, so read the exact split as a guide and not a rule. The direction is clear in both the Yext data and the Whitespark survey above: accurate listings and good pages win."
+      },
+      {
+        "type": "p",
+        "text": "Want us to look at your listing? Get a Google My Business audit done by MAAI. We check your categories, hours, location pages, reviews and local links, and how your business appears in AI answers. [Book your audit](/book)"
+      },
+      {
+        "type": "h3",
+        "text": "What helps your business appear in AI answers?"
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Keep your details identical everywhere. Name, address, phone number, hours and prices should match across your listing, website and directories."
+          },
+          {
+            "text": "Write a dedicated page for each service and location. A dedicated page for each service scored 170 for AI search visibility in the Whitespark survey."
+          },
+          {
+            "text": "Answer real questions on your pages. Write questions such as \"how much does a 25 sq ft unit cost?\" as headings, with the answer first. Our guide to [answer engine optimisation](/insights/answer-engine-optimisation) explains how this works."
+          },
+          {
+            "text": "Get mentioned on trusted local websites and \"best of\" lists. Being on expert-curated lists scored highest for AI search (179)."
+          },
+          {
+            "text": "Check AI answers yourself. Ask ChatGPT, Gemini and Perplexity for the best self storage near you each month and note whether you appear and what they say."
+          }
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "How do you track your Google My Business rankings and calls?"
+      },
+      {
+        "type": "p",
+        "text": "Track your Google My Business Performance report for calls, direction requests and website clicks, and use GA4 to see what visitors from your listing do on your site. Rankings change by location, so also check them from the area around each facility."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Open Performance in your Google My Business listing and note calls, direction requests, website clicks and search terms each month."
+          },
+          {
+            "text": "Add a tracking tag (UTM) to the website link on your listing so GA4 shows visits from it as a separate source."
+          },
+          {
+            "text": "Check your ranking from near your facility, in a private browser window, for \"storage units near me\" and \"self storage [your town]\"."
+          },
+          {
+            "text": "Compare month on month, not day to day, because local results move around."
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "src": "/insights/gmb-4.jpg",
+        "alt": "Four steps to open the Google My Business Performance report: open your listing, click Performance, pick a date range, read the results",
+        "caption": "Where to find your Performance report. Source: Google Business Profile Help."
+      },
+      {
+        "type": "p",
+        "text": "The four steps above are how to open the report. Your own numbers for calls, directions and website clicks appear on that screen."
+      },
+      {
+        "type": "h2",
+        "text": "How long does it take to rank 1st in Google My Business?"
+      },
+      {
+        "type": "p",
+        "text": "Listing fixes can show results in a few weeks, but reaching the top of the map results usually takes two to six months. Sources give different timelines, from 2 to 4 weeks for profile changes to 3 to 6 months for map pack movement, because it depends on your competition, your area and how much needs fixing."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "Weeks 1 to 4: correct your category, name, hours, photos, website link and details."
+          },
+          {
+            "text": "Months 1 to 3: build reviews, post weekly, and start local PR and partner links."
+          },
+          {
+            "text": "Months 3 to 6: keep going, track each location and fix the gaps the top three competitors show."
+          }
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Is Google My Business the same as Google Business Profile?",
+        "a": "Yes. Google renamed Google My Business to Google Business Profile, but many people still search for and say \"Google My Business\" or \"GMB\". It is the same free listing that shows your business on Google Search and Maps."
+      },
+      {
+        "q": "How many reviews does a self storage business need to rank 1st?",
+        "a": "There is no fixed number. Look at the top three businesses in your area and aim to match their rating, review count and how recent their reviews are, then keep adding new ones every month."
+      },
+      {
+        "q": "Why was my Google My Business listing suspended?",
+        "a": "Common causes are keywords added to the business name, a wrong or non-existent address, or breaking Google's guidelines on reviews. Fix the problem, then follow Google's appeal steps and keep proof such as signage, a lease or utility bills."
+      },
+      {
+        "q": "Can I rank in Google My Business without a staffed office?",
+        "a": "It is harder. Google expects a real address and customer access. If your facility is unstaffed, keep an accurate address, set honest access hours and make it easy to reach you by phone and online booking."
+      },
+      {
+        "q": "Do I need a website to rank in Google My Business?",
+        "a": "You can have a listing without one, but a website with a page for each location helps you rank and feeds AI answers. The Whitespark survey lists the title tag of your listing's landing page and the quality of links to it as ranking factors."
+      },
+      {
+        "q": "How often should I update my Google My Business listing?",
+        "a": "Check your hours, photos and details every month and post at least weekly. Update straight away when anything changes, such as prices or opening times."
+      }
+    ]
+  },
+  {
     slug: "answer-engine-optimisation",
     seoTitle: "AEO in 2027: What Answer Engine Optimisation Means for Your Business",
     title: "Answer Engine Optimisation (AEO) in 2027: What It Means for Your Business",
@@ -201,366 +2933,6 @@ const ALL_POSTS = [
     ],
   },
   {
-    slug: "generative-engine-optimization-b2b",
-    seoTitle: "Generative Engine Optimization (GEO) for B2B: 2027 Guide",
-    title: "B2B AEO and GEO Strategy 2027: The Complete Guide to Generative Engine Optimisation for B2B Companies",
-    description:
-      "Generative engine optimisation (GEO) for B2B companies: what GEO and AEO mean, how ChatGPT, Perplexity and Google's AI choose which brands to cite, an eight-step B2B strategy, how to measure it, and real client results.",
-    date: "2026-11-03",
-    author: "team",
-    topics: ["AEO/GEO", "B2B"],
-    industries: [],
-    image: "/Saas/authority.jpg",
-    intro:
-      "Your next B2B buyer may never see your website before they build a shortlist. They will ask ChatGPT, Perplexity, Gemini or Google's AI Mode which suppliers to consider, read the answer, and check only the names it gives them. Generative engine optimisation (GEO, also spelt generative engine optimization) is the work of making sure your company is one of those names. This guide explains what GEO and answer engine optimisation (AEO) mean, how AI tools decide which brands to cite, and how to build a B2B AEO and GEO strategy for 2027 step by step, with the measurement approach and client results we use at MAAI.",
-    tldr: [
-      "Generative engine optimisation (GEO) helps your brand get cited and recommended inside AI answers. AEO focuses on direct answers. Both sit on top of SEO.",
-      "63% of software buyers used AI to research a purchase in 2026, and 94% of them fact-check what it says (TrustRadius). AI builds the shortlist; your website, reviews and proof confirm it.",
-      "AI tools retrieve pages from search indexes and the open web, then pick passages to quote. If your pages cannot be crawled, found or trusted, they cannot be cited.",
-      "A B2B GEO strategy starts with the questions your buying group asks AI, then works on the sources AI already cites, answer-first pages, third-party proof and crawl access.",
-      "Measure with a fixed prompt set, AI referrals in GA4, Search Console and, most importantly, qualified enquiries.",
-    ],
-    body: [
-      { type: "h2", text: "What is generative engine optimisation (GEO)?" },
-      { type: "p", text: "Generative engine optimisation is the practice of structuring your content and your wider online presence so that AI tools retrieve it, summarise it and cite it when people ask questions. The \"generative engines\" are tools such as ChatGPT, Perplexity, Claude, Gemini, Grok and Google's AI Overviews and AI Mode, which write an answer instead of showing a list of links." },
-      { type: "p", text: "The term comes from a research paper, \"GEO: Generative Engine Optimization\", by [Pranjal Aggarwal](https://www.linkedin.com/in/pranjal2041/) and colleagues, first published in November 2023 and accepted to the KDD 2024 conference. The authors tested ways of rewriting content and reported that GEO methods can boost a source's visibility in generative engine responses by up to 40%. Adding statistics, quotations and cited sources was among the methods that helped most." },
-      { type: "p", text: "Answer engine optimisation (AEO) is a closely related term. It grew out of featured snippets and voice search, and focuses on giving the single best direct answer to a question. In practice, people use GEO, AEO, LLM SEO and AI SEO almost interchangeably, and there is still no agreed academic boundary between them. For a B2B company, the useful definition is simple: SEO gets you found in search results, AEO gets you used as the answer, and GEO gets you named and recommended in AI-written responses." },
-      {
-        type: "chart",
-        title: "Monthly searches for GEO and AEO terms",
-        series: [
-          { name: "US", color: "#1C3F2E" },
-          { name: "UK", color: "#86AB97" },
-        ],
-        rows: [
-          { label: "what is geo", values: [12100, 2400] },
-          { label: "generative engine optimization", values: [9900, 1600] },
-          { label: "answer engine optimization", values: [6600, 720] },
-        ],
-        source: {
-          label: "Semrush Keyword Overview",
-          note: "US and UK databases, data pulled 3 November 2026. Figures are Semrush's estimated average monthly searches.",
-        },
-      },
-      { type: "p", text: "The US has four to nine times the UK's search volume for these terms, which is normal for English-language B2B topics. The UK number for \"generative engine optimization\" understates real interest: 1,600 people a month search the US spelling and roughly the same number again search the UK spelling, \"generative engine optimisation\", so UK demand is closer to 3,200 searches a month. Searches for an actual \"AEO strategy\" are still tiny, around 70 a month in the UK (Semrush, November 2026), which tells you very few UK businesses have reached the planning stage. That gap is your opportunity." },
-
-      { type: "h2", text: "GEO vs AEO vs SEO: how the three work together" },
-      { type: "p", text: "Google's own guidance is clear on this point. Its guide to optimising for generative AI features says AI features rely on Google's core Search ranking and quality systems, and that \"you don't need to write in a specific way just for generative AI search\". Bing takes a similar view, saying SEO fundamentals support eligibility for AI-generated experiences. So treat GEO and AEO as layers on top of SEO, each with a slightly different goal." },
-      {
-        type: "table",
-        head: ["", "SEO", "AEO", "GEO"],
-        rows: [
-          ["Goal", "Rank pages in search results", "Become the direct answer", "Get named and cited in AI-written answers"],
-          ["Where it shows", "Google and Bing results pages", "Featured snippets, voice answers, AI Overviews", "ChatGPT, Perplexity, Claude, Gemini, Grok, AI Mode"],
-          ["Main levers", "Technical health, content, links", "Question-led structure, short answers, FAQs", "Facts and data, third-party mentions, entity consistency"],
-          ["Main measure", "Rankings, clicks, enquiries", "Snippet and answer ownership", "Citations, mentions, AI referrals, enquiries"],
-          ["Depends on", "Itself", "SEO foundations", "SEO foundations and wider reputation"],
-        ],
-      },
-      { type: "p", text: "If you want the longer story of how search moved from ten blue links to AI answers, our post on [whether AI will replace SEO](/insights/will-ai-replace-seo) covers the data from 2023 to 2026." },
-
-      { type: "h2", text: "Why B2B companies need an AEO and GEO strategy in 2027" },
-      { type: "p", text: "B2B buyers were early adopters of AI research. [Forrester](https://digitalcommerce360.com/2026/01/22/forrester-b2b-buying-ai-2026/)'s State of Business Buying 2026 reports that generative AI tools were the most cited meaningful interaction for researching B2B purchases in 2025. The [TrustRadius](https://hginsights.com/news/trustradius-2026-b2b-buying-disconnect-report-reveals-ai-has-changed-how-buyers-research-but-not-what-they-trust/) 2026 B2B Buying Disconnect Report, based on 1,862 technology buyers surveyed in January 2026, shows how that research works in practice." },
-      {
-        type: "chart",
-        title: "How B2B software buyers researched purchases in 2026 (% of buyers)",
-        series: [{ name: "Buyers", color: "#1C3F2E" }],
-        rows: [
-          { label: "Used AI to research", values: [63] },
-          { label: "Fact-check AI answers (of AI users)", values: [94] },
-          { label: "Use reviews to decide", values: [74] },
-          { label: "Shortlisted 3 or fewer products", values: [83] },
-        ],
-        source: {
-          label: "TrustRadius 2026 B2B Buying Disconnect Report, HG Insights",
-          href: "https://hginsights.com/news/trustradius-2026-b2b-buying-disconnect-report-reveals-ai-has-changed-how-buyers-research-but-not-what-they-trust/",
-          note: "1,862 technology buyers, survey fielded January 2026, published July 2026",
-        },
-      },
-      { type: "p", text: "Read together, these numbers describe the new B2B journey. Most buyers now use AI to research, almost all of them then check what it told them, reviews still carry real weight, and the final shortlist is tiny. If AI names three suppliers and you are not one of them, you are rarely considered at all. If AI names you, your website, case studies and reviews still have to pass the fact-check that follows." },
-      { type: "p", text: "This matters even more because B2B shortlists form early. [6sense](https://www.businesswire.com/news/home/20251112018032/en)'s 2025 Buyer Experience Report found that 94% of buying groups had already picked a favoured vendor before first contact. Our guide to [B2B SEO](/insights/seo-for-b2b-companies) explains that journey touchpoint by touchpoint. GEO is how you make sure AI tools introduce you during the part of that journey that happens without you." },
-
-      { type: "h2", text: "How AI tools decide which B2B brands to cite" },
-      { type: "p", text: "AI answers are built in three stages, and each stage gives you a different lever. One r/aeo commenter summed it up well:" },
-      {
-        type: "quote",
-        text: "There's training data (GPTBot etc), there's retrieval (OAI-SearchBot, PerplexityBot hitting your site and pulling pages into answers), and there's answer generation (whether the model picks your quote).",
-        author: "u/FailonOB_SEO",
-        where: "r/aeo",
-        href: "https://www.reddit.com/r/aeo/comments/1x7c8rj/comment/ph3xbct/",
-      },
-      {
-        type: "list",
-        items: [
-          { lead: "Training data.", text: "What a model learned before its cut-off date. You influence this slowly, through a consistent presence across trusted sites over time. Brands newer than the training data are simply unknown at this stage." },
-          { lead: "Retrieval.", text: "When an AI tool searches the web live, it fetches pages and pulls the most relevant passages into its answer. This is retrieval-augmented generation (RAG). Google's AI features retrieve from Google's own index, and OpenAI's crawler documentation states that sites opted out of its OAI-SearchBot crawler \"will not be shown in ChatGPT search answers\"." },
-          { lead: "Query fan-out.", text: "AI tools often break one question into several smaller searches. A buyer asking \"best freight forwarder for UK to India shipping\" may trigger searches on pricing, transit times, customs and reviews. Pages that answer those sub-questions clearly get pulled in, even if they do not rank first for the main query." },
-          { lead: "Answer generation.", text: "The model chooses which passages to quote and which brands to name. Clear, specific, well-sourced statements are easier to quote than vague marketing copy." },
-        ],
-      },
-      { type: "p", text: "Each platform leans on different sources. ChatGPT search and Perplexity run their own search crawlers, Google's AI Overviews and AI Mode use Google's index, and all of them draw heavily on review sites, directories, community threads and industry \"best of\" lists. That is why a B2B GEO strategy has to look beyond your own website." },
-
-      { type: "h2", text: "B2B AEO and GEO strategy: eight steps" },
-      { type: "p", text: "These are the steps we follow when we build a generative engine optimisation strategy for a B2B client. Steps one and two tell you where to focus; the rest do the work." },
-      { type: "h3", text: "1. Build a fixed set of buyer prompts" },
-      { type: "p", text: "Start with the questions your buyers would actually type into an AI tool. Cover the whole buying group, plus the customer's customer, whose questions often shape the decision. Keep the list fixed, because you will rerun it every month to measure progress." },
-      {
-        type: "list",
-        items: [
-          { lead: "Write 20 to 40 prompts.", text: "Use sales calls, client emails and support tickets for real wording." },
-          { lead: "Cover each role.", text: "Operations (service levels), finance (cost), procurement (compliance) and directors (risk)." },
-          { lead: "Mix three intents.", text: "Problem (\"why are our warehouse costs rising\"), comparison (\"3PL vs in-house fulfilment UK\") and supplier (\"best international removals companies for corporate moves\")." },
-          { lead: "Save the list.", text: "Keep it in one sheet with a column for each AI tool and month." },
-        ],
-      },
-      { type: "h3", text: "2. Find the sources AI already cites" },
-      { type: "p", text: "Run each prompt in ChatGPT, Perplexity, Gemini and Google AI Mode, and note every URL cited. This is the single most useful exercise in GEO, because it shows you exactly which pages shape answers in your category." },
-      {
-        type: "quote",
-        text: "Write down 10 questions your customers would ask an AI, run each one in ChatGPT and Perplexity, and list the pages they cite. If those are review sites or best-of lists, reach out... If they're competitor blog posts, write a better page.",
-        author: "u/keyworddotcom",
-        where: "r/aeo",
-        href: "https://www.reddit.com/r/aeo/comments/1x7c8rj/comment/ph4bvbt/",
-      },
-      {
-        type: "list",
-        items: [
-          { lead: "Record every cited URL.", text: "Note whether it is your site, a directory, a review platform, trade press or a comparison article." },
-          { lead: "Group by type.", text: "In B2B, trade publications, associations, review platforms and directories usually dominate." },
-          { lead: "Pick quick wins.", text: "Getting listed, reviewed or quoted on an already-cited page is often faster than ranking a new page of your own." },
-        ],
-      },
-      { type: "h3", text: "3. Make sure AI crawlers can reach your pages" },
-      { type: "p", text: "If an AI tool cannot crawl a page, it cannot cite it. Most problems here are invisible until you check, so treat this as a short technical audit." },
-      {
-        type: "list",
-        items: [
-          { lead: "Check robots.txt.", text: "Allow Googlebot, Bingbot, OAI-SearchBot and PerplexityBot if you want to appear in their answers. GPTBot relates to model training, so decide on it separately." },
-          { lead: "Check rendering.", text: "Make sure key content is in the page HTML. Some AI crawlers handle JavaScript poorly, so server-side rendering is the safer choice." },
-          { lead: "Check indexing.", text: "Confirm your important pages are indexed in Google Search Console and Bing Webmaster Tools." },
-          { lead: "Check firewalls.", text: "Make sure bot protection is not blocking legitimate AI search crawlers." },
-        ],
-      },
-      { type: "h3", text: "4. Write answer-first pages packed with specifics" },
-      { type: "p", text: "AI tools quote clear, specific statements. Put a direct one or two sentence answer under each heading, then expand. Specific, sourced statements are what the GEO research paper from [Princeton University](https://arxiv.org/abs/2311.09735) and partner institutions found AI engines reward." },
-      {
-        type: "list",
-        items: [
-          { lead: "Use question-led headings.", text: "Match how buyers phrase prompts." },
-          { lead: "Answer in the first sentence.", text: "Then add detail, examples and data." },
-          { lead: "State the facts buyers need.", text: "Sectors served, service areas, capacities, lead times, certifications, standards and price ranges where you can share them." },
-          { lead: "Be sector-specific.", text: "Manufacturers: materials, tolerances and lead times. Logistics: lanes, transit times and accreditations." },
-        ],
-      },
-      { type: "h3", text: "5. Build third-party proof and a consistent entity" },
-      { type: "p", text: "AI tools trust what several independent sources agree on. Your own site is one voice; reviews, directories and trade press are the others." },
-      {
-        type: "list",
-        items: [
-          { lead: "Keep details identical.", text: "Company name, description, services and locations should match across your website, Google Business Profile, LinkedIn and directories." },
-          { lead: "Collect detailed reviews.", text: "Recent reviews on the platforms your sector uses, ideally mentioning the specific service." },
-          { lead: "Earn mentions.", text: "Trade press, association member lists and partner pages." },
-          { lead: "Show your people.", text: "Founder and team LinkedIn profiles connect real expertise to your brand." },
-        ],
-      },
-      { type: "h3", text: "6. Refresh pages that already earn traffic" },
-      { type: "p", text: "Pages that already rank and receive visits are usually the quickest to start appearing in AI answers. One r/aeo commenter found that adding new information to older articles with traffic improved AI visibility, while pages with almost no traffic improved far less. That matches what we see in client accounts." },
-      {
-        type: "list",
-        items: [
-          { lead: "Start with your top 10 pages", text: "by clicks in Search Console." },
-          { lead: "Add new data and update figures.", text: "Replace anything older than a year." },
-          { lead: "Tighten the opening answer", text: "and add an FAQ that matches your prompt list." },
-        ],
-      },
-      { type: "h3", text: "7. Use structured data, and keep llms.txt in perspective" },
-      { type: "p", text: "Schema markup helps machines understand who you are and what you offer. Google says structured data is not required for its AI features but remains a good idea for SEO, and it does not use llms.txt or other AI text files." },
-      {
-        type: "list",
-        items: [
-          { lead: "Add core schema.", text: "Organization, Service or Product, Article and FAQPage." },
-          { lead: "Validate it.", text: "Test key pages with Google's Rich Results Test." },
-          { lead: "Treat llms.txt as optional.", text: "It costs little and some teams add it for other AI tools, but it should never come before crawlability, content and proof." },
-        ],
-      },
-      { type: "h3", text: "8. Measure visibility, then measure enquiries" },
-      { type: "p", text: "AI answers vary by model version, location and even time of day, so measure the same way every month and judge trends, never single results. In B2B, the enquiry and the contract are the measures that matter." },
-      {
-        type: "list",
-        items: [
-          { lead: "Rerun your prompt set monthly.", text: "Record whether you are mentioned, whether you are cited with a link, and which sources are cited instead." },
-          { lead: "Track AI referrals in GA4.", text: "Sources such as chatgpt.com, perplexity.ai and gemini.google.com." },
-          { lead: "Check platform reports.", text: "Google's generative AI performance data in Search Console and the AI performance report in Bing Webmaster Tools." },
-          { lead: "Ask every new lead", text: "where they first heard of you." },
-        ],
-      },
-      {
-        type: "quote",
-        text: "We'd avoid treating 'number of AI mentions' as the main KPI. It's more useful to track visibility over time alongside citations/referrals and, ultimately, whether any of it contributes to qualified traffic or enquiries.",
-        author: "u/ReachSTH-agency",
-        where: "r/Agent_SEO",
-        href: "https://www.reddit.com/r/Agent_SEO/comments/1wu8ygj/comment/pd38hqc/",
-      },
-
-      { type: "h2", text: "What AEO and GEO results look like for B2B clients" },
-      { type: "p", text: "Here is what we did for two MAAI clients in 2026, step by step, and what changed in Google Search Console. Client names are withheld." },
-      { type: "h3", text: "Corporate relocation company (B2B, UK and international)" },
-      { type: "p", text: "This client sells relocation services to HR and global mobility teams, but the people searching most are the employees who move. We built for both audiences." },
-      { type: "p", text: "What we did:" },
-      {
-        type: "ol",
-        items: [
-          { lead: "Mapped both audiences:", text: "HR and mobility buyers, and relocating employees and their families." },
-          { lead: "Wrote answer-first country guides", text: "on work permits, visas and cost of living, with an FAQ on each." },
-          { lead: "Built service pages", text: "for HR and mobility teams covering policy, cost and compliance." },
-          { lead: "Added business listings and syndicated guides", text: "to build consistent third-party mentions." },
-        ],
-      },
-      { type: "p", text: "What changed in Google Search Console:" },
-      {
-        type: "list",
-        items: [
-          { lead: "Daily search impressions:", text: "about 700 a day (13 to 22 January 2026), rising to about 2,600 a day (12 to 20 May 2026)." },
-          { lead: "Average position:", text: "9.8 in that January period, 8.4 in that May period." },
-          { lead: "Organic traffic:", text: "up 81% from February to June 2026, with 100% of qualified leads arriving through country guides." },
-          { lead: "\"How to do employee relocation\":", text: "position 40 in March 2026, position 11 in August 2026." },
-          { lead: "\"rmc relocation\":", text: "position 13 in March 2026, position 8 in August 2026." },
-        ],
-      },
-      { type: "h3", text: "UK international removals company" },
-      { type: "p", text: "This client already had strong country pages, so the work focused on making them easier for search engines and AI tools to read and quote." },
-      { type: "p", text: "What we did:" },
-      {
-        type: "ol",
-        items: [
-          { lead: "Refreshed country landing pages", text: "with current costs, transit times and process steps." },
-          { lead: "Added structured FAQs", text: "answering the questions customers ask before booking." },
-          { lead: "Added an llms.txt file", text: "alongside the existing technical SEO work." },
-        ],
-      },
-      { type: "p", text: "What changed in Google Search Console:" },
-      {
-        type: "list",
-        items: [
-          { lead: "Organic clicks:", text: "up 53%, comparing February to April 2026 with May to July 2026." },
-        ],
-      },
-      { type: "p", text: "The relocation result shows why GEO in B2B has to reach two audiences. Relocating employees ask AI tools about visas, housing and schools. When the answers come from a relocation company's guides, that company becomes familiar to the HR and mobility teams who choose the supplier." },
-
-      { type: "h2", text: "What marketers on Reddit say: supporters and sceptics" },
-      { type: "p", text: "AEO and GEO still divide the industry. In an r/Agent_SEO thread, an SEO working for a B2B manufacturing company asked whether anyone was getting real results. The replies covered both sides." },
-      {
-        type: "quote",
-        text: "We revamped a B2B manufacturer site... We worked on LLMS.txt, robots.txt, schema, entity map, FAQs (not a generic one), internal links... leads started coming from AI sources and conversion rate is also much higher compared to all other sources.",
-        author: "u/OkFox6901",
-        where: "r/Agent_SEO",
-        href: "https://www.reddit.com/r/Agent_SEO/comments/1wu8ygj/comment/19rrhh779zfsw/",
-      },
-      {
-        type: "quote",
-        text: "The results ... from AI search optimization efforts are not consistent compared to the results we get from Google search (SEO).",
-        author: "u/maxsemo",
-        where: "r/Agent_SEO",
-        href: "https://www.reddit.com/r/Agent_SEO/comments/1wu8ygj/comment/pfg714b/",
-      },
-      {
-        type: "quote",
-        text: "Horrendous waste of money. It doesn't work",
-        author: "u/Fuzzy_Fish_2329",
-        where: "r/Agent_SEO",
-        href: "https://www.reddit.com/r/Agent_SEO/comments/1wu8ygj/comment/pdafv7s/",
-      },
-      { type: "p", text: "A second debate, in r/aeo, was about whether you need SEO at all. One commenter argued you can get AI visibility with zero SEO done. Another replied:" },
-      {
-        type: "quote",
-        text: "You cant get visibility in highly competitive areas without some seo foundation.",
-        author: "u/MTMDigitalServices",
-        where: "r/aeo",
-        href: "https://www.reddit.com/r/aeo/comments/1x7c8rj/comment/ph8cuzm/",
-      },
-      { type: "h3", text: "Our view" },
-      { type: "p", text: "Both camps have a point. The sceptics are right that AI results are less consistent than Google rankings: answers change between runs, models and locations, and there is no single position to report. The supporters are right that AI referrals convert well in B2B, because a buyer who arrives after an AI recommendation has usually already done their research. Paid ads are never the source an AI tool cites, so organic visibility is the only route into these answers." },
-      { type: "p", text: "In our experience, AEO and GEO pay off when they are treated as an extension of strong SEO and measured on enquiries. Low-competition niches can see AI mentions with modest SEO, but competitive B2B categories need the foundations first. The work that helps most, specific content, third-party proof and crawlable pages, also improves your Google rankings, so very little effort is wasted." },
-      { type: "view", text: "", title: "Kriti's view" },
-
-      { type: "h2", text: "AEO and GEO by B2B industry: the questions buyers ask" },
-      { type: "p", text: "The eight steps apply to every B2B company, but the questions buyers put to AI tools, and the facts those tools need before they recommend a supplier, change from sector to sector. These are the industries we work in most, with the questions we hear from clients." },
-
-      { type: "h3", text: "How can a removals and relocation company grow with AEO and GEO?" },
-      { type: "p", text: "Removals buyers ask AI tools very specific questions: how much an international move costs, how long shipping to Australia takes, what can go in a container, and which removals companies are reliable for a given route. Each of those is a page you can own. Build country and city guides with real cost ranges and transit times, a clear FAQ on every service page, and pages for each move type, such as international, office and storage moves." },
-      { type: "p", text: "For a UK removals brand we work with, guides built on the company's own move data grew blog clicks by 39% between late March and late May 2026, during a period when the wider site was still recovering from two Google core updates. Original data like this is exactly what AI tools look for when they choose which page to quote." },
-      { type: "h3", text: "How do removal companies get recommended by ChatGPT and Google's AI Overviews?" },
-      {
-        type: "list",
-        items: [
-          { lead: "Be clear about who you are.", text: "State routes, service areas, accreditations such as BAR membership, insurance and years trading in plain text on your site, and keep them identical on your Google Business Profile and directory listings." },
-          { lead: "Earn detailed reviews.", text: "Reviews that mention the move type and route (\"London to Sydney, family of four\") help AI tools match you to specific prompts." },
-          { lead: "Get onto the lists AI already cites.", text: "Run prompts such as \"best international removals companies UK\" and work on being included in the comparison articles and directories that appear as sources." },
-        ],
-      },
-      { type: "h3", text: "What should a corporate relocation company publish for AI search?" },
-      { type: "p", text: "Corporate relocation has two audiences: HR and global mobility teams, who choose the supplier, and the employees who move. Publish service pages for the first group (policy design, cost management, compliance) and answer-first country guides for the second (visas, housing, schools, cost of living). For our corporate relocation client, that approach grew organic traffic by 81% in four months, and every qualified lead came through a country guide." },
-
-      { type: "h3", text: "How can a logistics company win more shipper enquiries with AEO and GEO?" },
-      { type: "p", text: "Shippers and procurement teams ask AI tools to compare providers: \"best freight forwarder for UK to India\", \"3PL with Amazon FBA prep in the Midlands\", \"how much does pallet storage cost\". Create a page for each lane, service and sector you serve, and open each one with a direct answer that states what you do, where, and for whom. Pricing guides and transit-time tables are among the most quoted content in this sector, because they answer the questions buyers ask first." },
-      { type: "p", text: "We see the same pattern with an international baggage shipping client: customers ask detailed questions about what can be shipped, customs rules and delivery times by country, and clear country-by-country answers are what bring them in." },
-      { type: "h3", text: "What do AI tools look for when recommending a 3PL or freight forwarder?" },
-      {
-        type: "list",
-        items: [
-          { lead: "Specific capabilities.", text: "Warehouse locations and size, temperature control, hazardous goods handling, integrations and order cut-off times." },
-          { lead: "Accreditations.", text: "Industry memberships, AEO (Authorised Economic Operator) status, ISO certifications and GDP licences, stated clearly and consistently." },
-          { lead: "Sector proof.", text: "Case studies by sector, such as ecommerce, pharmaceutical or automotive, with real numbers where clients allow it." },
-        ],
-      },
-
-      { type: "h3", text: "How can supply chain and manufacturing companies use AEO and GEO to win RFQs?" },
-      { type: "p", text: "Procurement and engineering buyers ask precise, technical questions, and precise pages get quoted. Publish capability pages for each process and material, with tolerances, certifications, lead times, minimum order quantities and the industries you supply. Add application guides that answer the questions engineers ask before they request a quote. A health medtech manufacturer we work with has a buyer journey much like this, where technical specifications and regulatory compliance decide the shortlist long before a sales call." },
-      { type: "h3", text: "What product and technical details should manufacturers publish for AI search?" },
-      {
-        type: "list",
-        items: [
-          { lead: "Specifications in text.", text: "Put key specifications in HTML text and tables, with downloadable datasheets as a bonus. AI crawlers read page text far more reliably than PDFs and images." },
-          { lead: "Compliance and standards.", text: "ISO 9001, ISO 13485 for medical devices, CE and UKCA marking, and any sector approvals." },
-          { lead: "Industries and use cases.", text: "One page per industry served, explaining the problem you solve for that industry in its own language." },
-        ],
-      },
-      { type: "h3", text: "How can real estate and self storage businesses grow with AEO and GEO?" },
-      { type: "p", text: "Property and storage searches are often local, so AI answers lean heavily on local data: Google Business Profile details, reviews and local roundups. Create a page for every location with unit sizes, prices, access hours and security, and answer the practical questions customers ask, such as how much storage a one-bedroom flat needs or how to store belongings during a house move. For a self storage client, we plan content around exactly these questions, because they are the prompts people bring to AI tools." },
-      { type: "h3", text: "How do property and storage businesses show up in local AI answers?" },
-      { type: "p", text: "Proximity matters for \"near me\" prompts, and you cannot change where you are. You can change how relevant and trusted you look next to equally close competitors. One Reddit commenter in a thread on AI visibility for local businesses explained it well:" },
-      {
-        type: "quote",
-        text: "Being close but still not recommended usually comes down to relevance and prominence. The businesses that got picked over it most likely have better-matched categories, more complete services and attributes, and more recent reviews.",
-        author: "u/nazran7",
-        where: "Reddit, in a thread on AEO and GEO for hyperlocal businesses",
-        href: "https://www.reddit.com/user/nazran7/",
-      },
-      { type: "p", text: "In practice: complete every field of your Business Profile, choose accurate secondary categories, encourage reviews that mention specific services, and test prompts with the town named in them (\"self storage in Leeds for business stock\") as well as \"near me\", because the two behave differently." },
-
-      { type: "h2", text: "Common B2B GEO mistakes to avoid" },
-      {
-        type: "list",
-        items: [
-          { lead: "Starting with tools.", text: "AI visibility tools are useful for tracking, but the strategy starts with your buyers' questions and the sources AI already cites." },
-          { lead: "Blocking AI search crawlers by accident.", text: "A blanket block in robots.txt or a firewall rule can remove you from ChatGPT search and Perplexity answers." },
-          { lead: "Writing generic content.", text: "Pages that repeat what every other supplier says give AI tools nothing new to cite. Original data and specific facts stand out." },
-          { lead: "Ignoring third-party sites.", text: "In many B2B categories, AI answers cite directories, reviews and trade press more than supplier websites." },
-          { lead: "Reporting mentions without leads.", text: "Mentions are an early signal. Tie the work to referrals, enquiries and pipeline." },
-        ],
-      },
-
-    ],
-    faq: [
-      { q: "What is generative engine optimisation (GEO)?", a: "GEO is the practice of structuring your content and online presence so that AI tools such as ChatGPT, Perplexity, Gemini and Google's AI Overviews retrieve, cite and recommend your brand in their answers." },
-      { q: "What is the difference between AEO and GEO?", a: "AEO (answer engine optimisation) focuses on becoming the direct answer to a question, for example in featured snippets and AI Overviews. GEO focuses on being named and cited in AI-written responses. Both rely on SEO foundations, and many people use the terms interchangeably." },
-      { q: "Is GEO replacing SEO?", a: "No. Google says its AI features rely on its core Search ranking systems, and AI tools retrieve pages from search indexes. GEO extends SEO and depends on it." },
-      { q: "How long does GEO take for a B2B company?", a: "Refreshed pages that already rank can appear in AI answers within weeks. Building third-party proof and authority in a competitive B2B category usually takes several months, similar to SEO." },
-      { q: "How do you measure GEO results?", a: "Run a fixed set of buyer prompts monthly across AI tools and record mentions and citations, track AI referral traffic in GA4, review Search Console and Bing Webmaster Tools data, and ask new leads where they found you." },
-      { q: "Do I need an llms.txt file for GEO?", a: "It is optional. Google states it does not use llms.txt for Search. Some teams add one for other AI tools, but crawlability, specific content and third-party proof matter far more." },
-    ],
-  },
-  {
     slug: "seo-for-b2b-companies",
     seoTitle: "B2B SEO Strategy 2027: SEO for the B2B Customer Journey",
     title: "B2B SEO Strategy 2027: SEO and AEO for the B2B Customer Journey",
@@ -586,7 +2958,7 @@ const ALL_POSTS = [
       { type: "h3", text: "What is B2B SEO?" },
       { type: "p", text: "B2B SEO (search engine optimisation) helps your website rank in Google and Bing when other businesses search for what you sell, from early questions such as \"what is a 3PL\" to supplier searches such as \"3PL warehouse UK\"." },
       { type: "h3", text: "What is B2B AEO?" },
-      { type: "p", text: "B2B AEO (answer engine optimisation) helps your business get cited and recommended inside AI answers, in ChatGPT, Perplexity, Claude, Gemini and Google's AI Overviews and AI Mode, when buyers ask those tools to explain a problem or suggest suppliers. You will also hear it called generative engine optimisation (GEO); our guide to [B2B AEO and GEO strategy](/insights/generative-engine-optimization-b2b) covers it in depth." },
+      { type: "p", text: "B2B AEO (answer engine optimisation) helps your business get cited and recommended inside AI answers, in ChatGPT, Perplexity, Claude, Gemini and Google's AI Overviews and AI Mode, when buyers ask those tools to explain a problem or suggest suppliers. You will also hear it called generative engine optimisation (GEO); our guide to [B2B AEO and GEO strategy](/insights/answer-engine-optimisation) covers it in depth." },
       { type: "h3", text: "How do SEO and AEO work together in B2B?" },
       { type: "p", text: "AEO depends on SEO. AI tools search the web before they answer, and in our study of 42 business searches, 71% of the sources Google's AI Overviews cited already ranked on Google's first page for the same search. SEO gets your pages found; AEO makes them the passage an AI tool quotes and your business the one it names." },
       { type: "p", text: "To see why both now matter so much, start with how the journey itself has changed." },
@@ -709,7 +3081,7 @@ const ALL_POSTS = [
           ["Success measure", "Qualified leads, pipeline, contract value", "Revenue and conversion rate"],
         ],
       },
-      { type: "p", text: "If you also sell to consumers, our guide to [SEO for B2C brands](/insights/seo-vs-ppc-for-b2c) covers that side. Here is how to put B2B SEO and AEO into practice." },
+      { type: "p", text: "If you also sell to consumers, our guide to SEO for B2C brands covers that side. Here is how to put B2B SEO and AEO into practice." },
 
       { type: "h2", text: "How to do B2B SEO and AEO: 9 steps" },
       { type: "p", text: "Work through these in order. Steps 1 and 2 tell you what to build, steps 3 to 6 build it on your website, steps 7 and 8 build your authority beyond it, and step 9 tells you whether it is working." },
@@ -827,7 +3199,7 @@ const ALL_POSTS = [
       },
       { type: "h3", text: "Step 9. Track AI visibility, leads and pipeline" },
       { type: "p", text: "Check what AI tools say about you every month, and measure SEO and AEO in qualified leads and pipeline." },
-      { type: "p", text: "**AI visibility:** take ten questions from step 1, run them in ChatGPT, Perplexity, Gemini and Google's AI Mode each month, and record whether your business is named, which competitors are named and which websites are cited. The cited websites become your target list for step 7. Our guide to [generative engine optimisation for B2B](/insights/generative-engine-optimization-b2b) explains this in more detail." },
+      { type: "p", text: "**AI visibility:** take ten questions from step 1, run them in ChatGPT, Perplexity, Gemini and Google's AI Mode each month, and record whether your business is named, which competitors are named and which websites are cited. The cited websites become your target list for step 7. Our guide to [generative engine optimisation for B2B](/insights/answer-engine-optimisation) explains this in more detail." },
       {
         type: "steps",
         title: "How to track organic and AI leads in GA4 and your CRM",
@@ -854,7 +3226,7 @@ const ALL_POSTS = [
           { value: "4", label: "extra qualified enquiries a year cover the full year's spend" },
         ],
       },
-      { type: "p", text: "Use your own client value and close rate, in any currency. If the number of enquiries you need looks realistic for your market, the budget makes sense. If you need leads while SEO and AEO build, our guide to [SEO vs PPC for B2B](/insights/seo-vs-ppc-for-b2b) explains how paid search fits alongside them." },
+      { type: "p", text: "Use your own client value and close rate, in any currency. If the number of enquiries you need looks realistic for your market, the budget makes sense. If you need leads while SEO and AEO build, our guide to SEO vs PPC for B2B explains how paid search fits alongside them." },
 
       { type: "h2", text: "How long does B2B SEO and AEO take to work?" },
       { type: "p", text: "In our experience, rankings and impressions start to move within three to six months, and qualified leads follow as pages climb for supplier searches. Refreshed pages that already rank can appear in AI answers within weeks. For the relocation client mentioned above, daily search impressions grew from about 700 to about 2,600 between January and May 2026. Here is a typical timeline from our client work. It varies with how competitive your market is and how much of your site already ranks." },
@@ -1030,541 +3402,6 @@ const ALL_POSTS = [
       { q: "Is SEO still worth it if fewer people click?", a: "Yes. The visits that remain tend to come from people closer to buying, and visibility in AI answers depends on the same foundations." },
       { q: "What is the difference between SEO, AEO and GEO?", a: "SEO helps you rank in search results. AEO (answer engine optimisation) helps you appear in direct answers. GEO (generative engine optimisation) helps you get cited by AI tools such as ChatGPT. In practice, they share the same foundations." },
       { q: "Which platforms count as search now?", a: "Google Search, AI Overviews and AI Mode, ChatGPT, Perplexity and Gemini, as well as community and video platforms such as Reddit and YouTube for many topics." },
-    ],
-  },
-  {
-    slug: "seo-vs-ppc-for-b2b",
-    seoTitle: "SEO vs PPC for B2B in 2027: Which Is Better? | MAAI",
-    title: "SEO vs PPC for B2B in 2027: How to Plan SEO, AEO and Paid Search Together",
-    description:
-      "SEO vs PPC for B2B in 2027: how B2B buyers search, how SEO and AEO make you the answer, when to start each, real UK B2B click costs, budget logic with a worked example, plans by business model and how to measure leads.",
-    date: "2026-11-04",
-    author: "team",
-    topics: ["B2B", "SEO - Begins"],
-    industries: [],
-    image: "/Saas/aeo.jpg",
-    intro:
-      "Before a company signs a contract with a new supplier, several people inside it ask a lot of questions. What does this usually cost? Which approach suits a business our size? Who are the specialists? Can we trust them? Those questions go into Google, ChatGPT and Google's AI Mode weeks or months before anyone fills in a contact form. SEO vs PPC is really a question of which of those moments you want to own. SEO and AEO make your company the answer while buyers research. PPC buys a place when someone is ready to enquire today. This guide explains, in plain English, how each one works for B2B companies in 2027, when to start each, what UK B2B clicks actually cost, how to set the budget, how the plan changes by business model, and how to measure it in leads and revenue.",
-    tldr: [
-      "B2B buyers do most of their research before they speak to a supplier: 94% of buying groups already have a favoured vendor by first contact (6sense, 2025). SEO and AEO are how you get into that research.",
-      "SEO earns your place in Google's free results. AEO earns your place in AI answers from ChatGPT, Perplexity and Google AI Mode, which never use ads as sources. PPC buys visibility at the moment someone searches to enquire.",
-      "B2B clicks are expensive. In Semrush's UK data, \"office removals\" costs about $14.92 a click and \"payroll software\" about $38.60, and a buying group may click several times before it enquires.",
-      "Start SEO as early as possible, because it usually takes three to six months to build. Use PPC for urgent, high-intent searches and remarketing while SEO grows, then shift budget as pages rank.",
-      "Work out your break-even cost per click from deal value, margin and conversion rates. If a search costs more than that, win it with SEO and AEO.",
-    ],
-    body: [
-      { type: "h2", text: "SEO vs PPC for B2B: what is the difference?" },
-      { type: "p", text: "Both put your company in front of business buyers who are searching. The difference is how you earn the place and how long it lasts." },
-      {
-        type: "list",
-        items: [
-          { lead: "SEO (search engine optimisation)", text: "earns your website a place in Google's free results. You invest in your website, content and reputation. Once a page ranks, it keeps bringing visitors without a cost per click." },
-          { lead: "AEO (answer engine optimisation)", text: "makes your company the answer AI tools give. When an operations director asks ChatGPT \"which 3PL providers in the Midlands handle ecommerce returns?\", AEO is what gets your company named and linked in the reply. GEO (generative engine optimisation) is the same work viewed from the AI side: being cited inside generated answers." },
-          { lead: "PPC (pay-per-click)", text: "buys a place in the paid results, usually through Google Ads or Microsoft Ads, and you pay each time someone clicks. Visibility starts the day the campaign goes live and ends the day the budget stops." },
-        ],
-      },
-      { type: "p", text: "Paying for ads does not lift your organic rankings. Google says so plainly in its own SEO vs PPC guide for advertisers: the two systems are separate. That is why most B2B companies need a plan for both, with each channel doing the job it does best." },
-
-      { type: "h2", text: "How do B2B buyers search before they contact a supplier?" },
-      { type: "p", text: "B2B buying is slow, shared and mostly invisible to the supplier. Gartner's research into the B2B buying journey shows how buyers split their time:" },
-      {
-        type: "chart",
-        title: "How B2B buyers spend their buying time (%)",
-        series: [{ name: "Share of buying time", color: "#1C3F2E" }],
-        rows: [
-          { label: "Researching independently online", values: [27] },
-          { label: "Meeting all potential suppliers", values: [17] },
-          { label: "Time with any one supplier", values: [5] },
-        ],
-        source: {
-          label: "Gartner, B2B buying journey research",
-          note: "time spent with any one supplier is about 5 to 6% when several are being compared",
-        },
-      },
-      { type: "p", text: "Buyers spend more time researching on their own than meeting every possible supplier combined. Other research points the same way. [6sense](https://www.businesswire.com/news/home/20251112018032/en)'s 2025 Buyer Experience Report, based on more than 4,000 buyers, found that 94% of buying groups had already picked a favoured vendor before first contact. [Gartner](https://www.gartner.com/en/newsroom/press-releases/2026-03-09-gartner-sales-survey-finds-67-percent-of-b2b-buyers-prefer-a-rep-free-experience)'s 2026 sales survey found that 67% of B2B buyers prefer a rep-free buying experience. And the [TrustRadius](https://hginsights.com/news/trustradius-2026-b2b-buying-disconnect-report-reveals-ai-has-changed-how-buyers-research-but-not-what-they-trust/) 2026 B2B Buying Disconnect Report found that 63% of software buyers used AI tools during their research." },
-      { type: "p", text: "Take a finance director at a growing retailer looking for a third-party logistics (3PL) partner. Over two or three months, the buying group might search:" },
-      {
-        type: "ol",
-        items: [
-          { lead: "A problem question:", text: "\"what is a 3PL\" or \"when should you outsource warehousing\"." },
-          { lead: "A cost question:", text: "\"how much does 3PL warehousing cost per pallet UK\"." },
-          { lead: "A shortlist question:", text: "\"3PL providers for ecommerce UK\", or in ChatGPT, \"which UK 3PLs integrate with Shopify and handle returns?\"." },
-          { lead: "A trust question:", text: "\"Company X reviews\", \"Company X case study\" and a look at the founder on LinkedIn." },
-          { lead: "An enquiry search:", text: "\"Company X 3PL warehousing quote\"." },
-        ],
-      },
-      { type: "p", text: "Three or four different people might make those searches: the finance director, the operations manager and an ecommerce lead. The supplier whose guide answered question 1, whose pricing page answered question 2 and which AI tools named at question 3 is already the favourite by question 5. Our guide to [B2B SEO](/insights/seo-for-b2b-companies) walks through this journey touchpoint by touchpoint." },
-
-      { type: "h2", text: "How SEO and AEO work for B2B companies, in plain English" },
-      { type: "p", text: "SEO and AEO make your company the helpful answer at each of those questions, so you are part of the decision before a salesperson is involved. Here is what happens behind the scenes." },
-      { type: "h3", text: "What Google looks for when it ranks a B2B page" },
-      {
-        type: "list",
-        items: [
-          { lead: "Can Google read the page?", text: "Technical SEO makes sure pages load quickly, work on mobile and can be found and stored by Google. Many B2B sites hide key content in PDFs, brochures or gated downloads that Google cannot use well." },
-          { lead: "Does the page answer the question?", text: "Service, industry and location pages need to match what buyers search, with specifics such as sectors served, minimum order sizes, certifications, coverage areas and typical timelines." },
-          { lead: "Can the company be trusted?", text: "Case studies, reviews, trade association memberships, press coverage and links from respected industry sites tell Google your company is credible." },
-        ],
-      },
-      { type: "h3", text: "What AI tools look for when they recommend a B2B supplier" },
-      { type: "p", text: "ChatGPT, Perplexity, Claude, Gemini and Google AI Mode search the web, read the pages they find and write an answer, often naming a short list of suppliers with links. They favour pages that answer the question directly, include concrete facts (prices or price ranges, capacities, sectors, locations) and companies that other sites, directories, reviews and forums also mention. Ads are never used as sources, so AEO depends entirely on organic content and reputation. Our guide to [B2B AEO and GEO strategy](/insights/generative-engine-optimization-b2b) explains how AI tools choose which brands to cite." },
-      { type: "image", src: "/insights/b2b-chatgpt-3pl-shortlist.jpg", alt: "ChatGPT web search answer listing UK 3PL providers that integrate with Shopify and handle returns, with a source link under each provider", caption: "A ChatGPT shortlist for a B2B question: the suppliers named come from organic pages, directories and reviews. Ads are never used as sources." },
-      { type: "h3", text: "Why low search volume is fine in B2B" },
-      { type: "p", text: "A B2B search with 50 monthly searches can be worth more than a consumer search with 5,000, because one new client may be worth tens of thousands of pounds a year. The question to ask of every keyword is whether the people searching it could become clients, then how many of them there are." },
-
-      { type: "h2", text: "How does PPC work for B2B companies?" },
-      { type: "p", text: "Every search triggers an auction among advertisers bidding on that search. What you pay per click depends on competitors' bids and on your Quality Score, which Google bases on expected click rate, ad relevance and landing page experience. The main options for B2B are:" },
-      {
-        type: "list",
-        items: [
-          { lead: "Search ads:", text: "text ads on specific searches, such as \"office relocation company London\" or your brand name." },
-          { lead: "Remarketing:", text: "ads shown to people who visited your site, such as a buying group member who read your pricing page." },
-          { lead: "LinkedIn Ads:", text: "ads targeted by job title, company size and industry. These reach people who are not searching yet, so they support awareness rather than search demand." },
-          { lead: "Microsoft Ads:", text: "search ads on Bing, whose results also power Microsoft Copilot answers." },
-        ],
-      },
-      { type: "p", text: "PPC is strongest at the end of the journey, when someone searches to request a quote or a demo. It is a weak and expensive way to reach a buying group while it is still asking questions, because several people may click several times over several months, and you pay every time." },
-
-      { type: "h2", text: "Is SEO or PPC better for B2B lead generation?" },
-      { type: "p", text: "For long-term B2B lead generation, SEO and AEO. They reach every member of the buying group during the research where favourites form, they cost nothing per click, and they are the only way into AI answers. Most search clicks also go to organic results: [SparkToro and Datos](https://sparktoro.com/blog/2024-zero-click-search-study-for-every-1000-us-google-searches-only-374-clicks-go-to-the-open-web-in-the-eu-its-360/) found that for every 1,000 Google searches in the EU, 374 clicks go to the open web, while only about 1% of all clicks go to paid ads." },
-      { type: "p", text: "PPC is better when you need enquiries this month, when you are entering a new market, or when you want a second chance with a visitor who did not enquire. For most B2B companies the right answer is SEO and AEO as the foundation, with PPC as a targeted addition." },
-      {
-        type: "table",
-        head: ["You need to...", "Best channel", "Why"],
-        rows: [
-          ["Be found while buying groups research", "SEO and AEO", "Early questions are many and varied; paying per click for them rarely pays back"],
-          ["Be named in ChatGPT and Google AI answers", "AEO", "AI tools cite organic pages, directories and reviews, never ads"],
-          ["Win people searching for a quote today", "PPC and SEO together", "PPC catches today's enquiries while service pages build rankings"],
-          ["Launch a new service, sector or region", "PPC first, SEO in parallel", "New pages have no rankings yet"],
-          ["Stay visible to a buying group between visits", "PPC remarketing", "Only ads can follow up with a past visitor"],
-          ["Reduce cost per lead over time", "SEO and AEO", "Organic visits carry no cost per click"],
-        ],
-      },
-      { type: "view", text: "", title: "Kriti's view" },
-
-      { type: "h2", text: "How much do B2B Google Ads clicks cost in the UK?" },
-      { type: "p", text: "We pulled Semrush's UK data for searches B2B buyers make in sectors we work in and beyond. The cost per click is Semrush's estimate of what advertisers pay, shown in US dollars." },
-      {
-        type: "table",
-        head: ["Search", "UK monthly searches", "Cost per click", "Organic difficulty (0 to 100)"],
-        rows: [
-          ["payroll software", "6,600", "$38.60", "62"],
-          ["erp software", "4,400", "$32.78", "55"],
-          ["supply chain management software", "1,000", "$25.38", "30"],
-          ["office removals", "1,600", "$14.92", "27"],
-          ["office space to rent london", "1,600", "$13.81", "23"],
-          ["employee relocation", "170", "$13.27", "27"],
-          ["3pl warehousing", "480", "$9.66", "22"],
-          ["commercial removals", "1,300", "$8.57", "12"],
-          ["contract manufacturing", "1,000", "$5.03", "29"],
-          ["freight forwarding services", "1,300", "$4.14", "30"],
-          ["what is a 3pl", "480", "$3.14", "41"],
-        ],
-      },
-      { type: "p", text: "Two patterns stand out. First, software clicks are expensive, and so are many service clicks once you remember a buying group clicks more than once. Second, organic difficulty for most service searches is low to moderate: \"commercial removals\" scores 12 and \"3pl warehousing\" 22. For many B2B companies, ranking organically is more achievable than the click prices suggest. Question searches such as \"what is a 3pl\" are cheap to advertise on, but the people searching them are months from buying, so they are better won with content." },
-      { type: "p", text: "Click prices also rise over time. WordStream by LocaliQ's benchmarks, based on more than 16,000 campaigns, found the average Google Ads cost per click rose from $4.66 in 2024 to $5.42 in 2025, with increases in 87% of industries." },
-
-      { type: "h2", text: "When should a B2B company start SEO and PPC?" },
-      { type: "p", text: "SEO usually takes three to six months to bring meaningful results, and niche B2B searches can move faster because there is less competition. So the best time to start SEO is before you need the leads. PPC can start the day your landing page is ready." },
-      {
-        type: "list",
-        items: [
-          { lead: "New company or new website:", text: "start SEO from the site plan. Build pages around the services, industries and locations buyers search, set up Google Search Console and GA4 with lead tracking, and run a small PPC campaign on high-intent searches so the sales team has enquiries while SEO builds." },
-          { lead: "Established company that relies on referrals:", text: "start SEO now. Referrals still check your website, case studies and LinkedIn before they call, and new buyers who do not know you can only find you through search and AI answers." },
-          { lead: "Company already spending on PPC:", text: "start SEO now and use your Google Ads search terms report as a ready-made list of searches that bring real enquiries." },
-          { lead: "Entering a new sector or country:", text: "PPC first to test demand and messaging, SEO pages in parallel so they rank by the time the test proves the market." },
-        ],
-      },
-
-      { type: "h2", text: "What happens if a B2B company only runs PPC?" },
-      {
-        type: "list",
-        items: [
-          { lead: "You pay for every member of the buying group.", text: "Each person who clicks your ad, and each return visit, costs money. A long buying cycle multiplies this." },
-          { lead: "You miss the research.", text: "Ads are too expensive to cover the dozens of questions buyers ask months before they enquire, so suppliers who answer them become the favourite." },
-          { lead: "You are invisible in AI answers.", text: "When a buyer asks ChatGPT for a shortlist, ads-only companies rarely appear." },
-          { lead: "Costs rise and you absorb them.", text: "Every year of rising click prices raises your cost per lead just to stay where you are." },
-          { lead: "Leads stop when spending stops.", text: "A budget freeze removes you from search overnight, often at the moment you most need pipeline." },
-          { lead: "You build nothing you own.", text: "After years of spend, you have no rankings, content or reputation that keep working without a budget." },
-        ],
-      },
-      { type: "p", text: "Skipping PPC entirely has a cost too: a new site waits months for its first organic enquiries, and you lose the chance to remarket to buying group members who visited once. That is why the plan below uses PPC as a support for SEO and AEO." },
-
-      { type: "h2", text: "How SEO and PPC work for different B2B business models" },
-      { type: "p", text: "The balance between SEO, AEO and PPC depends on how your buyers buy: deal size, how many people decide, and whether they search for a category or a problem." },
-      { type: "h3", text: "How should a B2B SaaS company split SEO and PPC?" },
-      { type: "p", text: "Software buyers compare a lot, read reviews and increasingly ask AI tools for shortlists. Clicks are among the most expensive in B2B." },
-      {
-        type: "list",
-        items: [
-          { lead: "SEO focus:", text: "use-case and integration pages, comparison and alternatives pages, honest pricing pages, and help content that answers \"how do I\" questions." },
-          { lead: "AEO focus:", text: "profiles and reviews on software review sites, and clear feature and pricing facts that AI tools can quote." },
-          { lead: "PPC role:", text: "brand protection, demo and trial campaigns on the highest-intent searches, and remarketing to visitors who read pricing." },
-        ],
-      },
-      { type: "h3", text: "How do professional services firms get clients from search?" },
-      { type: "p", text: "Consultancies, law firms, accountants and agencies sell expertise, so buyers judge the people as much as the service." },
-      {
-        type: "list",
-        items: [
-          { lead: "SEO focus:", text: "service and sector pages, expert guides on the problems you solve, team and partner profiles, and case studies with outcomes." },
-          { lead: "AEO focus:", text: "being quoted in trade press and named in industry directories, plus founder and partner content on LinkedIn." },
-          { lead: "PPC role:", text: "urgent services only, such as \"employment lawyer for business\", and remarketing." },
-        ],
-      },
-      { type: "h3", text: "How can manufacturers and suppliers turn search into RFQs?" },
-      { type: "p", text: "Engineers and procurement teams search for specifications, materials, tolerances and capabilities, often with very specific phrases." },
-      {
-        type: "list",
-        items: [
-          { lead: "SEO focus:", text: "capability and process pages, materials and specifications, industries served, certifications, and downloadable data sheets with the key facts also written on the page." },
-          { lead: "PPC role:", text: "a small campaign on \"supplier\" and \"quote\" searches for your most profitable capabilities." },
-        ],
-      },
-      { type: "h3", text: "How do logistics, freight and 3PL companies win shipper enquiries?" },
-      { type: "p", text: "Shippers search by service, route, sector and location, and they compare capacity and integrations." },
-      {
-        type: "list",
-        items: [
-          { lead: "SEO focus:", text: "pages for each service (warehousing, fulfilment, freight forwarding, haulage), routes and lanes, sectors served, sites and capacities, and cost guides." },
-          { lead: "AEO focus:", text: "consistent listings in logistics directories and trade associations, so AI tools see the same facts everywhere." },
-          { lead: "PPC role:", text: "peak-season capacity campaigns and new-site launches." },
-        ],
-      },
-      { type: "h3", text: "How do commercial removals and relocation companies get B2B leads?" },
-      { type: "p", text: "Office moves and employee relocation are bought by facilities, HR and global mobility teams, while employees who move are a second audience that influences the choice." },
-      {
-        type: "list",
-        items: [
-          { lead: "SEO focus:", text: "office relocation and commercial removals pages by city, relocation policy and cost guides for HR teams, and country guides for relocating employees." },
-          { lead: "PPC role:", text: "\"office removals\" and \"office relocation\" searches in your core cities, where intent is high." },
-        ],
-      },
-      { type: "h3", text: "How do commercial property firms reach tenants and investors through search?" },
-      {
-        type: "list",
-        items: [
-          { lead: "SEO focus:", text: "pages for each property type and area, availability that Google can read, and market reports with rents and trends." },
-          { lead: "PPC role:", text: "launches of new schemes and hard-to-let space." },
-        ],
-      },
-
-      { type: "h2", text: "How to set a B2B SEO and PPC budget" },
-      { type: "p", text: "Use your own numbers to decide which searches are worth paying for. You need four figures: average first-year deal value, gross margin, website visit-to-lead rate and lead-to-client rate." },
-      {
-        type: "list",
-        items: [
-          { lead: "Profit per client", text: "= first-year deal value × gross margin." },
-          { lead: "The most you can pay per click", text: "= profit per client × lead-to-client rate × visit-to-lead rate." },
-        ],
-      },
-      { type: "p", text: "Worked example (illustrative numbers): a commercial removals company wins office moves worth £8,000 on average, at a 35% margin, so it makes £2,800 profit per client. If 2% of visitors send an enquiry and 15% of enquiries become clients, the break-even cost per click is £2,800 × 15% × 2% = £8.40. \"Office removals\" at around $14.92 a click is above that line, so the company should win it with SEO and use PPC only for its most profitable city searches or for remarketing. A software company with a £30,000 first-year contract at 80% margin, the same conversion rates and a £72 break-even can afford \"payroll software\" at $38.60 for now, but it should still build SEO so its cost per lead falls over time." },
-      { type: "p", text: "Then set the split by stage: more PPC while a new site builds, shifting steadily to SEO and AEO as service pages reach the top three, with PPC kept for launches, urgent demand and remarketing. Review the split every quarter using the measures below." },
-
-      { type: "h2", text: "How to use SEO and PPC together in B2B" },
-      {
-        type: "list",
-        items: [
-          { lead: "Turn paid searches into SEO targets.", text: "The Google Ads search terms report shows exactly what people searched before they enquired. Build or improve organic pages for the best of them." },
-          { lead: "See where you appear in both.", text: "Link Search Console to Google Ads and use the paid and organic report in Google Ads to see which searches you win in ads, organic results or both." },
-          { lead: "Test turning ads off where you rank first.", text: "Pause ads on one search where you hold the top organic spot, compare total enquiries over four to eight weeks, and keep the saving if leads hold." },
-          { lead: "Remarket to organic visitors.", text: "Build GA4 audiences of people who arrived through organic search and read service or pricing pages, then show them case-study ads while the buying group decides." },
-          { lead: "Reuse your best ad headlines.", text: "Headlines that win the most clicks make strong page titles and meta descriptions." },
-        ],
-      },
-
-      { type: "h2", text: "How to measure B2B SEO and PPC results" },
-      { type: "p", text: "Measure both channels in leads and revenue, because a buying group often touches both before it enquires. These are the numbers to check each month." },
-      { type: "image", src: "/insights/b2b-ga4-key-events-channel.jpg", alt: "GA4 Traffic acquisition table by session primary channel group, with the Key events column filtered to a quote lead event and all values blurred", caption: "GA4 Traffic acquisition with key events filtered to leads: compare Organic Search and Paid Search by enquiries, not just sessions. Values blurred." },
-      {
-        type: "table",
-        head: ["Metric", "What it tells you", "Where to find it"],
-        rows: [
-          ["Qualified leads by channel", "How many sales-ready enquiries each channel brings", "GA4 key events (form submits, calls) by session default channel group, checked against your CRM"],
-          ["Leads by landing page", "Which pages turn research into enquiries", "GA4: Reports > Engagement > Landing page, filtered to the lead key event"],
-          ["Clicks, impressions and average position", "Whether your pages are rising for the searches that matter", "Google Search Console: Performance"],
-          ["Cost per qualified lead", "Whether each ad campaign is profitable", "Google Ads, with CRM lead quality imported back"],
-          ["Pipeline and revenue from search", "Whether search is making you money", "Your CRM, with the original source recorded on every lead"],
-          ["Mentions in AI answers", "Whether ChatGPT and Google AI tools recommend you", "A fixed list of buyer questions checked monthly, plus AI referrals in GA4 and \"where did you hear about us\" on forms"],
-        ],
-      },
-
-      { type: "h2", text: "B2B SEO case study: how a corporate relocation company grew organic leads" },
-      { type: "p", text: "One of our clients, a B2B corporate relocation company serving the UK and international markets, competes on searches such as \"employee relocation\", which costs about $13 a click in Semrush's UK data. Instead of buying those clicks, we built organic pages that reach both the HR teams who buy and the employees who move." },
-      { type: "p", text: "What we did:" },
-      {
-        type: "ol",
-        items: [
-          { lead: "Mapped both audiences:", text: "HR and global mobility teams, and relocating employees." },
-          { lead: "Published answer-first country guides", text: "on work permits, visas and cost of living." },
-          { lead: "Built service pages", text: "covering relocation policy, cost management and compliance." },
-          { lead: "Added business listings and syndicated guides", text: "to build trust signals beyond the website." },
-        ],
-      },
-      { type: "p", text: "What changed in Google Search Console:" },
-      {
-        type: "list",
-        items: [
-          { lead: "\"Employee relocation\":", text: "position 66 in February 2026, position 14 in August 2026." },
-          { lead: "\"How to do employee relocation\":", text: "position 40 in March 2026, position 11 in August 2026." },
-          { lead: "Daily search impressions:", text: "about 700 a day (13 to 22 January 2026), rising to about 2,600 a day (12 to 20 May 2026)." },
-          { lead: "Organic traffic:", text: "up 81% from February to June 2026, with 100% of qualified leads arriving through country guides." },
-        ],
-      },
-
-      { type: "h2", text: "B2B SEO and PPC plan: what to do in the first 12 months" },
-      {
-        type: "list",
-        items: [
-          { lead: "Months 1 to 3:", text: "fix technical issues, set up Search Console, GA4 lead tracking and CRM source fields, rewrite your main service and industry pages, and publish answers to the ten questions your sales team hears most. Run PPC on your brand name, your highest-intent service searches and remarketing." },
-          { lead: "Months 4 to 6:", text: "publish cost guides, comparisons and case studies, get listed in the directories and trade associations your buyers trust, and add the best converting paid searches to your SEO list." },
-          { lead: "Months 7 to 9:", text: "push pages ranking in positions 4 to 15 into the top three, start checking a fixed list of buyer questions in AI tools each month, and build founder and team content on LinkedIn." },
-          { lead: "Months 10 to 12:", text: "compare cost per qualified lead by channel, test turning off ads where you rank first, and move the saving into new content and authority." },
-        ],
-      },
-      { type: "p", text: "If you sell to consumers as well, our guide to [SEO vs PPC for B2C](/insights/seo-vs-ppc-for-b2c) covers that side. For the bigger picture of how AI is changing search, read our post on [whether AI will replace SEO](/insights/will-ai-replace-seo)." },
-    ],
-    faq: [
-      { q: "Is SEO or PPC better for B2B?", a: "For long-term lead generation, SEO and AEO, because they reach every member of the buying group during research, cost nothing per click and are the only route into AI answers. PPC is a useful addition for urgent demand, launches and remarketing." },
-      { q: "What is AEO in B2B marketing?", a: "AEO (answer engine optimisation) is making your company the answer that AI tools such as ChatGPT, Perplexity and Google AI Mode give when buyers ask questions or ask for a shortlist of suppliers." },
-      { q: "How much does a B2B Google Ads click cost in the UK?", a: "It varies widely by sector. In Semrush's UK data, \"freight forwarding services\" is about $4 a click, \"office removals\" about $15 and \"payroll software\" about $39." },
-      { q: "When should a B2B company start SEO?", a: "As early as possible. SEO usually takes three to six months to bring meaningful results, so starting before you need the leads means it is ready when you do." },
-      { q: "What happens if a B2B company only uses PPC?", a: "It pays for every click from every member of the buying group, absorbs rising click costs, misses the research where favourites form, rarely appears in AI answers and loses visibility the day spending stops." },
-      { q: "Do Google Ads help SEO rankings?", a: "No. Google states that paid ads do not affect organic rankings. The two can still help each other: ad data shows which searches convert, and organic pages improve ad landing pages." },
-      { q: "How do I work out my break-even cost per click?", a: "Multiply profit per client by your lead-to-client rate and your visit-to-lead rate. With £2,800 profit per client, a 15% close rate and a 2% enquiry rate, the break-even is £8.40 a click." },
-    ],
-  },
-  {
-    slug: "seo-vs-ppc-for-b2c",
-    seoTitle: "SEO vs PPC for B2C in 2027: Which Should You Use? | MAAI",
-    title: "SEO vs PPC for B2C in 2027: How to Plan SEO, AEO and Paid Search Together",
-    description:
-      "SEO vs PPC for B2C brands in 2027: how SEO and AEO work in plain English, when to start each, what happens if you only run ads, how the plan differs for ecommerce, D2C, marketplace, local and subscription businesses, and which metrics to track.",
-    date: "2026-11-01",
-    author: "team",
-    topics: ["B2C", "SEO - Begins"],
-    industries: [],
-    image: "/selfstorage/seo.jpg",
-    intro:
-      "Before anyone buys a sofa, a skincare product, a holiday or a storage unit, they ask questions. Which size fits my room? Is this ingredient safe for sensitive skin? Is it cheaper to book direct? Those questions go into Google and, more and more, into ChatGPT and Google's AI Mode. The brands that answer them get seen and trusted first, and that is what SEO and AEO do. PPC buys a place at the moment someone is ready to buy. This guide explains, in plain English, how each one works for B2C businesses in 2027, when to start each, what happens if you rely only on ads, how the plan changes for ecommerce, D2C, marketplace, local and subscription businesses, and how to measure it.",
-    tldr: [
-      "Consumers search their questions long before they buy. SEO makes your brand the answer in Google; AEO makes it the answer in AI tools such as ChatGPT and Google's AI Mode.",
-      "PPC buys visibility at the moment of purchase, and it is useful for launches, peak seasons and bringing back people who already visited. It stops working the day you stop paying.",
-      "Start SEO as early as possible, ideally before launch, because it takes three to six months to build. Use PPC to bring in sales while SEO grows.",
-      "Brands that only run ads pay for every visit and every return visit, and click costs keep rising: the average Google Ads cost per click went from $4.66 in 2024 to $5.42 in 2025 (WordStream by LocaliQ).",
-      "The plan depends on your business model: an ecommerce retailer, a D2C brand, a marketplace seller, a local business and a subscription brand each need SEO and PPC for different jobs.",
-    ],
-    body: [
-      { type: "h2", text: "SEO vs PPC for B2C: what is the difference?" },
-      { type: "image", src: "/insights/b2c-google-serp-velvet-sofa.jpg", alt: "Google UK results for velvet sofa showing an AI Overview, Shopping ads and an organic result", caption: "Google UK results for \"velvet sofa\": the AI Overview, Shopping ads and organic results all compete on one page." },
-      { type: "p", text: "Both put your business in front of people who are searching. The difference is how you earn that place and how long it lasts." },
-      {
-        type: "list",
-        items: [
-          { lead: "SEO (search engine optimisation)", text: "earns your website a place in Google's free results. You invest time and expertise in your website and content. Once a page ranks, it keeps bringing visitors without paying per click." },
-          { lead: "AEO (answer engine optimisation)", text: "makes your brand the answer that AI tools give. When someone asks ChatGPT, Perplexity or Google's AI Mode \"which running shoes are best for flat feet?\", AEO is what gets your brand named and linked in the reply." },
-          { lead: "PPC (pay-per-click)", text: "buys a place in the paid results above or beside the free ones. You pay each time someone clicks your ad. Visibility starts immediately and ends the moment your budget stops." },
-        ],
-      },
-      { type: "p", text: "In 2027 these are three parts of one search plan. AEO is growing fast as a search topic in its own right: \"aeo\" has around 3,600 monthly searches in the UK and 22,200 in the US, according to Semrush, because consumers now ask AI tools the same questions they used to type into Google." },
-
-      { type: "h2", text: "How SEO and AEO work for B2C brands, in plain English" },
-      { type: "p", text: "Think about how you shop for anything that costs more than a few pounds. You rarely search for a product once and buy it. You have questions, and you look for answers first." },
-      { type: "p", text: "Take someone buying a sofa. Over two or three weeks, they might search:" },
-      {
-        type: "ol",
-        items: [
-          { lead: "A problem question:", text: "\"what size sofa for a small living room\"." },
-          { lead: "A comparison question:", text: "\"fabric or leather sofa with a dog\"." },
-          { lead: "A shortlist question:", text: "\"best sofa brands UK\" or, in ChatGPT, \"which sofa brands are durable and under £1,500?\"." },
-          { lead: "A trust question:", text: "\"Brand X sofa reviews\" and \"Brand X delivery time\"." },
-          { lead: "A buying search:", text: "\"Brand X three seater velvet sofa\"." },
-        ],
-      },
-      { type: "p", text: "Every one of those questions is a chance to be found. The brand whose guide answers question 1, whose comparison answers question 2, and which AI tools mention for question 3 is already familiar and trusted by question 4. By the time the shopper reaches the buying search, they are searching for that brand by name." },
-      { type: "p", text: "That is what SEO and AEO do: they make your brand the helpful answer at each question, so you are part of the decision from the start. [Google](https://business.google.com/in/think/consumer-insights/navigating-purchase-behavior-and-decision-making/)'s own research calls this stage of shopping the \"messy middle\": after studying 310,000 simulated purchase decisions, it found people loop between exploring options and narrowing them down, again and again, before they buy." },
-      { type: "h3", text: "What Google looks for when it ranks a page" },
-      { type: "p", text: "Behind the scenes, Google sends software to read your pages, stores them, and decides which page best answers each search. It looks at three things, which is where the technical side of SEO comes in:" },
-      {
-        type: "list",
-        items: [
-          { lead: "Can Google read the page?", text: "Technical SEO makes sure your pages load quickly, work on mobile and can be found and stored by Google." },
-          { lead: "Does the page answer the question?", text: "On-page SEO and content make each page clearly match what people search, with helpful, specific information." },
-          { lead: "Can the page be trusted?", text: "Reviews, links and mentions from other trusted websites tell Google your brand is credible." },
-        ],
-      },
-      { type: "h3", text: "What AI tools look for when they recommend a brand" },
-      { type: "p", text: "AI tools such as ChatGPT search the web, read the pages they find, and write an answer, often naming a few brands with links. They favour pages that answer the question directly, include specific facts (sizes, prices, materials, delivery times), and brands that other sites, reviews and forums also talk about. Ads are never used as sources, so AEO depends entirely on organic content and reputation. Our guide to [generative engine optimisation](/insights/generative-engine-optimization-b2b) explains how AI tools choose which brands to cite." },
-
-      { type: "h2", text: "How PPC works for B2C brands" },
-      { type: "p", text: "Every time someone searches, Google runs an auction among the advertisers bidding on that search. The price you pay per click depends on how much competitors bid and on your Quality Score, which Google bases on how likely people are to click your ad, how relevant it is, and how good your landing page is. The main ad types for consumer brands are:" },
-      {
-        type: "list",
-        items: [
-          { lead: "Search ads:", text: "text ads on specific searches, such as your brand name or \"buy velvet sofa\"." },
-          { lead: "Shopping ads and Performance Max:", text: "product ads with photos and prices, built from your product feed in Google Merchant Center." },
-          { lead: "Remarketing:", text: "ads shown to people who already visited your site or bought from you." },
-        ],
-      },
-      { type: "p", text: "PPC is strongest at the end of the journey, when people search to buy, and for bringing them back. It is a weak and expensive way to reach people while they are still asking questions, because they may click many times before buying, and you pay for every click." },
-
-      { type: "h2", text: "Is SEO or PPC better for B2C?" },
-      { type: "p", text: "For long-term growth, SEO and AEO. They reach consumers at every question, cost nothing per click, and keep working. Most search clicks also go to organic results: [SparkToro and Datos](https://sparktoro.com/blog/2024-zero-click-search-study-for-every-1000-us-google-searches-only-374-clicks-go-to-the-open-web-in-the-eu-its-360/) found that for every 1,000 Google searches in the EU, 374 clicks go to the open web, while only about 1% of all clicks go to paid ads." },
-      { type: "p", text: "PPC is better when you need speed, control or a second chance with a past visitor. The right answer for most consumer brands is SEO and AEO as the foundation, with PPC as a targeted addition." },
-      {
-        type: "table",
-        head: ["You need to...", "Best channel", "Why"],
-        rows: [
-          ["Answer questions people ask before buying", "SEO and AEO", "These searches are many, varied and early; paying per click for them rarely pays back"],
-          ["Appear in ChatGPT and Google AI answers", "AEO", "AI tools cite organic pages and reviews, never ads"],
-          ["Sell to people searching to buy right now", "PPC and SEO together", "PPC catches them today while product and category pages build rankings"],
-          ["Launch a new product or location", "PPC first, SEO in parallel", "New pages have no rankings yet"],
-          ["Cover a seasonal peak", "PPC for the peak, SEO pages published weeks earlier", "Ads switch on instantly; seasonal pages rank again every year"],
-          ["Win back visitors who did not buy", "PPC remarketing", "Only ads can follow up with a past visitor"],
-          ["Lower your cost per customer over time", "SEO and AEO", "Organic visits carry no cost per click"],
-        ],
-      },
-
-      { type: "h2", text: "When should a B2C business start SEO and PPC?" },
-      { type: "p", text: "SEO takes time to build, usually three to six months before it brings meaningful traffic, so the best time to start is before you need it. PPC can start the day you are ready to sell. Here is how the timing works at each stage." },
-      {
-        type: "list",
-        items: [
-          { lead: "Before launch:", text: "start SEO. Plan your site structure around the questions and searches your customers use, write category and product pages properly from day one, and set up Google Search Console and GA4. Fixing a site after launch is slower and more expensive." },
-          { lead: "First 6 months:", text: "PPC brings most of the sales while SEO builds. Keep PPC tight: your brand name, your best-selling products, and remarketing. Publish answers to your customers' most common questions every month." },
-          { lead: "6 to 18 months:", text: "SEO starts carrying more traffic. Move budget from PPC to SEO on searches where your pages reach the top three, and use the saving to grow content and authority." },
-          { lead: "Established brand:", text: "SEO and AEO carry most search visits. PPC focuses on launches, peak seasons, remarketing and protecting your brand name." },
-        ],
-      },
-      { type: "p", text: "If you are already running ads and have never invested in SEO, start now. Every month you wait is another month of paying for clicks you could be earning." },
-
-      { type: "h2", text: "What happens if you skip SEO and only run PPC?" },
-      { type: "p", text: "Many consumer brands grow quickly on ads, then find growth getting harder and more expensive every year. These are the reasons." },
-      {
-        type: "list",
-        items: [
-          { lead: "Your cost per customer keeps rising.", text: "WordStream by LocaliQ's benchmarks, based on more than 16,000 campaigns, found the average cost per click rose from $4.66 in 2024 to $5.42 in 2025, with increases in 87% of industries. You pay that rise every year just to stand still." },
-          { lead: "You pay for every return visit.", text: "Shoppers come back several times before buying. Each time they click your ad, you pay again." },
-          { lead: "You miss the questions.", text: "Ads are too expensive to cover the hundreds of questions people ask before buying, so competitors who answer them become the brand people trust." },
-          { lead: "You are invisible in AI answers.", text: "When shoppers ask ChatGPT for recommendations, ads-only brands rarely appear." },
-          { lead: "Traffic stops when spending stops.", text: "A cash-flow squeeze or a quiet month removes you from search overnight." },
-          { lead: "You build nothing you own.", text: "After years of spend, you have no rankings or content that keep working without a budget." },
-        ],
-      },
-
-      { type: "h2", text: "How SEO and PPC work for different B2C business models" },
-      { type: "p", text: "The balance between SEO, AEO and PPC depends far more on how you sell than on what you sell." },
-      { type: "h3", text: "Ecommerce retailers (selling many brands)" },
-      { type: "p", text: "Retailers compete on product and category searches that people already make, such as \"Nike Pegasus 41\" or \"women's waterproof jacket\". Demand already exists, so the job is to capture it at scale." },
-      {
-        type: "list",
-        items: [
-          { lead: "SEO focus:", text: "category pages, faceted navigation that does not create duplicate pages, product pages with full specifications and reviews, product structured data and free product listings in Google Shopping." },
-          { lead: "PPC role:", text: "Shopping ads and Performance Max on best sellers and high-margin products, remarketing to basket abandoners." },
-          { lead: "Watch out for:", text: "thin, copied manufacturer descriptions, which make thousands of product pages hard to rank." },
-        ],
-      },
-      { type: "h3", text: "D2C brands (selling your own products)" },
-      { type: "p", text: "A D2C brand sells its own products, often in a category where shoppers do not yet know its name. Few people search for the brand at first, so the job is to create demand and earn trust, mostly through the questions people ask before they know which brand they want." },
-      {
-        type: "list",
-        items: [
-          { lead: "SEO focus:", text: "content that answers the problem your product solves (\"how to stop a dog pulling on the lead\"), comparison pages against alternatives, ingredient or material explainers, and strong reviews." },
-          { lead: "AEO focus:", text: "being named when people ask AI tools for recommendations in your category, which depends on reviews, press coverage and community mentions as much as your own site." },
-          { lead: "PPC role:", text: "protect your brand name, test which messages and products resonate, and remarket to visitors. Social ads usually create the first awareness, and search captures it." },
-        ],
-      },
-      { type: "h3", text: "Marketplace sellers (Amazon, Etsy, eBay)" },
-      { type: "p", text: "Sellers who rely on marketplaces depend on each platform's own search and ads, and pay fees on every sale. SEO on Google helps build a direct channel the marketplace cannot take away." },
-      {
-        type: "list",
-        items: [
-          { lead: "SEO focus:", text: "optimise product titles and descriptions for the marketplace's search, then build your own site with brand and product pages so people who search your name on Google can buy direct." },
-          { lead: "PPC role:", text: "marketplace ads for launches and ranking new listings, and Google brand ads if competitors or resellers bid on your name." },
-        ],
-      },
-      { type: "h3", text: "Local and service businesses" },
-      { type: "p", text: "Salons, clinics, gyms, trades, removals, storage and other local businesses win most customers from \"near me\" and town-name searches. Google's map results and AI answers both lean heavily on local signals." },
-      {
-        type: "list",
-        items: [
-          { lead: "SEO focus:", text: "a complete Google Business Profile, one page per service and location, consistent contact details across directories, and a steady flow of detailed reviews." },
-          { lead: "AEO focus:", text: "answering cost and process questions (\"how much does a house move cost\") so AI tools quote you." },
-          { lead: "PPC role:", text: "local search ads and call ads for busy seasons, new locations or services with urgent demand." },
-        ],
-      },
-      { type: "h3", text: "Subscription and app businesses" },
-      { type: "p", text: "Meal kits, streaming, fitness apps and other subscriptions depend on customers staying for months, so a customer is worth far more than their first payment. People compare options carefully before signing up." },
-      {
-        type: "list",
-        items: [
-          { lead: "SEO focus:", text: "comparison and \"alternatives\" pages, honest pricing explanations, and how-it-works content." },
-          { lead: "AEO focus:", text: "being recommended when people ask AI tools to compare services." },
-          { lead: "PPC role:", text: "brand protection, free-trial offers on high-intent searches, and win-back campaigns for cancelled subscribers." },
-        ],
-      },
-
-      { type: "h2", text: "How to set your B2C SEO and PPC budget" },
-      { type: "p", text: "Use your own numbers to decide which searches are worth paying for. You need your average order value, gross margin and website conversion rate." },
-      {
-        type: "list",
-        items: [
-          { lead: "Profit per order", text: "= average order value × gross margin." },
-          { lead: "The most you can pay per click", text: "= profit per order × conversion rate." },
-        ],
-      },
-      { type: "p", text: "Example: a home goods brand with a £60 average order, a 40% margin and a 2.5% conversion rate makes £24 profit per order, so it can pay up to £0.60 per click before losing money on the first sale. If a search costs £1.50 a click in Google Ads Keyword Planner, that search should be won with SEO, while searches under £0.60 can be good PPC targets. If customers usually buy again, multiply by the number of orders you expect per customer." },
-      { type: "p", text: "Then set the split by stage: most of the budget in PPC while a new site builds, shifting steadily to SEO and AEO as pages rank, with PPC kept for launches, peaks and remarketing. Review the split every quarter using the metrics below." },
-
-      { type: "h2", text: "How to make SEO and PPC work together" },
-      {
-        type: "list",
-        items: [
-          { lead: "Turn paid searches into SEO targets.", text: "The search terms report in Google Ads shows exactly what people searched before they bought. Build or improve organic pages for the best of them." },
-          { lead: "See where you appear in both.", text: "Link Google Ads to Search Console and use the paid and organic report to see which searches you win in ads, organic results or both." },
-          { lead: "Test turning ads off where you rank first.", text: "Pause ads on one search where you hold the top organic spot, compare total clicks and sales over four weeks, and keep the saving if sales hold." },
-          { lead: "Reuse your best ad headlines.", text: "Headlines that win the most clicks make strong page titles and meta descriptions." },
-          { lead: "Remarket to organic visitors.", text: "Build GA4 audiences of people who arrived through organic search and viewed products, then show them remarketing ads. [Baymard Institute](https://baymard.com/lists/cart-abandonment-rate) puts the average basket abandonment rate at 70.22%, so this audience is valuable." },
-        ],
-      },
-
-      { type: "h2", text: "Which metrics show SEO and PPC are working?" },
-      { type: "image", src: "/insights/b2c-ga4-traffic-acquisition.jpg", alt: "GA4 Traffic acquisition report showing sessions, engagement rate, key events and revenue by channel", caption: "GA4 Reports > Acquisition > Traffic acquisition: compare sessions, engagement rate, key events and revenue by channel. Values blurred." },
-      { type: "image", src: "/insights/b2c-ga4-landing-page.jpg", alt: "GA4 Landing page report showing sessions, users, engagement time and key events by page", caption: "GA4 Reports > Engagement > Landing page: see which pages bring sessions, new users and key events. Values blurred." },
-      { type: "p", text: "Look at both channels together, because customers use both before buying. These are the reports and numbers to check each month." },
-      {
-        type: "table",
-        head: ["Metric", "What it tells you", "Where to find it"],
-        rows: [
-          ["Organic share of revenue", "How much of your revenue no longer depends on paying for clicks", "GA4: Reports > Acquisition > Traffic acquisition, compare Organic Search with Paid Search"],
-          ["Revenue or conversions by landing page", "Which pages turn search visits into sales", "GA4: Reports > Engagement > Landing page"],
-          ["Clicks, impressions and average position", "Whether your pages are rising for the searches that matter", "Google Search Console: Performance"],
-          ["Cost per acquisition and return on ad spend", "Whether each ad campaign is profitable", "Google Ads: Campaigns"],
-          ["Blended cost per customer", "Total marketing spend divided by new customers; the clearest sign the mix is improving", "Your finance data and ecommerce platform"],
-          ["Mentions in AI answers", "Whether ChatGPT and Google AI tools recommend you", "A fixed list of customer questions checked monthly, plus AI referrals in GA4"],
-        ],
-      },
-
-      { type: "h2", text: "B2C SEO plan: what to do in the first 12 months" },
-      { type: "p", text: "Here is how the plan typically comes together for a consumer brand with a young website." },
-      {
-        type: "list",
-        items: [
-          { lead: "Months 1 to 3:", text: "fix technical issues, set up Search Console and GA4, rewrite the top category and product pages, add product structured data, and publish answers to your ten most common customer questions. Run PPC on your brand name, best sellers and remarketing." },
-          { lead: "Months 4 to 6:", text: "publish comparison and buying guides, start earning reviews and press mentions, and add the best converting paid searches to your SEO list." },
-          { lead: "Months 7 to 9:", text: "push pages ranking in positions 4 to 15 into the top three, publish seasonal pages ahead of peak, and run PPC for the peak itself." },
-          { lead: "Months 10 to 12:", text: "check organic share of revenue and blended cost per customer, test turning off ads where you rank first, and move the saving into new content." },
-        ],
-      },
-      { type: "p", text: "For the bigger picture of how AI is changing search, read our post on [whether AI will replace SEO](/insights/will-ai-replace-seo)." },
-    ],
-    faq: [
-      { q: "Is SEO or PPC better for B2C businesses?", a: "For long-term growth, SEO and AEO, because they reach shoppers at every question they ask and cost nothing per click. PPC is a useful addition for launches, seasonal peaks and remarketing." },
-      { q: "What is AEO in B2C marketing?", a: "AEO (answer engine optimisation) is making your brand the answer that AI tools such as ChatGPT, Perplexity and Google's AI Mode give when shoppers ask questions or ask for recommendations." },
-      { q: "When should a B2C business start SEO?", a: "As early as possible, ideally before launch. SEO usually takes three to six months to bring meaningful traffic, so starting early means it is ready when you need it." },
-      { q: "What happens if a consumer brand only uses PPC?", a: "It pays for every visit and return visit, absorbs rising click costs each year, misses the questions shoppers ask before buying, rarely appears in AI answers and loses all search visibility when spending stops." },
-      { q: "Is SEO different for D2C brands and ecommerce retailers?", a: "Yes. Retailers capture existing searches for products and categories, so category and product pages matter most. D2C brands often need to create demand, so content that answers the problems their product solves, comparisons and reviews matter most." },
-      { q: "How much can I afford to pay per click?", a: "Multiply your profit per order by your conversion rate. With £24 profit per order and a 2.5% conversion rate, the break-even is about £0.60 a click." },
     ],
   },
 ];
