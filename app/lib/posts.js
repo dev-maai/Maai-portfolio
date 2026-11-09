@@ -37,7 +37,7 @@ const ALL_POSTS = [
       "AEO/GEO"
     ],
     "industries": [],
-    "image": "/insights/self-storage-banner.jpg",
+    "image": "/insights/best-ai-marketing-agency-self-storage-banner.jpg",
     "intro": "Before anyone rents a storage unit, they ask questions. Which facility is closest? Is it secure? What does a small unit cost? Is there climate control? They ask Google, ChatGPT and other AI tools. If your facility is missing from those answers, the renter calls someone else. You face the same problem as an owner choosing a marketing partner. Search results now include AI answers, and [Ahrefs](https://ahrefs.com/blog/search-rankings-ai-citations/) found that 76% of pages cited in Google AI Overviews also rank in the top 10. SEO and answer engine optimisation (AEO) now work as a pair. Below are five agencies that work with self storage owners, who each one suits, and the checks to run before you sign.",
     "tldr": [
       "Four agencies work with self storage owners on SEO, local SEO or AI search: Digital First, MAAI, Market Apts and Thrive Internet Marketing Agency.",
@@ -328,7 +328,7 @@ const ALL_POSTS = [
       "SEO - Begins"
     ],
     "industries": [],
-    "image": "/insights/self-storage-banner.jpg",
+    "image": "/insights/free-tools-self-storage-website-google-my-business-banner.jpg",
     "intro": "Someone searches \"storage units near me\", picks one of the first three results and rents a unit within a week. Around 823,000 people a month search that phrase in the US alone (Semrush, US database). You do not need a big budget to be one of those three. Eleven free tools cover your Google My Business listing, your self storage website, your keywords and even whether AI tools such as ChatGPT name your facility. This guide shows what each tool does and how to use it to get more calls, direction requests and unit rentals in 2027.",
     "tldr": [
       "Start with Google Business Profile (Google My Business). It is free, and it controls how you appear on Google Maps and in the map results.",
@@ -751,7 +751,7 @@ const ALL_POSTS = [
       "AEO/GEO"
     ],
     "industries": [],
-    "image": "/removals/foundation-dashboard.jpg",
+    "image": "/insights/track-ai-traffic-banner.jpg",
     "intro": "For twenty years, getting found online meant ranking in a list of ten blue links and waiting for the clicks. That has changed. Your buyers now ask ChatGPT, Claude and Perplexity for answers, and Google shows an AI Overview above its results for millions of searches. Many of those people get what they need without visiting any website. Others arrive having already read about you in an AI answer. This guide explains how search traffic has shifted, why your impressions may be rising while your clicks fall, and [how to track AI traffic on your website](/insights/track-ai-traffic) for free with Google Analytics 4 (GA4) and Google Search Console. ",
     "body": [
       {
@@ -1602,7 +1602,7 @@ const ALL_POSTS = [
       "SEO - Begins"
     ],
     "industries": [],
-    "image": "/removals/authority.jpg",
+    "image": "/insights/can-seo-generate-leads-banner.jpg",
     "intro": "Buyers no longer wait for a sales call to learn about you. Research by 6sense found that B2B buyers make first contact 61% of the way through their buying process, and Forrester reports that 94% of B2B buyers now use AI while they buy. By the time someone fills in your form, they have already searched Google, read AI answers in ChatGPT or Google's AI Mode, compared options and formed a shortlist. Yet many business owners still believe that \"SEO brings traffic, ads bring leads\". The truth is that SEO, AEO (answer engine optimisation) and GEO (generative engine optimisation) generate leads when they are built around how buyers research and decide, and AI-referred visitors already convert at higher rates than almost any other channel. This guide explains how SEO brings leads and sales, how it has changed with AI, how to reach buyers at every touch point in your industry, and how to measure the results.",
     "body": [
       {
@@ -2432,7 +2432,7 @@ const ALL_POSTS = [
       "AEO/GEO"
     ],
     "industries": [],
-    "image": "/removals/AEO.jpg",
+    "image": "/insights/how-to-rank-in-chatgpt-banner.jpg",
     "intro": "More of your customers now ask ChatGPT questions such as \"who is the best removals company in Leeds?\" or \"which accounting software suits a small business?\" before they search Google. ChatGPT replies with a short answer and a few named businesses. If yours is one of them, you win a customer who already trusts you. This guide explains how ChatGPT builds its answers, how SEO and AEO (answer engine optimisation) get your business named, and the exact steps to rank in ChatGPT in 2027, whether you sell to other businesses, to consumers or to people nearby.",
     "body": [
       {
@@ -3082,7 +3082,7 @@ const ALL_POSTS = [
       "AEO/GEO"
     ],
     "industries": [],
-    "image": "/removals/authority.jpg",
+    "image": "/insights/how-to-rank-in-claude-banner.jpg",
     "intro": "Claude is fast becoming the AI assistant professionals use for serious research: comparing suppliers, checking a market, or building a shortlist before a big purchase. When someone asks Claude \"which commercial cleaning companies in Birmingham work with offices over 10,000 sq ft?\", it searches the web, reads the best sources and names a few businesses. This guide explains how Claude finds and chooses those businesses, how SEO and AEO (answer engine optimisation) get yours named, and the exact steps to rank in Claude in 2027 for B2B, B2C and local businesses.",
     "body": [
       {
@@ -3664,7 +3664,7 @@ const ALL_POSTS = [
       "AEO/GEO"
     ],
     "industries": [],
-    "image": "/removals/foundation-dashboard.jpg",
+    "image": "/insights/how-to-rank-in-ai-overviews-banner.jpg",
     "intro": "Ranking in Google's AI Overviews and AI Mode works differently from ranking in ChatGPT, Claude or Perplexity. Google's AI answers are built from Google's own search index, shaped by Google's own ranking systems and fed by Google's own properties, such as YouTube and Business Profiles. That makes them the AI answers where traditional SEO matters most, and also the ones that change fastest. This guide explains how AI Overviews and AI Mode choose their sources, what the data says about who gets cited, how the two features differ from each other, and the exact steps to rank your business in both in 2027.",
     "body": [
       {
@@ -4247,7 +4247,7 @@ const ALL_POSTS = [
       "AEO/GEO"
     ],
     "industries": [],
-    "image": "/removals/intent-map.jpg",
+    "image": "/insights/how-to-turn-off-ai-overview-google-banner.jpg",
     "intro": "Google now shows an AI Overview above its results for a large share of searches, and its AI Mode button sits in the search bar and in Chrome. Some people find the summaries useful. Many would rather go straight to the links, check sources themselves, or avoid answers that can get facts wrong. If that is you, the good news is that you can stop seeing AI Overviews in a few minutes, on desktop and on your phone. This guide explains five ways to turn off AI Overview on Google, how to remove AI Mode and other Google AI features, and, for business owners, the new option that lets websites opt out of Google's AI answers, plus whether your business should use it.",
     "body": [
       {
@@ -4663,7 +4663,7 @@ const ALL_POSTS = [
       "AEO/GEO"
     ],
     "industries": [],
-    "image": "/removals/intent-map.jpg",
+    "image": "/insights/google-my-business-self-storage-banner.jpg",
     "intro": "Someone needs space for their furniture for three months. They pick up their phone, search \"storage units near me\" and choose one of the three businesses that appear on the map. Most never scroll further. If your self storage facility is not one of those three, that customer rents from a competitor. This guide shows how to rank 1st in Google My Business (now officially called Google Business Profile) for your self storage business in 2027: how the ranking works, how to set up your listing, how to use posts, reviews, local PR and social media to build trust, and how to get named in AI answers too. Around 823,000 people a month search \"storage units near me\" in the US (Semrush, US database). Each one is looking at the same three map results.",
     "tldr": [
       "Your primary category, your distance from the searcher and your business name carry the most weight for the map results (Whitespark's 2026 survey of local SEO experts).",
@@ -5163,7 +5163,7 @@ const ALL_POSTS = [
     author: "team",
     topics: ["AEO/GEO"],
     industries: [],
-    image: "/removals/intent-map.jpg",
+    image: "/insights/answer-engine-optimisation-banner.jpg",
     intro:
       "Your buyers now ask ChatGPT, Claude, Gemini or Google's AI Mode for help before they open a list of search results. They ask which supplier to trust, what a service should cost and how two options compare, and they get one written answer that names a few businesses. Answer engine optimisation (AEO) is how your business becomes one of those names. This guide explains what AEO is, how it differs from SEO, where AI answers appear, and how to do it for your business step by step, with the results you can expect and how to measure them.",
     body: [
@@ -5337,7 +5337,7 @@ const ALL_POSTS = [
     author: "team",
     topics: ["B2B", "AEO/GEO"],
     industries: [],
-    image: "/Saas/aeo.jpg",
+    image: "/insights/seo-for-b2b-companies-banner.jpg",
     intro:
       "Not long ago, a B2B purchase started with a conversation. A buyer rang a few suppliers, asked a sales rep for a brochure and a price, met people at a trade show and relied on the rep to explain the options. That has changed. Today the first conversation happens with Google and with AI tools such as ChatGPT. Buyers research on their own, ask AI to compare suppliers and build a shortlist before they speak to anyone: [6sense](https://www.businesswire.com/news/home/20251112018032/en) found that buyers now make first contact 61% of the way through their buying process, and 94% of buying groups already have a favourite by then. Search results and AI answers now do the job the sales rep used to do: explaining the problem, the options and who to trust. B2B SEO and answer engine optimisation (AEO) are how your business takes part in that first conversation. This guide explains how the B2B customer journey has changed, what buyers see in Google and AI answers at each stage, and how to do B2B SEO and AEO step by step.",
     tldr: [
@@ -5671,7 +5671,7 @@ const ALL_POSTS = [
     author: "kriti",
     topics: ["AEO/GEO", "Everything Marketing"],
     industries: [],
-    image: "/removals/AEO.jpg",
+    image: "/insights/will-ai-replace-seo-banner.jpg",
     intro:
       "Every few months someone declares SEO dead. In 2026 the question carries more weight, because the numbers behind it are real. Fewer searches end in a click, AI tools answer questions directly, and buyers now search across ChatGPT, Google's AI Mode and Perplexity as well as the classic results page. So will AI replace SEO? It has already replaced the traditional version of it. What it has not replaced is the need to be found, trusted and chosen. This post looks at what the data shows from 2023 to 2026, what has changed, what still holds, and what it means for SEO agencies heading into 2027, written from my own experience of building one.",
     tldr: [
