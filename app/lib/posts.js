@@ -27,6 +27,305 @@ export const AUTHORS = {
    To preview drafts locally, run the dev server with INSIGHTS_PREVIEW_DRAFTS=1. */
 const ALL_POSTS = [
   {
+    "slug": "how-to-improve-brand-visibility-in-ai-search-engines",
+    "seoTitle": "How to Improve Brand Visibility in AI Search Engines 2027",
+    "title": "How to Improve Brand Visibility in AI Search Engines in 2027: A 12-Check Checklist",
+    "description": "A 12-check AI brand visibility checklist to see if ChatGPT, Gemini and Google AI Overviews recommend you, and how to improve brand visibility in AI search.",
+    "date": "2026-11-10",
+    "author": "team",
+    "topics": [
+      "AEO/GEO"
+    ],
+    "industries": [],
+    "image": "/insights/how-to-improve-brand-visibility-in-ai-search-engines-banner.jpg",
+    "intro": "Your next customer may ask an AI tool for the best option in your category and get three names back. If yours is not one of them, they may never visit your website. This guide gives you a 12-check AI brand visibility checklist: how to see whether ChatGPT, Claude, Gemini and Google AI Overviews recommend you, and how to improve brand visibility in AI search engines where they do not.",
+    "tldr": [
+      "AI brand visibility means being named in AI answers, not only ranking in search results.",
+      "Pew Research found people click a traditional result in 8% of visits when an AI summary shows, against 15% without one.",
+      "Start by asking AI tools about your brand and category, then fix crawler access and the facts that are wrong.",
+      "Branded web mentions had the strongest link to AI Overview brand appearance in Ahrefs' study of 75,000 brands (0.664).",
+      "Run the checklist monthly and track what changes."
+    ],
+    "body": [
+      {
+        "type": "h2",
+        "text": "What is AI brand visibility, and how do you improve it?"
+      },
+      {
+        "type": "p",
+        "text": "AI brand visibility is how often AI tools such as ChatGPT, Claude, Gemini and Google AI Overviews name your business when someone asks a question you want to answer. To improve it, you make your brand easy for AI tools to find, read and trust, then you earn mentions on the sites those tools already rely on. The 12 checks below take you through that in order."
+      },
+      {
+        "type": "image",
+        "src": "/insights/ai-brand-visibility-12-checks.jpg",
+        "alt": "Grid of the 12 checks in the AI brand visibility checklist, from asking AI tools about your brand to tracking monthly",
+        "caption": "The 12 checks in this guide. The two in pink matter most."
+      },
+      {
+        "type": "h2",
+        "text": "Why does brand visibility in AI search engines matter now?"
+      },
+      {
+        "type": "p",
+        "text": "Buyers now get a shortlist from an AI answer before they click anything. The [Pew Research Center](https://www.pewresearch.org/short-reads/2025/07/22/google-users-are-less-likely-to-click-on-links-when-an-ai-summary-appears-in-the-results/) tracked 900 US adults and 68,879 Google searches in March 2025. People clicked a traditional result in 8% of visits when an AI summary appeared, against 15% when it did not. Only 1% of visits with a summary led to a click on a link inside the summary."
+      },
+      {
+        "type": "image",
+        "src": "/insights/ai-brand-visibility-pew-clicks.jpg",
+        "alt": "Column chart showing 15% of Google visits include a click without an AI summary and 8% with an AI summary",
+        "caption": "Clicks on traditional Google results with and without an AI summary. Source: Pew Research Center."
+      },
+      {
+        "type": "p",
+        "text": "For your business, that means being named in the answer matters as much as ranking under it. If the AI recommends three competitors and not you, many buyers never reach your website. Our guide on [answer engine optimisation](/insights/answer-engine-optimisation) explains the wider shift."
+      },
+      {
+        "type": "h2",
+        "text": "How does an AI tool decide which brands to recommend?"
+      },
+      {
+        "type": "p",
+        "text": "An AI tool turns the question into several related searches, reads the pages it finds, and names the brands those pages describe clearly and consistently. Your visibility depends on whether your brand appears on the pages it reads, in words it can repeat."
+      },
+      {
+        "type": "image",
+        "src": "/insights/ai-brand-visibility-how-ai-names-brands.jpg",
+        "alt": "Four step diagram: buyer question, AI runs related searches, AI reads sources, AI names a few brands",
+        "caption": "How an AI answer ends up naming a brand."
+      },
+      {
+        "type": "p",
+        "text": "Every check below improves your chances at step 3, either on your own site or on other sites that talk about you. The tools differ in detail, so read our platform guides for [ChatGPT](/insights/how-to-rank-in-chatgpt), [Claude](/insights/how-to-rank-in-claude) and [Google AI Overviews](/insights/how-to-rank-in-ai-overviews) once you finish this list."
+      },
+      {
+        "type": "h2",
+        "text": "The AI brand visibility checklist: 12 checks to see if AI search recommends you"
+      },
+      {
+        "type": "p",
+        "text": "Work through the checks in order. Checks 1 and 2 show where you stand, 3 to 8 fix your own site and profiles, and 9 to 12 build visibility beyond your site and keep it going."
+      },
+      {
+        "type": "h3",
+        "text": "Check 1: Ask AI tools about your brand and your category"
+      },
+      {
+        "type": "p",
+        "text": "Open ChatGPT, Claude, Gemini and Google (for AI Overviews and AI Mode) in a fresh session and ask the questions your buyers ask. This is your baseline, and it costs nothing."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "**Ask a category question.** For example, \"best accountancy software for a small UK business\" or \"best dental clinic in Leeds\". Note whether you appear, in what position, and who else does."
+          },
+          {
+            "text": "**Ask a brand question.** Type \"What is [your brand]?\" and \"Is [your brand] any good?\". Note anything wrong or missing."
+          },
+          {
+            "text": "**Record the result.** Use a simple sheet with the date, tool, question, whether you were named and which sources were shown."
+          }
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "Check 2: Check that AI tools describe your brand correctly"
+      },
+      {
+        "type": "p",
+        "text": "Wrong facts in an AI answer usually come from conflicting pages. Compare what each tool says with your real services, location, pricing model and founding details. List every error and the page the tool cited, because that page is what you fix in later checks."
+      },
+      {
+        "type": "h3",
+        "text": "Check 3: Fix crawler access so AI tools can reach your pages"
+      },
+      {
+        "type": "p",
+        "text": "AI search tools can only use pages they are allowed to fetch. Open yourdomain.com/robots.txt and check that you have not blocked the crawlers behind the tools you care about, such as OAI-SearchBot for ChatGPT search, Googlebot and Bingbot. Check the current crawler names in each provider's documentation before editing anything."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "**Check your CDN or security settings.** Some set-ups block AI bots by default."
+          },
+          {
+            "text": "**Check your pages return a normal 200 status** and are not set to noindex."
+          },
+          {
+            "text": "**Keep a sitemap** and submit it in Google Search Console and Bing Webmaster Tools."
+          }
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "Check 4: Make your key pages readable without JavaScript"
+      },
+      {
+        "type": "p",
+        "text": "If your main text only appears after a script runs, some crawlers see an empty page. Open a key page, view the page source and search for a sentence from the body. If it is missing, ask your developer to render the main text on the server."
+      },
+      {
+        "type": "h3",
+        "text": "Check 5: Write answer-first pages for the questions buyers ask"
+      },
+      {
+        "type": "p",
+        "text": "Pages that answer a question in the first one or two sentences are easy for an AI tool to lift and quote. Write each key heading as the question and answer it straight away, then add detail."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "**Start with the answer.** One clear sentence that works if quoted on its own."
+          },
+          {
+            "text": "**Name things in full.** Write \"Harbour Dental offers same-day crowns\" instead of \"we offer them\"."
+          },
+          {
+            "text": "**Cover the follow-up questions** a buyer asks next, on the same page."
+          }
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "Check 6: Keep your brand facts identical everywhere"
+      },
+      {
+        "type": "p",
+        "text": "AI tools build an idea of your business from many places. If your name, address, services and description differ between your website, LinkedIn, directories and social profiles, the tool has no clear version to repeat. Write one short description of your business and use it everywhere."
+      },
+      {
+        "type": "h3",
+        "text": "Check 7: Add schema markup that matches what is on the page"
+      },
+      {
+        "type": "p",
+        "text": "Schema is code that labels the facts on a page. Add Organization schema on your home page, Article schema on posts and FAQPage schema only where the questions are visible on the page. Treat schema as good hygiene that supports clarity. It does not guarantee a citation."
+      },
+      {
+        "type": "h3",
+        "text": "Check 8: Complete your reviews and business listings"
+      },
+      {
+        "type": "p",
+        "text": "Reviews and listings give AI tools third-party proof that you exist and are trusted. Claim your Google Business Profile, Bing Places listing and the main directories for your industry, and ask happy customers for reviews. Reply to reviews in plain language that names the service."
+      },
+      {
+        "type": "h3",
+        "text": "Check 9: Earn mentions on pages that AI tools already read"
+      },
+      {
+        "type": "p",
+        "text": "This is the check with the biggest effect. In its study of 75,000 brands, [Ahrefs](https://ahrefs.com/blog/ai-overview-brand-correlation/) found that branded web mentions had a correlation of 0.664 with appearing in Google AI Overviews. Branded search volume scored 0.392 and backlinks 0.218. Ahrefs notes that correlation does not prove cause, but the pattern is clear: brands talked about across the web show up more."
+      },
+      {
+        "type": "image",
+        "src": "/insights/ai-brand-visibility-ahrefs-correlation.jpg",
+        "alt": "Column chart of correlation with AI Overview brand mentions: web mentions 0.664, branded search volume 0.392, backlinks 0.218",
+        "caption": "What links most strongly to AI Overview brand mentions. Source: Ahrefs, 75,000 brands."
+      },
+      {
+        "type": "p",
+        "text": "Ahrefs also found that brands in the top quarter for web mentions averaged 169 AI Overview mentions, against 14 for the next quarter down. In practice, that means earning coverage where your buyers and the AI tools already look:"
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "**Digital PR.** Pitch data, comments and stories to trade publications and news sites in your industry."
+          },
+          {
+            "text": "**\"Best of\" and comparison pages.** Find the pages that list options in your category and ask to be included, if you genuinely fit."
+          },
+          {
+            "text": "**Industry bodies and partners.** Ask for a listing or a mention on the sites of suppliers, associations and partners."
+          }
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "Check 10: Show up on video and in professional communities"
+      },
+      {
+        "type": "p",
+        "text": "AI tools read more than websites. Publish short, useful videos that answer buyer questions, with a clear title and description that name your brand. Take part in professional communities such as LinkedIn, giving real answers under your own name. Keep it helpful, because that is what gets quoted."
+      },
+      {
+        "type": "h3",
+        "text": "Check 11: Refresh your key pages every quarter"
+      },
+      {
+        "type": "p",
+        "text": "Out-of-date pages lose out to fresher ones. Every quarter, update the prices, statistics, screenshots and recommendations on your top pages, and change the \"last updated\" date only when the content has really changed."
+      },
+      {
+        "type": "h3",
+        "text": "Check 12: Track your AI visibility every month"
+      },
+      {
+        "type": "p",
+        "text": "Repeat check 1 monthly with the same questions and compare the sheet. Then look at what visits arrive from AI tools. Our free guide to [tracking AI traffic in Google Analytics 4 and Search Console](/insights/track-ai-traffic) shows the exact set-up."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "**Share of answers.** Out of 20 buyer questions, how many name you?"
+          },
+          {
+            "text": "**Accuracy.** How many facts are right?"
+          },
+          {
+            "text": "**Visits and enquiries** that start from AI tools."
+          }
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "How long does it take to improve brand visibility in AI search?"
+      },
+      {
+        "type": "p",
+        "text": "Technical and profile fixes (checks 3 to 8) can be picked up within weeks. Mentions on other sites (checks 9 and 10) usually take a few months of steady work. Treat the checklist as a monthly routine, not a one-off job."
+      },
+      {
+        "type": "h2",
+        "text": "Which AI brand visibility checks should a small business do first?"
+      },
+      {
+        "type": "p",
+        "text": "Start with checks 1, 2 and 3, because they show where you stand and remove blockers. Then do check 6 and check 8, which are cheap and fast. Put your longer effort into check 9, which moves the results most."
+      }
+    ],
+    "faq": [
+      {
+        "q": "How do I check if AI search recommends my brand?",
+        "a": "Ask ChatGPT, Claude, Gemini and Google the questions your buyers ask, in a fresh session, and record whether you are named and which sources appear. Repeat monthly with the same questions."
+      },
+      {
+        "q": "How do I improve my brand visibility in AI search engines?",
+        "a": "Let AI crawlers reach your site, write answer-first pages, keep your brand facts identical everywhere, complete your reviews and listings, and earn mentions on the sites AI tools already read."
+      },
+      {
+        "q": "Do backlinks help AI visibility?",
+        "a": "They help, but in Ahrefs' study of 75,000 brands, branded web mentions (0.664) correlated more strongly with AI Overview brand appearance than backlinks (0.218). Aim for mentions and links together."
+      },
+      {
+        "q": "Is AI brand visibility the same as SEO?",
+        "a": "They overlap. Good rankings, clear content and trusted sources help in both. AI visibility adds a focus on being named inside the answer, not only listed under it."
+      },
+      {
+        "q": "Can I pay to be recommended by ChatGPT or Gemini?",
+        "a": "There is no paid slot in the main answers of these tools at the time of writing. Visibility comes from the quality and spread of the information about your brand."
+      },
+      {
+        "q": "How often should I run the checklist?",
+        "a": "Run the baseline check (check 1) monthly and review the whole list every quarter."
+      }
+    ]
+  },
+  {
     "slug": "best-ai-marketing-agency-self-storage",
     "seoTitle": "Best AI Marketing Agency for Self Storage in 2027 | MAAI",
     "title": "Best AI Marketing Agency for Self Storage Business Owners in 2027 (SEO + AEO)",
