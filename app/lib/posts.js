@@ -27,6 +27,499 @@ export const AUTHORS = {
    To preview drafts locally, run the dev server with INSIGHTS_PREVIEW_DRAFTS=1. */
 const ALL_POSTS = [
   {
+    "slug": "seo-for-moving-companies",
+    "seoTitle": "SEO for Moving Companies in 2027: Rank Locally and in AI",
+    "title": "SEO for Moving Companies in 2027: How to Rank Locally and in AI Search",
+    "description": "SEO for moving companies explained: set up Google Business Profile, win reviews, build service and town pages and show up in AI answers. Step by step.",
+    "date": "2026-11-10",
+    "author": "team",
+    "topics": [
+      "SEO - Begins"
+    ],
+    "industries": [
+      "Removals & Relocation"
+    ],
+    "image": "/insights/seo-for-moving-companies-banner.jpg",
+    "intro": "When someone needs a mover, they search, check the map results, read reviews and call two or three firms. If your removals company is not in those results, the job goes to a competitor. This guide shows you how SEO for moving companies works in 2027: how to rank in Google's local results, win the reviews buyers read, build the pages that bring quote requests and get named in AI answers.",
+    "tldr": [
+      "SEO for moving companies means being found in Google map results, standard results and AI answers when people search for a mover.",
+      "Your Google Business Profile drives map results: the primary category, distance, name, hours and reviews are the top factors in Whitespark's 2026 survey.",
+      "97% of consumers read online reviews for local businesses, and 74% want reviews from the last three months (BrightLocal 2026).",
+      "Build one page for each service and each town you really serve, and answer buyer questions first.",
+      "Track calls and quote requests, not only visits."
+    ],
+    "body": [
+      {
+        "type": "h2",
+        "text": "What is SEO for moving companies, and how does it get you more jobs?"
+      },
+      {
+        "type": "p",
+        "text": "SEO for moving companies is the work of making your removals business appear when people search for a mover in the places you cover. It covers your Google Business Profile, your website, your reviews and the mentions of your firm on other sites. Done well, it puts your phone number in front of people who already plan to move and are choosing who to call."
+      },
+      {
+        "type": "p",
+        "text": "In the UK many buyers say \"removals\" and many in the US say \"moving company\", so we use both terms in this guide. The steps are the same either way."
+      },
+      {
+        "type": "h2",
+        "text": "Why do moving companies need SEO in 2027?"
+      },
+      {
+        "type": "p",
+        "text": "Moves are planned, expensive and stressful, so buyers search, compare and read reviews before they request a quote. The [BrightLocal Local Consumer Review Survey 2026](https://www.brightlocal.com/research/local-consumer-review-survey/) found that 97% of consumers read online reviews for local businesses, and 41% say they always do."
+      },
+      {
+        "type": "image",
+        "src": "/insights/seo-for-moving-companies-reviews-stat.jpg",
+        "alt": "Stat card showing 97% of consumers read online reviews for local businesses",
+        "caption": "Share of consumers who read online reviews for local businesses. Source: BrightLocal."
+      },
+      {
+        "type": "p",
+        "text": "Search is also changing. The [Pew Research Center](https://www.pewresearch.org/short-reads/2025/07/22/google-users-are-less-likely-to-click-on-links-when-an-ai-summary-appears-in-the-results/) tracked 900 US adults and found people clicked a traditional result in 8% of visits when Google showed an AI summary, against 15% when it did not. For a removals firm, that means being found in map results, in your own pages and inside AI answers all matter. Our guide on [answer engine optimisation](/insights/answer-engine-optimisation) explains the wider shift."
+      },
+      {
+        "type": "h2",
+        "text": "How do customers find a moving company online?"
+      },
+      {
+        "type": "p",
+        "text": "Customers find a mover in three places: Google's map results, the standard website results, and AI answers from tools such as Google AI Overviews and ChatGPT. Each one rewards different work, so a good plan covers all three."
+      },
+      {
+        "type": "image",
+        "src": "/insights/seo-for-moving-companies-three-places.jpg",
+        "alt": "Three cards showing the places buyers find a mover: Google map results, website results and AI answers, with what decides each one",
+        "caption": "The three places buyers find a mover, and what decides each. Source: Google Business Profile Help and Whitespark."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "**Google map results.** The map and three listings at the top of a search such as \"removals near me\". Your Google Business Profile decides this."
+          },
+          {
+            "text": "**Website results.** The usual blue links. Your service pages, town pages and the links pointing to your site decide this."
+          },
+          {
+            "text": "**AI answers.** Summaries that name a few firms. Mentions on trusted sites and clear service pages decide this."
+          }
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "How does Google decide which removals company ranks locally?"
+      },
+      {
+        "type": "p",
+        "text": "Google says local results are mainly based on relevance, distance and prominence. Relevance is how well your profile matches the search. Distance is how far you are from the searcher. Prominence is how well known you are, which Google links to links pointing at your site and your review count."
+      },
+      {
+        "type": "p",
+        "text": "The [Whitespark Local Search Ranking Factors 2026](https://whitespark.ca/local-search-ranking-factors/) report, a survey of local SEO experts, scores individual factors. These are the top ten for map results. The numbers are the experts' scores, not percentages."
+      },
+      {
+        "type": "table",
+        "head": [
+          "Rank",
+          "Factor for map results (Whitespark 2026)",
+          "Score"
+        ],
+        "rows": [
+          [
+            "1",
+            "Primary Google Business Profile category",
+            "227"
+          ],
+          [
+            "2",
+            "Distance from the searcher to your address",
+            "225"
+          ],
+          [
+            "3",
+            "Keywords in your Google Business Profile name",
+            "223"
+          ],
+          [
+            "4",
+            "Physical address in the city searched",
+            "213"
+          ],
+          [
+            "5",
+            "Business open at the time of search",
+            "189"
+          ],
+          [
+            "6",
+            "High Google star ratings",
+            "181"
+          ],
+          [
+            "7",
+            "Address showing on the profile (not hidden)",
+            "176"
+          ],
+          [
+            "8",
+            "Additional categories",
+            "173"
+          ],
+          [
+            "9",
+            "Number of native Google reviews with text",
+            "170"
+          ],
+          [
+            "10",
+            "Correct map pin placement",
+            "165"
+          ]
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Most of these sit inside your Google Business Profile. That is why the next section comes first."
+      },
+      {
+        "type": "h2",
+        "text": "How do you set up a Google Business Profile for a moving company?"
+      },
+      {
+        "type": "p",
+        "text": "Create one profile for each real location, choose the closest primary category, add your services and set your service area. If you travel to customers and have no shopfront, Google treats you as a service-area business and asks you to hide your address."
+      },
+      {
+        "type": "h3",
+        "text": "Which category and service area should a removals company choose?"
+      },
+      {
+        "type": "p",
+        "text": "Google's guidance is to pick the fewest categories that describe what your business is, and to make them as specific as you can. Choose Moving company as your primary category if it fits, then add only the extra categories that describe other core services, such as storage. Do not use categories as keywords."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "**Set your service area.** Google advises that a service area should not stretch beyond about two hours of driving from your base. List the towns you really cover."
+          },
+          {
+            "text": "**Hide your address if you work from a depot or home.** Google asks service-area businesses to do this. Show it only if customers can visit staffed premises during your listed hours."
+          },
+          {
+            "text": "**Keep one profile per real location.** A virtual office does not qualify unless it is staffed during business hours."
+          }
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "What should you add to your profile each month?"
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "**Services.** List house removals, office removals, packing, storage and man and van work separately."
+          },
+          {
+            "text": "**Photos.** Add real photos of your vans, crews and jobs. Replace old ones."
+          },
+          {
+            "text": "**Posts and updates.** Share moving tips and availability for busy weeks."
+          },
+          {
+            "text": "**Hours.** Keep them right, including bank holidays, because being open at the time of search is a ranking factor."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Our guide on [Google My Business for self storage](/insights/google-my-business-self-storage) goes deeper on posts, reviews and multi-location profiles, and most of it applies to removals too."
+      },
+      {
+        "type": "h2",
+        "text": "How do you get more Google reviews as a moving company?"
+      },
+      {
+        "type": "p",
+        "text": "Ask every customer for a review within a day of the move, send them the direct link, and reply to every review. Reviews are a ranking factor for map results and the first thing a buyer checks before calling."
+      },
+      {
+        "type": "p",
+        "text": "The BrightLocal survey shows why timing matters. 74% of consumers look for reviews written in the last three months, 32% look for reviews from the last two weeks, and 18% are only swayed by reviews from the last week."
+      },
+      {
+        "type": "image",
+        "src": "/insights/seo-for-moving-companies-review-recency.jpg",
+        "alt": "Column chart showing 74% of consumers want reviews from the last 3 months, 32% from the last 2 weeks and 18% from the last week",
+        "caption": "How recent buyers want reviews to be. Source: BrightLocal Local Consumer Review Survey 2026."
+      },
+      {
+        "type": "p",
+        "text": "The same survey found 89% of consumers expect business owners to respond to reviews, and 42% are unlikely to use a business that never replies. Half are put off by generic, templated replies, so write a short, personal answer each time."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "**Ask on the day.** The crew lead or office team sends a text with the review link once the van is empty."
+          },
+          {
+            "text": "**Make it one tap.** Use your profile's short review link or QR code on your invoice."
+          },
+          {
+            "text": "**Reply to every review, good or bad.** Name the move and thank them. For a bad review, apologise, state the facts and offer to talk offline."
+          },
+          {
+            "text": "**Spread reviews over the year.** Steady new reviews look more trustworthy than a burst once a season."
+          }
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "What should a moving company website include to rank?"
+      },
+      {
+        "type": "p",
+        "text": "Your website needs a separate page for each service and each place you cover, written for the questions movers ask before booking. One generic \"Our services\" page cannot rank for house removals, office removals and storage in ten towns."
+      },
+      {
+        "type": "image",
+        "src": "/insights/seo-for-moving-companies-site-structure.jpg",
+        "alt": "Diagram of a moving company website with a home page, service pages for house removals, office removals, packing and storage, and example town pages",
+        "caption": "A simple structure for a moving company website. Illustrative example."
+      },
+      {
+        "type": "h3",
+        "text": "What goes on a service page?"
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "**A clear answer first.** State what you do and where, for example \"We move homes across West Yorkshire, from one-bedroom flats to five-bedroom houses.\""
+          },
+          {
+            "text": "**How it works.** Survey, quote, packing, moving day, unloading and what happens if something is damaged."
+          },
+          {
+            "text": "**Prices and what changes them.** Give a realistic range and the factors, such as volume, stairs, parking, distance and date."
+          },
+          {
+            "text": "**Proof.** Real reviews, trade body membership, insurance cover and photos of your crews."
+          },
+          {
+            "text": "**One clear next step.** A quote form and a phone number above the fold."
+          }
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "What goes on a town or location page?"
+      },
+      {
+        "type": "p",
+        "text": "A town page should only exist if you really serve that town. Write about that area: access issues, typical property types, parking permits and local storage. Add a map, reviews from customers in that town and links to your relevant service pages. Do not copy the same text and swap the town name, because those pages add nothing for the reader."
+      },
+      {
+        "type": "h3",
+        "text": "Which pages should answer buyer questions?"
+      },
+      {
+        "type": "p",
+        "text": "Write short, direct pages for the questions people ask before booking: how much does a removal cost, how far in advance to book, what is not allowed in a removal van, whether you need a survey, and how to pack a kitchen. Start each with the answer, then add detail. These pages are also the ones AI tools quote."
+      },
+      {
+        "type": "h2",
+        "text": "How do moving companies show up in AI search?"
+      },
+      {
+        "type": "p",
+        "text": "AI tools name movers they can find described clearly on pages they trust. Whitespark's 2026 report added AI search visibility factors for local businesses. The top five scores were being on expert-curated \"best of\" lists, a dedicated page for each service, prominence on key industry domains, authority of unstructured citations such as newspaper articles and blog posts, and the authority of third-party sites where your reviews appear."
+      },
+      {
+        "type": "p",
+        "text": "For a removals firm, that gives a practical order of work:"
+      },
+      {
+        "type": "ol",
+        "items": [
+          {
+            "text": "**Write a dedicated page for each service** you offer, as described above."
+          },
+          {
+            "text": "**Get listed on trusted industry sites.** Join a recognised trade body, because the listing is a trusted mention. In the UK the British Association of Removers is the main trade body, and its members follow a code of practice."
+          },
+          {
+            "text": "**Earn mentions in local media and blogs.** A comment on a moving-season story or a local guide for new residents can earn a mention."
+          },
+          {
+            "text": "**Pitch to \"best of\" lists.** Many lists of the best movers in a city are written by local publishers. Ask to be considered and give them facts to check."
+          },
+          {
+            "text": "**Keep reviews on more than one site.** Google reviews matter most, but reviews on other platforms also help."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Our guides on [improving brand visibility in AI search](/insights/how-to-improve-brand-visibility-in-ai-search-engines) and [ranking in Google AI Overviews and AI Mode](/insights/how-to-rank-in-ai-overviews) cover how to check what AI tools say about you, and the [ChatGPT guide](/insights/how-to-rank-in-chatgpt) covers that tool in detail."
+      },
+      {
+        "type": "h2",
+        "text": "What keywords should a moving company target?"
+      },
+      {
+        "type": "p",
+        "text": "Target the searches that show intent to move, then add the town. Start with a service plus a place, then expand into questions."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "**Service and place.** \"House removals Leeds\", \"office removals Manchester\", \"man and van Bristol\"."
+          },
+          {
+            "text": "**Near me searches.** \"Removals near me\" is decided mostly by your profile and your distance, not by your website text."
+          },
+          {
+            "text": "**Price questions.** \"How much do removals cost for a 2 bed house\"."
+          },
+          {
+            "text": "**Specialist moves.** Piano moves, long-distance and international removals, student moves and storage."
+          },
+          {
+            "text": "**Both terms.** Use \"removals\" and \"moving company\" where your buyers use both."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Check the volume for your own towns in Google Keyword Planner or Google Trends, because moving searches rise and fall with the season and local market."
+      },
+      {
+        "type": "h2",
+        "text": "How does SEO differ for local, long-distance and office moves?"
+      },
+      {
+        "type": "p",
+        "text": "The steps stay the same, but the emphasis changes with the kind of moves you want. Decide which jobs you want most, then build your pages and profile around them."
+      },
+      {
+        "type": "h3",
+        "text": "How should a local house removals firm approach SEO?"
+      },
+      {
+        "type": "p",
+        "text": "Local firms win on the map results. Put your effort into your profile, steady reviews, accurate hours and one page for each town you serve. Most buyers here choose from the top three listings, so distance and reviews carry the most weight."
+      },
+      {
+        "type": "h3",
+        "text": "How should long-distance and international movers approach SEO?"
+      },
+      {
+        "type": "p",
+        "text": "Buyers searching for long-distance or international moves look at website results and AI answers more than the map, because they are comparing firms in different places. Build route pages such as London to Edinburgh, explain customs, insurance and timings, and earn mentions from relocation and expat sites."
+      },
+      {
+        "type": "h3",
+        "text": "How should an office or commercial removals firm approach SEO?"
+      },
+      {
+        "type": "p",
+        "text": "Commercial buyers search for the service, not a postcode, and often ask a colleague or an AI tool for a shortlist. Write pages on office relocation, IT moves, out-of-hours moves and project management, and show proof such as insurance cover, trade body membership and the size of jobs you handle."
+      },
+      {
+        "type": "h3",
+        "text": "How should a man and van service approach SEO?"
+      },
+      {
+        "type": "p",
+        "text": "Man and van searches are very local and price driven. Show your hourly rates or price ranges, what the van can carry and your service area, and keep your reviews fresh, because buyers compare several options in minutes."
+      },
+      {
+        "type": "h2",
+        "text": "How do you track SEO results for a moving company?"
+      },
+      {
+        "type": "p",
+        "text": "Track calls, quote requests and bookings, not just visits. Set up Google Analytics 4 and Google Search Console, then record where each enquiry came from. Our guide on [tracking AI traffic with Google Analytics 4 and Search Console](/insights/track-ai-traffic) shows the exact set-up, including AI traffic."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "**Profile actions.** Calls, direction requests and website clicks in your Google Business Profile."
+          },
+          {
+            "text": "**Quote requests.** Count form submissions and calls, and ask every caller how they found you."
+          },
+          {
+            "text": "**Search Console.** Impressions and clicks for your service and town pages."
+          },
+          {
+            "text": "**Reviews.** New reviews each month and your average rating."
+          },
+          {
+            "text": "**AI mentions.** Ask AI tools for the best movers in your town each month and note whether you appear."
+          }
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "How long does SEO take for a moving company?"
+      },
+      {
+        "type": "p",
+        "text": "Profile fixes and new reviews can show an effect in weeks. New service and town pages usually need a few months to settle. Links and mentions from other sites take longer and build over a year. Moving is seasonal, so start before your busy months, not during them."
+      },
+      {
+        "type": "h2",
+        "text": "What should a moving company do first for SEO?"
+      },
+      {
+        "type": "p",
+        "text": "Start with your Google Business Profile: category, service area, hours, services and photos. Then ask for a review from every customer, build one page per service and per town you serve, and earn mentions from trade bodies and local sites. Track enquiries monthly and repeat."
+      },
+      {
+        "type": "p",
+        "text": "Want results like these for your business? [Let's talk](https://www.maai.agency/book)."
+      }
+    ],
+    "faq": [
+      {
+        "q": "How much does SEO cost for a moving company?",
+        "a": "It depends on the number of towns you cover and how competitive they are. Ask any agency what they will do each month, how they report enquiries and what you own at the end. Doing the profile and review steps in this guide yourself costs only time."
+      },
+      {
+        "q": "Is Google Business Profile or my website more important for a removals company?",
+        "a": "For map results and \"near me\" searches, your Google Business Profile matters most. For standard results and AI answers, your service pages matter more. You need both."
+      },
+      {
+        "q": "How many Google reviews does a moving company need?",
+        "a": "There is no set number. Aim for steady new reviews each month and a reply to each one. In the BrightLocal survey, 74% of consumers look for reviews from the last three months."
+      },
+      {
+        "q": "Do I need a separate page for every town?",
+        "a": "Only for towns you really serve, and each page needs its own useful content, such as local access notes and reviews from customers there."
+      },
+      {
+        "q": "Can I rank in the map results without a shopfront?",
+        "a": "Yes. Set your profile up as a service-area business, hide your address and list the towns you cover. Distance from the searcher still affects how you rank."
+      },
+      {
+        "q": "How do I get my removals company recommended by ChatGPT or Google AI?",
+        "a": "Publish clear pages for each service, earn mentions on trade body and local sites, collect reviews and ask to be included in best-of lists. See our guide on improving brand visibility in AI search for a checklist."
+      },
+      {
+        "q": "Should I use paid ads as well as SEO?",
+        "a": "Paid search can help in busy months or new areas while organic pages build up. SEO keeps working after you stop paying, so most firms use both."
+      }
+    ]
+  },
+  {
     "slug": "how-to-improve-brand-visibility-in-ai-search-engines",
     "seoTitle": "How to Improve Brand Visibility in AI Search Engines 2027",
     "title": "How to Improve Brand Visibility in AI Search Engines in 2027: A 12-Check Checklist",
