@@ -27,6 +27,298 @@ export const AUTHORS = {
    To preview drafts locally, run the dev server with INSIGHTS_PREVIEW_DRAFTS=1. */
 const ALL_POSTS = [
   {
+    "slug": "self-storage-marketing",
+    "seoTitle": "Self Storage Marketing: 15 Ideas to Fill Units 2027",
+    "title": "Self Storage Marketing in 2027: 15 Ideas to Fill More Units",
+    "description": "Self storage marketing ideas for 2027: 15 ways to fill more units with Google My Business, your website, AI search, local partners and tenant retention.",
+    "date": "2026-11-11",
+    "author": "team",
+    "topics": [
+      "Everything Marketing"
+    ],
+    "industries": [],
+    "image": "/insights/self-storage-marketing-banner.jpg",
+    "intro": "Someone needs a storage unit this week. They search on their phone, compare three facilities on a map, and call the one with the clearest price and the best reviews. Self storage marketing in 2027 is about being that facility. This guide gives you 15 ideas, from your Google My Business listing to AI answers, partnerships and tenant retention, so you can fill more units without guessing.",
+    "tldr": [
+      "Start with Google My Business, reviews and one page per facility. They decide who appears when someone searches for storage nearby.",
+      "Show prices and let people reserve online. Most renters decide on a phone.",
+      "Check what ChatGPT, Gemini and Google's AI Overviews say about you each month. Business websites and listings are what they quote.",
+      "Partnerships with movers, estate agents and universities fill units in busy seasons.",
+      "Track move-ins by source so you know which idea pays back."
+    ],
+    "body": [
+      {
+        "type": "h2",
+        "text": "What is the best way to do self storage marketing in 2027?"
+      },
+      {
+        "type": "p",
+        "text": "The best self storage marketing in 2027 starts where renters start: a search on Google, a map listing and an answer from an AI assistant. Fill those three places with accurate, up-to-date information first, then add offers, partnerships and retention on top. The 15 ideas below follow that order."
+      },
+      {
+        "type": "p",
+        "text": "Demand gives you a reason to act now. StorageCafe reports that [self storage searches rose 23% in 2025](https://www.storagecafe.com/blog/self-storage-demand-and-trends-2026/) across the 150 largest US cities, nearly triple the growth of the year before. Google Trends shows the same pattern in the UK, where interest in the term \"self storage\" is well above its level of five years ago."
+      },
+      {
+        "type": "image",
+        "src": "/insights/sm-4.jpg",
+        "alt": "Google Trends chart of UK web search interest in self storage over the past five years, rising from 2024 to a peak in 2026",
+        "caption": "Google Trends: UK interest in \"self storage\" over five years. Source: Google Trends."
+      },
+      {
+        "type": "p",
+        "text": "More searches also mean more competitors fighting for the same renters. Marketing that fills units is the kind that is easy to find, easy to trust and easy to book."
+      },
+      {
+        "type": "h2",
+        "text": "How do you market a self storage business on Google?"
+      },
+      {
+        "type": "p",
+        "text": "You market a self storage business on Google by owning three things: your Google My Business listing (now called Google Business Profile), your location pages and your reviews. These decide who appears in the map results and who gets the call."
+      },
+      {
+        "type": "image",
+        "src": "/insights/sm-1.jpg",
+        "alt": "Google AI Overview answering how to market a self storage business, with a mix of local optimisation and digital visibility",
+        "caption": "Google's AI Overview for \"how to market a self storage business\" points to local visibility first."
+      },
+      {
+        "type": "h3",
+        "text": "1. Complete your Google My Business listing"
+      },
+      {
+        "type": "p",
+        "text": "Fill in every field: primary category, hours, unit sizes, photos, services and a link to the matching location page. Our guide to [Google My Business for self storage](/insights/google-my-business-self-storage) covers what decides map ranking, step by step."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "**Choose the right primary category.** Pick Self-storage facility, and add secondary categories only if they are true."
+          },
+          {
+            "text": "**Add real photos.** Show the entrance, the corridors, the unit sizes and the access gate."
+          },
+          {
+            "text": "**Keep hours current.** Update them for bank holidays so the listing never sends someone to a locked gate."
+          }
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "2. Ask every tenant for a review"
+      },
+      {
+        "type": "p",
+        "text": "Reviews are the first thing a renter reads on a listing. Send a direct review link by text or email a week after move-in, when the experience is fresh, and reply to every review, good or bad, within two days."
+      },
+      {
+        "type": "h3",
+        "text": "3. Build one page for every facility"
+      },
+      {
+        "type": "p",
+        "text": "Each facility needs its own page with its address, unit sizes, prices from, access hours, security features and directions. A single \"locations\" page with a list of towns gives Google and AI tools very little to quote."
+      },
+      {
+        "type": "h3",
+        "text": "4. Target the searches renters actually type"
+      },
+      {
+        "type": "p",
+        "text": "Around 823,000 people a month search \"storage units near me\" in the US alone (Semrush, US database). In the UK, renters add a town or a reason, such as \"student storage Leeds\" or \"cheap storage near me\". Write a page or a section for each reason."
+      },
+      {
+        "type": "image",
+        "src": "/insights/sm-3.jpg",
+        "alt": "Google AI Overview for self storage near me in Manchester listing facilities with star ratings and weekly prices",
+        "caption": "A local search in Manchester shows facilities, ratings and prices in the AI Overview."
+      },
+      {
+        "type": "h3",
+        "text": "5. Answer the questions renters ask before they call"
+      },
+      {
+        "type": "p",
+        "text": "The People Also Ask box shows the questions people raise, such as whether storage units are profitable or what demand looks like locally. Add a short FAQ to your unit pages answering what size to pick, what is not allowed, how access works and how notice periods work."
+      },
+      {
+        "type": "image",
+        "src": "/insights/sm-2.jpg",
+        "alt": "Google People Also Ask box for how to market a self storage business listing four related questions",
+        "caption": "People Also Ask shows the follow-up questions around self storage marketing."
+      },
+      {
+        "type": "h2",
+        "text": "How do you get more self storage enquiries from your website?"
+      },
+      {
+        "type": "p",
+        "text": "You get more enquiries when a visitor can see the price, pick a size and reserve a unit in a few taps. Most people first reach your website on a phone, so speed and simplicity matter more than design."
+      },
+      {
+        "type": "h3",
+        "text": "6. Show prices and let people reserve online"
+      },
+      {
+        "type": "p",
+        "text": "Hiding prices behind a phone call loses renters who would rather compare in private. Show a starting price for each unit size and add an online reserve or enquiry button that works on a phone."
+      },
+      {
+        "type": "h3",
+        "text": "7. Add a unit size guide"
+      },
+      {
+        "type": "p",
+        "text": "Most first-time renters do not know whether they need 25 or 50 square feet. A simple guide with what fits in each size, such as a one-bedroom flat in a 50 square foot unit, reduces calls and raises bookings. Keep the claims general and match them to your own unit sizes."
+      },
+      {
+        "type": "h3",
+        "text": "8. Track enquiries, not just visits"
+      },
+      {
+        "type": "p",
+        "text": "Set up Google Analytics 4 to count reservations, enquiry forms and click-to-call as key events. Our guide to [free tools for self storage websites](/insights/free-tools-self-storage-website-google-my-business) explains each step, and our guide to [tracking AI traffic](/insights/track-ai-traffic) shows how to see visits from ChatGPT and similar tools."
+      },
+      {
+        "type": "h2",
+        "text": "How do you get a self storage business recommended by AI search?"
+      },
+      {
+        "type": "p",
+        "text": "You get recommended by AI tools by making sure the sources they read are accurate: your website, your Google My Business listing and the directories that copy them. A [Yext](https://www.businesswire.com/news/home/20251009106549/en) study of 6.8 million AI citations found business websites and business listings made up 86% of the sources cited by ChatGPT, Gemini and Perplexity."
+      },
+      {
+        "type": "h3",
+        "text": "9. Keep your name, address and phone number identical everywhere"
+      },
+      {
+        "type": "p",
+        "text": "Check your website, Google, Bing and the main directories. Even a small difference, such as \"Rd\" against \"Road\", can split your reputation across two records."
+      },
+      {
+        "type": "h3",
+        "text": "10. Test the AI answers every month"
+      },
+      {
+        "type": "p",
+        "text": "Ask ChatGPT, Gemini and Google's AI Mode for \"best self storage in [your town]\" and \"cheap student storage in [your town]\". Note whether you appear, which sources are cited and what is said about price and access. Our guide on [how to rank in ChatGPT](/insights/how-to-rank-in-chatgpt) explains how the answers are built."
+      },
+      {
+        "type": "h3",
+        "text": "11. Get mentioned by local sites"
+      },
+      {
+        "type": "p",
+        "text": "Local news sites, university housing pages, estate agents, removal firms and chambers of commerce all write about moving and storage. A mention or a link from them helps with Google and with AI answers. Offer a useful tip sheet, such as a student storage checklist, rather than asking for a link outright."
+      },
+      {
+        "type": "h2",
+        "text": "What offline and offer-led self storage marketing ideas still work?"
+      },
+      {
+        "type": "p",
+        "text": "Offers and partnerships still fill units, particularly in busy moving seasons. Use them to support your search presence, not to replace it."
+      },
+      {
+        "type": "h3",
+        "text": "12. Run a clear first-month offer"
+      },
+      {
+        "type": "p",
+        "text": "Offers such as a reduced first month work because renters compare several facilities on the same afternoon. State the offer, the conditions and the end date on the unit page and on your Google My Business listing posts. Check that the offer still leaves each unit profitable once the discount ends."
+      },
+      {
+        "type": "h3",
+        "text": "13. Partner with movers, estate agents and universities"
+      },
+      {
+        "type": "p",
+        "text": "People who are moving need storage at the same time. Agree a simple referral arrangement with local removal firms, estate agents, letting agents and student housing offices, and give each partner a link or code you can track."
+      },
+      {
+        "type": "h3",
+        "text": "14. Use signage and drive-by traffic"
+      },
+      {
+        "type": "p",
+        "text": "A visible sign with a short phone number or web address still brings walk-ins, especially at road junctions and near housing developments. Add a QR code to a tracked page so you can see how many people scan it."
+      },
+      {
+        "type": "h2",
+        "text": "How do you keep tenants and fill the units they leave?"
+      },
+      {
+        "type": "p",
+        "text": "You keep tenants by staying in touch, and you refill units faster by knowing why people leave. Retention is cheaper than winning a new renter."
+      },
+      {
+        "type": "h3",
+        "text": "15. Email tenants and ask why they leave"
+      },
+      {
+        "type": "p",
+        "text": "Send a short note at three months with tips and a thank you, and ask every leaving tenant one question: what made you leave? The answers tell you whether to change price, access or communication. If you would like an outside team to do this work, see our comparison of [the best AI marketing agencies for self storage](/insights/best-ai-marketing-agency-self-storage)."
+      },
+      {
+        "type": "h2",
+        "text": "How do you measure self storage marketing?"
+      },
+      {
+        "type": "p",
+        "text": "Measure the number of calls, direction requests, reservations and move-ins, not just visits. Check Google My Business performance and Search Console monthly, and GA4 for reservations. Compare each month with the same month a year ago, because storage demand rises and falls with the moving season."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "**Google My Business:** calls, direction requests and website clicks."
+          },
+          {
+            "text": "**Search Console:** searches that show your location pages and your average position."
+          },
+          {
+            "text": "**GA4:** reservations and enquiries by source."
+          },
+          {
+            "text": "**Your own system:** move-ins by lead source, so you know which idea paid back."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Want results like these for your business? We build local SEO and AI search plans for self storage owners. [Let's talk](https://www.maai.agency/book)"
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is the best marketing for self storage?",
+        "a": "Local search comes first. A complete Google My Business listing, good reviews, a page for each facility and clear prices bring the most renters for the least spend. Offers and partnerships then add volume."
+      },
+      {
+        "q": "How do I market a self storage business with no budget?",
+        "a": "Claim and complete your Google My Business listing, ask every tenant for a review, add prices and a reserve button to your website, and offer partner referrals to local movers and agents. All of these are free apart from your time."
+      },
+      {
+        "q": "How do I get more self storage leads?",
+        "a": "Show up in the three places renters look: Google map results, Google search results and AI answers. Then make it easy to reserve, with visible prices and a form that works on a phone."
+      },
+      {
+        "q": "Does self storage SEO work?",
+        "a": "Yes. Renters search for storage by town and reason, and the results reward local pages, reviews and a complete listing. Search interest in self storage has grown in recent years, so more people are looking."
+      },
+      {
+        "q": "Should self storage owners use Google Ads?",
+        "a": "Paid search can fill units quickly in a competitive area, but it stops when the budget stops. Use it for launches and seasonal peaks while your listing and location pages build lasting visibility."
+      },
+      {
+        "q": "How long does self storage marketing take to work?",
+        "a": "Listing and website fixes can show results in weeks. Map ranking and organic search gains usually take a few months of steady work."
+      }
+    ]
+  },
+  {
     "slug": "best-ways-to-track-brand-mentions-in-ai-search",
     "seoTitle": "Best Ways to Track Brand Mentions in AI Search 2027",
     "title": "Best Ways to Track Brand Mentions in AI Search in 2027: ChatGPT, Perplexity and AI Overviews",
