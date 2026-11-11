@@ -27,6 +27,330 @@ export const AUTHORS = {
    To preview drafts locally, run the dev server with INSIGHTS_PREVIEW_DRAFTS=1. */
 const ALL_POSTS = [
   {
+    "slug": "best-ways-to-track-brand-mentions-in-ai-search",
+    "seoTitle": "Best Ways to Track Brand Mentions in AI Search 2027",
+    "title": "Best Ways to Track Brand Mentions in AI Search in 2027: ChatGPT, Perplexity and AI Overviews",
+    "description": "Learn the best ways to track brand mentions in AI search, from a free monthly prompt log to GA4 and paid tools, across ChatGPT, Perplexity and AI Overviews.",
+    "date": "2026-11-11",
+    "author": "team",
+    "topics": [
+      "AEO/GEO"
+    ],
+    "industries": [],
+    "image": "/insights/best-ways-to-track-brand-mentions-in-ai-search-banner.jpg",
+    "intro": "Your brand can be named in an AI answer today and missing tomorrow, and your analytics will not tell you either way. This guide shows the best ways to track brand mentions in AI search: a free monthly routine, how to read the visits that follow in Google Analytics 4, and when a paid tool is worth it across ChatGPT, Perplexity and Google AI Overviews.",
+    "tldr": [
+      "Track brand mentions in AI search by running a fixed list of buyer prompts monthly and logging whether you are named and which sources are cited.",
+      "Pew Research found people click a traditional result in 8% of visits when an AI summary shows, against 15% without one.",
+      "Cover ChatGPT, Perplexity and Google AI Overviews separately, because each uses different sources.",
+      "Use Google Analytics 4 to see the visits that follow a mention, and a paid tracker only when you need scale.",
+      "Ahrefs found branded web mentions (0.664) link more strongly to AI Overview visibility than backlinks (0.218)."
+    ],
+    "body": [
+      {
+        "type": "h2",
+        "text": "What is the best way to track brand mentions in AI search?"
+      },
+      {
+        "type": "p",
+        "text": "The best way to track brand mentions in AI search is to write a fixed list of the questions your buyers ask, run them in ChatGPT, Perplexity and Google AI Overviews on a schedule, and log whether your brand is named, where, and which sources the answer cites. A paid tracker automates the same routine once you need to cover many prompts."
+      },
+      {
+        "type": "p",
+        "text": "A brand mention in AI search is any time an AI answer names your business, with or without a link. A citation is when the answer also shows your page as a source. Both matter, and you can track both with the routine below."
+      },
+      {
+        "type": "image",
+        "src": "/insights/track-mentions-routine.jpg",
+        "alt": "Four step diagram: write 20 buyer prompts, run them in each AI tool, log mentions and sources, fix gaps and repeat monthly",
+        "caption": "The monthly routine for tracking brand mentions in AI search."
+      },
+      {
+        "type": "h2",
+        "text": "Why should you track brand mentions in AI search?"
+      },
+      {
+        "type": "p",
+        "text": "Buyers now see an AI answer before they see your website, so a mention inside that answer can decide whether they ever click. The [Pew Research Center](https://www.pewresearch.org/short-reads/2025/07/22/google-users-are-less-likely-to-click-on-links-when-an-ai-summary-appears-in-the-results/) tracked 900 US adults and 68,879 Google searches in March 2025. People clicked a traditional result in 8% of visits when an AI summary appeared, against 15% when it did not."
+      },
+      {
+        "type": "image",
+        "src": "/insights/track-mentions-pew-clicks.jpg",
+        "alt": "Column chart showing 15% of Google visits include a click on a traditional result without an AI summary and 8% with one",
+        "caption": "Clicks on traditional results with and without an AI summary. Source: Pew Research Center."
+      },
+      {
+        "type": "p",
+        "text": "That chart explains why rankings and traffic alone no longer tell you the full story. Your brand can be recommended to a buyer who never clicks, and it can be missing from an answer where your page still ranks. Mentions are the number that shows you the gap. Our guide on [answer engine optimisation](/insights/answer-engine-optimisation) covers the wider shift."
+      },
+      {
+        "type": "h2",
+        "text": "Which AI tools should you track your brand mentions in?"
+      },
+      {
+        "type": "p",
+        "text": "Track the tools your buyers use for research: ChatGPT, Perplexity, Google AI Overviews and AI Mode, and Gemini. Add Claude if your buyers are technical. Each tool pulls from different sources, so a brand can be named in one and missing from another."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "**ChatGPT.** The biggest assistant by use. Switch search on so the answer shows its web sources."
+          },
+          {
+            "text": "**Perplexity.** Shows numbered sources on every answer, so it is the easiest place to see which pages earn citations."
+          },
+          {
+            "text": "**Google AI Overviews and AI Mode.** Run your prompts on Google with a logged-out browser and note whether an overview appears and who it names."
+          },
+          {
+            "text": "**Gemini and Claude.** Check these monthly if your audience uses them. Our guide to [ranking in Claude](/insights/how-to-rank-in-claude) explains how that tool finds sources."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Only 7 of the 50 most-mentioned domains appeared across Google AI Overviews, ChatGPT and Perplexity in Ahrefs' study, so do not assume one result carries over to the others. Log each tool in its own column."
+      },
+      {
+        "type": "h2",
+        "text": "How do you track brand mentions in AI search for free?"
+      },
+      {
+        "type": "p",
+        "text": "You track brand mentions in AI search for free by running a fixed prompt list by hand each month and recording the answers in a spreadsheet. It takes about an hour for 20 prompts across three tools, and it gives you a baseline before you pay for anything."
+      },
+      {
+        "type": "h3",
+        "text": "Step 1: Write 20 prompts your buyers would actually ask"
+      },
+      {
+        "type": "p",
+        "text": "Start from the questions customers ask before they buy. Include a mix so you see different kinds of visibility."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "**Category prompts.** \"Best accounting software for a small UK business\" or \"best removal companies in Manchester\". These show whether you make the shortlist."
+          },
+          {
+            "text": "**Problem prompts.** \"How do I reduce late deliveries from my supplier?\" These show whether you appear while buyers are still learning."
+          },
+          {
+            "text": "**Comparison prompts.** \"[Your brand] vs [competitor]\". These show how the AI describes you next to others."
+          },
+          {
+            "text": "**Brand prompts.** \"What is [your brand]?\" and \"Is [your brand] any good?\". These show whether the facts are right."
+          }
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "Step 2: Run each prompt in a fresh session"
+      },
+      {
+        "type": "p",
+        "text": "Open a new chat or a private window for each tool so earlier chats do not shape the answer. Use the same wording every month. AI answers change from one run to the next, so run each important prompt three times and note how often your brand appears."
+      },
+      {
+        "type": "h3",
+        "text": "Step 3: Log the result in a simple sheet"
+      },
+      {
+        "type": "p",
+        "text": "Make one row per prompt per tool. Keep the columns the same every month so you can compare."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "**Date, tool and prompt.**"
+          },
+          {
+            "text": "**Brand named?** Yes or no, and the position in the answer (first, in a list, last)."
+          },
+          {
+            "text": "**How you were described.** Copy the exact sentence, and mark anything wrong."
+          },
+          {
+            "text": "**Sources cited.** Note the pages and sites the answer used, including competitors."
+          },
+          {
+            "text": "**Competitors named.** List who appeared instead of you."
+          }
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "Step 4: Work out your share of mentions"
+      },
+      {
+        "type": "p",
+        "text": "Divide the prompts where you were named by the prompts you ran. If you ran 20 prompts and were named in 6, your share of mentions is 30%. Track that number per tool and per prompt type. It is the one figure to report each month."
+      },
+      {
+        "type": "h2",
+        "text": "What should you measure when you track brand mentions in AI search?"
+      },
+      {
+        "type": "p",
+        "text": "Measure five things: share of mentions, position in the answer, accuracy, sources cited and the visits that follow. Together they show whether you are named, how well, and whether it brings business."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "**Share of mentions.** The percentage of prompts that name you."
+          },
+          {
+            "text": "**Position.** Being named first or in the top three counts for more than a passing reference."
+          },
+          {
+            "text": "**Accuracy.** The share of facts the AI gets right about your services, location and pricing."
+          },
+          {
+            "text": "**Citations.** Which of your pages get cited, and which competitor pages are cited instead."
+          },
+          {
+            "text": "**Visits and enquiries.** Visits from AI tools in your analytics, covered in the next section."
+          }
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "How do you track visits from ChatGPT and Perplexity in Google Analytics 4?"
+      },
+      {
+        "type": "p",
+        "text": "In Google Analytics 4, open the Traffic acquisition report and look for sessions with a source such as chatgpt.com or perplexity.ai. These are people who clicked a link in an AI answer. They show the visits that follow a mention, but not the mentions where nobody clicked."
+      },
+      {
+        "type": "p",
+        "text": "That is why you need both views. The prompt log tells you how often you are named, and analytics tells you how many people act on it. Our free guide to [tracking AI traffic in Google Analytics 4 and Search Console](/insights/track-ai-traffic) shows the exact set-up, including how to group AI sources into one channel."
+      },
+      {
+        "type": "h2",
+        "text": "How do you track brand mentions in Google AI Overviews and AI Mode?"
+      },
+      {
+        "type": "p",
+        "text": "Run your prompts on Google in a logged-out browser and record whether an AI Overview appears, whether it names you, and which sources it cites. Then check Google Search Console, which counts AI Overview and AI Mode activity in its Performance report and has a Generative AI report for impressions."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "**Check the overview yourself.** Search each prompt, open the source panel and note the cited pages."
+          },
+          {
+            "text": "**Use Search Console for your own pages.** Look at the queries where your pages already earn impressions, because those are the prompts where you can win a citation."
+          },
+          {
+            "text": "**Expect volatility.** Overviews change often, so compare monthly trends, not single results."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Our guide to [ranking in Google AI Overviews and AI Mode](/insights/how-to-rank-in-ai-overviews) explains how to improve the result once you can see it."
+      },
+      {
+        "type": "h2",
+        "text": "Which tools track brand mentions in AI search automatically?"
+      },
+      {
+        "type": "p",
+        "text": "Paid trackers run your prompts on a schedule across several AI tools and report mentions, citations and competitors in a dashboard. Examples include Ahrefs Brand Radar, which tracks prompts across AI Overviews, ChatGPT, Perplexity, Copilot and Gemini, and the AI Visibility toolkit in Semrush."
+      },
+      {
+        "type": "p",
+        "text": "Most vendors describe their own tools, so treat their claims with care and run a trial on your own prompts first. Choose a paid tracker when you have more than about 50 prompts, several locations or several brands, or when you need weekly data. For a single small business, the free routine above is enough to start. A full comparison of the tools will follow in our guide to AI search monitoring tools."
+      },
+      {
+        "type": "h2",
+        "text": "What affects whether AI search names your brand?"
+      },
+      {
+        "type": "p",
+        "text": "Branded web mentions on other websites have the strongest link to AI Overview brand visibility that Ahrefs measured. In its study of 75,000 brands, branded web mentions correlated at 0.664 with appearing in AI Overviews, against 0.218 for backlinks."
+      },
+      {
+        "type": "image",
+        "src": "/insights/track-mentions-ahrefs-correlation.jpg",
+        "alt": "Column chart comparing the correlation of branded web mentions (0.664) and backlinks (0.218) with AI Overview brand visibility",
+        "caption": "Correlation with AI Overview brand visibility. Source: Ahrefs, 75,000 brands."
+      },
+      {
+        "type": "p",
+        "text": "Correlation does not prove cause, as Ahrefs notes itself. It does tell you where to look when your log shows gaps: the sites that already discuss your category. If competitors are named because they appear on review sites, industry lists and news coverage, those are the places to earn a mention. Our [AI brand visibility checklist](/insights/how-to-improve-brand-visibility-in-ai-search-engines) lists the 12 checks that improve this."
+      },
+      {
+        "type": "h2",
+        "text": "How often should you track brand mentions in AI search?"
+      },
+      {
+        "type": "p",
+        "text": "Check monthly for most businesses, and weekly during a campaign, a launch or a site change. AI answers move around, so one check can mislead. Compare the same prompts month on month and look at the trend in your share of mentions."
+      },
+      {
+        "type": "h2",
+        "text": "What should you do when AI search does not mention your brand?"
+      },
+      {
+        "type": "p",
+        "text": "Use the log to find out why, then fix the cause in this order."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "**Wrong or missing facts.** Update your website, Google Business Profile and directory listings so they agree with each other."
+          },
+          {
+            "text": "**You are not cited.** Look at the pages the answer used and publish a clearer, answer-first page on the same question."
+          },
+          {
+            "text": "**Competitors are named on third-party sites.** Pitch those sites for a mention, through digital PR, expert comments and reviews."
+          },
+          {
+            "text": "**No visits follow.** Check that the pages AI tools cite have a clear next step."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Re-run the same prompts four to eight weeks later and compare your share of mentions. Small, steady gains are normal."
+      }
+    ],
+    "faq": [
+      {
+        "q": "How do I check if ChatGPT mentions my brand?",
+        "a": "Open a new ChatGPT chat with search on, ask the questions your buyers ask and note whether your brand is named and which sources appear. Repeat each prompt three times, because answers vary."
+      },
+      {
+        "q": "Can I track brand mentions in AI search for free?",
+        "a": "Yes. Run a fixed list of about 20 prompts monthly in ChatGPT, Perplexity and Google, and record the results in a spreadsheet. Add Google Analytics 4 to see the visits that follow."
+      },
+      {
+        "q": "What is the difference between a brand mention and a citation in AI search?",
+        "a": "A mention is when the answer names your brand. A citation is when the answer links to your page as a source. You can be mentioned without a link, and cited without being named."
+      },
+      {
+        "q": "Does Google Search Console show brand mentions in AI Overviews?",
+        "a": "Not as brand mentions. It counts AI Overview and AI Mode activity for your pages in the Performance report and has a Generative AI report for impressions, but it does not tell you when your brand is named in the text."
+      },
+      {
+        "q": "How many prompts should I track?",
+        "a": "Start with 20 that cover category, problem, comparison and brand questions. Add more as you learn which topics matter to your buyers."
+      },
+      {
+        "q": "Do I need a paid AI visibility tool?",
+        "a": "Not at first. A paid tool helps when you track many prompts, locations or brands, or need weekly reporting."
+      }
+    ]
+  },
+  {
     "slug": "seo-for-moving-companies",
     "seoTitle": "SEO for Moving Companies in 2027: Rank Locally and in AI",
     "title": "SEO for Moving Companies in 2027: How to Rank Locally and in AI Search",
