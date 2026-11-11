@@ -154,6 +154,12 @@ const ALL_POSTS = [
         "text": "Open a new chat or a private window for each tool so earlier chats do not shape the answer. Use the same wording every month. AI answers change from one run to the next, so run each important prompt three times and note how often your brand appears."
       },
       {
+        "type": "image",
+        "src": "/insights/track-mentions-2-chatgpt-crm.jpg",
+        "alt": "ChatGPT answer to the best CRM for a small B2B team, naming three tools with prices and sources",
+        "caption": "Step 2 in practice: one buyer prompt run in ChatGPT with search on. Note which brands are named, in what order, and which sources are shown."
+      },
+      {
         "type": "h3",
         "text": "Step 3: Log the result in a simple sheet"
       },
@@ -226,8 +232,20 @@ const ALL_POSTS = [
         "text": "In Google Analytics 4, open the Traffic acquisition report and look for sessions with a source such as chatgpt.com or perplexity.ai. These are people who clicked a link in an AI answer. They show the visits that follow a mention, but not the mentions where nobody clicked."
       },
       {
+        "type": "image",
+        "src": "/insights/track-mentions-3-ga4-chatgpt-sessions.jpg",
+        "alt": "Google Analytics 4 traffic acquisition report filtered to chatgpt.com, showing sessions by source and medium",
+        "caption": "Visits from ChatGPT in GA4's Traffic acquisition report, filtered to the chatgpt.com source."
+      },
+      {
         "type": "p",
         "text": "That is why you need both views. The prompt log tells you how often you are named, and analytics tells you how many people act on it. Our free guide to [tracking AI traffic in Google Analytics 4 and Search Console](/insights/track-ai-traffic) shows the exact set-up, including how to group AI sources into one channel."
+      },
+      {
+        "type": "image",
+        "src": "/insights/track-mentions-4-ga4-key-event-rate.jpg",
+        "alt": "Google Analytics 4 table of sessions, key events and key event rate by channel, with AI Assistant at 15.93 percent and Organic Search at 6.59 percent",
+        "caption": "Key events per session by channel: AI assistant visits turned into key events at 15.93%, against 6.59% for organic search."
       },
       {
         "type": "h2",
@@ -236,6 +254,12 @@ const ALL_POSTS = [
       {
         "type": "p",
         "text": "Run your prompts on Google in a logged-out browser and record whether an AI Overview appears, whether it names you, and which sources it cites. Then check Google Search Console, which counts AI Overview and AI Mode activity in its Performance report and has a Generative AI report for impressions."
+      },
+      {
+        "type": "image",
+        "src": "/insights/track-mentions-1-google-ai-overview.jpg",
+        "alt": "Google AI Overview for how to track brand mentions in AI search, listing tracking methods and cited sources",
+        "caption": "A Google AI Overview for a buyer-style search: note whether your brand is named and which sources are cited."
       },
       {
         "type": "list",
@@ -416,6 +440,12 @@ const ALL_POSTS = [
         "src": "/insights/seo-for-moving-companies-three-places.jpg",
         "alt": "Three cards showing the places buyers find a mover: Google map results, website results and AI answers, with what decides each one",
         "caption": "The three places buyers find a mover, and what decides each. Source: Google Business Profile Help and Whitespark."
+      },
+      {
+        "type": "image",
+        "src": "/insights/moving-1-ai-overview-removals-manchester.jpg",
+        "alt": "Google AI Overview for removals near me Manchester, listing a removals company with its rating, reviews and open status",
+        "caption": "What a buyer sees: Google's AI Overview for a local removals search shows ratings, reviews and opening status next to each company."
       },
       {
         "type": "list",
@@ -664,6 +694,12 @@ const ALL_POSTS = [
         "text": "AI tools name movers they can find described clearly on pages they trust. Whitespark's 2026 report added AI search visibility factors for local businesses. The top five scores were being on expert-curated \"best of\" lists, a dedicated page for each service, prominence on key industry domains, authority of unstructured citations such as newspaper articles and blog posts, and the authority of third-party sites where your reviews appear."
       },
       {
+        "type": "image",
+        "src": "/insights/moving-4-chatgpt-removals-manchester.jpg",
+        "alt": "ChatGPT answer listing the best removal companies in Manchester with ratings and review counts",
+        "caption": "ChatGPT's answer for removals in Manchester: it ranks companies using ratings, review counts and services, so reviews and clear service pages matter."
+      },
+      {
         "type": "p",
         "text": "For a removals firm, that gives a practical order of work:"
       },
@@ -692,12 +728,24 @@ const ALL_POSTS = [
         "text": "Our guides on [improving brand visibility in AI search](/insights/how-to-improve-brand-visibility-in-ai-search-engines) and [ranking in Google AI Overviews and AI Mode](/insights/how-to-rank-in-ai-overviews) cover how to check what AI tools say about you, and the [ChatGPT guide](/insights/how-to-rank-in-chatgpt) covers that tool in detail."
       },
       {
+        "type": "image",
+        "src": "/insights/moving-5-ga4-sessions-by-channel.jpg",
+        "alt": "Google Analytics 4 traffic acquisition report showing sessions by channel for a UK removals website, including an AI Assistant channel",
+        "caption": "Traffic by channel for a UK removals website in the last 90 days: organic search is the biggest source and AI assistants already send visits."
+      },
+      {
         "type": "h2",
         "text": "What keywords should a moving company target?"
       },
       {
         "type": "p",
         "text": "Target the searches that show intent to move, then add the town. Start with a service plus a place, then expand into questions."
+      },
+      {
+        "type": "image",
+        "src": "/insights/moving-2-ai-overview-removal-cost.jpg",
+        "alt": "Google AI Overview for how much it costs to hire a removal company, with a price table by property size and cited sources on the right",
+        "caption": "A cost search in Google: the AI Overview answers the price question and cites the pages it used, so pages with clear prices get quoted."
       },
       {
         "type": "list",
@@ -722,6 +770,12 @@ const ALL_POSTS = [
       {
         "type": "p",
         "text": "Check the volume for your own towns in Google Keyword Planner or Google Trends, because moving searches rise and fall with the season and local market."
+      },
+      {
+        "type": "image",
+        "src": "/insights/moving-3-trends-house-removals.jpg",
+        "alt": "Google Trends chart of UK searches for house removals over five years, showing a steady rise",
+        "caption": "Google Trends for house removals in the UK over five years shows demand rising, so plan content before the busy months."
       },
       {
         "type": "h2",
@@ -798,6 +852,12 @@ const ALL_POSTS = [
       {
         "type": "p",
         "text": "Profile fixes and new reviews can show an effect in weeks. New service and town pages usually need a few months to settle. Links and mentions from other sites take longer and build over a year. Moving is seasonal, so start before your busy months, not during them."
+      },
+      {
+        "type": "image",
+        "src": "/insights/moving-6-gsc-clicks-impressions.jpg",
+        "alt": "Search Console performance report for a UK removals website over 12 months, showing clicks, impressions and average position",
+        "caption": "Search Console over 12 months for a UK removals website: impressions and clicks build over months as pages and reviews grow."
       },
       {
         "type": "h2",
@@ -931,6 +991,12 @@ const ALL_POSTS = [
         "text": "Open ChatGPT, Claude, Gemini and Google (for AI Overviews and AI Mode) in a fresh session and ask the questions your buyers ask. This is your baseline, and it costs nothing."
       },
       {
+        "type": "image",
+        "src": "/insights/ai-brand-visibility-1-ai-overview-names-maai.jpg",
+        "alt": "Google AI Overview for a search about answer engine optimisation for self storage, naming agencies including MAAI Agency",
+        "caption": "Check 1 in practice: a Google AI Overview names the agencies it recommends for a category, so you can see whether your brand appears."
+      },
+      {
         "type": "list",
         "items": [
           {
@@ -953,12 +1019,24 @@ const ALL_POSTS = [
         "text": "Wrong facts in an AI answer usually come from conflicting pages. Compare what each tool says with your real services, location, pricing model and founding details. List every error and the page the tool cited, because that page is what you fix in later checks."
       },
       {
+        "type": "image",
+        "src": "/insights/ai-brand-visibility-2-chatgpt-agencies.jpg",
+        "alt": "ChatGPT answer to which agencies help B2B companies get found in AI search, listing agencies with short descriptions and sources",
+        "caption": "Check 2 in practice: read how an AI tool describes each brand in your category, and compare it with what you want it to say."
+      },
+      {
         "type": "h3",
         "text": "Check 3: Fix crawler access so AI tools can reach your pages"
       },
       {
         "type": "p",
         "text": "AI search tools can only use pages they are allowed to fetch. Open yourdomain.com/robots.txt and check that you have not blocked the crawlers behind the tools you care about, such as OAI-SearchBot for ChatGPT search, Googlebot and Bingbot. Check the current crawler names in each provider's documentation before editing anything."
+      },
+      {
+        "type": "image",
+        "src": "/insights/ai-brand-visibility-3-robots-txt.jpg",
+        "alt": "The maai.agency robots.txt file in a browser, showing it allows all crawlers except the /api/ folder and lists the sitemap",
+        "caption": "Check 3 in practice: a robots.txt that allows crawlers and lists the sitemap, with only the /api/ folder blocked."
       },
       {
         "type": "list",
@@ -1083,6 +1161,12 @@ const ALL_POSTS = [
       {
         "type": "p",
         "text": "Repeat check 1 monthly with the same questions and compare the sheet. Then look at what visits arrive from AI tools. Our free guide to [tracking AI traffic in Google Analytics 4 and Search Console](/insights/track-ai-traffic) shows the exact set-up."
+      },
+      {
+        "type": "image",
+        "src": "/insights/ai-brand-visibility-4-gsc-ai-features.jpg",
+        "alt": "Google Search Console Generative AI features report showing impressions over time and the top pages",
+        "caption": "Check 12 in practice: Search Console's Generative AI features report shows how often your pages appear in Google's AI features."
       },
       {
         "type": "list",
