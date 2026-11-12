@@ -27,6 +27,514 @@ export const AUTHORS = {
    To preview drafts locally, run the dev server with INSIGHTS_PREVIEW_DRAFTS=1. */
 const ALL_POSTS = [
   {
+    "slug": "seo-for-estate-agents",
+    "seoTitle": "SEO for Estate Agents in 2027: Win More Valuations",
+    "title": "SEO for Estate Agents in 2027: How to Win More Valuations from Search",
+    "description": "SEO for estate agents explained: set up Google Business Profile, win reviews, build branch and area pages and get named in AI answers. Step by step.",
+    "date": "2026-11-12",
+    "author": "team",
+    "topics": [
+      "SEO - Begins"
+    ],
+    "industries": [
+      "Real estate"
+    ],
+    "image": "/insights/seo-for-estate-agents-banner.jpg",
+    "intro": "A seller asks Google who should value their house, glances at the map, reads a few reviews and calls two or three agents. If your agency is not in those results, you are not in the running. This guide shows how SEO for estate agents works in 2027: how to rank in Google's map results, win the reviews sellers read, build the branch and area pages that bring valuations and get your agency named in AI answers.",
+    "tldr": [
+      "SEO for estate agents means appearing in Google map results, website results and AI answers when sellers and landlords search for help locally.",
+      "Sellers rank a good local presence first when choosing an agent (20% in Zoopla and YouGov's survey of 1,006 homeowners), and 49% get three valuations.",
+      "Set up a Google Business Profile for each staffed branch, keep details identical everywhere and collect reviews steadily.",
+      "Build pages for each branch, area, valuation and landlord need, written from real local knowledge.",
+      "Measure valuation requests, calls and instructions, not rankings alone."
+    ],
+    "body": [
+      {
+        "type": "h2",
+        "text": "What is SEO for estate agents, and how does it win valuations?"
+      },
+      {
+        "type": "p",
+        "text": "SEO for estate agents is the work of making your agency appear when sellers, landlords, buyers and tenants search for help in the areas you cover. It covers your Google Business Profile, your website, your reviews and the mentions of your branches on other sites. Done well, it puts your name in front of a homeowner at the moment they ask \"who should value my house?\", before they have spoken to anyone."
+      },
+      {
+        "type": "p",
+        "text": "In the UK people say \"estate agent\", while in the US the same search is \"real estate agent\" or \"realtor\", so you will see both terms in this guide. The steps are the same either way."
+      },
+      {
+        "type": "h2",
+        "text": "Why does SEO matter for estate agents in 2027?"
+      },
+      {
+        "type": "p",
+        "text": "Sellers start online. A survey run by Opinium for Homeflow found that 74% of people looking for an estate agent go to Google first, and 87% of homeowners under 35 do. That survey dates from spring 2022 and was commissioned by an agency software supplier, so treat the exact figures with care, but the direction matches what we see in search results every day."
+      },
+      {
+        "type": "p",
+        "text": "What sellers then look for is local proof. [Zoopla](https://www.zoopla.co.uk/press/releases/zoopla-identifies-whats-really-driving-how-sellers-choose-agents-in-2025-and) and YouGov surveyed 1,006 UK homeowners who had sold in the previous five years, and the top reason for choosing an agent was a good local presence, meaning the agent is already selling other homes nearby. Agents in the companion survey guessed that price negotiation and mortgage support mattered most, and sellers ranked mortgage support last."
+      },
+      {
+        "type": "image",
+        "src": "/insights/seo-for-estate-agents-seller-reasons.jpg",
+        "alt": "Bar chart showing the top three reasons UK sellers chose an agent: a good local presence 20%, well known locally 13%, strong local reputation 9%",
+        "caption": "The top three reasons sellers gave for choosing their estate agent. Source: Zoopla and YouGov, June 2025."
+      },
+      {
+        "type": "p",
+        "text": "That finding is good news for SEO. Google's map results, your branch pages and your reviews are how local presence shows up online. Zoopla's research also found that 49% of sellers would get valuations from three agents, and only 15% value with a single agent. Being one of the three names a seller sees is the whole game."
+      },
+      {
+        "type": "p",
+        "text": "There is a second shift. Many agencies built their lead flow on the property portals, and search interest in them has softened. Google Trends data for the UK shows relative interest in \"rightmove\" roughly halving from its 2021 and 2022 level by November 2026, while \"zoopla\" and \"estate agents\" also fell from a much lower base. Portals still list your homes, but a seller who wants a valuation is searching, asking an AI assistant or checking the map."
+      },
+      {
+        "type": "image",
+        "src": "/insights/seo-for-estate-agents-trends.jpg",
+        "alt": "Google Trends chart for the UK over five years comparing searches for estate agents, rightmove and zoopla",
+        "caption": "Relative UK search interest over five years for \"estate agents\", \"rightmove\" and \"zoopla\". Source: Google Trends, checked 12 November 2026."
+      },
+      {
+        "type": "h2",
+        "text": "How do sellers and landlords find an estate agent in Google and AI search?"
+      },
+      {
+        "type": "p",
+        "text": "Sellers and landlords find an estate agent in three places: Google's map results, the standard website results and AI answers from tools such as Google AI Overviews and ChatGPT. Each rewards different work, so a good plan covers all three."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "**Google map results.** The map and the three listings at the top of a search such as \"estate agents manchester\". Your Google Business Profile decides this."
+          },
+          {
+            "text": "**Website results.** The usual blue links, including the People Also Ask questions. Your service pages, area pages and the links pointing to your site decide this."
+          },
+          {
+            "text": "**AI answers.** Summaries that name a few agencies or give a how-to. Mentions on trusted sites and clear, answer-first pages decide this."
+          }
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "What do the map results look like for an estate agent search?"
+      },
+      {
+        "type": "p",
+        "text": "On 12 November 2026 we searched Google UK for \"estate agents manchester\". The map pack showed three agencies, each with a star rating, review count, opening hours and a recent review snippet. The three listed had 609, 759 and around 1,200 reviews. A branch with a handful of reviews and no recent ones will struggle to appear next to numbers like that."
+      },
+      {
+        "type": "image",
+        "src": "/insights/seo-for-estate-agents-map-pack.jpg",
+        "alt": "Google map results for estate agents manchester showing three estate agencies with star ratings, review counts and opening hours",
+        "caption": "Google UK map results for \"estate agents manchester\", 12 November 2026. Ratings, review counts and opening hours sit beside every listing."
+      },
+      {
+        "type": "h3",
+        "text": "What does Google's AI Overview say about SEO for estate agents?"
+      },
+      {
+        "type": "p",
+        "text": "The AI Overview for \"seo for estate agents\" tells the reader to prioritise local SEO and the Google Business Profile for each branch, collect and answer reviews, keep the same business details across directories and target long-tail, high-intent keywords. It cites guides from property software and marketing suppliers including Homeflow, Dezrez and Rex Software. Notice what that tells you: the sources Google trusts for this topic are pages that answer the question in plain steps."
+      },
+      {
+        "type": "image",
+        "src": "/insights/seo-for-estate-agents-ai-overview.jpg",
+        "alt": "Google AI Overview for seo for estate agents listing local SEO, reviews and directories, with source cards from Rex Software, Homeflow and Outrank",
+        "caption": "Google UK AI Overview for \"seo for estate agents\", 12 November 2026, with its source panel."
+      },
+      {
+        "type": "p",
+        "text": "The questions people also ask follow the same pattern, and they are cost and effort questions: how much SEO costs, whether it is worth it, how long it takes. We answer each of them below."
+      },
+      {
+        "type": "image",
+        "src": "/insights/seo-for-estate-agents-people-also-ask.jpg",
+        "alt": "Google People Also Ask box for seo for estate agents with four questions about SEO cost and the 80/20 rule",
+        "caption": "People Also Ask questions under \"seo for estate agents\", Google UK, 12 November 2026."
+      },
+      {
+        "type": "h3",
+        "text": "Which estate agents does ChatGPT recommend?"
+      },
+      {
+        "type": "p",
+        "text": "We asked ChatGPT with web search on, \"Which estate agents should I use to sell my house in Bristol?\" It named four agencies to shortlist, gave each a rating and review count, said it would not choose on Google reviews alone, and told the seller to check how many homes each agent sells in their postcode and how close sales get to the asking price. In other words, the assistant read review pages, agency sites and local sales data, then summarised them. An agency that is easy to find, easy to read and well reviewed gets named. One that is hard to find does not."
+      },
+      {
+        "type": "image",
+        "src": "/insights/seo-for-estate-agents-chatgpt-answer.jpg",
+        "alt": "ChatGPT answer to which estate agents to use to sell a house in Bristol, shortlisting four agencies with ratings",
+        "caption": "ChatGPT (web search on) answering a neutral Bristol seller question, 12 November 2026. We asked the question as a general category prompt."
+      },
+      {
+        "type": "p",
+        "text": "Our guide on [how to rank your business in ChatGPT](/insights/how-to-rank-in-chatgpt) explains why these answers pick the agencies they do, and [how to rank in Google AI Overviews and AI Mode](/insights/how-to-rank-in-ai-overviews) covers Google's side."
+      },
+      {
+        "type": "h2",
+        "text": "How do you set up Google Business Profile for an estate agent?"
+      },
+      {
+        "type": "p",
+        "text": "Set up one Google Business Profile for each branch with a staffed, public office, choose the category that matches your main service, and fill in every field with the same details your website shows. Google's map results depend on three things: relevance, distance and prominence. Whitespark's Local Search Ranking Factors survey of local SEO experts puts the primary category and proximity at the top, with reviews and behavioural signals gaining weight in the 2026 edition."
+      },
+      {
+        "type": "steps",
+        "title": "Set up each branch profile",
+        "items": [
+          {
+            "title": "Claim and verify the branch",
+            "text": "Search for your agency on Google Maps, claim the listing or add the business, and complete Google's verification. Use a real address people can visit. Do not create profiles for towns where you have no office."
+          },
+          {
+            "title": "Choose the primary category carefully",
+            "text": "Pick the category that describes what most customers want from this branch, such as Estate agent. Add secondary categories only for services you genuinely offer, such as Letting agent."
+          },
+          {
+            "title": "Write the name, hours and contact details exactly",
+            "text": "Use your trading name as it appears on your shop front. Add accurate opening hours, including bank holidays, because being open when someone searches is a ranking and conversion factor."
+          },
+          {
+            "title": "Add services, photos and a link to the branch page",
+            "text": "List valuations, sales, lettings and property management as services. Upload real photos of the office, the team and local streets. Link to that branch's own page, not your home page."
+          },
+          {
+            "title": "Post and answer questions every week",
+            "text": "Use Google Business Profile posts for new instructions, sold announcements and local market updates, and answer questions that appear on the profile."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Multi-branch agencies should keep names, addresses and phone numbers identical on every directory, such as Bing Places, Apple Business Connect and the property portals. Inconsistent details confuse both Google and AI assistants, which compare several sources before they name an agency."
+      },
+      {
+        "type": "h2",
+        "text": "How do reviews help SEO for estate agents?"
+      },
+      {
+        "type": "p",
+        "text": "Reviews help estate agents rank in map results, and they decide which of the three agents a seller calls. The BrightLocal Local Consumer Review Survey found that 97% of consumers read online reviews for local businesses. Our map pack search showed why: review count, rating and a recent review sit right beside every name."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "**Ask at the right moment.** Send the review link when a sale completes or a tenancy starts, when the client is happiest."
+          },
+          {
+            "text": "**Ask for both sellers and landlords.** Lettings reviews help landlord searches such as \"letting agent manchester\" and sales reviews help seller searches."
+          },
+          {
+            "text": "**Reply to every review.** A short, specific reply shows future clients how you handle problems."
+          },
+          {
+            "text": "**Ask for detail.** Reviews that mention the street, the property type and the person who helped give Google and AI tools more to match against a search."
+          },
+          {
+            "text": "**Never offer rewards for reviews.** It breaks Google's policies and puts the profile at risk."
+          }
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Which pages does an estate agent website need for local SEO?"
+      },
+      {
+        "type": "p",
+        "text": "An estate agent website needs a page for each branch, a page for each area you really serve, a valuation page for sellers and landlords, and answer pages for the questions people ask before they instruct. These pages match the searches that bring instructions: \"estate agents in [town]\", \"how much is my house worth in [area]\", \"free valuation [town]\" and \"letting agent [area]\"."
+      },
+      {
+        "type": "table",
+        "head": [
+          "Page",
+          "Search it targets",
+          "What it must show"
+        ],
+        "rows": [
+          [
+            "Branch page",
+            "estate agents in [town]",
+            "Address, map, opening hours, team, local reviews, link to book a valuation"
+          ],
+          [
+            "Area guide",
+            "estate agents [neighbourhood], selling a house in [area]",
+            "Recent sales you handled, price trends from public data, schools and transport, how you market homes there"
+          ],
+          [
+            "Valuation page",
+            "free house valuation [town], how much is my house worth",
+            "What a valuation includes, how long it takes, a short form and a phone number"
+          ],
+          [
+            "Landlord page",
+            "letting agent [town], landlord fees",
+            "Services, fee structure in plain words, compliance help, tenant-find and management options"
+          ],
+          [
+            "Selling guide",
+            "how to sell a house in [town]",
+            "Steps, timelines, costs and what you do at each stage"
+          ],
+          [
+            "Property pages",
+            "address and postcode searches",
+            "Unique description, local detail and a clear sold, under offer or available status"
+          ]
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Write area pages from what you know. A page that lists a neighbourhood's schools and a recent sale you completed there beats a page that repeats the same paragraph with the town name swapped. Our guide on [SEO for moving companies](/insights/seo-for-moving-companies) uses the same service-and-town page structure for another local business, and the [self storage marketing](/insights/self-storage-marketing) guide shows it for multi-location firms."
+      },
+      {
+        "type": "h3",
+        "text": "How should you handle property listings and sold pages?"
+      },
+      {
+        "type": "p",
+        "text": "Keep your own property pages indexable, write a unique description for each home rather than copying the portal text, and keep sold pages live with a clear sold status for a period before pointing them to the nearest area page. Sold pages show proof of local activity, which is exactly the local presence sellers say they look for."
+      },
+      {
+        "type": "h2",
+        "text": "How do you build links and local mentions for an estate agency?"
+      },
+      {
+        "type": "p",
+        "text": "Estate agencies earn links and mentions through local activity: community sponsorships, local press comment, market reports and partnerships with local businesses. These help the website rank and give AI assistants more places that name your agency. We see the same pattern in our work on [brand visibility in AI search](/insights/how-to-improve-brand-visibility-in-ai-search-engines)."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "**Publish a quarterly local market report** using public price data, and send it to local newspapers and community sites."
+          },
+          {
+            "text": "**Sponsor local clubs and events** and ask for a link from the organiser's website to your branch page."
+          },
+          {
+            "text": "**Offer expert comment** to local and property news sites when the market moves."
+          },
+          {
+            "text": "**Join local business groups** and chambers of commerce and make sure the profile lists your correct details."
+          },
+          {
+            "text": "**Get named in \"best estate agents in [town]\" lists** on trusted local and review sites by earning reviews and building a presence there."
+          }
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "How do you get your estate agency into AI answers?"
+      },
+      {
+        "type": "p",
+        "text": "You get into AI answers by ranking in normal search, answering questions clearly on your pages and being mentioned on other trusted sites. Ahrefs found that 76% of 1.9 million AI Overview citations came from pages in Google's top 10, so ordinary SEO still comes first."
+      },
+      {
+        "type": "image",
+        "src": "/insights/seo-for-estate-agents-pew-clicks.jpg",
+        "alt": "Column chart showing Google users clicked a traditional result in 15% of visits without an AI summary and 8% with one",
+        "caption": "Share of Google visits where the user clicked a traditional result. Source: Pew Research Center, March 2025."
+      },
+      {
+        "type": "p",
+        "text": "The [Pew Research Center](https://www.pewresearch.org/short-reads/2025/07/22/google-users-are-less-likely-to-click-on-links-when-an-ai-summary-appears-in-the-results/) analysed the browsing of 900 US adults in March 2025 and found people clicked a traditional result in 8% of visits when Google showed an AI summary, against 15% when it did not. So a seller may read your agency's name inside an answer without visiting your site. Make sure the answer names you correctly and the page it cites makes the next step obvious."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "**Open each page with the answer.** Start a valuation page with what a valuation includes and how long it takes, then add detail."
+          },
+          {
+            "text": "**Write headings as questions** sellers ask, such as \"How much does an estate agent charge in [town]?\" and answer in the first two sentences."
+          },
+          {
+            "text": "**Be exact about names.** Use your agency name, branch names and area names the same way everywhere."
+          },
+          {
+            "text": "**Make sure Bing can index you.** ChatGPT and other assistants use Bing and other search indexes, so submit your site in Bing Webmaster Tools."
+          },
+          {
+            "text": "**Do not block search crawlers** in robots.txt and check your host's bot settings."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "For the full method, read our [answer engine optimisation](/insights/answer-engine-optimisation) pillar and the guide to the [best AI search monitoring tools](/insights/best-ai-search-monitoring-tools) if you want to track mentions across many towns."
+      },
+      {
+        "type": "h2",
+        "text": "How do you check the technical side of SEO for estate agents?"
+      },
+      {
+        "type": "p",
+        "text": "Check that pages load quickly on a phone, listings are indexable, branch pages have clean titles and every page is in the XML sitemap. Estate agent websites carry many images, so speed is a common weak spot. Google's PageSpeed Insights is free and shows a score for performance, accessibility, best practices and SEO, plus a list of fixes."
+      },
+      {
+        "type": "image",
+        "src": "/insights/seo-for-estate-agents-pagespeed.jpg",
+        "alt": "PageSpeed Insights mobile report scoring performance 86, accessibility 97, best practices 100 and SEO 100",
+        "caption": "A PageSpeed Insights mobile report, run 12 November 2026 on one of our own guides, showing the four scores you check on every page."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "**Compress property photos** and set image sizes so pages do not jump as they load."
+          },
+          {
+            "text": "**Test the valuation form** on a phone. A form that fails on mobile loses instructions."
+          },
+          {
+            "text": "**Give every branch and area page its own title and meta description** that includes the town."
+          },
+          {
+            "text": "**Fix duplicate pages** from filters, such as \"sort by price\", with canonical tags."
+          },
+          {
+            "text": "**Check Search Console** for pages Google found but did not index."
+          }
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "How do you measure SEO for estate agents?"
+      },
+      {
+        "type": "p",
+        "text": "Measure SEO for estate agents by the enquiries it creates: valuation requests, calls from Google Business Profile and landlord enquiries, then add rankings and traffic. A ranking report alone does not show whether the work pays."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "**Google Search Console.** Watch clicks and impressions for your \"estate agents in [town]\" and valuation searches."
+          },
+          {
+            "text": "**Google Analytics 4.** Mark the valuation form, click-to-call and brochure downloads as key events."
+          },
+          {
+            "text": "**Google Business Profile.** Track calls, direction requests and website clicks for each branch."
+          },
+          {
+            "text": "**Your CRM.** Record how each instruction found you, so you can tie SEO to fee income."
+          },
+          {
+            "text": "**AI visibility.** Check a fixed list of questions monthly and note which agencies the assistants name."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Search Console also has a Generative AI features report. Ours is small because maai.agency is a young site, but it shows the idea: impressions from AI features are counted and listed by page, so you can see which of your pages Google's AI is using."
+      },
+      {
+        "type": "image",
+        "src": "/insights/seo-for-estate-agents-search-console-ai.jpg",
+        "alt": "Search Console Generative AI features report for maai.agency showing 144 impressions over 12 months with a daily line chart",
+        "caption": "The Generative AI features report in Google Search Console for maai.agency, 12 months to November 2026."
+      },
+      {
+        "type": "p",
+        "text": "Our step-by-step guide to [tracking AI traffic for free](/insights/track-ai-traffic) shows how to set up the Google Analytics 4 channel and the Search Console views."
+      },
+      {
+        "type": "h2",
+        "text": "How long does SEO for estate agents take, and what does it cost?"
+      },
+      {
+        "type": "p",
+        "text": "Most estate agents see movement in Google Business Profile results within weeks of fixing the profile and collecting reviews, and in website results over several months. SEO does not have a fixed price: costs depend on how many branches you have, how competitive your towns are and how much content and PR you need. Ask for a plan tied to enquiries, not a list of tasks."
+      },
+      {
+        "type": "p",
+        "text": "Here is an illustrative way to judge it, not a client result. If your average sales fee is £3,000 and one extra instruction a month comes from search, that is £36,000 of fee income a year from one branch. Set that against the yearly SEO cost for the branch to see whether the work pays. Use your own average fee and your own conversion rate."
+      },
+      {
+        "type": "h2",
+        "text": "How does SEO for estate agents differ by business type?"
+      },
+      {
+        "type": "table",
+        "head": [
+          "Business type",
+          "Where to focus first",
+          "Main search"
+        ],
+        "rows": [
+          [
+            "Single independent branch",
+            "Google Business Profile, reviews, one strong branch page and area guides",
+            "estate agents in [town]"
+          ],
+          [
+            "Multi-branch agency",
+            "A profile and page for each branch, consistent details, a branch review plan",
+            "estate agents in [each town]"
+          ],
+          [
+            "Lettings-focused agency",
+            "Landlord pages, fee clarity, tenant guides, lettings reviews",
+            "letting agent [town], landlord fees"
+          ],
+          [
+            "Online or hybrid agency",
+            "Fee comparison pages, coverage pages, trust signals and AI answers",
+            "online estate agent, cheap estate agent"
+          ],
+          [
+            "New homes or commercial",
+            "Development and sector pages, case studies, links from trade press",
+            "commercial estate agents [city]"
+          ]
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Whichever model you run, the order is the same: fix the profile, win the reviews, build the pages, earn the mentions, then measure."
+      }
+    ],
+    "faq": [
+      {
+        "q": "How much does SEO for estate agents cost in the UK?",
+        "a": "It depends on the number of branches, the competition in each town and the work involved. Ask any agency for a plan tied to valuations and instructions, and judge cost against your average fee income."
+      },
+      {
+        "q": "Is SEO worth it for estate agents?",
+        "a": "Yes, if sellers and landlords in your area search for agents. Sellers rank local presence highest when choosing, and SEO is how that presence shows online."
+      },
+      {
+        "q": "How long does SEO take for estate agents?",
+        "a": "Profile and review improvements can show in map results within weeks. Website pages usually take several months to build authority and rank."
+      },
+      {
+        "q": "What is the best SEO for estate agents?",
+        "a": "The best mix is a complete Google Business Profile for each branch, steady reviews, branch and area pages, local links and mentions, and answer pages that AI tools can quote."
+      },
+      {
+        "q": "Do estate agents need a Google Business Profile for each branch?",
+        "a": "Yes, if each branch has a staffed office the public can visit. Each branch needs its own profile and its own page on your website."
+      },
+      {
+        "q": "Can estate agents rank without Rightmove or Zoopla?",
+        "a": "Your agency can rank in Google for its own name and local searches whether or not it lists on the portals. The portals still show your properties to buyers, so most agents use both."
+      },
+      {
+        "q": "How do estate agents get found in ChatGPT?",
+        "a": "ChatGPT and similar tools read search results, agency websites and review pages. A strong profile, clear service pages and mentions on trusted local sites make your agency easier to name."
+      },
+      {
+        "q": "Should estate agents use PPC as well as SEO?",
+        "a": "Many do, as paid search brings valuations quickly while SEO builds over time. The right mix depends on your budget and how competitive your towns are."
+      }
+    ]
+  },
+  {
     "slug": "best-ai-search-monitoring-tools",
     "seoTitle": "Best AI Search Monitoring Tools 2027: Compared | MAAI",
     "title": "Best AI Search Monitoring Tools in 2027: Compared for Businesses",
