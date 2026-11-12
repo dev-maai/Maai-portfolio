@@ -27,4 +27,6 @@ export const SERVICE_LINKS = [
   { label: "Generative Engine Optimisation", href: "/generative-engine-optimisation" },
   { label: "Link Building", href: "/link-building-services" },
   { label: "Local SEO", href: "/local-seo-services" },
+  { label: "Conversion Rate Optimisation", href: "/conversion-rate-optimisation" },
+  { label: "Organic Lead Generation", href: "/organic-lead-generation" },
 ];

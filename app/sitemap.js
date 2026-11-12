@@ -32,6 +32,8 @@ export default function sitemap() {
     { path: "/generative-engine-optimisation", priority: 0.9, changeFrequency: "monthly" },
     { path: "/link-building-services", priority: 0.9, changeFrequency: "monthly" },
     { path: "/local-seo-services", priority: 0.9, changeFrequency: "monthly" },
+    { path: "/conversion-rate-optimisation", priority: 0.9, changeFrequency: "monthly" },
+    { path: "/organic-lead-generation", priority: 0.9, changeFrequency: "monthly" },
     { path: "/industries/supply-chain", priority: 0.8, changeFrequency: "monthly" },
     { path: "/industries/self-storage", priority: 0.8, changeFrequency: "monthly" },
     {
