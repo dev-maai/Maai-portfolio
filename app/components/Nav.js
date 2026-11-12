@@ -5,13 +5,14 @@
    item and slides between items via a shared layout animation. Active follows the
    hovered item, and otherwise the section currently in view. */
 import { Fragment, useEffect, useState } from "react";
-import { NAV_LINKS as LINKS, INDUSTRY_LINKS as INDUSTRIES } from "../lib/nav";
+import { NAV_LINKS as LINKS, INDUSTRY_LINKS as INDUSTRIES, SERVICE_LINKS as SERVICES } from "../lib/nav";
 
 
 export default function Nav() {
   const [hover, setHover] = useState(null);
   const [spy, setSpy] = useState(null);
   const [indOpen, setIndOpen] = useState(false);
+  const [svcOpen, setSvcOpen] = useState(false);
 
   /* On mobile the "Industries" row toggles its submenu instead of navigating,
      so the menu stays short and the chevron actually does something. On desktop
@@ -20,6 +21,13 @@ export default function Nav() {
     if (typeof window !== "undefined" && window.matchMedia("(max-width:760px)").matches) {
       e.preventDefault();
       setIndOpen((o) => !o);
+    }
+  };
+
+  const onServices = (e) => {
+    if (typeof window !== "undefined" && window.matchMedia("(max-width:760px)").matches) {
+      e.preventDefault();
+      setSvcOpen((o) => !o);
     }
   };
 
@@ -76,6 +84,21 @@ export default function Nav() {
                       {INDUSTRIES.map((ind) => (
                         <a key={ind.href} href={ind.href} className="nav-dd-link" role="menuitem">
                           {ind.label}
+                        </a>
+                      ))}
+                    </div>
+                  </div>
+                )}
+                {i === 0 && (
+                  <div className={`nav-dd${svcOpen ? " open" : ""}`} onMouseEnter={() => setHover(null)}>
+                    <a href="/technical-seo-services" className="tube-item nav-dd-trigger" aria-haspopup="true" aria-expanded={svcOpen} onClick={onServices}>
+                      <span className="tube-label">Services</span>
+                      <svg className="nav-dd-caret" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6" /></svg>
+                    </a>
+                    <div className="nav-dd-menu" role="menu">
+                      {SERVICES.map((svc) => (
+                        <a key={svc.href} href={svc.href} className="nav-dd-link" role="menuitem">
+                          {svc.label}
                         </a>
                       ))}
                     </div>

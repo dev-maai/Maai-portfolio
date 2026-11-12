@@ -18,3 +18,8 @@ export const INDUSTRY_LINKS = [
   { label: "Logistics", href: "/seo-agency-for-logistics-companies" },
   { label: "Industry report", href: "/industries/report" },
 ];
+
+/* Service landing pages — shown in the header "Services" dropdown. */
+export const SERVICE_LINKS = [
+  { label: "Technical SEO", href: "/technical-seo-services" },
+];
