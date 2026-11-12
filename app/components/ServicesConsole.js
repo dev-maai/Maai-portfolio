@@ -12,7 +12,19 @@ import { motion, AnimatePresence, useReducedMotion } from "framer-motion";
 const isAccordion = () =>
   typeof window !== "undefined" && window.matchMedia("(max-width:820px)").matches;
 
-export default function ServicesConsole({ services }) {
+const SERVICE_HREF = {
+  "technical-seo": "/technical-seo-services",
+  schema: "/technical-seo-services",
+  "local-seo": "/local-seo-services",
+  reviews: "/local-seo-services",
+  aeo: "/ai-search-optimisation",
+  "digital-pr": "/link-building-services",
+  content: "/organic-lead-generation",
+  "keyword-strategy": "/organic-lead-generation",
+  reporting: "/seo-audit-services",
+};
+
+export default function ServicesConsole({ services, links = {} }) {
   const reduce = useReducedMotion();
   const [active, setActive] = useState(0);
   const s = active >= 0 ? services[active] : null;
@@ -87,6 +99,11 @@ export default function ServicesConsole({ services }) {
                   </li>
                 ))}
               </ul>
+              {(links[s.k] || SERVICE_HREF[s.k]) && (
+                <a className="svc-more" href={links[s.k] || SERVICE_HREF[s.k]} style={{ display: "inline-flex", gap: "8px", marginTop: "18px", fontWeight: 600, textDecoration: "none", borderBottom: "1.5px solid currentColor", paddingBottom: "2px", color: "inherit" }}>
+                  Learn more about this service <span aria-hidden="true">&rarr;</span>
+                </a>
+              )}
             </motion.div>
             )}
           </AnimatePresence>

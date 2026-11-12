@@ -16,6 +16,7 @@ export const INDUSTRY_LINKS = [
   { label: "SaaS", href: "/industries/saas" },
   { label: "Removals & Relocations", href: "/industries/removals-and-relocations" },
   { label: "Logistics", href: "/seo-agency-for-logistics-companies" },
+  { label: "Real Estate", href: "/industries/real-estate/seo" },
   { label: "Industry report", href: "/industries/report" },
 ];
 

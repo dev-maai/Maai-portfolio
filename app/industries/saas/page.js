@@ -280,7 +280,7 @@ export default function SaaSPage() {
 
           <div className="scx-cap reveal">
             <span className="scx-cap-l">Everything we cover under SEO &amp; AEO</span>
-            <ServicesConsole services={SERVICES} />
+            <ServicesConsole services={SERVICES} links={{ "digital-pr": "/industries/saas/link-building" }} />
           </div>
         </div>
       </section>

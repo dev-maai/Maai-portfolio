@@ -34,6 +34,10 @@ export default function sitemap() {
     { path: "/local-seo-services", priority: 0.9, changeFrequency: "monthly" },
     { path: "/conversion-rate-optimisation", priority: 0.9, changeFrequency: "monthly" },
     { path: "/organic-lead-generation", priority: 0.9, changeFrequency: "monthly" },
+    { path: "/industries/real-estate/seo", priority: 0.8, changeFrequency: "monthly" },
+    { path: "/industries/real-estate/local-seo", priority: 0.8, changeFrequency: "monthly" },
+    { path: "/industries/real-estate/seo-audit", priority: 0.8, changeFrequency: "monthly" },
+    { path: "/industries/saas/link-building", priority: 0.8, changeFrequency: "monthly" },
     { path: "/industries/supply-chain", priority: 0.8, changeFrequency: "monthly" },
     { path: "/industries/self-storage", priority: 0.8, changeFrequency: "monthly" },
     {
