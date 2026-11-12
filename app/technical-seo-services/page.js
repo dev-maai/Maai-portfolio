@@ -128,8 +128,6 @@ export default function TechnicalSeoServices() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(FAQ_SCHEMA) }} />
       <Nav />
       <main className="tseo" style={{ fontFamily: "Inter, sans-serif", color: "#0E2A1E", background: "#F7F7F2", paddingTop: "88px" }}>
-
-
 <section style={{background: "#0E2A1E", color: "#F7F7F2", padding: "80px 24px"}}>
 <div style={{maxWidth: "1200px", margin: "0 auto", display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))", gap: "48px", alignItems: "center"}}>
 <div style={{display: "flex", flexDirection: "column", gap: "22px"}}>
@@ -140,14 +138,9 @@ export default function TechnicalSeoServices() {
 </div>
 </section>
 
-<Signals
-  id="audit"
-  label="Technical SEO issues we fix"
-  items={AUDIT_ISSUES}
-  heading={<>How to conduct a technical SEO <em>site audit</em></>}
-  lede={"A technical SEO site audit crawls every page and checks Search Console data to find what stops your site from ranking: pages marked \u201ccrawled, currently not indexed\u201d, slow mobile load times, broken redirects after a migration and weak internal linking. We find these issues, rank them by impact and fix them."}
-  ctaLabel="Book a call with us"
-/>
+<section style={{background: "#F7F7F2", padding: "64px 24px 96px"}}>
+<div style={{maxWidth: "1100px", margin: "0 auto"}}><h2 style={{fontSize: "39px", fontWeight: "600"}}>How we run your technical <em style={{fontFamily: "Fraunces, serif", fontWeight: "500", color: "#E62E6B"}}>SEO?</em></h2><div style={{position: "relative", margin: "72px 0 46px", display: "grid", gridTemplateColumns: "repeat(4, minmax(0, 1fr))", height: "26px", alignItems: "center"}}><span style={{position: "absolute", left: "0", right: "0", top: "12px", height: "2px", background: "#D0E1DA"}}></span><span style={{justifySelf: "center", position: "relative", width: "13px", height: "13px", borderRadius: "50%", background: "#265943"}}></span><span style={{justifySelf: "center", position: "relative", width: "13px", height: "13px", borderRadius: "50%", background: "#265943"}}></span><span style={{justifySelf: "center", position: "relative", width: "13px", height: "13px", borderRadius: "50%", background: "#265943"}}></span><span style={{justifySelf: "center", position: "relative", width: "13px", height: "13px", borderRadius: "50%", background: "#265943"}}></span></div><div style={{display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))", gap: "40px", textAlign: "left"}}><div style={{display: "flex", flexDirection: "column", gap: "10px"}}><div style={{fontFamily: "Fraunces, serif", fontSize: "61px", lineHeight: "1", color: "#0E2A1E"}}>01</div><h3 style={{fontSize: "18px", fontWeight: "600"}}>Audit</h3><p style={{fontSize: "15px", lineHeight: "1.6", color: "#5E6B60"}}>We crawl your site and review Search Console data to find every technical issue.</p></div><div style={{display: "flex", flexDirection: "column", gap: "10px"}}><div style={{fontFamily: "Fraunces, serif", fontSize: "61px", lineHeight: "1", color: "#0E2A1E"}}>02</div><h3 style={{fontSize: "18px", fontWeight: "600"}}>Prioritise</h3><p style={{fontSize: "15px", lineHeight: "1.6", color: "#5E6B60"}}>You get a clear action plan ranked by business impact.</p></div><div style={{display: "flex", flexDirection: "column", gap: "10px"}}><div style={{fontFamily: "Fraunces, serif", fontSize: "61px", lineHeight: "1", color: "#0E2A1E"}}>03</div><h3 style={{fontSize: "18px", fontWeight: "600"}}>Implement</h3><p style={{fontSize: "15px", lineHeight: "1.6", color: "#5E6B60"}}>We fix the issues directly or work alongside your developers.</p></div><div style={{display: "flex", flexDirection: "column", gap: "10px"}}><div style={{fontFamily: "Fraunces, serif", fontSize: "61px", lineHeight: "1", color: "#0E2A1E"}}>04</div><h3 style={{fontSize: "18px", fontWeight: "600"}}>Monitor</h3><p style={{fontSize: "15px", lineHeight: "1.6", color: "#5E6B60"}}>We track indexing, speed and rankings every month and report on progress.</p></div></div><div style={{marginTop: "56px", display: "flex"}}><a href="/book" style={{display: "flex", gap: "10px", alignItems: "center", textDecoration: "none", fontWeight: "600", fontSize: "20px", color: "#0E2A1E", paddingBottom: "5px", borderBottom: "2px solid rgba(14,42,30,0.6)"}}>Get your free technical audit <span style={{fontSize: "22px"}}>→</span></a></div></div>
+</section>
 
 <section style={{background: "#F3F7F5", padding: "24px 0 64px", overflowX: "hidden"}}>
 <div style={{maxWidth: "1200px", margin: "0 auto", padding: "0 24px", display: "flex", flexDirection: "column", gap: "24px"}}>
@@ -161,9 +154,14 @@ export default function TechnicalSeoServices() {
 </div>
 </section>
 
-<section style={{background: "#F7F7F2", padding: "64px 24px 96px"}}>
-<div style={{maxWidth: "1100px", margin: "0 auto"}}><h2 style={{fontSize: "39px", fontWeight: "600"}}>How we run your technical <em style={{fontFamily: "Fraunces, serif", fontWeight: "500", color: "#E62E6B"}}>SEO?</em></h2><div style={{position: "relative", margin: "72px 0 46px", display: "grid", gridTemplateColumns: "repeat(4, minmax(0, 1fr))", height: "26px", alignItems: "center"}}><span style={{position: "absolute", left: "0", right: "0", top: "12px", height: "2px", background: "#D0E1DA"}}></span><span style={{justifySelf: "center", position: "relative", width: "13px", height: "13px", borderRadius: "50%", background: "#265943"}}></span><span style={{justifySelf: "center", position: "relative", width: "13px", height: "13px", borderRadius: "50%", background: "#265943"}}></span><span style={{justifySelf: "center", position: "relative", width: "13px", height: "13px", borderRadius: "50%", background: "#265943"}}></span><span style={{justifySelf: "center", position: "relative", width: "13px", height: "13px", borderRadius: "50%", background: "#265943"}}></span></div><div style={{display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))", gap: "40px", textAlign: "left"}}><div style={{display: "flex", flexDirection: "column", gap: "10px"}}><div style={{fontFamily: "Fraunces, serif", fontSize: "61px", lineHeight: "1", color: "#0E2A1E"}}>01</div><h3 style={{fontSize: "18px", fontWeight: "600"}}>Audit</h3><p style={{fontSize: "15px", lineHeight: "1.6", color: "#5E6B60"}}>We crawl your site and review Search Console data to find every technical issue.</p></div><div style={{display: "flex", flexDirection: "column", gap: "10px"}}><div style={{fontFamily: "Fraunces, serif", fontSize: "61px", lineHeight: "1", color: "#0E2A1E"}}>02</div><h3 style={{fontSize: "18px", fontWeight: "600"}}>Prioritise</h3><p style={{fontSize: "15px", lineHeight: "1.6", color: "#5E6B60"}}>You get a clear action plan ranked by business impact.</p></div><div style={{display: "flex", flexDirection: "column", gap: "10px"}}><div style={{fontFamily: "Fraunces, serif", fontSize: "61px", lineHeight: "1", color: "#0E2A1E"}}>03</div><h3 style={{fontSize: "18px", fontWeight: "600"}}>Implement</h3><p style={{fontSize: "15px", lineHeight: "1.6", color: "#5E6B60"}}>We fix the issues directly or work alongside your developers.</p></div><div style={{display: "flex", flexDirection: "column", gap: "10px"}}><div style={{fontFamily: "Fraunces, serif", fontSize: "61px", lineHeight: "1", color: "#0E2A1E"}}>04</div><h3 style={{fontSize: "18px", fontWeight: "600"}}>Monitor</h3><p style={{fontSize: "15px", lineHeight: "1.6", color: "#5E6B60"}}>We track indexing, speed and rankings every month and report on progress.</p></div></div><div style={{marginTop: "56px", display: "flex"}}><a href="/book" style={{display: "flex", gap: "10px", alignItems: "center", textDecoration: "none", fontWeight: "600", fontSize: "20px", color: "#0E2A1E", paddingBottom: "5px", borderBottom: "2px solid rgba(14,42,30,0.6)"}}>Get your free technical audit <span style={{fontSize: "22px"}}>→</span></a></div></div>
-</section>
+<Signals
+  id="audit"
+  label="Technical SEO issues we fix"
+  items={AUDIT_ISSUES}
+  heading={<>How to conduct a technical SEO <em>site audit</em></>}
+  lede={"A technical SEO site audit crawls every page and checks Search Console data to find what stops your site from ranking: pages marked \u201ccrawled, currently not indexed\u201d, slow mobile load times, broken redirects after a migration and weak internal linking. We find these issues, rank them by impact and fix them."}
+  ctaLabel="Book a call with us"
+/>
 
 <section style={{background: "#0E2A1E", padding: "96px 24px 80px"}}>
 <div style={{maxWidth: "1200px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "64px"}}>
@@ -207,9 +205,7 @@ export default function TechnicalSeoServices() {
 <p style={{fontSize: "14px", color: "#9DB0A4"}}>Need a full review first? <a href="/book" style={{color: "#F7F7F2"}}>See our SEO Audit Services</a></p>
 </div>
 </section>
-
-
-      </main>
+</main>
       <Footer />
       <SiteEffects />
     </>
