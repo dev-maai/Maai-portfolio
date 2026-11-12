@@ -30,13 +30,23 @@ const SIGNALS = [
   { t: "Topical Authority", d: "Comprehensive coverage that makes you the trusted source on a subject." },
 ];
 
-export default function Signals() {
+export default function Signals({
+  items = SIGNALS,
+  heading = <>Why choose <em>Us?</em></>,
+  lede = "We own your business growth and accountability. Every recommendation is backed by industry data. Every piece of work is reported. Every result is measured against agreed objectives.",
+  ctaLabel = "Book your discovery call",
+  ctaHref = "/book",
+  id = "signals",
+  label = "Signals we track",
+  HeadingTag = "h2",
+} = {}) {
+  const LIST = items;
   const wheelRef = useRef(null);
   const rotorRef = useRef(null);
   const pausedRef = useRef(false);
   const [active, setActive] = useState(0);
   const [tip, setTip] = useState(null); // { i, x, y }
-  const N = SIGNALS.length;
+  const N = LIST.length;
 
   useEffect(() => {
     const wheel = wheelRef.current, rotor = rotorRef.current;
@@ -106,11 +116,11 @@ export default function Signals() {
   const highlight = tip ? tip.i : active;
 
   return (
-    <section className="signals" id="signals" aria-label="Signals we track">
+    <section className="signals" id={id} aria-label={label}>
       <div className="wrap signals-grid">
         <div className="sig-wheel" ref={wheelRef} onMouseEnter={onEnter} onMouseLeave={onLeave}>
           <div className="sw-rotor" ref={rotorRef}>
-            {SIGNALS.map((s, i) => (
+            {LIST.map((s, i) => (
               <button
                 key={i}
                 type="button"
@@ -125,20 +135,16 @@ export default function Signals() {
           </div>
           {tip && (
             <div className="sw-tip" style={{ left: tip.x, top: tip.y }} role="tooltip">
-              <b>{SIGNALS[tip.i].t}</b>
-              <span>{SIGNALS[tip.i].d}</span>
+              <b>{LIST[tip.i].t}</b>
+              <span>{LIST[tip.i].d}</span>
             </div>
           )}
         </div>
 
         <div className="sig-copy">
-          <h2 className="reveal">Why choose <em>Us?</em></h2>
-          <p className="lede reveal">
-            We own your business growth and accountability. Every recommendation is
-            backed by industry data. Every piece of work is reported. Every result is
-            measured against agreed objectives.
-          </p>
-          <a className="btn contrast reveal" href="/book">Book your discovery call</a>
+          <HeadingTag className="reveal">{heading}</HeadingTag>
+          <p className="lede reveal">{lede}</p>
+          <a className="btn contrast reveal" href={ctaHref}>{ctaLabel}</a>
         </div>
 
         {/* mobile-only: a two-line keyword marquee (rows scroll opposite ways).
@@ -146,14 +152,14 @@ export default function Signals() {
         <div className="sig-marquee" aria-hidden="true">
           <div className="sig-row">
             <div className="sig-track">
-              {[...SIGNALS.slice(0, 10), ...SIGNALS.slice(0, 10)].map((s, i) => (
+              {[...LIST.slice(0, Math.ceil(LIST.length / 2)), ...LIST.slice(0, Math.ceil(LIST.length / 2))].map((s, i) => (
                 <span className="sig-chip" key={`a-${i}`}>{s.t}</span>
               ))}
             </div>
           </div>
           <div className="sig-row rev">
             <div className="sig-track">
-              {[...SIGNALS.slice(10), ...SIGNALS.slice(10)].map((s, i) => (
+              {[...LIST.slice(Math.ceil(LIST.length / 2)), ...LIST.slice(Math.ceil(LIST.length / 2))].map((s, i) => (
                 <span className="sig-chip" key={`b-${i}`}>{s.t}</span>
               ))}
             </div>
