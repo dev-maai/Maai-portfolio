@@ -48,7 +48,7 @@ const c = {
   teamHeading: "Your local SEO team, built into your business.",
   teamText:
     "We work alongside your branch managers, marketing and sales teams. Every month we update profiles, reply to reviews, keep listings consistent and track which locations win calls. We flag problems such as suspended profiles or duplicate listings before they cost you enquiries.",
-  teamStats: [["10K+", "PAGES CHECKED ACROSS CLIENTS"], ["200+", "FIXES SHIPPED TO GAIN VISIBILITY"], ["<36h", "TURNAROUND ON CRITICAL ISSUES"]],
+  teamStats: [["+39%", "ORGANIC CLICKS FOR A UK REMOVALS BRAND"], ["5", "REMOVALS AND STORAGE BRANDS SUPPORTED"], ["UK + AU", "LOCAL MARKETS WE WORK IN"]],
   why: {
     heading: "GBP and GMB rankings for",
     em: "local enquiries.",

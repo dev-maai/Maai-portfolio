@@ -48,7 +48,7 @@ const c = {
   teamHeading: "Your CRO team, built into your business.",
   teamText:
     "We work alongside your marketing, sales and development teams. Every month we review how buyers use your site, run tests on the pages that matter most and share what changed in enquiries. We bring you the next test before you have to ask why leads have slowed.",
-  teamStats: [["10K+", "PAGES CHECKED ACROSS CLIENTS"], ["200+", "FIXES SHIPPED TO GAIN VISIBILITY"], ["<36h", "TURNAROUND ON CRITICAL ISSUES"]],
+  teamStats: [["100%", "OF QUALIFIED LEADS FROM ORGANIC BLOGS"], ["+81%", "ORGANIC TRAFFIC FOR A SUPPLY CHAIN BRAND"], ["<36h", "TURNAROUND ON CRITICAL ISSUES"]],
   why: {
     heading: "CRO services that turn traffic into",
     em: "enquiries.",

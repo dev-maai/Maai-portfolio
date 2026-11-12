@@ -48,7 +48,7 @@ const c = {
   teamHeading: "Your GEO team, built into your business.",
   teamText:
     "We work alongside your marketing, content and sales teams. Every month we test the prompts your buyers use, update the pages AI engines quote, and grow mentions on the sources they trust. We tell you where you gained or lost ground in AI answers before your pipeline feels it.",
-  teamStats: [["10K+", "PAGES CHECKED ACROSS CLIENTS"], ["200+", "FIXES SHIPPED TO GAIN VISIBILITY"], ["<36h", "TURNAROUND ON CRITICAL ISSUES"]],
+  teamStats: [["+53%", "ORGANIC CLICKS FROM SEO, AEO AND GEO"], ["40", "NEW BLOGS A MONTH ACROSS CLIENT SITES"], ["UK + AU", "MARKETS WE OPTIMISE FOR"]],
   why: {
     heading: "GEO services for",
     em: "B2B brands.",

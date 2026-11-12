@@ -48,7 +48,7 @@ const c = {
   teamHeading: "Your AI search team, built into your business.",
   teamText:
     "We work alongside your marketing, content and sales teams. Every month we check how AI engines describe your brand, close the gaps in your content and structured data, and grow mentions on the sources they trust. We come to you with the next move before a competitor takes your place in the answer.",
-  teamStats: [["10K+", "PAGES CHECKED ACROSS CLIENTS"], ["200+", "FIXES SHIPPED TO GAIN VISIBILITY"], ["<36h", "TURNAROUND ON CRITICAL ISSUES"]],
+  teamStats: [["+53%", "ORGANIC CLICKS FROM SEO, AEO AND GEO"], ["100%", "OF QUALIFIED LEADS FROM AEO-LED BLOGS"], ["40", "NEW BLOGS A MONTH ACROSS CLIENT SITES"]],
   why: {
     heading: "AEO and GEO for",
     em: "B2B buyers.",

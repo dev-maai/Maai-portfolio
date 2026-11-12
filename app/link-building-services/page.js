@@ -48,7 +48,7 @@ const c = {
   teamHeading: "Your link building team, built into your business.",
   teamText:
     "We work alongside your marketing, PR and sales teams. Every month we find the sites your buyers read, pitch content they want to reference and track every link we earn against the pages that drive enquiries. We tell you what is working before you have to ask.",
-  teamStats: [["10K+", "PAGES CHECKED ACROSS CLIENTS"], ["200+", "FIXES SHIPPED TO GAIN VISIBILITY"], ["<36h", "TURNAROUND ON CRITICAL ISSUES"]],
+  teamStats: [["+118%", "REFERRAL TRAFFIC FROM LINK BUILDING"], ["6", "CLIENT PROJECTS WITH MONTHLY LINK BUILDING"], ["22", "NICHE VIDEOS PER BRAND EACH MONTH"]],
   why: {
     heading: "Backlinks for Google and",
     em: "AI search.",
