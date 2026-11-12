@@ -215,8 +215,8 @@ export default function ServicePage({ c }) {
 
         {/* Why it matters + sourced stats */}
         <section style={{ background: "#F3F7F5", padding: "96px 24px" }}>
-          <div style={{ maxWidth: "1200px", margin: "0 auto", display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(340px, 1fr))", gap: "56px", alignItems: "stretch" }}>
-            <div style={{ display: "flex", flexDirection: "column", gap: "20px", paddingBottom: "18px" }}>
+          <div style={{ maxWidth: "1200px", margin: "0 auto", display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(340px, 1fr))", gap: "56px", alignItems: "start" }}>
+            <div style={{ display: "flex", flexDirection: "column", gap: "20px", position: "sticky", top: "120px" }}>
               <h2 style={{ fontSize: "40px", lineHeight: "1.15", fontWeight: "600" }}>{c.why.heading} <em style={EM}>{c.why.em}</em></h2>
               <p style={{ fontSize: "17px", lineHeight: "1.75", color: "#4C6155" }}>{c.why.text}</p>
               {c.why.link && (
@@ -224,11 +224,11 @@ export default function ServicePage({ c }) {
                   {c.why.link.t} <span>→</span>
                 </a>
               )}
-              <a href="/book" style={{ marginTop: "auto", alignSelf: "flex-start", background: GREEN, color: "#fff", textDecoration: "none", padding: "14px 28px", borderRadius: "999px", fontWeight: "600", fontSize: "16px" }}>{c.why.button}</a>
+              <a href="/book" style={{ marginTop: "16px", alignSelf: "flex-start", background: GREEN, color: "#fff", textDecoration: "none", padding: "14px 28px", borderRadius: "999px", fontWeight: "600", fontSize: "16px" }}>{c.why.button}</a>
             </div>
             <div style={{ display: "flex", flexDirection: "column", gap: "12px" }}>
-              <div style={{ position: "relative" }}>
-                <div style={{ display: "flex", flexDirection: "column", maxHeight: "480px", overflowY: "auto", paddingRight: "16px", scrollbarWidth: "thin", scrollbarColor: `${GREEN} #D0E1DA` }}>
+              <div>
+                <div style={{ display: "flex", flexDirection: "column" }}>
                   {c.why.stats.map((s) => (
                     <div key={s.n + s.t} style={{ display: "flex", flexDirection: "column", gap: "6px", padding: "18px 0" }}>
                       <div style={{ display: "flex", flexDirection: "column", gap: "6px" }}>
@@ -240,11 +240,8 @@ export default function ServicePage({ c }) {
                       <span style={{ fontFamily: MONO, fontSize: "11px", letterSpacing: "0.08em", color: "#6F8A7C" }}>Source: {s.src}</span>
                     </div>
                   ))}
-                  <div style={{ height: "48px", flex: "none" }} />
                 </div>
-                <div aria-hidden="true" style={{ position: "absolute", left: 0, right: "16px", bottom: 0, height: "72px", pointerEvents: "none", background: "linear-gradient(rgba(243,247,245,0), #F3F7F5)" }} />
               </div>
-              <span style={{ fontFamily: MONO, fontSize: "12px", letterSpacing: "0.15em", color: GREEN }}>SCROLL FOR ALL {c.why.stats.length} STATS ↓</span>
             </div>
           </div>
         </section>
