@@ -27,6 +27,382 @@ export const AUTHORS = {
    To preview drafts locally, run the dev server with INSIGHTS_PREVIEW_DRAFTS=1. */
 const ALL_POSTS = [
   {
+    "slug": "best-ai-search-monitoring-tools",
+    "seoTitle": "Best AI Search Monitoring Tools 2027: Compared | MAAI",
+    "title": "Best AI Search Monitoring Tools in 2027: Compared for Businesses",
+    "description": "Compare the best AI search monitoring tools for 2027: OtterlyAI, Peec AI, ZipTie, SE Visible, Semrush, Ahrefs and Profound, with prices and how to choose.",
+    "date": "2026-11-12",
+    "author": "team",
+    "topics": [
+      "AEO/GEO"
+    ],
+    "industries": [],
+    "image": "/insights/best-ai-search-monitoring-tools-banner.jpg",
+    "intro": "Ask ChatGPT, Perplexity or Google's AI Overviews for the best company in your field and you get a short list, not ten blue links. Is your business on it? AI search monitoring tools answer that question every day, and the market now has a tool for almost every budget. The best AI search monitoring tool for most businesses is the one that tracks the AI platforms your buyers use, at a price per prompt you can sustain. This guide compares seven tools with their prices, and shows how to choose.",
+    "tldr": [
+      "AI search monitoring tools run your buyers' questions through ChatGPT, Perplexity, Gemini and Google's AI Overviews, and record whether your brand is mentioned and cited.",
+      "OtterlyAI ($29 a month) and Peec AI (€85 a month) are the two clearest entry options, while Semrush, Ahrefs Brand Radar and SE Visible suit teams already on those suites.",
+      "Compare price per prompt, not headline price. On OtterlyAI it falls from $1.45 on Lite to $0.91 on Premium.",
+      "Prices in AI summaries can lag behind the vendors, so read each pricing page before you buy.",
+      "You can start for free with a monthly manual check, Search Console and Google Analytics 4."
+    ],
+    "body": [
+      {
+        "type": "h2",
+        "text": "What is an AI search monitoring tool?"
+      },
+      {
+        "type": "callout",
+        "variant": "definition",
+        "title": "Definition",
+        "text": "An AI search monitoring tool is software that sends a fixed set of questions (prompts) to AI assistants such as ChatGPT, Perplexity, Gemini and Google's AI Overviews on a schedule, then records whether your brand is mentioned, how it is described, which competitors appear and which websites are cited."
+      },
+      {
+        "type": "p",
+        "text": "You could do this by hand, but AI answers change from one day to the next and between countries. A monitoring tool repeats your prompts every day or week, so you see a trend instead of a single lucky or unlucky answer. The tools differ mainly in how many prompts they run, which AI platforms they cover and how they price that."
+      },
+      {
+        "type": "p",
+        "text": "Google's own AI Overview for this search lists tools such as OtterlyAI, Peec AI, ZipTie, SE Visible, Semrush and Ahrefs Brand Radar. The screenshot below shows it on 12 November 2026."
+      },
+      {
+        "type": "image",
+        "src": "/insights/ai-monitor-1.jpg",
+        "alt": "Google UK AI Overview for the search best ai search monitoring tools, listing OtterlyAI, Peec AI, ZipTie, Radar Kit, PromptWatch and SE Visible with prices",
+        "caption": "The AI Overview for \"best ai search monitoring tools\" on Google UK, 12 November 2026. Tool prices in AI summaries can be out of date, so always check the vendor's own pricing page."
+      },
+      {
+        "type": "h2",
+        "text": "What are the best AI search monitoring tools in 2027?"
+      },
+      {
+        "type": "p",
+        "text": "The best tool depends on your budget, how many markets you sell in and whether you already pay for an SEO suite. We checked the public pricing page of each tool below on 12 November 2026. They are listed in no particular order, and prices change often, so confirm before you buy."
+      },
+      {
+        "type": "table",
+        "head": [
+          "Tool",
+          "Entry price",
+          "What the entry plan includes",
+          "Best suited to"
+        ],
+        "rows": [
+          [
+            "OtterlyAI",
+            "$29 a month",
+            "20 prompts, 3 of 7 AI engines, daily tracking",
+            "Small teams and first-time monitoring"
+          ],
+          [
+            "Peec AI",
+            "€85 a month",
+            "50 prompts, choose 3 AI models, unlimited users",
+            "Marketing teams that want a clean dashboard"
+          ],
+          [
+            "ZipTie",
+            "From $25.65 a month",
+            "Priced by prompts and refresh rate, 7 engines available",
+            "Teams that want to pay only for the prompts they run"
+          ],
+          [
+            "SE Visible (SE Ranking)",
+            "From $71 a month",
+            "75, 200 or 1,000 prompt tiers, daily tracking",
+            "Teams already using SE Ranking"
+          ],
+          [
+            "Semrush AI visibility",
+            "Inside Semrush plans",
+            "50 prompts tracked daily on the Starter AI plan, 100 on Pro+",
+            "Teams already using Semrush"
+          ],
+          [
+            "Ahrefs Brand Radar",
+            "Custom prompts from $50 a month",
+            "7 AI platforms, share of voice and fan-out queries",
+            "Teams already using Ahrefs"
+          ],
+          [
+            "Profound",
+            "Custom pricing",
+            "Up to 10 answer engines, 7-day free trial",
+            "Large brands and enterprise teams"
+          ]
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "Which tool is best for a small business on a budget?"
+      },
+      {
+        "type": "p",
+        "text": "OtterlyAI is the most affordable named option here. Its Lite plan is $29 a month for 20 prompts across 3 of its 7 supported engines, which are ChatGPT, Google AI Overviews, Perplexity, Microsoft Copilot, Google AI Mode, Gemini and Claude. ZipTie is another low-cost route, because it prices by prompt and refresh rate and offers a free trial with 25 daily prompts."
+      },
+      {
+        "type": "h3",
+        "text": "Which tool is best for a marketing team that wants clear reporting?"
+      },
+      {
+        "type": "p",
+        "text": "Peec AI suits teams who want brand visibility, position and sentiment in one dashboard. Every plan includes unlimited users, so your whole marketing team can look at the same data. The Starter plan is €85 a month for 50 prompts, and Pro is €205 a month for 150 prompts across 3 countries."
+      },
+      {
+        "type": "h3",
+        "text": "Which tool is best if you already pay for an SEO suite?"
+      },
+      {
+        "type": "p",
+        "text": "Semrush, Ahrefs and SE Ranking all add AI visibility to the tools you already use. Ahrefs Brand Radar covers AI Overviews, AI Mode, ChatGPT, Perplexity, Gemini, Copilot and Claude, and shows share of voice against competitors plus the fan-out queries behind each prompt. SE Visible starts from $71 a month and tracks AI Overviews, AI Mode, Gemini, ChatGPT and Copilot. Keeping everything in one login makes reporting simpler."
+      },
+      {
+        "type": "h3",
+        "text": "Which tool is best for a large brand or agency?"
+      },
+      {
+        "type": "p",
+        "text": "Profound offers up to 10 answer engines, including ChatGPT, Perplexity, Google AI Mode, Gemini, Claude and Google AI Overviews, on custom pricing. It also has a 7-day free trial that runs 50 prompts a day, which lets you test it before you talk to sales."
+      },
+      {
+        "type": "p",
+        "text": "We also asked ChatGPT the same question in a neutral prompt, with web search on. It returned its own shortlist with prices and links to each vendor's pricing page, and it included tools that Google did not."
+      },
+      {
+        "type": "image",
+        "src": "/insights/ai-monitor-2.jpg",
+        "alt": "ChatGPT answer to a request for the best tools to monitor a brand in AI search, with a €85 a month Starter plan, Otterly.ai at $29 a month and Rankscale at $99 a month",
+        "caption": "ChatGPT's answer to \"What are the best tools to monitor my brand in AI search results? Give a top 5 with prices\", 12 November 2026. Different assistants recommend different tools, which is why checking more than one AI platform matters."
+      },
+      {
+        "type": "p",
+        "text": "The two lists overlap but are not identical. That difference is the reason this category exists: what an AI assistant says about a brand depends on the assistant, the wording of the question and the day you ask."
+      },
+      {
+        "type": "h2",
+        "text": "How much do AI search monitoring tools cost?"
+      },
+      {
+        "type": "p",
+        "text": "Entry plans run from about $25 to $100 a month for one brand, and the cost climbs with the number of prompts you track. Price per prompt is a fairer way to compare plans than the headline price, because a cheap plan with few prompts can cost more per question than a larger plan."
+      },
+      {
+        "type": "table",
+        "head": [
+          "Plan",
+          "Monthly price",
+          "Prompts",
+          "Price per prompt"
+        ],
+        "rows": [
+          [
+            "OtterlyAI Lite",
+            "$29",
+            "20",
+            "$1.45"
+          ],
+          [
+            "OtterlyAI Standard",
+            "$189",
+            "160",
+            "$1.18"
+          ],
+          [
+            "OtterlyAI Premium",
+            "$489",
+            "535",
+            "$0.91"
+          ],
+          [
+            "Peec AI Starter",
+            "€85",
+            "50",
+            "€1.70"
+          ],
+          [
+            "Peec AI Pro",
+            "€205",
+            "150",
+            "€1.37"
+          ],
+          [
+            "Peec AI Advanced",
+            "€425",
+            "350",
+            "€1.21"
+          ]
+        ]
+      },
+      {
+        "type": "callout",
+        "variant": "note",
+        "title": "How we worked this out",
+        "text": "On 12 November 2026 we opened the public pricing pages of OtterlyAI and Peec AI in the UK and divided each monthly price by its prompt allowance. Prices are shown in the currency each page displayed and are not converted."
+      },
+      {
+        "type": "p",
+        "text": "The pattern is clear. On both tools the price per prompt falls as you move up a plan, by roughly a third from the entry plan to the top self-serve plan. If you only need to track 20 to 50 prompts, an entry plan is enough. If you run several brands or markets, a larger plan costs less per question."
+      },
+      {
+        "type": "image",
+        "src": "/insights/ai-monitor-3.jpg",
+        "alt": "Peec AI pricing page showing Starter at €85 a month, Pro at €205 a month, Advanced at €425 a month and a custom Enterprise plan",
+        "caption": "Peec AI's pricing page on 12 November 2026: €85, €205 and €425 a month, with 50, 150 and 350 prompts."
+      },
+      {
+        "type": "image",
+        "src": "/insights/ai-monitor-4.jpg",
+        "alt": "OtterlyAI pricing page showing Lite at $29 a month, Standard at $189 a month and Premium at $489 a month, with supported AI engines listed above",
+        "caption": "OtterlyAI's pricing page on 12 November 2026: $29, $189 and $489 a month, with seven supported AI engines."
+      },
+      {
+        "type": "p",
+        "text": "Prices in AI summaries and review roundups can lag behind the vendors. On the day we checked, Google's AI Overview quoted Peec AI at $95 a month, while Peec AI's own page showed €85. Always read the vendor's pricing page before you buy."
+      },
+      {
+        "type": "h2",
+        "text": "How do you choose an AI search monitoring tool?"
+      },
+      {
+        "type": "p",
+        "text": "Choose by the questions your buyers ask and the AI platforms they use, then check that the tool covers both. A tool with 17 engines is no help if it does not track the platform your customers actually use."
+      },
+      {
+        "type": "steps",
+        "title": "A six-step way to choose",
+        "items": [
+          {
+            "title": "List your buyers' questions",
+            "text": "Write 20 to 50 questions a customer asks before buying, such as \"best removal company in Leeds\" or \"how much does a 3PL cost\". These become your prompts."
+          },
+          {
+            "title": "Pick the AI platforms that matter",
+            "text": "Check where your buyers research. Most businesses start with ChatGPT, Google AI Overviews and Perplexity, then add Gemini, Claude or Copilot."
+          },
+          {
+            "title": "Check countries and languages",
+            "text": "If you sell in several markets, confirm the tool tracks each one. Peec AI limits countries by plan, while OtterlyAI lets you add unlimited countries on every plan."
+          },
+          {
+            "title": "Compare price per prompt",
+            "text": "Use the table above. Work out how many prompts you need today and in six months."
+          },
+          {
+            "title": "Test with a free trial",
+            "text": "ZipTie and Profound offer free trials. Run your real prompts and check the answers match what you see by hand."
+          },
+          {
+            "title": "Check the exports and reporting",
+            "text": "Make sure you can export citations and share a report with your team or client."
+          }
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "What should an AI search monitoring tool track?"
+      },
+      {
+        "type": "p",
+        "text": "A good tool records four things for every prompt: whether your brand is mentioned, where it appears in the answer, which pages and websites are cited, and which competitors appear alongside you. Sentiment, meaning how the AI describes your brand, is a useful fifth."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "**Brand mentions.** How often your brand appears across your prompts, shown as a share of all answers."
+          },
+          {
+            "text": "**Citations.** The pages AI assistants link to. These show you which sites and pages to earn a place on."
+          },
+          {
+            "text": "**Competitor share of voice.** How often your competitors appear compared with you."
+          },
+          {
+            "text": "**Sentiment and wording.** Whether the AI describes you accurately, and in what terms."
+          },
+          {
+            "text": "**Fan-out queries.** The related searches an AI runs behind one prompt. Ahrefs Brand Radar reports these."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Our guide to [tracking brand mentions in AI search](/insights/best-ways-to-track-brand-mentions-in-ai-search) shows how to set up the prompts and read the results, and our [AI brand visibility checklist](/insights/how-to-improve-brand-visibility-in-ai-search-engines) lists 12 checks to run once the data comes in."
+      },
+      {
+        "type": "h2",
+        "text": "Can you monitor AI search for free?"
+      },
+      {
+        "type": "p",
+        "text": "Yes. You can run your prompts by hand in ChatGPT, Gemini, Perplexity and Google, and use Google Analytics 4 and Search Console for the traffic that arrives from AI. It takes more time and gives you snapshots rather than daily trends, but it costs nothing and is a sensible start."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "**Run your 10 most important prompts once a month.** Record whether you are mentioned, which competitors appear and which pages are cited in a simple sheet."
+          },
+          {
+            "text": "**Use a neutral prompt.** Ask about the category, not your own brand, because AI assistants answer differently for a brand they already know."
+          },
+          {
+            "text": "**Check Search Console.** The Generative AI features report shows when your pages appear in Google's AI results."
+          },
+          {
+            "text": "**Track AI visits in GA4.** Our guide on [how to track AI traffic for free](/insights/track-ai-traffic) walks through the setup step by step."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Move to a paid tool when you need daily tracking, several markets or reports for a client. Until then, a monthly manual check plus GA4 gives you a baseline."
+      },
+      {
+        "type": "h2",
+        "text": "What do you do with AI search monitoring data?"
+      },
+      {
+        "type": "p",
+        "text": "Use it to decide which pages to improve and where to earn mentions. If a competitor is named in most answers, look at the pages the AI cites for them. Those are the sites where a mention or a better page of your own would help."
+      },
+      {
+        "type": "p",
+        "text": "Three actions usually follow. First, improve the pages that rank in Google for the topic, because [AI Overviews draw heavily on pages that already rank](/insights/how-to-rank-in-ai-overviews). Second, make sure your site and listings state clearly what you do, as the [ChatGPT guide](/insights/how-to-rank-in-chatgpt) explains. Third, earn mentions on the review sites, industry lists and news pages that AI tools cite. Our guide to [answer engine optimisation](/insights/answer-engine-optimisation) covers the whole approach."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is the best AI search monitoring tool?",
+        "a": "There is no single best tool. OtterlyAI suits small teams on a budget, Peec AI suits marketing teams that want clear reporting, and Semrush, Ahrefs Brand Radar and SE Visible suit teams already using those suites. Profound suits large brands."
+      },
+      {
+        "q": "How much does AI search monitoring cost?",
+        "a": "Entry plans cost roughly $25 to $100 a month for one brand, for example OtterlyAI Lite at $29 and Peec AI Starter at €85. Larger plans run to several hundred a month, and enterprise plans are custom."
+      },
+      {
+        "q": "Are there free AI search monitoring tools?",
+        "a": "Some tools offer free trials, including ZipTie and Profound. You can also check AI answers by hand each month and track AI visits in Google Analytics 4 and Search Console for free."
+      },
+      {
+        "q": "Which AI platforms should I monitor?",
+        "a": "Start with the platforms your buyers use. Most businesses track ChatGPT, Google AI Overviews and Perplexity first, then add Gemini, Google AI Mode, Claude and Microsoft Copilot."
+      },
+      {
+        "q": "How many prompts do I need to track?",
+        "a": "Most small businesses start with 20 to 50 prompts that match the questions customers ask before buying. Add more as you cover more products, services or markets."
+      },
+      {
+        "q": "How often should I check AI search results?",
+        "a": "Daily or weekly tracking in a tool shows the trend. If you check by hand, once a month is a reasonable starting point."
+      },
+      {
+        "q": "Do AI search monitoring tools improve my visibility?",
+        "a": "No tool improves visibility on its own. They show where you appear and why, and the improvements come from better pages, clearer listings and mentions on sites that AI assistants cite."
+      }
+    ]
+  },
+  {
     "slug": "self-storage-marketing",
     "seoTitle": "Self Storage Marketing: 15 Ideas to Fill Units 2027",
     "title": "Self Storage Marketing in 2027: 15 Ideas to Fill More Units",
