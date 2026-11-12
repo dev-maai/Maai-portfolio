@@ -22,4 +22,8 @@ export const INDUSTRY_LINKS = [
 /* Service landing pages — shown in the header "Services" dropdown. */
 export const SERVICE_LINKS = [
   { label: "Technical SEO", href: "/technical-seo-services" },
+  { label: "SEO Audit", href: "/seo-audit-services" },
+  { label: "AI Search Optimisation", href: "/ai-search-optimisation" },
+  { label: "Link Building", href: "/link-building-services" },
+  { label: "Local SEO", href: "/local-seo-services" },
 ];
