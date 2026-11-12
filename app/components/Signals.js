@@ -39,6 +39,7 @@ export default function Signals({
   id = "signals",
   label = "Signals we track",
   HeadingTag = "h2",
+  scrollLinked = false,
 } = {}) {
   const LIST = items;
   const wheelRef = useRef(null);
@@ -94,7 +95,7 @@ export default function Signals({
       if (last == null) last = t;
       if (!pausedRef.current) {
         ang = (ang + (t - last) * 0.012) % 360;
-        const best = place(ang);
+        const best = place(scrollLinked ? ang + window.scrollY * 0.12 : ang);
         if (best !== cur) { cur = best; setActive(best); }
       }
       last = t;
@@ -104,7 +105,7 @@ export default function Signals({
     const onResize = () => measure();
     window.addEventListener("resize", onResize);
     return () => { cancelAnimationFrame(raf); window.removeEventListener("resize", onResize); };
-  }, [N]);
+  }, [N, scrollLinked]);
 
   const onEnter = () => { pausedRef.current = true; };
   const onLeave = () => { pausedRef.current = false; setTip(null); };
