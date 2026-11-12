@@ -33,9 +33,8 @@ export default function StackSections({ children }) {
             position: "sticky",
             top: `${tops[i] ?? 0}px`,
             zIndex: i + 1,
-            borderRadius: i ? "32px 32px 0 0" : undefined,
-            overflow: i ? "hidden" : undefined,
-            boxShadow: i ? "0 -24px 48px rgba(0,0,0,0.35)" : undefined,
+            borderTop: i ? "1px solid rgba(247,247,242,0.12)" : undefined,
+            contain: "paint",
           }}
         >
           {child}

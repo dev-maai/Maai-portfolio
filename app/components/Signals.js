@@ -91,10 +91,12 @@ export default function Signals({
       return;
     }
 
-    let ang = 0, last = null, raf, cur = -1;
+    let ang = 0, last = null, raf, cur = -1, visible = true;
+    const io = new IntersectionObserver(([e]) => { visible = e.isIntersecting; });
+    io.observe(wheel);
     const tick = (t) => {
       if (last == null) last = t;
-      if (!pausedRef.current) {
+      if (!pausedRef.current && visible) {
         ang = (ang + (t - last) * 0.012) % 360;
         const best = place(scrollLinked ? ang + window.scrollY * 0.12 : ang);
         if (best !== cur) { cur = best; setActive(best); }
@@ -105,7 +107,7 @@ export default function Signals({
     raf = requestAnimationFrame(tick);
     const onResize = () => measure();
     window.addEventListener("resize", onResize);
-    return () => { cancelAnimationFrame(raf); window.removeEventListener("resize", onResize); };
+    return () => { cancelAnimationFrame(raf); io.disconnect(); window.removeEventListener("resize", onResize); };
   }, [N, scrollLinked]);
 
   const onEnter = () => { pausedRef.current = true; };
