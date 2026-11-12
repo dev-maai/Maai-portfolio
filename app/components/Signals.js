@@ -40,6 +40,7 @@ export default function Signals({
   label = "Signals we track",
   HeadingTag = "h2",
   scrollLinked = false,
+  copyClassName = "",
 } = {}) {
   const LIST = items;
   const wheelRef = useRef(null);
@@ -142,7 +143,7 @@ export default function Signals({
           )}
         </div>
 
-        <div className="sig-copy">
+        <div className={`sig-copy${copyClassName ? ` ${copyClassName}` : ""}`}>
           <HeadingTag className="reveal">{heading}</HeadingTag>
           <p className="lede reveal">{lede}</p>
           <a className="btn contrast reveal" href={ctaHref}>{ctaLabel}</a>

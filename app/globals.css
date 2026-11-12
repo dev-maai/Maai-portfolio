@@ -1905,6 +1905,8 @@ h1.hh-h1.is-pending{font-size:clamp(16px,2vw,22px)!important}
 .sig-copy h2 em{font-style:normal;color:var(--sage)}
 .sig-copy .lede{margin-top:18px}
 .sig-copy .btn{margin-top:26px}
+.sig-copy.sig-copy-wide{max-width:min(680px,50vw);margin-right:clamp(20px,3vw,48px)}
+.sig-copy.sig-copy-wide h2{max-width:none;font-size:clamp(30px,3.3vw,46px)}
 
 .sig-list{display:none}
 @media(max-width:820px){
