@@ -1,4 +1,4 @@
-import IndustryPage from "../../../components/IndustryPage";
+import ServicePage from "../../../components/ServicePage";
 
 export const metadata = {
   title: "SaaS Link Building Agency | Link Building for SaaS | MAAI",
@@ -94,5 +94,5 @@ const c = {
 };
 
 export default function Page() {
-  return <IndustryPage c={c} />;
+  return <ServicePage c={c} />;
 }

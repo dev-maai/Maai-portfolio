@@ -1,4 +1,4 @@
-import IndustryPage from "../../../components/IndustryPage";
+import ServicePage from "../../../components/ServicePage";
 
 export const metadata = {
   title: "Website Audit for Real Estate Agents | Real Estate SEO Audit | MAAI",
@@ -94,5 +94,5 @@ const c = {
 };
 
 export default function Page() {
-  return <IndustryPage c={c} />;
+  return <ServicePage c={c} />;
 }

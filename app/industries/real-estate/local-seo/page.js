@@ -1,4 +1,4 @@
-import IndustryPage from "../../../components/IndustryPage";
+import ServicePage from "../../../components/ServicePage";
 
 export const metadata = {
   title: "Local SEO for Real Estate Agents | GBP and GMB for Estate Agents | MAAI",
@@ -93,5 +93,5 @@ const c = {
 };
 
 export default function Page() {
-  return <IndustryPage c={c} />;
+  return <ServicePage c={c} />;
 }
