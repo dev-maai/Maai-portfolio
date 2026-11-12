@@ -1,5 +1,5 @@
 import { CONTACT_EMAIL, mailtoHref } from "../lib/contact";
-import { NAV_LINKS, INDUSTRY_LINKS } from "../lib/nav";
+import { NAV_LINKS, INDUSTRY_LINKS, SERVICE_LINKS } from "../lib/nav";
 
 export default function Footer() {
   return (
@@ -29,6 +29,14 @@ export default function Footer() {
               <h4>Industries</h4>
               <ul>
                 {INDUSTRY_LINKS.map((l) => (
+                  <li key={l.href}><a href={l.href}>{l.label}</a></li>
+                ))}
+              </ul>
+            </div>
+            <div>
+              <h4>Our services</h4>
+              <ul>
+                {SERVICE_LINKS.map((l) => (
                   <li key={l.href}><a href={l.href}>{l.label}</a></li>
                 ))}
               </ul>

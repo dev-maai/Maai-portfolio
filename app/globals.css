@@ -1396,7 +1396,7 @@ h1,h2,h3{font-family:var(--font-display);line-height:1.05;letter-spacing:-.02em;
 .cta .btn{margin-top:34px;padding:16px 36px;font-size:16px}
 
 .footer{background:var(--panel);color:var(--sage);padding:56px 0 36px;font-size:14px}
-.footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:40px;align-items:start}
+.footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr 1fr;gap:40px;align-items:start}
 .footer-brand{display:block;margin-bottom:18px}
 .footer-brand .brand-monogram{width:40px;height:40px}
 .footer .logo{display:inline-flex;align-items:center;width:auto;height:auto;color:var(--ink)}
