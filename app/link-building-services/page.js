@@ -25,8 +25,8 @@ const c = {
   cases: ["medtech", "removals"],
   ring: {
     label: "Backlink problems we fix",
-    h1: "What is link",
-    h2: "building in",
+    h1: "What are backlinks and",
+    h2: "link building in",
     em: "SEO",
     lede:
       "Link building is the work of earning links from other websites to yours. Search engines treat relevant links as votes of trust, and AI engines lean on the same trusted sources. We fix the problems that hold your profile back and earn the links that move rankings.",

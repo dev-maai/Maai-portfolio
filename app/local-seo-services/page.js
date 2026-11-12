@@ -1,14 +1,14 @@
 import ServicePage from "../components/ServicePage";
 
 export const metadata = {
-  title: "Local SEO Services and Google Business Profile Optimisation | MAAI",
+  title: "Local SEO Services | GBP and GMB Optimisation | MAAI",
   description:
     "Local SEO services and Google Business Profile optimisation for removals, self storage, real estate and multi-location brands. Rank in the map pack and win local enquiries.",
   alternates: { canonical: "/local-seo-services" },
 };
 
 const c = {
-  h1: "Local SEO Services",
+  h1: "Local SEO Services: GBP and GMB Optimisation",
   intro:
     "Our local SEO services cover Google Business Profile optimisation, local citations, reviews and location pages. We help removals firms, self storage operators, estate agents and multi-location brands rank in the map pack and turn nearby searches into calls.",
   formTitle: "Get your free local SEO audit",
@@ -25,8 +25,8 @@ const c = {
   cases: ["removals", "logistics"],
   ring: {
     label: "Local SEO problems we fix",
-    h1: "Google Business",
-    h2: "Profile",
+    h1: "Google Business Profile",
+    h2: "(GBP and GMB)",
     em: "optimisation",
     lede:
       "Your Google Business Profile is often the first thing local buyers see. We optimise every profile, fix inconsistent listings and grow reviews, so you show up in the map pack when people nearby search for your service.",
@@ -50,7 +50,7 @@ const c = {
     "We work alongside your branch managers, marketing and sales teams. Every month we update profiles, reply to reviews, keep listings consistent and track which locations win calls. We flag problems such as suspended profiles or duplicate listings before they cost you enquiries.",
   teamStats: [["10K+", "PAGES CHECKED ACROSS CLIENTS"], ["200+", "FIXES SHIPPED TO GAIN VISIBILITY"], ["<36h", "TURNAROUND ON CRITICAL ISSUES"]],
   why: {
-    heading: "Map pack rankings for",
+    heading: "GBP and GMB rankings for",
     em: "local enquiries.",
     text:
       "Local buyers decide fast. The businesses in the map pack get the calls, the direction requests and the website visits. Local SEO puts your locations there, and the same profile data feeds the answers AI tools give about businesses near your customers.",

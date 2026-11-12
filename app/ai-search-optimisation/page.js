@@ -25,11 +25,11 @@ const c = {
   cases: ["logistics", "supply"],
   ring: {
     label: "Why brands are missing from AI answers",
-    h1: "What is generative",
+    h1: "What is answer",
     h2: "engine",
     em: "optimisation",
     lede:
-      "Generative engine optimisation (GEO) is the work of getting your brand cited inside AI-generated answers. Answer engine optimisation (AEO) shapes your content so engines can lift a direct answer from it. Both start by fixing the gaps that keep AI tools from trusting your site.",
+      "Answer engine optimisation (AEO) shapes your content so engines can lift a direct answer from it. Generative engine optimisation (GEO) is the work of getting your brand cited inside AI-generated answers. Both start by fixing the gaps that keep AI tools from trusting your site.",
     items: [
       { t: "No brand mentions", d: "AI models rarely cite brands that trusted sites do not mention." },
       { t: "Missing schema markup", d: "Without structured data, engines guess what your business does." },
@@ -50,7 +50,7 @@ const c = {
     "We work alongside your marketing, content and sales teams. Every month we check how AI engines describe your brand, close the gaps in your content and structured data, and grow mentions on the sources they trust. We come to you with the next move before a competitor takes your place in the answer.",
   teamStats: [["10K+", "PAGES CHECKED ACROSS CLIENTS"], ["200+", "FIXES SHIPPED TO GAIN VISIBILITY"], ["<36h", "TURNAROUND ON CRITICAL ISSUES"]],
   why: {
-    heading: "Answer engine optimisation for",
+    heading: "AEO and GEO for",
     em: "B2B buyers.",
     text:
       "B2B buyers now ask AI tools to shortlist suppliers. If your brand is missing from those answers, you lose the enquiry before it reaches your website. AEO and GEO make sure your business is the one that gets named, with your strongest service pages as the source.",
@@ -63,7 +63,7 @@ const c = {
     ],
   },
   faqs: [
-    { q: "What is generative engine optimisation (GEO)?", a: ["GEO is the work of getting your brand cited in AI-generated answers from tools like ChatGPT, Gemini and Perplexity. It combines clear content, structured data and brand mentions on trusted sources."] },
+    { q: "What is generative engine optimisation (GEO)?", a: ["GEO is the work of getting your brand cited in AI-generated answers from tools like ChatGPT, Gemini and Perplexity. See our ", { t: "generative engine optimisation services", href: "/generative-engine-optimisation" }, "."] },
     { q: "What is answer engine optimisation (AEO)?", a: ["AEO shapes your pages so answer engines and Google AI Overviews can lift a direct, accurate answer from them. Question-led headings, concise answers and FAQ schema all help."] },
     { q: "What is the difference between AEO, GEO and SEO?", a: ["SEO earns rankings in search results, AEO earns the direct answer, and GEO earns citations inside AI-generated responses. They share the same foundation, which is why we start with ", { t: "technical SEO", href: "/technical-seo-services" }, "."] },
     { q: "How do you improve brand visibility in AI search engines?", a: ["We fix crawl and indexing gaps, add schema and entity data, publish answer-led content and build mentions on trusted sites through ", { t: "link building", href: "/link-building-services" }, "."] },
