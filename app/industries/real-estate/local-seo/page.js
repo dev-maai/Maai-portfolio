@@ -1,4 +1,4 @@
-import ServicePage from "../../../components/ServicePage";
+import IndustryPage from "../../../components/IndustryPage";
 
 export const metadata = {
   title: "Local SEO for Real Estate Agents | GBP and GMB for Estate Agents | MAAI",
@@ -8,6 +8,21 @@ export const metadata = {
 };
 
 const c = {
+  kicker: "Real estate · Local SEO",
+  typeWords: ["estate agency branches", "lettings agents", "realtors", "property managers"],
+  lede: "Local sellers choose who to call from the map pack and its reviews. We optimise every branch's Google Business Profile, build area pages and grow reviews, so your agency is the first one they see.",
+  hero: {"img": "photo-1583608205776-bfd35f0d9f83", "alt": "Grey house with a stone chimney"},
+  searchH2: "Local sellers are already searching. The only question is which branch they find.",
+  needEyebrow: "Does your agency need local SEO in 2026?",
+  needH2: "Yes - if you win instructions in specific areas.",
+  need: ["Sellers search for agents near them and compare reviews before booking a valuation.", "Each branch competes in its own map pack, area by area.", "Incomplete or duplicate profiles quietly cost you calls.", "AI assistants pull local recommendations from Google Business Profiles and reviews."],
+  methodH2: "How we win local real estate search",
+  methodLede: "Four moves, run in order, branch by branch.",
+  method: [{"n": "01", "k": "Audit", "t": "Branch and listing audit", "d": "We check every profile, citation and area page against the agents you compete with.", "img": "photo-1560518883-ce09059eeffa", "alt": "Miniature house on a table"}, {"n": "02", "k": "Profiles", "t": "GBP and GMB optimisation", "d": "Categories, services, photos and posts set up for every branch.", "img": "photo-1763621605783-307c1743e308", "alt": "Hand holding a key above miniature houses"}, {"n": "03", "k": "Areas", "t": "Area pages for every patch", "d": "A page for each neighbourhood you cover, linked to the right branch.", "img": "photo-1628624747186-a941c476b7ef", "alt": "House near green trees"}, {"n": "04", "k": "Reviews", "t": "Reviews and local links", "d": "A review process after every sale or let, plus links from local sites.", "img": "photo-1758519288480-1489c17b1519", "alt": "Two people signing a document"}],
+  band: {"img": "photo-1592595896551-12b371d546d5", "alt": "House under a blue sky"},
+  bandText: "Map pack visibility compounds with every review you earn.",
+  services: [{"k": "technical-seo", "name": "Technical SEO for property sites", "blurb": "Crawl, index and speed fixes for listing-heavy sites, including expired listings and filter URLs.", "inc": ["Listing & filter URL control", "Core Web Vitals remediation", "Clean area-page architecture"]}, {"k": "local-seo", "name": "Local SEO & Google Business Profile", "blurb": "Every branch verified, optimised and ranking in the map pack for the areas it covers.", "inc": ["Branch GBP / GMB optimisation", "Local citations", "Area page build"]}, {"k": "keyword-strategy", "name": "Search intent & keyword strategy", "blurb": "A map of buyer, seller, landlord and valuation searches in every area you cover.", "inc": ["Area x intent keyword model", "Portal gap analysis", "Priority page roadmap"]}, {"k": "aeo", "name": "Answer Engine Optimisation", "blurb": "Clear, trusted agency information so AI assistants recommend you for your areas.", "inc": ["Entity & branch modelling", "Answer-ready area content", "Citation-share tracking"]}, {"k": "reviews", "name": "Reviews & local authority", "blurb": "A steady flow of reviews and local links that make your branches the obvious choice.", "inc": ["Review request process", "Review replies", "Local link earning"]}, {"k": "reporting", "name": "Ongoing performance reporting", "blurb": "Monthly reporting on rankings, calls, valuations and viewings by branch.", "inc": ["Map pack movement", "Valuation & viewing attribution", "Branch-level dashboard"]}],
+  serviceLinks: {"technical-seo": "/industries/real-estate/seo-audit", "local-seo": "/local-seo-services", "reviews": "/local-seo-services", "keyword-strategy": "/industries/real-estate/seo", "reporting": "/industries/real-estate/seo-audit"},
   h1: "Local SEO for Real Estate Agents",
   intro:
     "Our local SEO for real estate gets every branch into the map pack for the areas you sell and let in. We optimise each Google Business Profile, build area pages and grow reviews, so local buyers, sellers and landlords find your agency first.",
@@ -78,5 +93,5 @@ const c = {
 };
 
 export default function Page() {
-  return <ServicePage c={c} />;
+  return <IndustryPage c={c} />;
 }

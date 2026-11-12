@@ -1,4 +1,4 @@
-import ServicePage from "../../../components/ServicePage";
+import IndustryPage from "../../../components/IndustryPage";
 
 export const metadata = {
   title: "Real Estate SEO Services | SEO for Estate Agents and Realtors | MAAI",
@@ -8,6 +8,21 @@ export const metadata = {
 };
 
 const c = {
+  kicker: "Real estate",
+  typeWords: ["estate agents", "realtors", "property developers", "lettings agents", "property managers"],
+  lede: "Buyers, sellers and landlords search before they call an agent. Our real estate SEO services put your agency in Google, the map pack and AI answers for the areas you cover, ahead of the portals.",
+  hero: {"img": "photo-1570129477492-45c003edd2be", "alt": "Family home with a front garden"},
+  searchH2: "Your buyers and sellers are already searching. The only question is who they find.",
+  needEyebrow: "Does your estate agency need SEO in 2026?",
+  needH2: "Yes - if sellers compare agents before they call.",
+  need: ["Sellers search for valuations and local agents before choosing who to instruct.", "Buyers search by area and property type long before they book a viewing.", "Portals take broad searches, so agencies win on local and valuation terms.", "AI assistants now recommend local agents, using the information they can trust."],
+  methodH2: "How we win real estate search",
+  methodLede: "Four moves, run in order. Each one earns the right to the next.",
+  method: [{"n": "01", "k": "Foundation", "t": "Technical SEO for listing sites", "d": "We control expired listings, filter URLs and speed so your important pages can rank.", "img": "photo-1580587771525-78b9dba3b914", "alt": "Modern detached house"}, {"n": "02", "k": "Intent", "t": "Area and valuation pages", "d": "We build a page for every area and service you cover, matched to how buyers and sellers search.", "img": "photo-1759428679273-11d914866394", "alt": "Hand holding house keys over miniature houses"}, {"n": "03", "k": "Local", "t": "Branch profiles and reviews", "d": "Every branch gets an optimised Google Business Profile and a steady flow of reviews.", "img": "photo-1781229771042-2a859f8f8022", "alt": "Two people shaking hands over a house model"}, {"n": "04", "k": "Authority", "t": "Local authority and AI visibility", "d": "We earn local links and mentions so Google and AI assistants trust your agency.", "img": "photo-1605276374104-dee2a0ed3cd6", "alt": "Brown and white house under blue sky"}],
+  band: {"img": "photo-1480074568708-e7b720bb3f09", "alt": "White house under maple trees"},
+  bandText: "Every area page you own keeps bringing valuations, quarter after quarter.",
+  services: [{"k": "technical-seo", "name": "Technical SEO for property sites", "blurb": "Crawl, index and speed fixes for listing-heavy sites, including expired listings and filter URLs.", "inc": ["Listing & filter URL control", "Core Web Vitals remediation", "Clean area-page architecture"]}, {"k": "local-seo", "name": "Local SEO & Google Business Profile", "blurb": "Every branch verified, optimised and ranking in the map pack for the areas it covers.", "inc": ["Branch GBP / GMB optimisation", "Local citations", "Area page build"]}, {"k": "keyword-strategy", "name": "Search intent & keyword strategy", "blurb": "A map of buyer, seller, landlord and valuation searches in every area you cover.", "inc": ["Area x intent keyword model", "Portal gap analysis", "Priority page roadmap"]}, {"k": "aeo", "name": "Answer Engine Optimisation", "blurb": "Clear, trusted agency information so AI assistants recommend you for your areas.", "inc": ["Entity & branch modelling", "Answer-ready area content", "Citation-share tracking"]}, {"k": "reviews", "name": "Reviews & local authority", "blurb": "A steady flow of reviews and local links that make your branches the obvious choice.", "inc": ["Review request process", "Review replies", "Local link earning"]}, {"k": "reporting", "name": "Ongoing performance reporting", "blurb": "Monthly reporting on rankings, calls, valuations and viewings by branch.", "inc": ["Map pack movement", "Valuation & viewing attribution", "Branch-level dashboard"]}],
+  serviceLinks: {"technical-seo": "/industries/real-estate/seo-audit", "local-seo": "/industries/real-estate/local-seo", "reviews": "/industries/real-estate/local-seo", "keyword-strategy": "/industries/real-estate/seo", "reporting": "/industries/real-estate/seo-audit"},
   h1: "Real Estate SEO Services",
   intro:
     "Our real estate SEO services help estate agents, realtors, property developers and property managers rank for the searches buyers, sellers and landlords make. We build area pages, listing structure and local authority, so your agency shows up in Google, the map pack and AI answers before the portals do.",
@@ -79,5 +94,5 @@ const c = {
 };
 
 export default function Page() {
-  return <ServicePage c={c} />;
+  return <IndustryPage c={c} />;
 }

@@ -1,4 +1,4 @@
-import ServicePage from "../../../components/ServicePage";
+import IndustryPage from "../../../components/IndustryPage";
 
 export const metadata = {
   title: "SaaS Link Building Agency | Link Building for SaaS | MAAI",
@@ -8,6 +8,21 @@ export const metadata = {
 };
 
 const c = {
+  kicker: "SaaS · Link building",
+  typeWords: ["SaaS startups", "scale-ups", "B2B software", "product-led teams"],
+  lede: "SaaS buyers compare tools on review sites, roundups and AI assistants. Our SaaS link building earns links and mentions on the sites your buyers trust, so your product makes the shortlist.",
+  hero: {"img": "photo-1551288049-bebda4e38f71", "alt": "Analytics dashboard on a screen"},
+  searchH2: "Your buyers are already comparing tools. The only question is who they find.",
+  needEyebrow: "Does your SaaS company need link building in 2026?",
+  needH2: "Yes - if your category is competitive.",
+  need: ["Category and “best tool” searches go to the products trusted sites mention most.", "Review sites and roundups shape the shortlist before a trial starts.", "AI assistants recommend tools based on the sources they trust.", "Links decay over time, so authority needs ongoing work."],
+  methodH2: "How we win SaaS link building",
+  methodLede: "Four moves, run in order. Each one earns the right to the next.",
+  method: [{"n": "01", "k": "Gap", "t": "Competitor link gap analysis", "d": "We compare your referring domains with competing tools in your category.", "img": "photo-1633356122544-f134324a6cee", "alt": "Code on a screen"}, {"n": "02", "k": "Targets", "t": "Review, partner and roundup targets", "d": "We list the review sites, partner pages and publications your buyers read.", "img": "photo-1460925895917-afdab827c52f", "alt": "Laptop showing analytics"}, {"n": "03", "k": "Earn", "t": "Data-led outreach", "d": "We pitch data, product expertise and integration stories editors want to cite.", "src": "/Saas/aeo.jpg", "alt": "Team working on a product"}, {"n": "04", "k": "Authority", "t": "Compounding authority", "d": "Links point at product and comparison pages, so rankings hold as you grow.", "src": "/Saas/authority.jpg", "alt": "Developer working in a code editor"}],
+  band: {"img": "photo-1518770660439-4636190af475", "alt": "Circuit board close-up"},
+  bandText: "Every trusted mention you earn keeps your product on the shortlist.",
+  services: [{"k": "digital-pr", "name": "Digital PR & link earning", "blurb": "Editorial links from software publications, roundups and industry media.", "inc": ["Data-led PR campaigns", "Roundup and listicle placements", "Unlinked mention reclaim"]}, {"k": "reviews", "name": "Review sites & partners", "blurb": "Review-site profiles and integration partner pages that send links and trust.", "inc": ["G2 and Capterra profiles", "Integration directory links", "Partner co-marketing"]}, {"k": "content", "name": "Linkable assets", "blurb": "Comparison pages, research and tools that give editors a reason to link.", "inc": ["Original research", "Comparison and alternatives pages", "Free tools"]}, {"k": "technical-seo", "name": "Internal linking & architecture", "blurb": "Authority flowing from links to the product pages that drive signups.", "inc": ["Internal linking model", "Link reclamation", "Redirect clean-up"]}, {"k": "aeo", "name": "AI citation building", "blurb": "Mentions on the sources AI assistants use to recommend tools.", "inc": ["Source mapping", "Citation outreach", "Citation-share tracking"]}, {"k": "reporting", "name": "Link reporting", "blurb": "Every live link tracked against the rankings and signups it supports.", "inc": ["Monthly link log", "Ranking movement", "Signup attribution"]}],
+  serviceLinks: {"digital-pr": "/link-building-services", "reviews": "/link-building-services", "content": "/organic-lead-generation", "aeo": "/generative-engine-optimisation"},
   h1: "SaaS Link Building Agency",
   intro:
     "Our SaaS link building earns editorial links from software publications, review sites, integration partners and industry blogs. We build the authority your product pages and comparison content need to rank, and the mentions AI assistants use when they recommend tools in your category.",
@@ -79,5 +94,5 @@ const c = {
 };
 
 export default function Page() {
-  return <ServicePage c={c} />;
+  return <IndustryPage c={c} />;
 }

@@ -1,4 +1,4 @@
-import ServicePage from "../../../components/ServicePage";
+import IndustryPage from "../../../components/IndustryPage";
 
 export const metadata = {
   title: "Website Audit for Real Estate Agents | Real Estate SEO Audit | MAAI",
@@ -8,6 +8,21 @@ export const metadata = {
 };
 
 const c = {
+  kicker: "Real estate · Website audit",
+  typeWords: ["estate agents", "realtors", "lettings agents", "property portals"],
+  lede: "Property websites change every day as listings come and go. Our website audit for real estate agents finds the listing, speed, area page and local issues holding back your rankings, and ranks every fix by impact.",
+  hero: {"img": "photo-1560520653-9e0e4c89eb11", "alt": "Miniature house beside a magnifying glass"},
+  searchH2: "Your buyers are already searching. The audit shows why they are not finding you.",
+  needEyebrow: "Does your agency website need an SEO audit?",
+  needH2: "Yes - if listings churn and rankings slip.",
+  need: ["Expired listings and filter URLs pile up and waste crawl budget.", "Feed-driven listing text duplicates the portals and ranks poorly.", "Heavy listing pages slow your site on mobile, where most buyers browse.", "Without an audit, you spend on content and links before the foundations are fixed."],
+  methodH2: "How we audit real estate websites",
+  methodLede: "Four steps, from crawl to an agreed action plan.",
+  method: [{"n": "01", "k": "Crawl", "t": "Full site and listing crawl", "d": "We crawl listings, area pages and branch pages and pull Search Console data.", "img": "photo-1626178793926-22b28830aa30", "alt": "Person holding a model house at a desk"}, {"n": "02", "k": "Compare", "t": "Benchmark against local agents", "d": "We compare you with local competitors and the portals in your areas.", "img": "photo-1554995207-c18c203602cb", "alt": "Living room interior"}, {"n": "03", "k": "Prioritise", "t": "Fixes ranked by impact", "d": "Every issue is ranked by its effect on valuations and viewings.", "img": "photo-1450101499163-c8848c66ca85", "alt": "Person writing on paper"}, {"n": "04", "k": "Walk through", "t": "Agreed action plan", "d": "We take your team through the plan and agree what to fix first.", "img": "photo-1526948531399-320e7e40f0ca", "alt": "Two people meeting on a sofa"}],
+  band: {"img": "photo-1572120360610-d971b9d7767c", "alt": "Trees beside a white house"},
+  bandText: "Fix the foundations once, and every listing you add ranks faster.",
+  services: [{"k": "technical-seo", "name": "Technical SEO for property sites", "blurb": "Crawl, index and speed fixes for listing-heavy sites, including expired listings and filter URLs.", "inc": ["Listing & filter URL control", "Core Web Vitals remediation", "Clean area-page architecture"]}, {"k": "local-seo", "name": "Local SEO & Google Business Profile", "blurb": "Every branch verified, optimised and ranking in the map pack for the areas it covers.", "inc": ["Branch GBP / GMB optimisation", "Local citations", "Area page build"]}, {"k": "keyword-strategy", "name": "Search intent & keyword strategy", "blurb": "A map of buyer, seller, landlord and valuation searches in every area you cover.", "inc": ["Area x intent keyword model", "Portal gap analysis", "Priority page roadmap"]}, {"k": "aeo", "name": "Answer Engine Optimisation", "blurb": "Clear, trusted agency information so AI assistants recommend you for your areas.", "inc": ["Entity & branch modelling", "Answer-ready area content", "Citation-share tracking"]}, {"k": "reviews", "name": "Reviews & local authority", "blurb": "A steady flow of reviews and local links that make your branches the obvious choice.", "inc": ["Review request process", "Review replies", "Local link earning"]}, {"k": "reporting", "name": "Ongoing performance reporting", "blurb": "Monthly reporting on rankings, calls, valuations and viewings by branch.", "inc": ["Map pack movement", "Valuation & viewing attribution", "Branch-level dashboard"]}],
+  serviceLinks: {"technical-seo": "/technical-seo-services", "local-seo": "/industries/real-estate/local-seo", "reviews": "/industries/real-estate/local-seo", "keyword-strategy": "/industries/real-estate/seo", "reporting": "/seo-audit-services"},
   h1: "Website Audit for Real Estate Agents",
   intro:
     "Our real estate website audit checks everything that affects how your agency ranks: listing pages, area pages, speed, indexing, branch profiles and AI visibility. You get a prioritised action plan built for property websites, with the fixes that win more valuations first.",
@@ -79,5 +94,5 @@ const c = {
 };
 
 export default function Page() {
-  return <ServicePage c={c} />;
+  return <IndustryPage c={c} />;
 }
