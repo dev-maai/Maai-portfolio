@@ -27,6 +27,502 @@ export const AUTHORS = {
    To preview drafts locally, run the dev server with INSIGHTS_PREVIEW_DRAFTS=1. */
 const ALL_POSTS = [
   {
+    "slug": "digital-marketing-for-doctors",
+    "seoTitle": "Digital Marketing for Doctors in 2027: Get More Patients",
+    "title": "Digital Marketing for Doctors in 2027: How Clinics Get More Patients",
+    "description": "Digital marketing for doctors explained: set up your website and Google Business Profile, win reviews, follow GMC and ASA rules and get named in AI answers.",
+    "date": "2026-11-13",
+    "author": "team",
+    "topics": [
+      "Everything Marketing"
+    ],
+    "industries": [],
+    "image": "/insights/digital-marketing-for-doctors-banner.jpg",
+    "intro": "Before a patient rings your clinic, they search. They type \"private gp near me\", compare a handful of listings on star ratings and, more and more often, ask an AI assistant who to trust. This guide explains digital marketing for doctors in plain English: what to set up, what the GMC and advertising rules allow and how to get more patients from Google and AI search.",
+    "tldr": [
+      "Digital marketing for doctors means helping patients find, trust and book your practice through your website, Google Business Profile, reviews, content, ads and AI answers.",
+      "In the rater8 2026 US survey, 55% of patients had avoided a provider because of online reviews and 47% had used AI to research providers.",
+      "Doctors stay responsible for all advertising, including work done by an agency: be honest, never guarantee results and protect patient confidentiality.",
+      "Start with a complete Google Business Profile, a website with one page per service and a steady flow of reviews, then add content, AI checks and paid ads.",
+      "Measure calls, bookings and direction requests, and never send patient details into analytics or ad tools."
+    ],
+    "body": [
+      {
+        "type": "h2",
+        "text": "What is digital marketing for doctors?"
+      },
+      {
+        "type": "p",
+        "text": "Digital marketing for doctors is the work of helping patients find, trust and book your practice online. It covers your website, your Google Business Profile, patient reviews, helpful medical content, paid ads and, increasingly, how AI assistants describe your clinic. Every part has to follow the advertising rules that apply to doctors."
+      },
+      {
+        "type": "p",
+        "text": "Google's own AI Overview for this search sums it up as helping doctors and medical practices attract new patients, build online trust and stand out in local search. We agree with that, and in this guide we show how to do it step by step for a UK private practice, a specialist clinic or a group of clinics."
+      },
+      {
+        "type": "image",
+        "src": "/insights/doctors-ai-overview.jpg",
+        "alt": "Google UK AI Overview for the search digital marketing for doctors, saying digital marketing helps doctors attract new patients, build online trust and stand out in local search",
+        "caption": "Google UK AI Overview for \"digital marketing for doctors\", 13 November 2026."
+      },
+      {
+        "type": "h2",
+        "text": "Why does digital marketing matter for doctors and clinics?"
+      },
+      {
+        "type": "p",
+        "text": "It matters because patients now research a clinic online before they ring or book, and they judge you in seconds on what they find. The strongest figures we could find come from the [rater8 2026 Patient Choice Report](https://rater8.com/2026-patient-choice-report/), a survey of 992 US adults in April 2026. The behaviour it describes is very likely to be similar for UK patients, but it is US data, so treat it as a guide."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "**\"Specialty near me\" is the most common first search.** 55% of patients who searched typed a version of it."
+          },
+          {
+            "text": "**Reviews decide bookings.** 55% had cancelled or avoided booking with a provider because of online reviews, up from 40% a year earlier."
+          },
+          {
+            "text": "**AI is now part of the journey.** 47% had used AI tools to research providers, up from 31% in 2025."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "In plain English: patients search for a type of doctor close to them, compare a short list on reviews, and more and more of them ask an AI assistant before they choose. If your clinic is missing from any of those three places, a competitor gets the booking."
+      },
+      {
+        "type": "p",
+        "text": "We tested the same question ourselves. When we asked ChatGPT how patients choose a private GP or clinic in the UK, it said they are usually weighing up access, trust and convenience, and that ranking on Google is only half the job because the website must also convince someone to book."
+      },
+      {
+        "type": "image",
+        "src": "/insights/doctors-chatgpt-answer.jpg",
+        "alt": "ChatGPT answer to how patients choose a private GP or clinic in the UK, listing access, trust and convenience and showing survey figures on why people use private healthcare",
+        "caption": "ChatGPT's answer (web search on) to \"How do patients choose a private GP or clinic in the UK? What should a clinic do to get found online?\", 13 November 2026."
+      },
+      {
+        "type": "h3",
+        "text": "Do UK patients search for \"private GP\" or \"private doctor\"?"
+      },
+      {
+        "type": "p",
+        "text": "Both, but \"private GP\" is searched more. In Google Trends data for the UK over the past 12 months, \"private gp\" sits well above \"private doctor\" for almost the whole period. Use the words patients use in your page titles and headings, and mention the other term naturally on the page."
+      },
+      {
+        "type": "image",
+        "src": "/insights/doctors-google-trends.jpg",
+        "alt": "Google Trends chart for the UK over 12 months comparing search interest in private gp and private doctor, with private gp consistently higher",
+        "caption": "Google Trends, UK, past 12 months: \"private gp\" (blue) against \"private doctor\" (red), 13 November 2026."
+      },
+      {
+        "type": "h2",
+        "text": "What are the rules for advertising as a doctor in the UK?"
+      },
+      {
+        "type": "p",
+        "text": "Doctors must advertise honestly. Medical Protection, the doctors' defence organisation, says that whichever route you choose, you are responsible for making sure information about you and your services follows the law, the regulatory codes that govern advertising and General Medical Council (GMC) guidance. That applies even when an agency or a clinic runs the marketing for you."
+      },
+      {
+        "type": "image",
+        "src": "/insights/doctors-medical-protection.jpg",
+        "alt": "Medical Protection article Advertising your practice, saying it is your responsibility to ensure information about you and your services complies with the law, regulatory codes and GMC guidance",
+        "caption": "Medical Protection's guidance \"Advertising your practice\", last updated 28 February 2025."
+      },
+      {
+        "type": "p",
+        "text": "The same guidance sets out the points every campaign should respect. Check each of them before any page, post or advert goes live."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "**Be truthful and verifiable.** Advertising must not mislead or exploit a patient's limited medical knowledge or vulnerability."
+          },
+          {
+            "text": "**Do not pressure people.** Services should not be offered as prizes, and time-limited offers or two-for-one deals should be avoided."
+          },
+          {
+            "text": "**Never guarantee results.** For cosmetic interventions, marketing must not minimise risks or call a procedure risk-free."
+          },
+          {
+            "text": "**Protect confidentiality.** Do not share identifiable patient information without explicit consent, because anonymised details can still identify someone when combined."
+          },
+          {
+            "text": "**Disclose interests.** Financial or other interests that could influence what you recommend should be declared."
+          },
+          {
+            "text": "**Follow the advertising codes.** The Advertising Standards Authority (ASA) applies the CAP Code, which includes an absolute ban on advertising prescription-only medicines to the public."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "If your clinic is registered with the Care Quality Commission (CQC) in England and has a rating, CQC regulation 20A requires you to display it on your website, with the date it was given and a link to CQC. Put it where visitors can see it, such as the footer and the contact page."
+      },
+      {
+        "type": "callout",
+        "variant": "note",
+        "title": "A note on this section",
+        "text": "This is a summary of public guidance, not legal advice. Check the current GMC, ASA and CQC wording, or ask your defence organisation, before you publish treatment claims."
+      },
+      {
+        "type": "h2",
+        "text": "How do patients find a doctor online?"
+      },
+      {
+        "type": "p",
+        "text": "Patients find a doctor through four routes: Google search results, the Google map listings, AI answers and review or directory sites. A clinic that is easy to find in all four gets the most enquiries, so build for each one rather than relying on a single channel."
+      },
+      {
+        "type": "h3",
+        "text": "How do patients find a private GP in Google search?"
+      },
+      {
+        "type": "p",
+        "text": "They type the service and the place, such as \"private gp birmingham\". Google then shows a map with a short list of local clinics above the normal results. Each entry shows the star rating, the number of reviews, the opening hours and a line from a review. In our search the top listing showed a 5.0 rating from 632 reviews, which tells you how much weight reviews carry before a patient has even visited a website."
+      },
+      {
+        "type": "image",
+        "src": "/insights/doctors-map-pack.jpg",
+        "alt": "Google UK search for private gp birmingham showing a map of local clinics and the top listing with a 5.0 star rating from 632 reviews",
+        "caption": "Google UK map results for \"private gp birmingham\", 13 November 2026. Results vary by searcher and location."
+      },
+      {
+        "type": "p",
+        "text": "For a closer look at how local listings are won, see our guide to [Google My Business](/insights/google-my-business-self-storage). It is written for self storage, but the profile, review and local link steps are the same for a clinic."
+      },
+      {
+        "type": "h3",
+        "text": "What questions do patients and doctors ask Google?"
+      },
+      {
+        "type": "p",
+        "text": "People Also Ask boxes show the questions behind a search. Under \"how can doctors advertise their practice\" Google shows questions such as \"How to advertise a medical practice?\", \"Can doctors do advertising?\" and \"How do I advertise my private practice?\". Each one is a section or an FAQ answer waiting to be written."
+      },
+      {
+        "type": "image",
+        "src": "/insights/doctors-people-also-ask.jpg",
+        "alt": "Google People Also Ask box for how can doctors advertise their practice, with questions about advertising a medical practice and a private practice",
+        "caption": "People Also Ask under \"how can doctors advertise their practice\", Google UK, 13 November 2026."
+      },
+      {
+        "type": "h2",
+        "text": "How do you do digital marketing for doctors? Step by step"
+      },
+      {
+        "type": "p",
+        "text": "Start with the foundations that every patient touches (website, profile, reviews), then add content, AI visibility and paid ads. The order matters, because ads and content send people to a website and a profile that must already convince them."
+      },
+      {
+        "type": "h3",
+        "text": "1. How should a doctor's website be set up to win patients?"
+      },
+      {
+        "type": "p",
+        "text": "It needs one page per service, clear doctor profiles and an obvious way to book. Patients arrive on a phone, so the booking button, phone number and opening hours must be visible without scrolling."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "**One page per service and per location.** Create separate pages for each treatment and each clinic, for example \"private GP appointments\", \"women's health clinic\" or \"minor surgery\". Name the town in the title and heading."
+          },
+          {
+            "text": "**Doctor profiles with proof.** Show each doctor's name, photo, specialty, GMC number and a short bio. Patients and Google both look for who is behind the advice."
+          },
+          {
+            "text": "**Fees and what to expect.** Publish consultation prices or a clear starting price where you can, plus how long the appointment lasts and what happens next."
+          },
+          {
+            "text": "**Trust signals.** Show your CQC rating if you have one, your insurer and professional memberships, and an honest line on risks where a treatment carries them."
+          },
+          {
+            "text": "**Fast, mobile-friendly pages.** Slow pages lose bookings. Run your key pages through Google's free PageSpeed Insights and fix the main issues."
+          }
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "2. How do you set up Google Business Profile for a clinic?"
+      },
+      {
+        "type": "p",
+        "text": "Claim and verify a profile for each clinic address, choose the most accurate primary category, and keep the hours, phone number and booking link correct. This profile is what appears in the map listings, so it often matters more than the website for \"near me\" searches."
+      },
+      {
+        "type": "ol",
+        "items": [
+          {
+            "text": "**Claim and verify each location.** Use the real clinic address. Do not create profiles for rooms patients cannot visit."
+          },
+          {
+            "text": "**Pick the right categories.** Choose one primary category such as General practitioner or Medical clinic, then add secondary ones only for services you truly provide."
+          },
+          {
+            "text": "**Add services and a booking link.** List each treatment with a short description, and link straight to the booking page."
+          },
+          {
+            "text": "**Keep hours exact.** Include bank holidays. Patients see \"Open\" or \"Closes at\" before they click."
+          },
+          {
+            "text": "**Post updates and add photos.** Show the reception, consulting rooms and team. Real photos build trust."
+          }
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "3. How do you get more patient reviews?"
+      },
+      {
+        "type": "p",
+        "text": "Ask every patient, soon after the appointment, with a direct link. The rater8 report found 68% of patients would likely leave a review if their doctor asked, and 42% rarely or never leave one, so a polite request closes the gap."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "**Send the link by text or email after the visit.** Use the short link from your Google Business Profile."
+          },
+          {
+            "text": "**Never reward reviews or only ask happy patients.** Google forbids both, and they undermine the trust you want."
+          },
+          {
+            "text": "**Reply to every review, in a way that protects confidentiality.** Do not confirm that someone was a patient or discuss their care. Thank them and invite them to contact the clinic privately."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Replies matter too: 66% of patients in the survey said a provider's response to reviews affects their trust, up from 42% in 2025."
+      },
+      {
+        "type": "image",
+        "src": "/insights/doctors-review-rating-stat.jpg",
+        "alt": "Stat card: 75 per cent of patients will not book a provider rated below 4.0 stars and 44 per cent will not book below 4.5 stars",
+        "caption": "Source: rater8 2026 Patient Choice Report (US adults, n=992)."
+      },
+      {
+        "type": "p",
+        "text": "The chart shows why the star rating matters so much. A rating under 4.0 puts a clinic out of the running for three in four patients in that survey."
+      },
+      {
+        "type": "h3",
+        "text": "4. What content should a doctor publish?"
+      },
+      {
+        "type": "p",
+        "text": "Publish pages that answer the questions patients ask before they book, written or reviewed by a named doctor. Health is a topic where Google and AI assistants are cautious about whom they trust, so show who wrote or checked each page, add the date it was reviewed and keep it updated."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "**Condition and treatment pages.** Explain what it is, who it suits, what happens at the appointment, risks, recovery and the cost."
+          },
+          {
+            "text": "**\"Should I see a doctor?\" guides.** Plain advice on when to book, and when to seek urgent care instead."
+          },
+          {
+            "text": "**Local guides.** For example, how to see a private GP near a particular station, hospital or business district."
+          },
+          {
+            "text": "**Short video.** A one-minute introduction from each doctor helps patients feel they know you before they arrive."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Write each section so it answers its heading in the first two sentences. This is the same answer-first structure we explain in our [answer engine optimisation guide](/insights/answer-engine-optimisation)."
+      },
+      {
+        "type": "h3",
+        "text": "5. How do you get a clinic named in AI answers?"
+      },
+      {
+        "type": "p",
+        "text": "Make sure the facts AI tools can read about your clinic are accurate, consistent and backed by reputable sources. AI assistants build answers from web pages, listings and mentions, so a clinic with a clear website, a complete Google profile and mentions on trusted sites is easier to describe correctly."
+      },
+      {
+        "type": "p",
+        "text": "The risk is real. In the rater8 survey, 66% of patients who had used AI to research providers met incorrect provider information, and 60% trusted the AI summary without checking it. Wrong opening hours or a service you no longer offer can go straight to a patient."
+      },
+      {
+        "type": "image",
+        "src": "/insights/doctors-ai-research-columns.jpg",
+        "alt": "Column chart: share of patients using AI tools to research healthcare providers rose from 31 per cent in 2025 to 47 per cent in 2026",
+        "caption": "Source: rater8 Patient Choice Reports 2025 and 2026 (US adults)."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "**Search your clinic in ChatGPT, Gemini and Google AI Overviews every month.** Use prompts patients would use, such as \"best private GP in [town]\". Note what each says and fix any errors at the source."
+          },
+          {
+            "text": "**Keep your name, address, phone number and hours identical everywhere.** Use the same details on your website, Google profile and directories."
+          },
+          {
+            "text": "**Earn mentions from trusted sites.** Local press, professional bodies, hospital partners and health directories all count."
+          },
+          {
+            "text": "**Structure pages for answers.** Use question headings and short, direct answers. See how to rank in [Google AI Overviews and AI Mode](/insights/how-to-rank-in-ai-overviews) and [how to rank in ChatGPT](/insights/how-to-rank-in-chatgpt)."
+          }
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "6. When should a doctor use Google Ads or social media?"
+      },
+      {
+        "type": "p",
+        "text": "Use paid ads once your website and profile convert well, and use social media to support trust rather than to sell. Paid search puts you in front of patients who are searching right now, which helps a new clinic or a new service that has no rankings yet."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "**Google Ads.** Bid on service and location searches, send each ad to a matching service page and track calls and bookings. Health advertising is restricted on Google, so read the current policy and the CAP Code before you launch."
+          },
+          {
+            "text": "**Social media.** Share team introductions, clinic news and general health information. Never share identifiable patient details, and avoid before-and-after claims that could mislead."
+          },
+          {
+            "text": "**Email.** Keep in touch with existing patients about check-ups and services, with clear consent and an easy way to unsubscribe."
+          }
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "What does digital marketing look like for different types of medical practice?"
+      },
+      {
+        "type": "p",
+        "text": "The same foundations apply to every practice, but the emphasis changes. Choose the row that matches your clinic and start there."
+      },
+      {
+        "type": "table",
+        "head": [
+          "Type of practice",
+          "Where patients search",
+          "What to prioritise first"
+        ],
+        "rows": [
+          [
+            "Private GP clinic",
+            "\"private gp [town]\", \"same day gp appointment\"",
+            "Google Business Profile, reviews, clear fees and online booking"
+          ],
+          [
+            "Specialist or consultant",
+            "\"[specialty] consultant [town]\", the doctor's name",
+            "Doctor profiles, condition pages, insurer and hospital details"
+          ],
+          [
+            "Women's, men's or family health clinic",
+            "\"[service] clinic near me\"",
+            "Service pages, privacy-aware content, local reviews"
+          ],
+          [
+            "Multi-site clinic group",
+            "Each town and each service",
+            "A page and profile for every location, consistent details, central review process"
+          ],
+          [
+            "Cosmetic or aesthetic clinic",
+            "\"[treatment] [town]\"",
+            "Strict compliance, risk information, qualified practitioner details"
+          ]
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "How do you measure digital marketing for doctors?"
+      },
+      {
+        "type": "p",
+        "text": "Measure the actions that lead to appointments: phone calls, booking-form completions, direction requests and online bookings, not just visits. Set these up in Google Analytics 4 (GA4) and Google Search Console, and review them monthly."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "**Google Business Profile insights.** Calls, website clicks and direction requests from the map."
+          },
+          {
+            "text": "**Search Console.** Which searches show your site, your clicks and your average position for each service and town."
+          },
+          {
+            "text": "**GA4 key events.** Booking-button clicks, form submissions and phone-number taps, tracked as key events."
+          },
+          {
+            "text": "**AI visibility.** A monthly check of what AI assistants say about you, plus the AI traffic reports in GA4."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Follow our guide to [tracking AI traffic with Google Analytics 4 and Search Console](/insights/track-ai-traffic) for the setup, and read [what a good SEO visibility score is](/insights/seo-visibility-score) before you judge any number from a rank tracker."
+      },
+      {
+        "type": "callout",
+        "variant": "warning",
+        "title": "Keep patient data out of analytics and ad tools",
+        "text": "Do not send names, conditions, treatments booked or appointment details into analytics, ad platforms or tracking pixels. Track the action (a booking click), never who the patient is or why they came. Ask your data protection lead to review your set-up."
+      },
+      {
+        "type": "h2",
+        "text": "How long does digital marketing for doctors take to work?"
+      },
+      {
+        "type": "p",
+        "text": "Some changes show quickly and others build over months. Fixing a Google Business Profile, answering reviews and adding a booking link can improve enquiries within weeks. New service pages and medical content take longer, because Google needs time to find, test and trust them. Paid ads can bring bookings from the first week, but stop when the budget stops."
+      },
+      {
+        "type": "p",
+        "text": "A sensible plan is to fix the profile and booking journey first, publish your most important service pages next, and keep adding reviews and content every month."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is digital marketing for doctors?",
+        "a": "Digital marketing for doctors is the use of your website, Google Business Profile, reviews, content, paid ads and AI visibility to help patients find, trust and book your practice, within the GMC and ASA advertising rules."
+      },
+      {
+        "q": "Can doctors advertise in the UK?",
+        "a": "Yes. Doctors can advertise their services provided the advertising is honest, accurate, does not pressure people and follows the ASA's CAP Code and GMC guidance. You remain responsible for marketing carried out on your behalf."
+      },
+      {
+        "q": "What is the best digital marketing for a private GP clinic?",
+        "a": "Start with a complete Google Business Profile, a website with one page per service, clear fees and online booking, and a steady flow of patient reviews. Add content and paid ads once those work."
+      },
+      {
+        "q": "Do patient reviews affect which doctor people choose?",
+        "a": "Yes. In the rater8 2026 survey of US adults, 55% had avoided or cancelled a booking because of online reviews, and 75% would not book a provider rated below 4.0 stars."
+      },
+      {
+        "q": "Can I reply to patient reviews on Google?",
+        "a": "Yes, and you should. Keep replies short and polite, never confirm that someone was a patient and never discuss their care. Invite them to contact the clinic directly."
+      },
+      {
+        "q": "Do I need to show my CQC rating on my website?",
+        "a": "If your service is registered with the CQC in England and has a rating, regulation 20A requires you to display it on your website, with the date it was given and a link to the CQC."
+      },
+      {
+        "q": "Is it worth using Google Ads for a medical practice?",
+        "a": "It can be, particularly for a new clinic or service. Send each ad to a matching service page and track calls and bookings. Health advertising is restricted, so check Google's policy and the CAP Code first."
+      },
+      {
+        "q": "How do AI assistants decide which clinics to recommend?",
+        "a": "They draw on web pages, Google listings, reviews and mentions on trusted sites. Accurate, consistent details and a strong, clear website make your clinic easier to describe correctly."
+      },
+      {
+        "q": "Can I put patient testimonials on my website?",
+        "a": "Only with the patient's explicit consent, and without identifiable details that break confidentiality. Testimonials must also be genuine and must not guarantee results."
+      }
+    ]
+  },
+  {
     "slug": "seo-visibility-score",
     "seoTitle": "SEO Visibility Score: What Is a Good Score in 2027?",
     "title": "What Is a Good SEO Visibility Score? How to Measure It in Google and AI Search",
