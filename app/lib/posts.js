@@ -27,6 +27,300 @@ export const AUTHORS = {
    To preview drafts locally, run the dev server with INSIGHTS_PREVIEW_DRAFTS=1. */
 const ALL_POSTS = [
   {
+    "slug": "seo-visibility-score",
+    "seoTitle": "SEO Visibility Score: What Is a Good Score in 2027?",
+    "title": "What Is a Good SEO Visibility Score? How to Measure It in Google and AI Search",
+    "description": "An SEO visibility score shows how often your site appears in search results. See how tools calculate it, what a good score is and how to read it in AI search.",
+    "date": "2026-11-13",
+    "author": "team",
+    "topics": [
+      "SEO - Begins",
+      "AEO/GEO"
+    ],
+    "industries": [],
+    "image": "/insights/seo-visibility-score-banner.jpg",
+    "intro": "You open your rank tracker and it says your SEO visibility score is 18%. Is that good, or is something wrong? The honest answer is that it depends on the tool, the keywords you track and the competitors you compare against. This guide explains what an SEO visibility score is, how tools calculate it, what counts as a good score and how to read the same idea for AI search, where a score now measures how often AI answers name your brand.",
+    "tldr": [
+      "An SEO visibility score is a percentage that estimates how much of the available search traffic your site could win for the keywords you track.",
+      "Tools such as Semrush and Moz calculate it from your rankings, an expected click-through rate for each position and, in some tools, search volume.",
+      "There is no universal good score. Moz says a score in the mid-40s is rare for non-branded keywords, so judge yours against competitors and your own trend.",
+      "An AI visibility score works differently: it is the share of tracked AI answers that mention or cite your brand.",
+      "Read any score next to clicks, impressions and enquiries, because a high score on the wrong keywords does not bring customers."
+    ],
+    "body": [
+      {
+        "type": "h2",
+        "text": "What is an SEO visibility score?"
+      },
+      {
+        "type": "p",
+        "text": "An SEO visibility score is a percentage that estimates how visible your website is in organic search results for a set of keywords you choose to track. Semrush describes it as a percentage representing how likely users are to see your website in organic results for those keywords, usually calculated by a rank tracking tool. It is not a Google metric, so you will only ever see it inside a third-party tool."
+      },
+      {
+        "type": "image",
+        "src": "/insights/visibility-score-google-ai-overview.jpg",
+        "alt": "Google AI Overview for the search seo visibility score defining it as a metric that measures how prominently and frequently a website appears in search results, with source cards from Advanced Web Ranking, Moz and SEO Review Tools",
+        "caption": "Google UK AI Overview for \"seo visibility score\", 13 November 2026, with its source panel. It describes the score as a measure of how prominently and often your site appears for a set of keywords."
+      },
+      {
+        "type": "p",
+        "text": "The idea behind the number is simple. A page in position 1 is seen by far more people than a page in position 10, so a tool gives each ranking a weight. It adds up those weights across your keyword list and shows the result on a 0 to 100 scale. In plain English, the score answers one question: out of all the attention these searches could give you, how much do you currently get?"
+      },
+      {
+        "type": "p",
+        "text": "Semrush notes that SEO visibility is also called organic search visibility. Other tools call the same idea search visibility, share of voice or visibility index. The names change, but the maths follows the same pattern."
+      },
+      {
+        "type": "h2",
+        "text": "How do tools calculate an SEO visibility score?"
+      },
+      {
+        "type": "p",
+        "text": "Most tools take every keyword you track, apply an estimated click-through rate (CTR) for the position it ranks in, and average the results across the keyword list. Higher positions earn much more than lower ones, which is why moving from position 3 to position 1 changes the score far more than moving from position 100 to position 60."
+      },
+      {
+        "type": "h3",
+        "text": "How does Moz calculate search visibility?"
+      },
+      {
+        "type": "p",
+        "text": "Moz explains its Search Visibility score in three steps: it takes all your rankings for all your keywords, applies an estimated CTR for each ranking position, then adds the CTRs and divides by the number of keywords tracked. The result is a single figure between 0% and 100%. A score of 0% means no pages in the top 20 results, and 100% means you own every ranking position for your keywords."
+      },
+      {
+        "type": "image",
+        "src": "/insights/visibility-score-moz-calculation.jpg",
+        "alt": "Moz Help Hub page explaining how Search Visibility is calculated in three steps using rankings, estimated click-through rate and the number of tracked keywords",
+        "caption": "The Moz Help Hub explains its Search Visibility calculation, 13 November 2026."
+      },
+      {
+        "type": "h3",
+        "text": "How does Semrush calculate SEO visibility?"
+      },
+      {
+        "type": "p",
+        "text": "Semrush weights each ranking by its average click-through rate, using its own data, so that every position has a realistic effect on the score. Its guide says 100% visibility represents a number 1 ranking for all your target keywords and 0% means you rank for none of them. The guide also lists the signals tools may combine: keyword rankings, impression share, click share, click-through rates and search volumes."
+      },
+      {
+        "type": "p",
+        "text": "Semrush gives a worked example with three fictional websites that each track 10 keywords. Website A ranks in positions 1 to 10 and scores 24.45%. Website B ranks one place lower on every keyword and scores 14.45%. Website C ranks from position 10 down to 100 and scores 0.6%. Even a site that ranks on page one for every keyword scores well under 25%, because the score measures the share of the maximum possible clicks."
+      },
+      {
+        "type": "image",
+        "src": "/insights/visibility-score-example-columns.jpg",
+        "alt": "Column chart of Semrush example SEO visibility scores: Website A 24.45 per cent, Website B 14.45 per cent and Website C 0.6 per cent",
+        "caption": "Semrush's fictional example: three sites tracking the same 10 keywords at different positions."
+      },
+      {
+        "type": "callout",
+        "variant": "takeaway",
+        "title": "What this means for you",
+        "text": "Two tools can show different scores for the same website, because each uses its own CTR curve, keyword list and extras such as search volume. Compare scores inside one tool, never across tools."
+      },
+      {
+        "type": "h2",
+        "text": "What is a good SEO visibility score?"
+      },
+      {
+        "type": "p",
+        "text": "A good SEO visibility score is one that is rising and higher than your direct competitors for the same keywords. No tool publishes an official pass mark. ChatGPT, when asked, states that there is no universal SEO visibility score or industry-wide benchmark."
+      },
+      {
+        "type": "p",
+        "text": "You will still find numbers online. Some SEO blogs say a score above 50% is generally strong, and one says medical practices aim for above 55% in their local markets. Moz is far more cautious: it says it is very rare for a site to score above the mid-40s for non-branded keywords. These claims sit far apart because each writer is describing a different tool and a different keyword list."
+      },
+      {
+        "type": "image",
+        "src": "/insights/visibility-score-moz-rare-stat.jpg",
+        "alt": "Stat card: Moz says a Search Visibility score in the mid-40s is rare for a site tracking non-branded keywords on a 0 to 100 scale",
+        "caption": "Source: Moz Help Hub, Search Visibility."
+      },
+      {
+        "type": "p",
+        "text": "Branded keywords explain much of the gap. If your tracked list includes your own company name, you will rank first for it, and that lifts the average. A list of only non-branded, service-led keywords gives a lower and more honest figure."
+      },
+      {
+        "type": "image",
+        "src": "/insights/visibility-score-people-also-ask.jpg",
+        "alt": "Google People Also Ask box under the search what is a good seo visibility score showing questions such as what is considered a good SEO score and is an SEO score of 92 good",
+        "caption": "People Also Ask questions under \"what is a good seo visibility score\", Google UK, 13 November 2026."
+      },
+      {
+        "type": "h3",
+        "text": "Can ChatGPT tell you what a good score is?"
+      },
+      {
+        "type": "p",
+        "text": "When we asked ChatGPT with web search switched on, it said a good score depends on the tool and offered a table of bands, from low visibility at 0 to 10% to exceptional visibility at 80 to 100%. It labelled these as illustrative working benchmarks, not official standards. Treat them as a rough guide to the shape of the scale. A site tracking hundreds of non-branded keywords will rarely reach the top bands."
+      },
+      {
+        "type": "image",
+        "src": "/insights/visibility-score-chatgpt-answer.jpg",
+        "alt": "ChatGPT answer to what is a good SEO visibility score, explaining there is no universal benchmark and showing a table of illustrative score bands",
+        "caption": "ChatGPT's answer to \"What is a good SEO visibility score and how do tools calculate it?\", 13 November 2026. The bands are the assistant's illustration, not an industry standard."
+      },
+      {
+        "type": "h2",
+        "text": "How do you set a fair SEO visibility benchmark for your site?"
+      },
+      {
+        "type": "p",
+        "text": "Build your benchmark from your own data, in four steps. This gives you a target that means something for your market."
+      },
+      {
+        "type": "ol",
+        "items": [
+          {
+            "text": "**Choose one keyword list and keep it.** Use the searches your buyers use, split into branded and non-branded groups. Moz advises labelling keywords for this reason, because adding or removing keywords changes the average even when nothing changes on your site."
+          },
+          {
+            "text": "**Track three to five direct competitors.** Use the same tool and the same keyword list for all of them. Your gap to the leader is a more useful target than a number from a blog."
+          },
+          {
+            "text": "**Record a baseline.** Note your score today, then check it monthly. Direction matters more than any single reading."
+          },
+          {
+            "text": "**Set a target by gap.** Aim to close part of the gap to the strongest competitor, not to hit an arbitrary percentage."
+          }
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Why did my SEO visibility score drop?"
+      },
+      {
+        "type": "p",
+        "text": "A drop does not always mean you lost rankings. Moz lists the common causes: your rankings fell, you added or removed keywords, you changed the search engines or locations being tracked, a Google algorithm update happened or you moved to a new domain or from HTTP to HTTPS."
+      },
+      {
+        "type": "p",
+        "text": "Check the simplest causes first. Did anyone change the keyword list? Did a competitor overtake you on your highest-volume terms? Because high positions carry the most weight, losing a few top-three rankings hurts the score more than losing many page-two rankings. If rankings really fell, our guide on [how to rank in Google AI Overviews and AI Mode](/insights/how-to-rank-in-ai-overviews) covers what to improve."
+      },
+      {
+        "type": "h2",
+        "text": "How do you measure visibility in Google and AI search?"
+      },
+      {
+        "type": "p",
+        "text": "Measure it in two layers: a classic SEO visibility score for your rankings in Google, and an AI visibility score for how often AI answers name your brand. The two answer different questions, so track both."
+      },
+      {
+        "type": "h3",
+        "text": "What is an AI visibility score?"
+      },
+      {
+        "type": "p",
+        "text": "An AI visibility score measures how often and how prominently your brand appears in AI-generated answers to a set of buyer prompts. The simplest version is a ratio. A glossary entry from AuthorityTech gives an example: a brand named in 46 of 200 tracked answers has a base score of 23. In plain English, you ask the same questions repeatedly and count how often the AI mentions you."
+      },
+      {
+        "type": "image",
+        "src": "/insights/visibility-score-ai-formula-donut.jpg",
+        "alt": "Donut chart showing an AI visibility score of 23 per cent, worked out as 46 AI answers naming the brand out of 200 answers tracked",
+        "caption": "A worked example of the base AI visibility score formula: answers naming the brand divided by answers tracked, times 100."
+      },
+      {
+        "type": "p",
+        "text": "Tools then add weighting on top. Google's AI Overview for \"ai visibility score how is it calculated\" lists the common extras: the type of mention, where in the answer your brand appears, whether the AI links to your site, the weight given to each platform and a comparison against competitors. One published methodology, the LLM Visibility Index, weights mention frequency at 40%, position and prominence at 25% and citation quality at 20%, with a further factor at 15%. Because each tool picks its own weights, AI scores need the same caution as classic scores: compare inside one tool."
+      },
+      {
+        "type": "h3",
+        "text": "Which supporting numbers sit beside an AI visibility score?"
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "**Share of voice.** Your brand's mentions divided by all brand mentions in the tracked answers, competitors included."
+          },
+          {
+            "text": "**Sentiment.** Whether the AI describes you positively, neutrally or negatively."
+          },
+          {
+            "text": "**Average position.** Where your name appears when the AI gives a list of options."
+          },
+          {
+            "text": "**Citation rate.** How often the answer links to your own domain."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "For tools that track these numbers, see our comparison of the [best AI search monitoring tools](/insights/best-ai-search-monitoring-tools) and our guide to [tracking brand mentions in AI search](/insights/best-ways-to-track-brand-mentions-in-ai-search). If your score is low and you want to know why, the [AI brand visibility checklist](/insights/how-to-improve-brand-visibility-in-ai-search-engines) walks through 12 checks."
+      },
+      {
+        "type": "h3",
+        "text": "How reliable is an AI visibility score?"
+      },
+      {
+        "type": "p",
+        "text": "It is less steady than a Google ranking score. AI answers can change between runs, so a single check proves little. Look at the trend over several weeks, use a consistent prompt list, and treat the number as a direction of travel."
+      },
+      {
+        "type": "h2",
+        "text": "How do you read a visibility score next to real results?"
+      },
+      {
+        "type": "p",
+        "text": "Read the score alongside clicks, impressions and enquiries, because visibility is an estimate and results are the proof. Semrush says higher visibility does not always bring proportionately better business results, as visibility on popular but non-commercial keywords earns less revenue than visibility on commercial ones."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "text": "**Score up, clicks flat.** You may be rising on keywords with low demand, or AI Overviews may be answering the query without a click."
+          },
+          {
+            "text": "**Score flat, enquiries up.** Your visibility on high-intent keywords may have improved even if the average did not move."
+          },
+          {
+            "text": "**Score down, clicks steady.** Check whether the keyword list or tracked locations changed."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "For the free reports that show real clicks and AI traffic, follow our guide to [tracking AI traffic with Google Analytics 4 and Search Console](/insights/track-ai-traffic). Use the visibility score as a quick health check and the real traffic numbers to confirm it."
+      },
+      {
+        "type": "h2",
+        "text": "How often should you check your SEO visibility score?"
+      },
+      {
+        "type": "p",
+        "text": "Check it monthly, and after any big site change or Google update. Weekly movements in a visibility score are mostly noise from small ranking changes. A monthly review, written down next to your top competitors, shows whether your work is moving the number. For the bigger picture of getting named in AI answers, start with our [answer engine optimisation](/insights/answer-engine-optimisation) pillar."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is an SEO visibility score?",
+        "a": "An SEO visibility score is a percentage, calculated by a rank tracking tool, that estimates how much of the available organic search traffic your site could win for the keywords you track. Higher rankings count for much more than lower ones."
+      },
+      {
+        "q": "What is a good SEO visibility score?",
+        "a": "There is no official figure. A good score is one that is rising and beats your direct competitors on the same keywords in the same tool. Moz says scores above the mid-40s are very rare for non-branded keywords."
+      },
+      {
+        "q": "Is a 100% SEO visibility score possible?",
+        "a": "Only in theory. In Moz's and Semrush's definitions, 100% means ranking first for every tracked keyword, which is very rare outside a short list of branded terms."
+      },
+      {
+        "q": "Is an SEO visibility score the same as an SEO score?",
+        "a": "No. An SEO score, such as a site audit score, rates technical and on-page health. A visibility score estimates how often your pages appear in search results."
+      },
+      {
+        "q": "What is an AI visibility score?",
+        "a": "An AI visibility score is the share of tracked AI answers that mention or cite your brand. A brand named in 46 of 200 tracked answers has a base score of 23."
+      },
+      {
+        "q": "Why is my SEO visibility score different in two tools?",
+        "a": "Each tool uses its own click-through curve, keyword list and extra signals such as search volume, so the numbers cannot be compared across tools."
+      },
+      {
+        "q": "Does a higher SEO visibility score mean more leads?",
+        "a": "Not always. Visibility on keywords with little demand or no buying intent adds little revenue, so check clicks and enquiries alongside the score."
+      }
+    ]
+  },
+  {
     "slug": "seo-for-estate-agents",
     "seoTitle": "SEO for Estate Agents in 2027: Win More Valuations",
     "title": "SEO for Estate Agents in 2027: How to Win More Valuations from Search",
