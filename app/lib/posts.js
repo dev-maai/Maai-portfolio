@@ -27,6 +27,398 @@ export const AUTHORS = {
    To preview drafts locally, run the dev server with INSIGHTS_PREVIEW_DRAFTS=1. */
 const ALL_POSTS = [
   {
+      "slug": "how-to-find-a-good-seo-company",
+      "seoTitle": "How to Find a Good SEO Company 2027: Questions to Ask",
+      "title": "How to Choose an SEO Company in 2027: Questions to Ask Before You Sign",
+      "description": "How to find a good SEO company in 2027: the questions to ask, red flags, how to check case studies and compare proposals, and what Google itself advises.",
+      "date": "2026-11-16",
+      "author": "team",
+      "topics": [
+          "SEO - Begins"
+      ],
+      "industries": [],
+      "image": "/insights/how-to-find-a-good-seo-company-banner.jpg",
+      "intro": "Choosing an SEO company is a big decision, and it is hard to judge before you have paid. Many agencies promise page one, few explain how, and Google itself warns that no one can guarantee a number one ranking. This guide shows you how to find a good SEO company in 2027: what to do first, the questions to ask, the red flags to avoid, how to check case studies and how to compare proposals.",
+      "tldr": [
+          "A good SEO company shows relevant proof, explains its plan in plain English and reports on enquiries and sales.",
+          "Google says no one can guarantee a number one ranking, so treat any guarantee as a red flag.",
+          "Ask for case studies, references, a 90-day plan and a sample report before you sign.",
+          "Keep ownership of your Search Console, GA4 and Business Profile accounts.",
+          "Expect early signs in about three months and clear business results over six to twelve."
+      ],
+      "body": [
+          {
+              "type": "h2",
+              "text": "How do you find a good SEO company?"
+          },
+          {
+              "type": "p",
+              "text": "Start with proof, then process, then price. A good SEO company can show you real results for businesses like yours, explain exactly what it will do in your first 90 days, report on enquiries and sales rather than rankings alone, and promise nothing it cannot control. If a company fails any of those four tests, keep looking."
+          },
+          {
+              "type": "p",
+              "text": "Google's AI Overview for \"how to find a good seo company\" gives the same answer in short form: look past flashy sales pitches and judge proven processes, transparency and realism. Its first steps are to define your goals and to review real case studies."
+          },
+          {
+              "type": "image",
+              "src": "/insights/choose-seo-company-1.jpg",
+              "alt": "Google UK AI Overview for the search how to find a good seo company, saying to look past flashy sales pitches and judge proven processes, transparency and realism, with steps to define your goals and review real case studies",
+              "caption": "The Google UK AI Overview for \"how to find a good seo company\", 16 November 2026."
+          },
+          {
+              "type": "callout",
+              "variant": "definition",
+              "title": "Definition",
+              "text": "An SEO company (or SEO agency) is a business you pay to improve how often your website appears in search results and AI answers, and how many visitors, enquiries and sales those appearances bring. Good ones work on your site, your content and your reputation across the web."
+          },
+          {
+              "type": "h2",
+              "text": "What should you do before you start looking for an SEO company?"
+          },
+          {
+              "type": "p",
+              "text": "Decide what you want search to do for your business. Write down the result in plain terms: more booked calls, more quote requests, more online sales, or more visibility in your local area. A clear goal lets you judge every proposal against the same measure."
+          },
+          {
+              "type": "p",
+              "text": "Then check whether you need an agency at all. Google's own guidance says that if you run a small local business, you can probably do much of the work yourself, and recommends its SEO starter guide first. It also says a great time to hire is when you are planning a site redesign or a new site, because the site can then be built search-friendly from the start."
+          },
+          {
+              "type": "steps",
+              "title": "Prepare in four steps",
+              "items": [
+                  {
+                      "title": "Write your goal and your budget",
+                      "text": "Choose one main outcome, such as 20 more quote requests a month, and a monthly budget you can sustain for at least six months."
+                  },
+                  {
+                      "title": "Gather your own data",
+                      "text": "Open Google Search Console and GA4 and note your current clicks, impressions and enquiries from search. You need a baseline to judge any agency against.",
+                      "path": "Search Console > Performance > Search results"
+                  },
+                  {
+                      "title": "List three or four competitors",
+                      "text": "Search your main services on Google and note who appears. A good agency will ask about these."
+                  },
+                  {
+                      "title": "Make a shortlist of three to five agencies",
+                      "text": "Use recommendations from other owners, Google results and AI assistants, then check each agency's own website."
+                  }
+              ]
+          },
+          {
+              "type": "h2",
+              "text": "What questions should you ask an SEO company before you sign?"
+          },
+          {
+              "type": "p",
+              "text": "Ask questions that force specific answers. Google's Search Central page on hiring an SEO lists useful ones, and we have added the questions we think matter most in 2027."
+          },
+          {
+              "type": "image",
+              "src": "/insights/choose-seo-company-4.jpg",
+              "alt": "Google Search Central page titled Things to consider when hiring an SEO, listing interview questions such as asking for previous work and success stories, whether the SEO follows Google Search Essentials, expected results and timeframe, and experience in your industry and country",
+              "caption": "Google Search Central's guidance on hiring an SEO, 16 November 2026."
+          },
+          {
+              "type": "checklist",
+              "title": "Twelve questions to ask every agency",
+              "items": [
+                  "**Can you show me examples of previous work and success stories?** Ask for results from businesses like yours, with the numbers and the time frame.",
+                  "**Do you follow Google Search Essentials?** Any technique against Google's rules can get your site demoted or removed.",
+                  "**What results do you expect, and in what time frame?** A realistic answer gives a range and explains what could change it.",
+                  "**How will you measure success?** The answer should include enquiries or sales, not only rankings and traffic.",
+                  "**What is your experience in my industry and my country or city?** Local and sector knowledge shortens the learning time.",
+                  "**What will you do in the first 90 days?** Expect an audit, a priority list and a content and technical plan.",
+                  "**Who will do the work?** Ask who writes, who handles technical fixes and who you speak to each month.",
+                  "**How will you report, and how often?** See a sample report before you sign. Our guide to a [good monthly SEO report](/insights/seo-report-template) shows what it should include.",
+                  "**What do you do about AI search?** A good agency can explain how your brand appears in Google AI Overviews and ChatGPT. See our guide to [answer engine optimisation](/insights/answer-engine-optimisation).",
+                  "**Will you explain every change you make to my site?** Google says an agency with access to your server should be willing to explain all the changes it makes.",
+                  "**What are the contract length and exit terms?** Check notice periods, and confirm you own your accounts, content and data if you leave.",
+                  "**Can I speak to two current clients?** Real references are the strongest check of all."
+              ]
+          },
+          {
+              "type": "h2",
+              "text": "What are the red flags when choosing an SEO company?"
+          },
+          {
+              "type": "p",
+              "text": "The biggest red flag is a guaranteed ranking. Google states that no one can guarantee a number one ranking, and that you should beware of anyone who claims a special relationship with Google or offers a priority submit to Google. Walk away from any of these."
+          },
+          {
+              "type": "compare",
+              "title": "Green flags and red flags",
+              "columns": [
+                  {
+                      "title": "Green flags",
+                      "tone": "good",
+                      "items": [
+                          "Asks about your customers, margins and competitors",
+                          "Shows case studies with numbers and time frames",
+                          "Explains the plan in plain English",
+                          "Reports on enquiries and sales",
+                          "Gives a realistic time frame and says what could change it",
+                          "Lets you own your accounts, content and data"
+                      ]
+                  },
+                  {
+                      "title": "Red flags",
+                      "tone": "bad",
+                      "items": [
+                          "Guarantees a number one ranking",
+                          "Claims a special relationship with Google",
+                          "Emails you out of the blue about your rankings",
+                          "Is secretive about what it will do",
+                          "Sells link packages or submission to thousands of search engines",
+                          "Wants full access before you have signed"
+                      ]
+                  }
+              ]
+          },
+          {
+              "type": "p",
+              "text": "Google adds two more warnings. Be wary of an agency that emails you out of the blue, and be careful if a company is secretive or will not clearly explain what it intends to do. Ultimately, you are responsible for the actions of anyone you hire, so deceptive tactics on your behalf can damage your site."
+          },
+          {
+              "type": "callout",
+              "variant": "warning",
+              "title": "Limit access at the audit stage",
+              "text": "If an agency offers an audit, Google advises granting read access to Search Console only at that stage, not write access. An audit should give you realistic estimates of improvement and of the work involved."
+          },
+          {
+              "type": "h2",
+              "text": "What does a good SEO company actually do for you?"
+          },
+          {
+              "type": "p",
+              "text": "A good SEO company works on three areas: your website, your content and your reputation elsewhere on the web. Ask each agency to describe all three. Google lists services such as site review, technical advice, content development, keyword research, training and optimising for generative AI."
+          },
+          {
+              "type": "image",
+              "src": "/insights/choose-seo-company-2.jpg",
+              "alt": "ChatGPT answer to how do I choose a good SEO company in the UK, with six areas to evaluate and a table covering case studies, industry knowledge, strategy, technical SEO, content, link building and reporting",
+              "caption": "ChatGPT's answer to \"How do I choose a good SEO company in the UK?\", 16 November 2026."
+          },
+          {
+              "type": "p",
+              "text": "ChatGPT, asked how to choose a UK SEO company, gave a similar list. It said the choice comes down to finding an agency that can show how its work will generate more qualified customers and revenue, not just better rankings, and it listed case studies, industry knowledge, strategy, technical SEO, content, link building and reporting as the areas to check."
+          },
+          {
+              "type": "table",
+              "head": [
+                  "Area",
+                  "What a good agency does",
+                  "What to ask to see"
+              ],
+              "rows": [
+                  [
+                      "Technical SEO",
+                      "Finds and fixes crawling, indexing and speed problems",
+                      "A sample audit with priorities"
+                  ],
+                  [
+                      "Content",
+                      "Plans pages around the questions your buyers ask",
+                      "Content plan and examples"
+                  ],
+                  [
+                      "Links and mentions",
+                      "Earns links and mentions from relevant, trusted sites",
+                      "Examples of coverage won, not bulk packages"
+                  ],
+                  [
+                      "Local and reviews",
+                      "Improves your Google Business Profile and review flow",
+                      "Profile before and after"
+                  ],
+                  [
+                      "AI search",
+                      "Checks how AI answers describe you and improves it",
+                      "An AI visibility check"
+                  ],
+                  [
+                      "Reporting",
+                      "Ties search to enquiries and sales",
+                      "A sample monthly report"
+                  ]
+              ]
+          },
+          {
+              "type": "h2",
+              "text": "How do you check an SEO agency's case studies and references?"
+          },
+          {
+              "type": "p",
+              "text": "Check three things: the result is real, it matches your situation, and the agency caused it. Ask which keywords, pages or enquiries improved, over what period, and what the agency did to achieve it. Then ask to speak to the client."
+          },
+          {
+              "type": "list",
+              "items": [
+                  {
+                      "lead": "Look for business results.",
+                      "text": "Traffic growth alone is weak evidence. Enquiries, calls, bookings or sales are stronger."
+                  },
+                  {
+                      "lead": "Check the time frame.",
+                      "text": "A claim of 300% growth means little without the starting number and the dates."
+                  },
+                  {
+                      "lead": "Match the sector.",
+                      "text": "A result in a different market or sales cycle may not apply to yours."
+                  },
+                  {
+                      "lead": "Look at their own site.",
+                      "text": "Search for the agency's own services. An agency that cannot be found for its own work may struggle to find you."
+                  },
+                  {
+                      "lead": "Call the references.",
+                      "text": "Ask past clients whether the agency was easy to work with and produced useful results, as Google suggests."
+                  }
+              ]
+          },
+          {
+              "type": "p",
+              "text": "The People Also Ask box for this search shows what buyers worry about next, including how much an SEO company costs and whether SEO is changing. Both are fair questions to put to any agency."
+          },
+          {
+              "type": "image",
+              "src": "/insights/choose-seo-company-3.jpg",
+              "alt": "Google People also ask box for the search how to find a good seo company, with questions about whether SEO is dead, the 80/20 rule in SEO, whether ChatGPT can do SEO and how much it costs to hire an SEO company",
+              "caption": "The People also ask box for \"how to find a good seo company\" on Google UK, 16 November 2026."
+          },
+          {
+              "type": "h2",
+              "text": "How do you compare SEO company proposals?"
+          },
+          {
+              "type": "p",
+              "text": "Compare proposals on the same page, using the same headings. Score each one out of five on proof, plan, reporting, communication and fit, then look at price. A cheaper proposal that cannot answer the questions above is the more expensive choice in the end."
+          },
+          {
+              "type": "table",
+              "head": [
+                  "Score each agency out of 5",
+                  "Agency A",
+                  "Agency B",
+                  "Agency C"
+              ],
+              "rows": [
+                  [
+                      "Relevant results and references",
+                      "",
+                      "",
+                      ""
+                  ],
+                  [
+                      "Clear 90-day plan",
+                      "",
+                      "",
+                      ""
+                  ],
+                  [
+                      "Reporting on enquiries and sales",
+                      "",
+                      "",
+                      ""
+                  ],
+                  [
+                      "Explains AI search work",
+                      "",
+                      "",
+                      ""
+                  ],
+                  [
+                      "Fair contract and exit terms",
+                      "",
+                      "",
+                      ""
+                  ]
+              ]
+          },
+          {
+              "type": "p",
+              "text": "Look at what the fee includes, who does the work and what happens if results are slow. Be careful of long lock-in contracts for work that cannot show progress in the first few months."
+          },
+          {
+              "type": "h2",
+              "text": "How long should it take before a good SEO company shows results?"
+          },
+          {
+              "type": "p",
+              "text": "Expect early signs in the first three months and clear business results over six to twelve months, depending on your site, your competition and your starting point. A good agency explains this range and the factors behind it. Ask them to name the first measurable changes, such as more impressions and more pages indexed, and to track them in a report you can see yourself, for example with Google Search Console and a free setup like the one in our guide to [tracking AI traffic for free](/insights/track-ai-traffic)."
+          },
+          {
+              "type": "h2",
+              "text": "How do you keep an SEO company accountable after you sign?"
+          },
+          {
+              "type": "p",
+              "text": "Own your data, meet monthly and judge the agency on business results. These five habits keep the relationship healthy."
+          },
+          {
+              "type": "steps",
+              "title": "Five habits for a good agency relationship",
+              "items": [
+                  {
+                      "title": "Keep ownership of your accounts",
+                      "text": "Set up Search Console, GA4 and your Google Business Profile under your own login and add the agency as a user."
+                  },
+                  {
+                      "title": "Agree the measures in writing",
+                      "text": "Write down the enquiry, sales and visibility measures that will define success."
+                  },
+                  {
+                      "title": "Review every month",
+                      "text": "Meet monthly, see what changed, what was done and what comes next."
+                  },
+                  {
+                      "title": "Ask for the reasoning",
+                      "text": "For each recommendation ask why it will help and how Google's guidance supports it."
+                  },
+                  {
+                      "title": "Re-check at three and six months",
+                      "text": "Compare enquiries and visibility with your baseline. If the agency cannot explain a gap, discuss it early."
+                  }
+              ]
+          },
+          {
+              "type": "p",
+              "text": "If you are weighing up whether search is still worth paying for, our guide on [whether AI will replace SEO](/insights/will-ai-replace-seo) explains what is changing and what stays the same."
+          }
+      ],
+      "faq": [
+          {
+              "q": "How do I find a good SEO company?",
+              "a": "Define your goal, shortlist three to five agencies, then check case studies, references, their 90-day plan and how they report. Choose the one that can explain its work clearly and shows results from businesses like yours."
+          },
+          {
+              "q": "What should I ask an SEO company before signing?",
+              "a": "Ask for examples of previous work, whether they follow Google Search Essentials, what results and time frame to expect, how they measure success, their experience in your industry and location, and how they will communicate and report."
+          },
+          {
+              "q": "Can an SEO company guarantee a number one ranking?",
+              "a": "No. Google states that no one can guarantee a number one ranking. Be wary of any agency that claims to, or that says it has a special relationship with Google."
+          },
+          {
+              "q": "Do I need to hire an SEO company at all?",
+              "a": "Not always. Google says a small local business can probably do much of the work itself, starting with the SEO starter guide. Hiring is most useful for a site redesign, a new site or when you lack the time or skills."
+          },
+          {
+              "q": "How can I tell if an SEO company is legitimate?",
+              "a": "Check that it has a working website of its own, real client references, clear contract terms and a plan it can explain. Be careful of unsolicited emails, secrecy and promises of guaranteed rankings."
+          },
+          {
+              "q": "How long before I see results from an SEO company?",
+              "a": "Early signs often appear within three months and clear business results within six to twelve months, depending on competition and your starting point. A good agency explains the range and what affects it."
+          },
+          {
+              "q": "Should an SEO company handle AI search as well?",
+              "a": "Yes, increasingly. Ask how it checks your visibility in Google AI Overviews and AI assistants such as ChatGPT, and whether its advice follows Google's guidance for generative AI features."
+          }
+      ]
+  },
+  {
     "slug": "ahrefs-free-alternative",
     "seoTitle": "Ahrefs Free Alternative 2027: 8 Tools Compared",
     "title": "Free Ahrefs Alternatives in 2027: Tools That Do the Job for Small Businesses",
