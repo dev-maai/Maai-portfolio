@@ -27,6 +27,417 @@ export const AUTHORS = {
    To preview drafts locally, run the dev server with INSIGHTS_PREVIEW_DRAFTS=1. */
 const ALL_POSTS = [
   {
+    "slug": "logistics-marketing",
+    "seoTitle": "Logistics Marketing 2027: How to Win More Clients",
+    "title": "Logistics Marketing in 2027: How Freight and 3PL Companies Win More Clients",
+    "description": "Logistics marketing for freight and 3PL companies in 2027: how buyers shortlist providers, a step-by-step plan, AI search visibility and how to measure results.",
+    "date": "2026-11-16",
+    "author": "team",
+    "topics": [
+      "B2B"
+    ],
+    "industries": [
+      "Logistics"
+    ],
+    "image": "/insights/logistics-marketing-banner.jpg",
+    "intro": "Most logistics sales are decided before the enquiry arrives. Buyers research online, build a shortlist and often favour a provider before they speak to anyone. Logistics marketing is the work that gets your freight or 3PL company onto that shortlist, in Google results, in AI answers and in the places buyers trust. This guide gives you a step-by-step plan, shows real examples from Google and ChatGPT, and explains how to measure what works.",
+    "tldr": [
+      "Logistics marketing gets a freight, 3PL or transport company found, trusted and chosen by shippers, in search and in AI answers.",
+      "6sense found the winning vendor was on the buyer's Day One shortlist 95% of the time, so visibility before the enquiry decides most sales.",
+      "Pew Research Center found users clicked a normal result in 8% of visits with an AI summary against 15% without.",
+      "Build one page per service and lane, complete your Google Business Profile, publish proof, and earn mentions on trade sites.",
+      "Track enquiries by source and check your AI visibility monthly."
+    ],
+    "body": [
+      {
+        "type": "h2",
+        "text": "What is logistics marketing?"
+      },
+      {
+        "type": "callout",
+        "variant": "definition",
+        "title": "Definition",
+        "text": "Logistics marketing is the work a freight, 3PL or transport company does to get found, trusted and chosen by shippers who need to move goods. It covers your website, search visibility, AI answers, reviews, LinkedIn, case studies and the way your sales team follows up. It is separate from \"marketing logistics\", which means moving marketing materials around."
+      },
+      {
+        "type": "p",
+        "text": "Most logistics buyers are not browsing. A shipper has a container stuck, a tender to run or a supplier who has let them down, and they want a short list of providers they can trust. Logistics marketing makes sure your company is on that list before anyone picks up the phone."
+      },
+      {
+        "type": "p",
+        "text": "Google's own AI Overview for the search \"logistics marketing\" shows why the term needs this clarity. It opens with the physical distribution meaning of marketing logistics, then moves to agencies. Your content has to make clear which meaning you serve."
+      },
+      {
+        "type": "image",
+        "src": "/insights/logistics-marketing-1-ai-overview.jpg",
+        "alt": "Google UK AI Overview for the search logistics marketing, defining marketing logistics as the physical flow of goods, with source cards on the right",
+        "caption": "The Google UK AI Overview for \"logistics marketing\", 16 November 2026."
+      },
+      {
+        "type": "h2",
+        "text": "Why does logistics marketing matter more in 2027?"
+      },
+      {
+        "type": "p",
+        "text": "It matters because buyers decide who is on the list before they speak to you, and AI summaries now sit between your website and the search result. If you are not visible at the research stage, you are not in the running at the quote stage."
+      },
+      {
+        "type": "p",
+        "text": "The [6sense](https://6sense.com/b2b-buyer-experience-report/) 2025 B2B Buyer Experience Report, based on nearly 4,000 buyers, found that 94% of buying groups ranked their preferred vendors before they contacted any of them, and that the eventual winner was on the buyer's Day One shortlist 95% of the time. In plain English: the sale is mostly won before the enquiry arrives."
+      },
+      {
+        "type": "image",
+        "src": "/insights/logistics-marketing-chart-6sense-shortlist.jpg",
+        "alt": "Stat card showing 95% of winning vendors were already on the buyer's Day One shortlist, from the 6sense 2025 B2B Buyer Experience Report",
+        "caption": "95% of winning vendors were already on the buyer's Day One shortlist (6sense, 2025)."
+      },
+      {
+        "type": "p",
+        "text": "Search itself has changed too. [Pew Research Center](https://www.pewresearch.org/short-reads/2025/07/22/google-users-are-less-likely-to-click-on-links-when-an-ai-summary-appears-in-the-results/) tracked 900 US adults across 68,879 Google searches in March 2025. Users clicked a traditional result in 8% of visits when an AI summary appeared and 15% when it did not."
+      },
+      {
+        "type": "image",
+        "src": "/insights/logistics-marketing-chart-pew-clicks.jpg",
+        "alt": "Columns comparing clicks on a normal Google result: 15% without an AI summary and 8% with an AI summary, from Pew Research Center",
+        "caption": "Pew Research Center found clicks on normal results fell from 15% to 8% when an AI summary showed."
+      },
+      {
+        "type": "p",
+        "text": "For your business, that means fewer casual clicks and a bigger prize for being named inside the answer. Our guides on [ranking in Google AI Overviews](/insights/how-to-rank-in-ai-overviews) and [ranking in ChatGPT](/insights/how-to-rank-in-chatgpt) cover that side in depth."
+      },
+      {
+        "type": "h2",
+        "text": "What do logistics buyers search for?"
+      },
+      {
+        "type": "p",
+        "text": "Logistics buyers search for a service plus a place, a lane or a problem: \"freight forwarder Manchester\", \"LCL shipping from China to the UK\", \"3PL for ecommerce\". Very few search for the word \"logistics\" on its own, so your pages should be built around the specific service and route."
+      },
+      {
+        "type": "p",
+        "text": "Google Trends gives a useful sense of scale. Over the five years to November 2026 in the UK, \"3pl\" averaged far higher interest than \"freight forwarder\" or \"logistics marketing\", and all three rose through 2025 and 2026. Trends shows relative interest, not search volume, so use it to compare terms rather than to forecast leads."
+      },
+      {
+        "type": "image",
+        "src": "/insights/logistics-marketing-4-google-trends.jpg",
+        "alt": "Google Trends UK, five years to November 2026, comparing freight forwarder, 3pl and logistics marketing, with 3pl highest on average",
+        "caption": "Google Trends, United Kingdom, five years to 16 November 2026."
+      },
+      {
+        "type": "p",
+        "text": "Questions matter as much as keywords. Google's People Also Ask for \"logistics marketing\" is a mix of definitions (\"What is logistic marketing?\", \"What are the 7 C's of logistics?\") and career questions. Both show readers who are still working out what the term means, which is a chance to write the clearest answer."
+      },
+      {
+        "type": "image",
+        "src": "/insights/logistics-marketing-2-people-also-ask.jpg",
+        "alt": "Google UK People Also Ask box for logistics marketing listing four questions, including what is logistic marketing and what are the 7 C's of logistics",
+        "caption": "People Also Ask for \"logistics marketing\" on Google UK, 16 November 2026."
+      },
+      {
+        "type": "h2",
+        "text": "How do you market a logistics company? A step-by-step plan"
+      },
+      {
+        "type": "p",
+        "text": "Start with the pages and profiles buyers meet first, then add proof, then add reach. Work in this order so each step has something to build on."
+      },
+      {
+        "type": "h3",
+        "text": "Step 1: Build one page for every service and lane"
+      },
+      {
+        "type": "p",
+        "text": "One strong page per service beats one long \"Our services\" page. A shipper searching for \"pallet freight to Ireland\" wants a page about exactly that."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "lead": "Name the service and the route.",
+            "text": "Put \"LCL freight from China to the UK\" or \"temperature-controlled warehousing in Leeds\" in the title, H1 and first paragraph."
+          },
+          {
+            "lead": "Answer the buyer's first questions.",
+            "text": "Cover transit times, what is included, what affects the price, documents needed and how to get a quote."
+          },
+          {
+            "lead": "Show who it is for.",
+            "text": "Say whether you suit small importers, ecommerce brands or large contract customers, so the right buyer recognises themselves."
+          },
+          {
+            "lead": "Add one clear next step.",
+            "text": "A quote form or a named contact, placed above the fold and again at the end."
+          }
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "Step 2: Claim and complete your Google Business Profile"
+      },
+      {
+        "type": "p",
+        "text": "A complete Google Business Profile puts you on the map for searches that name a place. When we searched \"freight forwarder near me Manchester\" on Google UK, the results opened with a map of local providers and a list of Places, ahead of normal links."
+      },
+      {
+        "type": "image",
+        "src": "/insights/logistics-marketing-5-map-pack.jpg",
+        "alt": "Google UK Places map for the search freight forwarder near me Manchester, showing local freight forwarding businesses and a customer review",
+        "caption": "The local Places results for \"freight forwarder near me Manchester\" on Google UK, 16 November 2026."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "lead": "Choose the right categories.",
+            "text": "Use a primary category such as Freight forwarding service, then add secondary ones for services you really offer."
+          },
+          {
+            "lead": "Ask for reviews after each job.",
+            "text": "Reviews show up in the listing and give buyers proof at a glance."
+          },
+          {
+            "lead": "Keep details identical everywhere.",
+            "text": "Use the same name, address and phone number on your website, directories and social profiles."
+          }
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "Step 3: Publish proof, not slogans"
+      },
+      {
+        "type": "p",
+        "text": "Logistics is a trust purchase. Buyers hand over valuable goods and tight deadlines, so they look for evidence you have done this before."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "lead": "Case studies.",
+            "text": "Describe the problem, what you did and the result in numbers. Only publish what the customer has approved."
+          },
+          {
+            "lead": "Process pages.",
+            "text": "Explain how a shipment moves with you from booking to delivery, including who they can call when something goes wrong."
+          },
+          {
+            "lead": "Accreditations and memberships.",
+            "text": "List the ones you hold, such as trade body memberships and customs authorisations, on a page that is easy to find."
+          },
+          {
+            "lead": "Original data.",
+            "text": "Publish something others can cite, such as transit-time ranges on your main lanes or a yearly price guide."
+          }
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "Step 4: Use LinkedIn for people, not just the company page"
+      },
+      {
+        "type": "p",
+        "text": "Buying groups are made of named people: a finance lead, an operations manager, a founder. Posts from your own team, such as dock-side lessons, customs changes and lane updates, reach them more naturally than company announcements. Keep each post about one practical point."
+      },
+      {
+        "type": "h3",
+        "text": "Step 5: Earn mentions on trade sites and comparison pages"
+      },
+      {
+        "type": "p",
+        "text": "AI assistants and Google both lean on pages that already compare providers. Get your company named in industry bodies, trade press, supplier directories and honest \"best of\" lists in your niche. Pitch useful data or a comment on a real change, such as a new customs rule, rather than asking for a link."
+      },
+      {
+        "type": "h3",
+        "text": "Step 6: Follow up fast and track the source of every enquiry"
+      },
+      {
+        "type": "p",
+        "text": "Marketing only pays if enquiries get answered. Ask every new lead how they found you, record it in your CRM and look at the totals each month."
+      },
+      {
+        "type": "h2",
+        "text": "How do you get recommended by ChatGPT and other AI assistants?"
+      },
+      {
+        "type": "p",
+        "text": "You get recommended by being easy to understand, easy to verify and mentioned in more than one trusted place. We asked ChatGPT, with web search on, for the best UK freight forwarders for small businesses importing from China. It recommended specialists that handle shared containers, customs clearance and door-to-door delivery, and it showed ratings, location and the sources it used."
+      },
+      {
+        "type": "image",
+        "src": "/insights/logistics-marketing-3-chatgpt-freight-forwarders.jpg",
+        "alt": "ChatGPT answer to the prompt best freight forwarders in the UK for small businesses shipping from China, showing a recommended specialist with rating, location and source",
+        "caption": "ChatGPT with web search on, asked for UK freight forwarders for small businesses importing from China, 16 November 2026."
+      },
+      {
+        "type": "p",
+        "text": "Look at what that answer rewarded. It picked a company that says exactly who it serves, lists the services in plain bullets and has reviews and testimonials. That is the checklist for your own pages."
+      },
+      {
+        "type": "ol",
+        "items": [
+          {
+            "text": "**Say who you serve and where.** \"Small importers shipping from China to the UK\" is easier for an AI assistant to match than \"global logistics solutions\"."
+          },
+          {
+            "text": "**Use short, direct answers.** Open each service page with a one or two sentence answer to the main question."
+          },
+          {
+            "text": "**Collect reviews and testimonials.** Assistants often quote ratings and review snippets."
+          },
+          {
+            "text": "**Keep your details consistent.** Use one company name, address and phone number across every profile."
+          },
+          {
+            "text": "**Check that crawlers can reach you.** Make sure your robots.txt and any CDN or security settings do not block search and AI crawlers."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Our [answer engine optimisation guide](/insights/answer-engine-optimisation) goes through these in more detail, and the [B2B SEO strategy](/insights/seo-for-b2b-companies) shows how they fit the wider buyer journey."
+      },
+      {
+        "type": "h2",
+        "text": "How should you split a logistics marketing budget?"
+      },
+      {
+        "type": "p",
+        "text": "Put money first into the pages and profiles that capture demand, then proof, then reach. The split below is an illustration to adapt, not a benchmark."
+      },
+      {
+        "type": "table",
+        "head": [
+          "Priority",
+          "What it covers",
+          "Why it comes in this order"
+        ],
+        "rows": [
+          [
+            "1. Capture",
+            "Service and lane pages, Google Business Profile, quote forms",
+            "Buyers who already want your service can find and contact you"
+          ],
+          [
+            "2. Proof",
+            "Case studies, reviews, accreditations, process pages",
+            "Shortlists are built on trust"
+          ],
+          [
+            "3. Reach",
+            "LinkedIn, trade press, digital PR, comparison-page mentions",
+            "Gets you onto more shortlists and into AI answers"
+          ],
+          [
+            "4. Paid",
+            "Google Ads on high-intent searches",
+            "Fills gaps while organic work builds"
+          ]
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "How do you measure logistics marketing?"
+      },
+      {
+        "type": "p",
+        "text": "Measure enquiries and the revenue they bring, then check visibility as a supporting signal. Rankings alone can rise while leads stay flat."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "lead": "Enquiries by source.",
+            "text": "Count quote requests and calls from search, AI assistants, LinkedIn, referrals and direct visits."
+          },
+          {
+            "lead": "Search Console.",
+            "text": "Track clicks and impressions for your service and lane pages."
+          },
+          {
+            "lead": "AI visibility.",
+            "text": "Run the same 20 buyer questions monthly in Google and ChatGPT and note whether you are named."
+          },
+          {
+            "lead": "Sales outcome.",
+            "text": "Record which enquiries became customers and what they were worth."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Google Search Console now includes a Generative AI features report (beta) that shows how often your pages appear in Google's AI features. In our own account it shows 158 impressions for maai.agency from 18 May to 16 November 2026. The report counts impressions only, so use it as a baseline and pair it with your own prompt checks."
+      },
+      {
+        "type": "image",
+        "src": "/insights/logistics-marketing-6-search-console-generative-ai.jpg",
+        "alt": "Google Search Console Generative AI features report for maai.agency over 12 months, showing 158 total impressions on a daily line chart",
+        "caption": "Google Search Console, Performance, Generative AI features (beta), maai.agency, 18 May to 16 November 2026."
+      },
+      {
+        "type": "p",
+        "text": "Our guides on [tracking AI traffic for free](/insights/track-ai-traffic) and [AI search monitoring tools](/insights/best-ai-search-monitoring-tools) show how to set this up."
+      },
+      {
+        "type": "h2",
+        "text": "What mistakes hold logistics marketing back?"
+      },
+      {
+        "type": "compare",
+        "title": "Common patterns",
+        "columns": [
+          {
+            "title": "Do this",
+            "tone": "good",
+            "items": [
+              "One page per service and lane",
+              "Plain language about who you serve",
+              "Case studies with real numbers",
+              "Reviews collected after every job",
+              "Enquiry source recorded every time"
+            ]
+          },
+          {
+            "title": "Avoid this",
+            "tone": "bad",
+            "items": [
+              "One generic \"Services\" page",
+              "Jargon such as \"end-to-end supply chain solutions\"",
+              "Claims with no proof",
+              "A Google profile that is half-filled",
+              "Judging success by traffic alone"
+            ]
+          }
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is logistics marketing?",
+        "a": "Logistics marketing is how a freight, 3PL or transport company gets found, trusted and chosen by shippers. It covers your website, search visibility, AI answers, reviews, LinkedIn, case studies and sales follow-up."
+      },
+      {
+        "q": "How do logistics companies get new customers?",
+        "a": "They get new customers through service and lane pages that rank in search, a complete Google Business Profile, case studies, reviews, LinkedIn activity from named people, trade mentions and referrals, then fast follow-up on every enquiry."
+      },
+      {
+        "q": "Is SEO worth it for a freight or 3PL company?",
+        "a": "Yes. Buyers research providers online before they make contact, and 6sense found the winning vendor was on the buyer's Day One shortlist 95% of the time. SEO helps put you on that shortlist."
+      },
+      {
+        "q": "Can a logistics company appear in ChatGPT answers?",
+        "a": "Yes. ChatGPT with web search recommends companies with clear service pages, reviews and mentions on other sites. State who you serve, publish proof and keep your details consistent."
+      },
+      {
+        "q": "How long does logistics marketing take to work?",
+        "a": "Paid search can produce enquiries within weeks. Organic search and AI visibility usually take several months of steady work, because pages need to be crawled, ranked and mentioned elsewhere."
+      },
+      {
+        "q": "What should a small logistics company do first?",
+        "a": "Claim your Google Business Profile, then build one strong page for your main service and lane with a clear quote form. Add reviews and one case study next."
+      }
+    ]
+  },
+  {
       "slug": "ai-overviews-trackers",
       "seoTitle": "AI Overviews Trackers 2027: Best Tools Compared",
       "title": "Best AI Overview Trackers in 2027: Tools to Monitor Your Google AI Visibility",
