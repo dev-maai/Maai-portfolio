@@ -27,6 +27,526 @@ export const AUTHORS = {
    To preview drafts locally, run the dev server with INSIGHTS_PREVIEW_DRAFTS=1. */
 const ALL_POSTS = [
   {
+      "slug": "medical-spa-marketing",
+      "seoTitle": "Medical Spa Marketing 2027: Get More Bookings",
+      "title": "Medical Spa Marketing in 2027: How Med Spas Get More Bookings from Google and AI Search",
+      "description": "Medical spa marketing for 2027: how patients choose a med spa, a 7-step plan for Google, reviews and AI answers, UK ad rules and how to measure bookings.",
+      "date": "2026-11-16",
+      "author": "team",
+      "topics": [
+          "B2C"
+      ],
+      "industries": [],
+      "image": "/insights/medical-spa-marketing-banner.jpg",
+      "intro": "Before anyone books a facial, a laser course or a consultation for skin treatments, they check who they can trust. They read reviews, look at results and ask an AI assistant. Medical spa marketing is the work that makes your med spa the clear answer at that moment. This guide gives you a step-by-step plan, real examples from Google and ChatGPT, the UK advertising rules you must follow and a way to measure bookings.",
+      "tldr": [
+          "Medical spa marketing gets a med spa found, trusted and booked through Google, reviews, proof and AI answers.",
+          "The Professional Standards Authority found 36% of people seeking non-surgical treatments are influenced by five-star reviews.",
+          "UK patients search for treatments and places far more than the words \"med spa\", so build one page per treatment and area.",
+          "Prescription-only medicines such as Botox cannot be advertised to the public in the UK, so promote consultations instead.",
+          "Track booked consultations by source and check your AI visibility monthly."
+      ],
+      "body": [
+          {
+              "type": "h2",
+              "text": "What is medical spa marketing?"
+          },
+          {
+              "type": "callout",
+              "variant": "definition",
+              "title": "Definition",
+              "text": "Medical spa marketing is the work a med spa does to get found, trusted and booked by people who want treatments such as skin rejuvenation, injectables, laser, body contouring or facials. It covers your website, Google Business Profile, reviews, before and after content, AI answers, social media and the way your team handles every enquiry, all within UK advertising rules."
+          },
+          {
+              "type": "p",
+              "text": "A med spa sits between a clinic and a salon. Patients expect clinical skill and a calm, premium experience, and they judge both before they ever phone you. That makes medical spa marketing a trust job first and a traffic job second."
+          },
+          {
+              "type": "p",
+              "text": "Google's own AI Overview for \"medical spa marketing\" says the same thing. It describes the work as blending clinical trust with a high-end retail experience, then lists local search and Google Business Profile first. For general healthcare marketing across doctors and clinics, our guide to [digital marketing for doctors](/insights/digital-marketing-for-doctors) covers the wider picture. This guide stays on med spas."
+          },
+          {
+              "type": "image",
+              "src": "/insights/medical-spa-marketing-1-ai-overview.jpg",
+              "alt": "Google UK AI Overview for the search medical spa marketing, saying it blends clinical trust with high-end retail experience and listing local SEO and Google Business Profile first",
+              "caption": "The Google UK AI Overview for \"medical spa marketing\", 16 November 2026."
+          },
+          {
+              "type": "h2",
+              "text": "Why does medical spa marketing matter more in 2027?"
+          },
+          {
+              "type": "p",
+              "text": "It matters because patients choose a med spa on trust signals they can check online, and AI summaries now sit between your website and the search result. If your reviews, proof and profile are weak, you lose the booking before anyone visits your site."
+          },
+          {
+              "type": "p",
+              "text": "The [Professional Standards Authority](https://www.professionalstandards.org.uk/node/1857) commissioned Censuswide to survey 1,000 UK adults in June and July 2026. Among people seeking Botox, fillers or other non-surgical cosmetic treatments, 36% said five-star reviews influence them, and 29% said they rely on before and after photos or testimonials on social media."
+          },
+          {
+              "type": "image",
+              "src": "/insights/medical-spa-marketing-chart-psa-reviews.jpg",
+              "alt": "Stat card showing 36% of UK adults seeking non-surgical cosmetic treatments say five-star reviews influence them, from the Professional Standards Authority and Censuswide, July 2026",
+              "caption": "36% of people seeking non-surgical treatments say five-star reviews influence them (Professional Standards Authority, 2026)."
+          },
+          {
+              "type": "p",
+              "text": "Search has changed too. [Pew Research Center](https://www.pewresearch.org/short-reads/2025/07/22/google-users-are-less-likely-to-click-on-links-when-an-ai-summary-appears-in-the-results/) tracked 900 US adults across 68,879 Google searches in March 2025. Users clicked a traditional result in 8% of visits when an AI summary appeared and 15% when it did not."
+          },
+          {
+              "type": "image",
+              "src": "/insights/medical-spa-marketing-chart-pew-clicks.jpg",
+              "alt": "Columns comparing clicks on a normal Google result: 15% without an AI summary and 8% with an AI summary, from Pew Research Center",
+              "caption": "Clicks on normal results fell from 15% to 8% when an AI summary showed (Pew Research Center, 2025)."
+          },
+          {
+              "type": "p",
+              "text": "For your med spa, that means fewer casual clicks and a bigger prize for being named inside the answer. Our guides on [ranking in Google AI Overviews](/insights/how-to-rank-in-ai-overviews) and [ranking in ChatGPT](/insights/how-to-rank-in-chatgpt) explain how that works."
+          },
+          {
+              "type": "h2",
+              "text": "How do patients choose a med spa?"
+          },
+          {
+              "type": "p",
+              "text": "Patients choose a med spa by checking three things: whether other patients trust it, who will perform the treatment and how qualified they are, and whether the results look real. We asked ChatGPT with web search the same question and it gave the same three answers."
+          },
+          {
+              "type": "image",
+              "src": "/insights/medical-spa-marketing-5-chatgpt.jpg",
+              "alt": "ChatGPT answer to the question what are the top 3 things people check before choosing a med spa or aesthetic clinic in the UK, listing reviews, practitioner qualifications and before and after results",
+              "caption": "ChatGPT with web search, 16 November 2026. The prompt did not mention MAAI or any clinic."
+          },
+          {
+              "type": "p",
+              "text": "Your marketing has to answer each of those checks in plain sight:"
+          },
+          {
+              "type": "list",
+              "items": [
+                  {
+                      "lead": "Trust and reputation.",
+                      "text": "Show your Google rating, review count and real patient comments on your site and profile."
+                  },
+                  {
+                      "lead": "Practitioner qualifications.",
+                      "text": "Name every practitioner, their registration and their training on the treatment page, not on a hidden team page."
+                  },
+                  {
+                      "lead": "Visible results.",
+                      "text": "Publish consented before and after photos and explain the treatment, the number of sessions and what is realistic."
+                  }
+              ]
+          },
+          {
+              "type": "h3",
+              "text": "What do the top local results look like?"
+          },
+          {
+              "type": "p",
+              "text": "The top local results for a treatment search are dominated by clinics with hundreds or thousands of reviews. For \"botox clinic london\" on Google UK, the three clinics in the local results had between 916 and 1,700 reviews and ratings of 4.9 to 5.0."
+          },
+          {
+              "type": "table",
+              "head": [
+                  "Clinic (Google UK local results)",
+                  "Rating",
+                  "Reviews"
+              ],
+              "rows": [
+                  [
+                      "Harley Street Dermal",
+                      "5.0",
+                      "1.7k"
+                  ],
+                  [
+                      "Harley Street Injectables",
+                      "4.9",
+                      "1.2k"
+                  ],
+                  [
+                      "Dermis Clinics",
+                      "5.0",
+                      "916"
+                  ]
+              ]
+          },
+          {
+              "type": "p",
+              "text": "We checked this on 16 November 2026. Review volume and a high rating go together in the results that win the most bookings, so a steady review routine is not optional. We cover the routine in step 3 below."
+          },
+          {
+              "type": "h2",
+              "text": "What do people search for before booking a med spa?"
+          },
+          {
+              "type": "p",
+              "text": "People search for the treatment and the place, not for the words \"med spa\". Google Trends for the United Kingdom over five years shows \"botox\" and \"lip filler\" far above \"med spa\", which barely registers. The label that is common in the US is not how most UK patients look for you."
+          },
+          {
+              "type": "image",
+              "src": "/insights/medical-spa-marketing-4-google-trends.jpg",
+              "alt": "Google Trends UK, five years to November 2026, comparing botox, lip filler and med spa, with botox highest, lip filler lower and med spa close to zero",
+              "caption": "Google Trends, United Kingdom, five years to 16 November 2026. Trends shows relative interest, not search volume."
+          },
+          {
+              "type": "p",
+              "text": "Questions matter too. Google's People Also Ask for \"medical spa marketing\" includes \"How to market a medical spa?\", \"What are the current trends in the med spa industry?\" and \"How to get clients for Med spa?\". Those are the questions owners ask. Patients ask different ones, such as \"is it safe\", \"how long does it last\" and \"how much does it cost\", so answer those on your treatment pages."
+          },
+          {
+              "type": "image",
+              "src": "/insights/medical-spa-marketing-2-people-also-ask.jpg",
+              "alt": "Google UK People Also Ask box for medical spa marketing with four questions including how to market a medical spa and how to get clients for med spa",
+              "caption": "Google UK People Also Ask for \"medical spa marketing\", 16 November 2026."
+          },
+          {
+              "type": "p",
+              "text": "Use both terms. Put the treatment and location in your page titles and headings, and use \"medical spa\" or \"med spa\" where it describes your business, because that is also how US-style directories and AI answers describe it."
+          },
+          {
+              "type": "h2",
+              "text": "What are the UK advertising rules for medical spa marketing?"
+          },
+          {
+              "type": "p",
+              "text": "The biggest rule is that prescription-only medicines cannot be advertised to the public in the UK. That includes botulinum toxin, so a med spa cannot promote \"Botox\" in an advert, and the Advertising Standards Authority (ASA) treats indirect references as a breach too."
+          },
+          {
+              "type": "p",
+              "text": "In its ruling on Therapie Clinic's Facebook ad, summarised by the [Joint Council for Cosmetic Practitioners](https://jccp.org.uk/NewsEvent/asa-ruling-on-therapie-clinic-uks-facebook-ad-advertising-prescription-only-medicines-to-the-public), the ASA found that a \"Cosmetic Injections\" offer indirectly advertised a prescription-only medicine because the treatments were mainly botulinum toxin injections. The ASA has also ruled against ads that used the phrase \"anti-wrinkle injection\" as a stand-in."
+          },
+          {
+              "type": "image",
+              "src": "/insights/medical-spa-marketing-6-asa-guidance.jpg",
+              "alt": "ASA and CAP guidance page on the marketing of surgical and non-surgical cosmetic procedures, noting rules that stop cosmetic intervention ads being targeted at under-18s",
+              "caption": "The ASA and CAP guidance on marketing cosmetic procedures, captured 16 November 2026."
+          },
+          {
+              "type": "p",
+              "text": "The same [ASA and CAP guidance](https://www.asa.org.uk/advice-online/cosmetic-interventions.html) covers exaggerated or unrealistic claims, including through before and after images, and the use of titles such as \"surgeon\". CAP Code rule 12.25 also bans targeting cosmetic intervention ads at under-18s, so check your paid social audience settings."
+          },
+          {
+              "type": "compare",
+              "title": "Safer and riskier ways to advertise injectables",
+              "columns": [
+                  {
+                      "title": "Safer",
+                      "tone": "good",
+                      "items": [
+                          "Promote a consultation with a prescriber",
+                          "Describe the concern, such as frown lines, rather than a named prescription medicine",
+                          "Use real, consented before and after photos with a fair caption",
+                          "Name the qualified practitioner and their registration"
+                      ]
+                  },
+                  {
+                      "title": "Riskier",
+                      "tone": "bad",
+                      "items": [
+                          "Naming Botox or another prescription-only medicine in an advert",
+                          "Offers such as \"3 areas for a set price\" that point to a prescription medicine",
+                          "Edited or filtered results photos",
+                          "Targeting paid social at under-18s"
+                      ]
+                  }
+              ]
+          },
+          {
+              "type": "callout",
+              "variant": "warning",
+              "title": "Check before you publish",
+              "text": "This is a marketing guide, not legal advice. Your treatment pages and organic content also need care, so ask your prescriber and your insurer, and read the current ASA and CAP guidance, before you publish any injectables content."
+          },
+          {
+              "type": "h2",
+              "text": "How to market a medical spa: step by step"
+          },
+          {
+              "type": "p",
+              "text": "The plan below follows the way patients decide: be found, be trusted, be easy to book. Do the steps in order, because later steps depend on the earlier ones."
+          },
+          {
+              "type": "h3",
+              "text": "Step 1: Build one page for every treatment"
+          },
+          {
+              "type": "p",
+              "text": "One strong page per treatment beats one long \"Services\" page. A patient searching for \"microneedling in Leeds\" wants a page about exactly that."
+          },
+          {
+              "type": "list",
+              "items": [
+                  {
+                      "lead": "Name the treatment and the place.",
+                      "text": "Put \"microneedling in Leeds\" in the title, H1 and first paragraph."
+                  },
+                  {
+                      "lead": "Answer the first questions.",
+                      "text": "Cover who it suits, how it works, sessions needed, downtime, risks, aftercare and a price guide."
+                  },
+                  {
+                      "lead": "Show the practitioner.",
+                      "text": "Add the name, registration and a short bio of the person who will treat the patient."
+                  },
+                  {
+                      "lead": "Add a booking button.",
+                      "text": "Make the next step obvious on every page, with a short form or booking calendar."
+                  }
+              ]
+          },
+          {
+              "type": "h3",
+              "text": "Step 2: Complete your Google Business Profile"
+          },
+          {
+              "type": "p",
+              "text": "Your Google Business Profile is the main way local patients find you, and it is the first item Google's AI Overview lists for med spa marketing. Complete every section and keep it current."
+          },
+          {
+              "type": "image",
+              "src": "/insights/medical-spa-marketing-3-map-pack.jpg",
+              "alt": "Google UK local results for botox clinic london showing three clinics with ratings between 4.9 and 5.0 and between 916 and 1.7k reviews, plus a map",
+              "caption": "Google UK local results for \"botox clinic london\", 16 November 2026."
+          },
+          {
+              "type": "list",
+              "items": [
+                  {
+                      "lead": "Choose the right categories.",
+                      "text": "Pick a main category that matches your core service and add secondary ones for other treatments."
+                  },
+                  {
+                      "lead": "List every treatment.",
+                      "text": "Add each service with a plain description, avoiding prescription medicine names in anything promotional."
+                  },
+                  {
+                      "lead": "Upload real photos.",
+                      "text": "Show the reception, treatment rooms and team. Skip stock images."
+                  },
+                  {
+                      "lead": "Post updates.",
+                      "text": "Share offers on non-prescription treatments, events and new equipment."
+                  }
+              ]
+          },
+          {
+              "type": "p",
+              "text": "Our [Google My Business guide for self storage](/insights/google-my-business-self-storage) walks through map ranking factors in detail. The same factors apply to a med spa."
+          },
+          {
+              "type": "h3",
+              "text": "Step 3: Collect reviews after every treatment"
+          },
+          {
+              "type": "p",
+              "text": "Reviews are the strongest trust signal in the data above, so ask for one from every happy patient while the result is fresh."
+          },
+          {
+              "type": "list",
+              "items": [
+                  {
+                      "lead": "Ask the same day.",
+                      "text": "Send a text with your Google review link within a few hours of the appointment."
+                  },
+                  {
+                      "lead": "Reply to every review.",
+                      "text": "Thank patients and respond calmly to criticism without sharing any health detail."
+                  },
+                  {
+                      "lead": "Never buy or filter reviews.",
+                      "text": "Fake or gated reviews break platform rules and damage trust."
+                  }
+              ]
+          },
+          {
+              "type": "h3",
+              "text": "Step 4: Publish proof that patients can check"
+          },
+          {
+              "type": "p",
+              "text": "Proof turns a browser into a booking. Use consented before and after photos, patient stories with permission, practitioner credentials and accreditations."
+          },
+          {
+              "type": "p",
+              "text": "The Professional Standards Authority accredits voluntary registers of practitioners, and the Save Face register is one example. Ask your practitioners which registers they belong to and show the logos and links on your site."
+          },
+          {
+              "type": "h3",
+              "text": "Step 5: Build local pages and local mentions"
+          },
+          {
+              "type": "p",
+              "text": "If you serve more than one area, build a page for each. A med spa in a city centre attracts patients from several neighbourhoods, and a page for each helps Google and AI assistants match you to the right search."
+          },
+          {
+              "type": "list",
+              "items": [
+                  {
+                      "lead": "Write for the area.",
+                      "text": "Mention travel, parking and nearby landmarks in plain language."
+                  },
+                  {
+                      "lead": "Earn local mentions.",
+                      "text": "Local magazines, wedding and events suppliers, gyms and wellness businesses can mention or link to you."
+                  },
+                  {
+                      "lead": "Keep details consistent.",
+                      "text": "Use one name, address and phone number on every profile and directory."
+                  }
+              ]
+          },
+          {
+              "type": "h3",
+              "text": "Step 6: Show up in AI answers"
+          },
+          {
+              "type": "p",
+              "text": "AI assistants recommend med spas that have clear treatment pages, strong reviews and mentions on other sites. Answer common questions in the first two sentences of each page and keep your facts consistent."
+          },
+          {
+              "type": "list",
+              "items": [
+                  {
+                      "lead": "Write answer-first.",
+                      "text": "Open each treatment page with a direct answer, then add detail."
+                  },
+                  {
+                      "lead": "Name who you treat and where.",
+                      "text": "\"Skin rejuvenation for adults in Bristol\" is easier to match than \"premium aesthetics\"."
+                  },
+                  {
+                      "lead": "Keep content fresh.",
+                      "text": "Update prices, practitioners and treatment details when they change."
+                  }
+              ]
+          },
+          {
+              "type": "p",
+              "text": "Our guides on [ranking in ChatGPT](/insights/how-to-rank-in-chatgpt) and [ranking in Google AI Overviews](/insights/how-to-rank-in-ai-overviews) give the full method."
+          },
+          {
+              "type": "h3",
+              "text": "Step 7: Make booking easy and follow up fast"
+          },
+          {
+              "type": "p",
+              "text": "Many med spa bookings are lost after the click. Patients message several clinics, so the first useful reply often wins."
+          },
+          {
+              "type": "list",
+              "items": [
+                  {
+                      "lead": "Offer instant booking.",
+                      "text": "Let patients book a consultation online at any hour."
+                  },
+                  {
+                      "lead": "Reply quickly.",
+                      "text": "Aim to answer every enquiry within an hour in opening hours."
+                  },
+                  {
+                      "lead": "Follow up.",
+                      "text": "Send a reminder and a short aftercare message, then invite a review."
+                  }
+              ]
+          },
+          {
+              "type": "h2",
+              "text": "How do you measure medical spa marketing?"
+          },
+          {
+              "type": "p",
+              "text": "You measure medical spa marketing by counting booked consultations and treatments by source, not just visits. Set up tracking before you spend, so you can see which channel brings patients."
+          },
+          {
+              "type": "table",
+              "head": [
+                  "What to track",
+                  "Where to find it",
+                  "What it tells you"
+              ],
+              "rows": [
+                  [
+                      "Consultation bookings by source",
+                      "Your booking system and GA4",
+                      "Which channels bring real patients"
+                  ],
+                  [
+                      "Google Business Profile calls, directions and website clicks",
+                      "Business Profile performance",
+                      "How many local patients act on your listing"
+                  ],
+                  [
+                      "Impressions and clicks for treatment pages",
+                      "Google Search Console",
+                      "Which treatments are found in search"
+                  ],
+                  [
+                      "Review count and rating",
+                      "Google Business Profile",
+                      "Whether trust is growing"
+                  ],
+                  [
+                      "Mentions in AI answers",
+                      "Monthly manual checks in ChatGPT and Google",
+                      "Whether assistants recommend you"
+                  ]
+              ]
+          },
+          {
+              "type": "p",
+              "text": "Our guide to [tracking AI traffic for free](/insights/track-ai-traffic) shows how to set up GA4 and Search Console, and the [SEO report template](/insights/seo-report-template) shows what a monthly report should contain."
+          },
+          {
+              "type": "h2",
+              "text": "How much should a med spa spend on marketing?"
+          },
+          {
+              "type": "p",
+              "text": "There is no standard figure, so work backwards from the patients you want. This worked example is illustrative, not a benchmark."
+          },
+          {
+              "type": "callout",
+              "variant": "tip",
+              "title": "Illustrative example",
+              "text": "Suppose you want 20 new consultations a month and 1 in 2 consultations books a treatment. If your website turns 5 in every 100 visitors into an enquiry, you need about 400 visits a month. If your Google profile and reviews turn some of that into direct calls, you need fewer. Change the numbers to your own and the budget follows."
+          },
+          {
+              "type": "h2",
+              "text": "How long does medical spa marketing take to work?"
+          },
+          {
+              "type": "p",
+              "text": "Fixing your Google Business Profile and collecting reviews can lift enquiries within weeks. New treatment pages and local mentions usually take several months to build rankings, and AI visibility follows the same pattern because assistants favour pages that already rank and are mentioned elsewhere."
+          }
+      ],
+      "faq": [
+          {
+              "q": "What is medical spa marketing?",
+              "a": "Medical spa marketing is how a med spa gets found, trusted and booked by people who want aesthetic treatments. It covers your website, Google Business Profile, reviews, proof, AI answers and booking follow-up, all within UK advertising rules."
+          },
+          {
+              "q": "How do med spas get more clients?",
+              "a": "They get more clients through treatment and location pages that rank in search, a complete Google Business Profile, a steady flow of reviews, consented before and after proof and fast follow-up on every enquiry."
+          },
+          {
+              "q": "Can a med spa advertise Botox in the UK?",
+              "a": "No. Botox is a prescription-only medicine and the ASA does not allow it to be advertised to the public, including indirectly. A med spa can promote consultations without naming the medicine. Check current ASA and CAP guidance before publishing."
+          },
+          {
+              "q": "Do reviews matter for a med spa?",
+              "a": "Yes. The Professional Standards Authority found 36% of people seeking Botox, fillers or other non-surgical treatments said five-star reviews influence them, and the top local results for a treatment search have hundreds or thousands of reviews."
+          },
+          {
+              "q": "Can a med spa appear in ChatGPT and Google AI answers?",
+              "a": "Yes. AI assistants recommend med spas with clear treatment pages, strong reviews and mentions elsewhere. State who you treat and where, keep your details consistent and check the answers monthly."
+          },
+          {
+              "q": "How long does medical spa marketing take to work?",
+              "a": "Profile fixes and reviews can show results in weeks. Treatment pages, local mentions and AI visibility usually take several months of steady work."
+          }
+      ]
+  },
+  {
     "slug": "seo-report-template",
     "seoTitle": "SEO Report Template 2027: What to Include Each Month",
     "title": "SEO Report Template: What a Good Monthly SEO Report Should Show in 2027",
