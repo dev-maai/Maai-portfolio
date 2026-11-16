@@ -27,6 +27,337 @@ export const AUTHORS = {
    To preview drafts locally, run the dev server with INSIGHTS_PREVIEW_DRAFTS=1. */
 const ALL_POSTS = [
   {
+    "slug": "ahrefs-free-alternative",
+    "seoTitle": "Ahrefs Free Alternative 2027: 8 Tools Compared",
+    "title": "Free Ahrefs Alternatives in 2027: Tools That Do the Job for Small Businesses",
+    "description": "Ahrefs free alternative for 2027: the free tools for keywords, backlinks, rank tracking and site audits, their limits, a 5-step stack and what they miss.",
+    "date": "2026-11-16",
+    "author": "team",
+    "topics": [
+      "SEO - Begins"
+    ],
+    "industries": [],
+    "image": "/insights/ahrefs-free-alternative-banner.jpg",
+    "intro": "Ahrefs is one of the most respected SEO tools, and its paid plans start at $29 a month and climb to $449. If you run a small business, you may wonder whether a free Ahrefs alternative can do the job. For most owners it can, if you know which free tool to open for which task. This guide covers the best free Ahrefs alternatives for 2027, the limits of each, a five-step setup and what free tools cannot do.",
+    "tldr": [
+      "There is no single free Ahrefs alternative, but five free tools together cover most small business needs.",
+      "Google Search Console shows your real clicks, impressions and positions for free.",
+      "Ahrefs Webmaster Tools, Bing Webmaster Tools and Screaming Frog cover backlinks and technical checks on your own site.",
+      "Free tools show little about competitors, so use paid tools only when you need rival data or AI search tracking.",
+      "Set the stack up once, then spend about an hour a month on it."
+    ],
+    "body": [
+      {
+        "type": "h2",
+        "text": "Is there a free alternative to Ahrefs?"
+      },
+      {
+        "type": "p",
+        "text": "Yes. No single free tool replaces Ahrefs, but a small set of free tools covers most of what a small business needs: Google Search Console for rankings and clicks, Bing Webmaster Tools for backlinks, Ahrefs Webmaster Tools for your own site's health, Screaming Frog for technical checks and Google Keyword Planner for keyword ideas."
+      },
+      {
+        "type": "p",
+        "text": "Google's AI Overview for \"ahrefs free alternative\" gives the same short list: open-source tools, Semrush's limited free tier, Mangools, SpyFu and the free tools Ahrefs itself offers. The difference for a business owner is knowing which one to open for which job."
+      },
+      {
+        "type": "image",
+        "src": "/insights/ahrefs-free-alternative-1.jpg",
+        "alt": "Google UK AI Overview for the search ahrefs free alternative, listing OpenSEO, Semrush, Mangools, SpyFu and the free Ahrefs tools as top free and freemium alternatives",
+        "caption": "The Google UK AI Overview for \"ahrefs free alternative\", 16 November 2026."
+      },
+      {
+        "type": "callout",
+        "variant": "definition",
+        "title": "Definition",
+        "text": "An Ahrefs free alternative is any free or freemium SEO tool that does one or more of the jobs Ahrefs does: keyword research, backlink checking, rank tracking, site audits and competitor research. Most are free forever for your own website and limited for anyone else's."
+      },
+      {
+        "type": "h2",
+        "text": "What does Ahrefs cost, and what do you actually need from it?"
+      },
+      {
+        "type": "p",
+        "text": "Ahrefs paid plans on its pricing page run from Starter at $29 a month to Lite at $129, Standard at $249 and Advanced at $449. Before you replace it, write down which of its jobs you use. Most small businesses use three: seeing which searches bring visitors, checking who links to them and finding technical problems."
+      },
+      {
+        "type": "image",
+        "src": "/insights/ahrefs-free-alternative-2.jpg",
+        "alt": "Column chart of Ahrefs monthly plan prices: Starter $29, Lite $129 and Standard $249",
+        "caption": "Ahrefs monthly plan prices, from its pricing page, 16 November 2026. The Advanced plan is $449."
+      },
+      {
+        "type": "p",
+        "text": "The chart shows where the price jumps. The jump from $29 to $129 between Starter and Lite is the moment many owners start searching for free options."
+      },
+      {
+        "type": "stats",
+        "title": "Free limits that matter, 16 November 2026",
+        "items": [
+          {
+            "value": "5,000",
+            "label": "monthly crawl credits per verified project in Ahrefs Webmaster Tools"
+          },
+          {
+            "value": "1,000",
+            "label": "backlinks and keywords shown in the free Site Explorer"
+          },
+          {
+            "value": "500",
+            "label": "URLs crawled in the free Screaming Frog SEO Spider"
+          },
+          {
+            "value": "10",
+            "label": "reports a day on the Semrush free plan"
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Limits change, so check each vendor's page before you build a routine around one. The numbers above come from the tools' own pages on 16 November 2026."
+      },
+      {
+        "type": "h2",
+        "text": "What are the best free Ahrefs alternatives in 2027?"
+      },
+      {
+        "type": "p",
+        "text": "We asked ChatGPT the same question a small business owner would, with web search on. It ranked Google Search Console first, then Bing Webmaster Tools, Semrush, Screaming Frog, Ahrefs Webmaster Tools, Ubersuggest, Seobility and Google Keyword Planner, and warned that no one tool does everything."
+      },
+      {
+        "type": "image",
+        "src": "/insights/ahrefs-free-alternative-3.jpg",
+        "alt": "ChatGPT answer to the best free alternatives to Ahrefs for a small business, with a table of tools, what each is best for and its free access",
+        "caption": "ChatGPT's answer to \"What are the best free alternatives to Ahrefs for a small business?\", 16 November 2026."
+      },
+      {
+        "type": "p",
+        "text": "We agree with most of that list. Here is what each tool does for you and where it stops."
+      },
+      {
+        "type": "h3",
+        "text": "Is Google Search Console a good free alternative to Ahrefs?"
+      },
+      {
+        "type": "p",
+        "text": "Yes, for your own site it is better than Ahrefs on one thing: it shows real data straight from Google. You see the clicks, impressions, click-through rate and average position for every query and page on a site you have verified. It cannot show competitors."
+      },
+      {
+        "type": "image",
+        "src": "/insights/ahrefs-free-alternative-4.jpg",
+        "alt": "Google Search Console Performance report for maai.agency over three months showing 27 clicks, 3.49k impressions, 0.8% click-through rate and average position 39.1",
+        "caption": "A Search Console Performance report for maai.agency, three months to 14 November 2026. Impressions climb sharply in November as new posts are indexed."
+      },
+      {
+        "type": "p",
+        "text": "Our own site is a fair example. Over three months it recorded 27 clicks from 3.49 thousand impressions, a click-through rate of 0.8% and an average position of 39.1. That tells us pages are being shown and are not yet ranking high enough to earn clicks, which is a job for better content, not for a bigger tool. For the AI side of Search Console and GA4, see our guide to [tracking AI traffic for free](/insights/track-ai-traffic)."
+      },
+      {
+        "type": "h3",
+        "text": "Does Bing Webmaster Tools replace the Ahrefs backlink checker?"
+      },
+      {
+        "type": "p",
+        "text": "Partly. Bing Webmaster Tools is free and includes a backlinks report for your own verified site, keyword research and site scans. It gives you a second search engine's view, and it matters more now because some AI assistants use Bing's index."
+      },
+      {
+        "type": "h3",
+        "text": "What does Ahrefs Webmaster Tools give you for free?"
+      },
+      {
+        "type": "p",
+        "text": "Ahrefs Webmaster Tools gives you Site Audit, Site Explorer and Web Analytics on websites you have verified. Site Audit allows 5,000 crawl credits per verified project a month, and Site Explorer shows up to 1,000 backlinks and keywords at a time. It is the closest free taste of Ahrefs, for your own sites only."
+      },
+      {
+        "type": "h3",
+        "text": "Can Screaming Frog replace Ahrefs Site Audit?"
+      },
+      {
+        "type": "p",
+        "text": "For sites up to 500 URLs, yes. The free Screaming Frog SEO Spider crawls a site on your computer and lists broken links, redirects, missing titles and meta descriptions, duplicate headings and canonical problems. Bigger sites need the paid licence, listed at 245 euros a year."
+      },
+      {
+        "type": "h3",
+        "text": "Is Google Keyword Planner free?"
+      },
+      {
+        "type": "p",
+        "text": "Yes, but you need a Google Ads account, and without active ad spend it can show volumes as broad ranges. Use it to compare phrases rather than to quote exact numbers. Pair it with Google Trends, which is free and shows whether interest in a phrase is rising or falling."
+      },
+      {
+        "type": "h3",
+        "text": "Is the Semrush free plan enough?"
+      },
+      {
+        "type": "p",
+        "text": "It is enough to try the tool and run a few competitor checks. The free plan gives you one demo project and 10 reports a day across its main tools, so plan your research in short, focused sessions."
+      },
+      {
+        "type": "image",
+        "src": "/insights/ahrefs-free-alternative-5.jpg",
+        "alt": "Google People also ask box for the search ahrefs free alternative, with questions about free alternatives, a free Ahrefs, the top five free SEO tools and Ubersuggest",
+        "caption": "The People also ask box for \"ahrefs free alternative\" on Google UK, 16 November 2026."
+      },
+      {
+        "type": "p",
+        "text": "The People also ask box shows what people want next: whether a free Ahrefs exists, which five free SEO tools to use and whether Ubersuggest is free. The honest answers are in this guide: a free Ahrefs exists for your own sites, and Ubersuggest and similar tools offer limited free use."
+      },
+      {
+        "type": "h2",
+        "text": "Which free tool replaces which Ahrefs feature?"
+      },
+      {
+        "type": "p",
+        "text": "Match each Ahrefs job to the free tool that does it best. This table is the quickest way to choose."
+      },
+      {
+        "type": "table",
+        "head": [
+          "Ahrefs job",
+          "Free tool to use",
+          "What you give up"
+        ],
+        "rows": [
+          [
+            "Keyword research",
+            "Google Keyword Planner and Google Trends",
+            "Exact volumes and keyword difficulty scores"
+          ],
+          [
+            "Rank tracking",
+            "Google Search Console",
+            "Competitor rankings and daily tracking"
+          ],
+          [
+            "Backlink checking",
+            "Bing Webmaster Tools and Ahrefs Webmaster Tools",
+            "Other people's backlinks, apart from a small sample"
+          ],
+          [
+            "Site audit",
+            "Screaming Frog (500 URLs) or Ahrefs Webmaster Tools",
+            "Scheduled crawls on large sites"
+          ],
+          [
+            "Competitor research",
+            "Semrush free plan (10 reports a day)",
+            "Full competitor keyword and traffic history"
+          ]
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "How do you build a free SEO stack step by step?"
+      },
+      {
+        "type": "p",
+        "text": "Set the stack up once, then run it as a short monthly routine. Start with the two verification steps, because every other free tool depends on them."
+      },
+      {
+        "type": "steps",
+        "title": "Build the free stack in five steps",
+        "items": [
+          {
+            "title": "Verify your site in Google Search Console",
+            "text": "Add your domain and verify it with a DNS record. Data starts to build from the day you verify, so do this first.",
+            "path": "Search Console > Add property > Domain"
+          },
+          {
+            "title": "Import it into Bing Webmaster Tools",
+            "text": "Sign in and import your site from Google Search Console, which copies your verification and sitemaps in one go.",
+            "path": "Bing Webmaster Tools > Import your sites from GSC"
+          },
+          {
+            "title": "Verify the same site in Ahrefs Webmaster Tools",
+            "text": "Confirm ownership of the site during setup, then start a Site Audit.",
+            "path": "Ahrefs Webmaster Tools > Add project"
+          },
+          {
+            "title": "Crawl your site with Screaming Frog",
+            "text": "Enter your address, run the crawl and export the broken links and missing titles to fix first."
+          },
+          {
+            "title": "Pick your keywords",
+            "text": "Use Keyword Planner for phrases and Google Trends for direction. Then check the real results on Google for what already ranks and what people also ask."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Keep a one-page record each month: clicks and impressions from Search Console, new backlinks from Bing and Ahrefs Webmaster Tools, and the number of crawl errors fixed. Our [SEO report template](/insights/seo-report-template) shows how to lay that out."
+      },
+      {
+        "type": "h2",
+        "text": "What do free Ahrefs alternatives miss?"
+      },
+      {
+        "type": "p",
+        "text": "Free tools miss competitor depth. You cannot see a rival's full backlink profile, their keyword history or a full content gap, and Google's volumes in Keyword Planner are broad. If you manage several sites, the crawl and report limits will also slow you down."
+      },
+      {
+        "type": "compare",
+        "title": "Free stack or paid tool?",
+        "columns": [
+          {
+            "title": "The free stack works when",
+            "tone": "good",
+            "items": [
+              "You run one to three websites",
+              "You mainly need your own clicks, links and technical fixes",
+              "You can spend an hour a month on the routine"
+            ]
+          },
+          {
+            "title": "Consider a paid plan when",
+            "tone": "bad",
+            "items": [
+              "You need rival backlinks, keyword history or content gaps",
+              "You manage many sites or clients",
+              "You need AI search visibility tracked at scale"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "AI search is the newest gap. Search Console shows some Google AI feature data, but it does not track your brand across ChatGPT and other assistants. For that, compare the options in our guides to [AI overview trackers](/insights/ai-overviews-trackers) and [AI search monitoring tools](/insights/best-ai-search-monitoring-tools)."
+      },
+      {
+        "type": "h2",
+        "text": "How should you measure whether the free stack is working?"
+      },
+      {
+        "type": "p",
+        "text": "Measure movement in Search Console, not tool scores. Track total clicks, impressions, average position and the number of pages with impressions each month. If impressions rise but clicks do not, improve titles and content before you spend money on tools. Our guide to the [SEO visibility score](/insights/seo-visibility-score) explains how to read these trends."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Is there a free alternative to Ahrefs?",
+        "a": "Yes. Google Search Console, Bing Webmaster Tools, Ahrefs Webmaster Tools, Screaming Frog and Google Keyword Planner together cover most small business needs. None shows full competitor data."
+      },
+      {
+        "q": "Is there a free Ahrefs?",
+        "a": "Ahrefs offers Ahrefs Webmaster Tools free for websites you own and can verify. It includes Site Audit, Site Explorer and Web Analytics with usage limits, and it does not research other people's sites in depth."
+      },
+      {
+        "q": "What are the top 5 free SEO tools?",
+        "a": "Google Search Console, Bing Webmaster Tools, Ahrefs Webmaster Tools, Screaming Frog (up to 500 URLs) and Google Keyword Planner are a strong five for a small business."
+      },
+      {
+        "q": "Can I use Ubersuggest for free?",
+        "a": "Yes, with limited searches and restricted data on its free access. It suits occasional keyword and competitor checks, and its limits can change, so check its pricing page."
+      },
+      {
+        "q": "Can free tools replace Ahrefs for competitor research?",
+        "a": "Only in part. The Semrush free plan allows 10 reports a day and Google Trends shows interest over time, but a full competitor backlink and keyword history needs a paid tool."
+      },
+      {
+        "q": "How long does it take to set up a free SEO stack?",
+        "a": "About two hours for the first setup, then roughly an hour a month for the routine. Search Console data starts building from the day you verify, so start early."
+      }
+    ]
+  },
+  {
       "slug": "medical-spa-marketing",
       "seoTitle": "Medical Spa Marketing 2027: Get More Bookings",
       "title": "Medical Spa Marketing in 2027: How Med Spas Get More Bookings from Google and AI Search",
