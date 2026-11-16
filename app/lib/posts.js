@@ -27,6 +27,345 @@ export const AUTHORS = {
    To preview drafts locally, run the dev server with INSIGHTS_PREVIEW_DRAFTS=1. */
 const ALL_POSTS = [
   {
+    "slug": "seo-report-template",
+    "seoTitle": "SEO Report Template 2027: What to Include Each Month",
+    "title": "SEO Report Template: What a Good Monthly SEO Report Should Show in 2027",
+    "description": "Free SEO report template for 2027: the 7 sections a monthly SEO report needs, what to show first, how to read it and a checklist to judge your agency's report.",
+    "date": "2026-11-16",
+    "author": "team",
+    "topics": [
+      "SEO - Begins"
+    ],
+    "industries": [],
+    "image": "/insights/seo-report-template-banner.jpg",
+    "intro": "A good SEO report answers one question in the first minute: is search bringing in more business? Too many reports open with rankings and traffic charts and leave you to guess. This SEO report template gives you seven sections in the right order, shows real examples from Google, ChatGPT and Search Console, and ends with a checklist you can use on any report, including the one your agency sends you.",
+    "tldr": [
+      "An SEO report template is a repeatable layout for monthly results, with the business outcome first and the detail behind it.",
+      "Use seven sections: summary, business results, organic traffic, search visibility, AI search visibility, technical health, and work done with next steps.",
+      "Pew Research Center found people clicked a traditional result in 8% of visits with an AI summary against 15% without, so add AI visibility to the report.",
+      "Pull clicks, impressions, click-through rate and average position from Search Console and compare with the previous period.",
+      "Check any report with the ten-point checklist before you accept it."
+    ],
+    "body": [
+      {
+        "type": "h2",
+        "text": "What is an SEO report template?"
+      },
+      {
+        "type": "callout",
+        "variant": "definition",
+        "title": "Definition",
+        "text": "An SEO report template is a ready-made layout for your monthly SEO results. It lists the sections to fill in each month, such as a summary, traffic, rankings, enquiries, technical health and next steps, so every report is built the same way and can be compared with the last one."
+      },
+      {
+        "type": "p",
+        "text": "Most templates are a spreadsheet, a slide deck or a dashboard. The format matters less than the questions the report answers. If a report cannot tell you whether SEO brought in more enquiries this month, it is a data dump, whatever it looks like."
+      },
+      {
+        "type": "p",
+        "text": "A search for \"seo report template\" in Google UK shows how crowded this space is. Whatagraph, Porter Metrics and Semrush all offer free layouts, and Google's AI Overview sums up the advice in one line: focus on business impact rather than vanity metrics."
+      },
+      {
+        "type": "image",
+        "src": "/insights/seo-report-template-1-google-results.jpg",
+        "alt": "Google UK results for the search seo report template, showing free templates from Whatagraph, Porter Metrics and Semrush",
+        "caption": "Google UK results for \"seo report template\", 16 November 2026."
+      },
+      {
+        "type": "h2",
+        "text": "What should a monthly SEO report include?"
+      },
+      {
+        "type": "p",
+        "text": "A monthly SEO report should include seven things: a one-paragraph summary, enquiries and sales from search, organic traffic, search visibility, AI search visibility, technical health and a plan for next month. Put the business result first and the supporting detail after it."
+      },
+      {
+        "type": "p",
+        "text": "Google's AI Overview for the same search lists a similar structure, starting with an executive summary and top-line results such as leads, conversions or revenue, then traffic, rankings, technical health and next steps."
+      },
+      {
+        "type": "image",
+        "src": "/insights/seo-report-template-2-ai-overview.jpg",
+        "alt": "Google UK AI Overview for seo report template describing the core structure of an SEO report, starting with business impact and an executive summary",
+        "caption": "The Google UK AI Overview for \"seo report template\" opens with business impact, 16 November 2026."
+      },
+      {
+        "type": "p",
+        "text": "We have kept the same order in the template below, with one addition most templates still skip: a section for how you appear in AI answers."
+      },
+      {
+        "type": "h2",
+        "text": "What are the 7 sections of a good SEO report template?"
+      },
+      {
+        "type": "table",
+        "head": [
+          "Section",
+          "What to show",
+          "The question it answers"
+        ],
+        "rows": [
+          [
+            "1. Summary",
+            "Three or four sentences: what changed, why, what happens next",
+            "Is SEO working this month?"
+          ],
+          [
+            "2. Business results",
+            "Enquiries, calls, bookings or sales from organic search, compared with last month and last year",
+            "Is search bringing in business?"
+          ],
+          [
+            "3. Organic traffic",
+            "Organic sessions and the top landing pages in Google Analytics 4",
+            "Are the right people visiting?"
+          ],
+          [
+            "4. Search visibility",
+            "Clicks, impressions, click-through rate and average position in Search Console, split into brand and non-brand searches",
+            "Are more people finding us on Google?"
+          ],
+          [
+            "5. AI search visibility",
+            "Whether your brand appears in AI Overviews and AI answers for your key searches, and which pages get cited",
+            "Are we in the answers buyers read?"
+          ],
+          [
+            "6. Technical health",
+            "Indexing problems, page speed and crawl errors, only where something changed",
+            "Is anything blocking us?"
+          ],
+          [
+            "7. Work done and next steps",
+            "Pages published, fixes made, links earned, then the plan and priorities for next month",
+            "What did we do and what comes next?"
+          ]
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "How do you write the summary and business results sections?"
+      },
+      {
+        "type": "p",
+        "text": "Write the summary last and keep it to a short paragraph a busy owner can read in a minute. Say what moved, the most likely reason and what you will do next. Then show business results straight after it, because that is what the report is for."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "lead": "Name the result.",
+            "text": "\"Organic enquiries rose from 18 to 24\" tells the reader more than \"traffic is up 12%\"."
+          },
+          {
+            "lead": "Compare like with like.",
+            "text": "Show this month against last month and against the same month last year, so seasonal swings do not mislead you."
+          },
+          {
+            "lead": "Count the real conversions.",
+            "text": "Use form fills, calls, bookings or sales that you record in Google Analytics 4 or your CRM, and say how each was counted."
+          },
+          {
+            "lead": "Admit what fell.",
+            "text": "A fall with a reason and a fix builds more trust than a report that only shows good news."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "ChatGPT gives the same advice when asked what a small business owner needs from a monthly report. It frames the report around five questions, from whether more people are finding the business on Google to what happens next month."
+      },
+      {
+        "type": "image",
+        "src": "/insights/seo-report-template-3-chatgpt-report-contents.jpg",
+        "alt": "ChatGPT answer to what a monthly SEO report should include for a small business owner, listing five questions the report should answer",
+        "caption": "ChatGPT's answer to a neutral prompt about monthly SEO report contents, 16 November 2026."
+      },
+      {
+        "type": "h2",
+        "text": "How do you report traffic and search visibility in Search Console?"
+      },
+      {
+        "type": "p",
+        "text": "Use Google Search Console for visibility and Google Analytics 4 for what visitors do next. Search Console shows how often your site appears in Google results and how often people click. Analytics shows what they did on your site and which visits turned into enquiries."
+      },
+      {
+        "type": "h3",
+        "text": "Which Search Console numbers belong in the report?"
+      },
+      {
+        "type": "p",
+        "text": "Four numbers: total clicks, total impressions, average click-through rate and average position. Open the Performance report, set the date range to the last month and compare it with the previous period. Then add a filter to separate brand searches from searches that do not include your name."
+      },
+      {
+        "type": "steps",
+        "title": "Pull the numbers in four steps",
+        "items": [
+          {
+            "title": "Open the Performance report",
+            "text": "In Search Console choose Performance, then Search results.",
+            "path": "Search Console > Performance > Search results"
+          },
+          {
+            "title": "Set the dates",
+            "text": "Pick the last full month, then tick Compare and choose the previous period."
+          },
+          {
+            "title": "Split brand from non-brand",
+            "text": "Add a Query filter that excludes your company name, so you see searches from people who did not already know you."
+          },
+          {
+            "title": "Note the pages",
+            "text": "Open the Pages tab and record the five pages that earned the most clicks."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Our own site is a fair example of why context matters. Over three months to 14 November 2026, maai.agency recorded 27 clicks from 3.49 thousand impressions, a click-through rate of 0.8% and an average position of 39.1. Impressions are climbing while position is still low, which is typical for a young site. A report that only said \"impressions are up\" would hide how few clicks that has produced."
+      },
+      {
+        "type": "image",
+        "src": "/insights/seo-report-template-4-search-console-performance.jpg",
+        "alt": "Google Search Console Performance report for maai.agency over three months showing 27 clicks, 3.49k impressions, 0.8% click-through rate and average position 39.1",
+        "caption": "MAAI's own Search Console Performance report, three months to 14 November 2026."
+      },
+      {
+        "type": "stats",
+        "title": "maai.agency in Search Console, three months to 14 November 2026",
+        "items": [
+          {
+            "value": "27",
+            "label": "total clicks"
+          },
+          {
+            "value": "3.49k",
+            "label": "total impressions"
+          },
+          {
+            "value": "0.8%",
+            "label": "average click-through rate"
+          },
+          {
+            "value": "39.1",
+            "label": "average position"
+          }
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "How do you report AI search visibility?"
+      },
+      {
+        "type": "p",
+        "text": "Add a short AI section that records whether your brand is named or cited in AI Overviews and AI assistants for five to ten key searches. Impressions and clicks alone no longer tell the full story, because an answer can mention you without sending a visit."
+      },
+      {
+        "type": "p",
+        "text": "The reason is the way people click now. [Pew Research Center](https://www.pewresearch.org/short-reads/2025/07/22/google-users-are-less-likely-to-click-on-links-when-an-ai-summary-appears-in-the-results/) found users clicked a traditional result in 8% of visits when an AI summary appeared, against 15% when it did not. A flat click line can therefore hide growing visibility, and a visibility line can hide falling clicks."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "lead": "Pick your searches.",
+            "text": "Choose five to ten questions your buyers ask, and keep the same list every month."
+          },
+          {
+            "lead": "Record the result.",
+            "text": "Note whether an AI Overview appears, whether you are named and which pages are cited."
+          },
+          {
+            "lead": "Track AI visits.",
+            "text": "Follow our guide to [tracking AI traffic for free](/insights/track-ai-traffic) to see AI referrals in Google Analytics 4."
+          },
+          {
+            "lead": "Use a tool when the list grows.",
+            "text": "Our comparison of [AI Overview trackers](/insights/ai-overviews-trackers) shows what to use once manual checks take too long."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "If you want to understand the score some tools produce from these checks, read our explainer on what a [good SEO visibility score](/insights/seo-visibility-score) looks like, and for how to improve the result see how to [rank in Google AI Overviews](/insights/how-to-rank-in-ai-overviews)."
+      },
+      {
+        "type": "h2",
+        "text": "How do you check if your agency's SEO report is any good?"
+      },
+      {
+        "type": "p",
+        "text": "A good SEO report puts results first, explains every movement in plain English and ends with next steps you can approve. Check it against the list below before you accept it, and ask for changes if more than two items are missing."
+      },
+      {
+        "type": "checklist",
+        "title": "Ten checks for an SEO report",
+        "items": [
+          "**Enquiries come first.** Leads, calls or sales from search appear on page one.",
+          "**A short summary.** You can read it in a minute and understand what changed.",
+          "**Comparisons.** This month is shown against last month and last year.",
+          "**Brand and non-brand are split.** You can see growth from people who did not already know you.",
+          "**Pages are named.** You know which pages earn clicks and enquiries.",
+          "**AI visibility is covered.** The report says whether you appear in AI answers.",
+          "**Technical changes are explained.** Issues come with what was fixed.",
+          "**Work done is listed.** You can see what was published, fixed or earned.",
+          "**Next month's plan is clear.** Priorities are specific and ranked.",
+          "**Rankings are in context.** Keyword positions support the story and do not replace it."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "How often should you send or read an SEO report?"
+      },
+      {
+        "type": "p",
+        "text": "Send a short report every month and review it properly every quarter. Monthly checks catch problems early. SEO results build slowly, so quarterly reviews show the trend that a single month cannot, and they are the moment to agree changes to the plan."
+      },
+      {
+        "type": "h2",
+        "text": "Which free SEO report template should you start with?"
+      },
+      {
+        "type": "p",
+        "text": "Start with the layout above in a spreadsheet or a Google Looker Studio dashboard, then adapt it to your business. Search Engine Land, Whatagraph, Porter Metrics, Semrush and Swydo all publish free templates, and each connects Search Console and Google Analytics 4. Choose the one that lets you put enquiries on page one."
+      },
+      {
+        "type": "p",
+        "text": "Whichever you pick, change two things: move business results to the top and add the AI visibility section. Most templates still lead with rankings and traffic."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is an SEO report template?",
+        "a": "An SEO report template is a ready-made layout for monthly SEO results. It lists the sections to complete each month, such as a summary, enquiries, traffic, visibility, technical health and next steps, so reports are consistent and easy to compare."
+      },
+      {
+        "q": "What should a monthly SEO report include?",
+        "a": "It should include a short summary, enquiries or sales from search, organic traffic, Search Console clicks and impressions, AI search visibility, technical health and a plan for next month."
+      },
+      {
+        "q": "How long should an SEO report be?",
+        "a": "For a small business, two to four pages is enough. Put the summary and business results on the first page and keep the detail for the pages behind it."
+      },
+      {
+        "q": "Which metrics matter most in an SEO report?",
+        "a": "Enquiries and sales from organic search matter most. After that come clicks, impressions, click-through rate and average position from Search Console, and organic sessions from Google Analytics 4."
+      },
+      {
+        "q": "How do you make an SEO report in Excel or Google Sheets?",
+        "a": "Create one tab per section, export your Search Console and Google Analytics 4 data each month, paste it in and add a column that compares it with last month. Write the summary at the top."
+      },
+      {
+        "q": "Can ChatGPT write an SEO report?",
+        "a": "ChatGPT can help draft the summary and spot patterns in data you paste in, but you still need to pull the numbers from Search Console and Google Analytics 4 and check them yourself."
+      },
+      {
+        "q": "Should an SEO report include AI search visibility?",
+        "a": "Yes. Record whether your brand is named or cited in AI Overviews and AI assistants for a fixed list of key searches, because clicks alone no longer show how visible you are."
+      }
+    ]
+  },
+  {
     "slug": "logistics-marketing",
     "seoTitle": "Logistics Marketing 2027: How to Win More Clients",
     "title": "Logistics Marketing in 2027: How Freight and 3PL Companies Win More Clients",
