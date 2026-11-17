@@ -27,6 +27,318 @@ export const AUTHORS = {
    To preview drafts locally, run the dev server with INSIGHTS_PREVIEW_DRAFTS=1. */
 const ALL_POSTS = [
   {
+      "slug": "geo-vs-seo",
+      "seoTitle": "GEO vs SEO 2027: Differences and Which You Need",
+      "title": "GEO vs SEO in 2027: What Is the Difference and Which Do You Need?",
+      "description": "GEO vs SEO in 2027: how they differ in goals, tactics and measurement, where the work overlaps, and which one your business should prioritise first.",
+      "date": "2026-11-17",
+      "author": "team",
+      "topics": [
+          "AEO/GEO"
+      ],
+      "industries": [],
+      "image": "/insights/geo-vs-seo-banner.jpg",
+      "intro": "Every few months a new acronym arrives and someone asks if the old one is finished. GEO vs SEO is the latest version. SEO earns rankings and clicks in search results, and GEO earns a place inside AI answers from tools such as ChatGPT and Google AI Overviews. This guide explains where the two differ, where they overlap, how to measure each and which one your business needs first.",
+      "tldr": [
+          "SEO earns rankings and clicks. GEO earns mentions, citations and recommendations inside AI answers.",
+          "GEO does not replace SEO. Ahrefs found 76% of AI Overview citations came from pages already in Google's top 10.",
+          "The work diverges off your site: citations, digital PR, reviews and brand mentions matter more for GEO.",
+          "Measure both: rankings and conversions for SEO, prompt tests, citations and AI referral visits for GEO.",
+          "Most businesses should start with SEO, then add GEO once their pages rank and their brand is discussed elsewhere."
+      ],
+      "body": [
+          {
+              "type": "h2",
+              "text": "What is the difference between GEO and SEO?"
+          },
+          {
+              "type": "callout",
+              "variant": "definition",
+              "title": "Definition",
+              "text": "SEO (search engine optimisation) is the work of earning rankings and clicks in search results such as Google and Bing. GEO (generative engine optimisation) is the work of getting your brand mentioned, cited and recommended inside AI-generated answers from tools such as ChatGPT, Gemini, Claude and Google AI Overviews."
+          },
+          {
+              "type": "p",
+              "text": "The core difference is the outcome you are chasing. SEO aims for a ranking position and a click to your website. GEO aims for a place inside the answer itself, as a named source or a recommended business, whether or not anyone clicks. Google's own AI Overview for \"geo vs seo\" puts it the same way: both share the goal of making your brand visible online, but they target different systems, outputs and user behaviours."
+          },
+          {
+              "type": "image",
+              "src": "/insights/gvs-1-ai-overview.jpg",
+              "alt": "Google UK AI Overview for the search geo vs seo, with a comparison table of SEO and GEO covering primary target, search output and query format",
+              "caption": "The Google UK AI Overview for \"geo vs seo\", 17 November 2026."
+          },
+          {
+              "type": "p",
+              "text": "Here is the comparison in one table. Use it as a quick reference, then read on for where the work really diverges."
+          },
+          {
+              "type": "table",
+              "head": [
+                  "",
+                  "SEO",
+                  "GEO"
+              ],
+              "rows": [
+                  [
+                      "Goal",
+                      "Rank high and earn clicks",
+                      "Be named, cited or recommended in an AI answer"
+                  ],
+                  [
+                      "What you optimise",
+                      "Pages, keywords, links and technical health",
+                      "Pages, plus your brand's presence and reputation across the web"
+                  ],
+                  [
+                      "Where it happens",
+                      "Google and Bing results pages",
+                      "ChatGPT, Gemini, Claude, Perplexity, Google AI Overviews and AI Mode"
+                  ],
+                  [
+                      "Typical query",
+                      "Short keyword phrases",
+                      "Longer, conversational questions and follow-ups"
+                  ],
+                  [
+                      "Main metrics",
+                      "Rankings, impressions, clicks, conversions",
+                      "Brand mentions, citations, share of recommendations, AI referral visits"
+                  ],
+                  [
+                      "Time to see results",
+                      "Usually three to six months for new pages",
+                      "Varies by platform; mentions can follow once your pages rank and your brand is discussed elsewhere"
+                  ]
+              ]
+          },
+          {
+              "type": "p",
+              "text": "The People Also Ask box for the same search shows what readers want settled: whether GEO replaces SEO, how the two differ and whether AI SEO is just another name for GEO. We answer each of these below."
+          },
+          {
+              "type": "image",
+              "src": "/insights/gvs-2-people-also-ask.jpg",
+              "alt": "Google UK People Also Ask box for geo vs seo with four questions including is GEO replacing SEO",
+              "caption": "The People Also Ask box for \"geo vs seo\", 17 November 2026."
+          },
+          {
+              "type": "h2",
+              "text": "Does GEO replace SEO?"
+          },
+          {
+              "type": "p",
+              "text": "No. GEO sits on top of SEO and relies on it. Ahrefs studied 1.9 million citations in Google AI Overviews and found that 76% came from pages already ranking in Google's top 10. If your pages do not rank, they are far less likely to be quoted."
+          },
+          {
+              "type": "image",
+              "src": "/insights/gvs-5-ai-overview-citations-top-10.jpg",
+              "alt": "Pie chart showing 76% of Google AI Overview citations come from pages ranking in the top 10 and 24% from outside it, source Ahrefs",
+              "caption": "Most pages cited in AI Overviews already rank in the top 10. Source: Ahrefs."
+          },
+          {
+              "type": "p",
+              "text": "Google's guidance on AI features makes the same point: the SEO foundations that help a page rank are the ones that make it eligible to appear in AI features, and no special markup or AI-only file is required. We asked ChatGPT the question a small business owner would ask, and its answer agreed."
+          },
+          {
+              "type": "image",
+              "src": "/insights/gvs-3-chatgpt-answer.jpg",
+              "alt": "ChatGPT answer to what is the difference between GEO and SEO for a small business, recommending SEO first while building GEO in from day one",
+              "caption": "ChatGPT's answer to \"What is the difference between GEO and SEO for a small business? Which should I focus on first?\", with web search on, 17 November 2026."
+          },
+          {
+              "type": "p",
+              "text": "AI answers can make mistakes, so treat that as a second opinion rather than evidence. The evidence is the Ahrefs study. For the wider question of whether AI will take over search work, see our guide on [whether AI will replace SEO](/insights/will-ai-replace-seo)."
+          },
+          {
+              "type": "p",
+              "text": "One reason GEO matters even so is behaviour. The Pew Research Center found that people clicked a link in 8% of visits when Google showed an AI summary, against 15% when it did not. Fewer clicks per search means being named in the answer is worth more than it used to be."
+          },
+          {
+              "type": "stats",
+              "title": "Key figure",
+              "items": [
+                  {
+                      "value": "8% vs 15%",
+                      "label": "of Google visits included a click on a result when an AI summary appeared versus when it did not (Pew Research Center, 2025)"
+                  }
+              ]
+          },
+          {
+              "type": "h2",
+              "text": "Where does GEO work differ from SEO?"
+          },
+          {
+              "type": "p",
+              "text": "The page-level work is similar. The difference is everything that happens off your site. AI tools build an answer from many sources and favour brands that are mentioned consistently in many places. Ahrefs found that branded web mentions correlated with brand appearances in AI Overviews at 0.664, stronger than backlinks did. That is a correlation, not proof of cause, but it explains why GEO leans on reputation."
+          },
+          {
+              "type": "h3",
+              "text": "How do citations differ from backlinks?"
+          },
+          {
+              "type": "p",
+              "text": "A backlink is a link to your page that passes authority. A citation is a source an AI answer shows or names. A page can be cited with no link to it from anywhere, and a page with many links may never be cited. Plan for both: links help you rank, and clear, quotable pages help you get cited."
+          },
+          {
+              "type": "h3",
+              "text": "What does digital PR do for GEO?"
+          },
+          {
+              "type": "p",
+              "text": "Digital PR places your brand and your data on sites that AI tools already trust: trade press, industry bodies, review sites and comparison pages. For SEO, the prize is the link. For GEO, the prize is the mention next to your category, for example \"best accountancy software for freelancers\". Publish original numbers other writers want to quote, and pitch them to the publications your buyers read."
+          },
+          {
+              "type": "h3",
+              "text": "Why do reviews and brand mentions matter more in GEO?"
+          },
+          {
+              "type": "p",
+              "text": "AI answers recommend businesses, and they judge a business by what others say about it. Reviews on Google and trusted industry sites, consistent business details and named mentions in articles all feed that picture. For a local business such as a plumber or a dental practice, review volume and recent reviews often decide who is recommended."
+          },
+          {
+              "type": "h3",
+              "text": "Do all AI platforms cite the same sources?"
+          },
+          {
+              "type": "p",
+              "text": "No. Ahrefs found that only 7 of the 50 most-mentioned domains appeared across Google AI Overviews, ChatGPT and Perplexity. A result in one tool does not carry over to the others, so test the platforms your buyers actually use. Our guides cover [how to rank in ChatGPT](/insights/how-to-rank-in-chatgpt) and [how to rank in Google AI Overviews and AI Mode](/insights/how-to-rank-in-ai-overviews) separately for this reason."
+          },
+          {
+              "type": "h2",
+              "text": "How do you measure GEO vs SEO?"
+          },
+          {
+              "type": "p",
+              "text": "Measure SEO by rankings, clicks and conversions, and measure GEO by whether your brand appears in AI answers and whether those answers send visits. You need both sets, because a ranking can rise while AI answers ignore you, and the reverse."
+          },
+          {
+              "type": "table",
+              "head": [
+                  "Question",
+                  "SEO measure",
+                  "GEO measure"
+              ],
+              "rows": [
+                  [
+                      "Are we visible?",
+                      "Impressions and average position in Search Console",
+                      "Share of test prompts where your brand is named"
+                  ],
+                  [
+                      "Are we trusted?",
+                      "Referring domains and branded searches",
+                      "Citations of your pages and mentions on third-party sites"
+                  ],
+                  [
+                      "Does it bring visitors?",
+                      "Organic sessions in GA4",
+                      "Sessions from AI sources in GA4"
+                  ],
+                  [
+                      "Does it bring revenue?",
+                      "Conversions from organic landing pages",
+                      "Conversions from AI referrals and branded demand"
+                  ]
+              ]
+          },
+          {
+              "type": "p",
+              "text": "A simple GEO check takes an hour a month. Write 20 questions your buyers ask, run them in ChatGPT, Gemini and Google AI Mode, and note whether you are named, which sources are cited and which competitors appear. Answers vary between runs, so repeat each prompt and look at the pattern, not one result. Our guide on [tracking AI traffic for free](/insights/track-ai-traffic) shows the GA4 and Search Console setup, and our [SEO visibility score guide](/insights/seo-visibility-score) explains how to read visibility in Google. To see which tools can automate brand checks, read our guide to [tracking brand mentions in AI search](/insights/best-ways-to-track-brand-mentions-in-ai-search)."
+          },
+          {
+              "type": "h2",
+              "text": "Are people searching for GEO or SEO?"
+          },
+          {
+              "type": "p",
+              "text": "Interest in GEO terms is real but small compared with SEO, and it moves in waves. Google Trends for the UK over the past 12 months shows \"generative engine optimization\" with the highest interest of the three terms we compared, ahead of \"answer engine optimization\" and well ahead of the comparison phrase \"geo vs seo\". Trends shows relative interest, not search counts, so use it to see direction rather than volume."
+          },
+          {
+              "type": "image",
+              "src": "/insights/gvs-4-google-trends.jpg",
+              "alt": "Google Trends chart for the UK over 12 months comparing generative engine optimization, answer engine optimization and geo vs seo, with generative engine optimization highest",
+              "caption": "Google Trends, UK, past 12 months, 17 November 2026: relative interest in three GEO-related searches."
+          },
+          {
+              "type": "p",
+              "text": "For your own planning, that means most of your buyers still start with ordinary search terms. Keep your SEO targeted at what they type, and use GEO prompts to see what they ask AI tools."
+          },
+          {
+              "type": "h2",
+              "text": "GEO vs SEO: which does your business need first?"
+          },
+          {
+              "type": "p",
+              "text": "Start with SEO unless your site already ranks well. Add GEO as soon as your pages rank and your brand has some presence beyond your own site. The order depends on where you are now."
+          },
+          {
+              "type": "list",
+              "items": [
+                  "**New website or little organic traffic:** put most of the effort into SEO foundations. Fix crawling and indexing, build service pages and earn your first links and reviews. This also lays the ground for GEO.",
+                  "**Established site with some rankings (a SaaS company or an accountancy firm, for example):** keep SEO going and add GEO work: answer-first sections, original data, and PR on sites AI tools cite.",
+                  "**Local service business (a plumber, dentist or solicitor):** keep Google Business Profile, reviews and local pages as the base, then check how AI tools describe you for \"best near me\" style questions.",
+                  "**Ecommerce brand:** product and category SEO comes first. GEO adds comparison-page mentions, reviews and clear product facts that AI shopping answers can quote.",
+                  "**B2B company with long sales cycles:** buyers research with AI tools before they speak to anyone, so GEO and SEO both matter early. See our [B2B SEO strategy guide](/insights/seo-for-b2b-companies) for the full journey."
+              ]
+          },
+          {
+              "type": "h2",
+              "text": "How do you run GEO and SEO together?"
+          },
+          {
+              "type": "p",
+              "text": "Treat them as one programme with two scorecards. Most tasks serve both, and a short plan keeps the work focused."
+          },
+          {
+              "type": "list",
+              "items": [
+                  "**Month 1, fix the foundations.** Make sure key pages are crawlable and indexed, and that AI search crawlers are not blocked by robots.txt or your CDN settings.",
+                  "**Month 2, make pages quotable.** Open each section with a direct answer, use question headings, name your products and places precisely and add real data.",
+                  "**Month 3, build presence.** Earn mentions and links on trusted sites, ask for reviews and keep business details consistent everywhere.",
+                  "**Every month, measure both.** Check rankings and conversions in Search Console and GA4, then run your list of buyer prompts in AI tools and record the result."
+              ]
+          },
+          {
+              "type": "p",
+              "text": "Our [answer engine optimisation guide](/insights/answer-engine-optimisation) goes deeper on the on-page side and how AI tools retrieve and pick sources. If you want a plan that covers search and AI answers for your business, we can help."
+          }
+      ],
+      "faq": [
+          {
+              "q": "What is the difference between GEO and SEO?",
+              "a": "SEO earns rankings and clicks in search results. GEO earns mentions, citations and recommendations inside AI-generated answers. Both need good pages, but GEO also depends heavily on your brand's reputation across other websites."
+          },
+          {
+              "q": "Is GEO replacing SEO?",
+              "a": "No. Ahrefs found 76% of 1.9 million AI Overview citations came from pages already in Google's top 10, so SEO is still the entry ticket. GEO builds on it."
+          },
+          {
+              "q": "Is AI SEO called GEO?",
+              "a": "People use the terms loosely. GEO usually means optimising to appear in generative AI answers, and \"AI SEO\" is a broader label for SEO work that includes AI search. Check what an agency means when it uses either term."
+          },
+          {
+              "q": "What is the difference between GEO services and SEO services?",
+              "a": "SEO services focus on rankings, technical health, content and links. GEO services add prompt testing, brand mention and citation tracking, and digital PR aimed at the sources AI tools quote. Ask for the metrics each will report."
+          },
+          {
+              "q": "Should a small business do GEO or SEO first?",
+              "a": "Do SEO first, and add GEO once your key pages rank and your brand has some presence beyond your own website. ChatGPT's answer to this question gave the same advice, though AI answers can be wrong."
+          },
+          {
+              "q": "How do I measure GEO?",
+              "a": "Test a fixed list of buyer questions in AI tools each month, record whether your brand is named and which sources are cited, and track visits from AI sources in GA4. Repeat prompts, because answers vary."
+          },
+          {
+              "q": "Do I need different content for GEO and SEO?",
+              "a": "Mostly the same pages, written well. Open sections with a direct answer, use question headings and include sourced data. Then add off-site work such as PR and reviews that GEO relies on."
+          },
+          {
+              "q": "How long does GEO take to work?",
+              "a": "There is no fixed timeline. Pages still need to rank first, which often takes three to six months, and mentions on other sites take time to build. Track your prompt list monthly to see movement."
+          }
+      ]
+  },
+  {
     "slug": "seo-for-manufacturers",
     "seoTitle": "SEO for Manufacturers 2027: Get More RFQs",
     "title": "SEO for Manufacturers in 2027: How Industrial Companies Get Organic Enquiries from AEO & GEO",
