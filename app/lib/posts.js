@@ -27,6 +27,413 @@ export const AUTHORS = {
    To preview drafts locally, run the dev server with INSIGHTS_PREVIEW_DRAFTS=1. */
 const ALL_POSTS = [
   {
+    "slug": "seo-for-manufacturers",
+    "seoTitle": "SEO for Manufacturers 2027: Get More RFQs",
+    "title": "SEO for Manufacturers in 2027: How Industrial Companies Get Organic Enquiries from AEO & GEO",
+    "description": "SEO for manufacturers in 2027: how industrial buyers shortlist suppliers, a 7-step plan for capability pages, RFQs and AI answers, and how to measure enquiries.",
+    "date": "2026-11-17",
+    "author": "team",
+    "topics": [
+      "B2B"
+    ],
+    "industries": [],
+    "image": "/insights/seo-for-manufacturers-banner.jpg",
+    "intro": "A buyer needs a machined part, a fabricated assembly or a moulded component. Before they ring anyone, they search for the process, check certifications and ask an AI assistant who can do the job. SEO for manufacturers is the work that puts your company on that shortlist. This guide gives you a 7-step plan for capability pages, product pages, RFQs and AI answers, with real examples from Google and ChatGPT and a way to measure the enquiries.",
+    "tldr": [
+      "SEO for manufacturers gets your company found, trusted and asked for a quote by engineers and procurement teams.",
+      "Gartner found 61% of B2B buyers prefer a rep-free buying experience, so your website does the first sales call.",
+      "Build one capability page per process, with specifications, certifications, proof and a short RFQ form.",
+      "Keep key data in plain HTML, not only PDFs, so Google and AI tools can read and quote it.",
+      "Measure RFQs by source, not traffic, and check ChatGPT and Google AI answers for your processes each month."
+    ],
+    "body": [
+      {
+        "type": "h2",
+        "text": "What is SEO for manufacturers?"
+      },
+      {
+        "type": "callout",
+        "variant": "definition",
+        "title": "Definition",
+        "text": "SEO for manufacturers is the work of making a manufacturing or industrial website easy to find, easy to trust and easy to request a quote from, for the engineers, buyers and procurement teams who search for parts, processes and suppliers. It covers capability pages, product and catalogue pages, technical content, certifications, a clear request for quotation (RFQ) route and, in 2027, visibility in AI answers."
+      },
+      {
+        "type": "p",
+        "text": "Google's AI Overview for \"seo for manufacturers\" describes the same job. It says SEO helps industrial businesses get found by engineers, procurement managers and technical buyers who research suppliers online before making contact."
+      },
+      {
+        "type": "image",
+        "src": "/insights/sfm-1-ai-overview.jpg",
+        "alt": "Google UK AI Overview for the search seo for manufacturers, saying SEO helps industrial businesses get found by engineers and procurement managers who research suppliers online",
+        "caption": "The Google UK AI Overview for \"seo for manufacturers\", 17 November 2026."
+      },
+      {
+        "type": "image",
+        "src": "/insights/sfm-2-people-also-ask.jpg",
+        "alt": "Google UK People Also Ask box under the search seo for manufacturers, with questions about SEO cost and whether SEO is evolving",
+        "caption": "The People Also Ask box for \"seo for manufacturers\" shows general SEO questions, which is the gap this guide fills, 17 November 2026."
+      },
+      {
+        "type": "p",
+        "text": "The difference from other kinds of SEO is the buyer. A manufacturing buyer is checking tolerances, materials, certifications and lead times before a pound is spent. If your website cannot answer those questions, they move to the next supplier on a shortlist of three to five. For the wider B2B picture, our guide to [B2B SEO strategy](/insights/seo-for-b2b-companies) covers the full buying journey."
+      },
+      {
+        "type": "h2",
+        "text": "Why does SEO matter for manufacturers in 2027?"
+      },
+      {
+        "type": "p",
+        "text": "It matters because buyers research on their own before they ever speak to your sales team. Gartner's 2025 survey of 632 B2B buyers found that 61% prefer a rep-free buying experience, meaning they want to do the research without a salesperson. Your website, and the answers AI tools give about you, are doing the selling first."
+      },
+      {
+        "type": "stats",
+        "title": "Key figure",
+        "items": [
+          {
+            "value": "61%",
+            "label": "of B2B buyers prefer a rep-free buying experience (Gartner, survey of 632 buyers, June 2025)"
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Gartner's [press release on rep-free buying](https://www.gartner.com/en/newsroom/press-releases/2025-06-25-gartner-sales-survey-finds-61-percent-of-b2b-buyers-prefer-a-rep-free-buying-experience) also notes buyers still want a salesperson for judgement calls such as whether a product fits their company. For a manufacturer, that is the moment a clear RFQ page and a named technical contact matter most."
+      },
+      {
+        "type": "p",
+        "text": "Trade shows, referrals and directories still matter, and SEO does not replace them. It makes them work harder. A buyer who meets you at a show will still search your company name, your process and your certifications afterwards, and what they find decides whether you get the RFQ."
+      },
+      {
+        "type": "h2",
+        "text": "How do industrial buyers find and shortlist suppliers?"
+      },
+      {
+        "type": "p",
+        "text": "Buyers search for a capability, not a company. They type a process, a material or a certification, build a longlist, filter it on technical fit, check credibility and send RFQs to three to five suppliers. We asked ChatGPT how UK buyers shortlist a new CNC machining supplier, and its answer followed this pattern."
+      },
+      {
+        "type": "image",
+        "src": "/insights/sfm-5-chatgpt-supplier.jpg",
+        "alt": "ChatGPT answer to how UK buyers find and shortlist a new CNC machining supplier, explaining that the shortlist of three to five suppliers is often formed before the buyer contacts the machining company",
+        "caption": "ChatGPT's answer to \"How do UK buyers find and shortlist a new CNC machining supplier?\", with web search on, 17 November 2026."
+      },
+      {
+        "type": "p",
+        "text": "ChatGPT listed Google search, referrals, trade exhibitions, supplier directories, LinkedIn and online manufacturing marketplaces as the discovery routes. It also said that by the time an RFQ arrives, the buyer may already have a shortlist. AI answers can make mistakes, so treat this as a description of the pattern, not a statistic."
+      },
+      {
+        "type": "table",
+        "head": [
+          "Shortlisting stage",
+          "What the buyer does",
+          "What your website must show"
+        ],
+        "rows": [
+          [
+            "Define the need",
+            "Writes down drawings, material, tolerance, quantity and delivery date",
+            "Capability pages that use the same terms an engineer would"
+          ],
+          [
+            "Build a longlist",
+            "Searches Google and AI tools, asks colleagues, checks directories",
+            "Rankings for process, material and industry searches, and mentions on trusted sites"
+          ],
+          [
+            "Filter on capability",
+            "Removes suppliers that cannot meet size, tolerance or volume",
+            "Machine list, working envelopes, tolerances and materials"
+          ],
+          [
+            "Check credibility",
+            "Looks for certifications, inspection equipment and references",
+            "Certificates with scope, case studies, factory photos, named contacts"
+          ],
+          [
+            "Send RFQs",
+            "Sends the same request to three to five suppliers",
+            "A short RFQ form and clear file upload instructions"
+          ]
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "What do manufacturing buyers actually search for?"
+      },
+      {
+        "type": "p",
+        "text": "They search for processes, materials, certifications and sectors, often with words such as \"suppliers\", \"services\" or \"quote\". Google's UK results for \"cnc machining services uk\" show this: the AI Overview names suppliers and platforms, and the related searches below it are about instant quotes and suppliers."
+      },
+      {
+        "type": "image",
+        "src": "/insights/sfm-3-cnc-ai-overview.jpg",
+        "alt": "Google UK AI Overview for the search cnc machining services uk, listing suppliers and platforms with their capabilities and certifications",
+        "caption": "The Google UK AI Overview for \"cnc machining services uk\" lists suppliers by capability and certification, 17 November 2026."
+      },
+      {
+        "type": "image",
+        "src": "/insights/sfm-4-quote-searches.jpg",
+        "alt": "Google UK related searches for cnc machining services uk including instant CNC quote online UK and CNC machining suppliers UK online",
+        "caption": "Related searches under the same results show buyers asking for quotes and suppliers, 17 November 2026."
+      },
+      {
+        "type": "p",
+        "text": "The pattern repeats across industrial sectors. Group your keywords into five types and build a page for each type that matters to you:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "**Process:** CNC machining, sheet metal fabrication, injection moulding, die casting, welding.",
+          "**Material:** aluminium, stainless steel, titanium, engineering plastics.",
+          "**Industry:** aerospace, medical device, automotive, food and beverage, energy.",
+          "**Standard or certification:** ISO 9001, AS9100, ISO 13485, CE marking.",
+          "**Commercial:** quote, supplier, manufacturer, small batch, prototype, UK."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Search volume for these terms is often modest, because the audience is small. That is normal. One RFQ can be worth tens of thousands of pounds, so a page that attracts ten qualified visits a month can still pay for itself. Google Trends shows how different the interest levels are across processes in the UK, so check yours before you plan pages."
+      },
+      {
+        "type": "image",
+        "src": "/insights/sfm-6-google-trends.jpg",
+        "alt": "Google Trends chart for the UK over five years comparing CNC machining services, sheet metal fabrication and injection moulding search interest",
+        "caption": "Google Trends, UK, past five years: relative interest in three manufacturing process searches, 17 November 2026."
+      },
+      {
+        "type": "h2",
+        "text": "How do you do SEO for a manufacturing company? A 7-step plan"
+      },
+      {
+        "type": "h3",
+        "text": "1. How do you build capability pages that rank and convert?"
+      },
+      {
+        "type": "p",
+        "text": "Create one page for each process you want work for. Lead with what you make and for whom, then give the details an engineer needs. Google's AI Overview recommends exactly this, with a separate page for each core process covering materials, size ranges, tolerances and target sectors."
+      },
+      {
+        "type": "list",
+        "items": [
+          "**Open with the answer.** One sentence saying what the process is, the sizes you handle and the sectors you serve.",
+          "**Add a specification table.** Materials, maximum part size, tolerance, batch size and lead time.",
+          "**Show the machines.** Name the equipment and add real photos, not stock images.",
+          "**Add proof.** Certificates, inspection equipment and a short project example for that process.",
+          "**End with the RFQ.** A short form or a named contact on the same page."
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "2. How do you structure product and category pages for large catalogues?"
+      },
+      {
+        "type": "p",
+        "text": "Use a simple URL pattern that mirrors how buyers think: category, then family, then product. Give every product page a unique title, a short description written for the part, a specification table and a download for the datasheet. Avoid thousands of near-identical pages that differ only by a part number, because they dilute the pages that matter."
+      },
+      {
+        "type": "list",
+        "items": [
+          "**Keep URLs readable,** for example /products/stainless-fasteners/.",
+          "**Write unique text** for each category and family page.",
+          "**Use filters carefully.** Let buyers filter by material and size, but stop filtered combinations being indexed by default.",
+          "**Link related parts** so crawlers and buyers can move between them."
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "3. What technical content do buyers and AI tools use?"
+      },
+      {
+        "type": "p",
+        "text": "Answer the questions an engineer asks before an RFQ. These pages are the ones AI assistants quote, because they are specific. Good starting questions are: what tolerances can you hold, what materials can you work with, what is the lead time for a first batch, and what do you need from us to quote."
+      },
+      {
+        "type": "p",
+        "text": "Write each as a question heading with a direct answer in the first two sentences, then add detail, a table and a link to the relevant capability page. For how AI tools choose what to quote, see our guide on [how to rank your business in ChatGPT](/insights/how-to-rank-in-chatgpt)."
+      },
+      {
+        "type": "h3",
+        "text": "4. How do certifications and trust pages help SEO?"
+      },
+      {
+        "type": "p",
+        "text": "Procurement teams look for credentials early. Give each certification its own section or page with the certificate number, the scope, the issuing body and the date. An ISO 9001 certificate does not automatically qualify a supplier for aerospace or medical work, so state exactly what yours covers."
+      },
+      {
+        "type": "list",
+        "items": [
+          "**Quality:** ISO 9001, AS9100, ISO 13485, ISO 14001, as relevant.",
+          "**Inspection:** coordinate measuring machines, inspection reports and first-article process.",
+          "**People:** named technical contacts, with short bios.",
+          "**Proof:** a short project example for each sector, with the client's permission."
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "5. How do you make the RFQ process easy to find and finish?"
+      },
+      {
+        "type": "p",
+        "text": "Put a short RFQ form or contact route on every capability and product page. Ask only for what you need to start: name, company, email, part description and a file upload. State your reply time, for example \"We reply to every RFQ within one working day\", only if you can keep to it. Long forms lose the buyers who are comparing five suppliers at once."
+      },
+      {
+        "type": "h3",
+        "text": "6. How do distributors, directories and trade bodies fit into manufacturing SEO?"
+      },
+      {
+        "type": "p",
+        "text": "They give you mentions and links from sites buyers already trust, and they feed AI answers. In ChatGPT's answer above, supplier directories and trade associations appeared as a discovery channel. Make sure your listing on each relevant directory, trade association and distributor site is complete and uses the same company name, address and capability wording as your website."
+      },
+      {
+        "type": "list",
+        "items": [
+          "**Trade associations and directories:** keep listings complete and consistent.",
+          "**Distributors and resellers:** give them product data and images they can publish, with a link back to your product page.",
+          "**Trade press and digital PR:** offer technical comment or data to industry titles, which builds the mentions AI tools pick up.",
+          "**Google Business Profile:** list each plant with accurate address, services and photos, which helps regional searches."
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "7. How do you fix technical SEO on a manufacturing website?"
+      },
+      {
+        "type": "p",
+        "text": "Check that Google can crawl your pages, that product pages load quickly and that PDFs are not the only place your specifications live. Many industrial sites hide key data in downloadable PDFs or behind a form, which means neither Google nor AI tools can read it."
+      },
+      {
+        "type": "list",
+        "items": [
+          "**Put specifications in HTML,** not only in PDFs.",
+          "**Check indexing** of capability and product pages in Search Console.",
+          "**Keep pages fast,** compressing photos and drawings.",
+          "**Make sure AI crawlers are not blocked** by robots.txt or your CDN settings, unless you have a reason to opt out.",
+          "**Use structured data** such as Organization and Product where it matches the visible page."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "How do manufacturers show up in AI answers such as ChatGPT and Google AI Overviews?"
+      },
+      {
+        "type": "p",
+        "text": "Manufacturers show up in AI answers by being clearly described, widely mentioned and well ranked. Ahrefs found that 76% of 1.9 million AI Overview citations came from pages already ranking in Google's top 10, so ordinary SEO is still the entry ticket."
+      },
+      {
+        "type": "stats",
+        "title": "Key figure",
+        "items": [
+          {
+            "value": "76%",
+            "label": "of 1.9 million AI Overview citations came from top 10 pages (Ahrefs)"
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Then make each page easy to quote. Our Google test showed AI Overviews naming suppliers with their capability and certification in the same sentence. That is a template for your own pages: put what you make, where you make it and which standard you meet in one plain sentence near the top."
+      },
+      {
+        "type": "list",
+        "items": [
+          "**Google AI Overviews and AI Mode:** rank for process and material searches and answer them in the first sentences. Read our guide on [how to rank in Google AI Overviews](/insights/how-to-rank-in-ai-overviews).",
+          "**ChatGPT and other assistants:** be mentioned on directories, trade bodies, trade press and your own technical pages, because assistants draw from several sources. See our [answer engine optimisation guide](/insights/answer-engine-optimisation).",
+          "**Your own site:** keep specifications, certificates and contact details in plain HTML and keep them consistent everywhere they appear."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "How do you measure SEO for a manufacturer?"
+      },
+      {
+        "type": "p",
+        "text": "Measure RFQs, not visits. Track qualified enquiries by source, then look at the pages and searches that produced them. Set up a form submission and a phone click as key events in Google Analytics 4 and tag the RFQ form so you can tell which page the enquiry started from."
+      },
+      {
+        "type": "list",
+        "items": [
+          "**Search Console:** impressions and clicks for process, material and certification searches.",
+          "**GA4:** key events for the RFQ form, file uploads and phone clicks, by landing page.",
+          "**Your CRM:** record the source of each RFQ and whether it became an order.",
+          "**AI visibility:** every month, ask ChatGPT and Google five supplier questions for your processes and note whether you appear."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Our guide on [tracking AI traffic for free](/insights/track-ai-traffic) shows how to set this up in GA4 and Search Console."
+      },
+      {
+        "type": "h2",
+        "text": "How long does SEO take for manufacturers?"
+      },
+      {
+        "type": "p",
+        "text": "Fixes to profiles, listings and RFQ forms can lift enquiries within weeks. New capability pages and technical content usually take three to six months to build rankings, and longer for competitive terms. Industrial sales cycles are long, so an RFQ from a new page may take months more to become an order."
+      },
+      {
+        "type": "callout",
+        "variant": "tip",
+        "title": "Illustrative example",
+        "text": "Suppose a machining company wants six new RFQs a month and one in four RFQs becomes a paid order. That means about 24 RFQs a month. If a capability page turns 3 in every 100 qualified visits into an RFQ, the company needs roughly 800 qualified visits a month across its pages. This is an illustration to show the method, not a benchmark."
+      },
+      {
+        "type": "h2",
+        "text": "Which industries and business models need different SEO?"
+      },
+      {
+        "type": "p",
+        "text": "The method is the same, but the emphasis changes."
+      },
+      {
+        "type": "list",
+        "items": [
+          "**Contract manufacturers and machine shops:** capability pages by process and material, certifications and a fast RFQ route.",
+          "**Product manufacturers selling through distributors:** product data feeds, distributor listings and strong category pages.",
+          "**Component makers selling to OEMs:** technical documentation, standards pages and engineering-led content.",
+          "**Manufacturers with several plants:** a page and Google Business Profile for each site."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "If you move goods as well as make them, our guide to [logistics marketing](/insights/logistics-marketing) covers the freight and 3PL side of the same buyers."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is SEO for manufacturers?",
+        "a": "SEO for manufacturers is making a manufacturing website easy for engineers and procurement teams to find, trust and request a quote from. It covers capability pages, product pages, technical content, certifications and AI answer visibility."
+      },
+      {
+        "q": "How do manufacturers get leads from Google?",
+        "a": "They build a page for each process, material and sector they serve, show specifications and certifications in plain HTML, and place a short RFQ form on every page."
+      },
+      {
+        "q": "How much does SEO for manufacturers cost?",
+        "a": "It depends on the size of the site and the competition. Agencies publish their own prices, and some UK manufacturing programmes start at around £1,700 a month plus VAT. Ask what is included, how enquiries are tracked and who writes the technical content."
+      },
+      {
+        "q": "How long does SEO take for a manufacturing company?",
+        "a": "Profile and listing fixes can show results in weeks. New capability pages usually take three to six months to rank, and RFQs from them may take longer to become orders."
+      },
+      {
+        "q": "Do industrial buyers use ChatGPT to find suppliers?",
+        "a": "Some do, and the habit is growing. ChatGPT's own answer lists AI tools alongside Google, referrals, directories and trade shows as ways engineers research suppliers, so check your AI visibility monthly."
+      },
+      {
+        "q": "Are PDFs bad for manufacturing SEO?",
+        "a": "PDFs can rank, but they hide your best data from many tools and give buyers no next step. Put key specifications in HTML on the page and offer the PDF as a download."
+      },
+      {
+        "q": "Do manufacturers need Google Business Profile?",
+        "a": "Yes, for each plant. It helps regional searches and gives buyers a trusted place to see your address, photos and reviews."
+      },
+      {
+        "q": "What is the best first step in manufacturing SEO?",
+        "a": "Pick your most profitable process and build one strong capability page for it, with specifications, proof and an RFQ form, then repeat for the next process."
+      }
+    ]
+  },
+  {
       "slug": "how-to-find-a-good-seo-company",
       "seoTitle": "How to Find a Good SEO Company 2027: Questions to Ask",
       "title": "How to Choose an SEO Company in 2027: Questions to Ask Before You Sign",
