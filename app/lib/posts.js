@@ -27,6 +27,369 @@ export const AUTHORS = {
    To preview drafts locally, run the dev server with INSIGHTS_PREVIEW_DRAFTS=1. */
 const ALL_POSTS = [
   {
+      "slug": "seo-pricing-uk",
+      "seoTitle": "SEO Pricing UK 2027: What SEO Costs per Month",
+      "title": "How Much Does SEO Cost in the UK in 2027? Monthly Pricing, What You Get and What to Avoid",
+      "description": "SEO pricing in the UK: typical monthly retainers, hourly rates and project costs, what drives the price, what a quote should include and red flags to avoid.",
+      "date": "2026-11-18",
+      "author": "team",
+      "topics": [
+          "SEO - Begins"
+      ],
+      "industries": [],
+      "image": "/insights/seo-pricing-uk-banner.jpg",
+      "intro": "Ask five agencies what SEO costs and you may get five very different numbers. SEO pricing in the UK ranges from under £500 to over £10,000 a month, and the gap follows how competitive your market is, how big your site is and how much work each month includes. Most UK businesses pay £500 to £3,000 a month. This guide breaks down monthly retainers, hourly rates and one-off projects, shows what drives the price, explains what a good quote includes and lists the red flags to avoid.",
+      "tldr": [
+          "Most UK businesses pay £500 to £3,000 a month for SEO. Whito's study of 45 published prices found a median of £799 a month.",
+          "Small local firms start at £300 to £1,200, growing SMEs pay £1,500 to £3,000 and enterprise campaigns run from £10,000.",
+          "Hourly rates run from £30 to £250 depending on experience, and one-off projects from £250 for local set-up to £10,000 for penalty recovery.",
+          "Competition, site size, locations, content volume, links and who does the work decide the price.",
+          "Avoid ranking guarantees, vague packages and long lock-ins, and get deliverables and reporting in writing."
+      ],
+      "body": [
+          {
+              "type": "h2",
+              "text": "How much does SEO cost in the UK?"
+          },
+          {
+              "type": "p",
+              "text": "Most UK businesses pay between £500 and £3,000 a month for SEO, with the middle of the market sitting around £800 to £1,500. Small local firms can start at £300 to £800, growing businesses usually pay £1,500 to £3,000, and national or enterprise campaigns run from £5,000 to £10,000 or more. That is the short answer to SEO pricing in the UK. The right figure for you depends on how competitive your market is and how much work your site needs."
+          },
+          {
+              "type": "callout",
+              "variant": "takeaway",
+              "title": "The quick answer",
+              "text": "UK SEO pricing in 2026 runs from about £300 to £5,000 a month for most businesses. Whito's study of 45 published UK prices found a median of £799 a month. Limelight Digital reports that most businesses pay £1,000 to £3,000 a month."
+          },
+          {
+              "type": "image",
+              "src": "/insights/seo-cost-uk-google-ai-overview.jpg",
+              "alt": "Google UK AI Overview for the search how much does seo cost uk, saying SEO in the UK typically costs between £500 and £5,000 plus per month for standard monthly retainers, with a breakdown by type",
+              "caption": "Google UK AI Overview for \"how much does seo cost uk\", 18 November 2026."
+          },
+          {
+              "type": "stats",
+              "title": "What UK SEO providers publish",
+              "items": [
+                  {
+                      "value": "£799",
+                      "label": "median published monthly SEO price across 45 UK providers, June 2026 (Whito UK Marketing Prices Study)"
+                  },
+                  {
+                      "value": "£447",
+                      "label": "median price of the entry tier on those same pricing pages"
+                  },
+                  {
+                      "value": "£99 to £5,000+",
+                      "label": "full range of published monthly prices in the study"
+                  }
+              ]
+          },
+          {
+              "type": "p",
+              "text": "The [Whito UK Marketing Prices Study](https://whito.co.uk/research/uk-seo-pricing-study-our-approach/) recorded the monthly prices UK providers publish on their own sites. Half of the prices sat between roughly £410 and £1,500 a month. A published price is not a quote, and providers that hide their prices are not in the sample, so treat the median as a guide rather than a promise."
+          },
+          {
+              "type": "h2",
+              "text": "What is a typical SEO price in the UK by business size?"
+          },
+          {
+              "type": "p",
+              "text": "A typical UK SEO price rises with the size of the business and the number of searches it needs to win. A single-location service firm needs far less work than an online shop with thousands of products, so the monthly fee follows the scope. The table below combines the budget ranges published by Limelight Digital (April 2026) and the planning ranges in the Whito study."
+          },
+          {
+              "type": "table",
+              "head": [
+                  "Business type",
+                  "Typical monthly SEO budget",
+                  "What the work usually focuses on"
+              ],
+              "rows": [
+                  [
+                      "Small or local business",
+                      "£300 to £1,200",
+                      "Google Business Profile, local pages, reviews, on-page basics"
+                  ],
+                  [
+                      "Growing SME",
+                      "£1,500 to £3,000",
+                      "Regional visibility, content, link building"
+                  ],
+                  [
+                      "Mid-market or multi-location",
+                      "£3,000 to £8,000",
+                      "Technical SEO, digital PR, several service areas"
+                  ],
+                  [
+                      "Ecommerce",
+                      "£2,000 to £8,000",
+                      "Category and product pages, site speed, large-scale content"
+                  ],
+                  [
+                      "Enterprise or national brand",
+                      "£10,000 or more",
+                      "Multi-site and international SEO, large content and PR programmes"
+                  ]
+              ]
+          },
+          {
+              "type": "p",
+              "text": "These are planning ranges, not prices from a single source. Limelight Digital gives the small, SME, mid-market and enterprise bands, and Whito's planning anchors add ecommerce at £2,000 to £8,000. Use them to sense-check a quote, not to set your budget."
+          },
+          {
+              "type": "h2",
+              "text": "What do monthly retainers, hourly rates and one-off projects cost?"
+          },
+          {
+              "type": "p",
+              "text": "There are three ways to pay for SEO in the UK: a monthly retainer, an hourly rate, or a one-off project. Retainers are the most common because SEO is ongoing work. Hourly rates suit advice and fixes. Projects suit audits, migrations and clean-ups."
+          },
+          {
+              "type": "h3",
+              "text": "How much is a monthly SEO retainer in the UK?"
+          },
+          {
+              "type": "p",
+              "text": "A monthly SEO retainer in the UK usually costs £500 to £3,000, with a published median of £799 in the Whito study. Whito groups published prices into three bands: budget at £99 to £300, mainstream at £350 to £1,000, and established agencies at £1,500 to £5,000 or more. A retainer buys an agreed amount of work every month, so ask what that amount is in hours or deliverables."
+          },
+          {
+              "type": "image",
+              "src": "/insights/seo-cost-uk-people-also-ask.jpg",
+              "alt": "Google UK People Also Ask box for the search how much does seo cost uk, with questions including is paying for SEO worth it and how much should I expect to pay for SEO",
+              "caption": "People Also Ask for \"how much does seo cost uk\", 18 November 2026."
+          },
+          {
+              "type": "h3",
+              "text": "How much do SEO freelancers and consultants charge per hour?"
+          },
+          {
+              "type": "p",
+              "text": "UK SEO hourly rates run from about £30 to £60 for a junior freelancer, £60 to £150 for an experienced freelancer and £100 to £250 for a strategy consultant, based on the planning anchors in the Whito study. Limelight Digital puts agency consultants at £100 to £250 an hour and senior London specialists at up to £400. Hourly work is good value for a one-off question and poor value for ongoing growth, because the meter keeps running."
+          },
+          {
+              "type": "h3",
+              "text": "How much does a one-off SEO project cost in the UK?"
+          },
+          {
+              "type": "p",
+              "text": "One-off SEO projects in the UK range from a few hundred pounds for a local set-up to several thousand for a migration or recovery job. The Whito planning anchors give the figures below."
+          },
+          {
+              "type": "table",
+              "head": [
+                  "One-off SEO project",
+                  "Typical UK price"
+              ],
+              "rows": [
+                  [
+                      "Local SEO set-up",
+                      "£250 to £800"
+                  ],
+                  [
+                      "Keyword research",
+                      "£300 to £1,500"
+                  ],
+                  [
+                      "SEO audit",
+                      "£500 to £3,000"
+                  ],
+                  [
+                      "Content strategy",
+                      "£1,000 to £3,000"
+                  ],
+                  [
+                      "Website migration",
+                      "£1,000 to £5,000"
+                  ],
+                  [
+                      "Penalty recovery",
+                      "£2,000 to £10,000"
+                  ]
+              ]
+          },
+          {
+              "type": "p",
+              "text": "A project is the right choice when you have a defined problem, such as a site move. If the goal is more enquiries over the next year, a retainer or in-house hire is the better fit."
+          },
+          {
+              "type": "h2",
+              "text": "What decides SEO pricing in the UK?"
+          },
+          {
+              "type": "p",
+              "text": "SEO pricing in the UK is decided by the amount of work needed to beat the pages already ranking for your searches. Six factors move the price most."
+          },
+          {
+              "type": "list",
+              "items": [
+                  "**Competition.** A search where the top results come from large brands with years of links needs more content and more digital PR than a quiet local search.",
+                  "**Site size and condition.** A site with technical faults, thin pages or a messy structure needs fixing before growth work starts, and that adds cost at the start.",
+                  "**Locations and services.** Every extra town, service or product line needs its own pages and its own reviews and links.",
+                  "**Content volume.** Ten well-researched articles a month cost more than two, and quality writing from specialists costs more than generic copy.",
+                  "**Links and digital PR.** Earning mentions on trusted sites takes outreach time, and it is often the biggest difference between a £500 and a £3,000 package.",
+                  "**Who does the work.** A freelancer, a small agency and a large agency price their hours differently, and agencies bring a team of specialists."
+              ]
+          },
+          {
+              "type": "p",
+              "text": "In our experience, competition and content volume explain most of the gap between two quotes for the same business. If one quote is far lower than the others, check which of these six it has left out."
+          },
+          {
+              "type": "h2",
+              "text": "What is included in a monthly SEO price?"
+          },
+          {
+              "type": "p",
+              "text": "A monthly SEO price should cover technical fixes, on-page work, content, links or digital PR, and reporting, in proportions that match your goal. Lower tiers lean on set-up and basic on-page work. Higher tiers add regular content, outreach and strategy time with a senior person."
+          },
+          {
+              "type": "compare",
+              "title": "What a quote should spell out",
+              "columns": [
+                  {
+                      "title": "A clear SEO quote",
+                      "tone": "good",
+                      "items": [
+                          "Names the deliverables each month, such as pages written, links earned and fixes made",
+                          "States the hours or the team time behind the fee",
+                          "Lists the keywords and pages the work targets",
+                          "Includes a monthly report with rankings, traffic and enquiries",
+                          "Shows the contract length and how to leave"
+                      ]
+                  },
+                  {
+                      "title": "A vague SEO quote",
+                      "tone": "bad",
+                      "items": [
+                          "Promises a ranking position or a result by a date",
+                          "Says \"SEO package\" without listing what is in it",
+                          "Hides the reporting or sends only a rankings screenshot",
+                          "Locks you in for 12 months with no exit",
+                          "Cannot name who will do the work"
+                      ]
+                  }
+              ]
+          },
+          {
+              "type": "image",
+              "src": "/insights/seo-cost-uk-chatgpt-answer.jpg",
+              "alt": "ChatGPT answer to the prompt how much does SEO cost for a small business in the UK, showing a pricing table from £200 to £5,000 plus per month",
+              "caption": "A ChatGPT answer to \"How much does SEO cost for a small business in the UK?\", 18 November 2026."
+          },
+          {
+              "type": "p",
+              "text": "AI assistants give similar ranges to the published studies, which is a useful check. The prices they quote come from the same agency pages, so they confirm the market range but cannot tell you what you will get for your money. Ask each provider for that detail in writing."
+          },
+          {
+              "type": "h2",
+              "text": "Does AEO and GEO work cost extra on top of SEO pricing?"
+          },
+          {
+              "type": "p",
+              "text": "AEO and GEO work does not need a separate budget for most businesses, because it builds on the same pages, content and links as SEO. Answer engine optimisation (AEO) and generative engine optimisation (GEO) aim to get your pages quoted in Google AI Overviews, ChatGPT and other AI answers. The extra effort is mostly in how pages are written and in earning mentions on other sites, which sit inside a normal content and digital PR scope. Our guide to [AEO vs SEO](/insights/aeo-vs-seo) shows how one page serves both, and the [answer engine optimisation pillar](/insights/answer-engine-optimisation) covers the wider picture."
+          },
+          {
+              "type": "p",
+              "text": "If a provider quotes a large extra fee for AEO, ask what exactly it adds. Tracking AI visits and testing prompts monthly takes a few hours, and you can set it up for free with the steps in our guide to [tracking AI traffic in GA4 and Search Console](/insights/track-ai-traffic)."
+          },
+          {
+              "type": "h2",
+              "text": "What should you avoid when paying for SEO in the UK?"
+          },
+          {
+              "type": "p",
+              "text": "Avoid any SEO provider that guarantees rankings, hides its reporting or asks for a long lock-in before showing results. Google's own guidance warns that no one can guarantee a first-page ranking. The cheapest packages are also the most likely to rely on bulk links and generic content, which can do harm."
+          },
+          {
+              "type": "callout",
+              "variant": "warning",
+              "title": "Red flags to check before you sign",
+              "text": "A guaranteed ranking, a price far below every other quote, no named person doing the work, no monthly report, a contract longer than 12 months with no exit, and links bought in bulk. Any one of these deserves a direct question."
+          },
+          {
+              "type": "p",
+              "text": "Before you sign, ask each provider the questions in our guide to [choosing an SEO company](/insights/how-to-find-a-good-seo-company). It covers references, reporting and contracts in detail. For the reporting side, our [SEO report template](/insights/seo-report-template) shows what a good monthly report includes, so you know what to expect for your fee."
+          },
+          {
+              "type": "h2",
+              "text": "Is SEO worth the price?"
+          },
+          {
+              "type": "p",
+              "text": "SEO is worth the price when the extra enquiries it brings are worth more than the monthly fee, and it usually takes several months to show. It builds slowly, so judge it on enquiries and revenue, not on a ranking screenshot. Interest in the topic is rising too: on Google Trends, UK searches for \"seo cost\" have climbed sharply since late 2025, which suggests more owners are comparing prices before they buy."
+          },
+          {
+              "type": "image",
+              "src": "/insights/seo-cost-uk-google-trends.jpg",
+              "alt": "Google Trends chart of UK search interest over five years for seo cost and seo pricing, with both rising sharply from late 2025",
+              "caption": "Google Trends interest over time for \"seo cost\" and \"seo pricing\" in the UK, past five years, 18 November 2026."
+          },
+          {
+              "type": "p",
+              "text": "To work out your own break-even, take the average value of a customer, the share of enquiries you close, and the monthly fee. If one extra customer a month covers the fee, the maths works. Our guide on [whether SEO can generate leads](/insights/can-seo-generate-leads) shows how to measure that, and our [B2B SEO strategy](/insights/seo-for-b2b-companies) guide covers longer buying journeys."
+          },
+          {
+              "type": "h2",
+              "text": "How do you set an SEO budget?"
+          },
+          {
+              "type": "p",
+              "text": "Set an SEO budget by starting from the value of a customer, not from what competitors spend. Three checks keep the number realistic."
+          },
+          {
+              "type": "checklist",
+              "title": "Set your SEO budget in three steps",
+              "items": [
+                  "**Work out what a customer is worth.** Use average order value or lifetime value, then decide how many extra customers a month would make SEO pay for itself.",
+                  "**Match the budget to your market.** A local firm can start at £500 to £800 a month. A competitive national search needs £3,000 or more to compete.",
+                  "**Agree what the money buys.** Get the monthly deliverables, the reporting and the contract terms in writing before you start."
+              ]
+          }
+      ],
+      "faq": [
+          {
+              "q": "How much does SEO cost per month in the UK?",
+              "a": "Most UK businesses pay £500 to £3,000 a month. Small local firms can start at £300 to £800, growing SMEs pay £1,500 to £3,000, and national campaigns run to £5,000 or more. Whito's study of 45 published UK prices found a median of £799 a month."
+          },
+          {
+              "q": "How much does SEO cost for a small business in the UK?",
+              "a": "A small or local UK business typically pays £300 to £1,200 a month, according to Limelight Digital. Many local firms start at £500 to £800 a month, which covers local pages, reviews and on-page basics."
+          },
+          {
+              "q": "Is £500 a month enough for SEO?",
+              "a": "£500 a month can work for a local business in a quiet market with a clear scope, such as Google Business Profile and local pages. It rarely covers content and links for a competitive search, so check what the fee includes."
+          },
+          {
+              "q": "How much does an SEO audit cost in the UK?",
+              "a": "An SEO audit in the UK usually costs £500 to £3,000, according to the planning ranges in the Whito study. Large or complex sites sit at the top of the range."
+          },
+          {
+              "q": "How much do SEO freelancers charge per hour in the UK?",
+              "a": "UK freelancers charge about £30 to £60 an hour at junior level and £60 to £150 an hour when experienced. Strategy consultants charge £100 to £250 an hour, based on the Whito planning anchors."
+          },
+          {
+              "q": "Is paying for SEO worth it?",
+              "a": "It is worth it when the extra enquiries are worth more than the fee. SEO builds over months, so judge it on enquiries and revenue and agree a monthly report before you start."
+          },
+          {
+              "q": "Can I do SEO on my own?",
+              "a": "Yes, for the basics. A small business can set up Google Business Profile, fix titles and write helpful pages with free tools. Paid help pays off when competition is high or you lack the time."
+          },
+          {
+              "q": "Why do SEO prices vary so much?",
+              "a": "Prices follow the amount of work needed: competition, site size, number of locations, content volume, links and who does the work. A quote far below the rest has usually left one of these out."
+          },
+          {
+              "q": "Does SEO pricing include AEO and GEO?",
+              "a": "For most businesses, yes. AEO and GEO build on the same content and links as SEO, so they sit inside a normal scope. Ask any provider quoting extra to say exactly what it adds."
+          },
+          {
+              "q": "Are there hidden costs in UK SEO pricing?",
+              "a": "Common extras are content writing, tool subscriptions, link or digital PR budgets and developer time for fixes. Ask the provider to list what is and is not included, and whether VAT is added."
+          }
+      ]
+  },
+  {
       "slug": "aeo-vs-seo",
       "seoTitle": "AEO vs SEO 2027: How They Differ and How to Do Both",
       "title": "AEO vs SEO in 2027: How Answer Engine Optimisation Differs from Traditional SEO",
