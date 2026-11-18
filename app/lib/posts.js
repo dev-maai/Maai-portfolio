@@ -27,6 +27,371 @@ export const AUTHORS = {
    To preview drafts locally, run the dev server with INSIGHTS_PREVIEW_DRAFTS=1. */
 const ALL_POSTS = [
   {
+      "slug": "aeo-vs-seo",
+      "seoTitle": "AEO vs SEO 2027: How They Differ and How to Do Both",
+      "title": "AEO vs SEO in 2027: How Answer Engine Optimisation Differs from Traditional SEO",
+      "description": "AEO vs SEO in 2027: how one page is built differently to rank and to be quoted, what stays the same, how to measure each and a 15-minute page audit.",
+      "date": "2026-11-18",
+      "author": "team",
+      "topics": [
+          "AEO/GEO"
+      ],
+      "industries": [],
+      "image": "/insights/aeo-vs-seo-banner.jpg",
+      "intro": "Search a question today and two things can happen. Google shows a list of pages ranked in order, and an AI answer above them quotes a few of those pages. AEO vs SEO is the question of how to win in both. SEO builds a page to rank and earn the click. AEO (answer engine optimisation) builds the same page so an answer engine can lift a clear answer from it and name you as the source. This guide shows how one page is built differently for each, what stays the same, how to measure both and how to check a page in 15 minutes.",
+      "tldr": [
+          "SEO builds a page to rank and earn a click. AEO builds the same page so an AI answer can quote it and name you.",
+          "AEO sits on top of SEO. Ahrefs found 76% of AI Overview citations came from pages already in Google's top 10.",
+          "The format changes: answer-first paragraphs, question headings, tables and FAQs make a page easy to quote.",
+          "Crawling, quality, trust and links stay the same, so you do not need two separate content programmes.",
+          "Measure rankings and conversions for SEO, and prompt tests, citations and AI referral visits for AEO."
+      ],
+      "body": [
+          {
+              "type": "h2",
+              "text": "What is the difference between AEO and SEO?"
+          },
+          {
+              "type": "callout",
+              "variant": "definition",
+              "title": "Definition",
+              "text": "SEO (search engine optimisation) is the work of making a page rank high in search results so people click through to it. AEO (answer engine optimisation) is the work of making a page easy for Google AI Overviews, ChatGPT and other answer engines to extract, quote and credit as the source of an answer."
+          },
+          {
+              "type": "p",
+              "text": "The difference is what the page is built to produce. SEO produces a ranking position and a visit. AEO produces a quoted answer, with or without a visit. Google's own AI Overview for \"aeo vs seo\" describes them as complementary strategies that target different goals, formats and platforms."
+          },
+          {
+              "type": "image",
+              "src": "/insights/aeo-vs-seo-google-ai-overview.jpg",
+              "alt": "Google UK AI Overview for the search aeo vs seo with a Core Differences at a Glance table comparing platforms, main goal, core tactics and content format",
+              "caption": "The Google UK AI Overview for \"aeo vs seo\", 18 November 2026."
+          },
+          {
+              "type": "table",
+              "head": [
+                  "",
+                  "SEO",
+                  "AEO"
+              ],
+              "rows": [
+                  [
+                      "Goal",
+                      "Rank high and earn the click",
+                      "Be quoted and named as the source of the answer"
+                  ],
+                  [
+                      "Where it happens",
+                      "Google and Bing results pages",
+                      "Google AI Overviews and AI Mode, ChatGPT, Gemini, Claude, Perplexity"
+                  ],
+                  [
+                      "What you build",
+                      "A page that satisfies the search and the searcher",
+                      "The same page, with sections that stand alone as answers"
+                  ],
+                  [
+                      "Typical query",
+                      "Short keyword phrases",
+                      "Full questions and follow-up questions"
+                  ],
+                  [
+                      "Main metrics",
+                      "Rankings, clicks, conversions",
+                      "Mentions, citations, AI referral visits"
+                  ]
+              ]
+          },
+          {
+              "type": "p",
+              "text": "The People Also Ask box on the same search shows what readers want settled: whether AEO will replace SEO, which is better, and whether AEO is simply part of SEO. We answer each of these below."
+          },
+          {
+              "type": "image",
+              "src": "/insights/aeo-vs-seo-people-also-ask.jpg",
+              "alt": "Google UK People Also Ask box for aeo vs seo with questions including will AEO replace SEO and is AEO better than SEO",
+              "caption": "The People Also Ask box for \"aeo vs seo\", 18 November 2026."
+          },
+          {
+              "type": "h2",
+              "text": "Is AEO better than SEO, or part of it?"
+          },
+          {
+              "type": "p",
+              "text": "AEO is not better than SEO, and it does not replace it. It sits on top of SEO and relies on it. Ahrefs studied 1.9 million citations in Google AI Overviews and found that 76% came from pages already ranking in Google's top 10, with the median position of the most-cited pages at 2. If a page does not rank, it is far less likely to be quoted."
+          },
+          {
+              "type": "stats",
+              "title": "Key figure",
+              "items": [
+                  {
+                      "value": "76%",
+                      "label": "of Google AI Overview citations came from pages ranking in the top 10 (Ahrefs, 1.9 million citations)"
+                  }
+              ]
+          },
+          {
+              "type": "p",
+              "text": "Google's guidance on its AI features says the same thing in plain terms: the SEO basics that help a page rank are what make it eligible to appear in AI features, and no special markup or AI-only file is needed. We asked ChatGPT the question a small business owner would ask, with web search on, and it drew the same line."
+          },
+          {
+              "type": "image",
+              "src": "/insights/aeo-vs-seo-chatgpt-answer.jpg",
+              "alt": "ChatGPT answer to what is the difference between AEO and SEO for a small business, saying SEO helps you get found on Google and AEO helps you become the answer",
+              "caption": "ChatGPT's answer to \"What is the difference between AEO and SEO for a small business?\", with web search on, 18 November 2026."
+          },
+          {
+              "type": "p",
+              "text": "AI answers can contain mistakes, so treat that as a second opinion. The evidence is the Ahrefs data. For the wider question of whether AI will take work away from SEO, read our guide on [whether AI will replace SEO](/insights/will-ai-replace-seo)."
+          },
+          {
+              "type": "h2",
+              "text": "How do you build one page for SEO and for AEO?"
+          },
+          {
+              "type": "p",
+              "text": "Start with one query and build the page twice in your head: once to rank, once to be quoted. The research topic and the facts are the same. What changes is how each section opens and how easy it is to lift out on its own."
+          },
+          {
+              "type": "p",
+              "text": "Here is an illustrative example for a plumber's page targeting the query \"how much does a boiler service cost\"."
+          },
+          {
+              "type": "compare",
+              "title": "One query, two builds (illustrative example)",
+              "columns": [
+                  {
+                      "title": "Built for ranking only",
+                      "tone": "bad",
+                      "items": [
+                          "Heading: Boiler Servicing Services in Leeds",
+                          "Opens with a company history and a paragraph about trust and experience",
+                          "Price appears halfway down in a paragraph of mixed advice",
+                          "One long page with no separate answers to follow-up questions"
+                      ]
+                  },
+                  {
+                      "title": "Built for ranking and for being quoted",
+                      "tone": "good",
+                      "items": [
+                          "Heading: How much does a boiler service cost?",
+                          "First sentence gives the answer: a typical gas boiler service costs between two figures, and what the price depends on",
+                          "A short table of prices by boiler type, with the date checked",
+                          "Follow-up questions as headings, each answered in two or three sentences"
+                      ]
+                  }
+              ]
+          },
+          {
+              "type": "p",
+              "text": "The second version still ranks. It also gives an answer engine a self-contained passage it can quote without losing the meaning. That is the whole idea: the same page, rebuilt so each section answers one question."
+          },
+          {
+              "type": "h2",
+              "text": "How does AEO formatting differ from SEO formatting?"
+          },
+          {
+              "type": "p",
+              "text": "AEO formatting puts the answer first and makes each section stand alone. SEO formatting has always rewarded clear structure, but AEO leans harder on a few habits because an answer engine picks passages, not whole pages."
+          },
+          {
+              "type": "list",
+              "items": [
+                  "**Answer-first paragraphs.** Ahrefs found that 44.2% of ChatGPT citations came from the first 30% of a page, so put the direct answer at the top of each section and the page.",
+                  "**Question headings.** Ahrefs reported pages with question-style headings were cited about 18% of the time against 8.9% without them.",
+                  "**Definitive wording.** Cited text used definitive phrasing 36.2% of the time against 20.2% for text that was not cited. Say \"A boiler service costs\", not \"It could depend\".",
+                  "**Named things.** Use the brand, product, place and standard by name every time, so a quoted passage keeps its meaning without the rest of the page.",
+                  "**Tables and short lists.** These suit comparisons and steps, and they are easy for both a snippet and an AI answer to lift."
+              ]
+          },
+          {
+              "type": "stats",
+              "title": "Why format matters",
+              "items": [
+                  {
+                      "value": "44.2%",
+                      "label": "of ChatGPT citations came from the first 30% of a page (Ahrefs)"
+                  },
+                  {
+                      "value": "18% vs 8.9%",
+                      "label": "citation rate for pages with question headings versus without (Ahrefs)"
+                  }
+              ]
+          },
+          {
+              "type": "h3",
+              "text": "Do snippets and People Also Ask differ from AI citations?"
+          },
+          {
+              "type": "p",
+              "text": "Yes, in where they appear and how they credit you. A featured snippet or People Also Ask answer sits inside the ordinary results and links to your page. An AI answer combines several sources, may name them in a side panel and may send no click at all. The Pew Research Center found that people clicked a link in 8% of visits when Google showed an AI summary, against 15% when it did not. Being the named source matters more when fewer people click."
+          },
+          {
+              "type": "h3",
+              "text": "Does FAQ schema help AEO?"
+          },
+          {
+              "type": "p",
+              "text": "Add it for rich results and clarity, but do not expect it to win citations on its own. Ahrefs compared 1,885 pages that added JSON-LD with about 4,000 similar pages that did not and found no meaningful citation uplift in Google AI Overviews, AI Mode or ChatGPT. Google's overview lists structured data under AEO tactics, so our view is: keep it accurate and matched to visible content, and put the effort into the writing."
+          },
+          {
+              "type": "h2",
+              "text": "What stays the same between AEO and SEO?"
+          },
+          {
+              "type": "p",
+              "text": "Most of the work stays the same. An answer engine can only quote what it can find, trust and understand, which are the jobs SEO has always done."
+          },
+          {
+              "type": "list",
+              "items": [
+                  "**Crawling and indexing.** Pages must be crawlable, indexable and fast. Check that robots.txt and your CDN are not blocking search crawlers such as Googlebot, Bingbot and OAI-SearchBot.",
+                  "**Helpful, original content.** Real data, first-hand experience and a clear point of view beat generic copy for rankings and for citations.",
+                  "**Trust.** A named author, a real date, honest scope and sourced claims help in both.",
+                  "**Links and mentions.** Links help you rank, and brand mentions on trusted sites help you appear in AI answers. Digital PR does both jobs.",
+                  "**Search intent.** Match what the searcher wants, then add what the top results miss."
+              ]
+          },
+          {
+              "type": "p",
+              "text": "Where the two diverge most is off your site, which we cover in our comparison of [GEO vs SEO](/insights/geo-vs-seo). This guide stays on the page itself."
+          },
+          {
+              "type": "h2",
+              "text": "How do you measure AEO vs SEO?"
+          },
+          {
+              "type": "p",
+              "text": "Measure SEO by rankings, clicks and conversions, and measure AEO by whether your pages are quoted and whether those answers send visits. Use both sets, because a page can rank well and still never be quoted."
+          },
+          {
+              "type": "table",
+              "head": [
+                  "Question",
+                  "SEO measure",
+                  "AEO measure"
+              ],
+              "rows": [
+                  [
+                      "Are we visible?",
+                      "Impressions and average position in Search Console",
+                      "Share of test questions where your page or brand is cited"
+                  ],
+                  [
+                      "Are we chosen?",
+                      "Click-through rate on target queries",
+                      "Which sections of your page are quoted and how"
+                  ],
+                  [
+                      "Does it bring visitors?",
+                      "Organic sessions in GA4",
+                      "Sessions from AI sources in GA4"
+                  ],
+                  [
+                      "Does it bring revenue?",
+                      "Conversions from organic landing pages",
+                      "Conversions from AI referrals and branded searches"
+                  ]
+              ]
+          },
+          {
+              "type": "p",
+              "text": "To set up the AI side, follow our step-by-step guide to [tracking AI traffic for free](/insights/track-ai-traffic). For the full method, see our [answer engine optimisation guide](/insights/answer-engine-optimisation)."
+          },
+          {
+              "type": "h2",
+              "text": "Are people searching for AEO or SEO?"
+          },
+          {
+              "type": "p",
+              "text": "People search for SEO far more than for AEO, and interest in AEO terms is uneven. In Google Trends for the UK over the past 12 months, the US spelling \"answer engine optimization\" shows the highest interest of the three terms we compared, with sharp spikes rather than a steady line. \"Answer engine optimisation\" and the comparison phrase \"aeo vs seo\" register at much lower levels."
+          },
+          {
+              "type": "image",
+              "src": "/insights/aeo-vs-seo-google-trends.jpg",
+              "alt": "Google Trends chart for the UK over 12 months comparing answer engine optimisation, answer engine optimization and aeo vs seo, with the US spelling highest and spiky",
+              "caption": "Google Trends, UK, past 12 months, 18 November 2026: relative interest in three AEO-related searches."
+          },
+          {
+              "type": "p",
+              "text": "For your own pages, that means writing for both spellings and for the plain questions buyers ask, such as \"how does answer engine optimisation work\", rather than leaning on the acronym alone."
+          },
+          {
+              "type": "h2",
+              "text": "How do you audit a page for AEO and SEO in 15 minutes?"
+          },
+          {
+              "type": "p",
+              "text": "Pick one page that already ranks on page one and check it against this list. Fix what fails, then check it again in a month."
+          },
+          {
+              "type": "checklist",
+              "title": "15-minute AEO and SEO page audit",
+              "items": [
+                  "**Does the page rank?** Check Search Console for the target query. If it sits outside the top 10, fix the SEO basics first.",
+                  "**Does the first paragraph answer the main question?** A reader and an AI tool should find the answer in the first two or three sentences.",
+                  "**Do the H2s read as real questions?** Match them to People Also Ask and your own customer questions.",
+                  "**Does each section make sense on its own?** Replace \"it\" and \"this\" with the subject's name.",
+                  "**Is there one table or short list that compares or lists the key facts?** Add one where the topic needs it.",
+                  "**Is every figure sourced and dated?** Remove anything you cannot back up.",
+                  "**Is there a short FAQ with the questions people ask next?** Keep each answer to two or three sentences.",
+                  "**Can crawlers reach it?** Check indexing in Search Console and that robots.txt does not block search crawlers."
+              ]
+          },
+          {
+              "type": "h2",
+              "text": "AEO vs SEO: which should you do first?"
+          },
+          {
+              "type": "p",
+              "text": "Do SEO first on any page that does not rank yet, and apply AEO formatting as you write it. Doing both together costs little extra, because the answer-first structure also improves the page for readers."
+          },
+          {
+              "type": "list",
+              "items": [
+                  "**New pages:** write them answer-first from the start, with question headings and a short FAQ.",
+                  "**Pages already on page one:** rework the openings and headings first. This is the quickest AEO win.",
+                  "**Pages that do not rank:** fix intent, content depth, links and technical issues before you change the format.",
+                  "**B2B companies with long sales cycles:** buyers use AI tools early, so do both from the start. Our [B2B SEO strategy guide](/insights/seo-for-b2b-companies) covers the full buying journey."
+              ]
+          },
+          {
+              "type": "p",
+              "text": "If you want the pages that already rank to start being quoted in AI answers too, we can help you plan it."
+          }
+      ],
+      "faq": [
+          {
+              "q": "What is the difference between AEO and SEO?",
+              "a": "SEO makes a page rank in search results so people click through. AEO makes the same page easy for answer engines such as Google AI Overviews and ChatGPT to quote and credit. Both start with a page that is useful and easy to find."
+          },
+          {
+              "q": "Will AEO replace SEO?",
+              "a": "No. AEO relies on SEO. Ahrefs found that 76% of Google AI Overview citations came from pages already in the top 10 for the search, so a page that does not rank is less likely to be quoted."
+          },
+          {
+              "q": "Is AEO better than SEO?",
+              "a": "Neither is better. They answer different questions: SEO gets the page found and clicked, and AEO gets its answer quoted. Most businesses need the page to rank first, then to be written so it can be quoted."
+          },
+          {
+              "q": "Is AEO a part of SEO?",
+              "a": "In practice, yes. It uses the same foundations of crawling, quality, trust and links, and adds a focus on answer-first writing and being cited in AI answers. Many teams treat it as an extension of SEO."
+          },
+          {
+              "q": "Do I need different content for AEO and SEO?",
+              "a": "Usually not. You need the same page written so that each section opens with the answer and stands alone. That serves readers, search results and AI answers together."
+          },
+          {
+              "q": "Does schema markup help AEO?",
+              "a": "It helps with rich results and clarity, but Ahrefs found no meaningful citation uplift from adding JSON-LD in Google AI Overviews, AI Mode or ChatGPT. Use accurate markup that matches the visible page and focus on the writing."
+          },
+          {
+              "q": "How do I know if my page is being quoted by AI?",
+              "a": "Write a list of questions your buyers ask, run them in Google AI Mode, ChatGPT and Gemini, and note which sources are cited. Repeat monthly and track AI referral visits in GA4."
+          }
+      ]
+  },
+  {
       "slug": "geo-vs-seo",
       "seoTitle": "GEO vs SEO 2027: Differences and Which You Need",
       "title": "GEO vs SEO in 2027: What Is the Difference and Which Do You Need?",
