@@ -27,6 +27,316 @@ export const AUTHORS = {
    To preview drafts locally, run the dev server with INSIGHTS_PREVIEW_DRAFTS=1. */
 const ALL_POSTS = [
   {
+    "slug": "how-long-does-seo-take",
+    "seoTitle": "How Long Does SEO Take? AEO, GEO and SEO Timeline 2027",
+    "title": "How Long Does SEO Take? A Realistic AEO, GEO and AI SEO Timeline for 2027",
+    "description": "How long does SEO take? A realistic month-by-month timeline for SEO, AEO and GEO, what speeds results up or slows them down, and how to tell it is working.",
+    "date": "2026-11-19",
+    "author": "team",
+    "topics": [
+      "SEO - Begins"
+    ],
+    "industries": [],
+    "image": "/insights/how-long-does-seo-take-banner.jpg",
+    "intro": "Almost every business owner asks the same question before starting: how long does SEO take? The honest answer is three to six months for measurable results and six to twelve months for strong growth in a competitive market. AEO (answer engine optimisation) and GEO (generative engine optimisation), the work of being quoted in AI answers, follow a similar curve because AI tools lean heavily on pages that already rank. This guide gives a month-by-month timeline for SEO, AEO and GEO, explains what speeds results up or slows them down, and shows how to tell it is working before the enquiries arrive.",
+    "tldr": [
+      "SEO usually takes three to six months to show measurable results and six to twelve months to deliver strong growth in competitive markets, according to Search Engine Land.",
+      "Technical fixes can show within days or weeks. Google says some changes take effect in a few hours and others take several months.",
+      "AEO and GEO follow SEO. Ahrefs found 76% of AI Overview citations came from pages already in the top 10, so ranking comes first.",
+      "Ahrefs found only 1.74% of newly published pages reached Google's top 10 within a year in its large random sample, so a single new page is not a plan.",
+      "Track leading signs (indexing, impressions, long-tail rankings, AI mentions) from month one and judge revenue from month six."
+    ],
+    "body": [
+      {
+        "type": "h2",
+        "text": "How long does SEO take to work?"
+      },
+      {
+        "type": "p",
+        "text": "SEO typically takes three to six months to produce measurable results, and six to twelve months or more to deliver significant growth in competitive industries. That is the range Google's AI Overview gives for the search, taken from Search Engine Land, and it matches what most UK agencies publish. Early signs such as indexing and first impressions can appear in the first few weeks."
+      },
+      {
+        "type": "image",
+        "src": "/insights/how-long-does-seo-take-1.jpg",
+        "alt": "Google UK AI Overview for the search how long does SEO take, saying SEO typically takes 3 to 6 months for measurable results and 6 to 12 months for significant growth in competitive industries, with a week-by-week timeline",
+        "caption": "Google UK AI Overview for \"how long does SEO take\", 19 November 2026."
+      },
+      {
+        "type": "p",
+        "text": "In plain English, SEO (search engine optimisation) is the work of making your site easy for Google to find and worth recommending. Google has to find your changes, judge them against competitors and then decide to show you higher. Each step takes time, which is why a page published on Monday rarely brings enquiries on Friday."
+      },
+      {
+        "type": "p",
+        "text": "The same range appears in the People Also Ask box under the main results, where Google again quotes Search Engine Land and adds that the real timeline depends on whether your site is brand new or established, how competitive your industry is and how quickly search engines crawl your pages."
+      },
+      {
+        "type": "image",
+        "src": "/insights/how-long-does-seo-take-2.jpg",
+        "alt": "Google People Also Ask answer to how long does SEO really take, showing an AI Overview that says 3 to 6 months to show measurable results and 6 to 12 months for compounding growth",
+        "caption": "Google UK People Also Ask answer for \"How long does SEO really take?\", 19 November 2026."
+      },
+      {
+        "type": "h2",
+        "text": "How long does SEO take for a new page or a new website?"
+      },
+      {
+        "type": "p",
+        "text": "A new page can be indexed within hours or days, but reaching page one usually takes months. Ahrefs studied 1 million random URLs and found only 1.74% reached Google's top 10 within a year. On a filtered sample of 2 million English-language pages it was 6.11%, which Ahrefs calls the fairer figure."
+      },
+      {
+        "type": "stats",
+        "title": "How quickly new pages reach Google's top 10",
+        "items": [
+          {
+            "value": "1.74%",
+            "label": "of 1 million random new URLs reached the top 10 within a year (Ahrefs, 2025)"
+          },
+          {
+            "value": "6.11%",
+            "label": "on a filtered sample of 2 million English-language URLs"
+          },
+          {
+            "value": "72.9%",
+            "label": "of top 10 pages are more than three years old, up from 59% in 2017"
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "The Ahrefs study also shows why older sites win. The average page in position one is five years old, against two years in 2017. A brand-new website therefore starts without years of links, mentions and history, and it needs longer than an established site with a few weak pages."
+      },
+      {
+        "type": "callout",
+        "variant": "note",
+        "title": "What this means for you",
+        "text": "A new website should plan for six to twelve months of steady work, and an established site with existing authority can see movement in two to four months. Pages that already sit on page two usually move fastest when you improve them."
+      },
+      {
+        "type": "h2",
+        "text": "What is a realistic SEO, AEO and GEO timeline by month?"
+      },
+      {
+        "type": "p",
+        "text": "Most businesses see technical fixes and early rankings in the first three months, more clicks and enquiries between months three and six, and steady growth after that. AEO and GEO work sits alongside and builds on the same pages. The table below gives planning ranges from Search Engine Land, Orbit Media Studios and Google, not guaranteed milestones."
+      },
+      {
+        "type": "table",
+        "head": [
+          "Period",
+          "SEO (Google rankings)",
+          "AEO and GEO (AI answers)"
+        ],
+        "rows": [
+          [
+            "Month 1",
+            "Technical fixes, indexing, keyword research and on-page changes. Few visits yet.",
+            "Answer-first rewrites, clear company and entity details, crawler access checked."
+          ],
+          [
+            "Months 2 to 3",
+            "Impressions and long-tail rankings start to grow. Low-competition terms can move (Orbit Media Studios puts this at two to three months).",
+            "First mentions or citations are possible for narrow questions, especially where you already rank."
+          ],
+          [
+            "Months 3 to 6",
+            "Clearer clicks and the first enquiries as content, internal links and authority compound.",
+            "More repeat citations as more of your pages rank and your brand is mentioned elsewhere."
+          ],
+          [
+            "Months 6 to 12",
+            "Stronger coverage of competitive terms and steadier leads (Search Engine Land: six to twelve months in competitive markets).",
+            "More consistent AI visibility where authority and outside mentions keep growing."
+          ]
+        ]
+      },
+      {
+        "type": "p",
+        "text": "We asked ChatGPT the same question for a small UK business and it gave a very similar split: three to six months for early SEO results, six to twelve for consistent leads, and a less predictable path for AI visibility. It also said these are planning ranges, not promises."
+      },
+      {
+        "type": "image",
+        "src": "/insights/how-long-does-seo-take-3.jpg",
+        "alt": "ChatGPT answer to how long it takes for SEO and AI search optimisation to show results for a small UK business, with a table by month for traditional SEO and AI search AEO and GEO",
+        "caption": "ChatGPT answer to a neutral question about SEO and AI search timelines, 19 November 2026."
+      },
+      {
+        "type": "h2",
+        "text": "How long does AEO and GEO take compared with SEO?"
+      },
+      {
+        "type": "p",
+        "text": "AEO and GEO usually take about as long as SEO, and sometimes a little longer, because AI tools mostly quote pages that already rank. Ahrefs found that 76% of 1.9 million AI Overview citations came from pages in the top 10, and the median position of the most-cited URLs was 2. We have not found a reliable industry-wide benchmark for how long it takes to be cited, so treat any promise of a fixed date with caution."
+      },
+      {
+        "type": "p",
+        "text": "Two things can make AI visibility arrive earlier than rankings. A page that answers a narrow question in its first lines can be quoted before it reaches the top spot, and Ahrefs found pages that rank for the related sub-questions behind a topic were 161% more likely to be cited. Our guides on [how to rank in ChatGPT](/insights/how-to-rank-in-chatgpt) and [how to rank in Google AI Overviews](/insights/how-to-rank-in-ai-overviews) show how to build those pages."
+      },
+      {
+        "type": "p",
+        "text": "Other things slow it down. AI answers change often, each platform picks different sources, and brand mentions on other sites matter as much as your own pages. Our [AEO vs SEO](/insights/aeo-vs-seo) and [GEO vs SEO](/insights/geo-vs-seo) guides explain where the work differs, and our [answer engine optimisation pillar](/insights/answer-engine-optimisation) covers the full process."
+      },
+      {
+        "type": "h3",
+        "text": "Do people search for AEO and GEO or for AI SEO?"
+      },
+      {
+        "type": "p",
+        "text": "In the UK, \"AI SEO\" is searched far more than \"AEO SEO\" or \"GEO SEO\". In Google Trends over the past 12 months, \"AI SEO\" sits well above both, while \"GEO SEO\" stays a little ahead of \"AEO SEO\". That is why this guide uses all three terms, and why your own pages should too."
+      },
+      {
+        "type": "image",
+        "src": "/insights/how-long-does-seo-take-4.jpg",
+        "alt": "Google Trends chart for the United Kingdom over the past 12 months comparing ai seo, aeo seo and geo seo, with ai seo far higher than the other two",
+        "caption": "Google Trends, United Kingdom, past 12 months: \"ai seo\" (blue), \"aeo seo\" (red) and \"geo seo\" (yellow). Searched 19 November 2026."
+      },
+      {
+        "type": "h2",
+        "text": "What makes SEO and AEO results faster or slower?"
+      },
+      {
+        "type": "p",
+        "text": "Five things set the speed: how new your site is, how competitive your keywords are, how healthy your site is technically, how much useful content you publish and how many trusted sites mention you. Of these, competition and site authority usually matter most."
+      },
+      {
+        "type": "compare",
+        "title": "What speeds SEO up and what slows it down",
+        "columns": [
+          {
+            "title": "Speeds it up",
+            "tone": "good",
+            "items": [
+              "An established site with existing links and mentions",
+              "Niche, long-tail and local keywords",
+              "A fast, mobile-friendly, cleanly indexed site",
+              "Answer-first pages that match what searchers ask",
+              "Steady publishing and updates every month"
+            ]
+          },
+          {
+            "title": "Slows it down",
+            "tone": "bad",
+            "items": [
+              "A brand-new domain with no history",
+              "Broad, high-volume terms against big brands",
+              "Slow pages, blocked crawlers or duplicate content",
+              "Thin pages written only to hit a word count",
+              "Stopping and restarting the work every few months"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Google confirms the wide spread. In its SEO starter guide it says some changes might take effect in a few hours and others could take several months, and it suggests waiting a few weeks before judging whether a change worked."
+      },
+      {
+        "type": "h3",
+        "text": "Does a local or B2B business see results at a different speed?"
+      },
+      {
+        "type": "p",
+        "text": "Local searches are often quicker because the competition is a handful of nearby firms. Fixing your Google Business Profile, reviews and local pages can move map results in weeks. B2B searches are slower because buyers research for months and rankings need more authority. Both benefit from the same basics, and our guide on [whether SEO can generate leads](/insights/can-seo-generate-leads) shows how enquiries follow rankings."
+      },
+      {
+        "type": "h2",
+        "text": "How can you tell SEO, AEO and GEO are working before the leads arrive?"
+      },
+      {
+        "type": "p",
+        "text": "Look at leading signs in the first months: pages indexed, impressions, rankings for long-tail searches and mentions in AI answers. Revenue is a lagging sign, so judge it from month six. Tracking these early signs also stops you cancelling a campaign just before it starts to pay back."
+      },
+      {
+        "type": "checklist",
+        "title": "Signs it is working, in the order they usually appear",
+        "items": [
+          "**Indexed.** New and updated pages appear in Google Search Console within days or weeks.",
+          "**Impressions rise.** Your pages are shown for more searches, even before clicks grow.",
+          "**Long-tail rankings.** Specific, lower-competition searches reach pages one and two.",
+          "**AI mentions.** Your brand or pages show up in ChatGPT, Google AI Overviews or AI Mode for your key questions.",
+          "**Clicks and enquiries.** Organic visits turn into calls, forms and bookings, which usually builds from month three to six."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Use Search Console for impressions, clicks and rankings, and Google Analytics 4 for visits and enquiries. Our guide on [how to track AI traffic for free](/insights/track-ai-traffic) shows the setup step by step."
+      },
+      {
+        "type": "h2",
+        "text": "What should you do if SEO is taking longer than expected?"
+      },
+      {
+        "type": "p",
+        "text": "First check for a technical block, then check whether you are aiming at terms that are too competitive, and then check whether your pages answer the question better than the pages above them. Most slow campaigns trace back to one of these three."
+      },
+      {
+        "type": "ol",
+        "items": [
+          {
+            "text": "**Check indexing.** Use the URL Inspection tool in Search Console to confirm your key pages are indexed and not blocked."
+          },
+          {
+            "text": "**Check the targets.** Move from broad terms to the specific searches your buyers use, then build up."
+          },
+          {
+            "text": "**Improve the answer.** Put the direct answer in the first lines, add real examples and update stale facts."
+          },
+          {
+            "text": "**Build mentions.** Earn links and mentions on trusted sites, because AI tools and Google both rely on them."
+          },
+          {
+            "text": "**Review at 90 days.** Compare impressions and rankings with the start date and adjust the plan, not the goal."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "If you are weighing up providers, our guides on [how to choose an SEO company](/insights/how-to-find-a-good-seo-company) and [how much SEO costs in the UK](/insights/seo-pricing-uk) explain what to ask and what to expect to pay. Be wary of anyone who guarantees a page-one ranking by a fixed date."
+      },
+      {
+        "type": "h2",
+        "text": "Is it too late to start SEO and AEO now?"
+      },
+      {
+        "type": "p",
+        "text": "No. The cost of waiting is that your competitors build authority while you stand still. Starting now means results land in the second half of 2027, while waiting six months pushes the same results into 2028. The earlier you start, the longer your pages have to age, and Ahrefs data shows that older pages dominate the top 10."
+      }
+    ],
+    "faq": [
+      {
+        "q": "How long does SEO take to show results?",
+        "a": "Most sites see measurable results in three to six months, with early signs such as indexing and impressions in the first weeks. Strong growth in competitive markets usually takes six to twelve months."
+      },
+      {
+        "q": "How long does AEO or GEO take to work?",
+        "a": "AEO and GEO usually follow the SEO timeline because AI tools mostly cite pages that already rank. Ahrefs found 76% of AI Overview citations came from top 10 pages. First mentions can come sooner for narrow questions."
+      },
+      {
+        "q": "Why does SEO take so long?",
+        "a": "Google must find your changes, compare them with competitors and trust your site, and that trust builds through links, mentions and time. Ahrefs found the average top-ranking page is five years old."
+      },
+      {
+        "q": "How long does SEO take for a new website?",
+        "a": "A new website should plan for six to twelve months of steady work. It starts with no links, mentions or history, so it needs longer than an established site."
+      },
+      {
+        "q": "Can SEO work in a month?",
+        "a": "Technical fixes and a few low-competition searches can move within a month, but meaningful traffic and enquiries rarely arrive that quickly. Google says some changes take effect in hours and others take months."
+      },
+      {
+        "q": "How long does local SEO take?",
+        "a": "Local SEO can show in weeks for Google Business Profile and map results, and in three to six months for stronger rankings and enquiries, because local competition is usually smaller."
+      },
+      {
+        "q": "Should I stop SEO if I see no results after three months?",
+        "a": "Not without checking leading signs first. If pages are indexed and impressions and long-tail rankings are rising, the campaign is on track. If not, audit indexing, targets and content quality before changing course."
+      },
+      {
+        "q": "How do I speed up SEO and AI search results?",
+        "a": "Improve pages that already rank on page two, target specific long-tail questions, put the answer in the first lines, fix technical blocks and earn mentions on trusted sites."
+      }
+    ]
+  },
+  {
     "slug": "commercial-real-estate-marketing",
     "seoTitle": "Commercial Real Estate Marketing 2027: Get More Leads",
     "title": "Commercial Real Estate Marketing in 2027: How Agents and Developers Win Leads from Search and AI",
