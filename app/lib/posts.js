@@ -27,6 +27,493 @@ export const AUTHORS = {
    To preview drafts locally, run the dev server with INSIGHTS_PREVIEW_DRAFTS=1. */
 const ALL_POSTS = [
   {
+    "slug": "commercial-real-estate-marketing",
+    "seoTitle": "Commercial Real Estate Marketing 2027: Get More Leads",
+    "title": "Commercial Real Estate Marketing in 2027: How Agents and Developers Win Leads from Search and AI",
+    "description": "Commercial real estate marketing for agents and developers: win occupiers and investors with listing pages, local SEO, case studies and AI answers.",
+    "date": "2026-11-19",
+    "author": "team",
+    "topics": [
+      "SEO - Begins"
+    ],
+    "industries": [
+      "Real estate"
+    ],
+    "image": "/insights/commercial-real-estate-marketing-banner.jpg",
+    "intro": "An occupier needs 20,000 square feet of warehouse space by spring. An investor wants a tenanted retail parade in the North West. A landowner wonders who could take a site through planning. Before any of them phones an agent or a developer, they search, scroll listings, read an AI answer and check who keeps appearing. Commercial real estate marketing is the work of being the name they see at each step. This guide shows agents and developers how to do that in 2027: the pages Google rewards, the listing details occupiers need, the proof that wins instructions and how to get named in AI answers.",
+    "tldr": [
+      "Commercial real estate marketing wins occupiers, investors and landowners who research for weeks, involve several decision-makers and want proof before they call.",
+      "Build separate pages for each location, property type and service, and give every listing its own crawlable page with size, price guide, floor plan and photos.",
+      "Rightmove's listing data shows floor plans lifted detail views by 21% and virtual tours by 36%, and 54% of commercial users would not click a price on application listing.",
+      "Case studies, original market data and mentions on trade sites are what get a firm named in Google AI Overviews and ChatGPT answers.",
+      "Measure valuation requests, viewings booked and instructions won, not traffic alone."
+    ],
+    "body": [
+      {
+        "type": "h2",
+        "text": "What is commercial real estate marketing, and how is it different from residential?"
+      },
+      {
+        "type": "p",
+        "text": "Commercial real estate marketing promotes offices, industrial units, retail space, land and investment property to the businesses and investors who might lease or buy them. It differs from residential marketing because the buyer is a business, the decision takes months and several people have a say. Google's own AI Overview for the term says the same: commercial marketing relies on specifications, financial data, longer sales cycles and multiple decision-makers."
+      },
+      {
+        "type": "image",
+        "src": "/insights/commercial-real-estate-marketing-ai-overview.jpg",
+        "alt": "Google UK AI Overview for the search commercial real estate marketing, describing how it promotes offices, retail units, industrial sites and investment properties to tenants, buyers and investors",
+        "caption": "Google UK AI Overview for \"commercial real estate marketing\", 19 November 2026."
+      },
+      {
+        "type": "p",
+        "text": "In plain English, a homeowner chooses a house they like. A commercial occupier chooses a location, a lease and a landlord. A finance director checks the numbers, an operations lead checks the loading bays and a managing director signs. Your marketing has to answer all three people. If you also work with homes, our guide to [SEO for estate agents](/insights/seo-for-estate-agents) covers the residential side."
+      },
+      {
+        "type": "p",
+        "text": "The term changes with the country. The UK says commercial property and commercial agents, while the US says commercial real estate and brokers. You will see both in this guide, and the steps are the same."
+      },
+      {
+        "type": "h2",
+        "text": "How do occupiers and investors find commercial property agents and developers?"
+      },
+      {
+        "type": "p",
+        "text": "They search in three places: Google, the property portals and AI assistants. Each one answers a different question. Google shows who covers a location, the portals show what is available and AI assistants shortlist firms and explain markets. A firm that appears in only one of these loses the other two."
+      },
+      {
+        "type": "p",
+        "text": "We asked ChatGPT how commercial agents and developers get more leads from search and AI. It framed the opportunity as three stages: being found on Google, being recommended in AI answers and turning that interest into an enquiry. That matches what we see in the results."
+      },
+      {
+        "type": "image",
+        "src": "/insights/commercial-real-estate-marketing-chatgpt-answer.jpg",
+        "alt": "ChatGPT answer to the question how do commercial real estate agents and developers get more leads from search and AI, listing Google search, AI search and conversion as three stages",
+        "caption": "ChatGPT answer to a neutral question about commercial real estate leads, 19 November 2026."
+      },
+      {
+        "type": "p",
+        "text": "Search interest shows where the volume sits. In Google Trends for the UK over five years, \"commercial property for sale\" draws far more searches than \"commercial property agents\" or \"commercial property investment\". People search for the property first and the agent second. Your listing and location pages therefore carry most of the demand, and your agent or investment pages catch the buyers who are ready to choose a firm."
+      },
+      {
+        "type": "image",
+        "src": "/insights/commercial-real-estate-marketing-google-trends.jpg",
+        "alt": "Google Trends chart for the United Kingdom over five years comparing commercial property for sale, commercial property agents and commercial property investment, with commercial property for sale far higher than the other two",
+        "caption": "Google Trends, United Kingdom, past five years: \"commercial property for sale\" (blue), \"commercial property agents\" (red) and \"commercial property investment\" (yellow). Searched 19 November 2026."
+      },
+      {
+        "type": "callout",
+        "variant": "takeaway",
+        "title": "What this means for your marketing",
+        "text": "Treat each listing and each location as a page people search for. Treat your firm pages as the place a buyer lands once they are choosing between two or three names."
+      },
+      {
+        "type": "h2",
+        "text": "How do you get found for commercial property searches on Google?"
+      },
+      {
+        "type": "p",
+        "text": "You get found by giving Google a specific page for every search a buyer makes: a page for each location, each property type and each listing. A single \"Commercial property\" page cannot rank for \"industrial units to let in Manchester\" and \"office space in Leeds\" at once. Specific pages can."
+      },
+      {
+        "type": "h3",
+        "text": "How should you build commercial property listing pages?"
+      },
+      {
+        "type": "p",
+        "text": "Give every listing its own page on your own site, with a permanent web address, and keep the page up after the unit is let or sold. Show the property type, location, size, tenure, price or rent guide, planning use, floor plan, photos and a contact route. Remove or merge near-empty pages, because hundreds of identical listing pages with no detail add little."
+      },
+      {
+        "type": "p",
+        "text": "Detail wins clicks. Rightmove's own research on commercial listings found that 54% of its commercial users would not click a listing marked price on application, and a further 24% would click only after looking at listings that showed a price. It also compared listings with and without extras, and the extras made a clear difference."
+      },
+      {
+        "type": "chart",
+        "title": "Rightmove commercial listings with extras versus without (average uplift, %)",
+        "series": [
+          {
+            "name": "Detail views",
+            "color": "#E62E6B"
+          },
+          {
+            "name": "Leads",
+            "color": "#BFBFBF"
+          }
+        ],
+        "rows": [
+          {
+            "label": "5 or more photos",
+            "values": [
+              12,
+              12
+            ]
+          },
+          {
+            "label": "Floor or site plan",
+            "values": [
+              21,
+              14
+            ]
+          },
+          {
+            "label": "Virtual tour",
+            "values": [
+              36,
+              25
+            ]
+          }
+        ],
+        "source": {
+          "label": "Rightmove Hub, Your new-look CRE listings",
+          "href": "https://hub.rightmove.co.uk/your-new-look-cre-listings/",
+          "note": "average uplift against listings in the same sector without the extra, published 21 September 2021"
+        }
+      },
+      {
+        "type": "p",
+        "text": "The figures are Rightmove's averages from 2021, so use them as a guide to what buyers value rather than a promise. The direction is clear: a floor plan, a virtual tour and a price give an occupier enough to shortlist a unit without calling. Copy the same detail onto your own listing pages."
+      },
+      {
+        "type": "stats",
+        "title": "What commercial listing buyers react to",
+        "items": [
+          {
+            "value": "54%",
+            "label": "of Rightmove commercial users would not click a listing marked price on application (Rightmove Hub, 2021)"
+          },
+          {
+            "value": "+21%",
+            "label": "average rise in detail views for listings with a floor or site plan"
+          },
+          {
+            "value": "+36%",
+            "label": "average rise in detail views for listings with a virtual tour"
+          }
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "How do location and property-type pages help you rank?"
+      },
+      {
+        "type": "p",
+        "text": "Location and property-type pages capture searches like \"commercial property agents Manchester\" and \"warehouse for sale in the Midlands\". Build one page for each place and property type you handle, and write each from real knowledge: the submarkets, rents, major occupiers, transport links and recent deals. Copying one template across 40 towns with only the name changed does not help the buyer or Google."
+      },
+      {
+        "type": "ol",
+        "items": [
+          {
+            "text": "**Pick your patch.** List the towns, business parks and property types where you can show real deals."
+          },
+          {
+            "text": "**Write the answer first.** Open with who you act for, what you cover and what you have done nearby."
+          },
+          {
+            "text": "**Add proof.** Include recent lettings or sales you can name, a short market note and a clear next step."
+          },
+          {
+            "text": "**Link the pages.** Connect each location page to its live listings, its case studies and its service page."
+          }
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "How does the Google map pack work for commercial agents?"
+      },
+      {
+        "type": "p",
+        "text": "A search for \"commercial property agents manchester\" shows a map and a short list of firms before the ordinary results. Each firm needs its own Google Business Profile, with the correct category, address, hours, services and recent reviews. When we searched, the map listed one agent with 172 reviews at 4.1 stars, another with 11 reviews at 3.9 and a third with 3 reviews at 3.0. Review count is not the only signal, so keep your profile complete and collect reviews from landlords and tenants steadily."
+      },
+      {
+        "type": "image",
+        "src": "/insights/commercial-real-estate-marketing-map-pack.jpg",
+        "alt": "Google UK map results for the search commercial property agents manchester, showing a map of Greater Manchester with red pins and the first listing, an estate agent with 4.1 stars from 172 reviews",
+        "caption": "Google UK map results for \"commercial property agents manchester\", 19 November 2026."
+      },
+      {
+        "type": "p",
+        "text": "Multi-office firms should make one profile per staffed office and keep the name, address and phone number identical on the website and every directory. Our guide on [how to rank in Google AI Overviews](/insights/how-to-rank-in-ai-overviews) explains how Google reuses this local data in its AI answers."
+      },
+      {
+        "type": "h2",
+        "text": "How do case studies and market data win commercial instructions?"
+      },
+      {
+        "type": "p",
+        "text": "Case studies and market data win instructions because commercial clients are buying trust in a high-value deal. A landlord choosing who should let a building, or an investor choosing who should source an acquisition, wants evidence that you have done it before. Pages that show that evidence also give Google and AI tools something specific to quote."
+      },
+      {
+        "type": "checklist",
+        "title": "What a commercial case study should include",
+        "items": [
+          "**The property and the brief.** Type, location and what the client wanted to achieve.",
+          "**The problem.** For example a long void, a difficult lease or a site with planning risk.",
+          "**What you did.** The marketing, the buyer or tenant search and the negotiation.",
+          "**The result.** Letting or sale achieved, time taken and any figures the client has approved.",
+          "**A named contact.** The partner or director who ran the deal, with a link to their profile."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Original market data goes further. A quarterly note on industrial rents in your region, vacancy in your town centre or yields by sector gives journalists, trade sites and investors a reason to cite you. Publish the numbers, explain how you collected them and keep the page updated so the figures stay current."
+      },
+      {
+        "type": "p",
+        "text": "Be careful with client names and deal values. Only publish what the client has agreed, and describe a deal by sector and location where a name is not cleared."
+      },
+      {
+        "type": "h2",
+        "text": "How can commercial agents and developers get named in AI answers?"
+      },
+      {
+        "type": "p",
+        "text": "You get named in AI answers by ranking well, answering the question a buyer asks in the first lines of a page and being mentioned on other trusted sites. AI tools build answers from sources they can read and verify, so the same pages that win on Google also feed ChatGPT, Gemini and Google's AI Overviews."
+      },
+      {
+        "type": "p",
+        "text": "Google's AI Overview already names commercial firms. For \"commercial property agents manchester\" it listed regional specialists such as Gifford Dixon and Roger Hannah, then national consultancies such as Knight Frank, and linked to those firms' own pages. A firm without a clear, specific page about what it does in that city has little for the answer to draw on."
+      },
+      {
+        "type": "image",
+        "src": "/insights/commercial-real-estate-marketing-ai-overview-manchester.jpg",
+        "alt": "Google UK AI Overview for the search commercial property agents manchester, listing regional and independent specialists with links to their own web pages",
+        "caption": "Google UK AI Overview for \"commercial property agents manchester\", 19 November 2026."
+      },
+      {
+        "type": "stats",
+        "title": "Why ranking and answers go together",
+        "items": [
+          {
+            "value": "76%",
+            "label": "of 1.9 million Google AI Overview citations came from pages already in Google's top 10 (Ahrefs)"
+          },
+          {
+            "value": "8%",
+            "label": "of Google visits included a click on a result when an AI summary appeared, against 15% when it did not (Pew Research Center, 2025)"
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "[Ahrefs](https://ahrefs.com/blog/search-rankings-ai-citations/) studied 1.9 million citations in Google AI Overviews and found 76% came from pages already ranking in the top 10. The [Pew Research Center](https://www.pewresearch.org/short-reads/2025/07/22/google-users-are-less-likely-to-click-on-links-when-an-ai-summary-appears-in-the-results/) tracked 900 US adults across 68,879 Google searches in March 2025 and found people clicked a traditional result in 8% of visits when an AI summary appeared, against 15% when it did not. For you, that means ranking comes first, and being the named source matters more when fewer people click."
+      },
+      {
+        "type": "h3",
+        "text": "What should a commercial agent or developer do to appear in ChatGPT and AI Overviews?"
+      },
+      {
+        "type": "ol",
+        "items": [
+          {
+            "text": "**Answer the buyer's question first.** Start a page with a direct answer in 40 to 60 words, for example what you charge, which sectors you cover or how a letting process works."
+          },
+          {
+            "text": "**Use the questions buyers ask.** Write headings such as \"How much do commercial agents charge?\" and \"What should you check before buying an industrial unit?\"."
+          },
+          {
+            "text": "**Name things precisely.** Use your full company name, locations, property types and team names consistently across your site and profiles."
+          },
+          {
+            "text": "**Get mentioned elsewhere.** Aim for trade press comment, industry association pages, directories and LinkedIn profiles for your partners."
+          },
+          {
+            "text": "**Allow the crawlers.** Check your robots.txt and any CDN settings are not blocking search crawlers from your listing and guide pages."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Our guides on [answer engine optimisation](/insights/answer-engine-optimisation) and [how to rank in ChatGPT](/insights/how-to-rank-in-chatgpt) give the full steps, including how ChatGPT chooses its sources."
+      },
+      {
+        "type": "h2",
+        "text": "How should you market commercial property to occupiers, investors and landowners?"
+      },
+      {
+        "type": "p",
+        "text": "Market to each audience separately, because each asks different questions and needs different proof. A single message for everyone reads as generic to all of them. The table below shows how the same firm can speak to each group."
+      },
+      {
+        "type": "table",
+        "head": [
+          "Audience",
+          "What they search",
+          "Pages that help",
+          "Proof they want"
+        ],
+        "rows": [
+          [
+            "Occupiers (tenants and buyers)",
+            "Office space in a town, warehouse to let, retail units for sale",
+            "Listing pages, location pages, fit-out and lease guides",
+            "Floor plans, photos, price or rent guide, transport and labour data"
+          ],
+          [
+            "Investors",
+            "Commercial property investment, yields, tenanted retail for sale",
+            "Investment pages, market reports, sector guides",
+            "Yields, lease length, tenant covenant strength, past acquisitions"
+          ],
+          [
+            "Landowners and developers",
+            "Sell land for development, planning consultants, development partners",
+            "Land and development pages, planning case studies",
+            "Planning wins, completed schemes, partners and timelines"
+          ],
+          [
+            "Landlords",
+            "Who should let my building, commercial property management",
+            "Landlord services page, letting case studies",
+            "Time to let, rent achieved, marketing plan"
+          ]
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Developers should add pages for each scheme, with a plan, a timeline, unit sizes and a way to register interest. Agents should add a page for each service they sell, such as lettings, sales, valuations and lease advisory. Logistics and industrial specialists can look at our guide to [logistics marketing](/insights/logistics-marketing) for how those occupiers research suppliers."
+      },
+      {
+        "type": "h2",
+        "text": "Which channels work for commercial property marketing besides SEO?"
+      },
+      {
+        "type": "p",
+        "text": "Search works best alongside a few other channels that reach the same decision-makers. Pick the ones where your buyers already spend time, and use each to point back to your listing and location pages."
+      },
+      {
+        "type": "list",
+        "items": [
+          "**Property portals.** List availability on the main commercial portals for exposure, and keep your own site as the place that captures searches for your name and services.",
+          "**LinkedIn.** Partners and directors can post deals, market views and new instructions. Investors and occupiers often check a profile before calling.",
+          "**Email.** Send a short list of new instructions to a segmented list of occupiers and investors, with a link to each listing page.",
+          "**Trade press and events.** Comment on market data and attend sector events, then link the coverage from your site.",
+          "**Video and virtual tours.** Short property tours help an occupier shortlist without a visit, which fits Rightmove's finding that virtual tours lifted detail views."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "How do you measure commercial real estate marketing?"
+      },
+      {
+        "type": "p",
+        "text": "Measure the actions that lead to instructions: enquiries, viewings booked, valuation requests and instructions won, with the page or channel each came from. Traffic and rankings are useful signals, but a commercial deal can take months, so connect each enquiry to its source in your records."
+      },
+      {
+        "type": "checklist",
+        "title": "A simple monthly commercial marketing report",
+        "items": [
+          "**Enquiries by page type.** Listing pages, location pages, service pages and guides.",
+          "**Viewings and valuations requested.** Count them in GA4 as key events and match them to your customer records.",
+          "**Search Console clicks and impressions.** Check the location and property-type queries you want to win.",
+          "**Map pack and review position.** Note where each office appears and how many reviews it holds.",
+          "**AI visibility.** Check whether Google AI Overviews and ChatGPT name you for your main searches."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Our step-by-step guide on [how to track AI traffic for free](/insights/track-ai-traffic) shows how to set this up in GA4 and Search Console, and [can SEO generate leads](/insights/can-seo-generate-leads) explains how to judge search by enquiries."
+      },
+      {
+        "type": "image",
+        "src": "/insights/commercial-real-estate-marketing-people-also-ask.jpg",
+        "alt": "Google People Also Ask box for the search commercial real estate marketing, showing the questions how to do marketing for commercial real estate, what are the 5 Ps of real estate and what are the four Ps of marketing in real estate",
+        "caption": "Google \"People also ask\" for \"commercial real estate marketing\", 19 November 2026."
+      },
+      {
+        "type": "h2",
+        "text": "What is a 90-day plan for commercial real estate marketing?"
+      },
+      {
+        "type": "p",
+        "text": "A 90-day plan fixes the basics first, then builds proof and then widens your reach. Start with the pages and profiles buyers meet first, and add content once those are solid."
+      },
+      {
+        "type": "steps",
+        "title": "Your first 90 days",
+        "items": [
+          {
+            "title": "Days 1 to 30: fix the foundations",
+            "text": "Give every live listing its own page with size, price guide, floor plan and photos. Claim and complete a Google Business Profile for each office, and check your site is crawlable.",
+            "path": "Search Console > Pages > Indexing"
+          },
+          {
+            "title": "Days 31 to 60: build location and service pages",
+            "text": "Write a page for each location and property type you handle, with real deals, market notes and a clear enquiry route. Add one case study for each service."
+          },
+          {
+            "title": "Days 61 to 90: earn mentions and measure",
+            "text": "Publish one piece of original market data, pitch it to trade press and set up a monthly report covering enquiries, viewings, Search Console and AI answers.",
+            "path": "GA4 > Admin > Events > Mark as key event"
+          }
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "What mistakes should commercial agents and developers avoid?"
+      },
+      {
+        "type": "compare",
+        "title": "Commercial marketing habits to keep and to drop",
+        "columns": [
+          {
+            "title": "Keep doing",
+            "tone": "good",
+            "items": [
+              "One page per listing, location and service",
+              "Price or rent guides and floor plans on every listing",
+              "Named deals with client approval",
+              "Original market data with a clear method",
+              "A monthly report tied to enquiries and instructions"
+            ]
+          },
+          {
+            "title": "Drop",
+            "tone": "bad",
+            "items": [
+              "Listings marked price on application with no other detail",
+              "Template location pages with only the town name changed",
+              "Old listings left live after the unit is let",
+              "Reporting only rankings and traffic",
+              "One message for occupiers, investors and landowners"
+            ]
+          }
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is commercial real estate marketing?",
+        "a": "Commercial real estate marketing promotes offices, industrial units, retail space, land and investment property to tenants, buyers and investors. It uses listings, local pages, case studies, market data, email, LinkedIn and search to win enquiries and instructions."
+      },
+      {
+        "q": "How do commercial real estate agents get leads?",
+        "a": "Agents get leads from property portals, Google searches for locations and property types, their own listing pages, referrals, LinkedIn and AI answers. The strongest results come from combining these, with each one pointing buyers to a page that has the detail they need."
+      },
+      {
+        "q": "Does SEO work for commercial real estate?",
+        "a": "Yes. Occupiers and investors search for property by location and type, for example commercial property for sale and commercial property agents in a town. Specific listing, location and service pages let a firm appear for those searches and for the AI answers built from them."
+      },
+      {
+        "q": "How is commercial real estate marketing different from residential?",
+        "a": "Commercial buyers are businesses, so the decision takes longer, involves several people and relies on specifications, financial data and track record. Marketing needs floor plans, price guides, market data and case studies rather than lifestyle photography alone."
+      },
+      {
+        "q": "What should be on a commercial property listing page?",
+        "a": "Include the property type, location, size, tenure, price or rent guide, planning use, floor plan, photos, key features and an enquiry route. Rightmove's research found 54% of its commercial users would not click a listing marked price on application."
+      },
+      {
+        "q": "How can a commercial agent appear in ChatGPT and Google AI Overviews?",
+        "a": "Rank well in Google first, then publish specific pages that answer buyer questions in the first lines. Keep your company details consistent and earn mentions in trade press, directories and LinkedIn. Ahrefs found 76% of AI Overview citations came from top 10 pages."
+      },
+      {
+        "q": "How long does commercial real estate marketing take to work?",
+        "a": "Listing and Business Profile fixes can change results within weeks. Location pages, case studies and mentions usually take three to six months to show in enquiries, and commercial deals take longer again to complete."
+      },
+      {
+        "q": "How do you measure commercial real estate marketing?",
+        "a": "Track enquiries, viewings booked, valuation requests and instructions won, with the page or channel each came from. Add Search Console clicks, map pack position and whether AI tools name your firm for your main searches."
+      }
+    ]
+  },
+  {
       "slug": "seo-pricing-uk",
       "seoTitle": "SEO Pricing UK 2027: What SEO Costs per Month",
       "title": "How Much Does SEO Cost in the UK in 2027? Monthly Pricing, What You Get and What to Avoid",
