@@ -27,6 +27,424 @@ export const AUTHORS = {
    To preview drafts locally, run the dev server with INSIGHTS_PREVIEW_DRAFTS=1. */
 const ALL_POSTS = [
   {
+      "slug": "b2b-link-building",
+      "seoTitle": "B2B Link Building 2027: Tactics That Work in AI Search",
+      "title": "B2B Link Building in 2027: Tactics That Still Work and How AI Search Changes Them",
+      "description": "B2B link building tactics that work in 2027: digital PR, partnerships, original data, directories, unlinked mentions, and how AI citations relate to links.",
+      "date": "2026-11-20",
+      "author": "team",
+      "topics": [
+          "B2B",
+          "SEO - Begins"
+      ],
+      "industries": [],
+      "image": "/insights/b2b-link-building-banner.jpg",
+      "intro": "Most B2B buyers research a supplier long before they speak to anyone, and the sites that get shortlisted are the ones other trusted sites already point to. B2B link building is the work of earning those links: from trade publications, partners, industry bodies and customers. It still matters in 2027, but AI search has changed what a good link is worth. In Ahrefs' study of 75,000 brands, branded web mentions correlated with AI Overview visibility at 0.664, far more than backlinks at 0.218. This guide covers the tactics that still work, how links and AI citations connect, and how to track the results. For the wider plan, read our [B2B SEO strategy guide](/insights/seo-for-b2b-companies).",
+      "tldr": [
+          "B2B link building means earning links and mentions from relevant, trusted sites that your buyers read, not collecting as many backlinks as possible.",
+          "Ahrefs found branded web mentions correlate with AI Overview brand visibility at 0.664, compared with 0.295 for referring domains and 0.218 for backlinks, so mentions now matter alongside links.",
+          "The tactics that still work are digital PR, original data, partnerships and integrations, industry directories and associations, customer stories and turning unlinked mentions into links.",
+          "Google's AI Overview and ChatGPT both describe B2B link building as relevance first: a niche trade site beats a generic site with a higher authority score.",
+          "Track referring domains, link relevance, rankings on the linked pages, referral visits, AI mentions and pipeline, and review them monthly."
+      ],
+      "body": [
+          {
+              "type": "h2",
+              "text": "What is B2B link building?"
+          },
+          {
+              "type": "p",
+              "text": "B2B link building is the process of earning links from trusted, relevant websites to a business-to-business company's site, so that search engines and AI tools see it as a credible source in its field. Google's own AI Overview puts the aim as building authority, improving search and LLM visibility and driving qualified leads."
+          },
+          {
+              "type": "image",
+              "src": "/insights/b2b-link-building-1.jpg",
+              "alt": "Google UK AI Overview for the search b2b link building, defining it as earning authoritative, industry-specific backlinks to build authority, improve search and LLM visibility and drive qualified leads",
+              "caption": "Google UK AI Overview for \"b2b link building\", 20 November 2026."
+          },
+          {
+              "type": "p",
+              "text": "In plain English, a backlink is a link from another website to yours. In B2B, one link from the right trade publication or partner can matter more than a hundred from unrelated sites, because your buyers and the search engines both trust the source."
+          },
+          {
+              "type": "h2",
+              "text": "Does B2B link building still work in 2027?"
+          },
+          {
+              "type": "p",
+              "text": "Yes. Links still help pages rank, and ranking pages are the ones AI tools draw from. What has changed is the mix. Search engines and AI assistants now weigh brand mentions on trusted pages alongside links, so a link-only plan misses half the picture."
+          },
+          {
+              "type": "image",
+              "src": "/insights/b2b-link-building-2.jpg",
+              "alt": "Google UK People Also Ask box for b2b link building with the questions does link building still work, what is link building in business and how much does link building cost",
+              "caption": "Google UK People Also Ask for \"b2b link building\", 20 November 2026."
+          },
+          {
+              "type": "p",
+              "text": "Searchers are asking the same thing, as the People Also Ask box above shows. Interest is real too: in Google Trends for the UK, searches for \"link building\" have run above \"digital pr\" and \"backlinks\" for much of the past year."
+          },
+          {
+              "type": "image",
+              "src": "/insights/b2b-link-building-4.jpg",
+              "alt": "Google Trends UK five-year comparison of the searches link building, digital pr and backlinks",
+              "caption": "Google Trends, UK, past five years: \"link building\", \"digital pr\" and \"backlinks\", 20 November 2026."
+          },
+          {
+              "type": "h2",
+              "text": "How do AI search and AI Overviews change link building?"
+          },
+          {
+              "type": "p",
+              "text": "AI search rewards brands that are mentioned and trusted across the web. Ahrefs' analysis of 75,000 brands found branded web mentions had the strongest link with brand visibility in AI Overviews, at 0.664, ahead of branded anchors (0.527), branded search volume (0.392), Domain Rating (0.326), referring domains (0.295) and backlinks (0.218). Ahrefs notes this is correlation, not proof of cause."
+          },
+          {
+              "type": "image",
+              "src": "/insights/b2b-link-building-5.jpg",
+              "alt": "Column chart from Ahrefs showing correlation with AI Overview brand mentions: branded web mentions 0.664, referring domains 0.295, backlinks 0.218",
+              "caption": "What correlates with AI Overview brand mentions. Source: Ahrefs, 75,000 brands."
+          },
+          {
+              "type": "stats",
+              "title": "Mentions are concentrated in a few brands",
+              "items": [
+                  {
+                      "value": "169",
+                      "label": "average AI Overview mentions for brands in the top 25% for web mentions (Ahrefs)"
+                  },
+                  {
+                      "value": "14",
+                      "label": "average AI Overview mentions for the next quartile down"
+                  },
+                  {
+                      "value": "10x+",
+                      "label": "the gap between the two groups"
+                  }
+              ]
+          },
+          {
+              "type": "p",
+              "text": "Read the [Ahrefs study](https://ahrefs.com/blog/ai-overview-brand-correlation/) as a direction, not a formula. It says your goal is to be named on many trusted pages, and a link is the best form of mention because it also passes authority and sends visitors. Our guides on [answer engine optimisation](/insights/answer-engine-optimisation) and [how to rank your business in ChatGPT](/insights/how-to-rank-in-chatgpt) explain how AI tools use those sources."
+          },
+          {
+              "type": "callout",
+              "variant": "takeaway",
+              "title": "What this means for you",
+              "text": "Plan every link campaign to earn two things at once: a link to a page that should rank, and a mention of your brand name in a place your buyers and AI tools already trust."
+          },
+          {
+              "type": "h2",
+              "text": "What are the best B2B link building tactics?"
+          },
+          {
+              "type": "p",
+              "text": "The best B2B link building tactics earn links because you give someone a reason to link: data, expertise, a partnership or a useful resource. Ask ChatGPT for the top tactics for a B2B software company and it ranks integration partnerships, original research, comparison placements, digital PR and customer case studies, then rates the effort and potential of each."
+          },
+          {
+              "type": "image",
+              "src": "/insights/b2b-link-building-3.jpg",
+              "alt": "ChatGPT answer to the best link building tactics for a B2B software company, showing a priority table of five tactics with effort and potential, and a list of metrics to measure",
+              "caption": "ChatGPT answer to a B2B link building prompt, 20 November 2026: priority table and what to measure."
+          },
+          {
+              "type": "table",
+              "head": [
+                  "Tactic",
+                  "Best for",
+                  "Effort",
+                  "What you earn"
+              ],
+              "rows": [
+                  [
+                      "Digital PR and expert comment",
+                      "Brands with a clear point of view",
+                      "Medium to high",
+                      "Links and mentions from trade and national press"
+                  ],
+                  [
+                      "Original data and research",
+                      "Companies with customer or market data",
+                      "High",
+                      "Links from sites that cite the numbers"
+                  ],
+                  [
+                      "Partnerships and integrations",
+                      "Software, services and manufacturers with partners",
+                      "Low to medium",
+                      "Contextual links on partner pages"
+                  ],
+                  [
+                      "Industry directories and associations",
+                      "Any B2B company",
+                      "Low",
+                      "Trusted links and a mention in a buyer-facing list"
+                  ],
+                  [
+                      "Customer stories and co-marketing",
+                      "Companies with named customers",
+                      "Low to medium",
+                      "Links from customer sites"
+                  ],
+                  [
+                      "Unlinked mentions",
+                      "Brands already mentioned online",
+                      "Low",
+                      "Quick links from sites that know you"
+                  ]
+              ]
+          },
+          {
+              "type": "p",
+              "text": "Start with the cheap tactics first. Directories, partner pages and unlinked mentions can win links in weeks. Original data and digital PR take longer and bring the strongest results."
+          },
+          {
+              "type": "h2",
+              "text": "How do you build links with digital PR for B2B?"
+          },
+          {
+              "type": "p",
+              "text": "Digital PR earns links by giving journalists and editors a story they want to publish. For B2B, that means expert comment, original data and a clear opinion on a development in your industry, pitched to the trade titles your buyers read."
+          },
+          {
+              "type": "steps",
+              "title": "A simple digital PR routine",
+              "items": [
+                  {
+                      "title": "List 20 publications your buyers read",
+                      "text": "Choose trade titles, industry newsletters and association sites, not only the biggest names."
+                  },
+                  {
+                      "title": "Find the writers who cover your topic",
+                      "text": "Read their last ten articles and note what they quote and which sources they reuse."
+                  },
+                  {
+                      "title": "Pitch one specific insight",
+                      "text": "Send two or three lines with a finding, a number or an opinion they can use today. Skip generic introductions."
+                  },
+                  {
+                      "title": "Make it easy to link",
+                      "text": "Point to a page on your site with the data, method and chart, so the link lands where you want it."
+                  },
+                  {
+                      "title": "Follow up once and log the result",
+                      "text": "Record each pitch, reply and link in a sheet, then repeat what worked."
+                  }
+              ]
+          },
+          {
+              "type": "h2",
+              "text": "How do you get links with original data and research?"
+          },
+          {
+              "type": "p",
+              "text": "Publish numbers that other people need to cite. A short survey of your customers, a benchmark from your own product or service data, or a clear analysis of public data can earn links for years. In B2B, a question as narrow as \"how long does supplier onboarding take in our sector\" is enough if nobody has answered it."
+          },
+          {
+              "type": "list",
+              "items": [
+                  "**Choose one question buyers ask.** It should come from sales calls, not from guesswork.",
+                  "**Show the method.** State the sample, the dates and the limits so editors can trust it.",
+                  "**Add a chart per finding.** Editors reuse visuals, and each one carries your name.",
+                  "**Give it a plain URL.** Put the data on its own page and update it each year."
+              ]
+          },
+          {
+              "type": "p",
+              "text": "Our [B2B keyword research guide](/insights/b2b-keyword-research) shows how to find the questions buyers type, which is the best source of data topics."
+          },
+          {
+              "type": "h2",
+              "text": "How do partnerships and integrations earn links?"
+          },
+          {
+              "type": "p",
+              "text": "Partner links are earned because both sides benefit. If your product, service or components work with another company's, ask for a listing on its partner, integration or supplier page and offer something back: a joint webinar, a how-to guide or a customer story. A manufacturer can seek links from distributors and trade bodies, and a fintech can seek links from the platforms it connects to. These examples are illustrative."
+          },
+          {
+              "type": "checklist",
+              "title": "Partner link checklist",
+              "items": [
+                  "**Create a page for each partner.** Describe the partnership, who it helps and how to get started.",
+                  "**Check the partner has a public page for it.** A listing only counts if people and crawlers can reach it.",
+                  "**Offer useful content.** Tutorials and case studies are easier to approve than a plain request.",
+                  "**Ask for descriptive anchor text.** The partner's name and what you do is enough."
+              ]
+          },
+          {
+              "type": "h2",
+              "text": "Which directories and industry associations are worth a link?"
+          },
+          {
+              "type": "p",
+              "text": "A directory is worth a link when it is run for your industry, checked by an editor and read by buyers. Trade associations, chambers of commerce, supplier registers and respected review or listing sites qualify. Generic directories that accept anyone for a fee do not, and Google's spam policies treat paid links that pass ranking signals as a breach."
+          },
+          {
+              "type": "p",
+              "text": "Before you apply, ask three questions: would a buyer use this list, does it show real businesses and does it link to a specific page on your site? If the answer to all three is yes, apply."
+          },
+          {
+              "type": "h2",
+              "text": "How do you turn unlinked mentions into links?"
+          },
+          {
+              "type": "p",
+              "text": "An unlinked mention is a page that names your company but does not link to it. These are the easiest links to win because the writer already knows you. Search for your name excluding your own site, then email the author with the exact page you would like them to link."
+          },
+          {
+              "type": "code",
+              "title": "Find unlinked mentions in Google",
+              "code": "\"Your Company Name\" -site:yourcompany.com\n\"Your Product Name\" -site:yourcompany.com"
+          },
+          {
+              "type": "p",
+              "text": "Check each result for a link. If there is none, send a short note thanking the writer and giving the URL. Repeat monthly, since new mentions appear all the time."
+          },
+          {
+              "type": "h2",
+              "text": "How do you find link opportunities from competitors?"
+          },
+          {
+              "type": "p",
+              "text": "A link gap analysis lists the sites that link to your competitors but not to you. Those sites already write about your market, so they are the most likely to link to you too. Pick three competitors that rank for your target keywords, export their referring domains in a tool such as Ahrefs or Semrush, and mark the ones that fit one of the tactics above."
+          },
+          {
+              "type": "list",
+              "items": [
+                  "**Sort by relevance first.** Keep trade sites, associations, partners and publications your buyers read.",
+                  "**Find out why they linked.** A data report, a directory entry and a partner page each need a different pitch.",
+                  "**Match the tactic to the site.** Send data to the publication, an integration request to the partner and an application to the directory.",
+                  "**Start with the shortest list.** Ten well-chosen targets beat a list of 500."
+              ]
+          },
+          {
+              "type": "h2",
+              "text": "How do customer stories and co-marketing earn links?"
+          },
+          {
+              "type": "p",
+              "text": "Customer stories earn links because the customer has a reason to share them. Publish a case study with real results, ask the customer to feature it on their site, and offer a joint webinar or article. The link comes from a site that proves you do what you say."
+          },
+          {
+              "type": "h2",
+              "text": "What should you avoid in B2B link building?"
+          },
+          {
+              "type": "p",
+              "text": "Avoid anything that buys or fakes authority. Paid links, bulk backlink packages and low-quality guest post networks risk a penalty and rarely reach the sites your buyers read. ChatGPT's answer above gives the same warning and adds that a relevant trade site with a modest authority score can beat a generic site with a very high one."
+          },
+          {
+              "type": "compare",
+              "title": "What to do and what to skip",
+              "columns": [
+                  {
+                      "title": "Do",
+                      "tone": "good",
+                      "items": [
+                          "Earn links on pages your buyers read",
+                          "Link to a page that should rank",
+                          "Use your brand name in every pitch",
+                          "Keep a log of every link and mention"
+                      ]
+                  },
+                  {
+                      "title": "Skip",
+                      "tone": "bad",
+                      "items": [
+                          "Buying links or bulk packages",
+                          "Guest post networks with no readers",
+                          "Chasing authority scores alone",
+                          "Exact-match anchor text on every link"
+                      ]
+                  }
+              ]
+          },
+          {
+              "type": "h2",
+              "text": "How do you track B2B link building and AI mentions?"
+          },
+          {
+              "type": "p",
+              "text": "Track link building in three layers: the links themselves, what they do to rankings and traffic, and what they do to pipeline. Add a fourth for AI search: whether your brand is named in answers. Review all four every month."
+          },
+          {
+              "type": "steps",
+              "title": "Set up tracking in four free steps",
+              "items": [
+                  {
+                      "title": "Check your links in Search Console",
+                      "text": "Review the sites linking to you, your most linked pages and your top anchor text.",
+                      "path": "Search Console > Links > External links"
+                  },
+                  {
+                      "title": "Track referral visits in GA4",
+                      "text": "See which linking sites send visitors and whether they engage.",
+                      "path": "GA4 > Reports > Acquisition > Traffic acquisition > Session source / medium"
+                  },
+                  {
+                      "title": "Watch the pages that earned links",
+                      "text": "Compare impressions, clicks and average position for each linked page before and after the link.",
+                      "path": "Search Console > Performance > Pages"
+                  },
+                  {
+                      "title": "Test AI answers monthly",
+                      "text": "Run the same ten buyer prompts in ChatGPT and Google AI Mode and note whether your brand and sources appear."
+                  }
+              ]
+          },
+          {
+              "type": "list",
+              "items": [
+                  "**Referring domains.** The number of unique sites linking to you, and how many are new each month.",
+                  "**Relevance.** The share of links from sites your buyers actually read.",
+                  "**Page results.** Rankings and organic visits on the linked pages.",
+                  "**Referral conversions.** Leads, demos or enquiries that came from linking sites.",
+                  "**AI mentions.** Whether your brand is named in AI answers for your target prompts.",
+                  "**Pipeline.** Qualified opportunities where organic search appears in the path."
+              ]
+          },
+          {
+              "type": "p",
+              "text": "Our guides on [how to track AI traffic for free](/insights/track-ai-traffic), the [SEO report template](/insights/seo-report-template) and [AI Overview trackers](/insights/ai-overviews-trackers) cover the reporting side in more detail."
+          },
+          {
+              "type": "callout",
+              "variant": "tip",
+              "title": "Want a link plan for your business?",
+              "text": "We build link and mention plans for B2B companies that need to be found in Google and in AI answers. [Talk to us](/book) about yours."
+          }
+      ],
+      "faq": [
+          {
+              "q": "What is B2B link building?",
+              "a": "B2B link building is earning links from relevant, trusted websites to a business-to-business company's site, so that search engines and AI tools treat it as a credible source and buyers find it."
+          },
+          {
+              "q": "Does link building still work?",
+              "a": "Yes. Links still help pages rank, and ranking pages feed AI answers. Ahrefs found branded web mentions correlate more strongly with AI Overview visibility (0.664) than backlinks (0.218), so mentions now matter alongside links."
+          },
+          {
+              "q": "How do you build backlinks for a B2B website?",
+              "a": "Use digital PR, original data, partnerships and integrations, industry directories and associations, customer stories and unlinked mentions. Aim for sites your buyers already read."
+          },
+          {
+              "q": "How many backlinks does a B2B site need?",
+              "a": "There is no fixed number. It depends on the competition for your target keywords. Compare the referring domains of the pages that rank above you and focus on relevance over volume."
+          },
+          {
+              "q": "Are paid links safe for B2B SEO?",
+              "a": "No. Paid links that pass ranking signals breach Google's spam policies and can lead to a penalty. Earn links through value, and label any sponsored content correctly."
+          },
+          {
+              "q": "How do I track the results of link building?",
+              "a": "Use Search Console's Links report for referring sites, GA4 for referral visits, Search Console Performance for the linked pages, and monthly AI prompt tests for brand mentions. Link results to pipeline in your CRM."
+          },
+          {
+              "q": "How long does link building take to work?",
+              "a": "Easy wins such as directories and unlinked mentions can land in weeks. Digital PR and original data usually take a few months to build, and ranking gains follow as links accumulate."
+          }
+      ]
+  },
+  {
     "slug": "b2b-keyword-research",
     "seoTitle": "B2B Keyword Research 2027: Find Terms Buyers Search",
     "title": "B2B Keyword Research in 2027: How to Find the Terms Buyers Actually Search",
