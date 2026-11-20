@@ -27,6 +27,385 @@ export const AUTHORS = {
    To preview drafts locally, run the dev server with INSIGHTS_PREVIEW_DRAFTS=1. */
 const ALL_POSTS = [
   {
+    "slug": "b2b-keyword-research",
+    "seoTitle": "B2B Keyword Research 2027: Find Terms Buyers Search",
+    "title": "B2B Keyword Research in 2027: How to Find the Terms Buyers Actually Search",
+    "description": "B2B keyword research made practical: find seed terms, map keywords to buying stages, use free and paid tools, add AI prompts and rank what to target.",
+    "date": "2026-11-20",
+    "author": "team",
+    "topics": [
+      "B2B"
+    ],
+    "industries": [],
+    "image": "/insights/b2b-keyword-research-banner.jpg",
+    "intro": "Your next B2B buyer will research you long before they speak to you. In the 2025 6sense B2B Buyer Experience Study, nearly 4,000 buyers first contacted sellers when they were only 61% of the way through their buying process, and 94% had already ranked their shortlisted vendors. B2B keyword research is how you find the searches that happen in that quiet stretch, such as \"warehouse management software pricing\" or \"cyber insurance brokers UK\", so your site is already on the list. This guide walks through the method step by step: seed terms, intent by buying stage, free and paid tools, questions and AI prompts, and how to decide what to target first. For the wider plan around it, read our [B2B SEO strategy guide](/insights/seo-for-b2b-companies).",
+    "tldr": [
+      "B2B keyword research finds the searches business buyers use to understand a problem, compare suppliers and check prices. Volume matters less than fit and intent.",
+      "The 2025 6sense study found buyers first contact sellers 61% of the way through their journey, and 94% rank their shortlisted vendors before contacting any of them.",
+      "Ahrefs reports that almost 93% of keywords in its US database get fewer than 10 searches a month, so low-volume terms are normal in B2B and often the most valuable.",
+      "Start with your sales calls and CRM, then widen with Google results, Search Console, Keyword Planner and a paid tool if you need scale.",
+      "Group keywords by buying stage, add the questions and AI prompts your buyers use, then score each term on fit, intent and difficulty."
+    ],
+    "body": [
+      {
+        "type": "h2",
+        "text": "What is B2B keyword research?"
+      },
+      {
+        "type": "p",
+        "text": "B2B keyword research is the process of finding the exact words and questions that decision-makers type into Google and AI tools when they research a problem, compare suppliers or check prices. The aim is relevant demand from people who can buy, not the biggest search volume. Google's own AI Overview describes it as focusing on the phrases used by managers, team leads and buyers rather than high-volume consumer traffic."
+      },
+      {
+        "type": "image",
+        "src": "/insights/b2b-keyword-research-1.jpg",
+        "alt": "Google UK AI Overview for the search b2b keyword research, saying it focuses on phrases used by decision-makers rather than high-volume consumer traffic, with core steps starting with sales and support teams",
+        "caption": "Google UK AI Overview for \"b2b keyword research\", 20 November 2026."
+      },
+      {
+        "type": "p",
+        "text": "In plain English, a keyword is any word or phrase someone searches for. In B2B, one good keyword can bring a buyer worth tens of thousands of pounds, so a term searched 20 times a month can beat one searched 2,000 times. The rest of this guide shows you how to find those terms."
+      },
+      {
+        "type": "h2",
+        "text": "How is B2B keyword research different from B2C?"
+      },
+      {
+        "type": "p",
+        "text": "B2B keyword research targets longer buying cycles, several people in each decision and far smaller search volumes. A consumer often buys after a short search. A business buyer researches for weeks, shares links with colleagues and ranks suppliers before anyone speaks to sales. Your keywords need to cover that whole stretch."
+      },
+      {
+        "type": "stats",
+        "title": "What B2B buyers do before they talk to you",
+        "items": [
+          {
+            "value": "61%",
+            "label": "of the way through their buying process when buyers first contact sellers (6sense 2025 B2B Buyer Experience Study)"
+          },
+          {
+            "value": "94%",
+            "label": "of buyers ranked their shortlisted vendors before contacting any of them"
+          },
+          {
+            "value": "77%",
+            "label": "of the time buyers ended up buying from their top-ranked vendor"
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Read those numbers as a search opportunity. The shortlist is built from searches, comparison pages and AI answers, so the keywords in that quiet stretch decide whether you are on it. The [6sense study](https://6sense.com/b2b-buyer-experience-report/) is based on nearly 4,000 buyer responses."
+      },
+      {
+        "type": "callout",
+        "variant": "takeaway",
+        "title": "What this means for you",
+        "text": "Do not judge a B2B keyword by volume alone. A search with 10 monthly searches from a procurement manager comparing suppliers can be worth more than a broad term that attracts students and job seekers."
+      },
+      {
+        "type": "h2",
+        "text": "How do you find seed keywords for B2B?"
+      },
+      {
+        "type": "p",
+        "text": "Start with the people who already talk to buyers. Your sales team, account managers and support staff hear the exact words prospects use, and those words become your seed keywords. Google's AI Overview gives the same first step: talk to sales and support before opening any tool."
+      },
+      {
+        "type": "ol",
+        "items": [
+          {
+            "text": "**Listen to sales calls.** Pull ten recent call recordings or notes and list every problem, product name and comparison the buyer mentions."
+          },
+          {
+            "text": "**Mine your CRM.** Check the notes and lead source fields on won deals for the phrases buyers used before they enquired."
+          },
+          {
+            "text": "**List your offer in buyer language.** Write what you sell the way a customer would describe it, and then list the job it does and the problem it solves."
+          },
+          {
+            "text": "**Check competitors.** Open the sites of three suppliers your buyers compare you with and note the terms in their navigation, page titles and headings."
+          },
+          {
+            "text": "**Ask existing customers.** Send two questions to five clients: what did you search for before you found us, and what else did you consider?"
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "You should finish with 20 to 40 seed terms. Keep the buyer's wording, even when it is not the official industry term, because search engines and AI tools match what people actually type."
+      },
+      {
+        "type": "h2",
+        "text": "How do you find B2B keywords by buying stage?"
+      },
+      {
+        "type": "p",
+        "text": "Sort every keyword by what the buyer is trying to do. Early searches explain a problem, middle searches compare options and late searches check price, suppliers and fit. Writing a page for each stage means you meet the buyer at every point on the way to the shortlist."
+      },
+      {
+        "type": "image",
+        "src": "/insights/b2b-keyword-research-4.jpg",
+        "alt": "ChatGPT answer to how to do keyword research for a B2B company, showing a table of warehouse management searches and their likely intent from informational to vendor research",
+        "caption": "ChatGPT answer to a B2B keyword research prompt, 20 November 2026. It sorts warehouse management searches by intent."
+      },
+      {
+        "type": "table",
+        "head": [
+          "Buying stage",
+          "What the buyer wants",
+          "Keyword pattern",
+          "Example"
+        ],
+        "rows": [
+          [
+            "Problem aware",
+            "To understand the issue",
+            "what is [problem], how to [fix problem]",
+            "what is warehouse management"
+          ],
+          [
+            "Researching options",
+            "To see the types of solution",
+            "[category] software, [category] services",
+            "warehouse management software"
+          ],
+          [
+            "Comparing suppliers",
+            "To shortlist vendors",
+            "best [category], [vendor] alternatives, [category] vs [category]",
+            "best warehouse management systems"
+          ],
+          [
+            "Ready to buy",
+            "To check price and fit",
+            "[category] pricing, [category] providers UK",
+            "warehouse management software pricing"
+          ]
+        ]
+      },
+      {
+        "type": "p",
+        "text": "The ChatGPT answer above makes the same point: the last three searches may be the most valuable even when their volumes are relatively low. That matches what we see in B2B, where bottom-of-funnel terms are small but close to a sale."
+      },
+      {
+        "type": "h2",
+        "text": "What are the best tools for B2B keyword research?"
+      },
+      {
+        "type": "p",
+        "text": "Free tools are enough to start: Google autocomplete, People Also Ask, Google Search Console, Google Keyword Planner and Google Trends. Paid tools such as Semrush and Ahrefs add volumes, difficulty scores and competitor data at scale. Use free tools first, then add a paid tool when you have more than one product line or market."
+      },
+      {
+        "type": "image",
+        "src": "/insights/b2b-keyword-research-3.jpg",
+        "alt": "Google UK People Also Ask box for b2b keyword research with the question what are the top 10 keyword research tools expanded, showing an AI Overview listing Semrush, Ahrefs, Google Keyword Planner and other tools",
+        "caption": "Google UK People Also Ask answer for \"What are the top 10 keyword research tools?\", 20 November 2026."
+      },
+      {
+        "type": "table",
+        "head": [
+          "Tool",
+          "Cost",
+          "Best use in B2B"
+        ],
+        "rows": [
+          [
+            "Google autocomplete and People Also Ask",
+            "Free",
+            "Real wording and follow-up questions buyers type"
+          ],
+          [
+            "Google Search Console",
+            "Free",
+            "Queries you already show for, and which pages are close to page one"
+          ],
+          [
+            "Google Keyword Planner",
+            "Free with a Google Ads account",
+            "Idea lists and volume ranges (exact volumes usually need active ad spend)"
+          ],
+          [
+            "Google Trends",
+            "Free",
+            "Comparing terms and spotting rising topics"
+          ],
+          [
+            "Semrush and Ahrefs",
+            "Paid",
+            "Volumes, keyword difficulty, competitor keywords and long-tail lists at scale"
+          ]
+        ]
+      },
+      {
+        "type": "steps",
+        "title": "A simple free workflow in 45 minutes",
+        "items": [
+          {
+            "title": "Open Search Console and find your starting point",
+            "text": "Filter queries by pages that matter to your offer and note the searches where you rank between positions 8 and 30.",
+            "path": "Search Console > Performance > Search results > Queries"
+          },
+          {
+            "title": "Expand each seed term in Google",
+            "text": "Type the seed, copy every autocomplete suggestion and note the People Also Ask questions that appear."
+          },
+          {
+            "title": "Check the ideas in Keyword Planner",
+            "text": "Paste your seed list to see related terms and volume ranges, then remove anything that attracts job seekers or consumers.",
+            "path": "Google Ads > Tools > Keyword Planner > Discover new keywords"
+          },
+          {
+            "title": "Compare shortlisted terms in Google Trends",
+            "text": "Compare two or three similar phrases to see which wording buyers in your market use more often."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Keep your keyword list in one sheet with columns for the term, buying stage, intent, page to target and status. A paid tool then fills in volume and difficulty for the terms you have already chosen."
+      },
+      {
+        "type": "h2",
+        "text": "How do you use Google results to find B2B keywords?"
+      },
+      {
+        "type": "p",
+        "text": "Search each seed term in Google and study who ranks. The type of page that wins tells you the intent: guides mean the buyer is learning, comparison pages mean the buyer is shortlisting, and service pages mean the buyer is ready to talk. If the results are all one type of page, that is the page you need to build."
+      },
+      {
+        "type": "image",
+        "src": "/insights/b2b-keyword-research-2.jpg",
+        "alt": "Google UK results for b2b keyword research showing step-by-step guides from rocktherankings.com, Ellipsis, Hallam and Whitehat SEO",
+        "caption": "Google UK results for \"b2b keyword research\", 20 November 2026: the top results are all step-by-step guides."
+      },
+      {
+        "type": "p",
+        "text": "For each seed term, note the page types in the top five, the questions their headings answer and what they leave out. The gaps become your information gain: an example, a template or data that the ranking pages do not give. Do this with the buyer's wording, not just your own."
+      },
+      {
+        "type": "h2",
+        "text": "How do you find the questions and AI prompts B2B buyers use?"
+      },
+      {
+        "type": "p",
+        "text": "Buyers now ask long questions in Google and in AI assistants, so your list needs both. Collect questions from People Also Ask, sales calls and support tickets, then rewrite each as the prompt a buyer would type into ChatGPT, Claude or Google AI Mode."
+      },
+      {
+        "type": "list",
+        "items": [
+          "**Turn questions into prompts.** \"Which payroll providers suit a 200-person manufacturer?\" is a keyword and a prompt at the same time.",
+          "**Test the prompts yourself.** Run ten of them in ChatGPT and Google AI Mode and note which companies and sources are named.",
+          "**Record the sources.** The pages AI tools cite show the content types they trust, and where you need to be mentioned.",
+          "**Add the gaps to your list.** Any question you cannot find a good answer to on your site is a page to write."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Our guides on [how to rank your business in ChatGPT](/insights/how-to-rank-in-chatgpt) and [answer engine optimisation](/insights/answer-engine-optimisation) explain how those answers are chosen, and [how to track AI traffic for free](/insights/track-ai-traffic) shows how to measure the visits they send."
+      },
+      {
+        "type": "h2",
+        "text": "How do you prioritise B2B keywords?"
+      },
+      {
+        "type": "p",
+        "text": "Score each keyword on three things: how closely it fits what you sell, how close the buyer is to a decision, and how hard it is to rank. Fit and intent come first. Volume breaks ties. Ahrefs notes that almost 93% of keywords in its US database get fewer than 10 searches a month, so a low number is normal rather than a warning sign."
+      },
+      {
+        "type": "checklist",
+        "title": "Score every keyword before you commit",
+        "items": [
+          "**Fit.** Would a buyer who typed this be a good customer for us?",
+          "**Intent.** Is the buyer learning, comparing or ready to buy?",
+          "**Difficulty.** Can we reach page one with the authority and content we have?",
+          "**Proof.** Do we have an example, data or experience that makes our page better than the current results?",
+          "**Next step.** Is there a clear action, such as a demo, a quote or a download, for a visitor from this search?"
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Start with terms where fit and intent are both high and difficulty is moderate. Those are your first ten pages. Broader educational terms come next, because they feed the same buyers earlier in their research."
+      },
+      {
+        "type": "h2",
+        "text": "How do you turn B2B keyword research into a keyword map?"
+      },
+      {
+        "type": "p",
+        "text": "A keyword map assigns each keyword group to one page. Put terms with the same intent on the same page, give different intents their own pages, and write down the main keyword, the supporting terms and the call to action for each. This avoids two of your pages competing for the same search."
+      },
+      {
+        "type": "ol",
+        "items": [
+          {
+            "text": "**Group by intent.** Put \"warehouse management software\" and \"WMS software\" together, because they mean the same thing to a buyer."
+          },
+          {
+            "text": "**Pick a main keyword per page.** Choose the phrase buyers use most, and use it in the title, H1, first paragraph and one H2."
+          },
+          {
+            "text": "**Choose the page type.** Guides for learning terms, comparison pages for shortlist terms and service or pricing pages for buying terms."
+          },
+          {
+            "text": "**Link the pages together.** Connect early-stage guides to later-stage pages so a reader can move forward, as we describe in our [B2B SEO strategy](/insights/seo-for-b2b-companies)."
+          }
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "How do you measure B2B keyword research?"
+      },
+      {
+        "type": "p",
+        "text": "Measure it in three layers: visibility, visits and pipeline. Impressions and rankings in Search Console show whether the keywords are working. Organic visits to the target pages show whether people click. Qualified leads and deals in your CRM show whether the keywords bring buyers. Review the numbers every month."
+      },
+      {
+        "type": "list",
+        "items": [
+          "**Visibility.** Impressions and average position for each keyword group in Search Console.",
+          "**Visits.** Organic sessions and engaged sessions on each target page in Google Analytics 4.",
+          "**Pipeline.** Leads, meetings and opportunities that started on those pages, tracked in your CRM.",
+          "**AI mentions.** Whether your brand appears for your prompt list in ChatGPT and Google AI Mode each month."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Our [SEO report template](/insights/seo-report-template) shows how to lay these numbers out, and the [AI Overview trackers guide](/insights/ai-overviews-trackers) covers tools for the AI side."
+      },
+      {
+        "type": "callout",
+        "variant": "tip",
+        "title": "Get a free keyword list for your business",
+        "text": "Want us to do the first pass for you? [Get a free keyword list for your business](/book). Tell us what you sell and who you sell to, and we will send back a starter list of B2B terms grouped by buying stage."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is B2B keyword research?",
+        "a": "B2B keyword research is finding the words and questions business buyers type into Google and AI tools when they research a problem, compare suppliers and check prices. It focuses on buyer fit and intent rather than the biggest search volumes."
+      },
+      {
+        "q": "How do I do keyword research for a B2B company?",
+        "a": "Collect seed terms from sales calls and your CRM, expand them with Google autocomplete, People Also Ask, Search Console and Keyword Planner, group them by buying stage, then score each one on fit, intent and difficulty. Assign each group to one page."
+      },
+      {
+        "q": "Is low search volume a problem in B2B?",
+        "a": "No. Ahrefs reports that almost 93% of keywords in its US database get fewer than 10 searches a month, and B2B buyers are a small group. A term with 10 monthly searches from the right buyer can outperform a broad term with thousands of irrelevant visits."
+      },
+      {
+        "q": "What are the best free tools for B2B keyword research?",
+        "a": "Google autocomplete, People Also Ask, Google Search Console, Google Keyword Planner and Google Trends. Keyword Planner needs a Google Ads account and usually shows volume ranges unless you run ads."
+      },
+      {
+        "q": "Should I include AI prompts in B2B keyword research?",
+        "a": "Yes. Buyers ask long questions in ChatGPT, Claude and Google AI Mode. Rewrite your buyer questions as prompts, test them monthly and note which companies and sources the answers name."
+      },
+      {
+        "q": "How often should I update my B2B keyword research?",
+        "a": "Review it every quarter and refresh it whenever you launch a new product, enter a new market or see new questions on sales calls. Check rankings and impressions in Search Console every month."
+      }
+    ]
+  },
+  {
     "slug": "how-long-does-seo-take",
     "seoTitle": "How Long Does SEO Take? AEO, GEO and SEO Timeline 2027",
     "title": "How Long Does SEO Take? A Realistic AEO, GEO and AI SEO Timeline for 2027",
