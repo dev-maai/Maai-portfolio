@@ -27,6 +27,504 @@ export const AUTHORS = {
    To preview drafts locally, run the dev server with INSIGHTS_PREVIEW_DRAFTS=1. */
 const ALL_POSTS = [
   {
+    "slug": "third-party-logistics-marketing",
+    "seoTitle": "3PL Marketing in 2027: How 3PLs Generate More Leads",
+    "title": "3PL Marketing in 2027: How Third-Party Logistics Providers Generate Leads",
+    "description": "3PL marketing in 2027: how third-party logistics providers win warehousing and fulfilment clients with service pages, quote forms, reviews and AI answers.",
+    "date": "2026-11-21",
+    "author": "team",
+    "topics": [
+      "B2B"
+    ],
+    "industries": [
+      "Logistics"
+    ],
+    "image": "/insights/third-party-logistics-marketing-banner.jpg",
+    "intro": "A brand that outgrows packing orders at home does not ask a salesperson who the best 3PL is. It searches, compares a few providers, asks an AI assistant what makes one trustworthy and sends a quote request to the ones that look credible. 3PL marketing is the work of being one of those providers. This guide shows how third-party logistics companies can do that in 2027, from the service page to the quote form to the answer an assistant gives.",
+    "tldr": [
+      "3PL marketing is how a third-party logistics provider gets found, trusted and chosen by companies outsourcing warehousing, fulfilment or distribution.",
+      "CBRE found 3PL operators took 34% of UK big box take-up from Q1 2025 to Q3 2026, and estimates much of it supports direct to consumer e-commerce, so more of your buyers are online brands that research providers online.",
+      "Buyers search for services such as pick and pack and for \"3PL\" with a place or sector, so build one page per service, sector and location.",
+      "Use short quote forms and publish service levels, accuracy figures, reviews and references, which are the proof buyers and AI assistants look for.",
+      "Measure quote requests by source and their quality, not just traffic."
+    ],
+    "body": [
+      {
+        "type": "h2",
+        "text": "What is 3PL marketing?"
+      },
+      {
+        "type": "callout",
+        "variant": "definition",
+        "title": "Definition",
+        "text": "3PL marketing is the work a third-party logistics provider does to get found, trusted and chosen by companies that want to outsource warehousing, fulfilment, pick and pack or distribution. It covers search and AI answer visibility, service and location pages, quote forms, reviews, operational proof and outreach to the people who choose a logistics partner."
+      },
+      {
+        "type": "p",
+        "text": "Google's AI Overview for the search \"3pl marketing\" gives the same picture: positioning a 3PL's warehousing, fulfilment and freight services to win shipper accounts in a crowded market. It also lists clear niche positioning, operational proof, SEO, LinkedIn and educational content as the main levers. That is a fair summary, and the rest of this guide turns each lever into a job you can do."
+      },
+      {
+        "type": "image",
+        "src": "/insights/3pl-marketing-ai-overview.jpg",
+        "alt": "Google UK AI Overview for the search 3pl marketing, describing it as how third-party logistics providers position warehousing, fulfilment and freight services to win shipper accounts",
+        "caption": "The Google UK AI Overview for \"3pl marketing\", 21 November 2026."
+      },
+      {
+        "type": "p",
+        "text": "The focus here is warehousing and fulfilment providers. If you move freight, our guide to [logistics marketing](/insights/logistics-marketing) covers that side. If you sell software or consulting to supply chain teams, read [supply chain marketing](/insights/supply-chain-marketing) instead."
+      },
+      {
+        "type": "h2",
+        "text": "Why does 3PL marketing matter in 2027?"
+      },
+      {
+        "type": "p",
+        "text": "3PL marketing matters because outsourcing has become the default way for brands to scale, so more of your buyers are comparing providers online before they speak to anyone. [CBRE](https://www.cbre.co.uk/insights/articles/the-silent-driver-e-commerce-and-the-3pl-market) reports that 3PL operators took 14.5 million sq ft, or 34%, of UK big box take-up between Q1 2025 and Q3 2026, making them the largest single source of demand."
+      },
+      {
+        "type": "stats",
+        "title": "3PLs in UK big box demand, Q1 2025 to Q3 2026 (CBRE)",
+        "items": [
+          {
+            "value": "34%",
+            "label": "of big box take-up went to 3PL operators"
+          },
+          {
+            "value": "59%",
+            "label": "of that 3PL take-up supports direct to consumer e-commerce (CBRE estimate)"
+          },
+          {
+            "value": "30%",
+            "label": "e-commerce share of take-up once that space is counted, three times the 10% headline"
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "The same CBRE analysis explains why. A 3PL lets a smaller brand rent capacity by the pallet instead of by the building, and some of the biggest e-commerce occupiers also outsource parts of their operation. E-commerce demand now arrives under a 3PL name, which means your future clients are often online brands that research providers the way they research any other supplier."
+      },
+      {
+        "type": "image",
+        "src": "/insights/3pl-marketing-cbre-ecommerce-share.jpg",
+        "alt": "Column chart of CBRE UK big box take-up from Q1 2025 to Q3 2026: pure-play online retailers 10%, 3PL operators 34%, and e-commerce share 30% once direct to consumer space in 3PL deals is counted",
+        "caption": "E-commerce demand sits inside 3PL deals. Source: CBRE Research, Q3 2026."
+      },
+      {
+        "type": "p",
+        "text": "For your business, that means a wider and younger buyer pool than the traditional shipper with a logistics manager. Growing brands have a founder or operations lead who searches, compares and asks an AI assistant before sending an enquiry. You need to be visible at each of those steps."
+      },
+      {
+        "type": "h2",
+        "text": "What do buyers search for when they choose a 3PL?"
+      },
+      {
+        "type": "p",
+        "text": "Buyers search for the service and the problem, not for marketing. In Google Trends for the UK over the past 12 months, \"3PL\" was searched far more than \"fulfilment centre\", while \"3pl marketing\" barely registered at all. People type what they need, so your pages should use those words."
+      },
+      {
+        "type": "image",
+        "src": "/insights/3pl-marketing-google-trends.jpg",
+        "alt": "Google Trends chart for the United Kingdom over the past 12 months comparing the searches 3PL, fulfilment centre and 3pl marketing, with 3PL far ahead",
+        "caption": "Google Trends, UK, past 12 months to 21 November 2026: relative interest in \"3PL\", \"fulfilment centre\" and \"3pl marketing\"."
+      },
+      {
+        "type": "p",
+        "text": "The Google UK results for \"3pl marketing\" show what else buyers and providers ask around the topic. The People Also Ask box includes \"What are the top 10 3PL companies in the UK?\" and \"What is 2PL, 3PL, 4PL, and 5PL?\", and the related searches include \"3PL meaning\", \"3PL UK\", \"3PL vs 4PL\" and \"3pl marketing strategy\"."
+      },
+      {
+        "type": "image",
+        "src": "/insights/3pl-marketing-people-also-ask.jpg",
+        "alt": "Google UK People Also Ask box for the search 3pl marketing with four questions about Amazon as a 3PL, top UK 3PL companies, the 3-3-3 rule and 2PL to 5PL",
+        "caption": "People Also Ask for \"3pl marketing\" on Google UK, 21 November 2026."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "lead": "Service searches.",
+            "text": "Pick and pack, order fulfilment, warehousing, returns handling and pallet storage, often with a place name such as \"3PL UK\"."
+          },
+          {
+            "lead": "Comparison searches.",
+            "text": "\"Top 3PL companies\", \"3PL vs 4PL\" and \"in-house vs outsourced fulfilment\", where buyers build a shortlist."
+          },
+          {
+            "lead": "Fit searches.",
+            "text": "Searches for a provider that suits a sector, such as cold chain, fashion returns, B2B retail or Shopify brands."
+          },
+          {
+            "lead": "Meaning searches.",
+            "text": "\"3PL meaning\" and \"2PL, 3PL, 4PL\" come from people early in the journey. A clear explainer earns their trust before they are ready to buy."
+          }
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "How do you market a 3PL company? A step-by-step plan"
+      },
+      {
+        "type": "p",
+        "text": "Start with who you serve, then build the pages, forms and proof that a buyer needs, and only then add reach through LinkedIn and partners. The order matters because traffic sent to a vague website is wasted."
+      },
+      {
+        "type": "h3",
+        "text": "Step 1: Choose the buyer you want to win"
+      },
+      {
+        "type": "p",
+        "text": "A 3PL that says it does everything gives a buyer no reason to shortlist it. Define an ideal customer by product type, order volume, sales channel and the problem they have today, then write that on your homepage in one sentence."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "lead": "Name the sector.",
+            "text": "Fashion and returns, health and beauty, B2B wholesale, temperature-controlled goods, large or awkward items."
+          },
+          {
+            "lead": "Name the size.",
+            "text": "Say whether you suit a brand shipping 50 orders a day or 5,000."
+          },
+          {
+            "lead": "Name the stack.",
+            "text": "State the platforms and systems you connect to, such as Shopify, Amazon, marketplaces and your warehouse management system."
+          }
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "Step 2: Build a page for every service, sector and location"
+      },
+      {
+        "type": "p",
+        "text": "Each service you sell and each sector you serve deserves its own page, because that is how buyers search. A page called \"pick and pack for fashion brands\" can rank and be quoted by an AI assistant. A single \"Services\" page cannot."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "lead": "Service pages.",
+            "text": "Warehousing, pick and pack, returns, kitting, B2B and retail distribution, each with who it suits, how it works and what it costs to start."
+          },
+          {
+            "lead": "Sector pages.",
+            "text": "One per sector, using that sector's language and the specific handling it needs."
+          },
+          {
+            "lead": "Location pages.",
+            "text": "A page for each warehouse, with the address, the carriers and delivery networks nearby and the sizes of operation you handle there."
+          },
+          {
+            "lead": "Plain-English explainers.",
+            "text": "Short pages on 3PL meaning, 3PL vs 4PL and in-house vs outsourced fulfilment for early searchers."
+          }
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "Step 3: Make the quote form do the work"
+      },
+      {
+        "type": "p",
+        "text": "A quote form should qualify the buyer and make the next step obvious. The table shows what to ask and why each question helps you reply faster with an accurate price."
+      },
+      {
+        "type": "table",
+        "head": [
+          "Ask for",
+          "Why it helps",
+          "Example question"
+        ],
+        "rows": [
+          [
+            "Products and sizes",
+            "Sets storage type and handling",
+            "What do you sell, and how large is a typical item?"
+          ],
+          [
+            "Order volume",
+            "Decides whether you are a fit and how to price",
+            "How many orders a month, and how seasonal is it?"
+          ],
+          [
+            "Sales channels",
+            "Shows the integrations you need",
+            "Which platforms and marketplaces do you sell on?"
+          ],
+          [
+            "Returns",
+            "Returns handling changes cost and layout",
+            "What share of orders come back?"
+          ],
+          [
+            "Start date",
+            "Lets you plan capacity",
+            "When do you want to start shipping?"
+          ]
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Keep the form short, put it on every service page and confirm by email within one working day. Track which page each enquiry came from so you can see what is working."
+      },
+      {
+        "type": "h3",
+        "text": "Step 4: Publish operational proof"
+      },
+      {
+        "type": "p",
+        "text": "Buyers cannot see your warehouse, so your site has to show it. The AI Overview above lists order accuracy, service levels and scalability at peak as the proof that backs a claim, and our ChatGPT test below asks for the same things."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "lead": "Service levels.",
+            "text": "State your dispatch cut-off times, target dispatch and receiving times and how you report against them."
+          },
+          {
+            "lead": "Accuracy.",
+            "text": "Publish your pick accuracy and inventory accuracy figures, with the period they cover."
+          },
+          {
+            "lead": "Peak season.",
+            "text": "Explain how you staff and plan for Black Friday and Christmas."
+          },
+          {
+            "lead": "Photos and video.",
+            "text": "Show your own warehouse, team and systems, not stock images."
+          },
+          {
+            "lead": "Insurance and compliance.",
+            "text": "Say what you hold and how stock and data are protected."
+          }
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "Step 5: Collect reviews and references"
+      },
+      {
+        "type": "p",
+        "text": "Reviews and references answer the question every buyer has: will they look after our stock? Ask clients for reviews on your Google Business Profile after onboarding and again after the first peak season, and agree in advance which clients will act as references."
+      },
+      {
+        "type": "p",
+        "text": "Reply to every review, including critical ones. A calm, specific reply shows how you handle a failure, which is the thing buyers most want to know."
+      },
+      {
+        "type": "h3",
+        "text": "Step 6: Reach buyers on LinkedIn and through partners"
+      },
+      {
+        "type": "p",
+        "text": "LinkedIn suits 3PLs because the buyers are people with job titles you can name: operations directors, supply chain leads, founders and finance leads. Share short, practical posts from your operations team, such as how you handled a peak week or how a returns process works."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "lead": "Ecommerce platform partners.",
+            "text": "Shopify, Amazon and marketplace agencies and consultants meet brands the moment they outgrow packing at home."
+          },
+          {
+            "lead": "Carrier and software partners.",
+            "text": "A listing on a partner's directory or integration page sends qualified enquiries."
+          },
+          {
+            "lead": "Referrals.",
+            "text": "Ask satisfied clients who else they know that is scaling, and make that easy with a short intro email."
+          },
+          {
+            "lead": "Trade events and press.",
+            "text": "Speaking slots, trade titles and awards build the mentions that AI answers also draw on."
+          }
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "How do you get recommended by ChatGPT and AI assistants for 3PL searches?"
+      },
+      {
+        "type": "p",
+        "text": "You get recommended by being clear, specific and mentioned in more than one place. We asked ChatGPT, with web search on, for the best UK 3PL providers for e-commerce brands and what makes a 3PL trustworthy, and the answer shows what buyers now see."
+      },
+      {
+        "type": "image",
+        "src": "/insights/3pl-marketing-chatgpt-answer.jpg",
+        "alt": "ChatGPT answer to a prompt about the best UK 3PL providers for e-commerce brands, showing a shortlist with services, integrations and published pricing",
+        "caption": "ChatGPT's answer to \"best 3PL providers in the UK for ecommerce brands and what makes a 3PL trustworthy\", 21 November 2026."
+      },
+      {
+        "type": "p",
+        "text": "Three things stand out. ChatGPT built its shortlist from details providers publish: the services they offer, the platforms they integrate with, published entry pricing and their own accuracy and dispatch figures. It labelled those figures as provider-reported claims, not audited results. And it then turned trust into a checklist covering inventory accuracy, written service level agreements, itemised pricing, references and insurance."
+      },
+      {
+        "type": "p",
+        "text": "That checklist is a brief for your website. If a buyer asks an assistant what to look for, the assistant will describe the things above. A provider that already publishes them, clearly and in one place, is easier to include."
+      },
+      {
+        "type": "ol",
+        "items": [
+          {
+            "text": "**Answer first.** Open each service page with a one or two sentence answer to the question in the heading."
+          },
+          {
+            "text": "**Publish the facts an assistant quotes.** Services, integrations, sectors, locations, starting prices and service levels."
+          },
+          {
+            "text": "**Name things precisely.** Say \"pick and pack for fashion brands in the Midlands\", not \"flexible logistics solutions\"."
+          },
+          {
+            "text": "**Keep every profile consistent.** Match your name, address, services and claims across your site, Google Business Profile and directories."
+          },
+          {
+            "text": "**Earn mentions.** Trade titles, partner pages and comparison articles shape the shortlist an assistant builds."
+          },
+          {
+            "text": "**Check what AI says today.** Ask the main assistants the questions your buyers ask and note which sources they use. Our guide on [how to rank in ChatGPT](/insights/how-to-rank-in-chatgpt) shows the steps."
+          }
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Which channels work best for 3PL marketing?"
+      },
+      {
+        "type": "p",
+        "text": "Search and AI answers catch buyers who are already looking, LinkedIn and partners reach the ones who are not yet, and reviews tie it together. Use the channel that matches the stage of the buyer."
+      },
+      {
+        "type": "cards",
+        "title": "Channels and what each does for a 3PL",
+        "items": [
+          {
+            "title": "Search and AI answers",
+            "text": "Captures buyers researching providers and puts you on the shortlist an assistant builds."
+          },
+          {
+            "title": "Google Business Profile and reviews",
+            "text": "Shows local proof for each warehouse and answers the trust question."
+          },
+          {
+            "title": "LinkedIn",
+            "text": "Reaches named operations and supply chain leads with practical content from your team."
+          },
+          {
+            "title": "Partners and referrals",
+            "text": "Ecommerce agencies, platforms and software partners already have your buyers' trust."
+          },
+          {
+            "title": "Email follow-up",
+            "text": "Keeps in touch with brands that asked for a quote but were not ready, until their volumes grow."
+          },
+          {
+            "title": "Paid search",
+            "text": "Adds reach for high-intent searches such as pick and pack and fulfilment services while organic builds."
+          }
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "How do you measure 3PL marketing?"
+      },
+      {
+        "type": "p",
+        "text": "Measure enquiries and their quality, not only traffic. A provider that tracks where each quote request came from can see which pages and channels bring clients, and can stop paying for the rest."
+      },
+      {
+        "type": "checklist",
+        "title": "What to track each month",
+        "items": [
+          "**Quote requests by source.** Which page, channel or partner each enquiry came from.",
+          "**Qualified leads.** How many fit your target order volume, sector and platforms.",
+          "**Search visibility.** Rankings and impressions for your service and location terms in Search Console.",
+          "**AI visibility.** Whether the main assistants name you for your category questions, and which sources they use.",
+          "**Reviews.** New reviews, average rating and reply rate on each profile.",
+          "**Sales cycle and win rate.** Time from first enquiry to signed contract, and the share of quotes that convert."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Our guide to [B2B SEO strategy](/insights/seo-for-b2b-companies) explains how to set up this tracking in Google Analytics 4 and Search Console."
+      },
+      {
+        "type": "h2",
+        "text": "How long does 3PL marketing take to work?"
+      },
+      {
+        "type": "p",
+        "text": "Quote form and page fixes can improve enquiries within weeks, because they change what happens to the traffic you already have. Search and AI visibility build over several months, and partnerships and referrals depend on how quickly you can build relationships. Warehouse contracts take time to sign, so judge progress by qualified enquiries first and signed clients second."
+      },
+      {
+        "type": "h2",
+        "text": "What mistakes hold 3PL marketing back?"
+      },
+      {
+        "type": "compare",
+        "title": "Common mistakes and what to do instead",
+        "columns": [
+          {
+            "title": "Avoid",
+            "tone": "bad",
+            "items": [
+              "A homepage that says you do everything for everyone",
+              "One generic services page",
+              "Long quote forms or no form at all",
+              "Claims with no figures or period",
+              "Ignoring reviews or replying defensively"
+            ]
+          },
+          {
+            "title": "Do this",
+            "tone": "good",
+            "items": [
+              "Name your sector, size and platforms",
+              "One page per service, sector and location",
+              "A short form that qualifies the buyer",
+              "Published service levels and accuracy figures",
+              "Calm, specific replies to every review"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "What should a 3PL do first?"
+      },
+      {
+        "type": "p",
+        "text": "Pick one sector you serve well, build one service page for it with a short quote form, add your service levels and a reference, and ask your best client for a review. That single page gives search, AI assistants and sales calls something solid to point to, and you can repeat it for the next sector."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is 3PL marketing?",
+        "a": "3PL marketing is how a third-party logistics provider gets found, trusted and chosen by companies that want to outsource warehousing, fulfilment or distribution. It covers search and AI visibility, service pages, quote forms, reviews, proof and outreach."
+      },
+      {
+        "q": "What is the best way to market a 3PL company?",
+        "a": "Choose a clear niche, build a page for each service and sector, publish service levels and accuracy figures, collect reviews and use LinkedIn and partners to reach buyers. Track every enquiry back to its source."
+      },
+      {
+        "q": "What do 2PL, 3PL, 4PL and 5PL mean?",
+        "a": "A 3PL is a third-party logistics provider that handles storage, picking, packing and distribution for other companies. Definitions of the other levels vary, but a 4PL is generally a lead provider that manages several logistics providers for a client, and 2PL usually refers to carriers that move goods."
+      },
+      {
+        "q": "Do 3PLs need SEO?",
+        "a": "Yes. Buyers search for services such as pick and pack and for 3PL providers in their area, and they compare options online before they ask for a quote. Pages that match those searches bring in enquiries you do not have to chase."
+      },
+      {
+        "q": "How do I get my 3PL recommended by ChatGPT?",
+        "a": "Publish clear, specific facts about your services, integrations, sectors, locations, starting prices and service levels, keep them consistent across your profiles and earn mentions on trade and partner sites. Then ask the assistants your buyers' questions and see what they say."
+      },
+      {
+        "q": "Should a 3PL publish its prices?",
+        "a": "Publishing a starting price or a pricing guide helps buyers qualify themselves and gives AI assistants a fact to quote. Most providers still quote by volume, so explain what drives the price and ask for a few details in the form."
+      }
+    ]
+  },
+  {
     "slug": "supply-chain-marketing",
     "seoTitle": "Supply Chain Marketing 2027: How to Reach B2B Buyers",
     "title": "Supply Chain Marketing in 2027: How to Reach Buyers Across Procurement, Operations and Finance",
