@@ -27,6 +27,556 @@ export const AUTHORS = {
    To preview drafts locally, run the dev server with INSIGHTS_PREVIEW_DRAFTS=1. */
 const ALL_POSTS = [
   {
+    "slug": "supply-chain-marketing",
+    "seoTitle": "Supply Chain Marketing 2027: How to Reach B2B Buyers",
+    "title": "Supply Chain Marketing in 2027: How to Reach Buyers Across Procurement, Operations and Finance",
+    "description": "Supply chain marketing in 2027: how software, services and consultancies win buying groups across procurement, operations and finance in search and AI answers.",
+    "date": "2026-11-21",
+    "author": "team",
+    "topics": [
+      "B2B"
+    ],
+    "industries": [
+      "Supply chain"
+    ],
+    "image": "/insights/supply-chain-marketing-banner.jpg",
+    "intro": "Nobody buys supply chain software, a consultancy engagement or a managed service on one person's say-so. Procurement checks the supplier risk, operations checks it will work on the floor, and finance checks the return. Supply chain marketing is the work of getting your company in front of all three, with an answer for each, before any of them speaks to a salesperson. This guide shows how to do that in 2027, from the first search to the AI answer that shapes the shortlist.",
+    "tldr": [
+      "Supply chain marketing means marketing for supply chain software, services and consultancies, which sell to buying groups rather than to one person.",
+      "Forrester's Buyers' Journey Survey 2025 found an average of 13 people inside the buyer's organisation and nine outsiders involved in a purchase, and 73% of purchases involve three or more departments.",
+      "Procurement, operations and finance each need a different message built on the same proposition: cost and risk, speed and visibility, and return and working capital.",
+      "Build search and AI answer visibility, role-specific pages, proof, partnerships and account-based outreach, in that order of effort.",
+      "Measure engagement across target accounts and stakeholders, not just traffic or form fills."
+    ],
+    "body": [
+      {
+        "type": "h2",
+        "text": "What is supply chain marketing?"
+      },
+      {
+        "type": "callout",
+        "variant": "definition",
+        "title": "Definition",
+        "text": "Supply chain marketing is the work a supply chain software company, services firm or consultancy does to get found, trusted and chosen by the companies that buy supply chain technology and services. It covers search and AI visibility, content for each buyer role, proof, partnerships, events and account-based outreach. It is separate from marketing supply chain management, which means managing how marketing materials are produced and delivered."
+      },
+      {
+        "type": "p",
+        "text": "Google's own AI Overview for the search \"supply chain marketing\" shows why the term needs care. It splits the phrase into two meanings: B2B marketing for supply chain providers such as 3PLs, logistics firms and software companies, and the management of marketing materials. This guide covers the first meaning only. If you sell supply chain software, planning, visibility, procurement technology, advisory or managed services, this is written for you."
+      },
+      {
+        "type": "image",
+        "src": "/insights/supply-chain-marketing-ai-overview.jpg",
+        "alt": "Google UK AI Overview for the search supply chain marketing, defining it as B2B marketing for supply chain providers and as marketing supply chain management",
+        "caption": "The Google UK AI Overview for \"supply chain marketing\", 21 November 2026."
+      },
+      {
+        "type": "p",
+        "text": "The distinction matters for your pages too. A page that opens with a plain sentence on who you serve and what you sell is easier for a buyer, and for an AI tool, to place in the right category. For freight forwarders, warehouse operators and fulfilment companies, our guide to [logistics marketing](/insights/logistics-marketing) covers the shipper-facing version of this work."
+      },
+      {
+        "type": "h2",
+        "text": "How do supply chain buyers choose a supplier?"
+      },
+      {
+        "type": "p",
+        "text": "Supply chain buyers choose through a group, not an individual. Forrester's Buyers' Journey Survey 2025 found that 73% of purchases involve three or more departments, with an average of 13 people inside the buyer's organisation and nine from outside involved in the decision."
+      },
+      {
+        "type": "stats",
+        "title": "Who is in the room for a B2B purchase",
+        "items": [
+          {
+            "value": "13",
+            "label": "people inside the buyer's organisation, on average (Forrester, 2025)"
+          },
+          {
+            "value": "9",
+            "label": "people from outside the organisation involved on average"
+          },
+          {
+            "value": "73%",
+            "label": "of purchases involve three or more departments"
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "The [Forrester Research](https://www.forrester.com/blogs/three-realities-about-b2b-buying-networks/) analysts add that buyers tap colleagues, communities, peers and, increasingly, AI tools long before they talk to a provider, and arrive with shortlists already forming. Gartner's buyer research points the same way: buyers spend only about 17% of the purchase journey meeting potential suppliers, and that time is split across every supplier they consider."
+      },
+      {
+        "type": "image",
+        "src": "/insights/supply-chain-marketing-forrester-buying-networks.jpg",
+        "alt": "Forrester blog post Three Realities About B2B Buying Networks, with the first paragraph reporting 73% of purchases involve three or more departments and an average of 13 internal buyers",
+        "caption": "Forrester's February 2026 note on B2B buying networks, the source of the 73% and 13-person figures."
+      },
+      {
+        "type": "p",
+        "text": "For supply chain companies, the practical meaning is simple. Most of the buying work happens where you are not in the room: in search, in AI answers, in internal chats and in documents your champion forwards to colleagues. Your marketing has to do the selling in those places."
+      },
+      {
+        "type": "h2",
+        "text": "Who are the buyers in procurement, operations and finance, and what does each need?"
+      },
+      {
+        "type": "p",
+        "text": "The three groups usually involved are procurement, operations and finance, and each judges the same product on different grounds. Procurement looks at supplier risk, contract terms and price. Operations looks at whether the tool or service will reduce delays and fit existing systems. Finance looks at return on investment, working capital and budget justification."
+      },
+      {
+        "type": "table",
+        "head": [
+          "Buyer group",
+          "Typical roles",
+          "What they care about",
+          "What to show them"
+        ],
+        "rows": [
+          [
+            "Procurement",
+            "Chief Procurement Officer, Head of Procurement, Sourcing Manager",
+            "Supplier cost and risk, contract and compliance, supplier performance",
+            "Security and compliance pages, contract terms, supplier-risk examples, references from similar buyers"
+          ],
+          [
+            "Operations",
+            "COO, Supply Chain Director, Logistics Manager",
+            "Visibility, fewer delays, automation, fit with current systems",
+            "Implementation guides, integration pages, workflow demos, before and after process examples"
+          ],
+          [
+            "Finance",
+            "CFO, Finance Director, FP&A lead",
+            "Cost reduction, working capital, inventory carrying cost, payback",
+            "ROI calculators, worked cost examples, payback timelines, budget justification templates"
+          ]
+        ]
+      },
+      {
+        "type": "p",
+        "text": "When we asked ChatGPT for the best ways for a supply chain software company to reach procurement, operations and finance buyers, it gave the same split: three personas with different priorities, reached through one shared business proposition. That is a useful sanity check, because buyers now use the same tools to research you."
+      },
+      {
+        "type": "image",
+        "src": "/insights/supply-chain-marketing-chatgpt-buyers.jpg",
+        "alt": "ChatGPT answer to a question about reaching procurement, operations and finance buyers for a supply chain software company, recommending account-based marketing and role-specific content",
+        "caption": "ChatGPT's answer to \"What are the best ways for a supply chain software company to reach buyers in procurement, operations and finance?\", 21 November 2026."
+      },
+      {
+        "type": "p",
+        "text": "The takeaway is to stop writing one generic message for \"supply chain leaders\". Write one proposition, then a version for each role, and make sure each version can stand on its own page."
+      },
+      {
+        "type": "h2",
+        "text": "How do you build a supply chain marketing strategy?"
+      },
+      {
+        "type": "p",
+        "text": "Build it in layers: be findable when buyers search, give each role content that answers its questions, prove the claims, widen reach through partners and press, and then run focused outreach to the accounts you most want. Each layer supports the next, and the first two carry the most weight for a company with a small team."
+      },
+      {
+        "type": "table",
+        "head": [
+          "Priority",
+          "What it covers",
+          "Why it comes in this order"
+        ],
+        "rows": [
+          [
+            "1. Capture",
+            "Search and AI answer visibility, product and use-case pages, comparison pages",
+            "Buyers already researching your category can find and shortlist you"
+          ],
+          [
+            "2. Role content",
+            "Pages and assets for procurement, operations and finance",
+            "Each member of the buying group gets an answer in their own terms"
+          ],
+          [
+            "3. Proof",
+            "Case studies, customer reviews, security and compliance pages, original data",
+            "Shortlists are built on trust and risk reduction"
+          ],
+          [
+            "4. Reach",
+            "Partnerships, trade press, events, LinkedIn, digital PR",
+            "Puts you on more shortlists and in more AI answers"
+          ],
+          [
+            "5. Focus",
+            "Account-based outreach to named target accounts",
+            "Turns visibility into conversations with the right companies"
+          ]
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "Step 1: Pick one sentence that says who you serve"
+      },
+      {
+        "type": "p",
+        "text": "Decide who you sell to and what you fix, and write it in one plain sentence. \"Inventory planning software for UK food manufacturers\" is easier to match than \"end-to-end supply chain solutions\". Use that sentence in your titles, home page and LinkedIn page."
+      },
+      {
+        "type": "h3",
+        "text": "Step 2: Map the buying group for your best-fit accounts"
+      },
+      {
+        "type": "p",
+        "text": "List 50 to 200 companies that fit your ideal customer. For each one, note the likely procurement, operations and finance contacts. This list drives your content, your LinkedIn targeting and your outreach, so keep it in your CRM."
+      },
+      {
+        "type": "h3",
+        "text": "Step 3: Build the pages buyers research on"
+      },
+      {
+        "type": "p",
+        "text": "Create a page for each product capability, use case and industry you serve, plus pages that compare you with alternatives. Open each with a direct answer, add proof, and end with a clear next step. Our guide to [B2B keyword research](/insights/b2b-keyword-research) shows how to find the terms each role actually types."
+      },
+      {
+        "type": "h3",
+        "text": "Step 4: Give each role a path"
+      },
+      {
+        "type": "p",
+        "text": "Link each solution page to a short page for each role: what procurement will want to check, what operations will want to test, and what finance will want to see. This also gives your champion something to forward."
+      },
+      {
+        "type": "h3",
+        "text": "Step 5: Add proof, then reach"
+      },
+      {
+        "type": "p",
+        "text": "Publish case studies with real numbers, collect reviews on the software directories buyers use, and earn mentions on trade sites and partner pages. Our [B2B link building](/insights/b2b-link-building) guide covers the tactics that still work."
+      },
+      {
+        "type": "h2",
+        "text": "How do you get found when supply chain buyers search?"
+      },
+      {
+        "type": "p",
+        "text": "You get found by matching the searches buyers make at each stage, and by writing pages that answer them in the first two sentences. Supply chain buyers search by problem (\"how to reduce inventory carrying costs\"), by solution (\"supply chain visibility software\") and by comparison (\"best procurement software for manufacturers\"), and each stage needs its own page."
+      },
+      {
+        "type": "image",
+        "src": "/insights/supply-chain-marketing-people-also-ask.jpg",
+        "alt": "Google People Also Ask box for the search supply chain marketing, showing questions including what is a supply chain in marketing and will SCM be replaced by AI",
+        "caption": "The People Also Ask questions Google shows for \"supply chain marketing\", 21 November 2026."
+      },
+      {
+        "type": "p",
+        "text": "Notice how mixed the questions are. Some come from students and job seekers, which is why a page that says clearly \"this is for software and service providers selling to supply chain buyers\" does better than a vague definition page. Use those questions as H2s and answer them directly, then move on to the questions buyers ask when they are evaluating vendors."
+      },
+      {
+        "type": "image",
+        "src": "/insights/supply-chain-marketing-google-trends.jpg",
+        "alt": "Google Trends UK five year chart comparing supply chain software, supply chain marketing and procurement software, with the software terms showing higher interest than supply chain marketing",
+        "caption": "Google Trends, UK, five years to November 2026: \"supply chain software\" and \"procurement software\" against \"supply chain marketing\"."
+      },
+      {
+        "type": "p",
+        "text": "Google Trends shows relative interest, not search volume, so use it to compare terms rather than forecast leads. Over the five years to November 2026 in the UK, \"supply chain software\" and \"procurement software\" drew far more interest than \"supply chain marketing\", and all three rose through 2026. The buyer terms are where the demand sits, so build your pages around them rather than around the marketing phrase."
+      },
+      {
+        "type": "h2",
+        "text": "How do you reach supply chain buyers in AI answers?"
+      },
+      {
+        "type": "p",
+        "text": "You reach them by being the clearest, best-supported answer to the questions buyers put to AI tools, and by being mentioned on the sites those tools trust. Forrester's analysts describe generative AI as a first-stop research tool for many buyers and warn that providers whose narrative is unclear risk not appearing at all."
+      },
+      {
+        "type": "image",
+        "src": "/insights/supply-chain-marketing-buying-group-ai-overview.jpg",
+        "alt": "Google UK AI Overview answering how many people are involved in a B2B buying decision, listing 6 to 13 people and citing several research sources",
+        "caption": "A Google UK AI Overview for \"how many people are involved in a b2b buying decision\", 21 November 2026, assembled from several research pages."
+      },
+      {
+        "type": "p",
+        "text": "That AI Overview is a good example of what gets quoted: a direct answer, a few named benchmarks and sources from research publishers and consultancies. To be included for your own category, publish pages with the same shape."
+      },
+      {
+        "type": "ol",
+        "items": [
+          {
+            "text": "**Answer first.** Open each page with a one or two sentence answer to the question in the heading."
+          },
+          {
+            "text": "**Name things precisely.** Say \"supply chain visibility software for mid-sized manufacturers\", not \"smart logistics solutions\"."
+          },
+          {
+            "text": "**Publish original data.** A benchmark, survey or anonymised analysis gives others something to cite."
+          },
+          {
+            "text": "**Earn mentions.** Trade publications, partner pages and review sites shape what AI tools say about you."
+          },
+          {
+            "text": "**Check what AI says today.** Ask the main assistants the questions your buyers ask, and note who is recommended and which sources are used."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Our guides to [answer engine optimisation](/insights/answer-engine-optimisation) and [GEO vs SEO](/insights/geo-vs-seo) go further on how this works."
+      },
+      {
+        "type": "h2",
+        "text": "What content works for supply chain buyers?"
+      },
+      {
+        "type": "p",
+        "text": "The content that works answers a specific risk or cost question for a specific role. Buyers in this category are cautious, because a wrong choice affects suppliers, stock and cash, so they reward evidence over claims."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "lead": "Comparison and alternative pages.",
+            "text": "Buyers compare vendors before they speak to anyone, so give them a fair, specific comparison on your own site."
+          },
+          {
+            "lead": "Implementation and integration guides.",
+            "text": "Operations teams want to know how long set-up takes and what it connects to."
+          },
+          {
+            "lead": "ROI and cost pages.",
+            "text": "Finance wants a worked example with the assumptions visible, not a headline percentage."
+          },
+          {
+            "lead": "Security, compliance and supplier-risk pages.",
+            "text": "Procurement needs these to approve you, so publish them openly."
+          },
+          {
+            "lead": "Case studies with numbers.",
+            "text": "Show the starting problem, what changed and the measured result, in the customer's words."
+          },
+          {
+            "lead": "Original research.",
+            "text": "A yearly benchmark gives your sales team, partners and press something to share."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Keep every piece tied to one role and one question. It is better to have six focused pages than one long page trying to speak to everyone."
+      },
+      {
+        "type": "h2",
+        "text": "Which channels work best for supply chain marketing?"
+      },
+      {
+        "type": "p",
+        "text": "Search and AI visibility, LinkedIn, partnerships, events and software review platforms work best, because each reaches buyers at a different stage. ChatGPT's own ranking for a supply chain software company put account-based LinkedIn outreach, search and AI visibility, and outbound at the top, with partnerships, webinars and review sites close behind."
+      },
+      {
+        "type": "cards",
+        "title": "Channels and what each does",
+        "items": [
+          {
+            "title": "Search and AI answers",
+            "text": "Captures buyers already researching and shapes the AI shortlist."
+          },
+          {
+            "title": "LinkedIn",
+            "text": "Reaches named people in target accounts with role-specific content and reaches the wider buying group."
+          },
+          {
+            "title": "Partnerships",
+            "text": "ERP consultants, systems integrators and advisory firms already have your buyers' trust."
+          },
+          {
+            "title": "Events",
+            "text": "Trade events such as Gartner's supply chain events, Manifest, MODEX and ProcureCon put you in front of senior buyers. Speaking slots can work better than a stand."
+          },
+          {
+            "title": "Review platforms",
+            "text": "G2, Capterra and Gartner Peer Insights are where buyers check vendors."
+          },
+          {
+            "title": "Outbound",
+            "text": "Targeted email and LinkedIn messages that lead with a business problem, sent to the accounts on your list."
+          }
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "How do you run account-based marketing for supply chain accounts?"
+      },
+      {
+        "type": "p",
+        "text": "Account-based marketing means choosing the companies you want first and building your marketing around them, instead of waiting for anyone to arrive. For supply chain, it fits well because deals are large, buying groups are wide and the list of good-fit accounts is usually short."
+      },
+      {
+        "type": "steps",
+        "title": "A simple account-based plan",
+        "items": [
+          {
+            "title": "Choose the accounts",
+            "text": "Pick 50 to 200 companies by industry, size, systems and a trigger such as a new warehouse, an acquisition or a new operations leader."
+          },
+          {
+            "title": "Map the three roles",
+            "text": "Name one or two contacts each in procurement, operations and finance."
+          },
+          {
+            "title": "Send role-specific content",
+            "text": "Share a cost-reduction piece with procurement, a visibility piece with operations and a payback piece with finance."
+          },
+          {
+            "title": "Watch engagement across the group",
+            "text": "When two or three roles at one account engage, the account is warm. Alert sales."
+          },
+          {
+            "title": "Equip the champion",
+            "text": "Give your internal champion a one-page summary that answers the CFO's and procurement's questions."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "The test of this plan is whether more than one person per account engages. Single-person engagement rarely closes a deal that three departments must approve."
+      },
+      {
+        "type": "h2",
+        "text": "How do you sell supply chain software, services and consulting differently?"
+      },
+      {
+        "type": "p",
+        "text": "The core method is the same, but the proof and the first question differ for each. Software buyers want to see the product and its integrations. Services buyers want evidence of results and process. Consultancy buyers want expertise and judgement."
+      },
+      {
+        "type": "compare",
+        "title": "What changes by offer",
+        "columns": [
+          {
+            "title": "Software",
+            "tone": "good",
+            "items": [
+              "Demo and integration pages",
+              "Security and compliance documentation",
+              "Review-site presence",
+              "ROI calculators"
+            ]
+          },
+          {
+            "title": "Services and consulting",
+            "tone": "good",
+            "items": [
+              "Case studies and named outcomes",
+              "Methodology and team pages",
+              "Original research and opinion",
+              "Speaking and trade press"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Whichever you sell, keep the proposition specific. A narrow, clear offer is easier to rank, easier to quote and easier for a buyer to explain to a colleague."
+      },
+      {
+        "type": "h2",
+        "text": "How do you measure supply chain marketing?"
+      },
+      {
+        "type": "p",
+        "text": "Measure whether the right accounts and the right roles are engaging, then whether that turns into pipeline. Web traffic and form fills tell you little in a category where one deal may involve a dozen people and many months."
+      },
+      {
+        "type": "checklist",
+        "title": "What to track each month",
+        "items": [
+          "**Target account engagement.** How many accounts on your list visited, replied or attended something.",
+          "**Roles reached.** How many accounts have engaged with two or more of procurement, operations and finance.",
+          "**Search visibility.** Rankings and impressions for your buyer terms in Search Console.",
+          "**AI visibility.** Whether the main assistants name you for your category questions, and which sources they use.",
+          "**Meetings and opportunities.** Qualified conversations and pipeline created, by source.",
+          "**Sales cycle and win rate.** Whether accounts you have warmed convert faster."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Our [SEO report template](/insights/seo-report-template) shows what a good monthly report includes, and [B2B SEO strategy](/insights/seo-for-b2b-companies) covers the wider programme."
+      },
+      {
+        "type": "h2",
+        "text": "How long does supply chain marketing take to work?"
+      },
+      {
+        "type": "p",
+        "text": "Expect the first signs in three to six months and clear pipeline impact in six to twelve, because buying cycles are long and search takes time to build. Account-based outreach can produce conversations sooner, while content, reviews and mentions build slowly and then compound. Plan on a minimum of two quarters before judging the programme."
+      },
+      {
+        "type": "h2",
+        "text": "What are the most common supply chain marketing mistakes?"
+      },
+      {
+        "type": "compare",
+        "title": "Common patterns",
+        "columns": [
+          {
+            "title": "Do this",
+            "tone": "good",
+            "items": [
+              "One clear sentence on who you serve",
+              "Pages for each role",
+              "Proof with real numbers",
+              "Account lists and role mapping",
+              "Monthly checks of AI answers"
+            ]
+          },
+          {
+            "title": "Avoid this",
+            "tone": "bad",
+            "items": [
+              "\"End-to-end supply chain solutions\" with no detail",
+              "One message for every buyer",
+              "Chasing traffic from students and job seekers",
+              "Measuring form fills only",
+              "Waiting for buyers to find you"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "What should you do first?"
+      },
+      {
+        "type": "p",
+        "text": "Start with the sentence that says who you serve, then build the three role pages and the buyer-term pages that support them. Check what ChatGPT and Google say about your category today, and fix the gaps. If you want a second pair of eyes on your position in search and AI answers, we can help."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is supply chain marketing?",
+        "a": "Supply chain marketing is B2B marketing for supply chain software, services and consultancy companies. It helps them get found, trusted and chosen by procurement, operations and finance buyers."
+      },
+      {
+        "q": "What is the difference between supply chain marketing and marketing supply chain management?",
+        "a": "Supply chain marketing promotes supply chain products and services to buyers. Marketing supply chain management is the process of producing and distributing marketing materials."
+      },
+      {
+        "q": "Who makes supply chain software buying decisions?",
+        "a": "A group does. Forrester found an average of 13 people inside the buyer's organisation and nine outside it involved in a purchase, and 73% of purchases involve three or more departments."
+      },
+      {
+        "q": "Which channels work best for supply chain companies?",
+        "a": "Search and AI answer visibility, LinkedIn, partnerships, events, review platforms and targeted outbound work best, because they reach buyers at different stages."
+      },
+      {
+        "q": "How do I reach procurement, operations and finance buyers together?",
+        "a": "Use one proposition with a version for each role, then run account-based marketing so several people at each target account see relevant content."
+      },
+      {
+        "q": "How long does supply chain marketing take?",
+        "a": "Expect early signs in three to six months and pipeline impact in six to twelve, because buying cycles are long."
+      },
+      {
+        "q": "Should supply chain companies use AI search optimisation?",
+        "a": "Yes. Buyers use AI tools early in research, so clear, well-supported pages and trusted mentions help you appear in shortlists."
+      }
+    ]
+  },
+  {
       "slug": "b2b-link-building",
       "seoTitle": "B2B Link Building 2027: Tactics That Work in AI Search",
       "title": "B2B Link Building in 2027: Tactics That Still Work and How AI Search Changes Them",
