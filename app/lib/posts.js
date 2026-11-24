@@ -27,6 +27,336 @@ export const AUTHORS = {
    To preview drafts locally, run the dev server with INSIGHTS_PREVIEW_DRAFTS=1. */
 const ALL_POSTS = [
   {
+    "slug": "what-is-geo",
+    "seoTitle": "What Is GEO? Generative Engine Optimisation 2027",
+    "title": "What Is GEO? Generative Engine Optimisation Explained for Businesses",
+    "description": "What is GEO? Generative engine optimisation explained: where the term came from, how AI tools pick sources, the main tactics and a simple starter plan.",
+    "date": "2026-11-24",
+    "author": "team",
+    "topics": [
+      "AEO/GEO",
+      "Everything Marketing"
+    ],
+    "industries": [],
+    "image": "/insights/what-is-geo-banner.jpg",
+    "intro": "Every few months a new marketing acronym appears, and GEO is the latest one business owners keep hearing. GEO stands for generative engine optimisation: the work of getting your business named and cited in answers written by AI tools such as ChatGPT, Google AI Overviews, Gemini and Perplexity. This guide explains what GEO is, where the term came from, how AI tools choose their sources, which tactics matter and how to start.",
+    "tldr": [
+      "GEO, or generative engine optimisation, is the practice of making your content and brand easy for AI tools to find, trust and cite in their answers.",
+      "The term comes from a 2023 research paper, which found that adding citations, quotations and statistics boosted visibility by up to 40%.",
+      "AI tools search first and write second, so clear answer-first pages, trusted third-party mentions and crawler access all matter.",
+      "Google says there are no extra requirements for AI Overviews and AI Mode, so GEO builds on SEO rather than replacing it.",
+      "Start with ten buyer questions, test them in AI tools, rewrite one page and check again in a month."
+    ],
+    "body": [
+      {
+        "type": "h2",
+        "text": "What is GEO?"
+      },
+      {
+        "type": "callout",
+        "variant": "definition",
+        "title": "Definition",
+        "text": "GEO stands for generative engine optimisation. It is the practice of shaping your content and your online presence so that AI answer tools such as ChatGPT, Google AI Overviews, Gemini, Claude and Perplexity find your business, trust it and mention or cite it when they answer a question."
+      },
+      {
+        "type": "p",
+        "text": "In plain English, GEO is about being included in the answer. Someone asks an AI tool \"which removal company should I use in Leeds?\" or \"what is the best invoicing software for a small agency?\", and the tool writes one answer from a handful of sources. GEO is the work that makes your business one of those sources. Google's AI Overview for \"what is geo in seo\" gives the same meaning: optimising content and digital presence so AI search engines and chatbots discover, cite and recommend your brand in generated answers."
+      },
+      {
+        "type": "image",
+        "src": "/insights/what-is-geo-google-ai-overview.jpg",
+        "alt": "Google UK AI Overview for the search what is geo in seo, defining Generative Engine Optimization as optimising content so AI search engines and chatbots cite and recommend your brand, with a short GEO vs traditional SEO list and source links on the right",
+        "caption": "The Google UK AI Overview for \"what is geo in seo\", 24 November 2026."
+      },
+      {
+        "type": "p",
+        "text": "One quick note on the letters. Searching \"what is geo\" on its own can also bring up geography and geolocation, so most people add \"seo\" or \"generative engine optimisation\" to the search. In this guide GEO always means the marketing meaning."
+      },
+      {
+        "type": "h2",
+        "text": "Where did the term GEO come from?"
+      },
+      {
+        "type": "p",
+        "text": "The term comes from a research paper called \"GEO: Generative Engine Optimization\", first posted to [arXiv](https://arxiv.org/abs/2311.09735) in November 2023 and accepted to the KDD 2024 conference. The authors named the idea and tested nine ways of rewriting web content to see which ones made a page more visible in AI-generated answers."
+      },
+      {
+        "type": "image",
+        "src": "/insights/what-is-geo-original-research-paper.jpg",
+        "alt": "The arXiv page for the paper GEO: Generative Engine Optimization, listing six authors, the abstract and the submission history from November 2023",
+        "caption": "The abstract page of the original GEO paper on arXiv, 24 November 2026."
+      },
+      {
+        "type": "stats",
+        "title": "What the original GEO research found",
+        "items": [
+          {
+            "value": "40%",
+            "label": "the largest visibility boost the paper's best methods gave in generative engine answers"
+          },
+          {
+            "value": "3",
+            "label": "methods that worked best: adding citations, adding quotations from credible sources and adding statistics"
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "The same paper tested keyword stuffing, the old SEO habit of repeating the search phrase, and reported that it did not perform well. That is a useful early sign that GEO rewards clear, evidenced writing rather than repetition. A second study posted to [arXiv](https://arxiv.org/abs/2509.08919) in September 2025 compared AI search with Google and found that AI search shows a strong bias towards earned media, meaning third-party and authoritative sites, over brand-owned pages and social content."
+      },
+      {
+        "type": "h2",
+        "text": "What else is GEO called: AEO, LLM SEO or AI SEO?"
+      },
+      {
+        "type": "p",
+        "text": "GEO has several names, and they overlap heavily. You will see answer engine optimisation (AEO), LLM SEO, AI SEO and AI search optimisation used for the same job: being quoted by AI tools. The names come from different communities, and the tactics are close to identical, so pick the one your buyers use and move on."
+      },
+      {
+        "type": "table",
+        "head": [
+          "Term",
+          "What people usually mean",
+          "Read more"
+        ],
+        "rows": [
+          [
+            "GEO",
+            "Being cited or mentioned in AI-generated answers",
+            "This guide"
+          ],
+          [
+            "AEO",
+            "Being the direct answer in answer boxes and AI tools",
+            "[Answer engine optimisation](/insights/answer-engine-optimisation)"
+          ],
+          [
+            "LLM SEO",
+            "Making content easy for large language models to retrieve and quote",
+            "[LLM SEO](/insights/llm-seo)"
+          ],
+          [
+            "AI SEO",
+            "The broad everyday term for all of the above",
+            "[AEO vs SEO](/insights/aeo-vs-seo)"
+          ]
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Google Trends shows which name people search. In the UK over the past 12 months, \"ai seo\" is searched far more often than \"geo seo\" or \"generative engine optimisation\", which barely register. For headings and titles on your own site, the everyday words win. For this guide we use GEO because that is the term the question \"what is GEO?\" asks about."
+      },
+      {
+        "type": "image",
+        "src": "/insights/what-is-geo-google-trends.jpg",
+        "alt": "Google Trends chart for the UK over 12 months comparing generative engine optimisation, geo seo and ai seo, with ai seo far above the other two terms",
+        "caption": "Google Trends, UK, past 12 months, 24 November 2026."
+      },
+      {
+        "type": "h2",
+        "text": "How do AI assistants choose which websites to cite?"
+      },
+      {
+        "type": "p",
+        "text": "AI assistants usually search first and write second. Most use a method called retrieval-augmented generation (RAG): the tool looks up relevant pages, reads passages from them and writes an answer that cites the pages it used. Google's documentation says AI Overviews and AI Mode may use a technique called query fan-out, which means running several related searches across subtopics before writing a single answer."
+      },
+      {
+        "type": "flow",
+        "title": "How an AI answer is built",
+        "steps": [
+          {
+            "label": "1. Question",
+            "text": "A buyer asks an AI tool a question in plain words."
+          },
+          {
+            "label": "2. Fan-out",
+            "text": "The tool turns it into several related searches."
+          },
+          {
+            "label": "3. Retrieve",
+            "text": "It pulls relevant pages from a search index."
+          },
+          {
+            "label": "4. Read",
+            "text": "It picks passages that answer each part clearly."
+          },
+          {
+            "label": "5. Cite",
+            "text": "It writes the answer and links the sources it used."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "We asked ChatGPT with web search switched on how it chooses sources. It named six factors: topical relevance, authority and credibility, clear and extractable content, factual depth, freshness and technical access. It also made the point that ranking in Google does not automatically mean being cited by an AI assistant, so both need attention."
+      },
+      {
+        "type": "image",
+        "src": "/insights/what-is-geo-chatgpt-answer.jpg",
+        "alt": "ChatGPT answer to the question what is generative engine optimisation and how do AI assistants choose which websites to cite, with a definition and the start of a section on how retrieval-augmented generation works",
+        "caption": "A ChatGPT answer (web search on) to a GEO question, 24 November 2026."
+      },
+      {
+        "type": "callout",
+        "variant": "note",
+        "title": "Google says there is no secret switch",
+        "text": "Google's Search Central guidance says there are no additional requirements to appear in AI Overviews or AI Mode, and no other special optimisations necessary. The foundations still apply: a crawlable page, helpful and reliable content and good SEO basics."
+      },
+      {
+        "type": "h2",
+        "text": "What are the main GEO tactics?"
+      },
+      {
+        "type": "p",
+        "text": "The main GEO tactics are to answer questions directly, back every claim with evidence, earn mentions on trusted sites, keep your facts current and make sure AI crawlers can read your pages. Each one is simple on its own, and together they decide whether you are quoted."
+      },
+      {
+        "type": "steps",
+        "title": "Six GEO tactics to start with",
+        "items": [
+          {
+            "title": "Open every section with the answer",
+            "text": "Put a direct answer of 40 to 60 words straight under each question heading, then add detail. AI tools lift passages, so each section should make sense on its own."
+          },
+          {
+            "title": "Add real statistics, quotations and sources",
+            "text": "The original GEO research found that adding citations, quotations and statistics gave the biggest visibility gains. Use real, dated figures and name the source."
+          },
+          {
+            "title": "Earn mentions on other trusted sites",
+            "text": "Digital PR, expert quotes, industry directories and review sites build the third-party proof that AI search favours. Ahrefs found branded web mentions correlate more strongly with AI Overview visibility than backlinks do."
+          },
+          {
+            "title": "Be specific about who you are",
+            "text": "Use the same business name, description, location and services everywhere. State prices, locations and credentials in plain words instead of \"affordable\" or \"trusted\"."
+          },
+          {
+            "title": "Keep key pages fresh",
+            "text": "Update figures, dates and recommendations on your most important pages. Changing only the date does not count."
+          },
+          {
+            "title": "Let the crawlers in",
+            "text": "Check robots.txt and your CDN settings so search and assistant crawlers, such as Googlebot, Bingbot and OAI-SearchBot, can read your pages. Our guide to [LLM SEO](/insights/llm-seo) covers the details."
+          }
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Does GEO replace SEO?"
+      },
+      {
+        "type": "p",
+        "text": "No. GEO builds on SEO. Many AI tools use a search index to find pages, so rankings, indexing and links still feed the answers. If you want the side-by-side comparison, our guide to [GEO vs SEO](/insights/geo-vs-seo) sets out the differences, and [AEO vs SEO](/insights/aeo-vs-seo) shows how a single page is built for both. The short version is to keep doing good SEO and add the GEO habits above on top."
+      },
+      {
+        "type": "h2",
+        "text": "Who needs GEO?"
+      },
+      {
+        "type": "p",
+        "text": "Any business whose customers ask questions before they buy needs GEO, and the questions differ by sector. The pattern is the same: find what your buyers ask, then make your pages the clearest answer."
+      },
+      {
+        "type": "cards",
+        "title": "What buyers ask AI tools, by business type",
+        "items": [
+          {
+            "title": "B2B software and services",
+            "meta": "Shortlist questions",
+            "text": "\"Best platform for mid-sized teams\", \"alternatives to X\", \"how much does it cost\". Comparison pages and original data help most."
+          },
+          {
+            "title": "Local services",
+            "meta": "Near me questions",
+            "text": "\"Best electrician in Bristol\", \"who is open on Sunday\". Reviews, a complete Google Business Profile and consistent details matter."
+          },
+          {
+            "title": "Ecommerce and retail",
+            "meta": "Product questions",
+            "text": "\"Best running shoes for flat feet\". Clear specifications, honest comparisons and review content get quoted."
+          },
+          {
+            "title": "Healthcare and professional services",
+            "meta": "Trust questions",
+            "text": "\"How does a root canal work\", \"how do I choose an accountant\". Named experts, credentials and plain explanations build trust."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "For a deeper view of how this plays out for B2B companies, read our [answer engine optimisation pillar guide](/insights/answer-engine-optimisation) and the [B2B SEO strategy](/insights/seo-for-b2b-companies) it links to."
+      },
+      {
+        "type": "h2",
+        "text": "How do you start with GEO?"
+      },
+      {
+        "type": "p",
+        "text": "Start with one valuable page and the ten questions your buyers ask most. That small test shows you what works before you change anything at scale."
+      },
+      {
+        "type": "checklist",
+        "title": "A simple GEO starter plan",
+        "items": [
+          "**List 10 buyer questions.** Use People Also Ask, your sales calls and customer emails.",
+          "**Run them in AI tools.** Ask ChatGPT, Gemini, Claude and Google AI Mode and note who is named and which sources are linked.",
+          "**Pick one page and rewrite it.** Give each section an answer-first opening, a dated fact and a named source.",
+          "**Check access.** Confirm your robots.txt and CDN allow search and assistant crawlers.",
+          "**Plan two mentions.** Pitch an expert comment or a useful data point to one trade publication and one directory your buyers read.",
+          "**Repeat the prompts in a month.** Note any change in who is named."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "How do you measure GEO?"
+      },
+      {
+        "type": "p",
+        "text": "Measure whether AI tools mention you for your key questions, whether they send visits and whether your pages are indexed and ranking. GEO is still a young field and there is no single standard metric, so keep the method simple and consistent. Our guide on [tracking AI traffic for free](/insights/track-ai-traffic) shows how to set this up in Google Analytics 4 and Search Console, and [how to rank in ChatGPT](/insights/how-to-rank-in-chatgpt) and [how to rank in Google AI Overviews](/insights/how-to-rank-in-ai-overviews) cover those two platforms in depth."
+      },
+      {
+        "type": "image",
+        "src": "/insights/what-is-geo-people-also-ask.jpg",
+        "alt": "Google UK results for what is geo generative engine optimisation showing a Coursera result and a People Also Ask box with the questions Is GEO better than SEO, What is GEO vs SEO vs AIO, What is GEO and how does it work and What is the main goal of generative engine optimization",
+        "caption": "The People Also Ask box for \"what is geo generative engine optimisation\" on Google UK, 24 November 2026. These questions shaped the FAQ below."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is GEO in simple terms?",
+        "a": "GEO, or generative engine optimisation, is the work of making your business easy for AI tools to find, trust and quote. The goal is to be named or cited in the answers that ChatGPT, Google AI Overviews, Gemini, Claude and Perplexity give to your customers' questions."
+      },
+      {
+        "q": "What does GEO stand for?",
+        "a": "GEO stands for generative engine optimisation. A generative engine is an AI tool that writes an answer from several sources instead of listing links. Some people spell it optimization with a z."
+      },
+      {
+        "q": "What is the main goal of generative engine optimisation?",
+        "a": "The main goal is visibility inside AI-written answers. Success means your brand is mentioned, recommended or cited when someone asks a question your business can answer."
+      },
+      {
+        "q": "Is GEO better than SEO?",
+        "a": "Neither replaces the other. SEO gets your pages found and ranked, and many AI tools use search results to choose sources. GEO adds answer-first writing, evidence and third-party mentions on top. Our [GEO vs SEO](/insights/geo-vs-seo) guide compares them in full."
+      },
+      {
+        "q": "What is the difference between GEO and AEO?",
+        "a": "The two terms overlap heavily. AEO usually refers to being the direct answer, including in answer boxes, and GEO usually refers to being cited in AI-generated answers. In practice the tactics are almost the same."
+      },
+      {
+        "q": "How does GEO work?",
+        "a": "AI tools search for relevant pages, read the clearest passages and write an answer that links its sources. GEO makes your pages easy to retrieve, easy to quote and backed by trusted mentions elsewhere."
+      },
+      {
+        "q": "Do I need special schema or files for GEO?",
+        "a": "No special markup is required. Google's guidance says there are no additional requirements to appear in AI Overviews or AI Mode. Good SEO basics, clear content and crawler access matter more."
+      },
+      {
+        "q": "How long does GEO take to work?",
+        "a": "You can see changes in AI answers within weeks on pages that are already indexed, but results vary by platform and query. Check the same set of prompts monthly and treat it as an ongoing habit."
+      }
+    ]
+  },
+  {
     "slug": "local-seo-checklist",
     "seoTitle": "Local SEO Checklist 2027: 20 Steps to Rank in the Map Pack",
     "title": "Local SEO Checklist for Small Businesses in 2027: 20 Steps to Rank in the Map Pack",
