@@ -27,6 +27,391 @@ export const AUTHORS = {
    To preview drafts locally, run the dev server with INSIGHTS_PREVIEW_DRAFTS=1. */
 const ALL_POSTS = [
   {
+    "slug": "ai-mode-rank-trackers",
+    "seoTitle": "AI Mode Rank Trackers 2027: Best Tools Compared",
+    "title": "Best AI Mode Rank Trackers in 2027: Tools to Track Rankings in Google AI Mode",
+    "description": "Compare the best AI Mode rank trackers for 2027: what each tool tracks, prices from the vendors' own pages and how to read your Google AI Mode results.",
+    "date": "2026-11-24",
+    "author": "team",
+    "topics": [
+      "AEO/GEO"
+    ],
+    "industries": [],
+    "image": "/insights/ai-mode-rank-trackers-banner.jpg",
+    "intro": "Google AI Mode answers a question in one conversation and names a handful of sources. Search Console counts those visits inside your normal numbers, so you cannot see whether AI Mode mentions your brand, cites your page or sends buyers to a competitor. An AI Mode rank tracker fills that gap by asking AI Mode your questions on a schedule and recording the answer. This guide compares the best AI Mode rank tracking tools in 2027, with prices taken from each vendor's own page, and shows how to choose one and read the results.",
+    "tldr": [
+      "An AI Mode rank tracker runs your searches through Google AI Mode on a schedule and records whether your brand is mentioned, whether your page is cited, which competitors appear and in what order.",
+      "Google does not show AI Mode as its own report. AI Mode clicks and impressions sit inside the normal Search Console numbers, so a third-party tool is the only way to see citations and competitors.",
+      "Ahrefs offers a free AI Mode tracker with no signup. Paid options include SE Ranking (from $103.20 a month), Peec AI ($95 a month), Rankscale (from €99 a month) and Keyword.com (AI Visibility from $9.80 a month).",
+      "Check that a tool tracks AI Mode itself and not only AI Overviews, and check how many prompts and checks your plan really covers.",
+      "AI Mode answers change between checks, so read results as a trend over several weeks and not as a single ranking."
+    ],
+    "body": [
+      {
+        "type": "h2",
+        "text": "What is an AI Mode rank tracker?"
+      },
+      {
+        "type": "callout",
+        "variant": "definition",
+        "title": "Definition",
+        "text": "An AI Mode rank tracker is a tool that asks Google AI Mode a list of questions on a schedule, saves each answer, and records whether your brand is mentioned, whether your pages are cited as sources, which competitors appear and where each source sits in the answer."
+      },
+      {
+        "type": "p",
+        "text": "Google AI Mode is the conversational tab of Google Search. Instead of ten blue links you get one written answer, a short list of cited sources and a box for follow-up questions. There is no fixed position one to ten, so the word rank here means where and how often you appear: mentioned in the text, linked in the source list and in which order."
+      },
+      {
+        "type": "p",
+        "text": "Google's own AI Overview for the search \"ai mode rank tracker\" describes the same job. It says these tools focus on brand mentions, cited sources, sentiment and visibility share, because AI answers are probabilistic and change from one check to the next, unlike a static list of links."
+      },
+      {
+        "type": "image",
+        "src": "/insights/ai-mode-rank-trackers-google-ai-overview.jpg",
+        "alt": "Google UK AI Overview for the search ai mode rank tracker, explaining that an AI rank tracker monitors how often a brand appears in AI-generated answers and listing Rankscale, SEOmonitor and Geoptie with source cards on the right",
+        "caption": "The Google UK AI Overview for \"ai mode rank tracker\", 24 November 2026."
+      },
+      {
+        "type": "h2",
+        "text": "Why can't you track Google AI Mode in Search Console?"
+      },
+      {
+        "type": "p",
+        "text": "You cannot track AI Mode on its own in Search Console because Google counts it inside the normal Performance report. Google's documentation says a click on an external link in AI Mode counts as a click, and each follow-up question counts as a new query. You can see the clicks, but you cannot filter them out, see the answer or see who else was cited."
+      },
+      {
+        "type": "p",
+        "text": "In June 2026 Google added [generative AI performance reports](https://developers.google.com/search/blog/2026/06/gen-ai-performance-reports) to Search Console for AI Overviews and AI Mode. They show impressions by page, country, device and date. They do not show clicks, competitors or the text of the answer, so they work as a free baseline, not as a tracker."
+      },
+      {
+        "type": "stats",
+        "title": "Google AI Mode: what Ahrefs reports",
+        "items": [
+          {
+            "value": "4.5%",
+            "label": "of AI Mode sessions end in a click, from early data cited by Ahrefs"
+          },
+          {
+            "value": "34.5%",
+            "label": "fewer clicks when an AI Overview shows, from the Ahrefs click study"
+          },
+          {
+            "value": "145.2M",
+            "label": "AI Mode prompts tracked each month in Ahrefs Brand Radar"
+          },
+          {
+            "value": "~24M",
+            "label": "questions run through AI Mode each Brand Radar cycle"
+          }
+        ],
+        "source": {
+          "label": "Ahrefs",
+          "href": "https://ahrefs.com/ai-mode-tracker",
+          "note": "Free Google AI Mode Tracker page, read 24 November 2026"
+        }
+      },
+      {
+        "type": "p",
+        "text": "In plain English: if few AI Mode sessions end in a click, the brands named inside the answer get the attention and everyone else gets less traffic than before. Knowing whether you are one of the named brands is the reason this tool category exists. Our guide to [tracking AI traffic for free](/insights/track-ai-traffic) shows how to measure the visits you do get."
+      },
+      {
+        "type": "h2",
+        "text": "What are the best AI Mode rank trackers in 2027?"
+      },
+      {
+        "type": "p",
+        "text": "The best AI Mode rank tracker depends on how many questions you need to follow and whether you already pay for an SEO suite. We read each vendor's own pricing page on 24 November 2026. Prices, limits and plans change often, so confirm them before you buy. The table lists them in alphabetical order."
+      },
+      {
+        "type": "table",
+        "head": [
+          "Tool",
+          "Price on its own page",
+          "How it covers AI Mode",
+          "Best suited to"
+        ],
+        "rows": [
+          [
+            "Ahrefs Free AI Mode Tracker",
+            "Free, no signup",
+            "Limited preview for one brand: AI Mode results, mentions over time, top 5 topics, cited domains and cited pages",
+            "A first look at your brand"
+          ],
+          [
+            "Ahrefs Brand Radar",
+            "$199 a month for chosen platforms, $699 a month for all platforms, before tax",
+            "Daily AI Mode tracking, competitor benchmarking, prompt gaps and custom prompts",
+            "Teams already on Ahrefs"
+          ],
+          [
+            "Keyword.com",
+            "AI Visibility from $9.80 a month billed annually; 14-day free trial",
+            "AI Mode tracker with brand mentions, sentiment, citations and competitor benchmarks",
+            "Agencies and small teams on a budget"
+          ],
+          [
+            "Peec AI",
+            "Starter $95 a month, Pro $245, Advanced $495",
+            "AI Mode is one of the models you can pick, with daily tracking",
+            "Marketing teams that want clean reports"
+          ],
+          [
+            "Rankscale",
+            "Pro €99 a month (€84.15 billed yearly); 7-day trial",
+            "AI Mode on every plan, priced by answers checked",
+            "Teams tracking many prompts"
+          ],
+          [
+            "SE Ranking",
+            "Core from $103.20 a month, Growth from $223.20; free trial, no card",
+            "Dedicated AI Mode tracker with position, citation order and link placement",
+            "SEO teams that want rankings and AI in one place"
+          ]
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Google's AI Overview for the same search also names SEOmonitor, Geoptie, Rank Prompt, Bear AI and AI Rank Checker. We have not tested those, so check their pages for AI Mode coverage before you shortlist them."
+      },
+      {
+        "type": "h3",
+        "text": "Is Ahrefs Brand Radar a good AI Mode tracker?"
+      },
+      {
+        "type": "p",
+        "text": "Yes, if you want a large dataset and already use Ahrefs. Brand Radar stores real AI Mode answers: Ahrefs starts from its keyword database and Google's People Also Ask questions, fans each one out into follow-up questions the way AI Mode does and runs them through AI Mode. When you enter a brand it searches those saved answers for mentions of your name and citations of your pages. The paid plans add daily tracking, competitor share of voice and a report of prompts your rivals win and you do not."
+      },
+      {
+        "type": "p",
+        "text": "The free version is a limited preview, and Ahrefs says its share of voice figures are modelled estimates of potential exposure, not measured audience reach. Coverage is also strongest in English, so check it against your own searches."
+      },
+      {
+        "type": "image",
+        "src": "/insights/ai-mode-rank-trackers-ahrefs-free-tool.jpg",
+        "alt": "Ahrefs Free Google AI Mode Tracker page with a brand name box, a Check AI Mode button, and the text no signup required, 145.2M AI Mode prompts tracked monthly",
+        "caption": "The Free Google AI Mode Tracker from Ahrefs, 24 November 2026. It shows a limited preview and needs no signup."
+      },
+      {
+        "type": "h3",
+        "text": "Is SE Ranking a good AI Mode rank tracking tool?"
+      },
+      {
+        "type": "p",
+        "text": "Yes, it is the most direct fit if you want a tool built for AI Mode. SE Ranking says its tracker captures results from live AI Mode conversations, then maps position, citation order and link placement. It can track brand mentions even when your site is not linked, compare AI Mode with AI Overviews and organic results, and filter by country and language. The Core plan starts at $103.20 a month and Growth at $223.20, and the free trial needs no card."
+      },
+      {
+        "type": "image",
+        "src": "/insights/ai-mode-rank-trackers-se-ranking-tracker.jpg",
+        "alt": "SE Ranking Google AI Mode Tracker page with the heading Google AI Mode Tracker, a short description and Start free trial and Request a demo buttons",
+        "caption": "The SE Ranking Google AI Mode Tracker page, 24 November 2026."
+      },
+      {
+        "type": "h3",
+        "text": "Is Peec AI worth it for tracking AI Mode?"
+      },
+      {
+        "type": "p",
+        "text": "Peec AI suits marketing teams that want readable reports across several AI tools. Its pricing page lists Google AI Mode on every plan, but each of the Starter, Pro and Advanced plans lets you choose only three models. Starter is $95 a month for 50 prompts tracked daily, Pro is $245 for 150 prompts and Advanced is $495 for 350. Extra models are add-ons, from $30 a month on Starter, and annual billing takes 15% off."
+      },
+      {
+        "type": "p",
+        "text": "The plan numbers add up as you would expect: 50 prompts across 3 models every day for 30 days is 4,500 answers a month, which is the figure on the Starter card."
+      },
+      {
+        "type": "h3",
+        "text": "Is Rankscale a good low-cost AI Mode tracker?"
+      },
+      {
+        "type": "p",
+        "text": "Rankscale is a good fit when you want many prompts without a per-prompt cap. It lists Google AI Mode on every plan and charges by answers checked: an AI Mode answer costs 0.25 credits, so one credit buys four answers. The Pro plan is €99 a month, or €84.15 a month billed yearly, with 1,200 credits. By our arithmetic that is up to 4,800 AI Mode answers a month, enough to check about 160 prompts a day on AI Mode alone."
+      },
+      {
+        "type": "h3",
+        "text": "Is Keyword.com a good budget AI Mode tracker?"
+      },
+      {
+        "type": "p",
+        "text": "Keyword.com is the cheapest way to start with a dedicated AI Mode tracker. Its AI Visibility plan starts at $9.80 a month billed annually, with 100 credits, which it describes as about 33 prompts tracked a month. The AI Mode tracker covers brand mentions, sentiment, citation discovery and competitor benchmarks, and it keeps the full scraped answer so you can check it yourself. The 14-day trial needs no card."
+      },
+      {
+        "type": "h2",
+        "text": "How do you track AI Mode rankings for free?"
+      },
+      {
+        "type": "p",
+        "text": "You can track AI Mode for free with the Ahrefs free tracker, a monthly manual check and the Search Console baseline. It takes about an hour a month and gives you a trend without a subscription."
+      },
+      {
+        "type": "steps",
+        "title": "A free monthly AI Mode check",
+        "items": [
+          {
+            "title": "Open the Generative AI report",
+            "path": "Search Console > Performance > Generative AI",
+            "text": "Set the range to 3 months and note the impressions. This is your baseline for how often Google shows your pages in AI Overviews and AI Mode."
+          },
+          {
+            "title": "Run the Ahrefs free tracker on your brand",
+            "text": "Enter your brand name and note the AI Mode results, the top topics and the cited domains. Save a screenshot with the date."
+          },
+          {
+            "title": "Ask AI Mode your ten buyer questions",
+            "text": "Open the AI Mode tab on Google in a private window, using the same country and language every month. Write down whether your brand is named, whether your page is linked and which other sources appear."
+          },
+          {
+            "title": "Save the answers in one sheet",
+            "text": "Record the date, the question, the brands named and the sources. After three months you will see which competitors and sources keep coming back."
+          },
+          {
+            "title": "Compare with your traffic",
+            "text": "Match the months against organic clicks and sessions from AI assistants in Google Analytics 4."
+          }
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "What should an AI Mode rank tracking tool show you?"
+      },
+      {
+        "type": "p",
+        "text": "A useful AI Mode tracker answers five questions about each search you follow: are you mentioned, are you cited, who else appears, in what order, and how has that changed. If a tool cannot answer all five, you will end up checking by hand."
+      },
+      {
+        "type": "checklist",
+        "title": "The five things to look for",
+        "items": [
+          "**Real AI Mode coverage.** The tool should run your questions through AI Mode itself, not only AI Overviews. Ask the vendor or check its AI Mode page.",
+          "**Mentions and citations.** Whether the answer names your brand and whether it links to your page. These are different results.",
+          "**Competitors and sources.** Which brands and websites Google uses for your topic, and in what order they appear.",
+          "**The saved answer.** A stored copy of each answer so you can see how it changed and check the tool's work.",
+          "**Country and language.** AI Mode varies by location, so a UK check and a US check can differ."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Also look at how the tool counts usage. Some charge per prompt, some per check and some per answer, and tracking one prompt on three engines uses three checks. Divide the monthly price by the number of AI Mode answers you really get."
+      },
+      {
+        "type": "image",
+        "src": "/insights/ai-mode-rank-trackers-people-also-ask.jpg",
+        "alt": "Google UK search results for ai mode rank tracker showing the SE Ranking AI Mode Tracker result and a People Also Ask box with the questions how to track AI rankings, how to rank in AI Mode, how to track AI Mode and what is the best rank tracker",
+        "caption": "The People Also Ask questions under \"ai mode rank tracker\" on Google UK, 24 November 2026."
+      },
+      {
+        "type": "h2",
+        "text": "How do you choose an AI Mode tracker?"
+      },
+      {
+        "type": "p",
+        "text": "Choose the tracker that really covers AI Mode, fits your budget and shows the five items above. Start with a free tool, then move to a paid one only when you have more questions than you can check by hand."
+      },
+      {
+        "type": "steps",
+        "title": "Choose in four steps",
+        "items": [
+          {
+            "title": "List 20 to 30 questions your buyers ask",
+            "text": "Use full questions, not only short keywords, because people talk to AI Mode in sentences. Include the questions that bring you leads today."
+          },
+          {
+            "title": "Run them through a free tool first",
+            "text": "Use the Ahrefs free tracker or a free trial and note how often your brand appears at all."
+          },
+          {
+            "title": "Compare two paid tools on the same list",
+            "text": "Run the same questions in both trials and see which shows citations, order and competitors more clearly."
+          },
+          {
+            "title": "Check the cost per answer",
+            "text": "Divide the monthly price by the AI Mode answers included, and check whether AI Mode counts against a cap on how many models you can choose."
+          }
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "How do you read AI Mode rank tracking results?"
+      },
+      {
+        "type": "p",
+        "text": "Read AI Mode results as a trend over weeks, never as a verdict from one day. AI Mode answers are generated fresh and depend on the wording, location and person, so a single missing mention means little. Four weeks in a row of being absent for a question that matters is the signal to act."
+      },
+      {
+        "type": "compare",
+        "title": "Reading a result",
+        "columns": [
+          {
+            "title": "Worth acting on",
+            "tone": "good",
+            "items": [
+              "A valuable question where AI Mode never names or cites you",
+              "The same competitor cited for several weeks",
+              "Your Search Console impressions falling while competitors gain mentions"
+            ]
+          },
+          {
+            "title": "Not worth acting on",
+            "tone": "bad",
+            "items": [
+              "One missing mention on a single day",
+              "A different order of sources after a few days",
+              "Two tools disagreeing with each other or with your own search"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Track your overall score alongside these checks. Our guide to the [SEO visibility score](/insights/seo-visibility-score) explains how to read it in Google and AI search."
+      },
+      {
+        "type": "h2",
+        "text": "What is the difference between an AI Mode tracker and an AI Overview tracker?"
+      },
+      {
+        "type": "p",
+        "text": "An AI Overview tracker follows the summary above the normal Google results, while an AI Mode tracker follows the separate conversational tab. They trigger on different searches and cite different sources, so a brand can win one and be missing from the other. Several tools cover both, and some only cover AI Overviews, which is why the first item on the checklist matters."
+      },
+      {
+        "type": "p",
+        "text": "If your main interest is the summary on the normal results page, read our comparison of the [best AI Overview trackers](/insights/ai-overviews-trackers). For tools that follow ChatGPT, Perplexity and others as well as Google, see our guide to the [best AI search monitoring tools](/insights/best-ai-search-monitoring-tools)."
+      },
+      {
+        "type": "h2",
+        "text": "What should you do when an AI Mode tracker shows you are missing?"
+      },
+      {
+        "type": "p",
+        "text": "Improve the page that should be cited, then recheck after a few weeks. AI Mode breaks each question into many smaller follow-up questions before it answers, so the work is to answer the question in the first lines, cover the related questions and earn mentions on other trusted sites. Our guide to [ranking in Google AI Overviews and AI Mode](/insights/how-to-rank-in-ai-overviews) lists the steps."
+      }
+    ],
+    "faq": [
+      {
+        "q": "How do you track Google AI Mode?",
+        "a": "Use a tool that runs your questions through AI Mode on a schedule and records mentions, citations and competitors, such as Ahrefs Brand Radar, SE Ranking, Peec AI, Rankscale or Keyword.com. For a free start, use the Ahrefs free AI Mode tracker plus a monthly manual check."
+      },
+      {
+        "q": "Can Google Search Console track AI Mode?",
+        "a": "Only partly. AI Mode clicks and impressions are counted inside the normal Performance report and cannot be filtered out. Google's generative AI performance reports show impressions only, with no competitors or answer text."
+      },
+      {
+        "q": "Is there a free AI Mode tracker?",
+        "a": "Yes. Ahrefs offers a free Google AI Mode Tracker with no signup that gives a limited preview for one brand. SE Ranking and Keyword.com also offer free trials."
+      },
+      {
+        "q": "How do you rank in AI Mode?",
+        "a": "Answer the question directly at the top of the page, cover the related questions people ask next, keep the content fresh and earn mentions on trusted websites. Our guide to ranking in Google AI Overviews and AI Mode covers the steps."
+      },
+      {
+        "q": "What is the best AI Mode rank tracker?",
+        "a": "It depends on your needs. SE Ranking is built specifically for AI Mode, Ahrefs Brand Radar has the largest dataset, Keyword.com is the lowest-cost start and Peec AI and Rankscale suit teams tracking several AI tools. Test two on the same list of questions."
+      },
+      {
+        "q": "How often should you check AI Mode?",
+        "a": "Daily or weekly with a paid tracker, and monthly by hand. Because answers change between checks, repeat them over several weeks before you judge a result."
+      }
+    ]
+  },
+  {
     "slug": "what-is-geo",
     "seoTitle": "What Is GEO? Generative Engine Optimisation 2027",
     "title": "What Is GEO? Generative Engine Optimisation Explained for Businesses",
