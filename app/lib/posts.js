@@ -27,6 +27,359 @@ export const AUTHORS = {
    To preview drafts locally, run the dev server with INSIGHTS_PREVIEW_DRAFTS=1. */
 const ALL_POSTS = [
   {
+    "slug": "llm-seo",
+    "seoTitle": "LLM SEO in 2027: How to Optimise Content for AI Models",
+    "title": "LLM SEO in 2027: How to Optimise Your Content for Large Language Models",
+    "description": "LLM SEO in 2027: how to structure pages, build clear entities and earn mentions so ChatGPT, Gemini and Claude can find, trust and quote your content.",
+    "date": "2026-11-24",
+    "author": "team",
+    "topics": [
+      "AEO/GEO",
+      "SEO - Begins"
+    ],
+    "industries": [],
+    "image": "/insights/llm-seo-banner.jpg",
+    "intro": "Someone asks ChatGPT which payroll tool suits a restaurant, and a model reads a handful of pages, lifts a few sentences and writes an answer. Your page is either one of those pages or it is not. LLM SEO is the work of making sure it is. This guide shows how to write and structure content, make your brand clear and set up your site so large language models can find, trust and quote you in 2027, and which popular tactics, such as llms.txt, are not worth your time.",
+    "tldr": [
+      "LLM SEO is the practice of making your content easy for large language models such as ChatGPT, Gemini and Claude to find, trust and quote.",
+      "Write each section as a standalone answer: a question heading, a direct answer in the first 40 to 60 words, then a specific, dated fact.",
+      "Kevin Indig found 44.2% of ChatGPT citations came from the first 30% of a page, so put the answer early.",
+      "Make your brand one consistent entity, earn mentions on trusted sites and let AI search crawlers in through robots.txt.",
+      "Skip llms.txt for now: Ahrefs found 97% of the files got no requests in May 2026."
+    ],
+    "body": [
+      {
+        "type": "h2",
+        "text": "What is LLM SEO?"
+      },
+      {
+        "type": "callout",
+        "variant": "definition",
+        "title": "Definition",
+        "text": "LLM SEO is the practice of shaping your pages, your brand details and your presence on other websites so that large language models (LLMs) such as ChatGPT, Gemini, Claude and Perplexity can find your content, trust it and quote it in their answers. It builds on normal SEO and adds a focus on how passages are written, how your brand is described and where else you are mentioned."
+      },
+      {
+        "type": "p",
+        "text": "Google's AI Overview for the search \"llm seo\" gives the same picture. It says LLM SEO is also called LLMO, GEO or AEO, that success means being mentioned or cited inside an answer instead of only winning a blue link, and that fresh, well-structured content and mentions on trusted third-party sites help. That is a fair summary, and the rest of this guide turns each part into a job you can do."
+      },
+      {
+        "type": "image",
+        "src": "/insights/llm-seo-google-ai-overview.jpg",
+        "alt": "Google UK AI Overview for the search llm seo, defining it as optimising content so large language models understand, trust, mention and cite your brand, with a list of how it differs from traditional SEO",
+        "caption": "The Google UK AI Overview for \"llm seo\", 24 November 2026."
+      },
+      {
+        "type": "p",
+        "text": "This guide covers the content side: how to write and structure pages, how to make your brand clear to a model, and what to do about crawlers and llms.txt. If you want the platform-specific steps for ChatGPT, read our guide on [how to rank in ChatGPT](/insights/how-to-rank-in-chatgpt). If you want the comparison with classic SEO, see [GEO vs SEO](/insights/geo-vs-seo) and [AEO vs SEO](/insights/aeo-vs-seo)."
+      },
+      {
+        "type": "h2",
+        "text": "Do people search for LLM SEO or AI SEO?"
+      },
+      {
+        "type": "p",
+        "text": "People search for AI SEO far more often than LLM SEO. In Google Trends for the UK over the past 12 months, \"ai seo\" sits well above both \"geo seo\" and \"llm seo\", and \"llm seo\" barely registers. The terms mean much the same thing, so use the words your buyers type in your headings and say LLM SEO where it helps readers who already use that term."
+      },
+      {
+        "type": "image",
+        "src": "/insights/llm-seo-google-trends.jpg",
+        "alt": "Google Trends chart for the United Kingdom over the past 12 months comparing the searches llm seo, ai seo and geo seo, with ai seo far ahead",
+        "caption": "Google Trends, UK, past 12 months to 24 November 2026: relative interest in \"llm seo\", \"ai seo\" and \"geo seo\"."
+      },
+      {
+        "type": "p",
+        "text": "The questions people ask around the topic are plain ones. The Google UK People Also Ask box for \"llm seo\" shows \"What is LLM in SEO?\", \"Is there SEO for LLMs?\", \"Which LLM is good for SEO?\" and \"What is SEO for LLMs called?\". Each of those is answered in this guide, and in the FAQ at the end."
+      },
+      {
+        "type": "image",
+        "src": "/insights/llm-seo-people-also-ask.jpg",
+        "alt": "Google UK People Also Ask box for the search llm seo with four questions: what is LLM in SEO, is there SEO for LLMs, which LLM is good for SEO and what is SEO for LLMs called",
+        "caption": "People Also Ask for \"llm seo\" on Google UK, 24 November 2026."
+      },
+      {
+        "type": "h2",
+        "text": "How do large language models find and quote a page?"
+      },
+      {
+        "type": "p",
+        "text": "A large language model answers from two places: what it learned in training, and pages it fetches at the moment you ask. LLM SEO mostly works on the second. When an assistant uses search, it runs queries, reads the top pages from a search index, pulls out the passages that answer the question and writes a response with links. Your job is to be in the index, be easy to read and have a passage worth lifting."
+      },
+      {
+        "type": "p",
+        "text": "Ranking still matters for that reason. Ahrefs found in an updated study that [38% of pages cited in Google AI Overviews also rank in the top 10](https://ahrefs.com/blog/ai-overview-citations-top-10/) for the same query, down from 76% in its July 2025 version, which shows Google now cites a wider mix of pages. A top 10 position helps, and it is no longer the only route in."
+      },
+      {
+        "type": "stats",
+        "title": "Key figure",
+        "items": [
+          {
+            "value": "38%",
+            "label": "of pages cited in Google AI Overviews also rank in the top 10 (Ahrefs, March 2026 update; 76% in July 2025)"
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Where the answer sits on the page matters too. Kevin Indig analysed 18,012 verified ChatGPT citations from 1.2 million AI answers and found that 44.2% came from the first 30% of a page, 31.1% from the middle and 24.7% from the final third. Put the answer early, and do not rely on a closing summary to carry the point."
+      },
+      {
+        "type": "stats",
+        "title": "Where ChatGPT citations came from on the page (Kevin Indig, 18,012 citations)",
+        "items": [
+          {
+            "value": "44.2%",
+            "label": "from the first 30% of the page"
+          },
+          {
+            "value": "31.1%",
+            "label": "from the middle 30% to 70%"
+          },
+          {
+            "value": "24.7%",
+            "label": "from the final third"
+          }
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "How do you structure content for LLM SEO?"
+      },
+      {
+        "type": "p",
+        "text": "Write each section so it works as a standalone answer: a question heading, a direct answer in the first 40 to 60 words, then the detail. A model lifts passages, not whole pages, so every passage must make sense on its own. When we asked ChatGPT for the top three things that make a page easy to quote, it gave the same advice: answer-first content, specific and verifiable information, and clear, accessible pages."
+      },
+      {
+        "type": "image",
+        "src": "/insights/llm-seo-chatgpt-answer.jpg",
+        "alt": "ChatGPT answer to the question what makes a web page easy for an AI assistant to quote, listing direct answer-first content, specific verifiable information and clear accessible content",
+        "caption": "ChatGPT's answer to \"What makes a web page easy for an AI assistant to quote?\", 24 November 2026."
+      },
+      {
+        "type": "h3",
+        "text": "1. How do you write an answer-first passage?"
+      },
+      {
+        "type": "p",
+        "text": "Start the section with the answer, name the subject and add one proof point. Then add the how and why. This is the shape a model can copy into a response without editing."
+      },
+      {
+        "type": "compare",
+        "title": "Rewriting a passage so a model can quote it (illustrative example)",
+        "columns": [
+          {
+            "title": "Hard to quote",
+            "tone": "bad",
+            "items": [
+              "It has been a journey for us, and customers often ask about it.",
+              "Our platform helps teams in lots of ways, depending on what they need.",
+              "See below for more on this."
+            ]
+          },
+          {
+            "title": "Easy to quote",
+            "tone": "good",
+            "items": [
+              "Payroll software for UK restaurants runs weekly pay and holiday accrual in one place.",
+              "Plans start at £4 per employee a month, with a 30 day free trial.",
+              "Last checked 24 November 2026."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "2. How do you make every section stand alone?"
+      },
+      {
+        "type": "list",
+        "items": [
+          "**Use the name, not \"it\".** Write \"the payroll tool\" or the product name, so a lifted sentence keeps its meaning.",
+          "**Give one idea per paragraph.** Short paragraphs of two to four sentences are easier to extract than long blocks.",
+          "**Phrase headings as questions.** Real queries such as \"How much does restaurant payroll software cost?\" match how people prompt an assistant.",
+          "**Use a table for comparisons.** Price, features and limits in rows give a model clean facts to read."
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "3. What proof makes a page worth quoting?"
+      },
+      {
+        "type": "p",
+        "text": "Specific, dated facts beat general claims. Add figures, prices, limits, dates and the source, and say when you last checked them. Original data that nobody else has, such as your own survey or benchmark, is the strongest reason for a model to cite you instead of a competitor. Refresh these facts when they change, because assistants lean towards recent content and a changed date with old numbers does not count."
+      },
+      {
+        "type": "h2",
+        "text": "How do entities and citations work in LLM SEO?"
+      },
+      {
+        "type": "p",
+        "text": "An entity is a clearly defined thing, such as your company, a product, a person or a place. A model decides whether to mention you by how consistently the web describes that entity. If your name, what you sell and who you serve read the same on your site, your profiles and other people's pages, a model can connect them. If they differ, it may skip you."
+      },
+      {
+        "type": "h3",
+        "text": "1. How do you make your brand clear to a model?"
+      },
+      {
+        "type": "list",
+        "items": [
+          "**Use one name everywhere.** Pick the exact company and product names and use them on your site, LinkedIn, directories and press.",
+          "**Write a plain About page.** Say what you do, for whom, where, and since when, in two or three sentences near the top.",
+          "**Add Organisation schema with your profiles.** It confirms the facts and links your official profiles together.",
+          "**Name real people.** Authors and experts with a short bio and a LinkedIn profile help a model tell you apart from lookalikes."
+        ]
+      },
+      {
+        "type": "code",
+        "title": "Organisation schema with sameAs profiles (replace the examples)",
+        "code": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Organization\",\n  \"name\": \"Your Company Name\",\n  \"url\": \"https://www.yourcompany.com\",\n  \"description\": \"One plain sentence saying what you do and for whom.\",\n  \"sameAs\": [\n    \"https://www.linkedin.com/company/your-company\",\n    \"https://www.youtube.com/@yourcompany\"\n  ]\n}"
+      },
+      {
+        "type": "p",
+        "text": "Treat schema as housekeeping. It helps search engines read the page and confirms the facts, but it does not on its own earn citations."
+      },
+      {
+        "type": "h3",
+        "text": "2. How do you earn the mentions that models look for?"
+      },
+      {
+        "type": "p",
+        "text": "Mentions on other trusted sites carry weight because they show that people outside your company describe you the same way. Google's AI Overview for this topic lists unlinked brand mentions and third-party authority as a factor. Digital PR, expert quotes, industry directories, partner pages and reviews all create them. Our guide to [B2B link building](/insights/b2b-link-building) covers the tactics, and the same work feeds your [B2B SEO strategy](/insights/seo-for-b2b-companies)."
+      },
+      {
+        "type": "h2",
+        "text": "Which technical settings matter for LLM SEO?"
+      },
+      {
+        "type": "p",
+        "text": "Three technical checks matter most: let the right crawlers in, keep the answer in plain HTML and make sure the page is indexed. A page that a crawler cannot fetch, or that shows its main text only after JavaScript runs, may as well not exist for an assistant."
+      },
+      {
+        "type": "h3",
+        "text": "1. How do you allow AI crawlers in robots.txt?"
+      },
+      {
+        "type": "p",
+        "text": "Check robots.txt and any CDN or firewall settings, such as Cloudflare's bot controls, which can block AI bots by default. The search and assistant crawlers to allow if you want to appear in answers include OAI-SearchBot and ChatGPT-User from OpenAI, Claude-SearchBot and Claude-User from Anthropic and PerplexityBot. GPTBot and ClaudeBot are mainly for training, so allowing them is a separate choice about your content."
+      },
+      {
+        "type": "code",
+        "title": "robots.txt rules that allow AI search and assistant crawlers",
+        "code": "User-agent: OAI-SearchBot\nAllow: /\n\nUser-agent: ChatGPT-User\nAllow: /\n\nUser-agent: Claude-SearchBot\nAllow: /\n\nUser-agent: Claude-User\nAllow: /\n\nUser-agent: PerplexityBot\nAllow: /"
+      },
+      {
+        "type": "p",
+        "text": "Crawler names change, so check each company's current documentation before you edit the file."
+      },
+      {
+        "type": "h3",
+        "text": "2. How do you keep answers readable without JavaScript?"
+      },
+      {
+        "type": "p",
+        "text": "Open the page with JavaScript switched off, or view the page source. If your main answer, price table or FAQ is missing, a simple crawler will miss it too. Put the key text in the HTML, and avoid hiding answers inside tabs or accordions that load on click."
+      },
+      {
+        "type": "h3",
+        "text": "3. How do you check the page is indexed?"
+      },
+      {
+        "type": "p",
+        "text": "Assistants that search the web draw on search indexes, including Google and Bing. Use URL Inspection in Google Search Console and Bing Webmaster Tools to confirm the page is indexed, list it in your XML sitemap and link to it from related pages on your own site."
+      },
+      {
+        "type": "h2",
+        "text": "Does llms.txt help LLM SEO?"
+      },
+      {
+        "type": "p",
+        "text": "llms.txt does not help LLM SEO today. It is a markdown index file placed at the root of a site, proposed in 2024, and it is often sold as a way to get cited. The largest study so far says otherwise. Ahrefs analysed 137,210 domains and found that [97% of valid llms.txt files received zero requests in May 2026](https://ahrefs.com/blog/llmstxt-study/), and that AI retrieval bots made only 1.1% of the requests the files did get."
+      },
+      {
+        "type": "stats",
+        "title": "llms.txt in practice (Ahrefs, 137,210 domains, May 2026)",
+        "items": [
+          {
+            "value": "28%",
+            "label": "of domains publish an llms.txt file"
+          },
+          {
+            "value": "97%",
+            "label": "of those files received no requests at all"
+          },
+          {
+            "value": "1.1%",
+            "label": "of requests came from AI retrieval bots such as OAI-SearchBot and PerplexityBot"
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Google's John Mueller said in 2025 that no AI system currently uses the file, and later described it as not done for search. Ahrefs also found that no AI bot looked for an llms.txt file on sites that did not have one. If your site is built on a platform that generates the file for you, leave it. If not, spend the time on the answer-first pages and the mentions above, and revisit the file if a major assistant says it reads it."
+      },
+      {
+        "type": "h2",
+        "text": "How do you measure LLM SEO?"
+      },
+      {
+        "type": "p",
+        "text": "Measure three things: whether assistants mention you for your key questions, whether AI tools send visits and whether your pages are indexed and ranking. None of them needs a paid tool to start. Our guide on [tracking AI traffic for free](/insights/track-ai-traffic) shows the Google Analytics 4 and Search Console setup."
+      },
+      {
+        "type": "checklist",
+        "title": "A monthly LLM SEO check",
+        "items": [
+          "**Run 10 real prompts.** Ask ChatGPT, Gemini, Claude and Google AI Mode the questions your buyers ask, and note who is named and which sources are shown.",
+          "**Check AI referrals.** Look at visits from chatgpt.com, perplexity.ai and similar sources in GA4.",
+          "**Check indexing and rankings.** Use Search Console for impressions and clicks on your target questions.",
+          "**Check crawler access.** Confirm robots.txt and your CDN still allow the search and assistant bots.",
+          "**Refresh one page.** Update the facts, figures and last-checked date on your best page for each topic."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "What should you do first with LLM SEO?"
+      },
+      {
+        "type": "p",
+        "text": "Pick your most valuable page, rewrite each section so it opens with a direct answer and a dated fact, check that AI search crawlers can reach it and make sure your company name and description match across your profiles. That one page teaches you what works before you roll it out across the site. For the wider picture, our guide to [answer engine optimisation](/insights/answer-engine-optimisation) shows how this fits into a full plan, and for Google's own AI features read [how to rank in AI Overviews](/insights/how-to-rank-in-ai-overviews)."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is LLM in SEO?",
+        "a": "LLM stands for large language model, the technology behind ChatGPT, Gemini, Claude and Perplexity. In SEO it refers to optimising your content so these models can find it, trust it and quote it in their answers."
+      },
+      {
+        "q": "Is there SEO for LLMs?",
+        "a": "Yes. LLM SEO covers answer-first content, clear brand and entity details, mentions on trusted sites, crawler access and fresh facts. It builds on normal SEO, because many assistants use search indexes to find pages."
+      },
+      {
+        "q": "What is SEO for LLMs called?",
+        "a": "It goes by several names, including LLM SEO, LLMO, GEO (generative engine optimisation), AEO (answer engine optimisation) and AI SEO. In UK Google Trends data, \"ai seo\" is searched far more than \"llm seo\" or \"geo seo\"."
+      },
+      {
+        "q": "Which LLM is good for SEO?",
+        "a": "Use whichever assistant your buyers use, because the aim is to be mentioned there. ChatGPT, Gemini, Claude and Google AI Mode each draw on different sources, so test your key questions in all of them rather than relying on one."
+      },
+      {
+        "q": "Does LLM SEO replace normal SEO?",
+        "a": "No. Search indexes such as Google and Bing remain a major source of pages for assistants, so rankings, indexing and links still matter. LLM SEO adds passage writing, entity clarity and off-site mentions on top."
+      },
+      {
+        "q": "Do I need an llms.txt file?",
+        "a": "Probably not. Ahrefs found that 97% of valid llms.txt files received no requests in May 2026 and that AI retrieval bots made only 1.1% of requests to the files that did get traffic. It is cheap to add, but it is not a reliable way to get cited."
+      },
+      {
+        "q": "Should I block AI crawlers?",
+        "a": "Only if you have a reason to keep your content out of AI answers. Blocking search and assistant crawlers such as OAI-SearchBot or PerplexityBot can stop your pages from being quoted. Training crawlers such as GPTBot are a separate choice."
+      },
+      {
+        "q": "How long does LLM SEO take?",
+        "a": "Technical fixes can show up within weeks once pages are crawled again. Authority built through mentions and reviews takes months. Re-run the same set of prompts each month to see change."
+      }
+    ]
+  },
+  {
     "slug": "third-party-logistics-marketing",
     "seoTitle": "3PL Marketing in 2027: How 3PLs Generate More Leads",
     "title": "3PL Marketing in 2027: How Third-Party Logistics Providers Generate Leads",
