@@ -27,6 +27,621 @@ export const AUTHORS = {
    To preview drafts locally, run the dev server with INSIGHTS_PREVIEW_DRAFTS=1. */
 const ALL_POSTS = [
   {
+    "slug": "b2b-content-marketing",
+    "seoTitle": "B2B Content Marketing in 2027: Strategy for SEO and AI",
+    "title": "B2B Content Marketing in 2027: A Strategy That Works for SEO and AI Search",
+    "description": "B2B content marketing in 2027: how to plan content by buying stage, choose formats, distribute and retarget, repurpose and earn citations in AI answers.",
+    "date": "2026-11-24",
+    "author": "team",
+    "topics": [
+      "B2B"
+    ],
+    "industries": [],
+    "image": "/insights/b2b-content-marketing-banner.jpg",
+    "intro": "Before a B2B buyer replies to your message, they have usually read your pages. A finance lead checks the pricing, an IT lead looks for the integration notes and an executive wants one proof point they can trust. B2B content marketing is how you make those pages exist, make them findable in Google and in AI assistants, and make them good enough to win the shortlist. This guide shows what the latest research says, how to plan content by buying stage and by role, how to distribute, retarget and repurpose it, and how to measure it.",
+    "tldr": [
+      "B2B content marketing is creating useful content that attracts, educates and convinces the several people involved in a business buying decision.",
+      "The CMI and MarketingProfs 2027 report found 88% of B2B marketers use AI content tools, but only 17% say AI improved quality.",
+      "Trust comes from useful information (64%), expertise (59%) and customer stories (50%), so build content around real experts, customers and data.",
+      "Map content to the buying journey and to each role in the buying group, then distribute and retarget it across search, LinkedIn, email and partners.",
+      "Measure visibility, engagement and pipeline, and refresh your best pages every quarter."
+    ],
+    "body": [
+      {
+        "type": "h2",
+        "text": "What is B2B content marketing?"
+      },
+      {
+        "type": "callout",
+        "variant": "definition",
+        "title": "Definition",
+        "text": "B2B content marketing is the practice of creating and sharing useful content, such as guides, research, case studies, videos and emails, to attract, educate and convince the people who make business buying decisions. It works over a long sales cycle and speaks to a group of buyers, not one person."
+      },
+      {
+        "type": "p",
+        "text": "Google's AI Overview for the search \"b2b content marketing\" says much the same. It describes the practice as creating and distributing valuable, relevant content to attract, educate and convert business buyers while building long-term trust, and it names buying committees, longer sales cycles and funnel-mapped formats as the features that set it apart from consumer marketing."
+      },
+      {
+        "type": "image",
+        "src": "/insights/b2b-content-marketing-google-ai-overview.jpg",
+        "alt": "Google UK AI Overview for the search b2b content marketing, defining it as creating and distributing valuable content to attract, educate and convert business buyers, with core pillars including buying committee alignment and funnel-mapped formats",
+        "caption": "The Google UK AI Overview for \"b2b content marketing\", 24 November 2026."
+      },
+      {
+        "type": "p",
+        "text": "This guide is the full playbook. It covers what the latest research says, how to build a strategy, which content suits each stage and each person in the buying group, how to distribute and retarget, how to repurpose and how to measure. If you want the wider search plan around it, start with our [B2B SEO strategy](/insights/seo-for-b2b-companies) pillar. This post goes deeper on the content itself."
+      },
+      {
+        "type": "h2",
+        "text": "Do people search for B2B content marketing?"
+      },
+      {
+        "type": "p",
+        "text": "Yes, and they search for the neighbouring terms more often. In worldwide Google Trends data for the past 12 months, \"b2b lead generation\" and \"b2b seo\" both sit above \"b2b content marketing\". Buyers and marketers describe the same need in different words, so use all three in your headings and copy."
+      },
+      {
+        "type": "image",
+        "src": "/insights/b2b-content-marketing-google-trends.jpg",
+        "alt": "Google Trends chart for the past 12 months worldwide comparing the searches b2b content marketing, b2b seo and b2b lead generation, with b2b lead generation highest and b2b content marketing lowest",
+        "caption": "Google Trends, worldwide, past 12 months to 24 November 2026: relative interest in \"b2b content marketing\" (blue), \"b2b seo\" (red) and \"b2b lead generation\" (yellow)."
+      },
+      {
+        "type": "p",
+        "text": "The questions people ask are basic ones. The Google UK People Also Ask box for the search shows \"What is B2B content marketing?\", \"What are some examples of B2B content marketing?\", \"What is B2B, B2C, C2C, D2C?\" and \"What does B2B mean in marketing?\". Each is answered in this guide or in the FAQ at the end."
+      },
+      {
+        "type": "image",
+        "src": "/insights/b2b-content-marketing-people-also-ask.jpg",
+        "alt": "Google UK People Also Ask box for b2b content marketing with four questions: what is B2B content marketing, what are some examples, what is B2B B2C C2C D2C and what does B2B mean in marketing",
+        "caption": "People Also Ask for \"b2b content marketing\" on Google UK, 24 November 2026."
+      },
+      {
+        "type": "h2",
+        "text": "What does the latest research say about B2B content marketing in 2027?"
+      },
+      {
+        "type": "p",
+        "text": "The headline finding is that AI has made content faster, and marketers do not think it has made it better. The [Content Marketing Institute and MarketingProfs 2027 B2B report](https://contentmarketinginstitute.com/b2b-research/b2b-content-marketing-trends-research), based on 861 B2B marketers surveyed between June and August 2026, found that 88% use AI content creation tools. When asked what AI contributes, 78% said speed and only 17% said quality."
+      },
+      {
+        "type": "stats",
+        "title": "B2B content creation with AI (CMI and MarketingProfs, 861 B2B marketers, 2026 survey)",
+        "items": [
+          {
+            "value": "88%",
+            "label": "of B2B marketers use AI content creation tools"
+          },
+          {
+            "value": "78%",
+            "label": "say AI's main contribution is speed"
+          },
+          {
+            "value": "17%",
+            "label": "say AI has improved quality"
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "src": "/insights/b2b-content-marketing-cmi-ai-overview.jpg",
+        "alt": "Google UK AI Overview for the search 2027 B2B content marketing trends report, summarising that AI adoption is widespread while speed and volume outpace quality and cause team burnout",
+        "caption": "Google's AI Overview summarising the CMI and MarketingProfs 2027 B2B report, 24 November 2026."
+      },
+      {
+        "type": "p",
+        "text": "The same report shows what actually builds trust with a B2B audience, and none of it comes from producing more. Useful, practical information leads, followed by proven expertise and real customer stories."
+      },
+      {
+        "type": "hbar",
+        "title": "What builds trust and credibility with a B2B audience",
+        "series": [
+          {
+            "name": "Share of B2B marketers",
+            "color": "#E62E6B"
+          }
+        ],
+        "rows": [
+          {
+            "label": "Consistently useful, practical information",
+            "values": [
+              64
+            ]
+          },
+          {
+            "label": "Demonstrating industry expertise",
+            "values": [
+              59
+            ]
+          },
+          {
+            "label": "Customer stories and testimonials",
+            "values": [
+              50
+            ]
+          },
+          {
+            "label": "Featuring subject matter experts",
+            "values": [
+              42
+            ]
+          },
+          {
+            "label": "Publishing original research",
+            "values": [
+              27
+            ]
+          }
+        ],
+        "source": {
+          "label": "Content Marketing Institute and MarketingProfs, B2B Content and Marketing Trends: Insights for 2027"
+        }
+      },
+      {
+        "type": "image",
+        "src": "/insights/b2b-content-marketing-cmi-report-page.jpg",
+        "alt": "Content Marketing Institute article on the 2027 B2B Content and Marketing Trends report, titled Faster and Cheaper, But Not Better, dated 4 November 2026",
+        "caption": "The CMI write-up of its 2027 B2B research, published 4 November 2026."
+      },
+      {
+        "type": "p",
+        "text": "Budgets are following the same logic. For 2027, 42% of B2B marketers expect owned media to be a top investment area, up 10 percentage points on the year before, ahead of events at 35%, and AI tools and paid media at 30% each. Owned media means the channels you control, such as your website, blog, newsletter and community. It is where this guide puts most of its effort."
+      },
+      {
+        "type": "stats",
+        "title": "Where B2B marketers expect to invest most in 2027 (CMI and MarketingProfs)",
+        "items": [
+          {
+            "value": "42%",
+            "label": "owned media (up 10 points on 2026)"
+          },
+          {
+            "value": "35%",
+            "label": "events and experiential marketing"
+          },
+          {
+            "value": "30%",
+            "label": "AI tools, and 30% for paid media"
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "There is one more number worth knowing. Among marketers who saw website traffic fall in the last year, 79% blame AI-powered search. Overall, though, traffic is split: 31% saw an increase, 31% a decrease and 24% no change. Content that earns trust and gets cited in answers matters more than chasing volume."
+      },
+      {
+        "type": "h2",
+        "text": "How do you build a B2B content marketing strategy?"
+      },
+      {
+        "type": "p",
+        "text": "Build it in six steps: define who you write for, set goals tied to pipeline, choose topics from real searches, map content to the buying journey, pick formats and a calendar, then measure and refresh. Each step below is short on purpose, so you can run it in a week and improve it each quarter."
+      },
+      {
+        "type": "h3",
+        "text": "1. Who are you writing for?"
+      },
+      {
+        "type": "p",
+        "text": "A B2B purchase rarely rests with one person. Write down the roles in your typical deal: the end user, the technical evaluator, the budget holder and the executive sponsor. For each, note the question they ask and the worry that could stop the deal. A cybersecurity vendor, for example, writes one page for the IT lead worried about integration and another for the finance director worried about cost."
+      },
+      {
+        "type": "h3",
+        "text": "2. What goal will content serve?"
+      },
+      {
+        "type": "p",
+        "text": "Pick one or two goals that sales would recognise, such as qualified enquiries, demo requests or shortlist inclusion. CMI's respondents who rate their marketing effective point to content relevance and quality (47%) and alignment with sales (26%) as drivers, so involve sales in the goal from day one."
+      },
+      {
+        "type": "h3",
+        "text": "3. Which topics should you cover?"
+      },
+      {
+        "type": "p",
+        "text": "Start from the searches your buyers make. Our guide to [B2B keyword research](/insights/b2b-keyword-research) shows how to find terms by buying stage, including the questions people now type into AI assistants. Group the topics into a few pillars, each with supporting posts that answer the follow-up questions."
+      },
+      {
+        "type": "h3",
+        "text": "4. How do you map content to the buying journey?"
+      },
+      {
+        "type": "p",
+        "text": "List the stages, the question a buyer asks at each and the content that answers it. The next section gives a worked table."
+      },
+      {
+        "type": "h3",
+        "text": "5. Which formats and what publishing rhythm?"
+      },
+      {
+        "type": "p",
+        "text": "Choose formats your team can produce well every month, not every format at once. One strong guide, one case study and one piece of original data each quarter, repurposed across channels, usually beats weekly posts that say little."
+      },
+      {
+        "type": "h3",
+        "text": "6. How do you measure and refresh?"
+      },
+      {
+        "type": "p",
+        "text": "Check results monthly and refresh your best pages every quarter. The measurement section below covers the numbers to track."
+      },
+      {
+        "type": "h2",
+        "text": "What B2B content works at each stage of the buying journey?"
+      },
+      {
+        "type": "p",
+        "text": "Educational content works early, evidence of results works in the middle and proof that you can deliver works at the end. We asked ChatGPT for the top three content types a B2B buyer uses at each stage of choosing a supplier, and it gave the same arc: research reports, blog posts and webinars for awareness, case studies, webinars and comparison guides for consideration, and demos, reviews and ROI calculators for the decision."
+      },
+      {
+        "type": "image",
+        "src": "/insights/b2b-content-marketing-chatgpt-answer.jpg",
+        "alt": "ChatGPT answer to the question what types of content do B2B buyers use at each stage of choosing a supplier, listing research reports, blog posts and webinars for the awareness stage",
+        "caption": "ChatGPT's answer to \"What types of content do B2B buyers use at each stage of choosing a supplier?\", 24 November 2026."
+      },
+      {
+        "type": "table",
+        "head": [
+          "Buying stage",
+          "Question the buyer asks",
+          "Content that answers it",
+          "Where it should live"
+        ],
+        "rows": [
+          [
+            "Awareness",
+            "What is the problem and what should we know about it?",
+            "Original research, how-to guides, explainers, short videos",
+            "Your blog, search, LinkedIn, YouTube"
+          ],
+          [
+            "Consideration",
+            "Which solutions and suppliers could solve it?",
+            "Case studies, comparison pages, webinars, buyer's guides",
+            "Your website, email, partner and review sites"
+          ],
+          [
+            "Decision",
+            "Can we trust this supplier to deliver?",
+            "Demos, pricing pages, ROI calculators, customer references, security and compliance pages",
+            "Your website, sales conversations, retargeting"
+          ],
+          [
+            "Adoption and advocacy",
+            "Are we getting value, and who else should know?",
+            "Onboarding guides, customer communities, newsletters, customer stories",
+            "Email, customer portal, events"
+          ]
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "What content does each person in the buying group need?"
+      },
+      {
+        "type": "p",
+        "text": "Different roles read different pages. Make each page answer one role's question and make it easy to forward, because buying groups share links internally before they ever speak to you."
+      },
+      {
+        "type": "table",
+        "head": [
+          "Role",
+          "What they worry about",
+          "Content that helps"
+        ],
+        "rows": [
+          [
+            "End user",
+            "Will this make my day easier?",
+            "Product walkthroughs, short videos, how-to guides"
+          ],
+          [
+            "Technical evaluator",
+            "Will it work with our systems and meet requirements?",
+            "Specifications, integration pages, documentation, security details"
+          ],
+          [
+            "Finance or procurement",
+            "What does it cost and what is the return?",
+            "Pricing pages, ROI calculators, total cost guides"
+          ],
+          [
+            "Executive sponsor",
+            "Is this the right strategic bet?",
+            "Original research, short business cases, peer customer stories"
+          ]
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Which B2B content formats should you use?"
+      },
+      {
+        "type": "p",
+        "text": "Use the formats that prove something, then add the ones that spread it. The top formats for B2B are guides, case studies, original research and comparison pages. Video, webinars, newsletters and tools extend their reach."
+      },
+      {
+        "type": "cards",
+        "title": "Formats that earn their place in a B2B content plan",
+        "items": [
+          {
+            "title": "Guides and explainers",
+            "meta": "Educate",
+            "text": "Answer-first articles that rank and get quoted. Pillar pages hold the cluster together."
+          },
+          {
+            "title": "Case studies",
+            "meta": "Prove",
+            "text": "Real customer, real problem, real numbers. Buyers in the middle of the journey look for these first."
+          },
+          {
+            "title": "Original research",
+            "meta": "Earn links",
+            "text": "A survey or analysis of your own data. Only 27% of B2B marketers in the CMI survey say they publish it, so it stands out."
+          },
+          {
+            "title": "Comparison pages",
+            "meta": "Decide",
+            "text": "Honest side-by-side pages for your category. They match how buyers shortlist and how AI assistants build lists."
+          },
+          {
+            "title": "Video and webinars",
+            "meta": "Show",
+            "text": "Short product and expert videos for YouTube and LinkedIn, plus live sessions that you cut into clips."
+          },
+          {
+            "title": "Newsletters",
+            "meta": "Keep",
+            "text": "An owned channel that does not depend on an algorithm. It keeps you in front of buyers who are not ready yet."
+          },
+          {
+            "title": "Calculators and tools",
+            "meta": "Convert",
+            "text": "ROI or cost calculators give a buyer a number to take to finance."
+          },
+          {
+            "title": "Events",
+            "meta": "Meet",
+            "text": "82% of B2B marketers in the CMI research put budget into content-led experiences in 2026."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "CMI's respondents say the top benefits of experiences are brand trust (43%), awareness (41%) and qualified leads (37%). If you cannot run events, a regular webinar or customer roundtable gives you part of the same effect."
+      },
+      {
+        "type": "h2",
+        "text": "How do you distribute B2B content?"
+      },
+      {
+        "type": "p",
+        "text": "Publish on your own site first, then push each piece to the places your buyers already spend time: search, LinkedIn, YouTube, email, partner sites and industry publications. Distribution is a plan, not a hope. Decide the channels before you write the piece."
+      },
+      {
+        "type": "list",
+        "items": [
+          "**Search and AI answers.** Write each page to rank and to be quoted. Our guides on [answer engine optimisation](/insights/answer-engine-optimisation) and [LLM SEO](/insights/llm-seo) cover the structure.",
+          "**LinkedIn.** Share the main finding as a post, a short document carousel and a founder or expert comment. Buyers follow people more than pages.",
+          "**YouTube.** Turn the guide into a three to five minute explainer. Video also gives AI assistants another source to cite.",
+          "**Email.** Send the piece to your list with one line on who it helps. Segment by role where you can.",
+          "**Partners and publications.** Offer a quote, data or a guest article to trade bodies and industry sites. This is digital PR, and our guide to [B2B link building](/insights/b2b-link-building) covers how to do it.",
+          "**Sales.** Give the sales team a one-line summary and a link for each new asset, so it gets used in live deals."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "How do you retarget B2B buyers with content?"
+      },
+      {
+        "type": "p",
+        "text": "Retargeting shows follow-up content to people who have already visited your site or engaged with you. In B2B it works best when the next message matches what the person just read, and when the audience is the right accounts, not everyone."
+      },
+      {
+        "type": "p",
+        "text": "Google's AI Overview for \"b2b retargeting platforms\" lists LinkedIn Ads, Google Ads and Meta Ads as the core ad platforms, often paired with account-based marketing and intent tools such as Demandbase, Bombora and G2 Buyer Intent. It also notes audience size minimums on some platforms, so check each platform's current rules before you plan a campaign."
+      },
+      {
+        "type": "image",
+        "src": "/insights/b2b-content-marketing-retargeting-ai-overview.jpg",
+        "alt": "Google UK AI Overview for the search b2b retargeting platforms, listing LinkedIn Ads, Google Ads and Meta Ads with account-based marketing and intent platforms such as Demandbase, Bombora and G2 Buyer Intent",
+        "caption": "The Google UK AI Overview for \"b2b retargeting platforms\", 24 November 2026."
+      },
+      {
+        "type": "steps",
+        "title": "How to set up a simple B2B retargeting sequence",
+        "items": [
+          {
+            "title": "Build audiences from your site",
+            "text": "Create lists of visitors to your guides, your pricing page and your case studies. Keep them separate, because they signal different intent."
+          },
+          {
+            "title": "Match the next piece to the last page",
+            "text": "Show a case study to people who read a guide. Show a demo or ROI calculator to people who visited pricing."
+          },
+          {
+            "title": "Add company and job-title targeting",
+            "text": "On LinkedIn, limit ads to the job titles and company lists in your buying group, so the budget reaches decision makers."
+          },
+          {
+            "title": "Cap frequency and set a window",
+            "text": "Show each person the sequence for 30 to 60 days, then stop. Add exclusions for people who have already booked."
+          },
+          {
+            "title": "Measure by account, not click",
+            "text": "Check how many target accounts came back, booked a call or moved a deal on, using your CRM."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "The platforms differ. LinkedIn reaches specific job titles and company lists. Google Ads captures people who searched for your terms and lets you remarket on search, YouTube and display. Meta Ads suits broader reminders to a wider audience. Start with the one where your buyers already pay attention, and add another only when the first is working."
+      },
+      {
+        "type": "h2",
+        "text": "How do you repurpose B2B content?"
+      },
+      {
+        "type": "p",
+        "text": "Start with one substantial piece of content and cut it into smaller pieces for each channel. A single original study can feed a report, a guide, a webinar, a month of LinkedIn posts, a video and a sales one-pager. This lets a small team publish often without writing from scratch every time."
+      },
+      {
+        "type": "flow",
+        "title": "One piece of original research, repurposed",
+        "steps": [
+          {
+            "label": "1. Research",
+            "text": "Run a survey or analyse your own data, then publish the findings as a guide on your site."
+          },
+          {
+            "label": "2. Report",
+            "text": "Turn the data into a short report or checklist, gated or open, with charts."
+          },
+          {
+            "label": "3. Social",
+            "text": "Post one finding at a time on LinkedIn over several weeks, each with a chart."
+          },
+          {
+            "label": "4. Video",
+            "text": "Record a short explainer or a webinar with an expert and cut it into clips."
+          },
+          {
+            "label": "5. Sales",
+            "text": "Give sales a one-page summary and quotes, and use it in retargeting and email."
+          }
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "How do you get B2B content cited in AI answers?"
+      },
+      {
+        "type": "p",
+        "text": "Make each section a clear answer, add something only you can offer and earn mentions on other trusted sites. AI assistants lift passages, so write each section to stand alone with a direct answer in the first 40 to 60 words. Our guide on [how to rank in ChatGPT](/insights/how-to-rank-in-chatgpt) covers the platform steps, and [AEO vs SEO](/insights/aeo-vs-seo) shows how the page build differs."
+      },
+      {
+        "type": "p",
+        "text": "The author of the CMI write-up, Robert Rose, makes a useful point. The one thing an answer engine cannot produce without you is your own expertise: the expert who spends an hour with a writer, the customers who go on record and the research you run. Plan your content around those sources and you give AI assistants something to cite."
+      },
+      {
+        "type": "compare",
+        "title": "Content that is easy for a model to quote (illustrative example)",
+        "columns": [
+          {
+            "title": "Hard to quote",
+            "tone": "bad",
+            "items": [
+              "We help companies with their growth journey.",
+              "Our customers love the results.",
+              "Read on to find out more."
+            ]
+          },
+          {
+            "title": "Easy to quote",
+            "tone": "good",
+            "items": [
+              "Our payroll platform for UK hospitality runs weekly pay for up to 500 staff.",
+              "The price includes holiday pay and pension reporting for every employee.",
+              "Last checked 24 November 2026."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "How do you measure B2B content marketing?"
+      },
+      {
+        "type": "p",
+        "text": "Measure content against the goal it serves, in three groups: visibility, engagement and pipeline. CMI's respondents say the top two ways they measure trust are customer retention or referral rates (50%) and website engagement (45%), which fits this split."
+      },
+      {
+        "type": "table",
+        "head": [
+          "Group",
+          "What to track",
+          "Where to find it"
+        ],
+        "rows": [
+          [
+            "Visibility",
+            "Impressions, clicks and rankings for target questions, plus mentions in AI answers",
+            "Search Console, a monthly set of AI prompts"
+          ],
+          [
+            "Engagement",
+            "Engaged sessions, scroll depth, newsletter sign-ups, return visits",
+            "GA4"
+          ],
+          [
+            "Pipeline",
+            "Demo and enquiry requests by source, lead quality, deals influenced by content",
+            "CRM, with source fields on forms"
+          ]
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Set up GA4 so that AI referrals and organic visits are separated, using our guide to [tracking AI traffic for free](/insights/track-ai-traffic). Lay the numbers out in a monthly report using our [SEO report template](/insights/seo-report-template). Review content that ranks on page one every quarter, refresh the facts and rewrite pages that sit lower."
+      },
+      {
+        "type": "callout",
+        "variant": "tip",
+        "title": "Get a free keyword list for your business",
+        "text": "Want a head start on the topics? [Get a free keyword list for your business](/book). Tell us what you sell and who you sell to, and we will send back a starter list of B2B terms grouped by buying stage."
+      },
+      {
+        "type": "h2",
+        "text": "What should you do first with B2B content marketing?"
+      },
+      {
+        "type": "p",
+        "text": "Pick your best-selling product, list the questions a buyer asks before they choose, and write one answer-first guide and one case study for them. Share both through LinkedIn, email and your sales team, then check Search Console and your CRM after 30 days. That small loop shows what to scale, and it uses the same approach that the research above says builds trust: useful information, expertise and real customer stories."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is B2B content marketing?",
+        "a": "B2B content marketing is creating and sharing useful content such as guides, research, case studies and videos to attract, educate and convince business buyers. It runs over a long sales cycle and speaks to the several people involved in a buying decision."
+      },
+      {
+        "q": "What are some examples of B2B content marketing?",
+        "a": "Examples include an original industry survey, a how-to guide, a customer case study, a comparison page, a webinar, a newsletter and an ROI calculator. The best examples answer a specific buyer question at a specific stage of the journey."
+      },
+      {
+        "q": "What does B2B mean in marketing?",
+        "a": "B2B stands for business to business. It describes companies that sell to other companies, as opposed to B2C, where companies sell to consumers."
+      },
+      {
+        "q": "What is the difference between B2B and B2C content marketing?",
+        "a": "B2B content speaks to a group of buyers with longer sales cycles, bigger budgets and more need for proof. B2C content usually targets one person making a faster, more emotional decision."
+      },
+      {
+        "q": "How often should a B2B company publish content?",
+        "a": "Publish at a rate your team can keep up with and keep quality high. One strong guide, one case study and one piece of original data each quarter, repurposed across channels, is a sensible start for a small team."
+      },
+      {
+        "q": "Which B2B content format works best?",
+        "a": "Case studies and original research are the strongest proof formats, and guides bring in search traffic. CMI's respondents say useful information (64%), expertise (59%) and customer stories (50%) build the most trust."
+      },
+      {
+        "q": "How do you retarget B2B buyers?",
+        "a": "Build audiences from your website visitors, show each group the next piece of content that fits what they read, target the right job titles and companies, and stop after a set window. LinkedIn Ads, Google Ads and Meta Ads are the main platforms."
+      },
+      {
+        "q": "Does AI-written content work for B2B?",
+        "a": "AI can speed up drafting, but CMI's 2027 research found only 17% of marketers say AI improved quality. Use it for outlines and edits, and add real expertise, customer stories and data yourself."
+      },
+      {
+        "q": "How do you measure B2B content marketing?",
+        "a": "Track visibility in Search Console, engagement in GA4 and pipeline in your CRM. Tie each content piece to a goal and review it monthly."
+      },
+      {
+        "q": "How long does B2B content marketing take to work?",
+        "a": "Expect early signals such as impressions and engagement within a few months, and pipeline impact over six to twelve months. Longer sales cycles mean results arrive later than in B2C."
+      }
+    ]
+  },
+  {
     "slug": "llm-seo",
     "seoTitle": "LLM SEO in 2027: How to Optimise Content for AI Models",
     "title": "LLM SEO in 2027: How to Optimise Your Content for Large Language Models",
