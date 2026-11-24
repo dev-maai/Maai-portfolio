@@ -27,6 +27,495 @@ export const AUTHORS = {
    To preview drafts locally, run the dev server with INSIGHTS_PREVIEW_DRAFTS=1. */
 const ALL_POSTS = [
   {
+    "slug": "real-estate-seo-keywords",
+    "seoTitle": "Real Estate SEO Keywords 2027: Keyword List for Agents",
+    "title": "Real Estate SEO Keywords in 2027: Keyword List for Agents, Realtors and Property Managers",
+    "description": "A copy-ready list of real estate SEO keywords for 2027: buyer, seller, realtor, investor and property management terms with US search volumes.",
+    "date": "2026-11-24",
+    "author": "team",
+    "topics": [
+      "SEO - Begins"
+    ],
+    "industries": [
+      "Real estate"
+    ],
+    "image": "/insights/real-estate-seo-keywords-banner.jpg",
+    "intro": "If you want more enquiries from search, you need the right words on the right pages. This is a working list of real estate SEO keywords for agents, realtors, investors and property managers, grouped by who is searching. The head terms such as \"real estate keywords\" are searched a few hundred times a month in the US, and the real volume sits in local long-tail searches like \"homes for sale in [city]\" and \"sell my house [city]\". Swap the brackets for your own market and check the volumes before you build a page.",
+    "tldr": [
+      "The best real estate SEO keywords pair a place with a buyer, seller, investor or landlord need, such as \"homes for sale in [city]\" or \"property management [city]\".",
+      "In the US, \"real estate keywords\" gets about 720 searches a month, \"best real estate keywords\" 590, \"real estate seo keywords\" 480 and \"keywords for real estate investors\" 390 (Semrush, November 2026).",
+      "Seller terms such as \"sell my house [city]\" and \"what is my home worth\" are among the highest-value searches for agents.",
+      "Property management keywords should target property owners, not renters looking for housing or a portal login.",
+      "Question keywords such as \"how much is my house worth in [city]\" feed both Google's People Also Ask and AI answers."
+    ],
+    "body": [
+      {
+        "type": "h2",
+        "text": "What are the best real estate SEO keywords in 2027?"
+      },
+      {
+        "type": "p",
+        "text": "The best real estate SEO keywords pair a place with a buyer, seller, investor or landlord need, for example \"homes for sale in [city]\" or \"property management [city]\". Google's own AI Overview for \"real estate seo keywords\" gives the same advice: pair location terms with buyer, seller, investor or lifestyle intent, because long-tail, hyperlocal phrases face less competition from the big property portals than broad terms."
+      },
+      {
+        "type": "image",
+        "src": "/insights/real-estate-seo-keywords-google-ai-overview.jpg",
+        "alt": "Google UK AI Overview for the search real estate seo keywords, saying effective real estate SEO keywords pair location terms with buyer, seller, investor or lifestyle intent, with a list of high-intent buyer keywords and source cards on the right",
+        "caption": "The Google UK AI Overview for \"real estate seo keywords\", 24 November 2026."
+      },
+      {
+        "type": "p",
+        "text": "This page is a keyword list. Copy the patterns, swap in your own city, neighbourhood and property type, and check the volume for your market before you build a page around any of them. We start with the head terms and their monthly searches."
+      },
+      {
+        "type": "stats",
+        "title": "Monthly US searches for the main real estate keywords",
+        "items": [
+          {
+            "value": "720",
+            "label": "real estate keywords"
+          },
+          {
+            "value": "590",
+            "label": "best real estate keywords"
+          },
+          {
+            "value": "480",
+            "label": "real estate seo keywords"
+          },
+          {
+            "value": "390",
+            "label": "keywords for real estate investors"
+          }
+        ],
+        "source": {
+          "label": "Semrush",
+          "note": "US monthly search volume, checked by MAAI in November 2026. Property management keywords: 390 a month. The group of related terms adds up to 9,390 searches a month."
+        }
+      },
+      {
+        "type": "p",
+        "text": "In plain English: the head terms are searched a few hundred times a month each, so they are not where most leads come from. The volume sits in the long-tail versions below, where a city, a neighbourhood or a clear need turns a vague search into a person ready to act."
+      },
+      {
+        "type": "table",
+        "head": [
+          "Head keyword",
+          "Who searches it",
+          "Best used for"
+        ],
+        "rows": [
+          [
+            "real estate keywords",
+            "Agents and marketers building a keyword list",
+            "A starting list"
+          ],
+          [
+            "best real estate keywords",
+            "Agents comparing which terms to target",
+            "Choosing priorities"
+          ],
+          [
+            "real estate seo keywords",
+            "Agents and agencies planning organic search",
+            "Content planning"
+          ],
+          [
+            "property management keywords",
+            "Property managers and the agencies serving them",
+            "Landlord-focused pages"
+          ],
+          [
+            "keywords for real estate investors",
+            "Investor-focused agents and brokers",
+            "Investor pages and guides"
+          ]
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Which real estate keywords attract home buyers?"
+      },
+      {
+        "type": "p",
+        "text": "Home buyer keywords combine a property type or listing phrase with a place. They are the biggest group because every sale starts with a buyer search, and they are easiest to turn into location pages. Use the patterns below with your own city and neighbourhoods."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "lead": "Homes for sale in [city].",
+            "text": "The core buyer search. Add [neighbourhood] and [postcode or zip code] versions."
+          },
+          {
+            "lead": "[City] real estate listings.",
+            "text": "A listings-intent term that suits a search page or a market page."
+          },
+          {
+            "lead": "Houses for sale in [neighbourhood].",
+            "text": "A hyperlocal version with less competition than the city term."
+          },
+          {
+            "lead": "Condos, townhomes or single-family homes for sale in [neighbourhood].",
+            "text": "Property type terms show what the buyer wants."
+          },
+          {
+            "lead": "New construction homes in [city].",
+            "text": "Suits developers and agents who sell new builds."
+          },
+          {
+            "lead": "Homes for sale near [school, station or landmark].",
+            "text": "Lifestyle searches that name something nearby."
+          },
+          {
+            "lead": "Buyer's agent in [city].",
+            "text": "A buyer looking for representation, not a listing."
+          },
+          {
+            "lead": "First-time home buyer [city].",
+            "text": "Early-stage buyers who need guidance."
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "src": "/insights/real-estate-seo-keywords-people-also-ask.jpg",
+        "alt": "Google UK search results for real estate seo keywords showing a People Also Ask box with the questions how to do SEO for real estate, what are good SEO keywords, what are the 5 P's of real estate and who is the big 4 in real estate",
+        "caption": "The People Also Ask questions under \"real estate seo keywords\" on Google UK, 24 November 2026."
+      },
+      {
+        "type": "h2",
+        "text": "Which real estate keywords attract home sellers?"
+      },
+      {
+        "type": "p",
+        "text": "Home seller keywords ask for an agent, a valuation or a quick sale, and they are among the most valuable terms in the industry because one seller can mean one commission. A ChatGPT answer to \"best SEO keywords for real estate agents\" put these seller and agent terms in its top four priorities."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "lead": "Sell my house [city].",
+            "text": "A direct seller lead search."
+          },
+          {
+            "lead": "What is my home worth in [city].",
+            "text": "A valuation search, often the first step of a sale."
+          },
+          {
+            "lead": "Free home valuation [city].",
+            "text": "Suits a valuation tool or form page."
+          },
+          {
+            "lead": "Listing agent in [city].",
+            "text": "A seller choosing who will list the home."
+          },
+          {
+            "lead": "Best real estate agent to sell a house in [city].",
+            "text": "A comparison search where reviews and proof matter."
+          },
+          {
+            "lead": "How much does it cost to sell a house in [city].",
+            "text": "A cost question that sellers ask early."
+          },
+          {
+            "lead": "Sell my house fast [city].",
+            "text": "Urgent sellers, often for cash buyers."
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "src": "/insights/real-estate-seo-keywords-chatgpt-answer.jpg",
+        "alt": "ChatGPT answer to the question what are the best keywords for real estate agents to target in SEO, showing a table that ranks real estate agent plus city, realtor plus location, sell my house plus location and home valuation plus location as the top keyword patterns",
+        "caption": "ChatGPT's answer to \"what are the best keywords for real estate agents to target in SEO\", 24 November 2026. It ranks agent and seller terms with a place first."
+      },
+      {
+        "type": "h2",
+        "text": "What are the best local real estate keywords for agents and realtors?"
+      },
+      {
+        "type": "p",
+        "text": "The best local real estate keywords put \"real estate agent\", \"realtor\" or \"estate agent\" next to a town, city or neighbourhood. ChatGPT's answer ranked \"real estate agent + city\" first, then \"realtor + location\", then seller terms, because they show a person choosing who to hire. Use the spelling your market uses: \"realtor\" in the US and Canada, \"estate agent\" in the UK."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "lead": "Real estate agent in [city].",
+            "text": "The standard hire-an-agent term."
+          },
+          {
+            "lead": "Best realtor in [city].",
+            "text": "A choosing-an-agent search."
+          },
+          {
+            "lead": "Estate agents in [town].",
+            "text": "The UK version of the same search."
+          },
+          {
+            "lead": "Realtor in [neighbourhood].",
+            "text": "A hyperlocal search, such as \"realtor in South Austin\"."
+          },
+          {
+            "lead": "Real estate agent near me.",
+            "text": "A map-pack search where your Google Business Profile matters."
+          },
+          {
+            "lead": "[City] real estate market.",
+            "text": "Researchers checking prices before they act."
+          },
+          {
+            "lead": "[City] real estate agents for first-time buyers.",
+            "text": "A niche that is easier to rank for."
+          },
+          {
+            "lead": "Luxury homes for sale in [city].",
+            "text": "A premium segment with its own searchers."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "For the reasons behind these terms and how an agency builds pages for them, read our guide to [SEO for estate agents](/insights/seo-for-estate-agents). This post stays with the list itself."
+      },
+      {
+        "type": "h2",
+        "text": "What are the best keywords for real estate investors?"
+      },
+      {
+        "type": "p",
+        "text": "Investor keywords describe a return, a strategy or a property type, not a lifestyle. The searcher wants numbers: yield, rent, cash flow and market. \"Keywords for real estate investors\" is searched about 390 times a month in the US, and the related terms below sit around it."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "lead": "Investment properties for sale in [city].",
+            "text": "Investors browsing listings."
+          },
+          {
+            "lead": "Rental property investment [city].",
+            "text": "Buy-to-let and rental searches."
+          },
+          {
+            "lead": "Best cities to invest in real estate.",
+            "text": "A broad research search."
+          },
+          {
+            "lead": "Cash flow properties [city].",
+            "text": "Investors who care about monthly return."
+          },
+          {
+            "lead": "Multifamily properties for sale in [city].",
+            "text": "A property type search."
+          },
+          {
+            "lead": "Real estate investing for beginners.",
+            "text": "An early-stage informational search."
+          },
+          {
+            "lead": "Fix and flip properties [city].",
+            "text": "Renovation investors."
+          },
+          {
+            "lead": "Commercial real estate investment [city].",
+            "text": "Larger investors and developers."
+          }
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "What are the best property management keywords?"
+      },
+      {
+        "type": "p",
+        "text": "The best property management keywords target property owners, not renters. Google's AI Overview for \"property management keywords\" says exactly that: aim at owners who want a manager, not tenants looking for housing or a portal login. Group the terms by intent and give each group its own page."
+      },
+      {
+        "type": "image",
+        "src": "/insights/real-estate-seo-keywords-property-management-ai-overview.jpg",
+        "alt": "Google UK AI Overview for the search property management keywords, saying effective keywords target property owners rather than renters, with local service keyword examples such as property management in a city and rental property management in a city",
+        "caption": "The Google UK AI Overview for \"property management keywords\", 24 November 2026."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "lead": "Property management [city].",
+            "text": "The core local service term."
+          },
+          {
+            "lead": "Property managers in [city, state or region].",
+            "text": "A variation that names the region."
+          },
+          {
+            "lead": "Rental property management [city].",
+            "text": "Landlords with a rental."
+          },
+          {
+            "lead": "Residential property management [city].",
+            "text": "Homes and flats, not offices."
+          },
+          {
+            "lead": "Commercial property management [city].",
+            "text": "Offices, retail and industrial."
+          },
+          {
+            "lead": "Property management fees [city].",
+            "text": "A cost search from owners comparing managers."
+          },
+          {
+            "lead": "Vacation rental management [city].",
+            "text": "Short-let owners."
+          },
+          {
+            "lead": "HOA management companies [city].",
+            "text": "Associations looking for a manager."
+          },
+          {
+            "lead": "Best property management companies in [city].",
+            "text": "A comparison search, where reviews matter."
+          }
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Which real estate keywords do people ask AI tools and Google?"
+      },
+      {
+        "type": "p",
+        "text": "People now ask real estate questions in full sentences, in Google, AI Overviews and AI assistants. These question keywords are worth listing separately because each one is a fan-out question an AI answer may pull from. Google's People Also Ask for \"real estate seo keywords\" asks \"How to do SEO for real estate?\" and \"What are good SEO keywords?\"."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "lead": "How much is my house worth in [city]?",
+            "text": "A seller question."
+          },
+          {
+            "lead": "How do I choose a real estate agent?",
+            "text": "A buyer and seller question."
+          },
+          {
+            "lead": "What are the best neighbourhoods to live in in [city]?",
+            "text": "A lifestyle question buyers ask early."
+          },
+          {
+            "lead": "How much do real estate agents charge?",
+            "text": "A fee question."
+          },
+          {
+            "lead": "Is now a good time to buy a house in [city]?",
+            "text": "A timing question."
+          },
+          {
+            "lead": "What does a property manager do?",
+            "text": "An owner research question."
+          },
+          {
+            "lead": "How do I find a good property manager?",
+            "text": "A choosing question for owners."
+          },
+          {
+            "lead": "What is a good rental yield in [city]?",
+            "text": "An investor question."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Search Console shows which of these questions you already appear for, and our guide to [B2B keyword research](/insights/b2b-keyword-research) explains how to find and group question terms with free tools."
+      },
+      {
+        "type": "h2",
+        "text": "How do you pick real estate keywords from this list?"
+      },
+      {
+        "type": "p",
+        "text": "Pick the keywords whose searchers match what you sell, then check their volume and difficulty in your own market. A keyword with 90 searches a month from sellers can be worth more than one with 900 from browsers. Use the table to match a keyword group to the page it suits."
+      },
+      {
+        "type": "table",
+        "head": [
+          "Keyword group",
+          "Searcher",
+          "Page it suits"
+        ],
+        "rows": [
+          [
+            "Homes for sale in [place]",
+            "Home buyer",
+            "Area or listings page"
+          ],
+          [
+            "Sell my house, home valuation",
+            "Home seller",
+            "Valuation or seller page"
+          ],
+          [
+            "Realtor or estate agent in [place]",
+            "Someone choosing an agent",
+            "Local agent page"
+          ],
+          [
+            "Investment properties, yield, cash flow",
+            "Investor",
+            "Investor guide"
+          ],
+          [
+            "Property management [city]",
+            "Landlord",
+            "Service page"
+          ],
+          [
+            "How much, how do I, is now a good time",
+            "Researcher",
+            "Guide or FAQ"
+          ]
+        ]
+      },
+      {
+        "type": "checklist",
+        "title": "Before you use any keyword from this list",
+        "items": [
+          "**Replace the brackets.** Put your real city, neighbourhood or property type in every pattern.",
+          "**Match the spelling.** Use \"realtor\" or \"estate agent\" the way your market does.",
+          "**Check the volume.** Look up each term in Google Keyword Planner or Search Console for your location.",
+          "**Check what ranks.** Search the keyword and see if the results are listings, guides or agents.",
+          "**One keyword group per page.** Do not mix buyer, seller and landlord terms on one page."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "What are the best real estate SEO keywords?",
+        "a": "The best real estate SEO keywords pair a place with a buyer, seller, investor or landlord need, such as \"homes for sale in [city]\", \"sell my house [city]\", \"real estate agent in [city]\" and \"property management [city]\". Local, long-tail terms face less competition than broad terms like \"real estate\"."
+      },
+      {
+        "q": "How many people search for real estate keywords?",
+        "a": "In the US, \"real estate keywords\" is searched about 720 times a month, \"best real estate keywords\" about 590, \"real estate seo keywords\" about 480 and \"keywords for real estate investors\" about 390, based on Semrush data checked in November 2026. Most of the volume sits in long-tail local searches."
+      },
+      {
+        "q": "What are good keywords for a realtor website?",
+        "a": "Use \"realtor in [city]\", \"best realtor in [city]\", \"realtor in [neighbourhood]\", \"homes for sale in [neighbourhood]\" and valuation terms such as \"what is my home worth in [city]\". Add a page for each area you serve."
+      },
+      {
+        "q": "What are good property management keywords?",
+        "a": "Target property owners with terms such as \"property management [city]\", \"rental property management [city]\", \"residential property management [city]\" and \"property management fees [city]\". Avoid terms that attract tenants looking for a portal login."
+      },
+      {
+        "q": "Which keywords do real estate investors search?",
+        "a": "Investors search for \"investment properties for sale in [city]\", \"rental property investment [city]\", \"cash flow properties [city]\", \"multifamily properties for sale in [city]\" and \"best cities to invest in real estate\"."
+      },
+      {
+        "q": "How do I find real estate keywords for my area?",
+        "a": "Take the patterns in this list, add your city and neighbourhoods, and check each one in Google Keyword Planner, Search Console and Google's autocomplete and People Also Ask. Keep the ones with real searches and a clear buyer, seller, investor or landlord intent."
+      }
+    ]
+  },
+  {
     "slug": "ai-mode-rank-trackers",
     "seoTitle": "AI Mode Rank Trackers 2027: Best Tools Compared",
     "title": "Best AI Mode Rank Trackers in 2027: Tools to Track Rankings in Google AI Mode",
