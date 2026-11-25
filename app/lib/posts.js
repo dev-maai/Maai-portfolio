@@ -27,6 +27,377 @@ export const AUTHORS = {
    To preview drafts locally, run the dev server with INSIGHTS_PREVIEW_DRAFTS=1. */
 const ALL_POSTS = [
   {
+    "slug": "best-seo-company-for-real-estate",
+    "seoTitle": "Best SEO Company for Real Estate: 8 Agencies in 2027",
+    "title": "Best Real Estate SEO Companies in 2027 (SEO + AEO)",
+    "description": "Compare eight SEO companies for real estate in 2027, from estate agent specialists to AI search agencies, with who each suits and what to ask before you hire.",
+    "date": "2026-11-25",
+    "author": "team",
+    "topics": [
+      "SEO - Begins"
+    ],
+    "industries": [
+      "Real estate"
+    ],
+    "image": "/insights/best-seo-company-for-real-estate-banner.jpg",
+    "intro": "Search for the best SEO company for real estate and you will find lists written by the agencies on them, plus Google's own AI Overview, which says there is no single best choice. The right agency depends on whether you run one estate agency, a chain of branches or a commercial property brand, and on how much of your work now starts in ChatGPT and Google AI answers. This guide compares eight real estate SEO companies using what they publish on their own websites, shows who each one suits and gives you the questions to ask before you sign.",
+    "tldr": [
+      "There is no single best SEO company for real estate. The right fit depends on your size, your market and whether you need valuations, landlord leads or listings traffic.",
+      "The eight agencies compared here are Appear Online, Art Division, ClickSlice, Homeflow, MAAI Agency, Onely, Reboot Online and Roar Digital, listed alphabetically.",
+      "\"Real estate seo services\" gets about 1,300 US searches a month, \"real estate seo agency\" 590 and \"best seo company for real estate\" 480 (Semrush, November 2026).",
+      "Ask every agency for dated property results, how it handles expired listings and local pages, and how it tracks AI answers.",
+      "Match the agency to your size: property specialists, boutique search teams and enterprise agencies solve different problems."
+    ],
+    "body": [
+      {
+        "type": "h2",
+        "text": "What is the best SEO company for real estate in 2027?"
+      },
+      {
+        "type": "p",
+        "text": "There is no single best SEO company for real estate, and Google's own AI Overview says the same. The right agency depends on your business size, your market and your goal, whether that is more valuation requests, more landlord enquiries or more enquiries for a development. Google's overview lists property specialists such as Art Division and Roar Digital, and advises you to look for real estate proof, match the scope to your size and ask how an agency handles thin location pages."
+      },
+      {
+        "type": "image",
+        "src": "/insights/best-seo-company-for-real-estate-google-ai-overview.jpg",
+        "alt": "Google UK AI Overview for the search best seo company for real estate, saying there is no single best SEO company and listing notable real estate and property SEO agencies with advice on how to choose one",
+        "caption": "The Google UK AI Overview for \"best seo company for real estate\", 25 November 2026."
+      },
+      {
+        "type": "stats",
+        "title": "How people search for a real estate SEO supplier",
+        "items": [
+          {
+            "value": "1,300",
+            "label": "US searches a month for \"real estate seo services\""
+          },
+          {
+            "value": "590",
+            "label": "US searches a month for \"real estate seo agency\""
+          },
+          {
+            "value": "480",
+            "label": "US searches a month for \"best seo company for real estate\""
+          }
+        ],
+        "source": {
+          "label": "Semrush",
+          "note": "US monthly search volume, November 2026"
+        }
+      },
+      {
+        "type": "p",
+        "text": "In plain English: most buyers of this service start with the word \"services\" or \"agency\" and only some add \"best\". Use all three phrases when you shortlist, and read each agency's own site, not only list articles. If you run a residential agency, our guide to [SEO for estate agents](/insights/seo-for-estate-agents) explains the work itself, and our [real estate SEO keyword list](/insights/real-estate-seo-keywords) shows the searches an agency should target for you."
+      },
+      {
+        "type": "h2",
+        "text": "Which are the best real estate SEO companies in 2027?"
+      },
+      {
+        "type": "p",
+        "text": "The best real estate SEO companies combine property experience, local search skill and a clear plan for AI answers. We read each agency's own website on 25 November 2026 and describe only what it publishes. Most do not publish prices, so ask for a quote. They are listed alphabetically."
+      },
+      {
+        "type": "table",
+        "head": [
+          "Agency",
+          "Based in",
+          "Where it is strongest",
+          "Best suited to"
+        ],
+        "rows": [
+          [
+            "Appear Online",
+            "UK",
+            "SEO, link building and generative engine optimisation, with an estate agency client",
+            "Independent agents wanting a search specialist"
+          ],
+          [
+            "Art Division",
+            "UK, since 2001",
+            "Websites and digital marketing built only for property professionals",
+            "Estate and letting agents wanting leads and valuations"
+          ],
+          [
+            "ClickSlice",
+            "London",
+            "Boutique team blending traditional SEO with AI search",
+            "London agents wanting a small senior team"
+          ],
+          [
+            "Homeflow",
+            "UK",
+            "Estate agent websites with SEO services for any website",
+            "Agencies that want website and SEO from one supplier"
+          ],
+          [
+            "MAAI Agency",
+            "SEO, AEO and GEO specialist",
+            "Local SEO for multi-location businesses, premium backlinks and digital PR",
+            "Multi-location, commercial and property-adjacent brands"
+          ],
+          [
+            "Onely",
+            "Technical SEO specialist",
+            "Technical and AI search work, with its own real estate research",
+            "Portals, brokerages and PropTech"
+          ],
+          [
+            "Reboot Online",
+            "UK",
+            "Search strategy, GEO, earned media and data-led PR",
+            "Larger property brands wanting PR-led authority"
+          ],
+          [
+            "Roar Digital",
+            "London",
+            "SEO, PPC and a dedicated GEO service for enterprise",
+            "Large and multi-branch property businesses"
+          ]
+        ]
+      },
+      {
+        "type": "image",
+        "src": "/insights/best-seo-company-for-real-estate-people-also-ask.jpg",
+        "alt": "Google UK search results for best seo company for real estate showing the People Also Ask questions how to do SEO for real estate, who are the best SEO companies, what are the top 5 real estate companies and what is the best marketing platform for real estate",
+        "caption": "The People Also Ask questions under \"best seo company for real estate\" on Google UK, 25 November 2026."
+      },
+      {
+        "type": "h3",
+        "text": "Is Appear Online a good SEO company for estate agents?"
+      },
+      {
+        "type": "p",
+        "text": "Appear Online suits independent agents who want a search specialist that covers both Google and AI tools. It offers SEO, link building, paid search and what it calls AIO, or LLM optimisation, to improve visibility in ChatGPT, Gemini and Perplexity. Its client list includes No.86 Estate Agency, an independent agent serving Swansea, Llanelli and the surrounding areas."
+      },
+      {
+        "type": "h3",
+        "text": "Is Art Division a good SEO company for estate and letting agents?"
+      },
+      {
+        "type": "p",
+        "text": "Art Division is a strong fit if you want a supplier that works only with property businesses. It has been established since 2001, describes itself as multi-award winning and runs digital marketing and website design for estate and letting agents. Its homepage reports more than one million website enquiries generated and more than one million valuation requests booked, and it works with homeowners, landlords and overseas investors as audiences."
+      },
+      {
+        "type": "h3",
+        "text": "Is ClickSlice a good SEO agency for London property firms?"
+      },
+      {
+        "type": "p",
+        "text": "ClickSlice suits London businesses that prefer a boutique team. It describes itself as a boutique agency that blends proven SEO with AI search work and runs separate traditional search and AI search services. It also publishes case studies and a podcast, which gives you something to read before a call."
+      },
+      {
+        "type": "h3",
+        "text": "Is Homeflow a good SEO supplier for estate agents?"
+      },
+      {
+        "type": "p",
+        "text": "Homeflow suits agencies that want their website and SEO from one supplier. It builds estate agent websites and also offers SEO services built on Google best practice, whether or not you use a Homeflow site. Its service covers keyword research for each market, local SEO for buyers, sellers, landlords and tenants, content strategy and monthly reporting, and it now talks about AI as part of the website audience."
+      },
+      {
+        "type": "h3",
+        "text": "Is MAAI Agency a good SEO company for real estate and property brands?"
+      },
+      {
+        "type": "p",
+        "text": "MAAI Agency suits property brands with several locations or a national footprint that need local visibility in Google and AI answers. MAAI's founder brings eight years of marketing experience, and every resource and growth lever is tied to data, from the pages written to the AI answers tracked. The team runs local SEO for businesses with many locations and builds authority with premium backlinks, editorial links and digital PR."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "lead": "Pickfords.",
+            "text": "Organic content clicks up 39%, held and grown through the 2026 Google core updates."
+          },
+          {
+            "lead": "Logistics company.",
+            "text": "Organic clicks up 53% from SEO, AEO and GEO work combined."
+          },
+          {
+            "lead": "Supply chain and B2B company.",
+            "text": "Organic traffic up 81%, with all qualified leads coming through country blogs."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "For how this approach applies to property, see our guide on [commercial real estate marketing](/insights/commercial-real-estate-marketing) and our [local SEO checklist](/insights/local-seo-checklist)."
+      },
+      {
+        "type": "h3",
+        "text": "Is Onely a good SEO company for real estate portals and brokerages?"
+      },
+      {
+        "type": "p",
+        "text": "Onely suits portals, large brokerages and PropTech companies with heavy technical needs. It positions itself around helping products get mentioned in AI answers and publishes its own research on real estate SEO agencies. A site with thousands of listings, expired pages and filtered search results is exactly where technical skill matters."
+      },
+      {
+        "type": "h3",
+        "text": "Is Reboot Online a good SEO company for property brands?"
+      },
+      {
+        "type": "p",
+        "text": "Reboot Online suits larger property brands that want authority built through PR. It describes itself as an award-winning search marketing agency and its services cover search strategy (technical SEO, GEO, content and digital PR planning), earned media, data pages and training. It also publishes a page comparing real estate SEO agencies."
+      },
+      {
+        "type": "h3",
+        "text": "Is Roar Digital a good SEO company for large estate agencies?"
+      },
+      {
+        "type": "p",
+        "text": "Roar Digital suits enterprise and multi-branch businesses that want search and AI work together. It is a London digital marketing agency that says it was one of the first in the UK to offer generative engine optimisation as a dedicated service, alongside SEO and paid media. Our guide to [generative engine optimisation agencies](/insights/generative-engine-optimization-agency) compares more agencies that work on AI search."
+      },
+      {
+        "type": "h2",
+        "text": "How do you choose the best SEO company for real estate?"
+      },
+      {
+        "type": "p",
+        "text": "Choose the company that can show property results, explains local search clearly and has a plan for AI answers. Google's AI Overview gives similar advice: check real estate proof, match the scope to your size and ask how the agency handles expired listings, duplicate property pages and location landing pages."
+      },
+      {
+        "type": "checklist",
+        "title": "What a good real estate SEO company should offer",
+        "items": [
+          "**Property proof.** Case studies from sales, lettings, valuations or development, with dates and numbers.",
+          "**Local SEO.** Google Business Profile work, branch pages and area guides, as in our [local SEO checklist](/insights/local-seo-checklist).",
+          "**Listing control.** A plan for sold, expired and duplicate property pages.",
+          "**AI visibility.** Tracking how ChatGPT, Gemini and Google AI Overviews describe you, with content built to be quoted.",
+          "**Authority building.** Digital PR and editorial links, not only on-page changes.",
+          "**Reporting.** Valuation requests and enquiries from GA4, not only rankings."
+        ]
+      },
+      {
+        "type": "image",
+        "src": "/insights/best-seo-company-for-real-estate-chatgpt-answer.jpg",
+        "alt": "ChatGPT answer to the question what are the best SEO companies for real estate agents, starting with InboundREM and showing its specialisms, pricing note and sources",
+        "caption": "A ChatGPT answer to \"What are the best SEO companies for real estate agents?\", 25 November 2026."
+      },
+      {
+        "type": "p",
+        "text": "ChatGPT gives a different shortlist, mostly US firms that work with individual agents, which shows why you should compare several sources. Each assistant draws on different pages, so a name that appears in one answer may not appear in another."
+      },
+      {
+        "type": "h2",
+        "text": "What questions should you ask a real estate SEO agency?"
+      },
+      {
+        "type": "p",
+        "text": "Ask questions that need a specific answer. A vague reply on measurement or local work is the clearest warning sign."
+      },
+      {
+        "type": "steps",
+        "title": "Seven questions to ask before you sign",
+        "items": [
+          {
+            "title": "Which property clients can you show, and what changed?",
+            "text": "Look for a start date, a starting figure and a result in a market like yours."
+          },
+          {
+            "title": "How will you rank us in the map pack and area searches?",
+            "text": "Strong answers cover Google Business Profile, reviews and one page per area."
+          },
+          {
+            "title": "How do you handle expired and sold listings?",
+            "text": "Ask about redirects, duplicate pages and thin location pages."
+          },
+          {
+            "title": "How do you track AI answers?",
+            "text": "Our guide to [AI search monitoring tools](/insights/best-ai-search-monitoring-tools) shows what good tracking looks like."
+          },
+          {
+            "title": "What do you do off our website?",
+            "text": "Look for digital PR, local links and partnerships."
+          },
+          {
+            "title": "How do you report on valuation requests?",
+            "text": "They should set up GA4 key events and connect them to your CRM."
+          },
+          {
+            "title": "What happens if nothing moves in three months?",
+            "text": "A reasonable agency explains timelines. Our guide on [how long SEO takes](/insights/how-long-does-seo-take) gives realistic ranges."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "For questions that apply to any SEO supplier, read our guide on [how to choose an SEO company](/insights/how-to-find-a-good-seo-company), and for budgets see [how much SEO costs in the UK](/insights/seo-pricing-uk)."
+      },
+      {
+        "type": "h2",
+        "text": "What is the difference between real estate SEO services and a real estate SEO agency?"
+      },
+      {
+        "type": "p",
+        "text": "There is little difference in the work. Real estate SEO services describe what you buy and a real estate SEO agency describes who delivers it. Google Trends shows that in the US over the past 12 months \"real estate seo services\" was searched far more than \"real estate seo agency\" or \"best seo company for real estate\", so use all three when you search."
+      },
+      {
+        "type": "image",
+        "src": "/insights/best-seo-company-for-real-estate-google-trends.jpg",
+        "alt": "Google Trends interest over time for the United States over 12 months comparing real estate seo services, real estate seo agency and best seo company for real estate, with real estate seo services highest on average",
+        "caption": "Google Trends, United States, past 12 months to 25 November 2026."
+      },
+      {
+        "type": "h2",
+        "text": "Which agency suits which type of property business?"
+      },
+      {
+        "type": "compare",
+        "title": "Matching the agency to the need",
+        "columns": [
+          {
+            "title": "Estate and letting agents",
+            "tone": "good",
+            "items": [
+              "Art Division and Homeflow focus on estate agent websites and marketing",
+              "Appear Online and ClickSlice suit agents wanting a search specialist",
+              "Check that each local branch gets its own page and profile"
+            ]
+          },
+          {
+            "title": "Larger and national property brands",
+            "tone": "good",
+            "items": [
+              "Onely, Reboot Online and Roar Digital suit portals, large brokerages and enterprise teams",
+              "MAAI Agency suits multi-location and commercial brands needing local SEO plus PR-led authority",
+              "Check that AI visibility has its own reporting"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "If you sell to other businesses in property, such as developers or landlords, our [B2B SEO strategy guide](/insights/seo-for-b2b-companies) shows what the buyer journey looks like."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is the best SEO company for real estate?",
+        "a": "It depends on your size and market. Art Division and Homeflow focus on estate agents, Appear Online and ClickSlice suit agents wanting a search specialist, and Onely, Reboot Online, Roar Digital and MAAI Agency suit larger or multi-location property brands. Ask each for dated property results."
+      },
+      {
+        "q": "What do real estate SEO services include?",
+        "a": "Typically keyword research, local SEO, Google Business Profile work, area and branch pages, content, link building and reporting. Better services also cover listing pages and AI answer visibility."
+      },
+      {
+        "q": "How much do real estate SEO services cost?",
+        "a": "Most agencies on this list do not publish prices, so request a written quote and ask what is included each month. Compare scope and reporting, not only the monthly fee."
+      },
+      {
+        "q": "How long does real estate SEO take to work?",
+        "a": "Most businesses see early movement within a few months and stronger results over six months or more, depending on competition and starting authority."
+      },
+      {
+        "q": "Do estate agents still need SEO with Rightmove and Zoopla?",
+        "a": "Yes. Portals bring buyers, but your own site wins valuation and landlord enquiries, and local search is where sellers and landlords look for an agent."
+      },
+      {
+        "q": "Can a real estate SEO company help with AI search?",
+        "a": "Yes. Several agencies here offer generative engine optimisation or AI search services. Ask how they measure mentions in ChatGPT, Gemini and Google AI Overviews."
+      }
+    ]
+  },
+  {
     "slug": "generative-engine-optimization-agency",
     "seoTitle": "Generative Engine Optimization Agency: 8 Best in 2027",
     "title": "Best GEO and LLM Optimisation Agencies in 2027 (AEO + SEO)",
