@@ -27,6 +27,389 @@ export const AUTHORS = {
    To preview drafts locally, run the dev server with INSIGHTS_PREVIEW_DRAFTS=1. */
 const ALL_POSTS = [
   {
+    "slug": "generative-engine-optimization-agency",
+    "seoTitle": "Generative Engine Optimization Agency: 8 Best in 2027",
+    "title": "Best GEO and LLM Optimisation Agencies in 2027 (AEO + SEO)",
+    "description": "Compare eight generative engine optimization agencies for 2027, from London to the US, with what each offers, who it suits and questions to ask before you hire.",
+    "date": "2026-11-25",
+    "author": "team",
+    "topics": [
+      "AEO/GEO"
+    ],
+    "industries": [],
+    "image": "/insights/generative-engine-optimization-agency-banner.jpg",
+    "intro": "Ask ChatGPT, Gemini or Google AI Mode for a supplier and you get a short list of names, not ten blue links. A generative engine optimization agency exists to make sure your brand is one of those names. The category is new, the labels vary (GEO, AEO, LLM optimisation, AI SEO) and many agencies have added the words to their homepage in the last year. This guide compares eight agencies that publish real services on their own websites, shows who each one suits and gives you the questions to ask before you sign.",
+    "tldr": [
+      "A generative engine optimization (GEO) agency helps your brand get cited, recommended and described correctly in AI answers from ChatGPT, Gemini, Perplexity, Google AI Overviews and AI Mode.",
+      "GEO agency, LLM optimisation agency, AEO agency and AI SEO agency describe overlapping work. Judge the services on offer, not the label.",
+      "The eight agencies compared here are First Page Sage, Found, IDHL, MAAI Agency, NoGood, Omniscient Digital, Passion Digital and Push Group, listed alphabetically.",
+      "Ask every agency how it measures AI citations, whether it builds mentions on other websites and whether it can show dated results, because GEO is still an emerging service.",
+      "Match the agency to your size and market: a London full-service agency, a US B2B specialist and a niche search agency solve different problems."
+    ],
+    "body": [
+      {
+        "type": "h2",
+        "text": "What does a generative engine optimization agency do?"
+      },
+      {
+        "type": "callout",
+        "variant": "definition",
+        "title": "Definition",
+        "text": "A generative engine optimization agency helps a brand earn citations, recommendations and accurate descriptions inside AI answer engines such as ChatGPT, Perplexity, Gemini and Google's AI Overviews. It combines content, technical SEO, digital PR and tracking so that AI tools retrieve, trust and quote your pages."
+      },
+      {
+        "type": "p",
+        "text": "Google's own AI Overview for the search \"generative engine optimization agency\" gives the same picture. It says these agencies test how AI tools currently describe, rank or leave out your brand, then structure clear question-led content and build trusted mentions so models can quote you. Traditional SEO still sits underneath, because AI answers draw on pages that already rank. Our guide to [what GEO is](/insights/what-is-geo) explains the mechanics in plain English."
+      },
+      {
+        "type": "image",
+        "src": "/insights/generative-engine-optimization-agency-google-ai-overview.jpg",
+        "alt": "Google UK AI Overview for the search generative engine optimization agency, describing a GEO agency as one that helps brands get cited, recommended and accurately represented in AI-generated answers, with a list of what GEO agencies typically do",
+        "caption": "The Google UK AI Overview for \"generative engine optimization agency\", 25 November 2026."
+      },
+      {
+        "type": "stats",
+        "title": "Why brands now hire for AI search",
+        "items": [
+          {
+            "value": "Up to 40%",
+            "label": "visibility boost in generative engine answers from GEO methods in the original research"
+          },
+          {
+            "value": "0.664",
+            "label": "correlation between branded web mentions and brand appearance in Google AI Overviews (Ahrefs)"
+          },
+          {
+            "value": "76%",
+            "label": "of 1.9 million AI Overview citations came from pages in the top 10 (Ahrefs)"
+          }
+        ],
+        "source": {
+          "label": "Princeton University researchers and Ahrefs",
+          "href": "https://arxiv.org/abs/2311.09735",
+          "note": "GEO paper (KDD 2024) and Ahrefs AI Overview studies"
+        }
+      },
+      {
+        "type": "p",
+        "text": "In plain English: the original [GEO research](https://arxiv.org/abs/2311.09735) found that specific content changes can lift how often a source appears in AI answers, and Ahrefs found that mentions across the web and strong normal rankings both matter. A good agency works on all three: your pages, your mentions and your rankings."
+      },
+      {
+        "type": "h2",
+        "text": "What are the best generative engine optimization agencies in 2027?"
+      },
+      {
+        "type": "p",
+        "text": "The best generative engine optimization agency depends on your market, budget and the size of your team. We read each agency's own website on 25 November 2026 and describe only what it publishes. Pricing is not published by most of them, so ask for a quote. They are listed alphabetically."
+      },
+      {
+        "type": "table",
+        "head": [
+          "Agency",
+          "Based in",
+          "Where it is strongest",
+          "Best suited to"
+        ],
+        "rows": [
+          [
+            "First Page Sage",
+            "B2B focus",
+            "SEO and GEO content for lead generation",
+            "B2B companies that want leads from search and AI"
+          ],
+          [
+            "Found",
+            "London, with a New York office",
+            "Full-service search, AI SEO, GEO and digital PR",
+            "Brands wanting one agency across search and paid media"
+          ],
+          [
+            "IDHL",
+            "Performance marketing and web specialist",
+            "GEO services alongside digital marketing and web",
+            "Brands that also need commerce and web work"
+          ],
+          [
+            "MAAI Agency",
+            "SEO, AEO and GEO specialist",
+            "Local SEO, premium backlinks and digital PR, backed by data",
+            "Logistics, moving, storage, supply chain and multi-location businesses"
+          ],
+          [
+            "NoGood",
+            "AI-native growth agency",
+            "AEO, SEO, content, social and paid",
+            "Startups, scaleups and large brands"
+          ],
+          [
+            "Omniscient Digital",
+            "Global team",
+            "SEO strategy, answer engine optimization and digital PR",
+            "Software and content-led companies"
+          ],
+          [
+            "Passion Digital",
+            "London",
+            "Search-led performance marketing including GEO",
+            "Growth brands wanting search and paid together"
+          ],
+          [
+            "Push Group",
+            "UK performance marketing agency",
+            "Award-winning search work with AI automation",
+            "Brands wanting a large performance team"
+          ]
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Google's results for the same search also show agencies such as AgencyUK, Reflect Digital, The SEO Works and Havas Market. We have not reviewed those, so check their service pages before you shortlist them."
+      },
+      {
+        "type": "image",
+        "src": "/insights/generative-engine-optimization-agency-people-also-ask.jpg",
+        "alt": "Google UK search results for generative engine optimization agency showing the People Also Ask questions what is the best agency for generative engine optimization, who is the best SEO agency, is SEO replaced by AI and can ChatGPT do SEO",
+        "caption": "The People Also Ask questions under \"generative engine optimization agency\" on Google UK, 25 November 2026."
+      },
+      {
+        "type": "h3",
+        "text": "Is First Page Sage a good GEO agency?"
+      },
+      {
+        "type": "p",
+        "text": "First Page Sage suits B2B companies that want content-led lead generation. The agency describes itself as an SEO and GEO agency and says it has over 17 years of experience. It says its writers and researchers produce content as if it were written by your own experts, and it publishes lead generation pages for sectors such as software, construction, healthcare, insurance, financial services, law and real estate. It also has a research centre, which gives you something to read before you speak to anyone."
+      },
+      {
+        "type": "h3",
+        "text": "Is Found a good generative engine optimization company?"
+      },
+      {
+        "type": "p",
+        "text": "Found is a strong choice if you want one agency for search, AI and paid media. It is a London digital marketing agency with a New York office, a Google Premier Partner and a Drum Recommended Agency. It calls itself an AI-first agency and lists SEO, AI SEO, GEO, technical SEO, international SEO, digital PR and data science as separate services, with sectors including ecommerce, hospitality, travel, B2B, SaaS and fintech."
+      },
+      {
+        "type": "h3",
+        "text": "Is IDHL a good AI SEO and GEO agency?"
+      },
+      {
+        "type": "p",
+        "text": "IDHL suits brands that need GEO alongside web and commerce work. It describes itself as a performance marketing, web and commerce specialist and runs an AI incubator called IDHL Labs. Its GEO page says it helps businesses protect their reputation across AI-powered platforms by monitoring brand visibility, and it publishes a report called The State of AI Search."
+      },
+      {
+        "type": "h3",
+        "text": "Is MAAI Agency a good LLM optimisation agency?"
+      },
+      {
+        "type": "p",
+        "text": "MAAI Agency suits businesses that need local and national visibility in Google and AI answers, especially in logistics, moving, storage and supply chain. MAAI's founder brings eight years of marketing experience, and every resource and growth lever is tied to data, from the pages written to the AI answers tracked. The team runs local SEO for businesses with many locations and builds authority in the client's niche with premium backlinks, editorial links and digital PR."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "lead": "Pickfords.",
+            "text": "Organic content clicks up 39%, held and grown through the 2026 Google core updates."
+          },
+          {
+            "lead": "Logistics company.",
+            "text": "Organic clicks up 53% from SEO, AEO and GEO work combined."
+          },
+          {
+            "lead": "Supply chain and B2B company.",
+            "text": "Organic traffic up 81%, with all qualified leads coming through country blogs."
+          },
+          {
+            "lead": "Medtech brand.",
+            "text": "Referral traffic up 118% from backlinks, holding the number one position on its core commercial term."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "You can read the full Pickfords story on MAAI's case study page. For how the team approaches the work, see our guides on [answer engine optimisation](/insights/answer-engine-optimisation) and [generative engine optimisation for B2B](/insights/generative-engine-optimization-b2b)."
+      },
+      {
+        "type": "h3",
+        "text": "Is NoGood a good AEO and GEO agency?"
+      },
+      {
+        "type": "p",
+        "text": "NoGood suits startups, scaleups and large brands that want content, social and paid work in one place. The agency calls itself an AI-native growth squad and lists AEO, SEO, content, organic social, creative and paid among its services. It says AEO means research-backed optimisation that boosts brand visibility in AI search."
+      },
+      {
+        "type": "h3",
+        "text": "Is Omniscient Digital a good GEO agency for software companies?"
+      },
+      {
+        "type": "p",
+        "text": "Omniscient Digital suits software and content-led companies that want strategy and authority work. Its service list covers SEO strategy, answer engine optimization (described as getting recommended by LLMs), digital PR, programmatic SEO, technical SEO, content production, analytics and conversion rate optimisation. It also publishes original research and a podcast, which shows how it thinks."
+      },
+      {
+        "type": "h3",
+        "text": "Is Passion Digital a good GEO agency in the UK?"
+      },
+      {
+        "type": "p",
+        "text": "Passion Digital suits growth brands that want search and paid media from one London team. It describes itself as a search-led performance marketing agency and says its expertise spans SEO, PPC, content marketing, paid social, GEO and data analytics. Its own site says customers now search LLMs, social platforms and AI discovery tools as well as Google."
+      },
+      {
+        "type": "h3",
+        "text": "Is Push Group a good AI marketing agency?"
+      },
+      {
+        "type": "p",
+        "text": "Push Group suits brands that want a large performance team with heavy automation. It says it has 19 years of performance marketing experience and runs 157 live AI agents and 145 automated workflows across client accounts. It was named Innovative Agency of the Year at the UK Agency Awards 2026 and Microsoft Search Performance Partner of the Year 2026, and it publishes a dedicated generative engine optimisation service."
+      },
+      {
+        "type": "h2",
+        "text": "What is the difference between a GEO agency and an LLM optimisation agency?"
+      },
+      {
+        "type": "p",
+        "text": "There is little difference in the work. A GEO agency, an LLM optimisation agency, an AEO agency and an AI SEO agency all aim to get your brand named and linked in AI answers. The label changes with who is selling. Our guide to [LLM SEO](/insights/llm-seo) covers the content side, and our comparison of [GEO and SEO](/insights/geo-vs-seo) explains where the work overlaps with classic search."
+      },
+      {
+        "type": "p",
+        "text": "Search demand shows how the names are used. On Google Trends for the UK over the past 12 months, \"ai seo agency\" was searched more than \"geo agency\", and \"llm optimization agency\" registered almost nothing. If you are searching for an agency yourself, try all three terms."
+      },
+      {
+        "type": "image",
+        "src": "/insights/generative-engine-optimization-agency-google-trends.jpg",
+        "alt": "Google Trends interest over time for the United Kingdom over 12 months comparing geo agency, ai seo agency and llm optimization agency, with ai seo agency highest on average and llm optimization agency near zero",
+        "caption": "Google Trends, United Kingdom, past 12 months to 25 November 2026."
+      },
+      {
+        "type": "h2",
+        "text": "How do you choose a generative engine optimization company?"
+      },
+      {
+        "type": "p",
+        "text": "Choose the company that can show dated results, explains how it measures AI visibility and works beyond your own website. GEO is an emerging service, and ChatGPT says as much when asked: many agency rankings are published by agencies themselves, so claims are not independently verified, and you should ask for dated case studies, baseline measurements and methodology before treating results as proven."
+      },
+      {
+        "type": "image",
+        "src": "/insights/generative-engine-optimization-agency-chatgpt-answer.jpg",
+        "alt": "ChatGPT answer to the question best generative engine optimisation agencies for B2B companies, recommending which agencies to study first and warning that agency rankings are often published by the agencies themselves",
+        "caption": "A ChatGPT answer to \"What are the best generative engine optimisation agencies for B2B companies?\", 25 November 2026."
+      },
+      {
+        "type": "checklist",
+        "title": "What a good GEO agency should offer",
+        "items": [
+          "**An AI visibility audit.** A baseline of how ChatGPT, Gemini, Perplexity and Google describe your brand today.",
+          "**Content built to be quoted.** Answer-first sections, question headings and clear facts, as in our guide to [ranking in ChatGPT](/insights/how-to-rank-in-chatgpt).",
+          "**Off-site authority.** Digital PR, editorial links and mentions on trusted pages, since AI tools lean on what the web says about you.",
+          "**Technical access.** Crawlers allowed, pages server-rendered and schema that matches the page.",
+          "**Measurement.** Mentions, citations and share of voice tracked over weeks, with traffic and leads from GA4."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "What questions should you ask agencies who specialise in AI search optimisation?"
+      },
+      {
+        "type": "p",
+        "text": "Ask questions that force a specific answer. A vague reply on measurement or methods is the clearest warning sign."
+      },
+      {
+        "type": "steps",
+        "title": "Seven questions to ask before you sign",
+        "items": [
+          {
+            "title": "How do you measure AI citations and mentions?",
+            "text": "Ask which tools they use and how often they check. Our guides to [AI search monitoring tools](/insights/best-ai-search-monitoring-tools) and [tracking brand mentions](/insights/best-ways-to-track-brand-mentions-in-ai-search) show what good tracking looks like."
+          },
+          {
+            "title": "Can you show a dated case study with a baseline?",
+            "text": "Look for a start date, a starting figure and a result in the same market as yours."
+          },
+          {
+            "title": "What do you do off our website?",
+            "text": "Strong answers mention digital PR, editorial links, partnerships and reviews."
+          },
+          {
+            "title": "Which AI platforms do you track for us?",
+            "text": "Platforms differ, so one platform's results do not carry to another."
+          },
+          {
+            "title": "How do you connect AI visibility to leads?",
+            "text": "They should name GA4 reporting, key events and CRM tracking, not only mentions."
+          },
+          {
+            "title": "Who writes and checks the content?",
+            "text": "Someone with industry knowledge should review every page."
+          },
+          {
+            "title": "What happens if nothing moves in three months?",
+            "text": "A reasonable agency explains timelines and what it will change. Our guide on [how long AI SEO takes](/insights/how-long-does-seo-take) gives realistic ranges."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "For general questions that apply to any SEO supplier, read our guide on [how to choose an SEO company](/insights/how-to-find-a-good-seo-company)."
+      },
+      {
+        "type": "h2",
+        "text": "Which agency suits which type of business?"
+      },
+      {
+        "type": "compare",
+        "title": "Matching the agency to the need",
+        "columns": [
+          {
+            "title": "Larger full-service teams",
+            "tone": "good",
+            "items": [
+              "Found, IDHL, Passion Digital and Push Group cover search, paid media and web in one place",
+              "Suit brands that want one agency across channels",
+              "Check that GEO has its own named service and reporting"
+            ]
+          },
+          {
+            "title": "Specialists in search and AI",
+            "tone": "good",
+            "items": [
+              "First Page Sage and Omniscient Digital focus on organic growth and authority for B2B and software",
+              "MAAI Agency focuses on local, niche and multi-location visibility with PR-led authority",
+              "NoGood blends AEO with content and social"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "If you sell to other businesses, our [B2B SEO strategy guide](/insights/seo-for-b2b-companies) shows what the buyer journey looks like, which helps you judge whether an agency understands it."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is a generative engine optimization agency?",
+        "a": "A generative engine optimization agency helps your brand get cited, recommended and described correctly in AI answers from tools such as ChatGPT, Gemini, Perplexity and Google AI Overviews. It combines content, technical SEO, digital PR and AI visibility tracking."
+      },
+      {
+        "q": "What is the best agency for generative engine optimization?",
+        "a": "It depends on your market and budget. First Page Sage and Omniscient Digital suit B2B and software, Found, Passion Digital and Push Group suit brands wanting a larger UK team, and MAAI Agency suits logistics, moving, storage and multi-location businesses. Ask each for dated case studies."
+      },
+      {
+        "q": "Is a GEO agency different from an SEO agency?",
+        "a": "The work overlaps. GEO adds AI visibility audits, citation tracking and mentions on other websites to the usual SEO foundations. Our comparison of GEO and SEO explains the difference."
+      },
+      {
+        "q": "What is an LLM optimisation agency?",
+        "a": "An LLM optimisation agency is another name for a GEO or AEO agency. It aims to get your brand named and linked in large language model answers."
+      },
+      {
+        "q": "How long does GEO take to work?",
+        "a": "Most businesses see early movement in AI mentions within a few months, and stronger results as content and mentions build up over six months or more. Results depend on your starting authority and market."
+      },
+      {
+        "q": "How much does a GEO agency cost?",
+        "a": "Most agencies on this list do not publish prices, so request a written quote and ask what is included each month. Compare scope and reporting, not only the monthly fee."
+      }
+    ]
+  },
+  {
     "slug": "real-estate-seo-keywords",
     "seoTitle": "Real Estate SEO Keywords 2027: Keyword List for Agents",
     "title": "Real Estate SEO Keywords in 2027: Keyword List for Agents, Realtors and Property Managers",
