@@ -27,6 +27,403 @@ export const AUTHORS = {
    To preview drafts locally, run the dev server with INSIGHTS_PREVIEW_DRAFTS=1. */
 const ALL_POSTS = [
   {
+    "slug": "search-engine-positioning-examples",
+    "seoTitle": "Search Engine Positioning Examples: 5 Real Cases (2027)",
+    "title": "Search Engine Positioning Examples: How Pages Win Top Spots in Google and AI Search in 2027",
+    "description": "See five real search engine positioning examples from Google UK, what earned each top spot, and how to check your own SEO page position in Search Console.",
+    "date": "2026-11-26",
+    "author": "team",
+    "topics": [
+      "SEO - Begins"
+    ],
+    "industries": [],
+    "image": "/insights/search-engine-positioning-examples-banner.jpg",
+    "intro": "Most guides to search engine positioning explain the idea with a made-up bakery or a shop that sells running shorts. That helps, but it does not show you what a real top spot looks like today, when one search can return an AI Overview, a map, People Also Ask and ten blue links at once. We ran five real searches on Google UK and recorded who held the top positions and what those pages had in common. This guide walks through each search engine positioning example, explains what your SEO page position actually means and shows you how to check it for your own site.",
+    "tldr": [
+      "Search engine positioning is where a specific page appears for a specific search, in the normal results, the map, People Also Ask or an AI answer.",
+      "In five real Google UK searches, the top spots went to pages that answered the exact question in the first lines, came from a trusted source or, for local searches, had hundreds or thousands of reviews.",
+      "Position still matters for clicks: the first organic result averages a 27.6% click-through rate and is 10 times more likely to be clicked than the tenth (Backlinko).",
+      "Position also feeds AI answers: 76.1% of pages cited in Google AI Overviews rank in the top 10 (Ahrefs).",
+      "Your SEO page position in Search Console is an average across every search a page appears for, so read it per page and per query, not as one site number."
+    ],
+    "body": [
+      {
+        "type": "h2",
+        "text": "What is search engine positioning?"
+      },
+      {
+        "type": "p",
+        "text": "**Search engine positioning is the place a specific page holds in the results for a specific search.** It is a narrower job than SEO as a whole: instead of improving a whole website, you pick one page and one query and work to move that page higher. Google's own AI Overview for \"search engine positioning examples\" describes it the same way, as ranking individual pages for specific queries."
+      },
+      {
+        "type": "image",
+        "src": "/insights/search-engine-positioning-examples-google-ai-overview.jpg",
+        "alt": "Google UK AI Overview for the search search engine positioning examples, defining it as the rank a specific webpage holds on a results page for a target keyword, with examples for ecommerce collection pages and local city pages, and sources from Semrush, Search Engine Land and Oxford Home Study College",
+        "caption": "The Google UK AI Overview for \"search engine positioning examples\", 26 November 2026."
+      },
+      {
+        "type": "p",
+        "text": "In 2027 a position is no longer just a number from 1 to 10. The same search can show an AI Overview, a map with three businesses, a People Also Ask box, videos and then the organic links. Each of those is a position you can win, and each is won in a slightly different way. The examples below show how."
+      },
+      {
+        "type": "h2",
+        "text": "Why does your search engine position still matter in 2027?"
+      },
+      {
+        "type": "p",
+        "text": "Your position still decides how many people click, and it now decides whether AI answers quote you too. A study of 4 million Google results by [Backlinko](https://backlinko.com/google-ctr-stats) found the first organic result gets an average click-through rate of 27.6%, and is 10 times more likely to be clicked than the page in tenth place."
+      },
+      {
+        "type": "stats",
+        "title": "What a top position is worth",
+        "items": [
+          {
+            "value": "27.6%",
+            "label": "average click-through rate of the first organic result"
+          },
+          {
+            "value": "10x",
+            "label": "more likely to be clicked in position 1 than in position 10"
+          },
+          {
+            "value": "76.1%",
+            "label": "of pages cited in Google AI Overviews also rank in the top 10"
+          }
+        ],
+        "source": {
+          "label": "Backlinko and Ahrefs",
+          "note": "Backlinko CTR study of 4 million results; Ahrefs study of 1.9 million AI Overview citations, July 2025"
+        }
+      },
+      {
+        "type": "p",
+        "text": "The second point matters more each year. [Ahrefs](https://ahrefs.com/blog/search-rankings-ai-citations/) studied 1.9 million citations from 1 million AI Overviews and found that 76.1% of the cited pages ranked in Google's top 10, 9.5% ranked between 11 and 100 and 14.4% ranked lower than that. The top-cited link in each AI Overview had a median ranking of 2."
+      },
+      {
+        "type": "donut",
+        "title": "Where pages cited in Google AI Overviews rank",
+        "center": {
+          "value": "76.1%",
+          "label": "from the top 10"
+        },
+        "parts": [
+          {
+            "label": "rank in positions 1 to 10",
+            "value": 76.1,
+            "color": "#E62E6B",
+            "display": "76.1%"
+          },
+          {
+            "label": "rank in positions 11 to 100",
+            "value": 9.5,
+            "color": "#C9CCD3",
+            "display": "9.5%"
+          },
+          {
+            "label": "rank below position 100",
+            "value": 14.4,
+            "color": "#E6E8EC",
+            "display": "14.4%"
+          }
+        ],
+        "source": {
+          "label": "Ahrefs",
+          "href": "https://ahrefs.com/blog/search-rankings-ai-citations/",
+          "note": "1.9 million citations from 1 million AI Overviews, July 2025"
+        }
+      },
+      {
+        "type": "p",
+        "text": "For your business, that means a strong organic position is the entry ticket to AI answers as well as to clicks. Our guide on [how to rank in Google AI Overviews and AI Mode](/insights/how-to-rank-in-ai-overviews) covers that side in depth."
+      },
+      {
+        "type": "h2",
+        "text": "What do real search engine positioning examples look like?"
+      },
+      {
+        "type": "p",
+        "text": "Real examples show that each type of search rewards a different kind of page. On 26 November 2026 we searched five queries on Google UK, each a different intent and industry, and noted who held the AI Overview sources, the map pack and the first organic result. The table sums it up, and the sections after it explain each one."
+      },
+      {
+        "type": "table",
+        "head": [
+          "Search",
+          "Intent",
+          "Who held the top spots",
+          "What the winning pages had in common"
+        ],
+        "rows": [
+          [
+            "what is a 3pl",
+            "Definition",
+            "AI Overview led by ASCM; first organic result DHL Fulfillment Network",
+            "A one-line definition at the top from a recognised logistics name"
+          ],
+          [
+            "how to write a business plan",
+            "How-to",
+            "GOV.UK first in the organic results and the first AI Overview source",
+            "Official guidance, a plain definition, then clear steps"
+          ],
+          [
+            "best crm for small business",
+            "Comparison",
+            "Startups.co.uk first organic and the lead AI Overview source",
+            "An independent list, updated in September 2026, with a \"best for\" line per tool"
+          ],
+          [
+            "dentist in leeds",
+            "Local",
+            "Map pack led by Yorkshire Dental Suite Leeds (4.9 stars, 4.5k reviews)",
+            "High ratings, large review counts and a matching category"
+          ],
+          [
+            "search engine positioning examples",
+            "Learning",
+            "AI Overview led by Semrush; first organic result changed within 20 minutes",
+            "Pages built around the exact phrase, with worked examples"
+          ]
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "Example 1: How does a definition page win position one?"
+      },
+      {
+        "type": "p",
+        "text": "Definition pages win by stating the answer in the first sentence. For \"what is a 3pl\", the first organic result was DHL Fulfillment Network, whose snippet opens with \"3PL stands for 'third-party logistics'\". The AI Overview drew on the Association for Supply Chain Management (ASCM), Wikipedia and an explainer video, all of which define the term straight away."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "lead": "Lead with the definition.",
+            "text": "Put a 40 to 60 word answer directly under a heading that repeats the question."
+          },
+          {
+            "lead": "Earn it with authority.",
+            "text": "Recognised industry names hold definition spots, so smaller firms need mentions and links from trusted sites in their sector."
+          },
+          {
+            "lead": "Add what the definition leaves out.",
+            "text": "The People Also Ask box for this search asked \"Is Amazon a 3PL or 4PL?\" and \"What is a 3PL vs 4PL?\". A page that answers those too covers the follow-up questions."
+          }
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "Example 2: How does a how-to page win the top spot?"
+      },
+      {
+        "type": "p",
+        "text": "How-to pages win with a short definition followed by clear, ordered steps from a source people trust. For \"how to write a business plan\", GOV.UK ranked first and was the first source in the AI Overview, followed by HSBC Business and Cambridge Judge Business School. The GOV.UK snippet is one plain sentence: a business plan is a written document that describes your business."
+      },
+      {
+        "type": "p",
+        "text": "You cannot become GOV.UK, but you can copy the structure: one sentence that defines the task, numbered steps with the action first, and a page that stays current. The AI Overview itself was laid out as five numbered steps, which tells you the format Google expects for this kind of search."
+      },
+      {
+        "type": "h3",
+        "text": "Example 3: How does a comparison page win a \"best\" search?"
+      },
+      {
+        "type": "p",
+        "text": "Comparison pages win \"best\" searches when they are independent, recently updated and say who each option suits. For \"best crm for small business\", the first organic result was a Startups.co.uk list dated 10 September 2026, and the AI Overview quoted it several times, including a \"best for\" line for each CRM. The vendors themselves, such as HubSpot and Microsoft, appeared further down."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "lead": "Give each option a \"best for\" line.",
+            "text": "AI Overviews lifted those lines almost word for word."
+          },
+          {
+            "lead": "Update the page and its date.",
+            "text": "Lists refreshed within the last few months held the top spots."
+          },
+          {
+            "lead": "Get onto other people's lists.",
+            "text": "If you sell the product, being included in independent comparison pages often does more than ranking your own page."
+          }
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "Example 4: How does a local business win the map pack?"
+      },
+      {
+        "type": "p",
+        "text": "Local businesses win the map pack with relevance, distance and prominence, and reviews are the most visible part of prominence. For \"dentist in leeds\", the three businesses in the map pack were Yorkshire Dental Suite Leeds (4.9 stars from 4,500 reviews), Leeds City Dentalcare (4.9 from 611) and Aesthetique Dental Care (4.9 from 858). All three used the Dentist category and showed a full address."
+      },
+      {
+        "type": "image",
+        "src": "/insights/search-engine-positioning-examples-map-pack.jpg",
+        "alt": "Google UK map pack for dentist in leeds showing a map of Leeds and three dental practices, Yorkshire Dental Suite Leeds, Leeds City Dentalcare and Aesthetique Dental Care, each rated 4.9 stars with review counts",
+        "caption": "The Google UK map pack for \"dentist in leeds\", 26 November 2026."
+      },
+      {
+        "type": "p",
+        "text": "Below the map, the first organic result was an NHS trust page on finding a dentist, which shows that the map and the organic list are separate positions with separate winners. Leeds City Dentalcare appeared in both, through its map listing and its own website. Our [local SEO checklist](/insights/local-seo-checklist) gives the 20 steps that build this kind of map position."
+      },
+      {
+        "type": "h3",
+        "text": "Example 5: Why did the top result change within 20 minutes?"
+      },
+      {
+        "type": "p",
+        "text": "Positions move all the time, which is why one check is never the full picture. When we first searched \"search engine positioning examples\", the first organic result was searchenginebasics.net. Twenty minutes later the same search showed linkintechseo.com first, and the AI Overview had been reworded. Semrush stayed the lead AI Overview source both times, with an article from February 2024."
+      },
+      {
+        "type": "image",
+        "src": "/insights/search-engine-positioning-examples-people-also-ask.jpg",
+        "alt": "Google UK results for search engine positioning examples showing the first organic result from searchenginebasics.net followed by People Also Ask questions: what is search engine positioning, what are 10 examples of search engines, what is an example of SEO and what is the 80/20 rule in SEO",
+        "caption": "The first organic result and People Also Ask for \"search engine positioning examples\" on our first check, 26 November 2026."
+      },
+      {
+        "type": "p",
+        "text": "Two lessons come out of this. Track positions as an average over days and weeks, never as a single screenshot. And an older page can stay the main AI source while newer pages trade the top organic spot, because AI Overviews pick the passage that answers best, not only the page ranked first."
+      },
+      {
+        "type": "h2",
+        "text": "What earns a top position in Google and AI search?"
+      },
+      {
+        "type": "p",
+        "text": "Across all five examples, the pages in top positions shared four things: they matched the intent of the search, answered it in the opening lines, came from a source people already trust and were kept up to date. Local results added reviews and a complete business profile on top."
+      },
+      {
+        "type": "checklist",
+        "title": "What the top-ranked pages had in common",
+        "items": [
+          "**Intent match.** A definition for \"what is\", steps for \"how to\", a list for \"best\" and a map listing for \"near me\" style searches.",
+          "**The answer first.** The key sentence sits in the first lines, where both the snippet and the AI Overview take it from.",
+          "**Trust.** Official bodies, known brands and independent publishers held most top spots. Smaller sites earn this with mentions, links and reviews.",
+          "**Freshness.** Dated, recently updated pages led the comparison search.",
+          "**Follow-up answers.** People Also Ask questions show what else the page should cover.",
+          "**For local searches, reviews.** Every map pack business had a 4.9 rating and hundreds or thousands of reviews."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "If you want to see how the same page is built differently to rank and to be quoted by AI, our guide to [AEO vs SEO](/insights/aeo-vs-seo) shows a before and after."
+      },
+      {
+        "type": "h2",
+        "text": "What is SEO page position and how do you check it?"
+      },
+      {
+        "type": "p",
+        "text": "**SEO page position is where your page appears in Google for a given search, and Google Search Console reports it as an average.** Search Console takes the topmost position your site held each time it appeared and averages it across every search and every day in the date range. That makes it useful for trends and misleading as a single number."
+      },
+      {
+        "type": "steps",
+        "title": "How to check a page's position in Google Search Console",
+        "items": [
+          {
+            "title": "Open the Performance report",
+            "path": "Search Console > Performance > Search results",
+            "text": "Pick a date range of at least 28 days so one-off spikes even out."
+          },
+          {
+            "title": "Turn on Average position",
+            "text": "Click the Average position box above the chart so it shows next to clicks and impressions."
+          },
+          {
+            "title": "Open the Pages tab",
+            "text": "Click the page you care about. The report filters to that page only."
+          },
+          {
+            "title": "Switch to the Queries tab",
+            "text": "Now you see the position for each search that page appears for, which is the number that matters."
+          },
+          {
+            "title": "Compare periods",
+            "path": "Date > Compare",
+            "text": "Compare the last 28 days with the previous 28 to see whether the page is moving up or down."
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "src": "/insights/search-engine-positioning-examples-search-console.jpg",
+        "alt": "Google Search Console Performance report for maai.agency over three months showing 28 total clicks, 17.6 thousand impressions and an average position of 66.4, with daily lines for clicks, impressions and position",
+        "caption": "Our own Search Console Performance report for maai.agency, last 3 months to 24 November 2026."
+      },
+      {
+        "type": "p",
+        "text": "Our own report shows why the site-wide number needs care. Over three months maai.agency had 17.6k impressions and an average position of 66.4. That does not mean our pages sit on page seven. Many new posts appear for hundreds of long searches where they rank deep, and those pull the average down even while the main search terms improve. Check position per page and per query instead."
+      },
+      {
+        "type": "p",
+        "text": "Search Console shows positions in Google, not in ChatGPT or other assistants. To track those as well, see our guides to [AI Mode rank trackers](/insights/ai-mode-rank-trackers) and the [SEO visibility score](/insights/seo-visibility-score), which rolls many positions into one number."
+      },
+      {
+        "type": "h2",
+        "text": "How do you improve your search engine positioning?"
+      },
+      {
+        "type": "p",
+        "text": "Improve one page for one search at a time: find where it already ranks, see what the pages above it do better and close that gap. Pages already in positions 5 to 20 usually move fastest, because Google already sees them as relevant."
+      },
+      {
+        "type": "ol",
+        "items": [
+          {
+            "text": "**Find pages close to the top.** In Search Console, filter queries where your page sits between positions 5 and 20."
+          },
+          {
+            "text": "**Search the query yourself.** Note the format of the top three results, the AI Overview sources and the People Also Ask questions."
+          },
+          {
+            "text": "**Rewrite the opening.** Put a direct answer under a heading that matches the question."
+          },
+          {
+            "text": "**Cover the follow-up questions.** Add short sections for the People Also Ask questions that fit."
+          },
+          {
+            "text": "**Add internal links.** Link to the page from related posts with descriptive anchor text."
+          },
+          {
+            "text": "**Build trust off the page.** Earn mentions, links and, for local businesses, reviews."
+          },
+          {
+            "text": "**Recheck after four to eight weeks.** Compare positions in Search Console and repeat."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "To find the right searches in the first place, our guide to [B2B keyword research](/insights/b2b-keyword-research) explains how to pick terms buyers actually use, and [how long SEO takes](/insights/how-long-does-seo-take) sets realistic timings for each step."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is an example of search engine positioning?",
+        "a": "A Leeds dental practice appearing first in the Google map pack for \"dentist in leeds\" is one. Another is GOV.UK holding the first organic result for \"how to write a business plan\". Each is a specific page or listing holding a specific position for a specific search."
+      },
+      {
+        "q": "What is the difference between SEO and search engine positioning?",
+        "a": "SEO improves a whole website's visibility. Search engine positioning focuses on moving one page higher for one search or a small group of searches."
+      },
+      {
+        "q": "What is a good average position in Google Search Console?",
+        "a": "For your main target searches, anything in the top 10 is on page one and the top 3 gets most clicks. A site-wide average is less useful, because it blends every long search a page appears for."
+      },
+      {
+        "q": "Why does my position change every day?",
+        "a": "Google tests results, updates its index and personalises some results by location and device, so positions move daily. Look at averages over at least 28 days."
+      },
+      {
+        "q": "Does position one guarantee a place in AI Overviews?",
+        "a": "No. Most cited pages rank in the top 10, but AI Overviews choose the passage that answers best, so a page in position 3 or 4 can be cited ahead of position one."
+      },
+      {
+        "q": "How long does it take to improve a page's position?",
+        "a": "Pages already ranking between 5 and 20 can move within weeks of a good rewrite. New pages usually take several months, depending on competition and authority."
+      }
+    ]
+  },
+  {
     "slug": "best-seo-company-for-real-estate",
     "seoTitle": "Best SEO Company for Real Estate: 8 Agencies in 2027",
     "title": "Best Real Estate SEO Companies in 2027 (SEO + AEO)",
