@@ -27,6 +27,534 @@ export const AUTHORS = {
    To preview drafts locally, run the dev server with INSIGHTS_PREVIEW_DRAFTS=1. */
 const ALL_POSTS = [
   {
+    "slug": "real-estate-lead-generation-ideas",
+    "seoTitle": "Real Estate Lead Generation Ideas: 14 That Work in 2027",
+    "title": "Real Estate Lead Generation Ideas for 2027: How Agents Get Leads from Search and AI",
+    "description": "14 real estate lead generation ideas for agents: valuation pages, Google Business Profile, AI search, referrals and expired listings, and how to measure them.",
+    "date": "2026-11-26",
+    "author": "team",
+    "topics": [
+      "Everything Marketing",
+      "SEO - Begins"
+    ],
+    "industries": [
+      "Real estate"
+    ],
+    "image": "/insights/real-estate-lead-generation-ideas-banner.jpg",
+    "intro": "Every agent has had the month where the phone goes quiet and the portal enquiries dry up. Homeowners are staying put for longer, so the sellers who do move are worth more than ever, and the agents who win them are the ones those sellers already know or find first. The best real estate lead generation ideas for 2027 mix three things: being found when a homeowner searches Google or asks an AI assistant, staying in touch with the people who already trust you, and reaching sellers who have a clear reason to move. This guide gives you 14 ideas across those three areas, shows what Google and ChatGPT currently recommend, and explains how to measure which ideas bring you instructions.",
+    "tldr": [
+      "Ninety-two percent of US home sellers now use an agent, an all-time high, but sellers stay in their homes for a median of 12 years, so each seller lead is rare and valuable (National Association of REALTORS, 2026).",
+      "Search is where many seller leads start: a home valuation page, a complete Google Business Profile and neighbourhood guides catch homeowners months before they list.",
+      "Google AI Overviews and ChatGPT already recommend local SEO, valuation tools, referrals and targeted prospecting, so agents who show up in those answers get the first conversation.",
+      "Referrals, past clients and partner introductions are still the cheapest leads. A simple contact rhythm keeps you front of mind for 12 years, not 12 weeks.",
+      "Track every lead to its source and judge each idea by valuations booked and instructions won, not by clicks or form fills."
+    ],
+    "body": [
+      {
+        "type": "h2",
+        "text": "What are the best real estate lead generation ideas in 2027?"
+      },
+      {
+        "type": "p",
+        "text": "**The best real estate lead generation ideas in 2027 combine search, relationships and targeted prospecting.** Search ideas (a valuation page, Google Business Profile, local content and AI answer visibility) bring in homeowners who are researching. Relationship ideas (past clients, your sphere and partner referrals) turn trust into introductions. Prospecting ideas (expired listings, for-sale-by-owner sellers and patch farming) reach sellers with a reason to move now. The table shows all 14 and how quickly each one tends to pay back."
+      },
+      {
+        "type": "table",
+        "head": [
+          "Idea",
+          "Main lead type",
+          "Cost",
+          "Speed to first leads"
+        ],
+        "rows": [
+          [
+            "1. Home valuation page",
+            "Sellers",
+            "Low",
+            "Weeks"
+          ],
+          [
+            "2. Google Business Profile and reviews",
+            "Sellers and buyers",
+            "Free",
+            "Weeks to months"
+          ],
+          [
+            "3. Neighbourhood guides and sold-price updates",
+            "Sellers",
+            "Time",
+            "Months"
+          ],
+          [
+            "4. Answers to seller questions",
+            "Sellers",
+            "Time",
+            "Months"
+          ],
+          [
+            "5. Visibility in Google AI Overviews",
+            "Sellers and buyers",
+            "Time",
+            "Months"
+          ],
+          [
+            "6. Visibility in ChatGPT and other assistants",
+            "Sellers and buyers",
+            "Time",
+            "Months"
+          ],
+          [
+            "7. Past client and sphere follow-up",
+            "Sellers and referrals",
+            "Low",
+            "Weeks"
+          ],
+          [
+            "8. Partner referrals",
+            "Sellers and buyers",
+            "Low",
+            "Weeks"
+          ],
+          [
+            "9. Expired and withdrawn listings",
+            "Sellers",
+            "Low",
+            "Days to weeks"
+          ],
+          [
+            "10. For-sale-by-owner sellers",
+            "Sellers",
+            "Low",
+            "Days to weeks"
+          ],
+          [
+            "11. Patch farming",
+            "Sellers",
+            "Medium",
+            "Months"
+          ],
+          [
+            "12. Short local videos",
+            "Sellers and buyers",
+            "Time",
+            "Months"
+          ],
+          [
+            "13. Local community and social groups",
+            "Sellers and buyers",
+            "Free",
+            "Weeks to months"
+          ],
+          [
+            "14. Fast, segmented follow-up",
+            "All",
+            "Low",
+            "Immediate"
+          ]
+        ]
+      },
+      {
+        "type": "p",
+        "text": "You do not need all 14. Pick two quick ideas to fill the next few months and two compounding ideas that will keep bringing leads next year. The sections below explain each one."
+      },
+      {
+        "type": "h2",
+        "text": "Why do residential agents need their own lead generation now?"
+      },
+      {
+        "type": "p",
+        "text": "Residential agents need their own lead generation because sellers are rarer and more valuable than they used to be. The [National Association of REALTORS](https://www.nar.realtor/news/economists-outlook/top-10-takeaways-from-nars-2026-profile-of-home-buyers-and-sellers) 2026 Profile of Home Buyers and Sellers found that 92% of sellers used an agent, an all-time high, while the median seller had owned their home for 12 years, also a record."
+      },
+      {
+        "type": "stats",
+        "title": "What the 2026 NAR profile says about sellers",
+        "items": [
+          {
+            "value": "92%",
+            "label": "of home sellers used an agent or broker, an all-time high"
+          },
+          {
+            "value": "12 years",
+            "label": "median time sellers owned their home before selling, a record"
+          },
+          {
+            "value": "5%",
+            "label": "of sellers sold without an agent (for sale by owner)"
+          }
+        ],
+        "source": {
+          "label": "National Association of REALTORS",
+          "href": "https://www.nar.realtor/news/economists-outlook/top-10-takeaways-from-nars-2026-profile-of-home-buyers-and-sellers",
+          "note": "2026 Profile of Home Buyers and Sellers, transactions July 2025 to June 2026"
+        }
+      },
+      {
+        "type": "p",
+        "text": "For your business, that means almost every seller will hire an agent, but each homeowner only moves once every decade or so. Whoever they know, find or hear about at that moment usually wins the instruction. Lead generation is the work of being that agent, and the ideas below are built around that one goal."
+      },
+      {
+        "type": "h2",
+        "text": "How do you get seller leads as a real estate agent from Google?"
+      },
+      {
+        "type": "p",
+        "text": "You get seller leads from Google by answering the searches homeowners make before they choose an agent: what their home is worth, how the local market is moving and who the trusted agents nearby are. Google Trends shows US searches for \"what is my house worth\" rising to a five-year high in 2026, up 40% on the previous five years."
+      },
+      {
+        "type": "image",
+        "src": "/insights/real-estate-lead-generation-ideas-google-trends.jpg",
+        "alt": "Google Trends chart for the search term what is my house worth in the United States over the past five years, rising from around 30 to 40 in 2023 and 2024 to a peak of 100 in 2026, with a label showing plus 40 percent versus the preceding five years",
+        "caption": "Google Trends, \"what is my house worth\", United States, past five years, 26 November 2026."
+      },
+      {
+        "type": "h3",
+        "text": "Idea 1: How does a home valuation page bring in seller leads?"
+      },
+      {
+        "type": "p",
+        "text": "A home valuation page brings in seller leads by giving homeowners the one thing they want first: a sense of what their property is worth. Make it a dedicated page for your town, not a generic form on your contact page."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "lead": "Name the place.",
+            "text": "Title the page \"What is my house worth in [town]?\" so it matches the search."
+          },
+          {
+            "lead": "Show local proof.",
+            "text": "Add recent sold prices, average days on market and two or three short case notes from your patch."
+          },
+          {
+            "lead": "Offer two options.",
+            "text": "An instant estimate for people who are curious, and a free in-person valuation for people who are ready."
+          },
+          {
+            "lead": "Connect it to your CRM.",
+            "text": "Send every form straight to your CRM with the source set to \"valuation page\", and follow up the same day."
+          }
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "Idea 2: How does a Google Business Profile generate real estate leads?"
+      },
+      {
+        "type": "p",
+        "text": "A Google Business Profile generates leads by putting your office in the map results for searches such as \"estate agents near me\" or \"realtor in [town]\", with your reviews, phone number and directions on show. Google ranks local results on relevance, distance and prominence, and reviews are the most visible part of prominence."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "lead": "Pick the right category.",
+            "text": "Use \"Real estate agency\" or \"Estate agent\" as the primary category and add secondary ones only if they are true."
+          },
+          {
+            "lead": "Ask every client for a review.",
+            "text": "Send the review link on completion day, when goodwill is highest, and reply to every review."
+          },
+          {
+            "lead": "Post weekly.",
+            "text": "Share new listings, sold updates and short market notes so the profile stays active."
+          },
+          {
+            "lead": "Keep details consistent.",
+            "text": "Use the same name, address and phone number on your website, portals and directories."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Our [local SEO checklist](/insights/local-seo-checklist) walks through all 20 steps for the map pack, and our guide to [SEO for estate agents](/insights/seo-for-estate-agents) covers the wider website side."
+      },
+      {
+        "type": "h3",
+        "text": "Idea 3: Why do neighbourhood guides and sold-price updates work?"
+      },
+      {
+        "type": "p",
+        "text": "Neighbourhood guides and sold-price updates work because they give homeowners a reason to visit and to come back, long before they list. A page for each area you cover, with schools, transport, typical prices and recent sales, ranks for local searches and shows you know the patch."
+      },
+      {
+        "type": "p",
+        "text": "Turn the same data into a monthly sold-price email or post. Homeowners who open it every month are the ones most likely to call you first when they decide to sell."
+      },
+      {
+        "type": "h3",
+        "text": "Idea 4: Which seller questions should you answer on your website?"
+      },
+      {
+        "type": "p",
+        "text": "Answer the questions sellers type before they pick an agent: how long it takes to sell, what fees to expect, when the best time to sell is and what to fix before listing. Each answer should open with a direct reply in the first two sentences, then give local detail. Our list of [real estate SEO keywords](/insights/real-estate-seo-keywords) groups the seller searches worth targeting."
+      },
+      {
+        "type": "h2",
+        "text": "How do you get real estate leads from AI search?"
+      },
+      {
+        "type": "p",
+        "text": "You get leads from AI search by being one of the sources Google AI Overviews and assistants such as ChatGPT quote when someone asks how to sell, which agent to use or what a home is worth. On 26 November 2026, Google's AI Overview for \"how to get leads as a real estate agent\" recommended local SEO, instant valuation tools, paid search and short-form video, and cited trade sites and agent videos as sources."
+      },
+      {
+        "type": "image",
+        "src": "/insights/real-estate-lead-generation-ideas-ai-overview.jpg",
+        "alt": "Google UK AI Overview for how to get leads as a real estate agent, recommending local SEO with Google Business Profile and neighbourhood guides, instant valuation tools connected to a CRM, and paid search and social ads, with sources from Estate Agent Today, Estate Track and a YouTube video",
+        "caption": "Google UK AI Overview for \"how to get leads as a real estate agent\", 26 November 2026."
+      },
+      {
+        "type": "h3",
+        "text": "Idea 5: How do you appear in Google AI Overviews?"
+      },
+      {
+        "type": "p",
+        "text": "To appear in Google AI Overviews, rank well in normal Google results first and write passages that answer the question directly. [Ahrefs](https://ahrefs.com/blog/search-rankings-ai-citations/) found that 76.1% of pages cited in AI Overviews rank in Google's top 10. For agents, that means your area guides, valuation page and seller FAQs need clear question headings and a short answer straight underneath. Our guide on [how to rank in Google AI Overviews](/insights/how-to-rank-in-ai-overviews) goes deeper."
+      },
+      {
+        "type": "h3",
+        "text": "Idea 6: How do you get recommended by ChatGPT?"
+      },
+      {
+        "type": "p",
+        "text": "To get recommended by ChatGPT, make sure your agency is mentioned on the pages it searches: local news, property guides, \"best agents in [town]\" lists, review sites and your own well-structured website. When we asked ChatGPT for the best way for a residential agent to generate seller leads, it put referrals first, hyperlocal SEO and homeowner content second, and targeted prospecting third."
+      },
+      {
+        "type": "image",
+        "src": "/insights/real-estate-lead-generation-ideas-chatgpt.jpg",
+        "alt": "ChatGPT answer with web search to the prompt what is the best way for a residential real estate agent to generate seller leads, recommending referral-based lead generation, hyperlocal marketing and targeted seller prospecting, and citing NAR figures on how sellers found their agent",
+        "caption": "ChatGPT with web search, 26 November 2026."
+      },
+      {
+        "type": "p",
+        "text": "Two things stand out. ChatGPT now treats local SEO and seller-intent content as a core lead source, not an extra. And it quotes research and named sources, so agencies with real local data on their site give it something to cite. Our step-by-step guide on [how to rank in ChatGPT](/insights/how-to-rank-in-chatgpt) explains how to earn those mentions."
+      },
+      {
+        "type": "h2",
+        "text": "What are the best ways to generate real estate leads from relationships?"
+      },
+      {
+        "type": "p",
+        "text": "The best relationship-based ways to generate real estate leads are regular contact with past clients and your sphere, and referral partnerships with people who meet movers first. These leads cost little and close well, because the trust is already there."
+      },
+      {
+        "type": "h3",
+        "text": "Idea 7: How do you get more referrals from past clients?"
+      },
+      {
+        "type": "p",
+        "text": "You get more referrals from past clients by staying useful between moves. With a 12-year gap between sales, a one-off thank-you card is not enough."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "lead": "Build one clean database.",
+            "text": "Past clients, friends, family and local contacts, each tagged with their area and when they bought."
+          },
+          {
+            "lead": "Set a rhythm.",
+            "text": "A personal call or message every 60 to 90 days, plus a monthly market update by email."
+          },
+          {
+            "lead": "Send a home anniversary note.",
+            "text": "Each year, send an updated estimate of what their home is worth."
+          },
+          {
+            "lead": "Ask directly.",
+            "text": "When a client thanks you, ask who else they know who is thinking about moving."
+          }
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "Idea 8: Which partners send real estate referrals?"
+      },
+      {
+        "type": "p",
+        "text": "Mortgage brokers, conveyancers and property solicitors, financial planners, builders, removals firms and lettings managers all meet movers early. Agree a simple two-way referral arrangement, share each other's content and keep each partner updated when their introduction turns into a sale."
+      },
+      {
+        "type": "h2",
+        "text": "How do you find motivated sellers through prospecting?"
+      },
+      {
+        "type": "p",
+        "text": "You find motivated sellers by targeting homeowners with a clear reason to move: listings that did not sell, owners trying to sell alone and households in a patch you farm consistently. These ideas bring leads fastest, but they need care and a genuine offer."
+      },
+      {
+        "type": "h3",
+        "text": "Idea 9: How do you win expired and withdrawn listings?"
+      },
+      {
+        "type": "p",
+        "text": "Expired and withdrawn listings are homeowners who wanted to sell and still might. Contact them with a short, specific review of why the property did not sell (price, photos, description or timing) and a clear relaunch plan. Always follow your local telemarketing and contact rules."
+      },
+      {
+        "type": "h3",
+        "text": "Idea 10: Is it worth approaching for-sale-by-owner sellers?"
+      },
+      {
+        "type": "p",
+        "text": "Approaching for-sale-by-owner (FSBO) sellers can work, but the pool is small. The NAR 2026 profile found only 5% of sellers sold without an agent, and 62% of those already knew their buyer. Offer free pricing advice and help with the paperwork rather than a hard pitch, and focus on the owners who are still looking for a buyer."
+      },
+      {
+        "type": "h3",
+        "text": "Idea 11: What is patch farming and does it still work?"
+      },
+      {
+        "type": "p",
+        "text": "Patch farming means picking two or three neighbourhoods and becoming the known agent there through regular, useful contact: sold-price postcards, local market updates, sponsoring a school event or a street clean-up. It works when it is consistent for at least a year, and it pairs well with the neighbourhood guides in idea 3."
+      },
+      {
+        "type": "h3",
+        "text": "Idea 12: Do short local videos bring in leads?"
+      },
+      {
+        "type": "p",
+        "text": "Short local videos bring in leads when they are about the place, not only the listing. Street-by-street walkthroughs, \"what £400,000 buys in [area]\" tours and 60-second market updates build familiarity, and they also give Google and AI assistants another source to quote. Post them on your Google Business Profile, YouTube and the social channels your patch uses."
+      },
+      {
+        "type": "h3",
+        "text": "Idea 13: How do local community groups help?"
+      },
+      {
+        "type": "p",
+        "text": "Local Facebook groups, community newsletters and neighbourhood apps are where homeowners ask for agent recommendations. Join as a helpful local, answer property questions without selling, and share your area guides when they genuinely help. Recommendations from neighbours in these groups often turn into valuation requests."
+      },
+      {
+        "type": "h2",
+        "text": "Which real estate lead generation strategies work fastest?"
+      },
+      {
+        "type": "p",
+        "text": "Prospecting expired listings, calling your past clients and partner referrals work fastest, often within weeks. Search and content ideas take months but keep working without extra spend once they rank. The best plan runs both side by side."
+      },
+      {
+        "type": "compare",
+        "title": "Quick wins and compounding ideas",
+        "columns": [
+          {
+            "title": "Fast wins (weeks)",
+            "tone": "good",
+            "items": [
+              "Past client and sphere calls",
+              "Partner referrals",
+              "Expired and withdrawn listings",
+              "Valuation page with same-day follow-up",
+              "Paid local ads to the valuation page, as a short-term boost"
+            ]
+          },
+          {
+            "title": "Compounding (months)",
+            "tone": "good",
+            "items": [
+              "Google Business Profile and reviews",
+              "Neighbourhood guides and sold-price pages",
+              "Seller question pages",
+              "Visibility in AI Overviews and ChatGPT",
+              "Patch farming and local video"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "We would not build a pipeline on paid ads alone. They stop the day the budget stops. Our guide on whether [SEO can generate leads](/insights/can-seo-generate-leads) explains how search leads compound over time."
+      },
+      {
+        "type": "h2",
+        "text": "How do you turn more real estate leads into instructions?"
+      },
+      {
+        "type": "p",
+        "text": "You turn more leads into instructions by replying fast, sorting leads by intent and following up until each person moves or says no. Most lost leads are not bad leads. They simply hear from another agent first."
+      },
+      {
+        "type": "checklist",
+        "title": "Idea 14: a follow-up system that wins instructions",
+        "items": [
+          "**Reply within the hour.** Set alerts for valuation forms, calls and messages so nobody waits until tomorrow.",
+          "**Tag the intent.** Seller, landlord, buyer or tenant, and when they plan to move.",
+          "**Match the follow-up to the timeline.** A seller moving in 12 months gets monthly market updates; one moving in six weeks gets a call this week.",
+          "**Bring something useful to the valuation.** Local sold prices and a marketing plan for their street.",
+          "**Log every outcome.** Valuation booked, instruction won or lost, and why."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "How do you measure which lead generation ideas work?"
+      },
+      {
+        "type": "p",
+        "text": "Measure each idea by the valuations and instructions it produces, not by clicks or form fills. Give every lead a source in your CRM, then compare cost and time per instruction across sources every quarter."
+      },
+      {
+        "type": "steps",
+        "title": "How to track real estate leads to instructions",
+        "items": [
+          {
+            "title": "Add a source field to your CRM",
+            "text": "Use fixed options: valuation page, Google Business Profile, referral, past client, expired, farming, social, AI assistant, portal."
+          },
+          {
+            "title": "Track website forms in Google Analytics 4",
+            "path": "GA4 > Admin > Events > Mark as key event",
+            "text": "Mark the valuation form submission and phone clicks as key events so you can see which pages bring them."
+          },
+          {
+            "title": "Check Google Business Profile performance",
+            "path": "Google Business Profile > Performance",
+            "text": "Note calls, direction requests and website clicks each month."
+          },
+          {
+            "title": "Ask every new lead how they found you",
+            "text": "Especially for AI assistants, which often do not pass a clear referrer. Record the answer in the source field."
+          },
+          {
+            "title": "Review every quarter",
+            "text": "Compare valuations booked and instructions won per source, then put more time into the top two."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Our guide to [tracking AI traffic in GA4 and Search Console](/insights/track-ai-traffic) shows how to separate visits from ChatGPT and other assistants in your reports."
+      },
+      {
+        "type": "image",
+        "src": "/insights/real-estate-lead-generation-ideas-people-also-ask.jpg",
+        "alt": "Google UK People Also Ask box for how to get leads as a real estate agent, with the questions how do estate agents get leads, can ChatGPT generate leads, how to create real estate leads and what is the fastest way to generate leads",
+        "caption": "People Also Ask on Google UK for \"how to get leads as a real estate agent\", 26 November 2026. The FAQ below answers these questions."
+      }
+    ],
+    "faq": [
+      {
+        "q": "How do estate agents get leads?",
+        "a": "Estate agents get leads from three places: search (a valuation page, Google Business Profile, local content and AI answers), relationships (past clients, their sphere and partner referrals) and prospecting (expired listings, for-sale-by-owner sellers and patch farming)."
+      },
+      {
+        "q": "Can ChatGPT generate leads for real estate agents?",
+        "a": "ChatGPT can send you leads when it recommends your agency or quotes your content in its answers. That happens when your agency is mentioned on trusted local and property sites and your own pages answer seller questions clearly. It can also help you draft follow-up emails and area guides."
+      },
+      {
+        "q": "What is the fastest way to generate real estate leads?",
+        "a": "Calling past clients and your sphere, asking partners for referrals and contacting expired listings usually bring leads within weeks. Pair them with a valuation page and same-day follow-up."
+      },
+      {
+        "q": "How can a new real estate agent get leads for free?",
+        "a": "Start with your personal network, a fully completed Google Business Profile, reviews from every early client, helpful posts in local community groups and a simple neighbourhood guide on your website. None of these need a budget, only time."
+      },
+      {
+        "q": "What are the best real estate lead generation strategies for sellers?",
+        "a": "A home valuation page, regular sold-price updates to homeowners, past client follow-up and targeted prospecting of expired listings are the strongest seller strategies, because they reach homeowners before they choose an agent."
+      },
+      {
+        "q": "How long does it take for real estate SEO to bring leads?",
+        "a": "Google Business Profile changes and a valuation page can bring enquiries within weeks. Neighbourhood guides and seller question pages usually take three to six months to rank and bring steady leads."
+      }
+    ]
+  },
+  {
     "slug": "search-engine-positioning-examples",
     "seoTitle": "Search Engine Positioning Examples: 5 Real Cases (2027)",
     "title": "Search Engine Positioning Examples: How Pages Win Top Spots in Google and AI Search in 2027",
