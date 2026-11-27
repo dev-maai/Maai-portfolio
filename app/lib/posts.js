@@ -27,6 +27,456 @@ export const AUTHORS = {
    To preview drafts locally, run the dev server with INSIGHTS_PREVIEW_DRAFTS=1. */
 const ALL_POSTS = [
   {
+    "slug": "best-seo-rank-tracker",
+    "seoTitle": "Best SEO Rank Tracker 2027: 8 Tools Compared",
+    "title": "Best SEO Rank Trackers in 2027: Compared for Google and AI Search",
+    "description": "Compare the best SEO rank trackers for 2027: prices from each vendor's own page, keyword limits, update speed, local tracking and which one suits your business.",
+    "date": "2026-11-27",
+    "author": "team",
+    "topics": [
+      "SEO - Begins"
+    ],
+    "industries": [],
+    "image": "/insights/best-seo-rank-tracker-banner.jpg",
+    "intro": "You publish a page, wait a few weeks and then wonder where it sits in Google. Checking by hand gives you a different answer on every device, and Search Console only shows an average. The best SEO rank tracker answers the question properly: it checks your keywords every day, in the location your buyers search from, and shows you which competitors moved above you. This guide compares eight rank tracking tools for 2027, with prices read from each vendor's own page, and shows how to choose one, set it up and read the results.",
+    "tldr": [
+      "An SEO rank tracker checks where your pages rank in Google for a fixed list of keywords, on a schedule, by location and device, and records the changes over time.",
+      "Google Search Console is the free starting point. It shows your average position, but not competitors, exact daily positions or keywords you do not rank for yet.",
+      "Paid trackers start at about $38 a month (Mangools, weekly updates) and $49 a month (Wincher, daily). SE Ranking gives the most daily keywords for the money in our comparison at about $65 per 1,000 keywords.",
+      "Choose by four things: how many keywords you need, how often they update, whether you need local and map pack tracking, and whether you want AI search tracking in the same tool.",
+      "Read rankings as a trend over four to eight weeks, alongside clicks and leads, and not as a single number on a single day."
+    ],
+    "body": [
+      {
+        "type": "h2",
+        "text": "What is an SEO rank tracker?"
+      },
+      {
+        "type": "callout",
+        "variant": "definition",
+        "title": "Definition",
+        "text": "An SEO rank tracker is a tool that checks where your website appears in search results for a list of keywords you choose, on a fixed schedule, in a set country, city and device. It saves every check, so you can see when a page moved up or down and which competitors moved with it."
+      },
+      {
+        "type": "p",
+        "text": "In plain English, a rank tracker does the searching for you. Instead of typing \"commercial cleaning Leeds\" into Google each Monday, you add it once and the tool records your position every day. Because Google personalises results, a manual check on your own laptop is often wrong. A rank tracker searches from a neutral location, so the number you see is close to what a new buyer sees."
+      },
+      {
+        "type": "p",
+        "text": "Google's own AI Overview for \"best seo rank tracker\" makes the same point we hear from clients: the right tool depends on your workflow, your budget and whether you also need AI search visibility. It names Semrush, SE Ranking, Ahrefs, Nightwatch, AccuRanker, SERPWatcher and Google Search Console."
+      },
+      {
+        "type": "image",
+        "src": "/insights/rank-tracker-1.jpg",
+        "alt": "Google UK AI Overview for the search best seo rank tracker, listing Semrush as best all-in-one suite, SE Ranking for price and AI visibility, Ahrefs for accuracy, Nightwatch for multi-engine tracking and AccuRanker for fast updates, with SE Ranking, Zapier and Nightwatch source cards on the right",
+        "caption": "The Google UK AI Overview for \"best seo rank tracker\", 27 November 2026."
+      },
+      {
+        "type": "h2",
+        "text": "Why do you need an SEO rank tracker in 2027?"
+      },
+      {
+        "type": "p",
+        "text": "You need an SEO rank tracker because position still decides who gets the click, and it now decides who gets quoted in AI answers too. A study of 4 million Google results by [Backlinko](https://backlinko.com/google-ctr-stats) found the first organic result gets an average click-through rate of 27.6% and is 10 times more likely to be clicked than the result in tenth place."
+      },
+      {
+        "type": "stats",
+        "title": "Why your position in Google still matters",
+        "items": [
+          {
+            "value": "27.6%",
+            "label": "average click-through rate for the first organic result"
+          },
+          {
+            "value": "10x",
+            "label": "more likely to be clicked in first place than in tenth"
+          },
+          {
+            "value": "76.1%",
+            "label": "of pages cited in Google AI Overviews also rank in the top 10"
+          }
+        ],
+        "source": {
+          "label": "Backlinko and Ahrefs",
+          "note": "Backlinko CTR study of 4 million results; Ahrefs study of 1.9 million AI Overview citations, July 2025"
+        }
+      },
+      {
+        "type": "p",
+        "text": "For your business, that means a drop from position three to position eight is a real loss of enquiries, and you want to know about it the week it happens. It also means classic rankings are the foundation for AI visibility. Most pages quoted in AI Overviews already rank on page one, so tracking your Google positions tells you whether you are even in the running. We explain the link in our guide to [search engine positioning examples](/insights/search-engine-positioning-examples)."
+      },
+      {
+        "type": "h2",
+        "text": "Can you track SEO rankings for free with Google Search Console?"
+      },
+      {
+        "type": "p",
+        "text": "Yes, Google Search Console is the best free way to track SEO rankings, and every business should set it up first. Its Performance report shows clicks, impressions, click-through rate and average position for each search query and page, taken straight from Google's own data."
+      },
+      {
+        "type": "image",
+        "src": "/insights/rank-tracker-4.jpg",
+        "alt": "Google Search Console Performance report for maai.agency over three months, showing 29 total clicks, 20.2 thousand impressions, 0.1% average CTR and an average position of 66.3, with the orange position line falling as impressions rise in November",
+        "caption": "Search Console Performance for maai.agency, last three months. The orange line is average position, where lower is better."
+      },
+      {
+        "type": "p",
+        "text": "Search Console has three limits that a paid tracker solves. First, average position is an average across every search a page appears for, so one page can show position 66 while it sits in the top five for its main term. Second, it shows nothing about competitors. Third, it only reports keywords you already appear for, so a new page you want to rank has no data until Google starts showing it."
+      },
+      {
+        "type": "steps",
+        "title": "How to check a keyword's position in Search Console",
+        "items": [
+          {
+            "title": "Open the Performance report",
+            "path": "Search Console > Performance > Search results",
+            "text": "Tick Average position at the top so the position line and column appear."
+          },
+          {
+            "title": "Filter to one keyword",
+            "path": "Add filter > Query > Queries containing",
+            "text": "Type the keyword, for example \"rank tracker\", and apply. The table now shows only that search."
+          },
+          {
+            "title": "Filter to one page",
+            "path": "Add filter > Page > URLs containing",
+            "text": "Add the page you care about, so the position is not mixed with your other pages."
+          },
+          {
+            "title": "Compare two date ranges",
+            "path": "Date > Compare > Last 28 days vs previous period",
+            "text": "The Position column now shows the before and after, so you can see whether the page moved."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "For more on reading these numbers, our guide on [what a good SEO visibility score is](/insights/seo-visibility-score) explains how average position, impressions and share of voice fit together."
+      },
+      {
+        "type": "h2",
+        "text": "What are the best SEO rank trackers in 2027?"
+      },
+      {
+        "type": "p",
+        "text": "The best SEO rank tracker for most small and mid-sized businesses is the one that tracks enough keywords daily, in your locations, at a price you will keep paying. We read every price below on the vendor's own pricing page on 27 November 2026. Prices and limits change often, so check them before you buy. The tools are listed in alphabetical order."
+      },
+      {
+        "type": "table",
+        "head": [
+          "Tool",
+          "Entry price on its own page",
+          "Keywords on entry plan",
+          "Updates",
+          "Best suited to"
+        ],
+        "rows": [
+          [
+            "AccuRanker",
+            "Professional $269 a month; save up to 15% yearly",
+            "2,000",
+            "Daily",
+            "Agencies and teams that need fast, precise data"
+          ],
+          [
+            "Ahrefs Rank Tracker",
+            "Lite $129 a month, before tax",
+            "750",
+            "Set by your Ahrefs plan",
+            "Teams already using Ahrefs for backlinks and keywords"
+          ],
+          [
+            "Google Search Console",
+            "Free",
+            "Every query you already appear for",
+            "Daily, with a delay of about two days",
+            "Every website, as the baseline"
+          ],
+          [
+            "Mangools SERPWatcher",
+            "Basic $37.70 a month billed yearly ($452.40 a year)",
+            "200",
+            "Weekly on Basic",
+            "Solo owners on a tight budget"
+          ],
+          [
+            "Nightwatch",
+            "Starter €79 a month billed yearly; 14-day free trial",
+            "500",
+            "Daily",
+            "Businesses tracking many cities or countries"
+          ],
+          [
+            "Semrush Position Tracking",
+            "SEO plan $139 a month, or $117.33 a month billed yearly; 7-day free trial",
+            "500",
+            "Daily",
+            "Teams that want rankings inside a full SEO suite"
+          ],
+          [
+            "SE Ranking",
+            "Core $129 a month, or $103.20 a month billed yearly; 14-day free trial",
+            "2,000",
+            "Daily",
+            "Small businesses and agencies wanting the most keywords for the price"
+          ],
+          [
+            "Wincher",
+            "Basic $49 a month",
+            "500 (up to 10 websites)",
+            "Daily",
+            "Businesses that only need rank tracking"
+          ]
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "Which SEO rank tracker gives the best value?"
+      },
+      {
+        "type": "p",
+        "text": "SE Ranking gives the most daily-tracked keywords for the money in our comparison. To compare fairly we divided each tool's monthly-billing entry price by the keywords it tracks daily, then scaled to 1,000 keywords. We left out Mangools (weekly updates on Basic) and Nightwatch (priced in euros and billed yearly)."
+      },
+      {
+        "type": "table",
+        "head": [
+          "Tool",
+          "Monthly price",
+          "Daily keywords",
+          "Cost per 1,000 keywords a month"
+        ],
+        "rows": [
+          [
+            "SE Ranking Core",
+            "$129",
+            "2,000",
+            "$64.50"
+          ],
+          [
+            "Wincher Basic",
+            "$49",
+            "500",
+            "$98.00"
+          ],
+          [
+            "AccuRanker Professional",
+            "$269",
+            "2,000",
+            "$134.50"
+          ],
+          [
+            "Ahrefs Lite",
+            "$129",
+            "750",
+            "$172.00"
+          ],
+          [
+            "Semrush SEO",
+            "$139",
+            "500",
+            "$278.00"
+          ]
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Cost per keyword is only part of the story. Ahrefs and Semrush include keyword research, backlink data and site audits in the same price, so if you would pay for those anyway, the rank tracker is close to free. If you only want positions, a dedicated tracker such as Wincher or AccuRanker is simpler to run."
+      },
+      {
+        "type": "h3",
+        "text": "What do AI assistants recommend as the best rank tracker?"
+      },
+      {
+        "type": "p",
+        "text": "When we asked ChatGPT with web search for the best SEO rank trackers for a small business, it picked SE Ranking as best overall, Mangools SERPWatcher as the budget option and Wincher as the best dedicated tracker. Its prices matched the vendor pages we checked."
+      },
+      {
+        "type": "image",
+        "src": "/insights/rank-tracker-3.jpg",
+        "alt": "ChatGPT answer with web search to the prompt what are the best SEO rank trackers for a small business, listing SE Ranking as best overall at 103.20 dollars a month billed annually with 2,000 keywords tracked daily, and Mangools SERPWatcher as the best budget option at 37.70 dollars a month",
+        "caption": "ChatGPT with web search, 27 November 2026."
+      },
+      {
+        "type": "p",
+        "text": "That answer is worth noting for a second reason. Buyers now ask AI assistants for tool shortlists, and the brands named are the ones with clear pricing pages and lots of independent comparisons. The same applies to your business, which we cover in our guide to [ranking in ChatGPT](/insights/how-to-rank-in-chatgpt)."
+      },
+      {
+        "type": "h2",
+        "text": "How do you choose the right SEO rank tracker for your business?"
+      },
+      {
+        "type": "p",
+        "text": "Choose an SEO rank tracker by matching four things to your business: how many keywords you need, how often they must update, where your buyers search from and what else you need the tool to do. Start with your keyword count, because it decides the plan more than any feature."
+      },
+      {
+        "type": "cards",
+        "title": "Which rank tracker suits which business",
+        "items": [
+          {
+            "title": "Local service business",
+            "meta": "One area, 50 to 200 keywords",
+            "text": "A plumber, dentist or accountant needs city-level tracking and the map pack. Search Console plus Wincher or SE Ranking covers it. Pair it with our [local SEO checklist](/insights/local-seo-checklist)."
+          },
+          {
+            "title": "Ecommerce or retail",
+            "meta": "Hundreds of product terms",
+            "text": "Track category and top product keywords daily on mobile. SE Ranking or AccuRanker handle large keyword lists at a lower cost per keyword."
+          },
+          {
+            "title": "B2B software or services",
+            "meta": "Fewer terms, high value",
+            "text": "A few hundred buying-stage keywords plus competitor tracking. Semrush or Ahrefs suit teams that also need keyword research and links."
+          },
+          {
+            "title": "Multi-location or international",
+            "meta": "Many cities or countries",
+            "text": "A franchise, hotel group or recruiter tracking dozens of places needs per-location results. Nightwatch and SE Ranking are built for that."
+          }
+        ]
+      },
+      {
+        "type": "checklist",
+        "title": "Questions to ask before you buy a rank tracker",
+        "items": [
+          "**How many keywords are tracked daily?** Check the daily limit on your plan, not the headline number for a higher tier.",
+          "**Can it track by city or postcode?** Local businesses need positions where their buyers are, not a national average.",
+          "**Does it track the map pack and SERP features?** Featured snippets, People Also Ask and AI Overviews take space above the blue links.",
+          "**Does it track mobile and desktop separately?** Positions often differ between the two.",
+          "**Can it connect to Search Console and Google Analytics?** Rankings mean more next to clicks and leads.",
+          "**Is there a free trial?** SE Ranking, Nightwatch and Semrush all offer one, so test with your real keywords first."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Do SEO rank trackers also track AI search?"
+      },
+      {
+        "type": "p",
+        "text": "Many SEO rank trackers now add some AI search tracking, but it is usually an add-on and works differently from rank tracking. Semrush includes AI visibility features in its plans, SE Ranking sells AI tracking through SE Visible, and Nightwatch and AccuRanker offer their own AI products. These tools check whether AI answers mention or cite you, not a fixed position."
+      },
+      {
+        "type": "compare",
+        "title": "Classic rank tracking and AI search tracking",
+        "columns": [
+          {
+            "title": "SEO rank tracker",
+            "tone": "good",
+            "items": [
+              "Tracks a position from 1 to 100",
+              "Keywords you choose",
+              "Stable day to day",
+              "Clear link to clicks in Search Console"
+            ]
+          },
+          {
+            "title": "AI search tracker",
+            "tone": "good",
+            "items": [
+              "Tracks mentions and citations",
+              "Prompts and questions you choose",
+              "Answers change between checks",
+              "Clicks are harder to measure"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "If AI answers matter to your buyers, start with your rank tracker's AI features and add a specialist tool only if you need more. We compare those specialist tools in our guides to [AI Overview trackers](/insights/ai-overviews-trackers), [AI Mode rank trackers](/insights/ai-mode-rank-trackers) and [AI search monitoring tools](/insights/best-ai-search-monitoring-tools)."
+      },
+      {
+        "type": "h2",
+        "text": "How do you set up an SEO rank tracker and read the results?"
+      },
+      {
+        "type": "p",
+        "text": "Set up a rank tracker by choosing the keywords that bring buyers, setting the right location and device, adding three competitors and tagging keywords by topic. Then read the results weekly as a trend. People Also Ask for \"best seo rank tracker\" shows the questions owners have at this stage: how to track rankings, how to measure them and which tool suits local businesses."
+      },
+      {
+        "type": "image",
+        "src": "/insights/rank-tracker-2.jpg",
+        "alt": "Google People Also Ask box for best seo rank tracker, with the question how to track SEO rankings expanded to show an AI Overview naming Google Search Console as the essential free tool, and other questions including how to measure SEO ranking and what is the best SEO rank tracker local",
+        "caption": "People Also Ask for \"best seo rank tracker\", Google UK, 27 November 2026."
+      },
+      {
+        "type": "steps",
+        "title": "How to set up a rank tracker in an afternoon",
+        "items": [
+          {
+            "title": "Pick 50 to 200 keywords that bring buyers",
+            "text": "Start with service and product terms, then the questions buyers ask. Pull ideas from Search Console queries where you already get impressions."
+          },
+          {
+            "title": "Set the location and device",
+            "text": "Choose the country, city or postcode your buyers search from, and track mobile if most of your traffic is mobile."
+          },
+          {
+            "title": "Add three real competitors",
+            "text": "Use the businesses that win your deals, not the biggest brands in your sector."
+          },
+          {
+            "title": "Tag keywords by topic and page",
+            "text": "Tags such as \"pricing\", \"locations\" or one per service let you see whether a whole topic is rising or falling."
+          },
+          {
+            "title": "Connect Search Console and Google Analytics",
+            "text": "Most trackers can pull in clicks and conversions, so a ranking change sits next to its effect on leads."
+          },
+          {
+            "title": "Set a weekly email report",
+            "text": "Read it as a trend over four to eight weeks. One-day drops of a few places are normal."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Rankings belong in your monthly report next to clicks and leads. Our [SEO report template](/insights/seo-report-template) shows how to lay them out so a business owner can see in two minutes whether SEO is working."
+      },
+      {
+        "type": "h2",
+        "text": "How accurate are SEO rank trackers?"
+      },
+      {
+        "type": "p",
+        "text": "SEO rank trackers are accurate for the exact location, device and time they check, but they will never match every searcher. Google tailors results by place, device and search history, so two people in the same street can see slightly different results. Treat a tracker's number as a consistent measuring stick rather than the one true position."
+      },
+      {
+        "type": "list",
+        "items": [
+          "**Expect small gaps with Search Console.** Search Console averages every impression, while a tracker records one check a day. Both are right; they measure different things.",
+          "**Watch the direction, not the decimal.** A page moving from 9 to 4 over a month matters. A page moving from 4 to 5 for a day does not.",
+          "**Check after Google updates.** Core updates can reshuffle positions for two to three weeks before they settle."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is the best SEO rank tracker?",
+        "a": "For most small and mid-sized businesses, SE Ranking is the best value, with 2,000 keywords tracked daily from $103.20 a month billed yearly. Semrush and Ahrefs suit teams that also need keyword research and backlinks, and Google Search Console is the best free option."
+      },
+      {
+        "q": "Is there a free SEO rank tracker?",
+        "a": "Yes. Google Search Console is free and shows average position for every search you appear for. It does not show competitors or exact daily positions, which is what paid trackers add."
+      },
+      {
+        "q": "How do I track my SEO rankings?",
+        "a": "Set up Google Search Console and check the Performance report with Average position switched on. For daily positions in a set location and competitor data, add a rank tracker such as SE Ranking, Wincher or Semrush."
+      },
+      {
+        "q": "How much does an SEO rank tracker cost?",
+        "a": "Paid rank trackers start at about $38 a month (Mangools Basic, billed yearly, weekly updates) and $49 a month (Wincher Basic, daily updates). Larger plans for agencies run from about $200 to over $900 a month."
+      },
+      {
+        "q": "What is the best SEO rank tracker for local businesses?",
+        "a": "Pick a tracker that checks positions by city or postcode and tracks the Google map pack. SE Ranking, Nightwatch and Wincher all offer local tracking, and Search Console is the free baseline."
+      },
+      {
+        "q": "How often should I check my keyword rankings?",
+        "a": "Let the tool check daily, but review the results weekly and judge them over four to eight weeks. Day-to-day moves of a few places are normal and rarely need action."
+      }
+    ]
+  },
+  {
     "slug": "real-estate-lead-generation-ideas",
     "seoTitle": "Real Estate Lead Generation Ideas: 14 That Work in 2027",
     "title": "Real Estate Lead Generation Ideas for 2027: How Agents Get Leads from Search and AI",
