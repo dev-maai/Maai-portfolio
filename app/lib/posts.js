@@ -27,6 +27,491 @@ export const AUTHORS = {
    To preview drafts locally, run the dev server with INSIGHTS_PREVIEW_DRAFTS=1. */
 const ALL_POSTS = [
   {
+    "slug": "local-seo-for-real-estate",
+    "seoTitle": "Local SEO for Real Estate 2027: Rank in the Map Pack",
+    "title": "Local SEO for Real Estate in 2027: How Agents Rank in the Map Pack and AI Answers",
+    "description": "Local SEO for real estate in 2027: how agents rank in the Google map pack, AI Overviews and ChatGPT, with profile, area page, review and tracking steps.",
+    "date": "2026-11-27",
+    "author": "team",
+    "topics": [
+      "SEO - Begins"
+    ],
+    "industries": [
+      "Real estate"
+    ],
+    "image": "/insights/local-seo-for-real-estate-banner.jpg",
+    "intro": "A homeowner types \"estate agents near me\" or \"best realtor in Austin\" and sees three agents on a map before any website. Those three get the calls, the valuation requests and, more and more, the mention when the same homeowner asks ChatGPT who to trust. Local SEO for real estate is the work that puts your agency in those three spots and in those AI answers. It is a narrower job than general real estate SEO: it is about one office, one patch and the neighbourhoods you actually sell in. This guide explains how Google Maps, AI Overviews and ChatGPT pick real estate agents, the profile and page decisions that are specific to agents and brokerages, and how to track the results.",
+    "tldr": [
+      "Local SEO for real estate gets your agency into the Google map pack, local AI Overviews and AI assistant answers for searches in the areas you sell.",
+      "97% of consumers read reviews for local businesses and 45% now use ChatGPT or other AI tools for local recommendations, up from 6% a year earlier (BrightLocal, 2026).",
+      "Agents face problems most local businesses do not: individual agent profiles, one office serving many neighbourhoods, and listing pages that copy the same feed as every rival.",
+      "In our Bristol check, the agent with the strongest review profile appeared in the map pack, Google's local AI Overview and ChatGPT's top three.",
+      "Track map pack positions by neighbourhood, Google Business Profile calls and valuation requests, and a monthly set of AI prompts."
+    ],
+    "body": [
+      {
+        "type": "h2",
+        "text": "What is local SEO for real estate?"
+      },
+      {
+        "type": "callout",
+        "variant": "definition",
+        "title": "Definition",
+        "text": "Local SEO for real estate is the work that helps an estate agency, realtor or brokerage appear when people search for property help in a specific place. It covers your Google Business Profile, reviews, neighbourhood pages, local listings and links, so you show in the Google map pack, local organic results and AI answers for the towns and neighbourhoods you serve."
+      },
+      {
+        "type": "p",
+        "text": "Google's own AI Overview describes it the same way: it is about appearing in Google Maps, the local pack and location-specific searches, and it rests on relevance, distance and prominence. Those three words come from Google's explanation of how it ranks local results, and every step in this guide maps back to one of them."
+      },
+      {
+        "type": "image",
+        "src": "/insights/local-seo-real-estate-ai-overview.jpg",
+        "alt": "Google AI Overview for the search local seo for real estate, defining it as helping agents, brokerages and developers appear in Google Maps, the local pack and location-specific searches, focused on relevance, distance and prominence",
+        "caption": "Google AI Overview for \"local seo for real estate\", Google UK, 27 November 2026."
+      },
+      {
+        "type": "p",
+        "text": "If you want the wider picture of SEO for an agency website, including technical checks and content, read our guide to [SEO for estate agents](/insights/seo-for-estate-agents). This post stays on the local layer: the map, the patch and the AI answers for \"agents near me\" searches."
+      },
+      {
+        "type": "h2",
+        "text": "Why does local SEO matter for real estate agents in 2027?"
+      },
+      {
+        "type": "p",
+        "text": "**Local SEO matters because the choice of agent now happens in search results, reviews and AI answers before anyone calls you.** Sellers compare agents on star ratings, review counts and what an AI tool tells them, and they do it quickly. The latest Local Consumer Review Survey from BrightLocal, a representative panel of 1,002 US adults, shows how much weight those signals carry."
+      },
+      {
+        "type": "stats",
+        "title": "How consumers choose a local business in 2026",
+        "items": [
+          {
+            "value": "97%",
+            "label": "of consumers read reviews for local businesses"
+          },
+          {
+            "value": "45%",
+            "label": "use ChatGPT or other AI tools for local recommendations, up from 6% a year earlier"
+          },
+          {
+            "value": "47%",
+            "label": "will not use a business with fewer than 20 reviews"
+          }
+        ],
+        "source": {
+          "label": "BrightLocal",
+          "href": "https://www.brightlocal.com/research/local-consumer-review-survey/",
+          "note": "Local Consumer Review Survey 2026, 1,002 US adults"
+        }
+      },
+      {
+        "type": "p",
+        "text": "For an agent, the 45% figure is the one to watch. AI tools became the third most used source of local business recommendations in a single year, behind Google and Facebook. A seller who asks an assistant \"who should I sell my house with?\" gets a shortlist of two or three names, and the agents on that list are usually the ones with strong local search signals already."
+      },
+      {
+        "type": "h2",
+        "text": "How do Google Maps, AI Overviews and ChatGPT choose which real estate agents to show?"
+      },
+      {
+        "type": "p",
+        "text": "**Each surface leans on the same local signals but shows them differently.** The map pack ranks agents by relevance, distance and prominence. Google's local AI Overview summarises the agents in that pack using their reviews. ChatGPT searches the web and builds a shortlist from review counts, ratings and third-party rankings. To see how this plays out, we ran the same seller search in all three for Bristol, UK, on 27 November 2026."
+      },
+      {
+        "type": "h3",
+        "text": "What does the map pack show for a real estate search?"
+      },
+      {
+        "type": "p",
+        "text": "The map pack for \"estate agents in bristol\" showed three agencies, each with a 4.8 or 4.9 rating, between 200 and 1,200 Google reviews, ten or more years in business and an office close to the centre of the map. Notice what Google puts on each card: category, rating, review count, years in business, address, opening hours and a review snippet that mentions local knowledge."
+      },
+      {
+        "type": "image",
+        "src": "/insights/local-seo-real-estate-map-pack.jpg",
+        "alt": "Google map pack for estate agents in Bristol showing three agencies with ratings of 4.8 and 4.9, review counts from 200 to 1,200, the estate agent category, years in business, opening hours and a map of the Redland and Clifton area",
+        "caption": "Google map pack for \"estate agents in bristol\", Google UK, 27 November 2026."
+      },
+      {
+        "type": "h3",
+        "text": "What does Google's local AI Overview say about agents?"
+      },
+      {
+        "type": "p",
+        "text": "Below the map, Google added an AI Overview that described each of the three agents in one line, using themes from their reviews: broad coverage, focused follow-up and strong recommendations for home sales. The words customers use in reviews are now the words Google uses to describe you."
+      },
+      {
+        "type": "image",
+        "src": "/insights/local-seo-real-estate-local-ai-overview.jpg",
+        "alt": "Google AI Overview under the Bristol estate agent map pack, summarising the three agencies as offering citywide coverage, focused local follow-up and being heavily recommended for home sales",
+        "caption": "Google AI Overview shown under the map pack for \"estate agents in bristol\", 27 November 2026."
+      },
+      {
+        "type": "h3",
+        "text": "Which agents does ChatGPT recommend?"
+      },
+      {
+        "type": "p",
+        "text": "We asked ChatGPT, with web search on, for the top three estate agents in Bristol to sell a house with. It explained it chose on customer ratings, review volume and recent sales activity, and its first pick was also in Google's map pack. Every agent it named had a 4.8 or 4.9 rating and more than 800 reviews."
+      },
+      {
+        "type": "image",
+        "src": "/insights/local-seo-real-estate-chatgpt.jpg",
+        "alt": "ChatGPT answer with web search to the question who are the best estate agents in Bristol to sell my house with, listing Boardwalk Property Co first with a 4.9 rating and 937 reviews and Ocean Estate Agents second with 4.8 and 964 reviews",
+        "caption": "ChatGPT with web search, \"Who are the best estate agents in Bristol to sell my house with? Give me the top 3.\", 27 November 2026."
+      },
+      {
+        "type": "table",
+        "head": [
+          "Surface",
+          "What decides visibility",
+          "What you control"
+        ],
+        "rows": [
+          [
+            "Google map pack",
+            "Relevance (category, services), distance to the searcher, prominence (reviews, links, mentions)",
+            "Google Business Profile, reviews, local links"
+          ],
+          [
+            "Google local AI Overview",
+            "The agents in the pack and the themes in their reviews",
+            "What clients say in reviews, your replies"
+          ],
+          [
+            "ChatGPT and other assistants",
+            "Ratings, review volume, third-party rankings and local press it can find on the web",
+            "Reviews across sites, portal profiles, local mentions"
+          ]
+        ]
+      },
+      {
+        "type": "p",
+        "text": "The pattern is clear. Reviews and local prominence carry across all three surfaces, so an agent who wins the map pack is well placed for AI answers too. For general advice on AI answers beyond local search, see our guide on [how to rank in ChatGPT](/insights/how-to-rank-in-chatgpt)."
+      },
+      {
+        "type": "h2",
+        "text": "How do real estate agents rank in the Google map pack?"
+      },
+      {
+        "type": "p",
+        "text": "**Real estate agents rank in the map pack by getting four profile decisions right and then building reviews and local prominence.** The general setup steps for any local business are in our [local SEO checklist](/insights/local-seo-checklist). The decisions below are the ones that trip up agents and brokerages in particular."
+      },
+      {
+        "type": "h3",
+        "text": "Which Google Business Profile category should a real estate agent choose?"
+      },
+      {
+        "type": "p",
+        "text": "Choose the primary category that describes the business as a whole, then add secondary categories for other services. Category is one of the strongest relevance signals Google uses, so test it against the agents already in your map pack."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "lead": "Agency or brokerage:",
+            "text": "\"Real estate agency\" (US) or \"Estate agent\" (UK) as primary."
+          },
+          {
+            "lead": "Individual agent:",
+            "text": "\"Real estate agent\" as primary on your own practitioner profile."
+          },
+          {
+            "lead": "Lettings or rentals:",
+            "text": "add \"Letting agent\" or \"Property management company\" as a secondary category if you offer it."
+          },
+          {
+            "lead": "Check the leaders:",
+            "text": "look at the category shown on each card in your local pack and match the one that ranks for your main search."
+          }
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "Should each agent have their own Google Business Profile?"
+      },
+      {
+        "type": "p",
+        "text": "Google's Business Profile guidelines treat real estate agents as individual practitioners, so an agent can have a profile of their own. When several agents work from one office, the office keeps its own profile and each public-facing agent can have a separate practitioner profile. When one agent is the only public-facing person at a branded office, Google asks for a single shared profile named \"Brand: Agent name\"."
+      },
+      {
+        "type": "p",
+        "text": "Separate agent profiles can help a team cover more searches, but every profile needs real reviews and accurate details. A thin profile with three reviews will not rank, and it splits reviews that would have strengthened the office profile."
+      },
+      {
+        "type": "h3",
+        "text": "Should a real estate office show its address or set a service area?"
+      },
+      {
+        "type": "p",
+        "text": "Show your address if clients can visit your office during staffed hours, because a visible address in the city you target is a strong local signal. Use a service area without an address only if you work from home or meet clients elsewhere. Adding service areas does not make you rank across all of them: distance to the searcher still applies."
+      },
+      {
+        "type": "h3",
+        "text": "How do you rank in neighbourhoods away from your office?"
+      },
+      {
+        "type": "p",
+        "text": "You cannot move your pin, so you win distant neighbourhoods through organic results and AI answers instead of the map. Three things help most:"
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "lead": "Neighbourhood pages:",
+            "text": "a strong page for each area you genuinely sell in (see the next section)."
+          },
+          {
+            "lead": "Reviews that name the area:",
+            "text": "ask clients to mention the street or neighbourhood when it is natural, for example \"sold our flat in Redland in three weeks\"."
+          },
+          {
+            "lead": "Local proof:",
+            "text": "sold properties, local market updates and community links tied to that area."
+          }
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "How do you build neighbourhood pages that rank without becoming doorway pages?"
+      },
+      {
+        "type": "p",
+        "text": "**Build one page per neighbourhood you actively sell in, with facts only a local agent would know.** Google's spam policies call pages that differ only by place name \"doorway\" pages, and they rarely rank. A good neighbourhood page answers the questions a seller or buyer in that area asks."
+      },
+      {
+        "type": "compare",
+        "title": "Neighbourhood pages: what works and what to avoid",
+        "columns": [
+          {
+            "title": "Include",
+            "tone": "good",
+            "items": [
+              "Recent sold prices and typical days on market for the area",
+              "Streets, schools, transport and the types of property you sell there",
+              "Properties you have sold in the area, with photos",
+              "Short reviews from clients in that neighbourhood",
+              "A \"What is my home worth in [area]?\" valuation link"
+            ]
+          },
+          {
+            "title": "Avoid",
+            "tone": "bad",
+            "items": [
+              "The same text with only the place name swapped",
+              "Pages for areas you never sell in",
+              "Lists of keywords such as \"realtor near me [area]\"",
+              "Copying council or portal descriptions word for word",
+              "Pages with no internal links from your main site"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Link each neighbourhood page from your main areas page and from relevant sold listings. If you need help choosing which areas and searches to target, our [real estate SEO keywords](/insights/real-estate-seo-keywords) list groups the terms by buyer, seller and landlord."
+      },
+      {
+        "type": "h2",
+        "text": "How do IDX and portal listings affect local SEO for real estate?"
+      },
+      {
+        "type": "p",
+        "text": "**IDX and portal feeds give you listings, but the same listings appear on every rival site, so they rarely help you rank on their own.** IDX (Internet Data Exchange) is the US system that lets agents show MLS listings on their websites; UK agents often pull listings from their CRM to portals such as Rightmove and Zoopla. Google sees the same descriptions in many places and usually ranks the portal."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "lead": "Add your own layer:",
+            "text": "write a short local note on your featured and sold listings, covering the street, nearby schools and why the home suited the buyer."
+          },
+          {
+            "lead": "Keep sold pages:",
+            "text": "a sold page with the area name shows proof of local activity long after the listing ends."
+          },
+          {
+            "lead": "Make your profiles consistent:",
+            "text": "use the same business name, address and phone number on Zillow, Realtor.com, Rightmove, Zoopla and Homes.com as on your Google profile. These portal profiles also feed the review data AI assistants read."
+          }
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "How do reviews help real estate agents rank locally and in AI answers?"
+      },
+      {
+        "type": "p",
+        "text": "**Reviews help in two ways: they are a prominence signal for the map pack and the main evidence AI tools use to recommend an agent.** Expectations are rising fast. BrightLocal found the share of consumers who will only use a business with 4.5 stars or more nearly doubled in one year."
+      },
+      {
+        "type": "chart",
+        "title": "Consumers who will only use a business with this star rating or higher (%)",
+        "series": [
+          {
+            "name": "2025",
+            "color": "#BFBFBF"
+          },
+          {
+            "name": "2026",
+            "color": "#E62E6B"
+          }
+        ],
+        "rows": [
+          {
+            "label": "4 stars or more",
+            "values": [
+              55,
+              68
+            ]
+          },
+          {
+            "label": "4.5 stars or more",
+            "values": [
+              17,
+              31
+            ]
+          }
+        ],
+        "source": {
+          "label": "BrightLocal",
+          "href": "https://www.brightlocal.com/research/local-consumer-review-survey/",
+          "note": "Local Consumer Review Survey 2026"
+        }
+      },
+      {
+        "type": "p",
+        "text": "The chart shows that 68% of consumers now want four stars or more, and 31% want 4.5 or more. The same survey found 74% only pay attention to reviews from the last three months, so a burst of reviews two years ago does not carry you today. For an agent, every completion is a review moment."
+      },
+      {
+        "type": "checklist",
+        "title": "A review routine for real estate agents",
+        "items": [
+          "**Ask at completion.** Send the review link the day the keys change hands, when goodwill is highest.",
+          "**Ask buyers and landlords too.** Every side of a deal can leave a review, which keeps volume steady.",
+          "**Make it specific.** Ask clients to mention the area and what you did, so the review supports neighbourhood relevance and AI summaries.",
+          "**Reply to every review.** Use the client's name and a detail from their sale; generic replies put off 50% of consumers (BrightLocal).",
+          "**Spread across sites.** Google first, then the portal or review site your sellers use most."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "How do real estate agents earn local links and mentions?"
+      },
+      {
+        "type": "p",
+        "text": "**Agents earn local links by being useful to their community and publishing local data nobody else has.** Links and mentions from local sites raise prominence in the map pack and give AI tools more sources that name you."
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "lead": "Local market reports:",
+            "text": "a quarterly note on sold prices and time to sell in your area is a natural story for local news sites and community newsletters."
+          },
+          {
+            "lead": "Sponsorships with a web presence:",
+            "text": "school fairs, sports clubs and local events usually list sponsors on their sites."
+          },
+          {
+            "lead": "Partner pages:",
+            "text": "solicitors, conveyancers, mortgage brokers and removal firms you refer to often have a recommended partners page."
+          },
+          {
+            "lead": "Community groups:",
+            "text": "answer property questions in local Facebook groups and residents' forums with useful facts, not adverts."
+          },
+          {
+            "lead": "Chamber of commerce and business associations:",
+            "text": "membership listings are simple, trusted local links."
+          }
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "How do you track local SEO for real estate?"
+      },
+      {
+        "type": "p",
+        "text": "**Track where you appear by neighbourhood, what people do on your profile, and how many valuations come from search.** A single ranking check from your office tells you little, because results change street by street."
+      },
+      {
+        "type": "steps",
+        "title": "Monthly local SEO tracking for an agency",
+        "items": [
+          {
+            "title": "Check Google Business Profile performance",
+            "path": "Google Business Profile > Performance",
+            "text": "Record calls, website clicks and direction requests, and the searches that found you."
+          },
+          {
+            "title": "Run a geo-grid rank check",
+            "text": "Use a local rank tracker that checks your map position at points across your patch, so you can see which neighbourhoods you win and lose."
+          },
+          {
+            "title": "Filter Search Console by area",
+            "path": "Search Console > Performance > Search results > + Add filter > Query",
+            "text": "Filter queries containing each neighbourhood name to see impressions and clicks for your area pages."
+          },
+          {
+            "title": "Ask AI tools the same prompts",
+            "text": "Each month, ask ChatGPT and Google the same three seller questions for your town and note whether you are named."
+          },
+          {
+            "title": "Tie it to valuations",
+            "text": "Log the source of every valuation request in your CRM, so you can see which searches lead to instructions."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "For the full setup, including AI traffic in Google Analytics 4, see our guide on [how to track AI traffic for free](/insights/track-ai-traffic). Our post on the [best SEO rank trackers](/insights/best-seo-rank-tracker) compares tools that offer local and geo-grid tracking."
+      },
+      {
+        "type": "h2",
+        "text": "How long does local SEO for real estate take?"
+      },
+      {
+        "type": "p",
+        "text": "**Most agencies see profile and map pack changes within one to three months, and steady neighbourhood rankings in six to twelve months.** Fixes to your category, address and profile details can move results within weeks. Reviews, neighbourhood pages and local links build up more slowly, and AI answers tend to follow once your reviews and local mentions are strong. Competition matters: a busy city with many established agencies takes longer than a market town."
+      },
+      {
+        "type": "p",
+        "text": "Start with the profile decisions, set up a review routine at every completion, then build one strong neighbourhood page a month for the areas you most want to win."
+      },
+      {
+        "type": "image",
+        "src": "/insights/local-seo-real-estate-people-also-ask.jpg",
+        "alt": "Google People Also Ask box for local seo for real estate with the questions how to do SEO for real estate, can I do local SEO myself, how much does a local SEO cost and is local SEO free",
+        "caption": "People Also Ask for \"local seo for real estate\", Google UK, 27 November 2026. The FAQ below answers these questions."
+      }
+    ],
+    "faq": [
+      {
+        "q": "How do you do SEO for real estate?",
+        "a": "Start with a complete Google Business Profile in the right category, a steady flow of reviews, a page for each neighbourhood you sell in and local links from community sites. Then add helpful content for sellers and buyers and track results by area."
+      },
+      {
+        "q": "Can I do local SEO myself as a real estate agent?",
+        "a": "Yes. Profile setup, review requests, neighbourhood pages and monthly tracking are all things an agent can do in-house. Many agencies bring in help for technical website fixes, link building and AI visibility once the basics are in place."
+      },
+      {
+        "q": "How much does local SEO cost for real estate?",
+        "a": "The core tools are free: Google Business Profile, Google Search Console and Google Analytics 4. Agency support usually costs a monthly fee that depends on the number of offices and areas. Our guide to SEO pricing in the UK gives typical ranges."
+      },
+      {
+        "q": "Is local SEO free?",
+        "a": "Ranking in the map pack is free, as Google does not charge for Business Profile listings. The cost is time: writing neighbourhood pages, asking for reviews and building local links, plus any tools or agency help you choose."
+      },
+      {
+        "q": "What is the best Google Business Profile category for a real estate agent?",
+        "a": "An agency or brokerage usually uses \"Real estate agency\" in the US or \"Estate agent\" in the UK as the primary category. An individual agent with a practitioner profile uses \"Real estate agent\". Check which category the agents in your local pack use."
+      },
+      {
+        "q": "Do real estate agents need a separate profile for each office?",
+        "a": "Yes, if each office is staffed and clients can visit. Each location gets its own profile with its own address, phone number and reviews. Do not create profiles for virtual offices or addresses where nobody works."
+      }
+    ]
+  },
+  {
     "slug": "best-seo-rank-tracker",
     "seoTitle": "Best SEO Rank Tracker 2027: 8 Tools Compared",
     "title": "Best SEO Rank Trackers in 2027: Compared for Google and AI Search",
